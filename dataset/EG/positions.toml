@@ -29,12 +29,6 @@ frequency = "126.780"
 facility_type = "DEL"
 
 [[positions]]
-id = "EGAB_R_TWR"
-prefixes = ["EGAB"]
-frequency = "123.205"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGAC_APP"
 prefixes = ["EGAC"]
 frequency = "130.850"
@@ -50,12 +44,6 @@ facility_type = "APP"
 id = "EGAC_TWR"
 prefixes = ["EGAC"]
 frequency = "122.830"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGAD_R_TWR"
-prefixes = ["EGAD"]
-frequency = "128.305"
 facility_type = "TWR"
 
 [[positions]]
@@ -101,30 +89,6 @@ frequency = "121.930"
 facility_type = "DEL"
 
 [[positions]]
-id = "EGBD_R_TWR"
-prefixes = ["EGBD"]
-frequency = "118.355"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBE_I_TWR"
-prefixes = ["EGBE"]
-frequency = "123.830"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBF_R_TWR"
-prefixes = ["EGBF"]
-frequency = "119.030"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBG_R_TWR"
-prefixes = ["EGBG"]
-frequency = "122.130"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGBJ_A_APP"
 prefixes = ["EGBJ"]
 frequency = "128.555"
@@ -134,54 +98,6 @@ facility_type = "APP"
 id = "EGBJ_TWR"
 prefixes = ["EGBJ"]
 frequency = "122.905"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBK_R_TWR"
-prefixes = ["EGBK"]
-frequency = "122.705"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBM_R_TWR"
-prefixes = ["EGBM"]
-frequency = "124.080"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBN_R_TWR"
-prefixes = ["EGBN"]
-frequency = "134.880"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBO_I_TWR"
-prefixes = ["EGBO"]
-frequency = "123.005"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBP_I_TWR"
-prefixes = ["EGBP"]
-frequency = "118.430"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBS_I_TWR"
-prefixes = ["EGBS"]
-frequency = "118.155"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGBW_I_TWR"
-prefixes = ["EGBW"]
-frequency = "124.030"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGCB_I_TWR"
-prefixes = ["EGCB"]
-frequency = "120.255"
 facility_type = "TWR"
 
 [[positions]]
@@ -239,63 +155,9 @@ frequency = "130.650"
 facility_type = "DEL"
 
 [[positions]]
-id = "EGCF_R_TWR"
-prefixes = ["EGCF"]
-frequency = "130.415"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGCJ_R_TWR"
-prefixes = ["EGCJ"]
-frequency = "122.610"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGCK_R_TWR"
-prefixes = ["EGCK"]
-frequency = "122.255"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGCL_R_TWR"
-prefixes = ["EGCL"]
-frequency = "122.930"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGCM_R_TWR"
-prefixes = ["EGCM"]
-frequency = "120.710"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGCV_R_TWR"
-prefixes = ["EGCV"]
-frequency = "122.455"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGCW_R_TWR"
-prefixes = ["EGCW"]
-frequency = "128.005"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGDI_TWR"
 prefixes = ["EGDI"]
 frequency = "122.100"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGDJ_I_TWR"
-prefixes = ["EGDJ"]
-frequency = "122.755"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGDJ_R_TWR"
-prefixes = ["EGDJ"]
-frequency = "124.105"
 facility_type = "TWR"
 
 [[positions]]
@@ -320,12 +182,6 @@ facility_type = "TWR"
 id = "EGDO_TWR"
 prefixes = ["EGDO"]
 frequency = "122.100"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGDP_R_TWR"
-prefixes = ["EGDP"]
-frequency = "122.130"
 facility_type = "TWR"
 
 [[positions]]
@@ -371,54 +227,6 @@ frequency = "120.805"
 facility_type = "TWR"
 
 [[positions]]
-id = "EGEC_I_TWR"
-prefixes = ["EGEC"]
-frequency = "125.905"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGEF_R_TWR"
-prefixes = ["EGEF"]
-frequency = "118.030"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGEL_R_TWR"
-prefixes = ["EGEL"]
-frequency = "125.005"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGEO_I_TWR"
-prefixes = ["EGEO"]
-frequency = "118.055"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGET_I_TWR"
-prefixes = ["EGET"]
-frequency = "125.305"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGEY_R_TWR"
-prefixes = ["EGEY"]
-frequency = "123.805"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGFA_I_TWR"
-prefixes = ["EGFA"]
-frequency = "122.155"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGFE_R_TWR"
-prefixes = ["EGFE"]
-frequency = "123.605"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGFF_APP"
 prefixes = ["EGFF"]
 frequency = "125.855"
@@ -434,12 +242,6 @@ facility_type = "APP"
 id = "EGFF_TWR"
 prefixes = ["EGFF"]
 frequency = "133.105"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGFH_R_TWR"
-prefixes = ["EGFH"]
-frequency = "119.705"
 facility_type = "TWR"
 
 [[positions]]
@@ -527,12 +329,6 @@ frequency = "121.885"
 facility_type = "DEL"
 
 [[positions]]
-id = "EGHA_R_TWR"
-prefixes = ["EGHA"]
-frequency = "122.710"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGHC_TWR"
 prefixes = ["EGHC"]
 frequency = "120.255"
@@ -548,12 +344,6 @@ facility_type = "APP"
 id = "EGHE_TWR"
 prefixes = ["EGHE"]
 frequency = "124.880"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGHF_I_TWR"
-prefixes = ["EGHF"]
-frequency = "118.930"
 facility_type = "TWR"
 
 [[positions]]
@@ -611,30 +401,6 @@ frequency = "118.205"
 facility_type = "TWR"
 
 [[positions]]
-id = "EGHJ_R_TWR"
-prefixes = ["EGHJ"]
-frequency = "123.255"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGHK_R_TWR"
-prefixes = ["EGHK"]
-frequency = "120.060"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGHN_R_TWR"
-prefixes = ["EGHN"]
-frequency = "119.280"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGHO_R_TWR"
-prefixes = ["EGHO"]
-frequency = "118.280"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGHQ_APP"
 prefixes = ["EGHQ"]
 frequency = "133.405"
@@ -657,18 +423,6 @@ id = "EGHQ_GND"
 prefixes = ["EGHQ"]
 frequency = "121.955"
 facility_type = "GND"
-
-[[positions]]
-id = "EGHR_I_TWR"
-prefixes = ["EGHR"]
-frequency = "122.455"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGHT_R_TWR"
-prefixes = ["EGHT"]
-frequency = "118.205"
-facility_type = "TWR"
 
 [[positions]]
 id = "EGJA_TWR"
@@ -779,12 +533,6 @@ frequency = "121.630"
 facility_type = "GND"
 
 [[positions]]
-id = "EGKH_R_TWR"
-prefixes = ["EGKH"]
-frequency = "122.210"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGKK_APP"
 prefixes = ["EGKK"]
 frequency = "126.825"
@@ -833,21 +581,9 @@ frequency = "134.230"
 facility_type = "DEL"
 
 [[positions]]
-id = "EGKN_R_TWR"
-prefixes = ["EGKN"]
-frequency = "119.760"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGKR_TWR"
 prefixes = ["EGKR"]
 frequency = "119.605"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGKT_R_TWR"
-prefixes = ["EGKT"]
-frequency = "124.105"
 facility_type = "TWR"
 
 [[positions]]
@@ -873,12 +609,6 @@ id = "EGLC_GND"
 prefixes = ["EGLC"]
 frequency = "121.830"
 facility_type = "GND"
-
-[[positions]]
-id = "EGLD_I_TWR"
-prefixes = ["EGLD"]
-frequency = "130.730"
-facility_type = "TWR"
 
 [[positions]]
 id = "EGLF_APP"
@@ -909,18 +639,6 @@ id = "EGLF_GND"
 prefixes = ["EGLF"]
 frequency = "121.815"
 facility_type = "GND"
-
-[[positions]]
-id = "EGLJ_R_TWR"
-prefixes = ["EGLJ"]
-frequency = "125.410"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGLK_I_TWR"
-prefixes = ["EGLK"]
-frequency = "122.305"
-facility_type = "TWR"
 
 [[positions]]
 id = "EGLL_F_APP"
@@ -989,12 +707,6 @@ frequency = "124.480"
 facility_type = "DEL"
 
 [[positions]]
-id = "EGLM_R_TWR"
-prefixes = ["EGLM"]
-frequency = "122.605"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGLW_TWR"
 prefixes = ["EGLW"]
 frequency = "134.280"
@@ -1031,24 +743,6 @@ frequency = "119.380"
 facility_type = "TWR"
 
 [[positions]]
-id = "EGNC_R_TWR"
-prefixes = ["EGNC"]
-frequency = "123.605"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGNE_R_TWR"
-prefixes = ["EGNE"]
-frequency = "130.480"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGNF_R_TWR"
-prefixes = ["EGNF"]
-frequency = "123.280"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGNH_A_APP"
 prefixes = ["EGNH"]
 frequency = "119.955"
@@ -1076,12 +770,6 @@ facility_type = "APP"
 id = "EGNJ_TWR"
 prefixes = ["EGNJ"]
 frequency = "124.905"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGNL_I_TWR"
-prefixes = ["EGNL"]
-frequency = "118.080"
 facility_type = "TWR"
 
 [[positions]]
@@ -1208,12 +896,6 @@ facility_type = "APP"
 id = "EGNV_TWR"
 prefixes = ["EGNV"]
 frequency = "119.805"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGNW_R_TWR"
-prefixes = ["EGNW"]
-frequency = "122.455"
 facility_type = "TWR"
 
 [[positions]]
@@ -1397,12 +1079,6 @@ frequency = "121.705"
 facility_type = "GND"
 
 [[positions]]
-id = "EGPG_R_TWR"
-prefixes = ["EGPG"]
-frequency = "120.605"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGPH_APP"
 prefixes = ["EGPH"]
 frequency = "121.205"
@@ -1431,12 +1107,6 @@ id = "EGPH_DEL"
 prefixes = ["EGPH"]
 frequency = "121.980"
 facility_type = "DEL"
-
-[[positions]]
-id = "EGPI_I_TWR"
-prefixes = ["EGPI"]
-frequency = "123.155"
-facility_type = "TWR"
 
 [[positions]]
 id = "EGPK_APP"
@@ -1490,24 +1160,6 @@ facility_type = "APP"
 id = "EGPO_TWR"
 prefixes = ["EGPO"]
 frequency = "119.480"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGPR_I_TWR"
-prefixes = ["EGPR"]
-frequency = "118.080"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGPT_R_TWR"
-prefixes = ["EGPT"]
-frequency = "121.080"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGPU_I_TWR"
-prefixes = ["EGPU"]
-frequency = "122.705"
 facility_type = "TWR"
 
 [[positions]]
@@ -1577,12 +1229,6 @@ frequency = "125.905"
 facility_type = "TWR"
 
 [[positions]]
-id = "EGSG_R_TWR"
-prefixes = ["EGSG"]
-frequency = "122.805"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGSH_APP"
 prefixes = ["EGSH"]
 frequency = "119.355"
@@ -1598,18 +1244,6 @@ facility_type = "APP"
 id = "EGSH_TWR"
 prefixes = ["EGSH"]
 frequency = "124.255"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGSL_R_TWR"
-prefixes = ["EGSL"]
-frequency = "130.555"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGSR_R_TWR"
-prefixes = ["EGSR"]
-frequency = "122.430"
 facility_type = "TWR"
 
 [[positions]]
@@ -1649,33 +1283,9 @@ frequency = "121.955"
 facility_type = "DEL"
 
 [[positions]]
-id = "EGSU_I_TWR"
-prefixes = ["EGSU"]
-frequency = "122.080"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGSV_R_TWR"
-prefixes = ["EGSV"]
-frequency = "124.405"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGSX_R_TWR"
-prefixes = ["EGSX"]
-frequency = "123.530"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGSY_TWR"
 prefixes = ["EGSY"]
 frequency = "122.865"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGTB_R_TWR"
-prefixes = ["EGTB"]
-frequency = "126.555"
 facility_type = "TWR"
 
 [[positions]]
@@ -1709,18 +1319,6 @@ frequency = "119.805"
 facility_type = "TWR"
 
 [[positions]]
-id = "EGTF_R_TWR"
-prefixes = ["EGTF"]
-frequency = "123.430"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGTH_I_TWR"
-prefixes = ["EGTH"]
-frequency = "130.705"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGTK_APP"
 prefixes = ["EGTK"]
 frequency = "125.090"
@@ -1745,18 +1343,6 @@ frequency = "121.955"
 facility_type = "GND"
 
 [[positions]]
-id = "EGTO_I_TWR"
-prefixes = ["EGTO"]
-frequency = "122.255"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGTR_I_TWR"
-prefixes = ["EGTR"]
-frequency = "122.405"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGTT_I_CTR"
 prefixes = ["EGTT"]
 frequency = "124.600"
@@ -1767,12 +1353,6 @@ id = "EGTT_WR_CTR"
 prefixes = ["EGTT"]
 frequency = "132.300"
 facility_type = "CTR"
-
-[[positions]]
-id = "EGTU_R_TWR"
-prefixes = ["EGTU"]
-frequency = "123.480"
-facility_type = "TWR"
 
 [[positions]]
 id = "EGUB_APP"
@@ -1850,12 +1430,6 @@ facility_type = "TWR"
 id = "EGVA_TWR"
 prefixes = ["EGVA"]
 frequency = "124.800"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGVL_R_TWR"
-prefixes = ["EGVL"]
-frequency = "120.780"
 facility_type = "TWR"
 
 [[positions]]
@@ -1997,12 +1571,6 @@ frequency = "128.655"
 facility_type = "TWR"
 
 [[positions]]
-id = "EGWN_R_TWR"
-prefixes = ["EGWN"]
-frequency = "130.430"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGWU_APP"
 prefixes = ["EGWU"]
 frequency = "126.450"
@@ -2075,12 +1643,6 @@ frequency = "120.505"
 facility_type = "TWR"
 
 [[positions]]
-id = "EGXH_R_TWR"
-prefixes = ["EGXH"]
-frequency = "124.105"
-facility_type = "TWR"
-
-[[positions]]
 id = "EGXT_APP"
 prefixes = ["EGXT"]
 frequency = "119.680"
@@ -2126,12 +1688,6 @@ facility_type = "APP"
 id = "EGXW_TWR"
 prefixes = ["EGXW"]
 frequency = "121.305"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGXY_R_TWR"
-prefixes = ["EGXY"]
-frequency = "128.530"
 facility_type = "TWR"
 
 [[positions]]
@@ -2200,6 +1756,9 @@ prefixes = ["EGYM"]
 frequency = "118.330"
 facility_type = "TWR"
 
+#######################
+# London Area
+#######################
 [[positions]]
 id = "LON_23_CTR"
 prefixes = ["LON"]
@@ -2392,6 +1951,9 @@ prefixes = ["LON"]
 frequency = "126.080"
 facility_type = "CTR"
 
+#######################
+# London Terminal
+#######################
 [[positions]]
 id = "LTC_CTR"
 prefixes = ["LTC"]
@@ -2494,6 +2056,9 @@ prefixes = ["LTC"]
 frequency = "134.125"
 facility_type = "CTR"
 
+#######################
+# Scottish Area
+#######################
 [[positions]]
 id = "SCO_CTR"
 prefixes = ["SCO"]
@@ -2578,12 +2143,9 @@ prefixes = ["SCO"]
 frequency = "132.730"
 facility_type = "CTR"
 
-[[positions]]
-id = "SOLENT_APP"
-prefixes = ["SOLENT"]
-frequency = "120.230"
-facility_type = "APP"
-
+#######################
+# Scottish TMA
+#######################
 [[positions]]
 id = "STC_A_CTR"
 prefixes = ["STC"]
@@ -2608,7 +2170,462 @@ prefixes = ["STC"]
 frequency = "124.825"
 facility_type = "CTR"
 
+#######################
+# AFIS/AGCS
+#######################
+[[positions]]
+id = "EGGX_F_DEL"
+prefixes = ["EGGX"]
+frequency = "128.375"
+facility_type = "DEL"
+
+[[positions]]
+id = "EGAB_R_TWR"
+prefixes = ["EGAB"]
+frequency = "123.205"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGAD_R_TWR"
+prefixes = ["EGAD"]
+frequency = "128.305"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBD_R_TWR"
+prefixes = ["EGBD"]
+frequency = "118.355"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBE_I_TWR"
+prefixes = ["EGBE"]
+frequency = "123.830"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBF_R_TWR"
+prefixes = ["EGBF"]
+frequency = "119.030"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBG_R_TWR"
+prefixes = ["EGBG"]
+frequency = "122.130"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBK_R_TWR"
+prefixes = ["EGBK"]
+frequency = "122.705"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBM_R_TWR"
+prefixes = ["EGBM"]
+frequency = "124.080"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBN_R_TWR"
+prefixes = ["EGBN"]
+frequency = "134.880"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBO_I_TWR"
+prefixes = ["EGBO"]
+frequency = "123.005"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBP_I_TWR"
+prefixes = ["EGBP"]
+frequency = "118.430"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBS_I_TWR"
+prefixes = ["EGBS"]
+frequency = "118.155"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGBW_I_TWR"
+prefixes = ["EGBW"]
+frequency = "124.030"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGCB_I_TWR"
+prefixes = ["EGCB"]
+frequency = "120.255"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGCF_R_TWR"
+prefixes = ["EGCF"]
+frequency = "130.415"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGCJ_R_TWR"
+prefixes = ["EGCJ"]
+frequency = "122.610"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGCK_R_TWR"
+prefixes = ["EGCK"]
+frequency = "122.255"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGCL_R_TWR"
+prefixes = ["EGCL"]
+frequency = "122.930"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGCM_R_TWR"
+prefixes = ["EGCM"]
+frequency = "120.710"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGCV_R_TWR"
+prefixes = ["EGCV"]
+frequency = "122.455"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGCW_R_TWR"
+prefixes = ["EGCW"]
+frequency = "128.005"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGDJ_I_TWR"
+prefixes = ["EGDJ"]
+frequency = "122.755"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGDJ_R_TWR"
+prefixes = ["EGDJ"]
+frequency = "124.105"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGDP_R_TWR"
+prefixes = ["EGDP"]
+frequency = "122.130"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGEC_I_TWR"
+prefixes = ["EGEC"]
+frequency = "125.905"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGEF_R_TWR"
+prefixes = ["EGEF"]
+frequency = "118.030"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGEL_R_TWR"
+prefixes = ["EGEL"]
+frequency = "125.005"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGEO_I_TWR"
+prefixes = ["EGEO"]
+frequency = "118.055"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGET_I_TWR"
+prefixes = ["EGET"]
+frequency = "125.305"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGEY_R_TWR"
+prefixes = ["EGEY"]
+frequency = "123.805"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGFA_I_TWR"
+prefixes = ["EGFA"]
+frequency = "122.155"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGFE_R_TWR"
+prefixes = ["EGFE"]
+frequency = "123.605"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGFH_R_TWR"
+prefixes = ["EGFH"]
+frequency = "119.705"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGHA_R_TWR"
+prefixes = ["EGHA"]
+frequency = "122.710"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGHF_I_TWR"
+prefixes = ["EGHF"]
+frequency = "118.930"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGHJ_R_TWR"
+prefixes = ["EGHJ"]
+frequency = "123.255"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGHK_R_TWR"
+prefixes = ["EGHK"]
+frequency = "120.060"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGHN_R_TWR"
+prefixes = ["EGHN"]
+frequency = "119.280"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGHO_R_TWR"
+prefixes = ["EGHO"]
+frequency = "118.280"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGHR_I_TWR"
+prefixes = ["EGHR"]
+frequency = "122.455"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGHT_R_TWR"
+prefixes = ["EGHT"]
+frequency = "118.205"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGKH_R_TWR"
+prefixes = ["EGKH"]
+frequency = "122.210"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGKN_R_TWR"
+prefixes = ["EGKN"]
+frequency = "119.760"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGKT_R_TWR"
+prefixes = ["EGKT"]
+frequency = "124.105"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGLD_I_TWR"
+prefixes = ["EGLD"]
+frequency = "130.730"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGLJ_R_TWR"
+prefixes = ["EGLJ"]
+frequency = "125.410"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGLK_I_TWR"
+prefixes = ["EGLK"]
+frequency = "122.305"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGLM_R_TWR"
+prefixes = ["EGLM"]
+frequency = "122.605"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGNC_R_TWR"
+prefixes = ["EGNC"]
+frequency = "123.605"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGNE_R_TWR"
+prefixes = ["EGNE"]
+frequency = "130.480"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGNF_R_TWR"
+prefixes = ["EGNF"]
+frequency = "123.280"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGNL_I_TWR"
+prefixes = ["EGNL"]
+frequency = "118.080"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGNW_R_TWR"
+prefixes = ["EGNW"]
+frequency = "122.455"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGPG_R_TWR"
+prefixes = ["EGPG"]
+frequency = "120.605"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGPI_I_TWR"
+prefixes = ["EGPI"]
+frequency = "123.155"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGPR_I_TWR"
+prefixes = ["EGPR"]
+frequency = "118.080"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGPT_R_TWR"
+prefixes = ["EGPT"]
+frequency = "121.080"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGPU_I_TWR"
+prefixes = ["EGPU"]
+frequency = "122.705"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGSG_R_TWR"
+prefixes = ["EGSG"]
+frequency = "122.805"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGSL_R_TWR"
+prefixes = ["EGSL"]
+frequency = "130.555"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGSR_R_TWR"
+prefixes = ["EGSR"]
+frequency = "122.430"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGSU_I_TWR"
+prefixes = ["EGSU"]
+frequency = "122.080"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGSV_R_TWR"
+prefixes = ["EGSV"]
+frequency = "124.405"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGSX_R_TWR"
+prefixes = ["EGSX"]
+frequency = "123.530"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGTB_R_TWR"
+prefixes = ["EGTB"]
+frequency = "126.555"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGTF_R_TWR"
+prefixes = ["EGTF"]
+frequency = "123.430"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGTH_I_TWR"
+prefixes = ["EGTH"]
+frequency = "130.705"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGTO_I_TWR"
+prefixes = ["EGTO"]
+frequency = "122.255"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGTR_I_TWR"
+prefixes = ["EGTR"]
+frequency = "122.405"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGTU_R_TWR"
+prefixes = ["EGTU"]
+frequency = "123.480"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGVL_R_TWR"
+prefixes = ["EGVL"]
+frequency = "120.780"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGWN_R_TWR"
+prefixes = ["EGWN"]
+frequency = "130.430"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGXH_R_TWR"
+prefixes = ["EGXH"]
+frequency = "124.105"
+facility_type = "TWR"
+
+[[positions]]
+id = "EGXY_R_TWR"
+prefixes = ["EGXY"]
+frequency = "128.530"
+facility_type = "TWR"
+
+#######################
 # Oceanic
+#######################
 [[positions]]
 id = "EGGX_A_FSS"
 prefixes = ["EGGX"]
@@ -2709,10 +2726,4 @@ facility_type = "DEL"
 id = "EGGX_D_DEL"
 prefixes = ["EGGX"]
 frequency = "126.375"
-facility_type = "DEL"
-
-[[positions]]
-id = "EGGX_F_DEL"
-prefixes = ["EGGX"]
-frequency = "128.375"
 facility_type = "DEL"
