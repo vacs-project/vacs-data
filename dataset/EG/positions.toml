@@ -785,36 +785,6 @@ frequency = "122.210"
 facility_type = "TWR"
 
 [[positions]]
-id = "EGKK-S_APP"
-prefixes = ["EGKKS"]
-frequency = "126.825"
-facility_type = "APP"
-
-[[positions]]
-id = "EGKK-S_APP"
-prefixes = ["EGKK-S"]
-frequency = "126.825"
-facility_type = "APP"
-
-[[positions]]
-id = "EGKK-S_APP"
-prefixes = ["EGKK+S"]
-frequency = "126.825"
-facility_type = "APP"
-
-[[positions]]
-id = "EGKK-S_APP"
-prefixes = ["EGKK~S"]
-frequency = "126.825"
-facility_type = "APP"
-
-[[positions]]
-id = "EGKK-S_APP"
-prefixes = ["EGKK-S"]
-frequency = "129.025"
-facility_type = "APP"
-
-[[positions]]
 id = "EGKK_APP"
 prefixes = ["EGKK"]
 frequency = "126.825"
