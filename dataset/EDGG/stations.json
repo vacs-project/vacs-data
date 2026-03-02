@@ -1,6 +1,10 @@
 {
   "stations": [
     {
+      "id": "EDGG-FMP",
+      "controlled_by": ["EDGG_FMP"]
+    },
+    {
       "id": "EDYY-RL",
       "controlled_by": [
         "EDYY_RL_CTR",
