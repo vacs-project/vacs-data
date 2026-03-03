@@ -10,6 +10,7 @@
           "include": [
             "EG**_I*",
             "EG**_R*",
+            "EGTT_WR*",
             "LON*",
             "LTC*",
             "MAN*",
