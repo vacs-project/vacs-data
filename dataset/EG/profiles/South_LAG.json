@@ -1,0 +1,65 @@
+{
+  "id": "South_LAG",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "South LAG",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "EGLL_*",
+            "EGKK_*",
+            "THAMES*",
+            "EGLC_*",
+            "EGMC_*",
+            "EGKB_*",
+            "SOLENT*",
+            "EGHH_*",
+            "EGHI_*",
+            "EGKA_*",
+            "EGKR_*",
+            "EGLF_*",
+            "EGMD_*",
+            "LON_S*",
+            "LON_H*",
+            "LON_D*",
+            "LON_C*",
+            "LON_M*",
+            "LON_E*",
+            "LON_SC*",
+            "LON_W*",
+            "LON_23*",
+            "LON_CTR",
+            "LON__CTR",
+            "LTC_*",
+            "EGVV_*",
+            "EGTT_*",
+            "UK_*",
+            "EGJJ_*",
+            "EDYY_K*",
+            "EDYY_N*",
+            "EBBU_*",
+            "PAR_*",
+            "LFEE_HN*",
+            "LFEE_N*",
+            "LFEE_U*",
+            "LFRR_V*",
+            "LFRR_W*",
+            "LFRR_J*",
+            "LFRR_U*",
+            "LFRR_E*",
+            "LFRR_CTR",
+            "LFRR__CTR",
+            "LFQQ_*APP",
+            "LFRN_*APP"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

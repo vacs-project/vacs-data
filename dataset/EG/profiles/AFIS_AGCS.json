@@ -1,0 +1,28 @@
+{
+  "id": "AFIS_AGCS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "AFIS/AGCS Stations",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "EG**_I*",
+            "EG**_R*",
+            "EGTT_WR*",
+            "LON*",
+            "LTC*",
+            "MAN*",
+            "SCO*",
+            "STC*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}
