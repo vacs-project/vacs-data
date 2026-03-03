@@ -508,7 +508,7 @@ parent_id = "EDMM-TRS"
 
 [[stations]]
 id = "EDDE-GND"
-controlled_by = ["EDDP_GND"]
+controlled_by = ["EDDE_GND"]
 parent_id = "EDDE-TWR"
 
 [[stations]]
