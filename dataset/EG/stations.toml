@@ -103,7 +103,7 @@ parent_id = "LTC_ST_CTR"
 
 [[stations]]
 id = "EG-TC-GODLU"
-parent_id = "LTC_SE_CTR"
+parent_id = "LTC_SG_CTR"
 
 [[stations]]
 id = "EG-TC-BIG"
@@ -199,6 +199,11 @@ controlled_by = ["LTC_S_CTR"]
 id = "LTC_ST_CTR"
 parent_id = "LTC_SE_CTR"
 controlled_by = ["LTC_ST_CTR"]
+
+[[stations]]
+id = "LTC_SG_CTR"
+parent_id = "LTC_SE_CTR"
+controlled_by = ["LTC_SG_CTR"]
 
 [[stations]]
 id = "LTC_SE_CTR"
