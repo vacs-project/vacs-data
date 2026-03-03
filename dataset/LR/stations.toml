@@ -64,7 +64,7 @@ controlled_by = ["LRAR_APP", "LRBB_W_CTR", "LRBB_CTR"]
 
 [[stations]]
 id = "LRCK_APP"
-controlled_by = ["LRCK_CTR", "LRBB_E_CTR", "LRBB_CTR"]
+controlled_by = ["LRCK_APP", "LRBB_E_CTR", "LRBB_CTR"]
 
 [[stations]]
 id = "LROP_APP"
@@ -144,7 +144,7 @@ controlled_by = ["LRSM_TWR", "LRCL_APP", "LRBB_W_CTR", "LRBB_CTR"]
 
 [[stations]]
 id = "LROD_TWR"
-controlled_by = ["LROD_CTR", "LRBB_W_CTR", "LRBB_CTR"]
+controlled_by = ["LROD_TWR", "LRBB_W_CTR", "LRBB_CTR"]
 
 [[stations]]
 id = "LRCV_TWR"
