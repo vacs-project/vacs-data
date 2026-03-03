@@ -1,0 +1,121 @@
+{
+  "id": "EDDV-APP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EMS"],
+            "station_id": "EDWW-EMS"
+          },
+          {
+            "label": ["HAN"],
+            "station_id": "EDWW-HAN"
+          },
+          {
+            "label": ["FRI"],
+            "station_id": "EDWW-FRI"
+          },
+          {
+            "label": ["DV", "TWR"],
+            "station_id": "EDDV-TWR"
+          },
+          {
+            "label": ["ETHB", "TWR"],
+            "station_id": "ETHB-TWR"
+          },
+          {
+            "label": ["ETHS", "TWR"],
+            "station_id": "ETHS-TWR"
+          },
+          {
+            "label": ["HRZ"],
+            "station_id": "EDWW-HRZ"
+          },
+          {
+            "label": ["DVAT"],
+            "station_id": "EDWW-DVAT"
+          },
+          {
+            "label": ["HAM"],
+            "station_id": "EDWW-HAM"
+          },
+          {
+            "label": ["DV", "GND"],
+            "station_id": "EDDV-GND"
+          },
+          {
+            "label": ["ETHB", "APP"],
+            "station_id": "ETHB-APP"
+          },
+          {
+            "label": ["ETHS", "APP"],
+            "station_id": "ETHS-APP"
+          },
+          {
+            "label": ["ALR"],
+            "station_id": "EDWW-ALR"
+          },
+          {
+            "label": ["BOR"],
+            "station_id": "EDWW-BOR"
+          },
+          {
+            "label": ["GG", "HMM"],
+            "station_id": "EDGG-HMM"
+          },
+          {
+            "label": ["DV", "DEL"],
+            "station_id": "EDDV-DEL"
+          },
+          {
+            "label": ["ETHC", "TWR"],
+            "station_id": "ETHC-TWR"
+          },
+          {
+            "label": ["ETNW", "TWR"],
+            "station_id": "ETNW-TWR"
+          },
+          {
+            "label": ["HEI"],
+            "station_id": "EDWW-HEI"
+          },
+          {
+            "label": ["MAR"],
+            "station_id": "EDWW-MAR"
+          },
+          {
+            "label": ["EDWW", "FMP"]
+          },
+          {
+            "label": ["VE", "TWR"],
+            "station_id": "EDVE-TWR"
+          },
+          {
+            "label": ["ETHC", "APP"],
+            "station_id": "ETHC-APP"
+          },
+          {
+            "label": ["ETNW", "APP"],
+            "station_id": "ETNW-APP"
+          },
+          {
+            "label": ["FIS", "DB"]
+          },
+          {
+            "label": ["FIS", "DH"]
+          },
+          {
+            "label": ["FIS", "DL"]
+          },
+          {
+            "label": ["FIS", "DV"]
+          }
+        ]
+      }
+    }
+  ]
+}

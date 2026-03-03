@@ -1,0 +1,788 @@
+{
+  "id": "LIRR-NORTH",
+  "type": "Geo",
+  "direction": "row",
+  "padding": 0.5,
+  "gap": 0.75,
+  "justify_content": "start",
+  "children": [
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "children": [
+        {
+          "direction": "row",
+          "align_items": "center",
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["MARSIGLIA"],
+              "size": 6.75,
+              "page": {
+                "rows": 6,
+                "client_page": {
+                  "include": ["LFM*_CTR"],
+                  "exclude": ["LFMM_W*_CTR"]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "align_items": "center",
+          "gap": 0.5,
+          "children": [
+            {
+              "label": ["BASTIA", "GND-140"],
+              "size": 5.5,
+              "page": {
+                "rows": 6,
+                "client_page": {
+                  "include": ["LFKB*_APP"]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "align_items": "center",
+          "gap": 0.5,
+          "children": [
+            {
+              "label": ["AJACCIO", "GND-140"],
+              "size": 5.5,
+              "page": {
+                "rows": 6,
+                "client_page": {
+                  "include": ["LFKJ*_APP"]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "align_items": "center",
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["EW"],
+              "size": 6.75,
+              "page": {
+                "rows": 6,
+                "keys": [
+                  {
+                    "label": ["EW7"],
+                    "station_id": "LIRR-EW7"
+                  },
+                  {
+                    "label": ["EW1"],
+                    "station_id": "LIRR-EW1"
+                  },
+                  {
+                    "label": ["EW0"],
+                    "station_id": "LIRR-EW0"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "align_items": "center",
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["EE"],
+              "size": 6.75,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["EE7"],
+                    "station_id": "LIRR-EW7"
+                  },
+                  {
+                    "label": ["EE3"],
+                    "station_id": "LIRR-EE3"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "children": [
+        {
+          "direction": "row",
+          "gap": 0.75,
+          "align_items": "center",
+          "children": [
+            {
+              "label": ["PISA", "APP"],
+              "size": 6.25,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PISA", "APP"],
+                    "station_id": "LIRP-APP"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["BOLOGNA", "APP"],
+              "size": 6.25,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["BOLOGNA", "APP"],
+                    "station_id": "LIPE-W-APP"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["PERUGIA", "APP"],
+              "size": 6.25,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PERUGIA", "APP"],
+                    "station_id": "LIRZ-APP"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "align_items": "center",
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["NW"],
+              "size": 6.75,
+              "page": {
+                "rows": 4,
+                "keys": [
+                  {
+                    "label": ["NW7"],
+                    "station_id": "LIRR-NW7"
+                  },
+                  {
+                    "label": ["NW1"],
+                    "station_id": "LIRR-NW1"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["NN"],
+              "size": 6.75,
+              "page": {
+                "rows": 4,
+                "keys": [
+                  {
+                    "label": ["NN7"],
+                    "station_id": "LIRR-NE7"
+                  },
+                  {
+                    "label": ["NN1"],
+                    "station_id": "LIRR-NN1"
+                  },
+                  {
+                    "label": ["NN0"],
+                    "station_id": "LIRR-NN0"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["NE"],
+              "size": 6.75,
+              "page": {
+                "rows": 4,
+                "keys": [
+                  {
+                    "label": ["NE7"],
+                    "station_id": "LIRR-NE7"
+                  },
+                  {
+                    "label": ["NE1"],
+                    "station_id": "LIRR-NE1"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "justify_content": "space-between",
+          "align_items": "center",
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["OV"],
+              "size": 6.25,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["OV7"],
+                    "station_id": "LIRR-NW7"
+                  },
+                  {
+                    "label": ["OV1"],
+                    "station_id": "LIRR-OV1"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["TW"],
+              "size": 8,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["TW1"],
+                    "station_id": "LIRR-TW1"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["AET"],
+              "size": 8,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["AET"],
+                    "station_id": "LIRR-AET"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "justify_content": "space-between",
+          "align_items": "center",
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["PN"],
+              "size": 8,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PN1"],
+                    "station_id": "LIRR-PN1"
+                  },
+                  {
+                    "label": ["PS1"],
+                    "station_id": "LIRR-PS1"
+                  }
+                ]
+              }
+            },
+            {
+              "direction": "col",
+              "gap": 0.75,
+              "children": [
+                {
+                  "label": ["AWL"],
+                  "size": 5,
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["AWL"],
+                        "station_id": "LIRR-AWL"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": ["FCO", "TWR"],
+                  "size": 5,
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["FCO", "TWR"],
+                        "station_id": "LIRF-TWR"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "gap": 0.75,
+              "children": [
+                {
+                  "label": ["AEM"],
+                  "size": 5,
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["AEM"],
+                        "station_id": "LIRR-AEM"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": ["FCO", "TWR", "16L"],
+                  "size": 5,
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["FCO", "TWR", "16L"],
+                        "station_id": "LIRF-E-TWR"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "children": [
+        {
+          "label": ["MILANO"],
+          "size": 8,
+          "page": {
+            "keys": [
+              {
+                "label": ["MILANO", "WS", "310-UNL"],
+                "station_id": "LIMM-WS5"
+              },
+              {
+                "label": ["MILANO", "WS", "GND-300"],
+                "station_id": "LIMM-WS2"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["MILANO", "ES", "310-UNL"],
+                "station_id": "LIMM-ES5"
+              },
+              {
+                "label": ["MILANO", "ES", "GND-300"],
+                "station_id": "LIMM-ES2"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["FIC"],
+                "station_id": "LIMM-FIC"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "direction": "row",
+          "align_items": "start",
+          "justify_content": "space-between",
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["US"],
+              "size": 6.75,
+              "page": {
+                "rows": 4,
+                "keys": [
+                  {
+                    "label": ["US2"],
+                    "station_id": "LIRR-US2"
+                  },
+                  {
+                    "label": ["US1"],
+                    "station_id": "LIRR-US1"
+                  },
+                  {
+                    "label": ["US0"],
+                    "station_id": "LIRR-US0"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["TS"],
+              "size": 6.75,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["TS7"],
+                    "station_id": "LIRR-NE7"
+                  },
+                  {
+                    "label": ["TS1"],
+                    "station_id": "LIRR-TS1"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "align_items": "center",
+          "justify_content": "space-between",
+          "gap": 1,
+          "padding_left": 1,
+          "children": [
+            {
+              "label": ["PESCARA", "APP"],
+              "size": 5.5,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PESCARA", "APP"],
+                    "station_id": "LIBP-APP"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["ND"],
+              "size": 6.75,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["ND7"],
+                    "station_id": "LIRR-NE7"
+                  },
+                  {
+                    "label": ["ND1"],
+                    "station_id": "LIRR-ND1"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "align_items": "start",
+          "justify_content": "space-between",
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["SU"],
+              "size": 6.75,
+              "page": {
+                "rows": 4,
+                "keys": [
+                  {
+                    "label": ["SU7"],
+                    "station_id": "LIRR-SU7"
+                  },
+                  {
+                    "label": ["SU1"],
+                    "station_id": "LIRR-SU1"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["ES"],
+              "size": 6.75,
+              "page": {
+                "rows": 4,
+                "keys": [
+                  {
+                    "label": ["ES7"],
+                    "station_id": "LIRR-SU7"
+                  },
+                  {
+                    "label": ["ES1"],
+                    "station_id": "LIRR-ES1"
+                  },
+                  {
+                    "label": ["ES0"],
+
+                    "station_id": "LIRR-ES0"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "children": [
+        {
+          "label": ["PADOVA"],
+          "size": 8,
+          "page": {
+            "rows": 5,
+            "keys": [
+              {
+                "label": ["PADOVA", "SD", "370-UNL"],
+                "station_id": "LIPP-SD7"
+              },
+              {
+                "label": ["PADOVA", "SD", "340-360"],
+                "station_id": "LIPP-SD5"
+              },
+              {
+                "label": ["PADOVA", "SD", "200-330"],
+                "station_id": "LIPP-SD3"
+              },
+              {
+                "label": ["PADOVA", "SD", "GND-190"],
+                "station_id": "LIPP-SD2"
+              },
+              {
+                "label": ["FIC"],
+                "station_id": "LIPP-FIC"
+              }
+            ]
+          }
+        },
+        {
+          "label": ["ZAGREB"],
+          "size": 8,
+          "page": {
+            "rows": 5,
+            "client_page": {
+              "include": ["LDZ*_CTR", "ADR*_CTR"],
+              "exclude": ["ADR_E*_CTR"]
+            }
+          }
+        },
+        {
+          "label": ["SPLIT", "GND-200"],
+          "size": 6.25,
+          "page": {
+            "rows": 3,
+            "client_page": {
+              "include": ["LDSP*_APP"]
+            }
+          }
+        },
+        {
+          "label": ["BRINDISI"],
+          "size": 8,
+          "page": {
+            "keys": [
+              {
+                "label": ["BRINDISI", "ES3"],
+                "station_id": "LIBB-ES3"
+              },
+              {
+                "label": ["BRINDISI", "CS0"],
+                "station_id": "LIBB-CS0"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["FIC"],
+                "station_id": "LIBB-FIC"
+              }
+            ],
+            "rows": 3
+          }
+        }
+      ]
+    },
+    {
+      "orientation": "vertical",
+      "thickness": 2,
+      "color": "#364153"
+    },
+    {
+      "direction": "col",
+      "gap": 1,
+      "align_items": "center",
+      "children": [
+        {
+          "label": ["ROMA", "COO"],
+          "size": 5,
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["ROMA", "COO"],
+                "station_id": "LIRR-FMP"
+              }
+            ]
+          }
+        },
+        {
+          "label": ["FMP"],
+          "size": 5,
+          "page": {
+            "keys": [
+              {
+                "label": ["MILANO", "DCP"],
+                "station_id": "LIMM-FMP"
+              },
+              {
+                "label": ["PADOVA", "FMP"],
+                "station_id": "LIPP-FMP"
+              }
+            ],
+            "rows": 5
+          }
+        },
+        {
+          "label": ["FIC"],
+          "size": 5,
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["FIC"],
+                "station_id": "LIRR-FIC"
+              }
+            ]
+          }
+        },
+        {
+          "label": ["TWR"],
+          "size": 5,
+          "page": {
+            "rows": 6,
+            "client_page": {
+              "include": ["LIR*_TWR", "LIR*_GND", "LIR*_DEL"],
+              "priority": [
+                "LIRF*_TWR",
+                "LIRF*_GND",
+                "LIRF*_DEL",
+                "LIRN*_TWR",
+                "LIRN*_GND",
+                "_TWR",
+                "_GND",
+                "_DEL"
+              ],
+              "frequencies": "HideAll"
+            }
+          }
+        },
+        {
+          "label": ["AFIU"],
+          "size": 5,
+          "page": {
+            "rows": 6,
+            "client_page": {
+              "include": ["LIR*_I_TWR", "LIA*_I_TWR", "LIQ*_I_TWR"],
+              "frequencies": "HideAll"
+            }
+          }
+        },
+        {
+          "label": ["MISC"],
+          "size": 5,
+          "page": {
+            "rows": 6,
+            "client_page": {
+              "include": [
+                "LIR*",
+                "LICA_*_APP",
+                "LIA*",
+                "LIEO_*_APP",
+                "LIQ*",
+                "LIMM*_CTR",
+                "LIP*_CTR",
+                "LIB*_CTR",
+                "LIB*_APP",
+                "LDZ*_CTR",
+                "ADR*_CTR",
+                "LDSP*_APP",
+                "LIM*_FMP",
+                "LIP*_FMP",
+                "LIPE_*_APP",
+                "LFM*_CTR",
+                "LFKB*_APP",
+                "LFKJ*_APP"
+              ],
+              "exclude": [
+                "LFMM_W*_CTR",
+                "LIPP_NE2_CTR",
+                "LIPP_NW*_CTR",
+                "LIPP_CW*_CTR",
+                "LIMM_WN*_CTR",
+                "ADR_E*_CTR",
+                "LDZO_N*_CTR",
+                "LDZO_UN*_CTR",
+                "LDZO_C*_CTR",
+                "LDZO_UC*_CTR"
+              ],
+              "priority": [
+                "LIRR*_FMP",
+                "LIMM*_FMP",
+                "LIPP*_FMP",
+                "LIRR_N*_CTR",
+                "LIRR*",
+                "LIRR_*_APP",
+                "LIRR_*_DEP",
+                "LIRN_*_APP",
+                "LIRQ_*_APP",
+                "LICA_*_APP",
+                "LIR*_APP",
+                "LIEO_*_APP",
+                "LIMM*",
+                "LIPP*",
+                "LIPE*",
+                "LIB*",
+                "LFM*",
+                "LDZ*",
+                "ADR*",
+                "LDSP*",
+                "LIR*_TWR",
+                "LIA*_TWR",
+                "LIQ*_TWR",
+                "LIR*_GND",
+                "LIR*_DEL",
+                "*_FMP"
+              ],
+              "frequencies": "HideAll"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

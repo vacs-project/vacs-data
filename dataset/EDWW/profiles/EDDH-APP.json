@@ -1,0 +1,139 @@
+{
+  "id": "EDDH-APP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["PRIM"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EID"],
+            "station_id": "EDWW-EID"
+          },
+          {
+            "label": ["HAM"],
+            "station_id": "EDWW-HAM"
+          },
+          {
+            "label": ["FRI"],
+            "station_id": "EDWW-FRI"
+          },
+          {
+            "label": ["HI", "TWR"],
+            "station_id": "EDHI-TWR"
+          },
+          {
+            "label": ["EKDK", "I"],
+            "station_id": "EKDKI"
+          },
+          {
+            "label": ["ETMN", "APP"],
+            "station_id": "ETMN-APP"
+          },
+          {
+            "label": ["ALR"],
+            "station_id": "EDWW-ALR"
+          },
+          {
+            "label": ["HAMW"],
+            "station_id": "EDWW-HAMW"
+          },
+          {
+            "label": ["HAN"],
+            "station_id": "EDWW-HAN"
+          },
+          {
+            "label": ["HL", "TWR"],
+            "station_id": "EDHL-TWR"
+          },
+          {
+            "label": ["EKDK", "B"],
+            "station_id": "EKDKB"
+          },
+          {
+            "label": ["ETNH", "APP"],
+            "station_id": "ETNH-APP"
+          },
+          {
+            "label": ["HEI"],
+            "station_id": "EDWW-HEI"
+          },
+          {
+            "label": ["DHAT"],
+            "station_id": "EDWW-DHAT"
+          },
+          {
+            "label": ["DH", "TWR"],
+            "station_id": "EDDH-TWR"
+          },
+          {
+            "label": ["HL", "GND"],
+            "station_id": "EDHL-GND"
+          },
+          {
+            "label": ["FIS", "DH"]
+          },
+          {
+            "label": ["TRAMON", "SUNRISE", "LONESHIP"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["TRAMON", "", ""]
+                },
+                {
+                  "label": ["SUNRISE"]
+                },
+                {
+                  "label": ["LONESHIP"]
+                }
+              ]
+            }
+          },
+          {
+            "label": ["MRZ"],
+            "station_id": "EDWW-MRZ"
+          },
+          {
+            "label": ["MAR"],
+            "station_id": "EDWW-MAR"
+          },
+          {
+            "label": ["DH", "GND/DEL"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["DH", "TWR"],
+                  "station_id": "EDDH-TWR"
+                },
+                {
+                  "label": ["DH", "APN", "E"],
+                  "station_id": "EDDH-GND_E"
+                },
+                {
+                  "label": ["DH", "APN", "W"],
+                  "station_id": "EDDH-GND_W"
+                },
+                {
+                  "label": ["DH", "DEL"],
+                  "station_id": "EDDH-DEL"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["FIS", "SW"]
+          },
+          {
+            "label": ["FIS", "DB"]
+          },
+          {
+            "label": ["EDWW", "FMP"]
+          }
+        ]
+      }
+    }
+  ]
+}

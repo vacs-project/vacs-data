@@ -1,0 +1,668 @@
+{
+  "positions": [
+    {
+      "id": "EDWW_ALR_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "126.325",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-NORTH"
+    },
+    {
+      "id": "EDWW_BOR_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "123.225",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-EAST"
+    },
+    {
+      "id": "EDWW_EID_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "124.075",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-NORTH"
+    },
+    {
+      "id": "EDWW_EMS_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "125.025",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-SOUTH"
+    },
+    {
+      "id": "EDWW_FLG_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "136.450",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-EAST"
+    },
+    {
+      "id": "EDWW_HEI_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "125.855",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-NORTH"
+    },
+    {
+      "id": "EDWW_HRZ_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "124.240",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-SOUTH"
+    },
+    {
+      "id": "EDWW_MAR_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "136.050",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-EAST"
+    },
+    {
+      "id": "EDWW_MRZ_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "124.175",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-EAST"
+    },
+    {
+      "id": "EDWW_W_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "127.675",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-WEST"
+    },
+    {
+      "id": "EDWW_CTR",
+      "prefixes": ["EDWW"],
+      "frequency": "133.725",
+      "facility_type": "CTR",
+      "profile_id": "EDWW-BIG"
+    },
+    {
+      "id": "EDUU_O12_CTR",
+      "prefixes": ["EDUU"],
+      "frequency": "133.035",
+      "facility_type": "CTR",
+      "profile_id": "EDUU"
+    },
+    {
+      "id": "EDUU_O22_CTR",
+      "prefixes": ["EDUU"],
+      "frequency": "126.785",
+      "facility_type": "CTR",
+      "profile_id": "EDUU"
+    },
+    {
+      "id": "EDUU_H12_CTR",
+      "prefixes": ["EDUU"],
+      "frequency": "128.235",
+      "facility_type": "CTR",
+      "profile_id": "EDUU"
+    },
+    {
+      "id": "EDYY_BB_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "129.840",
+      "facility_type": "CTR",
+      "profile_id": "EDYY"
+    },
+    {
+      "id": "EDYY_CH_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "128.810",
+      "facility_type": "CTR",
+      "profile_id": "EDYY"
+    },
+    {
+      "id": "EDYY_CL_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "133.955",
+      "facility_type": "CTR",
+      "profile_id": "EDYY"
+    },
+    {
+      "id": "EDYY_HH_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "132.780",
+      "facility_type": "CTR",
+      "profile_id": "EDYY"
+    },
+    {
+      "id": "EDYY_HL_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "120.860",
+      "facility_type": "CTR",
+      "profile_id": "EDYY"
+    },
+    {
+      "id": "EDYY_JH_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "129.735",
+      "facility_type": "CTR",
+      "profile_id": "EDYY"
+    },
+    {
+      "id": "EDYY_JL_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "136.465",
+      "facility_type": "CTR",
+      "profile_id": "EDYY"
+    },
+    {
+      "id": "EDYY_SH_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "131.380",
+      "facility_type": "CTR",
+      "profile_id": "EDYY"
+    },
+    {
+      "id": "EDYY_SL_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "134.710",
+      "facility_type": "CTR",
+      "profile_id": "EDYY"
+    },
+    {
+      "id": "EDDB_AN_APP",
+      "prefixes": ["EDDB"],
+      "frequency": "136.105",
+      "facility_type": "APP",
+      "profile_id": "EDDB-APP"
+    },
+    {
+      "id": "EDDB_AS_APP",
+      "prefixes": ["EDDB"],
+      "frequency": "121.130",
+      "facility_type": "APP",
+      "profile_id": "EDDB-APP"
+    },
+    {
+      "id": "EDDB_N_APP",
+      "prefixes": ["EDDB"],
+      "frequency": "119.630",
+      "facility_type": "APP",
+      "profile_id": "EDDB-APP"
+    },
+    {
+      "id": "EDDB_S_APP",
+      "prefixes": ["EDDB"],
+      "frequency": "126.425",
+      "facility_type": "APP",
+      "profile_id": "EDDB-APP"
+    },
+    {
+      "id": "EDDB_N_DEP",
+      "prefixes": ["EDDB"],
+      "frequency": "120.340",
+      "facility_type": "DEP",
+      "profile_id": "EDDB-APP"
+    },
+    {
+      "id": "EDDB_S_DEP",
+      "prefixes": ["EDDB"],
+      "frequency": "120.630",
+      "facility_type": "DEP",
+      "profile_id": "EDDB-APP"
+    },
+    {
+      "id": "EDDH_APP",
+      "prefixes": ["EDDH"],
+      "frequency": "120.540",
+      "facility_type": "APP",
+      "profile_id": "EDDH-APP"
+    },
+    {
+      "id": "EDDH_A_APP",
+      "prefixes": ["EDDH"],
+      "frequency": "118.205",
+      "facility_type": "APP",
+      "profile_id": "EDDH-APP"
+    },
+    {
+      "id": "EDDH_W_APP",
+      "prefixes": ["EDDH"],
+      "frequency": "134.255",
+      "facility_type": "APP",
+      "profile_id": "EDDH-APP"
+    },
+    {
+      "id": "EDDV_APP",
+      "prefixes": ["EDDV"],
+      "frequency": "119.490",
+      "facility_type": "APP",
+      "profile_id": "EDDV-APP"
+    },
+    {
+      "id": "EDDV_A_APP",
+      "prefixes": ["EDDV"],
+      "frequency": "119.605",
+      "facility_type": "APP",
+      "profile_id": "EDDV-APP"
+    },
+    {
+      "id": "EDDW_APP",
+      "prefixes": ["EDDW"],
+      "frequency": "124.800",
+      "facility_type": "APP",
+      "profile_id": "EDDW-APP"
+    },
+    {
+      "id": "EDDB_N_TWR",
+      "prefixes": ["EDDB"],
+      "frequency": "120.030",
+      "facility_type": "TWR",
+      "profile_id": "EDDB"
+    },
+    {
+      "id": "EDDB_S_TWR",
+      "prefixes": ["EDDB"],
+      "frequency": "118.805",
+      "facility_type": "TWR",
+      "profile_id": "EDDB"
+    },
+    {
+      "id": "EDDH_TWR",
+      "prefixes": ["EDDH"],
+      "frequency": "126.855",
+      "facility_type": "TWR",
+      "profile_id": "EDDH"
+    },
+    {
+      "id": "EDDH_VFR_TWR",
+      "prefixes": ["EDDH"],
+      "frequency": "121.280",
+      "facility_type": "TWR",
+      "profile_id": "EDDH"
+    },
+    {
+      "id": "EDDV_TWR",
+      "prefixes": ["EDDV"],
+      "frequency": "120.180",
+      "facility_type": "TWR",
+      "profile_id": "EDDV"
+    },
+    {
+      "id": "EDDW_TWR",
+      "prefixes": ["EDDW"],
+      "frequency": "120.330",
+      "facility_type": "TWR",
+      "profile_id": "EDDW"
+    },
+    {
+      "id": "EDDB_A_GND",
+      "prefixes": ["EDDB"],
+      "frequency": "121.855",
+      "facility_type": "GND",
+      "profile_id": "EDDB"
+    },
+    {
+      "id": "EDDB_E_GND",
+      "prefixes": ["EDDB"],
+      "frequency": "129.605",
+      "facility_type": "GND",
+      "profile_id": "EDDB"
+    },
+    {
+      "id": "EDDB_ICE_GND",
+      "prefixes": ["EDDB"],
+      "frequency": "121.665",
+      "facility_type": "GND",
+      "profile_id": "EDDB"
+    },
+    {
+      "id": "EDDB_N_GND",
+      "prefixes": ["EDDB"],
+      "frequency": "129.505",
+      "facility_type": "GND",
+      "profile_id": "EDDB"
+    },
+    {
+      "id": "EDDB_S_GND",
+      "prefixes": ["EDDB"],
+      "frequency": "121.705",
+      "facility_type": "GND",
+      "profile_id": "EDDB"
+    },
+    {
+      "id": "EDDH_E_GND",
+      "prefixes": ["EDDH"],
+      "frequency": "121.705",
+      "facility_type": "GND",
+      "profile_id": "EDDH"
+    },
+    {
+      "id": "EDDH_W_GND",
+      "prefixes": ["EDDH"],
+      "frequency": "121.980",
+      "facility_type": "GND",
+      "profile_id": "EDDH"
+    },
+    {
+      "id": "EDDV_GND",
+      "prefixes": ["EDDV"],
+      "frequency": "121.955",
+      "facility_type": "GND",
+      "profile_id": "EDDV"
+    },
+    {
+      "id": "EDDW_GND",
+      "prefixes": ["EDDW"],
+      "frequency": "121.755",
+      "facility_type": "GND",
+      "profile_id": "EDDW"
+    },
+    {
+      "id": "EDDB_DEL",
+      "prefixes": ["EDDB"],
+      "frequency": "121.605",
+      "facility_type": "DEL",
+      "profile_id": "EDDB"
+    },
+    {
+      "id": "EDDH_DEL",
+      "prefixes": ["EDDH"],
+      "frequency": "121.805",
+      "facility_type": "DEL",
+      "profile_id": "EDDH"
+    },
+    {
+      "id": "EDDV_DEL",
+      "prefixes": ["EDDV"],
+      "frequency": "120.450",
+      "facility_type": "DEL",
+      "profile_id": "EDDV"
+    },
+    {
+      "id": "ETHB_APP",
+      "prefixes": ["ETHB"],
+      "frequency": "124.505",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETHB_TWR",
+      "prefixes": ["ETHB"],
+      "frequency": "123.240",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETHC_APP",
+      "prefixes": ["ETHC"],
+      "frequency": "123.305",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETHC_TWR",
+      "prefixes": ["ETHC"],
+      "frequency": "118.255",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETHS_APP",
+      "prefixes": ["ETHS"],
+      "frequency": "119.355",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETHS_TWR",
+      "prefixes": ["ETHS"],
+      "frequency": "118.525",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETMN_APP",
+      "prefixes": ["ETMN"],
+      "frequency": "129.855",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETMN_TWR",
+      "prefixes": ["ETMN"],
+      "frequency": "131.255",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETND_TWR",
+      "prefixes": ["ETND"],
+      "frequency": "135.130",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNH_APP",
+      "prefixes": ["ETNH"],
+      "frequency": "122.700",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNH_P_APP",
+      "prefixes": ["ETNH"],
+      "frequency": "125.600",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNH_TWR",
+      "prefixes": ["ETNH"],
+      "frequency": "125.600",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNL_APP",
+      "prefixes": ["ETNL"],
+      "frequency": "123.300",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNL_P_APP",
+      "prefixes": ["ETNL"],
+      "frequency": "133.105",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNL_TWR",
+      "prefixes": ["ETNL"],
+      "frequency": "118.430",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNL_A_GND",
+      "prefixes": ["ETNL"],
+      "frequency": "121.955",
+      "facility_type": "GND",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNS_APP",
+      "prefixes": ["ETNS"],
+      "frequency": "123.300",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNS_P_APP",
+      "prefixes": ["ETNS"],
+      "frequency": "118.555",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNS_TWR",
+      "prefixes": ["ETNS"],
+      "frequency": "135.155",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNT_APP",
+      "prefixes": ["ETNT"],
+      "frequency": "131.015",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNT_TWR",
+      "prefixes": ["ETNT"],
+      "frequency": "118.730",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNW_APP",
+      "prefixes": ["ETNW"],
+      "frequency": "124.655",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETNW_TWR",
+      "prefixes": ["ETNW"],
+      "frequency": "132.055",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETSH_APP",
+      "prefixes": ["ETSH"],
+      "frequency": "129.855",
+      "facility_type": "APP",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "ETSH_TWR",
+      "prefixes": ["ETSH"],
+      "frequency": "130.505",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MIL"
+    },
+    {
+      "id": "EDAH_TWR",
+      "prefixes": ["EDAH"],
+      "frequency": "132.830",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MINOR"
+    },
+    {
+      "id": "EDHI_TWR",
+      "prefixes": ["EDHI"],
+      "frequency": "123.255",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MINOR"
+    },
+    {
+      "id": "EDHL_TWR",
+      "prefixes": ["EDHL"],
+      "frequency": "128.705",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MINOR"
+    },
+    {
+      "id": "EDHL_GND",
+      "prefixes": ["EDHL"],
+      "frequency": "121.780",
+      "facility_type": "GND",
+      "profile_id": "EDWW-MINOR"
+    },
+    {
+      "id": "EDVE_TWR",
+      "prefixes": ["EDVE"],
+      "frequency": "120.055",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MINOR"
+    },
+    {
+      "id": "EDVK_TWR",
+      "prefixes": ["EDVK"],
+      "frequency": "118.105",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MINOR"
+    },
+    {
+      "id": "EDVK_GND",
+      "prefixes": ["EDVK"],
+      "frequency": "121.905",
+      "facility_type": "GND",
+      "profile_id": "EDWW-MINOR"
+    },
+    {
+      "id": "EDXW_TWR",
+      "prefixes": ["EDXW"],
+      "frequency": "119.750",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "EDAY_I_TWR",
+      "prefixes": ["EDAY"],
+      "frequency": "118.735",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-MINOR"
+    },
+    {
+      "id": "EDAZ_I_TWR",
+      "prefixes": ["EDAZ"],
+      "frequency": "131.155",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-AFIS"
+    },
+    {
+      "id": "EDBC_I_TWR",
+      "prefixes": ["EDBC"],
+      "frequency": "131.130",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-AFIS"
+    },
+    {
+      "id": "EDBH_I_TWR",
+      "prefixes": ["EDBH"],
+      "frequency": "118.080",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-AFIS"
+    },
+    {
+      "id": "EDBM_I_TWR",
+      "prefixes": ["EDBM"],
+      "frequency": "119.305",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-AFIS"
+    },
+    {
+      "id": "EDBN_I_TWR",
+      "prefixes": ["EDBN"],
+      "frequency": "119.180",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-AFIS"
+    },
+    {
+      "id": "EDHK_I_TWR",
+      "prefixes": ["EDHK"],
+      "frequency": "119.980",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-AFIS"
+    },
+    {
+      "id": "EDWE_I_TWR",
+      "prefixes": ["EDWE"],
+      "frequency": "118.605",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-AFIS"
+    },
+    {
+      "id": "EDWI_I_TWR",
+      "prefixes": ["EDWI"],
+      "frequency": "118.605",
+      "facility_type": "TWR",
+      "profile_id": "EDWW-AFIS"
+    }
+  ]
+}

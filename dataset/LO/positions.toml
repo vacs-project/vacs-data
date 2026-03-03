@@ -1,4 +1,11 @@
 [[positions]]
+id = "LOVV_FMP"
+prefixes = ["LOVV"]
+frequency = "199.998"
+facility_type = "FMP"
+profile_id = "LOVV"
+
+[[positions]]
 id = "LOVV_BC_CTR"
 prefixes = ["LOVV"]
 frequency = "132.950"
@@ -328,6 +335,20 @@ facility_type = "TWR"
 profile_id = "LOWW"
 
 [[positions]]
+id = "LOXA_TWR"
+prefixes = ["LOXA"]
+frequency = "118.005"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOXN_TWR"
+prefixes = ["LOXN"]
+frequency = "123.255"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
 id = "LOXT_TWR"
 prefixes = ["LOXT"]
 frequency = "118.905"
@@ -382,3 +403,312 @@ prefixes = ["LOWW"]
 frequency = "122.125"
 facility_type = "DEL"
 profile_id = "LOWW"
+
+# minor aerodromes
+[[positions]]
+id = "LOAA_TWR"
+prefixes = ["LOAA"]
+frequency = "122.305"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOAB_TWR"
+prefixes = ["LOAB"]
+frequency = "122.505"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOAD_TWR"
+prefixes = ["LOAD"]
+frequency = "125.605"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOAG_TWR"
+prefixes = ["LOAG"]
+frequency = "125.110"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOAN_TWR"
+prefixes = ["LOAN"]
+frequency = "122.655"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOAR_TWR"
+prefixes = ["LOAR"]
+frequency = "122.255"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOAS_TWR"
+prefixes = ["LOAS"]
+frequency = "122.080"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOAU_TWR"
+prefixes = ["LOAU"]
+frequency = "122.855"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOAV_TWR"
+prefixes = ["LOAV"]
+frequency = "118.605"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGF_TWR"
+prefixes = ["LOGF"]
+frequency = "122.705"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGG_TWR"
+prefixes = ["LOGG"]
+frequency = "123.205"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGI_TWR"
+prefixes = ["LOGI"]
+frequency = "122.505"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGK_TWR"
+prefixes = ["LOGK"]
+frequency = "119.705"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGL_TWR"
+prefixes = ["LOGL"]
+frequency = "122.505"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGM_TWR"
+prefixes = ["LOGM"]
+frequency = "122.105"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGO_TWR"
+prefixes = ["LOGO"]
+frequency = "122.705"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGP_TWR"
+prefixes = ["LOGP"]
+frequency = "118.030"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGT_TWR"
+prefixes = ["LOGT"]
+frequency = "122.305"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOGW_TWR"
+prefixes = ["LOGW"]
+frequency = "122.180"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOIH_TWR"
+prefixes = ["LOIH"]
+frequency = "121.205"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOIJ_TWR"
+prefixes = ["LOIJ"]
+frequency = "120.355"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOIK_TWR"
+prefixes = ["LOIK"]
+frequency = "122.380"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOIR_TWR"
+prefixes = ["LOIR"]
+frequency = "122.405"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOKF_TWR"
+prefixes = ["LOKF"]
+frequency = "122.705"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOKG_TWR"
+prefixes = ["LOKG"]
+frequency = "123.605"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOKH_TWR"
+prefixes = ["LOKH"]
+frequency = "122.080"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOKL_TWR"
+prefixes = ["LOKL"]
+frequency = "122.505"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOKM_TWR"
+prefixes = ["LOKM"]
+frequency = "122.855"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOKN_TWR"
+prefixes = ["LOKN"]
+frequency = "122.405"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOKR_TWR"
+prefixes = ["LOKR"]
+frequency = "122.180"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOKW_TWR"
+prefixes = ["LOKW"]
+frequency = "122.505"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLC_TWR"
+prefixes = ["LOLC"]
+frequency = "122.505"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLE_TWR"
+prefixes = ["LOLE"]
+frequency = "122.405"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLF_TWR"
+prefixes = ["LOLF"]
+frequency = "122.330"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLG_TWR"
+prefixes = ["LOLG"]
+frequency = "120.455"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLH_TWR"
+prefixes = ["LOLH"]
+frequency = "134.540"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLK_TWR"
+prefixes = ["LOLK"]
+frequency = "122.655"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLM_TWR"
+prefixes = ["LOLM"]
+frequency = "123.205"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLO_TWR"
+prefixes = ["LOLO"]
+frequency = "122.380"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLS_TWR"
+prefixes = ["LOLS"]
+frequency = "122.705"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLT_TWR"
+prefixes = ["LOLT"]
+frequency = "123.605"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLU_TWR"
+prefixes = ["LOLU"]
+frequency = "122.080"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOLW_TWR"
+prefixes = ["LOLW"]
+frequency = "119.705"
+facility_type = "TWR"
+profile_id = "LOVV"
+
+[[positions]]
+id = "LOSM_TWR"
+prefixes = ["LOSM"]
+frequency = "122.855"
+facility_type = "TWR"
+profile_id = "LOVV"

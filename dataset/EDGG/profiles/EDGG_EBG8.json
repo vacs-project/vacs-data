@@ -1,0 +1,136 @@
+{
+  "id": "EDGG_EBG8",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "EBG 8",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["BAD"],
+            "station_id": "EDGG-BAD"
+          },
+          {
+            "label": ["STG"],
+            "station_id": "EDGG-STG"
+          },
+          {
+            "label": ["EDDS", "TWR"],
+            "station_id": "EDGG-DST"
+          },
+          {
+            "label": ["EDDS", "GND"],
+            "station_id": "EDGG-DSG"
+          },
+          {
+            "label": ["EDDS", "DEL"],
+            "station_id": "EDGG-DSC"
+          },
+          {
+            "label": ["LBU"],
+            "station_id": "EDGG-LBU"
+          },
+          {
+            "label": ["REU"],
+            "station_id": "EDGG-REU"
+          },
+          {
+            "label": ["EDDS", "VFR", "TWR"],
+            "station_id": "EDGG-DSTV"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["NKRH"],
+            "station_id": "EDGG-NKRH"
+          },
+          {
+            "label": ["DSAT", "Feeder"],
+            "station_id": "EDGG-DSAT"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EDMM", "FUE"],
+            "station_id": "EDMM-FUE"
+          },
+          {
+            "label": ["EDGG", "NKRL"],
+            "station_id": "EDGG-NKRL"
+          },
+          {
+            "label": ["EDSB", "TWR"],
+            "station_id": "EDGG-SBT"
+          },
+          {
+            "label": ["EDSB", "GND"],
+            "station_id": "EDGG-SBG"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EDMM", "NDG"],
+            "station_id": "EDMM-NDG"
+          },
+          {
+            "label": ["EDGG", "PFA"],
+            "station_id": "EDGG-PFA"
+          },
+          {
+            "label": ["EDTL", "TWR"],
+            "station_id": "EDGG-TLT"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["LSAZ", "SZN"]
+          },
+          {
+            "label": ["LFST", "STA"]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["LSAZ", "SZE"]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 [remote.github]
-owner = "MorpheusXAUT"
+owner = "vacs-project"
 repo = "vacs-data"
 
 [changelog]
@@ -47,7 +47,7 @@ body = """
 
 """
 post_processors = [
-  { pattern = '<REPO>', replace = "https://github.com/MorpheusXAUT/vacs-data" },
+  { pattern = '<REPO>', replace = "https://github.com/vacs-project/vacs-data" },
 ]
 
 [git]

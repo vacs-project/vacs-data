@@ -1,0 +1,115 @@
+{
+  "id": "EDDW-APP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EID"],
+            "station_id": "EDWW-EID"
+          },
+          {
+            "label": ["EMS"],
+            "station_id": "EDWW-EMS"
+          },
+          {
+            "label": ["ETNT", "TWR"],
+            "station_id": "ETNT-TWR"
+          },
+          {
+            "label": ["EDWE", "INFO"],
+            "station_id": "EDWE-AFIS"
+          },
+          {
+            "label": ["FIS", "SW"]
+          },
+          {
+            "label": ["FIS", "DL"]
+          },
+          {
+            "label": ["ALR"],
+            "station_id": "EDWW-ALR"
+          },
+          {
+            "label": ["HRZ"],
+            "station_id": "EDWW-HRZ"
+          },
+          {
+            "label": ["ETNT", "APP"],
+            "station_id": "ETNT-APP"
+          },
+          {
+            "label": ["EDWI", "INFO"],
+            "station_id": "EDWI-AFIS"
+          },
+          {
+            "label": ["FIS", "DH"]
+          },
+          {
+            "label": ["FIS", "DV"]
+          },
+          {
+            "label": ["HEI"],
+            "station_id": "EDWW-HEI"
+          },
+          {
+            "label": ["HAN"],
+            "station_id": "EDWW-HAN"
+          },
+          {
+            "label": ["ETMN", "APP"],
+            "station_id": "ETMN-APP"
+          },
+          {
+            "label": ["EHGG", "APP"]
+          },
+          {
+            "label": ["EHMC"]
+          },
+          {
+            "label": ["TRAMON", "SUNRISE", "LONESHIP"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["TRAMON"]
+                },
+                {
+                  "label": ["SUNRISE"]
+                },
+                {
+                  "label": ["LONESHIP"]
+                }
+              ]
+            }
+          },
+          {
+            "label": ["HAN"],
+            "station_id": "EDWW-HAM"
+          },
+          {
+            "label": ["HAMW"],
+            "station_id": "EDWW-HAMW"
+          },
+          {
+            "label": ["DW", "TWR"],
+            "station_id": "EDDW-TWR"
+          },
+          {
+            "label": ["DW", "GND"],
+            "station_id": "EDDW-GND"
+          },
+          {
+            "label": ["EHAA", "EAST"]
+          },
+          {
+            "label": ["EDWW", "FMP"]
+          }
+        ]
+      }
+    }
+  ]
+}

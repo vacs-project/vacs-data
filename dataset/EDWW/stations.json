@@ -1,0 +1,582 @@
+{
+  "stations": [
+    {
+      "id": "EDWW-ALR",
+      "controlled_by": [
+        "EDWW_ALR_CTR",
+        "EDWW_HEI_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDWW-BOR",
+      "controlled_by": [
+        "EDWW_BOR_CTR",
+        "EDWW_FLG_CTR",
+        "EDWW_MAR_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDWW-EID",
+      "controlled_by": [
+        "EDWW_EID_CTR",
+        "EDWW_ALR_CTR",
+        "EDWW_HEI_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDWW-EMS",
+      "controlled_by": [
+        "EDWW_EMS_CTR",
+        "EDWW_HRZ_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDWW-FLG",
+      "controlled_by": [
+        "EDWW_FLG_CTR",
+        "EDWW_BOR_CTR",
+        "EDWW_MAR_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDWW-HEI",
+      "controlled_by": [
+        "EDWW_HEI_CTR",
+        "EDWW_ALR_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDWW-HRZ",
+      "controlled_by": [
+        "EDWW_HRZ_CTR",
+        "EDWW_EMS_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDWW-MAR",
+      "controlled_by": [
+        "EDWW_MAR_CTR",
+        "EDWW_MRZ_CTR",
+        "EDWW_BOR_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDWW-MRZ",
+      "controlled_by": ["EDWW_MRZ_CTR", "EDWW_MAR_CTR", "EDWW_CTR"]
+    },
+    {
+      "id": "EDUU-OSE12",
+      "controlled_by": [
+        "EDUU_O12_CTR",
+        "EDUU_H12_CTR",
+        "EDWW_MRZ_CTR",
+        "EDWW_MAR_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDUU-OSE22",
+      "controlled_by": [
+        "EDUU_O22_CTR",
+        "EDUU_O12_CTR",
+        "EDUU_H12_CTR",
+        "EDWW_MRZ_CTR",
+        "EDWW_MAR_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDUU-HVL12",
+      "controlled_by": [
+        "EDUU_H12_CTR",
+        "EDUU_O12_CTR",
+        "EDWW_BOR_CTR",
+        "EDWW_FLG_CTR",
+        "EDWW_MAR_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDUU-HVL22",
+      "controlled_by": [
+        "EDUU_O22_CTR",
+        "EDUU_H12_CTR",
+        "EDUU_O12_CTR",
+        "EDWW_BOR_CTR",
+        "EDWW_FLG_CTR",
+        "EDWW_MAR_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDYY-CH",
+      "controlled_by": [
+        "EDYY_CH_CTR",
+        "EDYY_SH_CTR",
+        "EDYY_MH_CTR",
+        "EDYY_CL_CTR",
+        "EDYY_SL_CTR",
+        "EDYY_ML_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EMS_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDYY-CL",
+      "controlled_by": [
+        "EDYY_CL_CTR",
+        "EDYY_CH_CTR",
+        "EDYY_SL_CTR",
+        "EDYY_SH_CTR",
+        "EDYY_ML_CTR",
+        "EDYY_MH_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EMS_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDYY-HH",
+      "controlled_by": [
+        "EDYY_HH_CTR",
+        "EDYY_JH_CTR",
+        "EDYY_HL_CTR",
+        "EDYY_JL_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EID_CTR",
+        "EDWW_ALR_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDYY-HL",
+      "controlled_by": [
+        "EDYY_HL_CTR",
+        "EDYY_HH_CTR",
+        "EDYY_JL_CTR",
+        "EDYY_JH_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EID_CTR",
+        "EDWW_ALR_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDYY-JH",
+      "controlled_by": [
+        "EDYY_JH_CTR",
+        "EDYY_HH_CTR",
+        "EDYY_JL_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EID_CTR",
+        "EDWW_ALR_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDYY-JL",
+      "controlled_by": [
+        "EDYY_JL_CTR",
+        "EDYY_JH_CTR",
+        "EDYY_HH_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EID_CTR",
+        "EDWW_ALR_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDYY-SH",
+      "controlled_by": [
+        "EDYY_SH_CTR",
+        "EDYY_CH_CTR",
+        "EDYY_MH_CTR",
+        "EDYY_SL_CTR",
+        "EDYY_CL_CTR",
+        "EDYY_ML_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EMS_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDYY-SL",
+      "controlled_by": [
+        "EDYY_SL_CTR",
+        "EDYY_SH_CTR",
+        "EDYY_CL_CTR",
+        "EDYY_CH_CTR",
+        "EDYY_ML_CTR",
+        "EDYY_MH_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EMS_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
+      ]
+    },
+    {
+      "id": "EDWW-DBANT",
+      "controlled_by": ["EDDB_AN_APP", "EDDB_AS_APP"],
+      "parent_id": "EDWW-DBAN"
+    },
+    {
+      "id": "EDWW-DBAST",
+      "controlled_by": ["EDDB_AS_APP", "EDDB_AN_APP"],
+      "parent_id": "EDWW-DBAS"
+    },
+    {
+      "id": "EDWW-DBAN",
+      "controlled_by": ["EDDB_N_APP", "EDDB_S_APP"],
+      "parent_id": "EDWW-FLG"
+    },
+    {
+      "id": "EDWW-DBAS",
+      "controlled_by": ["EDDB_S_APP", "EDDB_N_APP"],
+      "parent_id": "EDWW-FLG"
+    },
+    {
+      "id": "EDWW-DBDN",
+      "controlled_by": ["EDDB_N_DEP", "EDDB_S_DEP"],
+      "parent_id": "EDWW-DBAS"
+    },
+    {
+      "id": "EDWW-DBDS",
+      "controlled_by": ["EDDB_S_DEP", "EDDB_N_DEP"],
+      "parent_id": "EDWW-DBAS"
+    },
+    {
+      "id": "EDWW-HAM",
+      "controlled_by": ["EDDH_APP"],
+      "parent_id": "EDWW-HEI"
+    },
+    {
+      "id": "EDWW-DHAT",
+      "controlled_by": ["EDDH_A_APP"],
+      "parent_id": "EDWW-HAM"
+    },
+    {
+      "id": "EDWW-HAMW",
+      "controlled_by": ["EDDH_W_APP"],
+      "parent_id": "EDWW-HAM"
+    },
+    {
+      "id": "EDWW-HAN",
+      "controlled_by": ["EDDV_APP"],
+      "parent_id": "EDWW-HRZ"
+    },
+    {
+      "id": "EDWW-DVAT",
+      "controlled_by": ["EDDV_A_APP"],
+      "parent_id": "EDWW-HAN"
+    },
+    {
+      "id": "EDWW-FRI",
+      "controlled_by": ["EDDW_APP"],
+      "parent_id": "EDWW-EID"
+    },
+    {
+      "id": "EDDB-TWR_N",
+      "controlled_by": ["EDDB_N_TWR", "EDDB_S_TWR"],
+      "parent_id": "EDWW-DBAS"
+    },
+    {
+      "id": "EDDB-TWR_S",
+      "controlled_by": ["EDDB_S_TWR", "EDDB_N_TWR"],
+      "parent_id": "EDWW-DBAS"
+    },
+    {
+      "id": "EDDH-TWR",
+      "controlled_by": ["EDDH_TWR", "EDDH_VFR_TWR"],
+      "parent_id": "EDWW-HAM"
+    },
+    {
+      "id": "EDDH-TWR_VFR",
+      "controlled_by": ["EDDH_VFR_TWR", "EDDH_TWR"],
+      "parent_id": "EDWW-HAM"
+    },
+    {
+      "id": "EDDV-TWR",
+      "controlled_by": ["EDDV_TWR"],
+      "parent_id": "EDWW-HAN"
+    },
+    {
+      "id": "EDDW-TWR",
+      "controlled_by": ["EDDW_TWR"],
+      "parent_id": "EDWW-FRI"
+    },
+    {
+      "id": "EDDB-GND_A",
+      "controlled_by": ["EDDB_A_GND", "EDDB_E_GND"],
+      "parent_id": "EDDB-GND_S"
+    },
+    {
+      "id": "EDDB-GND_E",
+      "controlled_by": ["EDDB_E_GND", "EDDB_A_GND"],
+      "parent_id": "EDDB-GND_N"
+    },
+    {
+      "id": "EDDB-GND_ICE",
+      "controlled_by": ["EDDB_ICE_GND"]
+    },
+    {
+      "id": "EDDB-GND_N",
+      "controlled_by": ["EDDB_N_GND", "EDDB_S_GND"],
+      "parent_id": "EDDB-TWR_N"
+    },
+    {
+      "id": "EDDB-GND_S",
+      "controlled_by": ["EDDB_S_GND", "EDDB_N_GND"],
+      "parent_id": "EDDB-TWR_S"
+    },
+    {
+      "id": "EDDH-GND_E",
+      "controlled_by": ["EDDH_E_GND", "EDDH_W_GND"],
+      "parent_id": "EDDH-TWR"
+    },
+    {
+      "id": "EDDH-GND_W",
+      "controlled_by": ["EDDH_W_GND", "EDDH_E_GND"],
+      "parent_id": "EDDH-TWR"
+    },
+    {
+      "id": "EDDV-GND",
+      "controlled_by": ["EDDV_GND"],
+      "parent_id": "EDDV-TWR"
+    },
+    {
+      "id": "EDDW-GND",
+      "controlled_by": ["EDDW_GND"],
+      "parent_id": "EDDW-TWR"
+    },
+    {
+      "id": "EDDB-DEL",
+      "controlled_by": ["EDDB_DEL"],
+      "parent_id": "EDDB-GND_A"
+    },
+    {
+      "id": "EDDH-DEL",
+      "controlled_by": ["EDDH_DEL"],
+      "parent_id": "EDDH-GND_E"
+    },
+    {
+      "id": "EDDV-DEL",
+      "controlled_by": ["EDDV_DEL"],
+      "parent_id": "EDDV-GND"
+    },
+    {
+      "id": "ETHB-APP",
+      "controlled_by": ["ETHB_APP", "ETNW_APP"]
+    },
+    {
+      "id": "ETHB-TWR",
+      "controlled_by": ["ETHB_TWR", "ETHB_APP", "ETNW_APP"],
+      "parent_id": "EDWW-HAN"
+    },
+    {
+      "id": "ETHC-APP",
+      "controlled_by": ["ETHC_APP"]
+    },
+    {
+      "id": "ETHC-TWR",
+      "controlled_by": ["ETHC_TWR", "ETHC_APP"],
+      "parent_id": "EDWW-HAN"
+    },
+    {
+      "id": "ETHS-APP",
+      "controlled_by": ["ETHS_APP", "ETHC_APP"]
+    },
+    {
+      "id": "ETHS-TWR",
+      "controlled_by": ["ETHS_TWR", "ETHS_APP", "ETHC_APP"],
+      "parent_id": "EDWW-HAN"
+    },
+    {
+      "id": "ETMN-APP",
+      "controlled_by": ["ETMN_APP", "ETNT_APP"]
+    },
+    {
+      "id": "ETMN-TWR",
+      "controlled_by": ["ETMN_TWR", "ETMN_APP", "ETNT_APP"],
+      "parent_id": "EDWW-EID"
+    },
+    {
+      "id": "ETND-TWR",
+      "controlled_by": ["ETND_TWR"],
+      "parent_id": "EDWW-EMS"
+    },
+    {
+      "id": "ETNH-APP",
+      "controlled_by": ["ETNH_APP", "ETNH_P_APP", "ETNS_APP", "ETNS_P_APP"]
+    },
+    {
+      "id": "ETNH-APP_P",
+      "controlled_by": ["ETNH_P_APP", "ETNH_APP", "ETNS_APP", "ETNS_P_APP"]
+    },
+    {
+      "id": "ETNH-TWR",
+      "controlled_by": [
+        "ETNH_TWR",
+        "ETNH_APP",
+        "ETNH_P_APP",
+        "ETNS_APP",
+        "ETNS_P_APP"
+      ],
+      "parent_id": "EDWW-EID"
+    },
+    {
+      "id": "ETNL-APP",
+      "controlled_by": ["ETNL_APP", "ETNL_P_APP"]
+    },
+    {
+      "id": "ETNL-APP_P",
+      "controlled_by": ["ETNL_P_APP", "ETNL_APP"]
+    },
+    {
+      "id": "ETNL-TWR",
+      "controlled_by": ["ETNL_TWR", "ETNL_APP", "ETNL_P_APP"],
+      "parent_id": "EDWW-MRZ"
+    },
+    {
+      "id": "ETNL-GND",
+      "controlled_by": ["ETNL_A_GND"],
+      "parent_id": "ETNL-TWR"
+    },
+    {
+      "id": "ETNS-APP",
+      "controlled_by": ["ETNS_APP", "ETNS_P_APP"]
+    },
+    {
+      "id": "ETNS-APP_P",
+      "controlled_by": ["ETNS_P_APP", "ETNS_APP"]
+    },
+    {
+      "id": "ETNS-TWR",
+      "controlled_by": ["ETNS_TWR", "ETNS_APP", "ETNS_P_APP"],
+      "parent_id": "EDWW-EID"
+    },
+    {
+      "id": "ETNT-APP",
+      "controlled_by": ["ETNT_APP"]
+    },
+    {
+      "id": "ETNT-TWR",
+      "controlled_by": ["ETNT_TWR", "ETNT_APP"],
+      "parent_id": "EDWW-EID"
+    },
+    {
+      "id": "ETNW-APP",
+      "controlled_by": ["ETNW_APP"]
+    },
+    {
+      "id": "ETNW-TWR",
+      "controlled_by": ["ETNW_TWR", "ETNW_APP"],
+      "parent_id": "EDWW-EMS"
+    },
+    {
+      "id": "ETSH-APP",
+      "controlled_by": ["ETSH_APP"]
+    },
+    {
+      "id": "ETSH-TWR",
+      "controlled_by": ["ETSH_TWR", "ETSH_APP"],
+      "parent_id": "EDWW-DBAS"
+    },
+    {
+      "id": "EDAH-TWR",
+      "controlled_by": ["EDAH_TWR"],
+      "parent_id": "EDWW-MRZ"
+    },
+    {
+      "id": "EDHI-TWR",
+      "controlled_by": ["EDHI_TWR"],
+      "parent_id": "EDWW-HAM"
+    },
+    {
+      "id": "EDHL-TWR",
+      "controlled_by": ["EDHL_TWR"],
+      "parent_id": "EDWW-HAM"
+    },
+    {
+      "id": "EDHL-GND",
+      "controlled_by": ["EDHL_GND"],
+      "parent_id": "EDHL-TWR"
+    },
+    {
+      "id": "EDVE-TWR",
+      "controlled_by": ["EDVE_TWR"],
+      "parent_id": "EDWW-HAN"
+    },
+    {
+      "id": "EDVK-TWR",
+      "controlled_by": ["EDVK_TWR"],
+      "parent_id": "EDWW-HRZ"
+    },
+    {
+      "id": "EDVK-GND",
+      "controlled_by": ["EDVK_GND"],
+      "parent_id": "EDVK-TWR"
+    },
+    {
+      "id": "EDXW-TWR",
+      "controlled_by": ["EDXW_TWR"],
+      "parent_id": "EDWW-EID"
+    },
+    {
+      "id": "EDAY-AFIS",
+      "controlled_by": ["EDAY_I_TWR"]
+    },
+    {
+      "id": "EDAZ-AFIS",
+      "controlled_by": ["EDAZ_I_TWR"]
+    },
+    {
+      "id": "EDBC-AFIS",
+      "controlled_by": ["EDBC_I_TWR"]
+    },
+    {
+      "id": "EDBH-AFIS",
+      "controlled_by": ["EDBH_I_TWR"]
+    },
+    {
+      "id": "EDBM-AFIS",
+      "controlled_by": ["EDBM_I_TWR"]
+    },
+    {
+      "id": "EDBN-AFIS",
+      "controlled_by": ["EDBN_I_TWR"]
+    },
+    {
+      "id": "EDHK-AFIS",
+      "controlled_by": ["EDHK_I_TWR"]
+    },
+    {
+      "id": "EDWE-AFIS",
+      "controlled_by": ["EDWE_I_TWR"]
+    },
+    {
+      "id": "EDWI-AFIS",
+      "controlled_by": ["EDWI_I_TWR"]
+    }
+  ]
+}

@@ -1,0 +1,1364 @@
+{
+  "positions": [
+    {
+      "id": "LIBB_ES3_CTR",
+      "prefixes": ["LIBB"],
+      "frequency": "128.300",
+      "facility_type": "CTR"
+    },
+    {
+      "id": "LIBB_I_CTR",
+      "prefixes": ["LIBB"],
+      "frequency": "131.125",
+      "facility_type": "CTR"
+    },
+    {
+      "id": "LIBA_APP",
+      "prefixes": ["LIBA"],
+      "frequency": "118.855",
+      "facility_type": "APP"
+    },
+    {
+      "id": "LIBG_APP",
+      "prefixes": ["LIBG"],
+      "frequency": "118.700",
+      "facility_type": "APP"
+    },
+    {
+      "id": "LIBN_APP",
+      "prefixes": ["LIBA"],
+      "frequency": "118.955",
+      "facility_type": "APP"
+    },
+    {
+      "id": "LIBP_APP",
+      "prefixes": ["LIBP"],
+      "frequency": "120.050",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIBR_CS0_APP",
+      "prefixes": ["LIBR"],
+      "frequency": "118.750",
+      "facility_type": "APP"
+    },
+    {
+      "id": "LIBA_TWR",
+      "prefixes": ["LIBA"],
+      "frequency": "118.205",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LIBC_I_TWR",
+      "prefixes": ["LIBC"],
+      "frequency": "119.105",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIBD_TWR",
+      "prefixes": ["LIBD"],
+      "frequency": "118.300",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LIBF_I_TWR",
+      "prefixes": ["LIBF"],
+      "frequency": "120.100",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LIBG_TWR",
+      "prefixes": ["LIBG"],
+      "frequency": "118.700",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LIBN_TWR",
+      "prefixes": ["LIBN"],
+      "frequency": "119.555",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LIBP_TWR",
+      "prefixes": ["LIBP"],
+      "frequency": "118.450",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIBR_TWR",
+      "prefixes": ["LIBR"],
+      "frequency": "118.100",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LIMM_DCP_FMP",
+      "prefixes": ["LIMM"],
+      "frequency": "136.985",
+      "facility_type": "FMP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_EN2_CTR",
+      "prefixes": ["LIMM"],
+      "frequency": "127.450",
+      "facility_type": "CTR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_ES2_CTR",
+      "prefixes": ["LIMM"],
+      "frequency": "130.730",
+      "facility_type": "CTR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_ES5_CTR",
+      "prefixes": ["LIMM"],
+      "frequency": "136.035",
+      "facility_type": "CTR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_WN2_CTR",
+      "prefixes": ["LIMM"],
+      "frequency": "128.015",
+      "facility_type": "CTR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_WS2_CTR",
+      "prefixes": ["LIMM"],
+      "frequency": "135.455",
+      "facility_type": "CTR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_WS5_CTR",
+      "prefixes": ["LIMM"],
+      "frequency": "122.730",
+      "facility_type": "CTR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_U_CTR",
+      "prefixes": ["LIMM"],
+      "frequency": "132.905",
+      "facility_type": "CTR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMF_WN0_APP",
+      "prefixes": ["LIMF"],
+      "frequency": "129.275",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMJ_APP",
+      "prefixes": ["LIMJ"],
+      "frequency": "119.600",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_ADE_APP",
+      "prefixes": ["LIMM"],
+      "frequency": "126.300",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_ANE_APP",
+      "prefixes": ["LIMM"],
+      "frequency": "126.750",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_ANW_APP",
+      "prefixes": ["LIMM"],
+      "frequency": "134.175",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_ASW_APP",
+      "prefixes": ["LIMM"],
+      "frequency": "125.630",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_I_APP",
+      "prefixes": ["LIMM"],
+      "frequency": "124.925",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_LAR_APP",
+      "prefixes": ["LIMM"],
+      "frequency": "133.180",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_MAP_APP",
+      "prefixes": ["LIMM"],
+      "frequency": "118.805",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMM_MAR_APP",
+      "prefixes": ["LIMM"],
+      "frequency": "132.705",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMP_APP",
+      "prefixes": ["LIMP"],
+      "frequency": "127.575",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIPX_ES0_APP",
+      "prefixes": ["LIPX"],
+      "frequency": "135.900",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIPX_EE1_APP",
+      "prefixes": ["LIPX"],
+      "frequency": "130.180",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LILE_I_TWR",
+      "prefixes": ["LILE"],
+      "frequency": "123.050",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LILI_I_TWR",
+      "prefixes": ["LILI"],
+      "frequency": "118.855",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LILN_I_TWR",
+      "prefixes": ["LILN"],
+      "frequency": "128.555",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMA_I_TWR",
+      "prefixes": ["LIMA"],
+      "frequency": "119.800",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMB_I_TWR",
+      "prefixes": ["LIMB"],
+      "frequency": "122.005",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMC_TWR",
+      "prefixes": ["LIMC"],
+      "frequency": "128.350",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMC_E_TWR",
+      "prefixes": ["LIMC"],
+      "frequency": "123.600",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIME_TWR",
+      "prefixes": ["LIME"],
+      "frequency": "125.875",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMF_TWR",
+      "prefixes": ["LIMF"],
+      "frequency": "118.500",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMG_I_TWR",
+      "prefixes": ["LIMG"],
+      "frequency": "123.850",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMJ_TWR",
+      "prefixes": ["LIMJ"],
+      "frequency": "118.600",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIML_TWR",
+      "prefixes": ["LIML"],
+      "frequency": "118.400",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMP_TWR",
+      "prefixes": ["LIMP"],
+      "frequency": "118.450",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMW_I_TWR",
+      "prefixes": ["LIMW"],
+      "frequency": "119.955",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMZ_TWR",
+      "prefixes": ["LIMZ"],
+      "frequency": "119.550",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIPX_TWR",
+      "prefixes": ["LIPX"],
+      "frequency": "118.650",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIPO_TWR",
+      "prefixes": ["LIPO"],
+      "frequency": "119.405",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMC_N_GND",
+      "prefixes": ["LIMC"],
+      "frequency": "121.825",
+      "facility_type": "GND",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMC_W_GND",
+      "prefixes": ["LIMC"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIME_GND",
+      "prefixes": ["LIME"],
+      "frequency": "120.505",
+      "facility_type": "GND",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMF_GND",
+      "prefixes": ["LIMF"],
+      "frequency": "121.705",
+      "facility_type": "GND",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIML_GND",
+      "prefixes": ["LIML"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIPX_GND",
+      "prefixes": ["LIPX"],
+      "frequency": "121.755",
+      "facility_type": "GND",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMC_DEL",
+      "prefixes": ["LIMC"],
+      "frequency": "120.900",
+      "facility_type": "DEL",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIMC_O_DEL",
+      "prefixes": ["LIMC"],
+      "frequency": "131.880",
+      "facility_type": "DEL",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIME_DEL",
+      "prefixes": ["LIME"],
+      "frequency": "134.105",
+      "facility_type": "DEL",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIML_DEL",
+      "prefixes": ["LIML"],
+      "frequency": "119.250",
+      "facility_type": "DEL",
+      "profile_id": "LIMM"
+    },
+    {
+      "id": "LIPP_FMP",
+      "prefixes": ["LIPP"],
+      "frequency": "136.985",
+      "facility_type": "FMP",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_CE1_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "120.725",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_CW2_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "128.575",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_CW3_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "125.485",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_MIL_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "136.475",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_NE2_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "130.525",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_NE3_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "132.860",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_NE6_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "134.390",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_NE8_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "127.380",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_NW1_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "125.900",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_SD2_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "133.940",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_SD3_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "133.705",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_SD5_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "136.465",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_SD7_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "133.305",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_SW1_CTR",
+      "prefixes": ["LIPP"],
+      "frequency": "134.750",
+      "facility_type": "CTR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPA_APP",
+      "prefixes": ["LIPA"],
+      "frequency": "120.975",
+      "facility_type": "APP",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPE_W_APP",
+      "prefixes": ["LIPE"],
+      "frequency": "118.150",
+      "facility_type": "APP",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPE_E_APP",
+      "prefixes": ["LIPE"],
+      "frequency": "133.775",
+      "facility_type": "APP",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPH_APP",
+      "prefixes": ["LIPH"],
+      "frequency": "120.405",
+      "facility_type": "APP",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPP_I_APP",
+      "prefixes": ["LIPP"],
+      "frequency": "124.150",
+      "facility_type": "APP",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPQ_CE0_APP",
+      "prefixes": ["LIPQ"],
+      "frequency": "119.175",
+      "facility_type": "APP",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPY_APP",
+      "prefixes": ["LIPY"],
+      "frequency": "125.325",
+      "facility_type": "APP",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPZ_SE0_APP",
+      "prefixes": ["LIPZ"],
+      "frequency": "118.900",
+      "facility_type": "APP",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPA_TWR",
+      "prefixes": ["LIPA"],
+      "frequency": "134.100",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPB_I_TWR",
+      "prefixes": ["LIPB"],
+      "frequency": "120.600",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPE_TWR",
+      "prefixes": ["LIPE"],
+      "frequency": "120.800",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPH_TWR",
+      "prefixes": ["LIPH"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPK_TWR",
+      "prefixes": ["LIPK"],
+      "frequency": "119.750",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPN_I_TWR",
+      "prefixes": ["LIPN"],
+      "frequency": "125.255",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPQ_TWR",
+      "prefixes": ["LIPQ"],
+      "frequency": "130.205",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPR_TWR",
+      "prefixes": ["LIPR"],
+      "frequency": "131.225",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPU_I_TWR",
+      "prefixes": ["LIPU"],
+      "frequency": "123.250",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPV_I_TWR",
+      "prefixes": ["LIPV"],
+      "frequency": "118.525",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPY_TWR",
+      "prefixes": ["LIPY"],
+      "frequency": "119.805",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPZ_TWR",
+      "prefixes": ["LIPZ"],
+      "frequency": "120.200",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPA_GND",
+      "prefixes": ["LIPA"],
+      "frequency": "122.100",
+      "facility_type": "GND",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPE_GND",
+      "prefixes": ["LIPE"],
+      "frequency": "121.925",
+      "facility_type": "GND",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPZ_GND",
+      "prefixes": ["LIPZ"],
+      "frequency": "121.705",
+      "facility_type": "GND",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIPZ_DEL",
+      "prefixes": ["LIPZ"],
+      "frequency": "118.255",
+      "facility_type": "DEL",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIDT_I_TWR",
+      "prefixes": ["LIDT"],
+      "frequency": "119.655",
+      "facility_type": "TWR",
+      "profile_id": "LIPP"
+    },
+    {
+      "id": "LIRR_COO_FMP",
+      "prefixes": ["LIRR"],
+      "frequency": "136.975",
+      "facility_type": "FMP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_ND1_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "131.200",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_ES1_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "133.250",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIRR_SU1_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "128.800",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIRR_EW1_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "127.125",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIRR_EE3_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "132.525",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIRR_NE1_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "124.200",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_NW1_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "124.800",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_TS1_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "127.350",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_NN1_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "134.900",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_OV1_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "123.415",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_US2_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "128.750",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_SU7_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "132.855",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIRR_EW7_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "134.780",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIRR_NE7_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "132.840",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_NW7_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "121.315",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LICA_ES0_APP",
+      "prefixes": ["LICA"],
+      "frequency": "118.800",
+      "facility_type": "APP",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICC_APP",
+      "prefixes": ["LICC"],
+      "frequency": "119.250",
+      "facility_type": "APP",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICD_APP",
+      "prefixes": ["LICD"],
+      "frequency": "118.030",
+      "facility_type": "APP",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICG_APP",
+      "prefixes": ["LICG"],
+      "frequency": "119.350",
+      "facility_type": "APP",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICJ_APP",
+      "prefixes": ["LICJ"],
+      "frequency": "120.200",
+      "facility_type": "APP",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICR_APP",
+      "prefixes": ["LICR"],
+      "frequency": "120.275",
+      "facility_type": "APP",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICT_APP",
+      "prefixes": ["LICT"],
+      "frequency": "119.950",
+      "facility_type": "APP",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIEE_APP",
+      "prefixes": ["LIEE"],
+      "frequency": "119.275",
+      "facility_type": "APP",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIEO_EW0_APP",
+      "prefixes": ["LIEO"],
+      "frequency": "125.950",
+      "facility_type": "APP",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIRH_APP",
+      "prefixes": ["LIRH"],
+      "frequency": "122.600",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRL_APP",
+      "prefixes": ["LIRL"],
+      "frequency": "126.550",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRN_US0_APP",
+      "prefixes": ["LIRN"],
+      "frequency": "124.350",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRN_US1_APP",
+      "prefixes": ["LIRN"],
+      "frequency": "134.200",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRP_APP",
+      "prefixes": ["LIRP"],
+      "frequency": "126.080",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRQ_NN0_APP",
+      "prefixes": ["LIRQ"],
+      "frequency": "130.875",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_I_APP",
+      "prefixes": ["LIRR"],
+      "frequency": "119.075",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_TW1_APP",
+      "prefixes": ["LIRR"],
+      "frequency": "125.500",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_AEM_APP",
+      "prefixes": ["LIRR"],
+      "frequency": "131.250",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_AET_APP",
+      "prefixes": ["LIRR"],
+      "frequency": "127.950",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_AWL_APP",
+      "prefixes": ["LIRR"],
+      "frequency": "119.200",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRS_APP",
+      "prefixes": ["LIRS"],
+      "frequency": "124.525",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRV_APP",
+      "prefixes": ["LIRV"],
+      "frequency": "119.680",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRZ_APP",
+      "prefixes": ["LIRZ"],
+      "frequency": "125.600",
+      "facility_type": "APP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_PN1_DEP",
+      "prefixes": ["LIRR"],
+      "frequency": "130.900",
+      "facility_type": "DEP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_PS1_DEP",
+      "prefixes": ["LIRR"],
+      "frequency": "131.100",
+      "facility_type": "DEP",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIAP_I_TWR",
+      "prefixes": ["LIAP"],
+      "frequency": "122.500",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LICA_TWR",
+      "prefixes": ["LICA"],
+      "frequency": "125.900",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICB_TWR",
+      "prefixes": ["LICB"],
+      "frequency": "125.275",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICC_TWR",
+      "prefixes": ["LICC"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICD_TWR",
+      "prefixes": ["LICD"],
+      "frequency": "123.500",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICG_TWR",
+      "prefixes": ["LICG"],
+      "frequency": "118.450",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICJ_TWR",
+      "prefixes": ["LICJ"],
+      "frequency": "119.050",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICP_I_TWR",
+      "prefixes": ["LICP"],
+      "frequency": "122.600",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICR_TWR",
+      "prefixes": ["LICR"],
+      "frequency": "118.250",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICT_TWR",
+      "prefixes": ["LICT"],
+      "frequency": "119.730",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICZ_TWR",
+      "prefixes": ["LICZ"],
+      "frequency": "118.055",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIEA_TWR",
+      "prefixes": ["LIEA"],
+      "frequency": "118.850",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIED_TWR",
+      "prefixes": ["LIED"],
+      "frequency": "122.100",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIEE_TWR",
+      "prefixes": ["LIEE"],
+      "frequency": "120.605",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIEO_TWR",
+      "prefixes": ["LIEO"],
+      "frequency": "118.975",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIER_I_TWR",
+      "prefixes": ["LIER"],
+      "frequency": "122.600",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIET_I_TWR",
+      "prefixes": ["LIET"],
+      "frequency": "119.650",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIQN_I_TWR",
+      "prefixes": ["LIQN"],
+      "frequency": "123.050",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIQS_I_TWR",
+      "prefixes": ["LIQS"],
+      "frequency": "122.600",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRA_TWR",
+      "prefixes": ["LIRA"],
+      "frequency": "120.500",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRE_TWR",
+      "prefixes": ["LIRE"],
+      "frequency": "118.050",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRF_E_TWR",
+      "prefixes": ["LIRF"],
+      "frequency": "127.625",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRF_TWR",
+      "prefixes": ["LIRF"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRG_TWR",
+      "prefixes": ["LIRG"],
+      "frequency": "122.200",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRH_TWR",
+      "prefixes": ["LIRH"],
+      "frequency": "119.350",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRI_I_TWR",
+      "prefixes": ["LIRI"],
+      "frequency": "119.175",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRJ_I_TWR",
+      "prefixes": ["LIRJ"],
+      "frequency": "123.700",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRL_TWR",
+      "prefixes": ["LIRL"],
+      "frequency": "119.150",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRM_TWR",
+      "prefixes": ["LIRM"],
+      "frequency": "118.025",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRN_TWR",
+      "prefixes": ["LIRN"],
+      "frequency": "118.500",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRP_TWR",
+      "prefixes": ["LIRP"],
+      "frequency": "118.755",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRQ_TWR",
+      "prefixes": ["LIRQ"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRS_TWR",
+      "prefixes": ["LIRS"],
+      "frequency": "128.105",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRU_TWR",
+      "prefixes": ["LIRU"],
+      "frequency": "123.800",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRV_TWR",
+      "prefixes": ["LIRV"],
+      "frequency": "127.150",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRZ_TWR",
+      "prefixes": ["LIRZ"],
+      "frequency": "118.105",
+      "facility_type": "TWR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LICC_GND",
+      "prefixes": ["LICC"],
+      "frequency": "129.725",
+      "facility_type": "GND",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICJ_GND",
+      "prefixes": ["LICJ"],
+      "frequency": "121.625",
+      "facility_type": "GND",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LICZ_GND",
+      "prefixes": ["LICZ"],
+      "frequency": "121.955",
+      "facility_type": "GND",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIEE_GND",
+      "prefixes": ["LIEE"],
+      "frequency": "125.430",
+      "facility_type": "GND",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIEO_GND",
+      "prefixes": ["LIEO"],
+      "frequency": "121.950",
+      "facility_type": "GND",
+      "profile_id": "LIRR-SOUTH"
+    },
+    {
+      "id": "LIRA_GND",
+      "prefixes": ["LIRA"],
+      "frequency": "121.750",
+      "facility_type": "GND",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRE_GND",
+      "prefixes": ["LIRE"],
+      "frequency": "121.600",
+      "facility_type": "GND",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRF_E_GND",
+      "prefixes": ["LIRF"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRF_W_GND",
+      "prefixes": ["LIRF"],
+      "frequency": "122.125",
+      "facility_type": "GND",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRN_GND",
+      "prefixes": ["LIRN"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRP_GND",
+      "prefixes": ["LIRP"],
+      "frequency": "120.080",
+      "facility_type": "GND",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRU_GND",
+      "prefixes": ["LIRU"],
+      "frequency": "122.700",
+      "facility_type": "GND",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRF_DEL",
+      "prefixes": ["LIRF"],
+      "frequency": "121.800",
+      "facility_type": "DEL",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRF_P_DEL",
+      "prefixes": ["LIRF"],
+      "frequency": "121.725",
+      "facility_type": "DEL",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRN_P_DEL",
+      "prefixes": ["LIRN"],
+      "frequency": "131.675",
+      "facility_type": "DEL",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LSZA_TWR",
+      "prefixes": ["LSZA"],
+      "frequency": "120.250",
+      "facility_type": "TWR",
+      "profile_id": "LIMM"
+    }
+  ]
+}

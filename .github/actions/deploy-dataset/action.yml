@@ -1,0 +1,57 @@
+name: Deploy Dataset
+description: Authenticate via OIDC and trigger a dataset reload on the vacs server
+
+inputs:
+  oidc-audience:
+    description: OIDC audience for the token request
+    required: true
+  server-url:
+    description: Base URL of the vacs server
+    required: true
+  git-ref:
+    description: Git ref to download (tag, branch, or commit SHA)
+    required: true
+  commit-sha:
+    description: Resolved commit SHA used as the version marker
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Get OIDC token
+      id: oidc
+      shell: bash
+      run: |
+        if [[ -z "$ACTIONS_ID_TOKEN_REQUEST_TOKEN" || -z "$ACTIONS_ID_TOKEN_REQUEST_URL" ]]; then
+          echo "::error::OIDC token request environment variables are not set. Ensure the job has 'id-token: write' permission."
+          exit 1
+        fi
+
+        RESPONSE=$(curl -sSf \
+          -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+          "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=${{ inputs.oidc-audience }}")
+
+        TOKEN=$(echo "$RESPONSE" | jq -r '.value')
+
+        if [[ -z "$TOKEN" || "$TOKEN" == "null" ]]; then
+          echo "::error::OIDC token request returned an empty or null token"
+          exit 1
+        fi
+
+        echo "::add-mask::$TOKEN"
+        echo "token=$TOKEN" >> "$GITHUB_OUTPUT"
+
+    - name: Trigger dataset reload
+      shell: bash
+      run: |
+        if ! response=$(curl -sS --fail-with-body \
+          -X POST \
+          -H "Authorization: Bearer ${{ steps.oidc.outputs.token }}" \
+          -H "Content-Type: application/json" \
+          -d '{"ref": "${{ inputs.git-ref }}", "sha": "${{ inputs.commit-sha }}"}' \
+          "${{ inputs.server-url }}/admin/dataset/reload"); then
+          echo "::error::Dataset reload failed: $response"
+          exit 1
+        fi
+
+        echo "Dataset reload triggered successfully"

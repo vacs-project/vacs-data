@@ -467,22 +467,13 @@ controlled_by = ["EPDE_APP"]
 
 [[stations]]
 id = "EPGD_GND"
-controlled_by = [
-  "EPGD_GND",
-  "EPGD_TWR",
-  "EPGD_L_APP",
-  "EPGD_APP",
-  "EPWW_G_CTR",
-  "EPWW_FG_CTR",
-  "EPWW_N_CTR",
-  "EPWW_DBF_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPGD_TWR"
+controlled_by = ["EPGD_GND"]
 
 [[stations]]
 id = "EPGD_TWR"
 controlled_by = [
+  "EPGD_GND",
   "EPGD_TWR",
   "EPGD_L_APP",
   "EPGD_APP",
@@ -541,6 +532,16 @@ controlled_by = ["EPKA_R_TWR", "EPKK_I_APP", "EPWW_I_CTR"]
 
 [[stations]]
 id = "EPKK_DEL"
+parent_id = "EPKK_GND"
+controlled_by = ["EPKK_DEL"]
+
+[[stations]]
+id = "EPKK_GND"
+parent_id = "EPKK_TWR"
+controlled_by = ["EPKK_GND"]
+
+[[stations]]
+id = "EPKK_TWR"
 controlled_by = [
   "EPKK_DEL",
   "EPKK_GND",
@@ -557,53 +558,9 @@ controlled_by = [
 ]
 
 [[stations]]
-id = "EPKK_GND"
-controlled_by = [
-  "EPKK_GND",
-  "EPKK_TWR",
-  "EPKK_KK_APP",
-  "EPKK_APP",
-  "EPWW_J_CTR",
-  "EPWW_JR_CTR",
-  "EPWW_S_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_E_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
-
-[[stations]]
-id = "EPKK_TWR"
-controlled_by = [
-  "EPKK_TWR",
-  "EPKK_KK_APP",
-  "EPKK_APP",
-  "EPWW_J_CTR",
-  "EPWW_JR_CTR",
-  "EPWW_S_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_E_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
-
-[[stations]]
-id = "EPKK_TMA_E"
-controlled_by = [
-  "EPKK_E_APP",
-  "EPKK_APP",
-  "EPWW_J_CTR",
-  "EPWW_JR_CTR",
-  "EPWW_S_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_E_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
-
-[[stations]]
 id = "EPKK_DIR"
 controlled_by = [
+  "EPKK_TWR",
   "EPKK_KK_APP",
   "EPKK_E_APP",
   "EPKK_APP",
@@ -645,6 +602,20 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "EPKK_TMA_E"
+controlled_by = [
+  "EPKK_E_APP",
+  "EPKK_APP",
+  "EPWW_J_CTR",
+  "EPWW_JR_CTR",
+  "EPWW_S_CTR",
+  "EPWW_TCJ_CTR",
+  "EPWW_E_CTR",
+  "EPWW_ALL_CTR",
+  "EPWW_ALH_CTR",
+]
+
+[[stations]]
 id = "EPKK_FIS"
 controlled_by = ["EPKK_I_APP", "EPWW_I_CTR"]
 
@@ -670,38 +641,19 @@ controlled_by = ["EPKS_TWR"]
 
 [[stations]]
 id = "EPKT_DEL"
-controlled_by = [
-  "EPKT_DEL",
-  "EPKT_GND",
-  "EPKT_TWR",
-  "EPKK_APP",
-  "EPWW_J_CTR",
-  "EPWW_JR_CTR",
-  "EPWW_S_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_E_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPKT_GND"
+controlled_by = ["EPKT_DEL"]
 
 [[stations]]
 id = "EPKT_GND"
-controlled_by = [
-  "EPKT_GND",
-  "EPKT_TWR",
-  "EPKK_APP",
-  "EPWW_J_CTR",
-  "EPWW_JR_CTR",
-  "EPWW_S_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_E_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPKT_TWR"
+controlled_by = ["EPKT_GND"]
 
 [[stations]]
 id = "EPKT_TWR"
 controlled_by = [
+  "EPKT_DEL",
+  "EPKT_GND",
   "EPKT_TWR",
   "EPKK_APP",
   "EPWW_J_CTR",
@@ -737,26 +689,13 @@ controlled_by = [
 
 [[stations]]
 id = "EPLL_DEL"
-controlled_by = [
-  "EPLL_DEL",
-  "EPLL_TWR",
-  "EPWA_S_APP",
-  "EPWA_N_APP",
-  "EPWA_APP",
-  "EPWW_C_CTR",
-  "EPWW_NE_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_DTC_CTR",
-  "EPWW_S_CTR",
-  "EPWW_E_CTR",
-  "EPWW_N_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPLL_TWR"
+controlled_by = ["EPLL_DEL"]
 
 [[stations]]
 id = "EPLL_TWR"
 controlled_by = [
+  "EPLL_DEL",
   "EPLL_TWR",
   "EPWA_S_APP",
   "EPWA_N_APP",
@@ -800,26 +739,13 @@ controlled_by = ["EPML_I_TWR", "EPKK_I_APP", "EPWW_I_CTR"]
 
 [[stations]]
 id = "EPMO_DEL"
-controlled_by = [
-  "EPMO_DEL",
-  "EPMO_TWR",
-  "EPWA_N_APP",
-  "EPWA_S_APP",
-  "EPWA_APP",
-  "EPWW_C_CTR",
-  "EPWW_NE_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_DTC_CTR",
-  "EPWW_S_CTR",
-  "EPWW_E_CTR",
-  "EPWW_N_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPMO_TWR"
+controlled_by = ["EPMO_DEL"]
 
 [[stations]]
 id = "EPMO_TWR"
 controlled_by = [
+  "EPMO_DEL",
   "EPMO_TWR",
   "EPWA_N_APP",
   "EPWA_S_APP",
@@ -845,38 +771,18 @@ controlled_by = ["EPOD_R_TWR", "EPSY_I_APP", "EPWW_I_CTR"]
 
 [[stations]]
 id = "EPPO_DEL"
-controlled_by = [
-  "EPPO_DEL",
-  "EPPO_GND",
-  "EPPO_TWR",
-  "EPPO_N_APP",
-  "EPWW_D_CTR",
-  "EPWW_DBT_CTR",
-  "EPWW_DT_CTR",
-  "EPWW_DTC_CTR",
-  "EPWW_N_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPPO_GND"
+controlled_by = ["EPPO_DEL"]
 
 [[stations]]
 id = "EPPO_GND"
-controlled_by = [
-  "EPPO_GND",
-  "EPPO_TWR",
-  "EPPO_N_APP",
-  "EPWW_D_CTR",
-  "EPWW_DBT_CTR",
-  "EPWW_DT_CTR",
-  "EPWW_DTC_CTR",
-  "EPWW_N_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPPO_TWR"
+controlled_by = ["EPPO_GND"]
 
 [[stations]]
 id = "EPPO_TWR"
 controlled_by = [
+  "EPPO_GND",
   "EPPO_TWR",
   "EPPO_N_APP",
   "EPWW_D_CTR",
@@ -962,20 +868,8 @@ controlled_by = [
 
 [[stations]]
 id = "EPRZ_GND"
-controlled_by = [
-  "EPRZ_GND",
-  "EPRZ_TWR",
-  "EPKK_RZ_APP",
-  "EPKK_E_APP",
-  "EPKK_APP",
-  "EPWW_J_CTR",
-  "EPWW_JR_CTR",
-  "EPWW_S_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_E_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPRZ_TWR"
+controlled_by = ["EPRZ_GND"]
 
 [[stations]]
 id = "EPRZ_TWR"
@@ -1055,48 +949,19 @@ controlled_by = [
 
 [[stations]]
 id = "EPWA_DEL"
-controlled_by = [
-  "EPWA_DEL",
-  "EPWA_GND",
-  "EPWA_TWR",
-  "EPWA_F_APP",
-  "EPWA_APP",
-  "EPWA_N_APP",
-  "EPWA_S_APP",
-  "EPWW_C_CTR",
-  "EPWW_NE_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_DTC_CTR",
-  "EPWW_S_CTR",
-  "EPWW_E_CTR",
-  "EPWW_N_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPWA_GND"
+controlled_by = ["EPWA_DEL"]
 
 [[stations]]
 id = "EPWA_GND"
-controlled_by = [
-  "EPWA_GND",
-  "EPWA_TWR",
-  "EPWA_F_APP",
-  "EPWA_APP",
-  "EPWA_N_APP",
-  "EPWA_S_APP",
-  "EPWW_C_CTR",
-  "EPWW_NE_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_DTC_CTR",
-  "EPWW_S_CTR",
-  "EPWW_E_CTR",
-  "EPWW_N_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPWA_TWR"
+controlled_by = ["EPWA_GND"]
 
 [[stations]]
 id = "EPWA_TWR"
 controlled_by = [
+  "EPWA_DEL",
+  "EPWA_GND",
   "EPWA_TWR",
   "EPWA_F_APP",
   "EPWA_APP",
@@ -1192,38 +1057,13 @@ controlled_by = ["EPSY_I_APP", "EPWW_I_CTR"]
 
 [[stations]]
 id = "EPWR_DEL"
-controlled_by = [
-  "EPWR_DEL",
-  "EPWR_GND",
-  "EPWR_TWR",
-  "EPPO_S_APP",
-  "EPPO_N_APP",
-  "EPWW_TM_CTR",
-  "EPWW_DT_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_DTC_CTR",
-  "EPWW_DBT_CTR",
-  "EPWW_S_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPWR_GND"
+controlled_by = ["EPWR_DEL"]
 
 [[stations]]
 id = "EPWR_GND"
-controlled_by = [
-  "EPWR_GND",
-  "EPWR_TWR",
-  "EPPO_S_APP",
-  "EPPO_N_APP",
-  "EPWW_TM_CTR",
-  "EPWW_DT_CTR",
-  "EPWW_TCJ_CTR",
-  "EPWW_DTC_CTR",
-  "EPWW_DBT_CTR",
-  "EPWW_S_CTR",
-  "EPWW_ALL_CTR",
-  "EPWW_ALH_CTR",
-]
+parent_id = "EPWR_TWR"
+controlled_by = ["EPWR_GND"]
 
 [[stations]]
 id = "EPWR_TWR"

@@ -2,7 +2,7 @@
 id = "EDMM_FMP"
 prefixes = ["EDMM"]
 frequency = "199.998"
-facility_type = "CTR"
+facility_type = "FMP"
 profile_id = "EDMM-WEST-NORTH"
 
 # EDMM CTR
@@ -355,28 +355,28 @@ id = "EDDP_N_TWR"
 prefixes = ["EDDP"]
 frequency = "125.955"
 facility_type = "TWR"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDDP_S_TWR"
 prefixes = ["EDDP"]
 frequency = "121.105"
 facility_type = "TWR"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDDP_GND"
 prefixes = ["EDDP"]
 frequency = "121.805"
 facility_type = "GND"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDDP_DEL"
 prefixes = ["EDDP"]
 frequency = "121.680"
 facility_type = "DEL"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 # EDDN TWR/GND
 [[positions]]
@@ -384,14 +384,14 @@ id = "EDDN_TWR"
 prefixes = ["EDDN"]
 frequency = "118.305"
 facility_type = "TWR"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDDN_GND"
 prefixes = ["EDDN"]
 frequency = "121.760"
 facility_type = "GND"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 # EBG WEST TWR/GND
 [[positions]]
@@ -428,49 +428,49 @@ id = "EDDC_TWR"
 prefixes = ["EDDC"]
 frequency = "122.930"
 facility_type = "TWR"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDDC_A_GND"
 prefixes = ["EDDC"]
 frequency = "121.755"
 facility_type = "GND"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDDC_GND"
 prefixes = ["EDDC"]
 frequency = "121.980"
 facility_type = "GND"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDDE_TWR"
 prefixes = ["EDDE"]
 frequency = "121.155"
 facility_type = "TWR"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDDE_A_GND"
 prefixes = ["EDDE"]
 frequency = "121.905"
 facility_type = "GND"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDDE_GND"
 prefixes = ["EDDE"]
 frequency = "121.755"
 facility_type = "GND"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 [[positions]]
 id = "EDQM_TWR"
 prefixes = ["EDQM"]
 frequency = "124.355"
 facility_type = "TWR"
-profile_id = "EDMM-EAST"
+profile_id = "EDMM-EAST-TWR"
 
 # ARFA
 [[positions]]

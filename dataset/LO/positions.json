@@ -1,6 +1,13 @@
 {
   "positions": [
     {
+      "id": "LOVV_FMP",
+      "prefixes": ["LOVV"],
+      "frequency": "199.998",
+      "facility_type": "FMP",
+      "profile_id": "LOVV"
+    },
+    {
       "id": "LOVV_BC_CTR",
       "prefixes": ["LOVV"],
       "frequency": "132.950",
@@ -330,6 +337,20 @@
       "profile_id": "LOWW"
     },
     {
+      "id": "LOXA_TWR",
+      "prefixes": ["LOXA"],
+      "frequency": "118.005",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOXN_TWR",
+      "prefixes": ["LOXN"],
+      "frequency": "123.255",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
       "id": "LOXT_TWR",
       "prefixes": ["LOXT"],
       "frequency": "118.905",
@@ -384,6 +405,314 @@
       "frequency": "122.125",
       "facility_type": "DEL",
       "profile_id": "LOWW"
+    },
+    {
+      "id": "LOAA_TWR",
+      "prefixes": ["LOAA"],
+      "frequency": "122.305",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOAB_TWR",
+      "prefixes": ["LOAB"],
+      "frequency": "122.505",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOAD_TWR",
+      "prefixes": ["LOAD"],
+      "frequency": "125.605",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOAG_TWR",
+      "prefixes": ["LOAG"],
+      "frequency": "125.110",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOAN_TWR",
+      "prefixes": ["LOAN"],
+      "frequency": "122.655",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOAR_TWR",
+      "prefixes": ["LOAR"],
+      "frequency": "122.255",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOAS_TWR",
+      "prefixes": ["LOAS"],
+      "frequency": "122.080",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOAU_TWR",
+      "prefixes": ["LOAU"],
+      "frequency": "122.855",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOAV_TWR",
+      "prefixes": ["LOAV"],
+      "frequency": "118.605",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGF_TWR",
+      "prefixes": ["LOGF"],
+      "frequency": "122.705",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGG_TWR",
+      "prefixes": ["LOGG"],
+      "frequency": "123.205",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGI_TWR",
+      "prefixes": ["LOGI"],
+      "frequency": "122.505",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGK_TWR",
+      "prefixes": ["LOGK"],
+      "frequency": "119.705",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGL_TWR",
+      "prefixes": ["LOGL"],
+      "frequency": "122.505",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGM_TWR",
+      "prefixes": ["LOGM"],
+      "frequency": "122.105",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGO_TWR",
+      "prefixes": ["LOGO"],
+      "frequency": "122.705",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGP_TWR",
+      "prefixes": ["LOGP"],
+      "frequency": "118.030",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGT_TWR",
+      "prefixes": ["LOGT"],
+      "frequency": "122.305",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOGW_TWR",
+      "prefixes": ["LOGW"],
+      "frequency": "122.180",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOIH_TWR",
+      "prefixes": ["LOIH"],
+      "frequency": "121.205",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOIJ_TWR",
+      "prefixes": ["LOIJ"],
+      "frequency": "120.355",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOIK_TWR",
+      "prefixes": ["LOIK"],
+      "frequency": "122.380",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOIR_TWR",
+      "prefixes": ["LOIR"],
+      "frequency": "122.405",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOKF_TWR",
+      "prefixes": ["LOKF"],
+      "frequency": "122.705",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOKG_TWR",
+      "prefixes": ["LOKG"],
+      "frequency": "123.605",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOKH_TWR",
+      "prefixes": ["LOKH"],
+      "frequency": "122.080",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOKL_TWR",
+      "prefixes": ["LOKL"],
+      "frequency": "122.505",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOKM_TWR",
+      "prefixes": ["LOKM"],
+      "frequency": "122.855",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOKN_TWR",
+      "prefixes": ["LOKN"],
+      "frequency": "122.405",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOKR_TWR",
+      "prefixes": ["LOKR"],
+      "frequency": "122.180",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOKW_TWR",
+      "prefixes": ["LOKW"],
+      "frequency": "122.505",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLC_TWR",
+      "prefixes": ["LOLC"],
+      "frequency": "122.505",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLE_TWR",
+      "prefixes": ["LOLE"],
+      "frequency": "122.405",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLF_TWR",
+      "prefixes": ["LOLF"],
+      "frequency": "122.330",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLG_TWR",
+      "prefixes": ["LOLG"],
+      "frequency": "120.455",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLH_TWR",
+      "prefixes": ["LOLH"],
+      "frequency": "134.540",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLK_TWR",
+      "prefixes": ["LOLK"],
+      "frequency": "122.655",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLM_TWR",
+      "prefixes": ["LOLM"],
+      "frequency": "123.205",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLO_TWR",
+      "prefixes": ["LOLO"],
+      "frequency": "122.380",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLS_TWR",
+      "prefixes": ["LOLS"],
+      "frequency": "122.705",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLT_TWR",
+      "prefixes": ["LOLT"],
+      "frequency": "123.605",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLU_TWR",
+      "prefixes": ["LOLU"],
+      "frequency": "122.080",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOLW_TWR",
+      "prefixes": ["LOLW"],
+      "frequency": "119.705",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
+    },
+    {
+      "id": "LOSM_TWR",
+      "prefixes": ["LOSM"],
+      "frequency": "122.855",
+      "facility_type": "TWR",
+      "profile_id": "LOVV"
     }
   ]
 }

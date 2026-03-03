@@ -1,0 +1,1172 @@
+{
+  "stations": [
+    {
+      "id": "LIBB-ES3",
+      "controlled_by": ["LIBB_ES3_CTR"]
+    },
+    {
+      "id": "LIBB-FIC",
+      "controlled_by": ["LIBB_I_CTR"]
+    },
+    {
+      "id": "LIBA-APP",
+      "controlled_by": ["LIBA_APP"]
+    },
+    {
+      "id": "LIBG-APP",
+      "controlled_by": ["LIBG_APP", "LIBB_ES3_CTR"]
+    },
+    {
+      "id": "LIBN-APP",
+      "controlled_by": ["LIBN_APP", "LIBB_ES3_CTR"]
+    },
+    {
+      "id": "LIBP-APP",
+      "controlled_by": ["LIBP_APP"],
+      "parent_id": "LIRR-ND1"
+    },
+    {
+      "id": "LIBB-CS0",
+      "controlled_by": ["LIBR_CS0_APP", "LIBB_ES3_CTR"]
+    },
+    {
+      "id": "LIBA-TWR",
+      "controlled_by": ["LIBA_TWR"],
+      "parent_id": "LIBA-APP"
+    },
+    {
+      "id": "LIBC-AFIU",
+      "controlled_by": ["LIBC_I_TWR"],
+      "parent_id": "LIRR-ES0"
+    },
+    {
+      "id": "LIBD-TWR",
+      "controlled_by": ["LIBD_TWR"],
+      "parent_id": "LIBB-CS0"
+    },
+    {
+      "id": "LIBF-AFIU",
+      "controlled_by": ["LIBF_I_TWR"],
+      "parent_id": "LIBA-APP"
+    },
+    {
+      "id": "LIBG-TWR",
+      "controlled_by": ["LIBG_TWR"],
+      "parent_id": "LIBG-APP"
+    },
+    {
+      "id": "LIBN-TWR",
+      "controlled_by": ["LIBN_TWR"],
+      "parent_id": "LIBN-APP"
+    },
+    {
+      "id": "LIBP-TWR",
+      "controlled_by": ["LIBP_TWR"],
+      "parent_id": "LIBP-APP"
+    },
+    {
+      "id": "LIBR-TWR",
+      "controlled_by": ["LIBR_TWR"],
+      "parent_id": "LIBB-CS0"
+    },
+    {
+      "id": "LIMM-FMP",
+      "controlled_by": ["LIMM_DCP_FMP"]
+    },
+    {
+      "id": "LIMM-EN2",
+      "controlled_by": ["LIMM_EN2_CTR", "LIMM_WS2_CTR"]
+    },
+    {
+      "id": "LIMM-ES2",
+      "controlled_by": ["LIMM_ES2_CTR", "LIMM_EN2_CTR", "LIMM_WS2_CTR"]
+    },
+    {
+      "id": "LIMM-ES5",
+      "controlled_by": [
+        "LIMM_ES5_CTR",
+        "LIMM_WS5_CTR",
+        "LIMM_U_CTR",
+        "LIMM_ES2_CTR",
+        "LIMM_EN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
+    },
+    {
+      "id": "LIMM-WN2",
+      "controlled_by": [
+        "LIMM_ES5_CTR",
+        "LIMM_WS5_CTR",
+        "LIMM_U_CTR",
+        "LIMM_ES2_CTR",
+        "LIMM_EN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
+    },
+    {
+      "id": "LIMM-WS2",
+      "controlled_by": ["LIMM_WS2_CTR"]
+    },
+    {
+      "id": "LIMM-WS5",
+      "controlled_by": ["LIMM_WS5_CTR", "LIMM_U_CTR", "LIMM_WS2_CTR"]
+    },
+    {
+      "id": "LIMM-WN0",
+      "controlled_by": ["LIMF_WN0_APP", "LIMM_WN2_CTR", "LIMM_WS2_CTR"]
+    },
+    {
+      "id": "LIMJ-APP",
+      "controlled_by": ["LIMJ_APP", "LIMM_WS2_CTR"]
+    },
+    {
+      "id": "LIMM-ADE",
+      "controlled_by": [
+        "LIMM_ADE_APP",
+        "LIMM_ANE_APP",
+        "LIMM_ES2_CTR",
+        "LIMM_EN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
+    },
+    {
+      "id": "LIMM-ANE",
+      "controlled_by": ["LIMM_ANE_APP", "LIMM_EN2_CTR", "LIMM_WS2_CTR"]
+    },
+    {
+      "id": "LIMM-ANW",
+      "controlled_by": [
+        "LIMM_ANW_APP",
+        "LIMM_ANE_APP",
+        "LIMM_EN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
+    },
+    {
+      "id": "LIMM-ASW",
+      "controlled_by": ["LIMM_ASW_APP", "LIMM_ANE_APP", "LIMM_WS2_CTR"]
+    },
+    {
+      "id": "LIMM-LAR",
+      "controlled_by": [
+        "LIMM_LAR_APP",
+        "LIMM_ADE_APP",
+        "LIMM_ANE_APP",
+        "LIMM_ES2_CTR",
+        "LIMM_EN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
+    },
+    {
+      "id": "LIMM-FIC",
+      "controlled_by": ["LIMM_I_APP"]
+    },
+    {
+      "id": "LIMM-MAP",
+      "controlled_by": ["LIMM_MAP_APP"]
+    },
+    {
+      "id": "LIMM-MAR",
+      "controlled_by": [
+        "LIMM_MAR_APP",
+        "LIMM_ASW_APP",
+        "LIMM_ANE_APP",
+        "LIMM_WS2_CTR"
+      ]
+    },
+    {
+      "id": "LIMP-APP",
+      "controlled_by": [
+        "LIMP_APP",
+        "LIMM_ES2_CTR",
+        "LIMM_EN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
+    },
+    {
+      "id": "LIMM-ES0",
+      "controlled_by": [
+        "LIPX_ES0_APP",
+        "LIPX_EE1_APP",
+        "LIMM_ES2_CTR",
+        "LIMM_EN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
+    },
+    {
+      "id": "LIMM-EE1",
+      "controlled_by": [
+        "LIPX_EE1_APP",
+        "LIMM_ES2_CTR",
+        "LIMM_EN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
+    },
+    {
+      "id": "LILE-AFIU",
+      "controlled_by": ["LILE_I_TWR"]
+    },
+    {
+      "id": "LILI-AFIU",
+      "controlled_by": ["LILI_I_TWR"]
+    },
+    {
+      "id": "LILN-AFIU",
+      "controlled_by": ["LILN_I_TWR"]
+    },
+    {
+      "id": "LIMA-AFIU",
+      "controlled_by": ["LIMA_I_TWR"]
+    },
+    {
+      "id": "LIMB-AFIU",
+      "controlled_by": ["LIMB_I_TWR"]
+    },
+    {
+      "id": "LIMC-TWR",
+      "controlled_by": ["LIMC_TWR", "LIMC_E_TWR"],
+      "parent_id": "LIMM-ANW"
+    },
+    {
+      "id": "LIMC-E-TWR",
+      "controlled_by": ["LIMC_E_TWR", "LIMC_TWR"],
+      "parent_id": "LIMM-ANW"
+    },
+    {
+      "id": "LIME-TWR",
+      "controlled_by": ["LIME_TWR"],
+      "parent_id": "LIMM-ADE"
+    },
+    {
+      "id": "LIMF-TWR",
+      "controlled_by": ["LIMF_TWR"],
+      "parent_id": "LIMM-WN0"
+    },
+    {
+      "id": "LIMG-AFIU",
+      "controlled_by": ["LIMG_I_TWR"],
+      "parent_id": "LIMJ-APP"
+    },
+    {
+      "id": "LIMJ-TWR",
+      "controlled_by": ["LIMJ_TWR"],
+      "parent_id": "LIMJ-APP"
+    },
+    {
+      "id": "LIML-TWR",
+      "controlled_by": ["LIML_TWR"],
+      "parent_id": "LIMM-LAR"
+    },
+    {
+      "id": "LIMP-TWR",
+      "controlled_by": ["LIMP_TWR"],
+      "parent_id": "LIMP-APP"
+    },
+    {
+      "id": "LIMW-AFIU",
+      "controlled_by": ["LIMW_I_TWR"]
+    },
+    {
+      "id": "LIMZ-TWR",
+      "controlled_by": ["LIMZ_TWR"],
+      "parent_id": "LIMM-WN0"
+    },
+    {
+      "id": "LIPX-TWR",
+      "controlled_by": ["LIPX_TWR"],
+      "parent_id": "LIMM-ES0"
+    },
+    {
+      "id": "LIPO-TWR",
+      "controlled_by": ["LIPO_TWR"],
+      "parent_id": "LIMM-ES0"
+    },
+    {
+      "id": "LIMC-N-GND",
+      "controlled_by": ["LIMC_N_GND", "LIMC_W_GND"],
+      "parent_id": "LIMC-E-TWR"
+    },
+    {
+      "id": "LIMC-W-GND",
+      "controlled_by": ["LIMC_W_GND"],
+      "parent_id": "LIMC-TWR"
+    },
+    {
+      "id": "LIME-GND",
+      "controlled_by": ["LIME_GND"],
+      "parent_id": "LIME-TWR"
+    },
+    {
+      "id": "LIMF-GND",
+      "controlled_by": ["LIMF_GND"],
+      "parent_id": "LIMF-TWR"
+    },
+    {
+      "id": "LIML-GND",
+      "controlled_by": ["LIML_GND"],
+      "parent_id": "LIML-TWR"
+    },
+    {
+      "id": "LIPX-GND",
+      "controlled_by": ["LIPX_GND"],
+      "parent_id": "LIPX-TWR"
+    },
+    {
+      "id": "LIMC-DEL",
+      "controlled_by": ["LIMC_DEL"],
+      "parent_id": "LIMC-W-GND"
+    },
+    {
+      "id": "LIMC-O-DEL",
+      "controlled_by": ["LIMC_O_DEL", "LIMC_DEL"]
+    },
+    {
+      "id": "LIME-DEL",
+      "controlled_by": ["LIME_DEL"],
+      "parent_id": "LIME-GND"
+    },
+    {
+      "id": "LIML-DEL",
+      "controlled_by": ["LIML_DEL"],
+      "parent_id": "LIML-GND"
+    },
+    {
+      "id": "LIPP-FMP",
+      "controlled_by": ["LIPP_FMP"]
+    },
+    {
+      "id": "LIPP-CE1",
+      "controlled_by": ["LIPP_CE1_CTR"]
+    },
+    {
+      "id": "LIPP-CW2",
+      "controlled_by": ["LIPP_CW2_CTR", "LIPP_CW3_CTR", "LIPP_CE1_CTR"]
+    },
+    {
+      "id": "LIPP-NE2",
+      "controlled_by": ["LIPP_NE2_CTR", "LIPP_NW1_CTR", "LIPP_CE1_CTR"]
+    },
+    {
+      "id": "LIPP-NE3",
+      "controlled_by": [
+        "LIPP_NE3_CTR",
+        "LIPP_NE6_CTR",
+        "LIPP_NE8_CTR",
+        "LIMM_U_CTR",
+        "LIPP_NW1_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-NE6",
+      "controlled_by": [
+        "LIPP_NE6_CTR",
+        "LIPP_NE8_CTR",
+        "LIPP_NE3_CTR",
+        "LIMM_U_CTR",
+        "LIPP_NW1_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-NE8",
+      "controlled_by": [
+        "LIPP_NE8_CTR",
+        "LIPP_NE6_CTR",
+        "LIPP_NE3_CTR",
+        "LIMM_U_CTR",
+        "LIPP_NW1_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-NW1",
+      "controlled_by": ["LIPP_NW1_CTR", "LIPP_CW3_CTR", "LIPP_CE1_CTR"]
+    },
+    {
+      "id": "LIPP-CE3",
+      "controlled_by": ["LIPP_NE3_CTR", "LIPP_CE1_CTR"]
+    },
+    {
+      "id": "LIPP-CE4",
+      "controlled_by": [
+        "LIPP_NE3_CTR",
+        "LIPP_NE8_CTR",
+        "LIMM_U_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-CE6",
+      "controlled_by": [
+        "LIPP_NE6_CTR",
+        "LIPP_NE8_CTR",
+        "LIPP_NE3_CTR",
+        "LIMM_U_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-CE8",
+      "controlled_by": [
+        "LIPP_NE8_CTR",
+        "LIPP_NE6_CTR",
+        "LIPP_NE3_CTR",
+        "LIMM_U_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-CW3",
+      "controlled_by": ["LIPP_NE3_CTR", "LIPP_CW3_CTR", "LIPP_CE1_CTR"]
+    },
+    {
+      "id": "LIPP-CW4",
+      "controlled_by": [
+        "LIPP_NE3_CTR",
+        "LIPP_NE8_CTR",
+        "LIPP_CW3_CTR",
+        "LIMM_U_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-CW6",
+      "controlled_by": [
+        "LIPP_NE6_CTR",
+        "LIPP_NE8_CTR",
+        "LIPP_NE3_CTR",
+        "LIPP_CW3_CTR",
+        "LIMM_U_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-CW8",
+      "controlled_by": [
+        "LIPP_NE8_CTR",
+        "LIPP_NE6_CTR",
+        "LIPP_NE3_CTR",
+        "LIPP_CW3_CTR",
+        "LIMM_U_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-SD2",
+      "controlled_by": [
+        "LIPP_SD2_CTR",
+        "LIPP_SW1_CTR",
+        "LIPP_SD3_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-SD3",
+      "controlled_by": [
+        "LIPP_SD3_CTR",
+        "LIPP_SD7_CTR",
+        "LIPP_NE3_CTR",
+        "LIPP_NE8_CTR",
+        "LIMM_U_CTR",
+        "LIPP_SD2_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-SD5",
+      "controlled_by": [
+        "LIPP_SD5_CTR",
+        "LIPP_SD7_CTR",
+        "LIPP_SD3_CTR",
+        "LIPP_NE6_CTR",
+        "LIPP_NE8_CTR",
+        "LIPP_NE3_CTR",
+        "LIMM_U_CTR",
+        "LIPP_SD2_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-SD7",
+      "controlled_by": [
+        "LIPP_SD7_CTR",
+        "LIPP_SD5_CTR",
+        "LIPP_SD3_CTR",
+        "LIPP_NE8_CTR",
+        "LIPP_NE6_CTR",
+        "LIPP_NE3_CTR",
+        "LIMM_U_CTR",
+        "LIPP_SD2_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPP-SW1",
+      "controlled_by": [
+        "LIPP_SW1_CTR",
+        "LIPP_CW2_CTR",
+        "LIPP_CW3_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPA-APP",
+      "controlled_by": ["LIPA_APP"],
+      "parent_id": "LIPP-CE1"
+    },
+    {
+      "id": "LIPE-W-APP",
+      "controlled_by": [
+        "LIPE_W_APP",
+        "LIPP_SD2_CTR",
+        "LIPP_SW1_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPE-E-APP",
+      "controlled_by": [
+        "LIPE_E_APP",
+        "LIPE_W_APP",
+        "LIPP_SD2_CTR",
+        "LIPP_SW1_CTR",
+        "LIPP_CE1_CTR"
+      ]
+    },
+    {
+      "id": "LIPH-APP",
+      "controlled_by": ["LIPH_APP", "LIPP_CE1_CTR"]
+    },
+    {
+      "id": "LIPP-FIC",
+      "controlled_by": ["LIPP_I_APP"]
+    },
+    {
+      "id": "LIPP-CE0",
+      "controlled_by": ["LIPQ_CE0_APP", "LIPZ_SE0_APP"],
+      "parent_id": "LIPP-CE1"
+    },
+    {
+      "id": "LIPY-APP",
+      "controlled_by": ["LIPY_APP", "LIPP_SD2_CTR", "LIPP_SW1_CTR"]
+    },
+    {
+      "id": "LIPP-SE0",
+      "controlled_by": ["LIPZ_SE0_APP"],
+      "parent_id": "LIPP-CE1"
+    },
+    {
+      "id": "LIDT-AFIU",
+      "controlled_by": ["LIDT_I_TWR"],
+      "parent_id": "LIPP-NW1"
+    },
+    {
+      "id": "LIPA-TWR",
+      "controlled_by": ["LIPA_TWR"],
+      "parent_id": "LIPA-APP"
+    },
+    {
+      "id": "LIPB-AFIU",
+      "controlled_by": ["LIPB_I_TWR"],
+      "parent_id": "LIPP-NW1"
+    },
+    {
+      "id": "LIPE-TWR",
+      "controlled_by": ["LIPE_TWR"],
+      "parent_id": "LIPE-W-APP"
+    },
+    {
+      "id": "LIPH-TWR",
+      "controlled_by": ["LIPH_TWR"],
+      "parent_id": "LIPH-APP"
+    },
+    {
+      "id": "LIPK-TWR",
+      "controlled_by": ["LIPK_TWR"],
+      "parent_id": "LIPE-E-APP"
+    },
+    {
+      "id": "LIPN-RADIO",
+      "controlled_by": ["LIPN_I_TWR"]
+    },
+    {
+      "id": "LIPQ-TWR",
+      "controlled_by": ["LIPQ_TWR"],
+      "parent_id": "LIPP-CE0"
+    },
+    {
+      "id": "LIPR-TWR",
+      "controlled_by": ["LIPR_TWR"],
+      "parent_id": "LIPE-E-APP"
+    },
+    {
+      "id": "LIPU-AFIU",
+      "controlled_by": ["LIPU_I_TWR"]
+    },
+    {
+      "id": "LIPV-AFIU",
+      "controlled_by": ["LIPV_I_TWR"]
+    },
+    {
+      "id": "LIPY-TWR",
+      "controlled_by": ["LIPY_TWR"],
+      "parent_id": "LIPY-APP"
+    },
+    {
+      "id": "LIPZ-TWR",
+      "controlled_by": ["LIPZ_TWR"],
+      "parent_id": "LIPP-SE0"
+    },
+    {
+      "id": "LIPA-GND",
+      "controlled_by": ["LIPA_GND"],
+      "parent_id": "LIPA-TWR"
+    },
+    {
+      "id": "LIPE-GND",
+      "controlled_by": ["LIPE_GND"],
+      "parent_id": "LIPE-TWR"
+    },
+    {
+      "id": "LIPZ-GND",
+      "controlled_by": ["LIPZ_GND"],
+      "parent_id": "LIPZ-TWR"
+    },
+    {
+      "id": "LIPZ-DEL",
+      "controlled_by": ["LIPZ_DEL"],
+      "parent_id": "LIPZ-GND"
+    },
+    {
+      "id": "LIRR-FMP",
+      "controlled_by": ["LIRR_COO_FMP"]
+    },
+    {
+      "id": "LIRR-ND1",
+      "controlled_by": [
+        "LIRR_ND1_CTR",
+        "LIRR_US2_CTR",
+        "LIRR_TS1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRR-ES1",
+      "controlled_by": ["LIRR_ES1_CTR", "LIRR_SU1_CTR"]
+    },
+    {
+      "id": "LIRR-SU1",
+      "controlled_by": ["LIRR_SU1_CTR"]
+    },
+    {
+      "id": "LIRR-EW1",
+      "controlled_by": ["LIRR_EW1_CTR", "LIRR_SU1_CTR"]
+    },
+    {
+      "id": "LIRR-EE3",
+      "controlled_by": ["LIRR_EE3_CTR", "LIRR_EW1_CTR", "LIRR_SU1_CTR"]
+    },
+    {
+      "id": "LIRR-NE1",
+      "controlled_by": ["LIRR_NE1_CTR"]
+    },
+    {
+      "id": "LIRR-NW1",
+      "controlled_by": ["LIRR_NW1_CTR", "LIRR_NE1_CTR"]
+    },
+    {
+      "id": "LIRR-TS1",
+      "controlled_by": ["LIRR_TS1_CTR", "LIRR_NE1_CTR"]
+    },
+    {
+      "id": "LIRR-NN1",
+      "controlled_by": ["LIRR_NN1_CTR", "LIRR_NE1_CTR"]
+    },
+    {
+      "id": "LIRR-OV1",
+      "controlled_by": ["LIRR_OV1_CTR", "LIRR_NW1_CTR", "LIRR_NE1_CTR"]
+    },
+    {
+      "id": "LIRR-US2",
+      "controlled_by": ["LIRR_US2_CTR", "LIRR_TS1_CTR", "LIRR_NE1_CTR"]
+    },
+    {
+      "id": "LIRR-SU7",
+      "controlled_by": ["LIRR_SU7_CTR", "LIRR_NE7_CTR", "LIRR_SU1_CTR"]
+    },
+    {
+      "id": "LIRR-EW7",
+      "controlled_by": [
+        "LIRR_EW7_CTR",
+        "LIRR_SU7_CTR",
+        "LIRR_NE7_CTR",
+        "LIRR_EW1_CTR"
+      ]
+    },
+    {
+      "id": "LIRR-NE7",
+      "controlled_by": ["LIRR_NE7_CTR", "LIRR_NE1_CTR"]
+    },
+    {
+      "id": "LIRR-NW7",
+      "controlled_by": [
+        "LIRR_NW7_CTR",
+        "LIRR_NE7_CTR",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRR-ES0",
+      "controlled_by": ["LICA_ES0_APP"],
+      "parent_id": "LIRR-ES1"
+    },
+    {
+      "id": "LICC-APP",
+      "controlled_by": ["LICC_APP"],
+      "parent_id": "LIRR-ES1"
+    },
+    {
+      "id": "LICD-APP",
+      "controlled_by": ["LICD_APP"]
+    },
+    {
+      "id": "LICG-APP",
+      "controlled_by": ["LICG_APP"]
+    },
+    {
+      "id": "LICJ-APP",
+      "controlled_by": ["LICJ_APP"],
+      "parent_id": "LIRR-SU1"
+    },
+    {
+      "id": "LICR-APP",
+      "controlled_by": ["LICR_APP"],
+      "parent_id": "LIRR-ES1"
+    },
+    {
+      "id": "LICT-APP",
+      "controlled_by": ["LICT_APP"],
+      "parent_id": "LIRR-SU1"
+    },
+    {
+      "id": "LIEE-APP",
+      "controlled_by": ["LIEE_APP"],
+      "parent_id": "LIRR-EE3"
+    },
+    {
+      "id": "LIRR-EW0",
+      "controlled_by": ["LIEO_EW0_APP"],
+      "parent_id": "LIRR-EW1"
+    },
+    {
+      "id": "LIRH-APP",
+      "controlled_by": ["LIRH_APP"]
+    },
+    {
+      "id": "LIRL-APP",
+      "controlled_by": ["LIRL_APP"]
+    },
+    {
+      "id": "LIRR-US0",
+      "controlled_by": ["LIRN_US0_APP", "LIRN_US1_APP"],
+      "parent_id": "LIRR-US2"
+    },
+    {
+      "id": "LIRR-US1",
+      "controlled_by": ["LIRN_US1_APP", "LIRN_US0_APP"],
+      "parent_id": "LIRR-US2"
+    },
+    {
+      "id": "LIRP-APP",
+      "controlled_by": ["LIRP_APP"],
+      "parent_id": "LIRR-NW1"
+    },
+    {
+      "id": "LIRR-NN0",
+      "controlled_by": ["LIRQ_NN0_APP"],
+      "parent_id": "LIRR-NN1"
+    },
+    {
+      "id": "LIRR-FIC",
+      "controlled_by": ["LIRR_I_APP"]
+    },
+    {
+      "id": "LIRR-TW1",
+      "controlled_by": [
+        "LIRR_TW1_APP",
+        "LIRR_OV1_CTR",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRR-AEM",
+      "controlled_by": [
+        "LIRR_AEM_APP",
+        "LIRR_AWL_APP",
+        "LIRR_TW1_APP",
+        "LIRR_AET_APP",
+        "LIRR_PN1_DEP",
+        "LIRR_OV1_CTR",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRR-AET",
+      "controlled_by": ["LIRR_AET_APP"],
+      "parent_id": "LIRR-TW1"
+    },
+    {
+      "id": "LIRR-AWL",
+      "controlled_by": [
+        "LIRR_AWL_APP",
+        "LIRR_AEM_APP",
+        "LIRR_TW1_APP",
+        "LIRR_AET_APP",
+        "LIRR_PN1_DEP",
+        "LIRR_OV1_CTR",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRS-APP",
+      "controlled_by": ["LIRS_APP"],
+      "parent_id": "LIRR-NW1"
+    },
+    {
+      "id": "LIRV-APP",
+      "controlled_by": [
+        "LIRV_APP",
+        "LIRR_AET_APP",
+        "LIRR_TW1_APP",
+        "LIRR_PN1_DEP",
+        "LIRR_NN1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRZ-APP",
+      "controlled_by": ["LIRZ_APP", "LIRR_NE1_CTR"]
+    },
+    {
+      "id": "LIRR-PN1",
+      "controlled_by": [
+        "LIRR_PN1_DEP",
+        "LIRR_PS1_DEP",
+        "LIRR_OV1_CTR",
+        "LIRR_TW1_APP",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRR-PS1",
+      "controlled_by": [
+        "LIRR_PS1_DEP",
+        "LIRR_PN1_DEP",
+        "LIRR_OV1_CTR",
+        "LIRR_TW1_APP",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIAP-AFIU",
+      "controlled_by": ["LIAP_I_TWR"]
+    },
+    {
+      "id": "LICA-TWR",
+      "controlled_by": ["LICA_TWR"],
+      "parent_id": "LIRR-ES0"
+    },
+    {
+      "id": "LICB-TWR",
+      "controlled_by": ["LICB_TWR"],
+      "parent_id": "LICC-APP"
+    },
+    {
+      "id": "LICC-TWR",
+      "controlled_by": ["LICC_TWR"],
+      "parent_id": "LICC-APP"
+    },
+    {
+      "id": "LICD-TWR",
+      "controlled_by": ["LICD_TWR"],
+      "parent_id": "LICD-APP"
+    },
+    {
+      "id": "LICG-TWR",
+      "controlled_by": ["LICG_TWR"],
+      "parent_id": "LICG-APP"
+    },
+    {
+      "id": "LICJ-TWR",
+      "controlled_by": ["LICJ_TWR"],
+      "parent_id": "LICJ-APP"
+    },
+    {
+      "id": "LICP-TWR",
+      "controlled_by": ["LICP_I_TWR"]
+    },
+    {
+      "id": "LICR-TWR",
+      "controlled_by": ["LICR_TWR"],
+      "parent_id": "LICR-APP"
+    },
+    {
+      "id": "LICT-TWR",
+      "controlled_by": ["LICT_TWR"],
+      "parent_id": "LICT-APP"
+    },
+    {
+      "id": "LICZ-TWR",
+      "controlled_by": ["LICZ_TWR"],
+      "parent_id": "LICC-APP"
+    },
+    {
+      "id": "LIEA-TWR",
+      "controlled_by": ["LIEA_TWR"],
+      "parent_id": "LIRR-EW0"
+    },
+    {
+      "id": "LIED-TWR",
+      "controlled_by": ["LIED_TWR"],
+      "parent_id": "LIEE-APP"
+    },
+    {
+      "id": "LIEE-TWR",
+      "controlled_by": ["LIEE_TWR"],
+      "parent_id": "LIEE-APP"
+    },
+    {
+      "id": "LIEO-TWR",
+      "controlled_by": ["LIEO_TWR"],
+      "parent_id": "LIRR-EW0"
+    },
+    {
+      "id": "LIER-AFIU",
+      "controlled_by": ["LIER_I_TWR"]
+    },
+    {
+      "id": "LIET-AFIU",
+      "controlled_by": ["LIET_I_TWR"]
+    },
+    {
+      "id": "LIQN-AFIU",
+      "controlled_by": ["LIQN_I_TWR"]
+    },
+    {
+      "id": "LIQS-AFIU",
+      "controlled_by": ["LIQS_I_TWR"]
+    },
+    {
+      "id": "LIRA-TWR",
+      "controlled_by": [
+        "LIRA_TWR",
+        "LIRR_AET_APP",
+        "LIRR_TW1_APP",
+        "LIRR_PN1_DEP",
+        "LIRR_OV1_CTR",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRE-TWR",
+      "controlled_by": [
+        "LIRE_TWR",
+        "LIRR_PS1_DEP",
+        "LIRR_PN1_DEP",
+        "LIRR_AET_APP",
+        "LIRR_OV1_CTR",
+        "LIRR_TW1_APP",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRF-E-TWR",
+      "controlled_by": [
+        "LIRF_E_TWR",
+        "LIRF_TWR",
+        "LIRR_PS1_DEP",
+        "LIRR_AEM_APP",
+        "LIRR_AWL_APP",
+        "LIRR_TW1_APP",
+        "LIRR_PN1_DEP",
+        "LIRR_AET_APP",
+        "LIRR_OV1_CTR",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRF-TWR",
+      "controlled_by": [
+        "LIRF_TWR",
+        "LIRF_E_TWR",
+        "LIRR_PS1_DEP",
+        "LIRR_AEM_APP",
+        "LIRR_AWL_APP",
+        "LIRR_TW1_APP",
+        "LIRR_PN1_DEP",
+        "LIRR_AET_APP",
+        "LIRR_OV1_CTR",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR"
+      ]
+    },
+    {
+      "id": "LIRG-TWR",
+      "controlled_by": ["LIRG_TWR"]
+    },
+    {
+      "id": "LIRH-TWR",
+      "controlled_by": ["LIRH_TWR"],
+      "parent_id": "LIRH-APP"
+    },
+    {
+      "id": "LIRI-AFIU",
+      "controlled_by": ["LIRI_I_TWR"],
+      "parent_id": "LIRR-US0"
+    },
+    {
+      "id": "LIRJ-AFIU",
+      "controlled_by": ["LIRJ_I_TWR"],
+      "parent_id": "LIRR-NW1"
+    },
+    {
+      "id": "LIRL-TWR",
+      "controlled_by": ["LIRL_TWR"],
+      "parent_id": "LIRL-APP"
+    },
+    {
+      "id": "LIRM-TWR",
+      "controlled_by": ["LIRM_TWR"],
+      "parent_id": "LIRR-US0"
+    },
+    {
+      "id": "LIRN-TWR",
+      "controlled_by": ["LIRN_TWR"],
+      "parent_id": "LIRR-US0"
+    },
+    {
+      "id": "LIRP-TWR",
+      "controlled_by": ["LIRP_TWR"],
+      "parent_id": "LIRP-APP"
+    },
+    {
+      "id": "LIRQ-TWR",
+      "controlled_by": ["LIRQ_TWR"],
+      "parent_id": "LIRR-NN0"
+    },
+    {
+      "id": "LIRS-TWR",
+      "controlled_by": ["LIRS_TWR"],
+      "parent_id": "LIRS-APP"
+    },
+    {
+      "id": "LIRU-TWR",
+      "controlled_by": ["LIRU_TWR"],
+      "parent_id": "LIRR-AET"
+    },
+    {
+      "id": "LIRV-TWR",
+      "controlled_by": ["LIRV_TWR"],
+      "parent_id": "LIRV-APP"
+    },
+    {
+      "id": "LIRZ-TWR",
+      "controlled_by": ["LIRZ_TWR"],
+      "parent_id": "LIRZ-APP"
+    },
+    {
+      "id": "LICC-GND",
+      "controlled_by": ["LICC_GND"],
+      "parent_id": "LICC-TWR"
+    },
+    {
+      "id": "LICJ-GND",
+      "controlled_by": ["LICJ_GND"],
+      "parent_id": "LICJ-TWR"
+    },
+    {
+      "id": "LICZ-GND",
+      "controlled_by": ["LICZ_GND"],
+      "parent_id": "LICZ-TWR"
+    },
+    {
+      "id": "LIEE-GND",
+      "controlled_by": ["LIEE_GND"],
+      "parent_id": "LIEE-TWR"
+    },
+    {
+      "id": "LIEO-GND",
+      "controlled_by": ["LIEO_GND"],
+      "parent_id": "LIEO-TWR"
+    },
+    {
+      "id": "LIRA-GND",
+      "controlled_by": ["LIRA_GND"],
+      "parent_id": "LIRA-TWR"
+    },
+    {
+      "id": "LIRE-GND",
+      "controlled_by": ["LIRE_GND"],
+      "parent_id": "LIRE-TWR"
+    },
+    {
+      "id": "LIRF-E-GND",
+      "controlled_by": ["LIRF_E_GND", "LIRF_W_GND"],
+      "parent_id": "LIRF-TWR"
+    },
+    {
+      "id": "LIRF-W-GND",
+      "controlled_by": ["LIRF_W_GND", "LIRF_E_GND"],
+      "parent_id": "LIRF-TWR"
+    },
+    {
+      "id": "LIRN-GND",
+      "controlled_by": ["LIRN_GND"],
+      "parent_id": "LIRN-TWR"
+    },
+    {
+      "id": "LIRP-GND",
+      "controlled_by": ["LIRP_GND"],
+      "parent_id": "LIRP-TWR"
+    },
+    {
+      "id": "LIRU-GND",
+      "controlled_by": ["LIRU_GND"],
+      "parent_id": "LIRU-TWR"
+    },
+    {
+      "id": "LIRF-DEL",
+      "controlled_by": ["LIRF_DEL"],
+      "parent_id": "LIRF-E-GND"
+    },
+    {
+      "id": "LIRF-P-DEL",
+      "controlled_by": ["LIRF_P_DEL", "LIRF_DEL"]
+    },
+    {
+      "id": "LIRN-P-DEL",
+      "controlled_by": ["LIRN_P_DEL"],
+      "parent_id": "LIRN-GND"
+    },
+    {
+      "id": "LSZA-TWR",
+      "controlled_by": [
+        "LSZA_TWR",
+        "LIMM_ANW_APP",
+        "LIMM_ANE_APP",
+        "LIMM_EN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
+    }
+  ]
+}

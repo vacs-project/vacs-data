@@ -1,0 +1,522 @@
+[[stations]]
+id = "EKAHAPP"
+controlled_by = [
+  "EKAH_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKAH_TWR"
+controlled_by = [
+  "EKAH_TWR",
+  "EKAH_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKBIAPP"
+controlled_by = [
+  "EKBI_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKBI_TWR"
+controlled_by = [
+  "EKBI_TWR",
+  "EKBI_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKCHFIN"
+controlled_by = [
+  "EKCH_F_APP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCHAPPCO"
+controlled_by = ["EKCH_P_APP"]
+
+[[stations]]
+id = "EKCHAPPE"
+controlled_by = [
+  "EKCH_O_APP",
+  "EKCH_W_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCHDEPK"
+controlled_by = [
+  "EKCH_K_DEP",
+  "EKCH_R_DEP",
+  "EKCH_O_APP",
+  "EKCH_W_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCHAPPW"
+controlled_by = [
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCHDEPR"
+controlled_by = [
+  "EKCH_R_DEP",
+  "EKCH_K_DEP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCH_A_TWR"
+controlled_by = [
+  "EKCH_A_TWR",
+  "EKCH_D_TWR",
+  "EKCH_C_TWR",
+  "EKCH_F_APP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCH_C_TWR"
+controlled_by = [
+  "EKCH_C_TWR",
+  "EKCH_A_TWR",
+  "EKCH_D_TWR",
+  "EKCH_F_APP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCH_D_TWR"
+controlled_by = [
+  "EKCH_D_TWR",
+  "EKCH_A_TWR",
+  "EKCH_C_TWR",
+  "EKCH_F_APP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCH_A_GND"
+controlled_by = [
+  "EKCH_A_GND",
+  "EKCH_B_GND",
+  "EKCH_C_GND",
+  "EKCH_C_TWR",
+  "EKCH_A_TWR",
+  "EKCH_D_TWR",
+  "EKCH_F_APP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCH_B_GND"
+controlled_by = [
+  "EKCH_B_GND",
+  "EKCH_A_GND",
+  "EKCH_C_GND",
+  "EKCH_C_TWR",
+  "EKCH_A_TWR",
+  "EKCH_D_TWR",
+  "EKCH_F_APP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCH_C_GND"
+controlled_by = [
+  "EKCH_C_GND",
+  "EKCH_A_GND",
+  "EKCH_B_GND",
+  "EKCH_C_TWR",
+  "EKCH_A_TWR",
+  "EKCH_D_TWR",
+  "EKCH_F_APP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKCH_DEL"
+parent_id = "EKCH_A_GND"
+controlled_by = ["EKCH_DEL"]
+
+[[stations]]
+id = "EKDKFMP"
+controlled_by = ["EKDK_FMP"]
+
+[[stations]]
+id = "EKDKA"
+controlled_by = [
+  "EKDK_A_CTR",
+  "EKDK_C_CTR",
+  "EKDK_UA_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKB"
+controlled_by = [
+  "EKDK_B_CTR",
+  "EKDK_A_CTR",
+  "EKDK_I_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UA_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKC"
+controlled_by = [
+  "EKDK_C_CTR",
+  "EKDK_A_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_UA_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKD"
+controlled_by = [
+  "EKDK_D_CTR",
+  "EKDK_C_CTR",
+  "EKDK_I_CTR",
+  "EKDK_E_CTR",
+  "EKDK_B_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_UA_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKE"
+controlled_by = [
+  "EKDK_E_CTR",
+  "EKDK_C_CTR",
+  "EKDK_D_CTR",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_UA_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKI"
+controlled_by = [
+  "EKDK_I_CTR",
+  "EKDK_A_CTR",
+  "EKDK_D_CTR",
+  "EKDK_B_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UA_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKL"
+controlled_by = [
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKN"
+controlled_by = ["EKDK_N_CTR", "EKDK_V_CTR", "EKDK_CTR", "EKDK_UV_CTR"]
+
+[[stations]]
+id = "EKDKUA"
+controlled_by = [
+  "EKDK_UA_CTR",
+  "EKDK_A_CTR",
+  "EKDK_C_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKUC"
+controlled_by = [
+  "EKDK_UC_CTR",
+  "EKDK_C_CTR",
+  "EKDK_A_CTR",
+  "EKDK_UA_CTR",
+  "EKDK_CTR",
+  "EKDK_UN_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKUV"
+controlled_by = ["EKDK_UV_CTR", "EKDK_V_CTR", "EKDK_N_CTR", "EKDK_CTR"]
+
+[[stations]]
+id = "EKDKV"
+controlled_by = ["EKDK_V_CTR", "EKDK_N_CTR", "EKDK_CTR", "EKDK_UV_CTR"]
+
+[[stations]]
+id = "EKEBTIZ"
+controlled_by = [
+  "EKEB_I_TWR",
+  "EKBI_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKKAAPP"
+controlled_by = [
+  "EKKA_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKKATWR"
+controlled_by = [
+  "EKKA_TWR",
+  "EKKA_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKODTIA"
+controlled_by = [
+  "EKOD_I_TWR",
+  "EKDK_D_CTR",
+  "EKDK_I_CTR",
+  "EKDK_E_CTR",
+  "EKDK_B_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_UA_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKRKAPP"
+controlled_by = [
+  "EKRK_APP",
+  "EKCH_R_DEP",
+  "EKCH_K_DEP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKRKTWR"
+controlled_by = [
+  "EKRK_TWR",
+  "EKRK_APP",
+  "EKCH_R_DEP",
+  "EKCH_K_DEP",
+  "EKCH_W_APP",
+  "EKCH_O_APP",
+  "EKDK_I_CTR",
+  "EKDK_B_CTR",
+  "EKDK_D_CTR",
+  "EKDK_E_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKRN TWR"
+controlled_by = [
+  "EKRN_P_TWR",
+  "EKDK_A_CTR",
+  "EKDK_C_CTR",
+  "EKDK_UA_CTR",
+  "EKDK_UC_CTR",
+  "EKDK_CTR",
+]
+
+[[stations]]
+id = "EKSB"
+controlled_by = [
+  "EKSB_I_TWR",
+  "EKSP_APP",
+  "EKDK_N_CTR",
+  "EKDK_V_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKSPAPP"
+controlled_by = [
+  "EKSP_APP",
+  "EKDK_N_CTR",
+  "EKDK_V_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKSPTWR"
+controlled_by = [
+  "EKSP_TWR",
+  "EKSP_APP",
+  "EKDK_N_CTR",
+  "EKDK_V_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKVJTIZ"
+controlled_by = [
+  "EKVJ_I_TWR",
+  "EKBI_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKYTAPP"
+controlled_by = [
+  "EKYT_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKYTTWR"
+controlled_by = [
+  "EKYT_TWR",
+  "EKYT_APP",
+  "EKDK_L_CTR",
+  "EKDK_V_CTR",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]

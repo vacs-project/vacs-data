@@ -1,0 +1,202 @@
+### EIDW ###
+
+[[stations]]
+id = "EIDW_DEL"
+controlled_by = ["EIDW_DEL"]
+parent_id = "EIDW_S_GND"
+
+[[stations]]
+id = "EIDW_N_GND"
+controlled_by = ["EIDW_N_GND"]
+parent_id = "EIDW_S_GND"
+
+[[stations]]
+id = "EIDW_S_GND"
+controlled_by = ["EIDW_S_GND"]
+parent_id = "EIDW_S_TWR"
+
+[[stations]]
+id = "EIDW_S_TWR"
+controlled_by = ["EIDW_S_TWR"]
+parent_id = "EIDW_APP"
+
+[[stations]]
+id = "EIDW_N_TWR"
+controlled_by = ["EIDW_N_TWR"]
+parent_id = "EIDW_S_TWR"
+
+[[stations]]
+id = "EIDW_APP"
+controlled_by = ["EIDW_APP"]
+parent_id = "EIDW_LN_CTR"
+
+[[stations]]
+id = "EIDW_F_APP"
+controlled_by = ["EIDW_F_APP"]
+parent_id = "EIDW_APP"
+
+[[stations]]
+id = "EIDW_LN_CTR"
+controlled_by = ["EIDW_LN_CTR"]
+parent_id = "EIDW_UN_CTR"
+
+[[stations]]
+id = "EIDW_LS_CTR"
+controlled_by = ["EIDW_LS_CTR"]
+parent_id = "EIDW_LN_CTR"
+
+[[stations]]
+id = "EIDW_UN_CTR"
+controlled_by = ["EIDW_UN_CTR", "EISN_E_CTR"]
+
+[[stations]]
+id = "EIDW_US_CTR"
+controlled_by = ["EIDW_US_CTR"]
+parent_id = "EIDW_UN_CTR"
+
+[[stations]]
+id = "EIDW_I_CTR"
+controlled_by = ["EIDW_I_CTR"]
+parent_id = "EIDW_LS_CTR"
+
+### EINN ###
+
+[[stations]]
+id = "EINN_GND"
+controlled_by = ["EINN_GND"]
+parent_id = "EINN_TWR"
+
+[[stations]]
+id = "EINN_TWR"
+controlled_by = ["EINN_TWR"]
+parent_id = "EINN_APP"
+
+[[stations]]
+id = "EINN_APP"
+controlled_by = ["EINN_APP"]
+parent_id = "EISN_LS_CTR"
+
+### EICK ###
+
+[[stations]]
+id = "EICK_GND"
+controlled_by = ["EICK_GND"]
+parent_id = "EICK_TWR"
+
+[[stations]]
+id = "EICK_TWR"
+controlled_by = ["EICK_TWR"]
+parent_id = "EICK_APP"
+
+[[stations]]
+id = "EICK_APP"
+controlled_by = ["EICK_APP"]
+parent_id = "EISN_LS_CTR"
+
+### EIME ###
+
+[[stations]]
+id = "EIME_TWR"
+controlled_by = ["EIME_TWR"]
+parent_id = "EIME_APP"
+
+[[stations]]
+id = "EIME_APP"
+controlled_by = ["EIME_APP"]
+parent_id = "EIDW_LS_CTR"
+
+### REGIONALS ###
+
+[[stations]]
+id = "EIDL_TWR"
+controlled_by = ["EIDL_TWR"]
+parent_id = "EISN_LN_CTR"
+
+[[stations]]
+id = "EIKN_TWR"
+controlled_by = ["EIKN_TWR"]
+parent_id = "EISN_LN_CTR"
+
+[[stations]]
+id = "EIKY_TWR"
+controlled_by = ["EIKY_TWR"]
+parent_id = "EISN_LS_CTR"
+
+[[stations]]
+id = "EISG_TWR"
+controlled_by = ["EISG_TWR"]
+parent_id = "EISN_LN_CTR"
+
+[[stations]]
+id = "EIWF_TWR"
+controlled_by = ["EIWF_TWR"]
+parent_id = "EISN_LS_CTR"
+
+[[stations]]
+id = "EIWT_TWR"
+controlled_by = ["EIWT_TWR"]
+parent_id = "EIDW_LS_CTR"
+
+### EISN ###
+
+[[stations]]
+id = "EISN_LN_CTR"
+controlled_by = ["EISN_LN_CTR"]
+parent_id = "EISN_LS_CTR"
+
+[[stations]]
+id = "EISN_LS_CTR"
+controlled_by = ["EISN_LS_CTR", "EISN_E_CTR"]
+
+[[stations]]
+id = "EISN_I_CTR"
+controlled_by = ["EISN_I_CTR"]
+parent_id = "EISN_LS_CTR"
+
+[[stations]]
+id = "EISN_E_CTR"
+controlled_by = ["EISN_E_CTR"]
+
+[[stations]]
+id = "EISN_B_CTR"
+controlled_by = ["EISN_B_CTR"]
+
+[[stations]]
+id = "EISN_S_CTR"
+controlled_by = ["EISN_S_CTR"]
+
+[[stations]]
+id = "EISN_N_CTR"
+controlled_by = ["EISN_N_CTR"]
+
+[[stations]]
+id = "EISN_O_CTR"
+controlled_by = ["EISN_O_CTR"]
+
+[[stations]]
+id = "EISN_W_CTR"
+controlled_by = ["EISN_W_CTR"]
+
+[[stations]]
+id = "EISN_D_CTR"
+controlled_by = ["EISN_D_CTR"]
+
+[[stations]]
+id = "EISN_ES_CTR"
+controlled_by = ["EISN_ES_CTR"]
+
+[[stations]]
+id = "EISN_BS_CTR"
+controlled_by = ["EISN_BS_CTR"]
+
+[[stations]]
+id = "EISN_SS_CTR"
+controlled_by = ["EISN_SS_CTR"]
+
+[[stations]]
+id = "EISN_NS_CTR"
+controlled_by = ["EISN_NS_CTR"]
+
+[[stations]]
+id = "EISN_WS_CTR"
+controlled_by = ["EISN_WS_CTR"]

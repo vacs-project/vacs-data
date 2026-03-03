@@ -1,6 +1,10 @@
 {
   "stations": [
     {
+      "id": "LOVV_FMP",
+      "controlled_by": ["LOVV_FMP"]
+    },
+    {
       "id": "LOVV_B1",
       "controlled_by": [
         "LOVV_B_CTR",
@@ -422,6 +426,42 @@
       "controlled_by": ["LOVV_M_CTR"]
     },
     {
+      "id": "LOXA_TWR",
+      "controlled_by": [
+        "LOXA_TWR",
+        "LOVV_M_CTR",
+        "LOWW_N_APP",
+        "LOWW_M_APP",
+        "LOWW_APP",
+        "LOWW_P_APP",
+        "LOVV_L_CTR",
+        "LOVV_E_CTR",
+        "LOVV_N_CTR",
+        "LOVV_CTR",
+        "LOVV_C_CTR",
+        "LOVV_EU_CTR",
+        "LOVV_NU_CTR"
+      ]
+    },
+    {
+      "id": "LOXN_TWR",
+      "controlled_by": [
+        "LOXN_TWR",
+        "LOVV_M_CTR",
+        "LOWW_N_APP",
+        "LOWW_M_APP",
+        "LOWW_APP",
+        "LOWW_P_APP",
+        "LOVV_L_CTR",
+        "LOVV_E_CTR",
+        "LOVV_N_CTR",
+        "LOVV_CTR",
+        "LOVV_C_CTR",
+        "LOVV_EU_CTR",
+        "LOVV_NU_CTR"
+      ]
+    },
+    {
       "id": "LOXT_APP",
       "controlled_by": [
         "LOXT_APP",
@@ -438,6 +478,11 @@
         "LOVV_EU_CTR",
         "LOVV_NU_CTR"
       ]
+    },
+    {
+      "id": "LOXT_P_APP",
+      "parent_id": "LOXT_APP",
+      "controlled_by": ["LOXT_P_APP"]
     },
     {
       "id": "LOXT_TWR",
@@ -465,6 +510,11 @@
         "LOVV_BU_CTR",
         "LOVV_EU_CTR"
       ]
+    },
+    {
+      "id": "LOXZ_P_APP",
+      "parent_id": "LOXZ_APP",
+      "controlled_by": ["LOXZ_P_APP"]
     },
     {
       "id": "LOXZ_TWR",
@@ -500,6 +550,226 @@
       "id": "LOWW_DEL",
       "parent_id": "LOWW_GND",
       "controlled_by": ["LOWW_DEL"]
+    },
+    {
+      "id": "LOAA_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOAA_TWR"]
+    },
+    {
+      "id": "LOAB_TWR",
+      "parent_id": "LOWW_I_APP",
+      "controlled_by": ["LOAB_TWR"]
+    },
+    {
+      "id": "LOAD_TWR",
+      "parent_id": "LOWW_I_APP",
+      "controlled_by": ["LOAD_TWR"]
+    },
+    {
+      "id": "LOAG_TWR",
+      "parent_id": "LOWW_I_APP",
+      "controlled_by": ["LOAG_TWR"]
+    },
+    {
+      "id": "LOAN_TWR",
+      "parent_id": "LOWW_I_APP",
+      "controlled_by": ["LOAN_TWR"]
+    },
+    {
+      "id": "LOAR_TWR",
+      "parent_id": "LOWW_I_APP",
+      "controlled_by": ["LOAR_TWR"]
+    },
+    {
+      "id": "LOAS_TWR",
+      "parent_id": "LOWW_I_APP",
+      "controlled_by": ["LOAS_TWR"]
+    },
+    {
+      "id": "LOAU_TWR",
+      "parent_id": "LOWW_I_APP",
+      "controlled_by": ["LOAU_TWR"]
+    },
+    {
+      "id": "LOAV_TWR",
+      "parent_id": "LOWW_I_APP",
+      "controlled_by": ["LOAV_TWR"]
+    },
+    {
+      "id": "LOGF_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGF_TWR"]
+    },
+    {
+      "id": "LOGG_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGG_TWR"]
+    },
+    {
+      "id": "LOGI_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGI_TWR"]
+    },
+    {
+      "id": "LOGK_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGK_TWR"]
+    },
+    {
+      "id": "LOGL_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGL_TWR"]
+    },
+    {
+      "id": "LOGM_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGM_TWR"]
+    },
+    {
+      "id": "LOGO_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGO_TWR"]
+    },
+    {
+      "id": "LOGP_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGP_TWR"]
+    },
+    {
+      "id": "LOGT_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGT_TWR"]
+    },
+    {
+      "id": "LOGW_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOGW_TWR"]
+    },
+    {
+      "id": "LOIH_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOIH_TWR"]
+    },
+    {
+      "id": "LOIJ_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOIJ_TWR"]
+    },
+    {
+      "id": "LOIK_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOIK_TWR"]
+    },
+    {
+      "id": "LOIR_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOIR_TWR"]
+    },
+    {
+      "id": "LOKF_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOKF_TWR"]
+    },
+    {
+      "id": "LOKG_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOKG_TWR"]
+    },
+    {
+      "id": "LOKH_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOKH_TWR"]
+    },
+    {
+      "id": "LOKL_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOKL_TWR"]
+    },
+    {
+      "id": "LOKM_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOKM_TWR"]
+    },
+    {
+      "id": "LOKN_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOKN_TWR"]
+    },
+    {
+      "id": "LOKR_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOKR_TWR"]
+    },
+    {
+      "id": "LOKW_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOKW_TWR"]
+    },
+    {
+      "id": "LOLC_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLC_TWR"]
+    },
+    {
+      "id": "LOLE_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLE_TWR"]
+    },
+    {
+      "id": "LOLF_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLF_TWR"]
+    },
+    {
+      "id": "LOLG_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLG_TWR"]
+    },
+    {
+      "id": "LOLH_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLH_TWR"]
+    },
+    {
+      "id": "LOLK_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLK_TWR"]
+    },
+    {
+      "id": "LOLM_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLM_TWR"]
+    },
+    {
+      "id": "LOLO_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLO_TWR"]
+    },
+    {
+      "id": "LOLS_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLS_TWR"]
+    },
+    {
+      "id": "LOLT_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLT_TWR"]
+    },
+    {
+      "id": "LOLU_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLU_TWR"]
+    },
+    {
+      "id": "LOLW_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOLW_TWR"]
+    },
+    {
+      "id": "LOSM_TWR",
+      "parent_id": "LOVV_I_CTR",
+      "controlled_by": ["LOSM_TWR"]
     }
   ]
 }

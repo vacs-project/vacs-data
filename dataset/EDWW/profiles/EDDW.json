@@ -1,0 +1,29 @@
+{
+  "id": "EDDW",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["FRI"],
+            "station_id": "EDWW-FRI"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "EDDW-TWR"
+          },
+          {
+            "label": ["GND"],
+            "station_id": "EDDW-GND"
+          },
+          {
+            "label": ["EDWW", "FMP"]
+          }
+        ]
+      }
+    }
+  ]
+}

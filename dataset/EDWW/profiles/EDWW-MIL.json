@@ -1,0 +1,264 @@
+{
+  "id": "EDWW-MIL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["PRIM"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EDWW", "ACC"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDWW", "BOR"],
+                  "station_id": "EDWW-BOR"
+                },
+                {
+                  "label": ["EDWW", "DBDS"],
+                  "station_id": "EDWW-DBDS"
+                },
+                {
+                  "label": ["EDWW", "DBAS"],
+                  "station_id": "EDWW-DBAS"
+                },
+                {
+                  "label": ["EDWW", "EID"],
+                  "station_id": "EDWW-EID"
+                },
+                {
+                  "label": ["EDWW", "EMS"],
+                  "station_id": "EDWW-EMS"
+                },
+                {
+                  "label": ["EDWW", "FRI"],
+                  "station_id": "EDWW-FRI"
+                },
+                {
+                  "label": ["EDWW", "HAM"],
+                  "station_id": "EDWW-HAM"
+                },
+                {
+                  "label": ["EDWW", "HAN"],
+                  "station_id": "EDWW-HAN"
+                },
+                {
+                  "label": ["EDWW", "HRZ"],
+                  "station_id": "EDWW-HRZ"
+                },
+                {
+                  "label": ["EDWW", "MRZ"],
+                  "station_id": "EDWW-MRZ"
+                },
+                {
+                  "label": ["EDWW", "TRAMON"]
+                },
+                {
+                  "label": ["EDWW", "FMP"]
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ETHB", "", ""],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETHB", "APP"],
+                  "station_id": "ETHB-APP"
+                },
+                {
+                  "label": ["ETHB", "TWR"],
+                  "station_id": "ETHB-TWR"
+                },
+                {
+                  "label": ["EDGG", "HMM"],
+                  "station_id": "EDGG-HMM"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ETHC", ""],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETHC", "APP"],
+                  "station_id": "ETHC-APP"
+                },
+                {
+                  "label": ["ETHC", "TWR"],
+                  "station_id": "ETHC-TWR"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ETHS"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETHS", "APP"],
+                  "station_id": "ETHS-APP"
+                },
+                {
+                  "label": ["ETHS", "TWR"],
+                  "station_id": "ETHS-TWR"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ETMN"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETMN", "APP"],
+                  "station_id": "ETMN-APP"
+                },
+                {
+                  "label": ["ETMN", "TWR"],
+                  "station_id": "ETMN-TWR"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ETND", "TWR"],
+            "station_id": "ETND-TWR"
+          },
+          {
+            "label": ["ETNH"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETNH", "APP"],
+                  "station_id": "ETNH-APP"
+                },
+                {
+                  "label": ["ETNH", "PAR"],
+                  "station_id": "ETNH-APP_P"
+                },
+                {
+                  "label": ["ETNH", "TWR"],
+                  "station_id": "ETNH-TWR"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ETNL"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETNL", "APP"],
+                  "station_id": "ETNL-APP"
+                },
+                {
+                  "label": ["ETNL", "PAR"],
+                  "station_id": "ETNL-APP_P"
+                },
+                {
+                  "label": ["ETNL", "TWR"],
+                  "station_id": "ETNL-TWR"
+                },
+                {
+                  "label": ["ETNL", "APN"],
+                  "station_id": "ETNL-GND"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["", "ETNS"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETNS", "APP"],
+                  "station_id": "ETNS-APP"
+                },
+                {
+                  "label": ["ETNS", "PAR"],
+                  "station_id": "ETNS-APP_P"
+                },
+                {
+                  "label": ["ETNS", "TWR"],
+                  "station_id": "ETNS-TWR"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ETNT"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETNT", "APP"],
+                  "station_id": "ETNT-APP"
+                },
+                {
+                  "label": ["ETNT", "TWR"],
+                  "station_id": "ETNT-TWR"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ETNW"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETNT", "APP"],
+                  "station_id": "ETNT-APP"
+                },
+                {
+                  "label": ["ETNT", "TWR"],
+                  "station_id": "ETNT-TWR"
+                },
+                {
+                  "label": ["EDDV", "TWR", ""],
+                  "station_id": "EDDV-TWR"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ETSH"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["ETSH", "APP"],
+                  "station_id": "ETSH-APP"
+                },
+                {
+                  "label": ["ETSH", "TWR"],
+                  "station_id": "ETSH-TWR"
+                },
+                {
+                  "label": ["EDMM", "TRN"],
+                  "station_id": "EDMM-TRN"
+                },
+                {
+                  "label": ["EDMM", "SAS"],
+                  "station_id": "EDMM-SAS"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

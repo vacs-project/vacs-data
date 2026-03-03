@@ -1,0 +1,166 @@
+name: Deploy Dataset
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dataset/**"
+    tags:
+      - "airac-[0-9][0-9][0-9][0-9]"
+
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Target environment"
+        required: true
+        type: choice
+        options:
+          - dev
+          - production
+
+permissions: {}
+
+jobs:
+  validate:
+    name: Validate dataset
+    uses: ./.github/workflows/ci-dataset.yml
+    permissions:
+      contents: read
+
+  deploy-dev:
+    name: Deploy to dev
+    needs: validate
+    if: >-
+      (github.event_name == 'push' && !startsWith(github.ref, 'refs/tags/'))
+      || (github.event_name == 'workflow_dispatch' && inputs.environment == 'dev')
+    runs-on: ubuntu-latest
+    environment:
+      name: dev
+      url: ${{ vars.VACS_SERVER_URL }}
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Checkout actions
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          sparse-checkout: .github/actions
+          sparse-checkout-cone-mode: false
+
+      - name: Deploy dataset
+        uses: ./.github/actions/deploy-dataset
+        with:
+          oidc-audience: ${{ vars.VACS_OIDC_AUDIENCE }}
+          server-url: ${{ vars.VACS_SERVER_URL }}
+          git-ref: ${{ github.ref }}
+          commit-sha: ${{ github.sha }}
+
+      - name: Update deployed tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Create annotated tag object
+          TAG_SHA=$(gh api "repos/${{ github.repository }}/git/tags" \
+            -X POST \
+            -f tag=deployed/dev \
+            -f message="Deployed to dev from ${{ github.event_name }} (${GITHUB_SHA::7})" \
+            -f object=${{ github.sha }} \
+            -f type=commit \
+            --jq '.sha')
+
+          # Try to update existing ref, create if it doesn't exist
+          if ! gh api "repos/${{ github.repository }}/git/refs/tags/deployed/dev" \
+            -X PATCH -f sha="$TAG_SHA" --silent 2>/dev/null; then
+            gh api "repos/${{ github.repository }}/git/refs" \
+              -X POST -f ref=refs/tags/deployed/dev -f sha="$TAG_SHA" --silent
+          fi
+          echo "Updated deployed/dev tag to ${{ github.sha }}"
+
+      - name: Summary
+        run: |
+          echo "## ✅ Deployed to dev" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| | |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Commit** | [\`${GITHUB_SHA::7}\`](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}) |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Trigger** | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Tag** | \`deployed/dev\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Server** | ${{ vars.VACS_SERVER_URL }} |" >> $GITHUB_STEP_SUMMARY
+
+  deploy-production:
+    name: Deploy to production
+    needs: validate
+    if: >-
+      (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/airac-'))
+      || (github.event_name == 'workflow_dispatch' && inputs.environment == 'production')
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ vars.VACS_SERVER_URL }}
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Validate AIRAC cycle
+        if: github.event_name == 'push'
+        run: |
+          CYCLE="${GITHUB_REF_NAME#airac-}"
+          echo "Validating AIRAC cycle: $CYCLE"
+
+          # Fetch the cycles file directly from the repo (no full checkout needed)
+          CYCLES=$(curl -sS -H "Authorization: Bearer ${{ github.token }}" \
+            "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/.github/airac-cycles.yml")
+
+          if echo "$CYCLES" | grep -qE "\"${CYCLE}\""; then
+            echo "AIRAC cycle $CYCLE is valid"
+          else
+            echo "::error::Tag '${GITHUB_REF_NAME}' does not match a known AIRAC cycle"
+            exit 1
+          fi
+
+      - name: Checkout actions
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          sparse-checkout: .github/actions
+          sparse-checkout-cone-mode: false
+
+      - name: Deploy dataset
+        uses: ./.github/actions/deploy-dataset
+        with:
+          oidc-audience: ${{ vars.VACS_OIDC_AUDIENCE }}
+          server-url: ${{ vars.VACS_SERVER_URL }}
+          git-ref: ${{ github.ref }}
+          commit-sha: ${{ github.sha }}
+
+      - name: Update deployed tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Create annotated tag object
+          TAG_SHA=$(gh api "repos/${{ github.repository }}/git/tags" \
+            -X POST \
+            -f tag=deployed/production \
+            -f message="Deployed to production from ${{ github.event_name }} (${{ github.ref_name }}, ${GITHUB_SHA::7})" \
+            -f object=${{ github.sha }} \
+            -f type=commit \
+            --jq '.sha')
+
+          # Try to update existing ref, create if it doesn't exist
+          if ! gh api "repos/${{ github.repository }}/git/refs/tags/deployed/production" \
+            -X PATCH -f sha="$TAG_SHA" --silent 2>/dev/null; then
+            gh api "repos/${{ github.repository }}/git/refs" \
+              -X POST -f ref=refs/tags/deployed/production -f sha="$TAG_SHA" --silent
+          fi
+          echo "Updated deployed/production tag to ${{ github.sha }}"
+
+      - name: Summary
+        run: |
+          echo "## ✅ Deployed to production" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| | |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Commit** | [\`${GITHUB_SHA::7}\`](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}) |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Trigger** | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Ref** | \`${{ github.ref_name }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Tag** | \`deployed/production\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Server** | ${{ vars.VACS_SERVER_URL }} |" >> $GITHUB_STEP_SUMMARY

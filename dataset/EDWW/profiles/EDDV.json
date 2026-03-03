@@ -1,0 +1,45 @@
+{
+  "id": "EDDV",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["HAN"],
+            "station_id": "EDWW-HAN"
+          },
+          {
+            "label": ["DVAT"],
+            "station_id": "EDWW-DVAT"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "EDDV-TWR"
+          },
+          {
+            "label": ["GND"],
+            "station_id": "EDDV-GND"
+          },
+          {
+            "label": ["DEL"],
+            "station_id": "EDDV-DEL"
+          },
+          {
+            "label": ["EDWW", "FMP"]
+          },
+          {
+            "label": ["ETNW", "APP"],
+            "station_id": "ETNW-APP"
+          },
+          {
+            "label": ["ETNW", "TWR"],
+            "station_id": "ETNW-TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

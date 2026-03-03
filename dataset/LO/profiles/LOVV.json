@@ -160,7 +160,8 @@
                 "label": ["ZUR", "Delta", "190-"]
               },
               {
-                "label": ["ZUR", "ARFA"]
+                "label": ["ZUR", "ARFA"],
+                "station_id": "LSFA-ARFA"
               }
             ],
             "rows": 6
@@ -181,7 +182,113 @@
           "children": [
             {
               "label": ["FIC"],
-              "size": 6.25
+              "size": 6.25,
+              "page": {
+                "keys": [
+                  {
+                    "label": ["FIC-N", "EC"],
+                    "station_id": "LOVV_I_CTR"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["LANGEN", "FIC DO", "120.6"]
+                  },
+                  {
+                    "label": ["LANGEN", "FIC DM", "126.9"]
+                  },
+                  {
+                    "label": ["ZUR", "FIC"]
+                  },
+                  {
+                    "label": ["PAD", "FIC NW", "PLC"],
+                    "station_id": "LIPP-FIC"
+                  },
+                  {
+                    "label": ["FIC-N", "PLC"],
+                    "station_id": "LOVV_I_CTR"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["PRA", "FIC", "WEST"]
+                  },
+                  {
+                    "label": ["LOWW", "AIS", "ARO"]
+                  },
+                  {
+                    "label": ["WW", "MET", "ALTN"]
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["FIC", "ASS"],
+                    "station_id": "LOVV_I_CTR"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["PRA", "FIC", "EAST"]
+                  },
+                  {
+                    "label": ["LOWW", "TWR", "COO"],
+                    "station_id": "LOWW_TWR"
+                  },
+                  {
+                    "label": ["WW", "MET"]
+                  },
+                  {
+                    "label": ["LJU", "FIC"]
+                  },
+                  {
+                    "label": ["FIC-S", "PLC"],
+                    "station_id": "LOVV_I_CTR"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["PRA", "FIC", "MORAVA"]
+                  },
+                  {
+                    "label": ["APP", "TFI", "PLC"],
+                    "station_id": "LOWW_I_APP"
+                  },
+                  {
+                    "label": ["RCC"]
+                  },
+                  {
+                    "label": ["LJMB", "APP"]
+                  },
+                  {
+                    "label": ["FIC-S", "EC"],
+                    "station_id": "LOVV_I_CTR"
+                  },
+                  {
+                    "label": ["LZIB", "TWR"],
+                    "station_id": "LZIB_TWR"
+                  },
+                  {
+                    "label": ["LZIB", "APP"],
+                    "station_id": "LZIB_APP"
+                  },
+                  {
+                    "label": ["BRA", "FIC"],
+                    "station_id": "LZBB_I_CTR"
+                  },
+                  {
+                    "label": ["BUD", "FICW", "COO"]
+                  },
+                  {
+                    "label": ["ZAG", "FIC"]
+                  }
+                ],
+                "rows": 6
+              }
             },
             {
               "label": ["Cont"],
@@ -564,25 +671,32 @@
               "page": {
                 "keys": [
                   {
-                    "label": ["PAD", "134.390", "PLC"]
+                    "label": ["PAD", "134.390", "PLC"],
+                    "station_id": "LIPP-NE6"
                   },
                   {
-                    "label": ["PAD", "135.940", "PLC"]
+                    "label": ["PAD", "135.940", "PLC"],
+                    "station_id": "LIPP-NE6"
                   },
                   {
-                    "label": ["PAD", "132.860", "PLC"]
+                    "label": ["PAD", "132.860", "PLC"],
+                    "station_id": "LIPP-NE3"
                   },
                   {
-                    "label": ["PAD", "130.525", "PLC"]
+                    "label": ["PAD", "130.525", "PLC"],
+                    "station_id": "LIPP-NE2"
                   },
                   {
-                    "label": ["PAD", "125.900", "PLC"]
+                    "label": ["PAD", "125.900", "PLC"],
+                    "station_id": "LIPP-NW1"
                   },
                   {
-                    "label": ["PAD", "120.725", "PLC"]
+                    "label": ["PAD", "120.725", "PLC"],
+                    "station_id": "LIPP-CE1"
                   },
                   {
-                    "label": ["PAD", "127.380", "PLC"]
+                    "label": ["PAD", "127.380", "PLC"],
+                    "station_id": "LIPP-NE8"
                   }
                 ],
                 "rows": 6
@@ -607,6 +721,9 @@
                   },
                   {
                     "label": ["LJU", "135.280", "PLC"]
+                  },
+                  {
+                    "label": ["LJMB", "APP"]
                   }
                 ],
                 "rows": 6
@@ -774,7 +891,55 @@
           "children": [
             {
               "label": ["MIL"],
-              "size": 6.25
+              "size": 6.25,
+              "page": {
+                "keys": [
+                  {
+                    "label": ["DRAG", "PLC"],
+                    "station_id": "LOVV_M_CTR"
+                  },
+                  {
+                    "label": ["TAU", "PLC"],
+                    "station_id": "LOVV_M_CTR"
+                  },
+                  {
+                    "label": ["INFO", "PLC"],
+                    "station_id": "LOVV_M_CTR"
+                  },
+                  {
+                    "label": ["LOXZ", "APP"],
+                    "station_id": "LOXZ_APP"
+                  },
+                  {
+                    "label": ["LOXZ", "TWR"],
+                    "station_id": "LOXZ_TWR"
+                  },
+                  {
+                    "label": ["LOXN", "TWR"],
+                    "station_id": "LOXN_TWR"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["LOXA", "TWR"],
+                    "station_id": "LOXA_TWR"
+                  }
+                ],
+                "rows": 6
+              }
             },
             {
               "label": ["FMP"],
@@ -793,13 +958,15 @@
                     "label": ["FMP", "ZUR"]
                   },
                   {
-                    "label": ["FMP", "PAD"]
+                    "label": ["FMP", "PAD"],
+                    "station_id": "LIPP-FMP"
                   },
                   {
                     "label": ["FMP", "BRA"]
                   },
                   {
-                    "label": []
+                    "label": ["FMP"],
+                    "station_id": "LOVV_FMP"
                   },
                   {
                     "label": ["FMP", "PRA"]

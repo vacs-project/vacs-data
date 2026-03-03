@@ -1,0 +1,681 @@
+{
+  "id": "LIPP",
+  "type": "Geo",
+  "direction": "row",
+  "padding": 0.5,
+  "gap": 0.75,
+  "justify_content": "start",
+  "children": [
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "children": [
+        {
+          "label": ["ZURIGO"],
+          "size": 6.75,
+          "page": {
+            "rows": 6,
+            "client_page": {
+              "include": ["LSZ*_CTR", "LSAS*_CTR"],
+              "exclude": ["LSAZ_E*_CTR", "LSAZ_N*_CTR", "LSAZ_W*_CTR"]
+            }
+          }
+        },
+        {
+          "direction": "row",
+          "align_items": "center",
+          "padding_top": 7,
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["MILANO"],
+              "size": 6.75,
+              "page": {
+                "keys": [
+                  {
+                    "label": ["MILANO", "EN", "310-UNL"],
+                    "station_id": "LIMM-ES5"
+                  },
+                  {
+                    "label": ["MILANO", "EN", "GND-300"],
+                    "station_id": "LIMM-EN2"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["MILANO", "ES", "310-UNL"],
+                    "station_id": "LIMM-ES5"
+                  },
+                  {
+                    "label": ["MILANO", "ES", "GND-300"],
+                    "station_id": "LIMM-ES2"
+                  },
+                  {
+                    "label": ["MILANO", "ANE", "GND-200"],
+                    "station_id": "LIMM-ANE"
+                  },
+                  {
+                    "label": ["MILANO", "ADE", "GND-190"],
+                    "station_id": "LIMM-ADE"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["MILANO", "ES0", "GND-140"],
+                    "station_id": "LIMM-ES0"
+                  },
+                  {
+                    "label": ["MILANO", "EE1", "150-190"],
+                    "station_id": "LIMM-EE1"
+                  },
+                  {
+                    "label": ["FIC"],
+                    "station_id": "LIMM-FIC"
+                  }
+                ],
+                "rows": 5
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "align_items": "center",
+          "padding_top": 4,
+          "children": [
+            {
+              "label": ["FIC"],
+              "size": 6.75,
+              "page": {
+                "keys": [
+                  {
+                    "label": ["FIC"],
+                    "station_id": "LIPP-FIC"
+                  }
+                ],
+                "rows": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "padding_left": 0.5,
+      "children": [
+        {
+          "label": ["RHEIN", "320-UNL"],
+          "size": 6.75,
+          "page": {
+            "keys": [
+              {
+                "label": ["RHEIN", "320-UNL"],
+                "station_id": "EDUU-ALP"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "label": ["CW"],
+          "size": 7,
+          "page": {
+            "keys": [
+              {
+                "label": ["CW3"],
+                "station_id": "LIPP-CW3"
+              },
+              {
+                "label": ["CW2"],
+                "station_id": "LIPP-CW2"
+              }
+            ],
+            "rows": 5
+          }
+        },
+        {
+          "label": ["SD"],
+          "size": 7,
+          "page": {
+            "keys": [
+              {
+                "label": ["SD7"],
+                "station_id": "LIPP-SD7"
+              },
+              {
+                "label": ["SD5"],
+                "station_id": "LIPP-SD5"
+              },
+              {
+                "label": ["SD3"],
+                "station_id": "LIPP-SD3"
+              },
+              {
+                "label": ["SD2"],
+                "station_id": "LIPP-SD2"
+              }
+            ],
+            "rows": 5
+          }
+        },
+        {
+          "label": ["SW"],
+          "size": 6.25,
+          "page": {
+            "keys": [
+              {
+                "label": ["SW1"],
+                "station_id": "LIPP-SW1"
+              }
+            ],
+            "rows": 3
+          }
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "padding_left": 0.5,
+      "children": [
+        {
+          "label": ["MUNICH", "170-310"],
+          "size": 6.75,
+          "page": {
+            "keys": [
+              {
+                "label": ["MUNICH", "ZUG"],
+                "station_id": "EDMM-ZUG"
+              },
+              {
+                "label": ["MUNICH", "STA"],
+                "station_id": "EDMM-STA"
+              },
+              {
+                "label": ["MUNICH", "TEG"],
+                "station_id": "EDMM-TEG"
+              }
+            ],
+            "rows": 1
+          }
+        },
+        {
+          "label": ["NW"],
+          "size": 7,
+          "page": {
+            "keys": [
+              {
+                "label": ["NW1"],
+                "station_id": "LIPP-NW1"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "label": ["SE0"],
+          "size": 7,
+          "page": {
+            "keys": [
+              {
+                "label": ["SE0"],
+                "station_id": "LIPP-SE0"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "label": ["BOLOGNA", "WEST"],
+          "size": 7,
+          "page": {
+            "keys": [
+              {
+                "label": ["BOLOGNA", "WEST"],
+                "station_id": "LIPE-W-APP"
+              }
+            ],
+            "rows": 3
+          }
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "padding_left": 0.5,
+      "children": [
+        {
+          "label": ["INNSBRUCK", "GND-160"],
+          "size": 6.75,
+          "page": {
+            "keys": [
+              {
+                "label": ["INNSBRUCK", "GND-160"],
+                "station_id": "LOWI_S_APP"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "label": ["NE"],
+          "size": 7,
+          "page": {
+            "keys": [
+              {
+                "label": ["NE8"],
+                "station_id": "LIPP-NE8"
+              },
+              {
+                "label": ["NE6"],
+                "station_id": "LIPP-NE6"
+              },
+              {
+                "label": ["NE3"],
+                "station_id": "LIPP-NE3"
+              },
+              {
+                "label": ["NE2"],
+                "station_id": "LIPP-NE2"
+              }
+            ],
+            "rows": 5
+          }
+        },
+        {
+          "label": ["CE"],
+          "size": 7,
+          "page": {
+            "keys": [
+              {
+                "label": ["CE1"],
+                "station_id": "LIPP-CE1"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "label": ["BOLOGNA", "EAST"],
+          "size": 7,
+          "page": {
+            "keys": [
+              {
+                "label": ["BOLOGNA", "EAST"],
+                "station_id": "LIPE-E-APP"
+              }
+            ],
+            "rows": 3
+          }
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "padding_left": 0.5,
+      "children": [
+        {
+          "label": ["KLAGENF", "GND-160"],
+          "size": 6.75,
+          "page": {
+            "keys": [
+              {
+                "label": ["KLAGENF", "GND-160"],
+                "station_id": "LOWK_APP"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "direction": "row",
+          "align_items": "center",
+          "gap": 0.25,
+          "children": [
+            {
+              "label": ["TRE", "APP"],
+              "size": 5,
+              "page": {
+                "keys": [
+                  {
+                    "label": ["TRE", "APP"],
+                    "station_id": "LIPH-APP"
+                  }
+                ],
+                "rows": 3
+              }
+            },
+            {
+              "label": ["AVI", "APP"],
+              "size": 5,
+              "page": {
+                "keys": [
+                  {
+                    "label": ["AVI", "APP"],
+                    "station_id": "LIPA-APP"
+                  }
+                ],
+                "rows": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": ["CE0"],
+          "size": 7,
+          "page": {
+            "keys": [
+              {
+                "label": ["CE0"],
+                "station_id": "LIPP-CE0"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "label": ["FALCO", "APP"],
+          "size": 5,
+          "page": {
+            "keys": [
+              {
+                "label": ["FALCO", "APP"],
+                "station_id": "LIPY-APP"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "label": ["ROMA"],
+          "size": 6.75,
+          "page": {
+            "keys": [
+              {
+                "label": ["ROMA", "NN", "310-UNL"],
+                "station_id": "LIRR-NE7"
+              },
+              {
+                "label": ["ROMA", "NN", "GND-300"],
+                "station_id": "LIRR-NN1"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["ROMA", "NN0", "RQ"],
+                "station_id": "LIRR-NN0"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["ROMA", "NE", "310-UNL"],
+                "station_id": "LIRR-NE7"
+              },
+              {
+                "label": ["ROMA", "NE", "GND-300"],
+                "station_id": "LIRR-NE1"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["ROMA", "ND", "GND-300"],
+                "station_id": "LIRR-ND1"
+              },
+              {
+                "label": ["ROMA", "ND", "310-UNL"],
+                "station_id": "LIRR-NE7"
+              },
+              {
+                "label": ["FIC"],
+                "station_id": "LIRR-FIC"
+              }
+            ],
+            "rows": 5
+          }
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "align_items": "center",
+      "gap": 0.75,
+      "children": [
+        {
+          "label": ["WIEN", "170-UNL"],
+          "size": 6.75,
+          "page": {
+            "keys": [
+              {
+                "label": ["WIEN", "170-310"],
+                "station_id": "LOVV_W1"
+              },
+              {
+                "label": ["WIEN", "320-340"],
+                "station_id": "LOVV_W2"
+              },
+              {
+                "label": ["WIEN", "350"],
+                "station_id": "LOVV_W3"
+              },
+              {
+                "label": ["WIEN", "360"],
+                "station_id": "LOVV_W4"
+              },
+              {
+                "label": ["WIEN", "370"],
+                "station_id": "LOVV_W5"
+              },
+              {
+                "label": ["WIEN", "380"],
+                "station_id": "LOVV_W6"
+              },
+              {
+                "label": ["WIEN", "390-UNL"],
+                "station_id": "LOVV_W7"
+              }
+            ],
+            "rows": 5
+          }
+        },
+        {
+          "label": ["LJUBLJANA"],
+          "size": 6.25,
+          "page": {
+            "rows": 5,
+            "client_page": {
+              "include": ["LJL*_CTR", "LJL*_APP", "ADR*_CTR"],
+              "exclude": ["ADR_E*_CTR"]
+            }
+          }
+        },
+        {
+          "label": ["ZAGREB"],
+          "size": 6.25,
+          "page": {
+            "rows": 5,
+            "client_page": {
+              "include": ["LDZ*_CTR", "ADR*_CTR"],
+              "exclude": ["ADR_E*_CTR"]
+            }
+          }
+        },
+        {
+          "label": ["PULA", "GND-130"],
+          "size": 6.25
+        },
+        {
+          "label": ["SPLIT", "GND-200"],
+          "size": 6.25
+        }
+      ]
+    },
+    {
+      "orientation": "vertical",
+      "thickness": 2,
+      "color": "#364153"
+    },
+    {
+      "direction": "col",
+      "gap": 2,
+      "align_items": "center",
+      "children": [
+        {
+          "label": ["PADOVA", "FMP"],
+          "size": 5,
+          "page": {
+            "keys": [
+              {
+                "label": ["PADOVA", "FMP"],
+                "station_id": "LIPP-FMP"
+              }
+            ],
+            "rows": 3
+          }
+        },
+        {
+          "label": ["FMP"],
+          "size": 5,
+          "page": {
+            "keys": [
+              {
+                "label": ["MILANO", "DCP"],
+                "station_id": "LIMM-FMP"
+              },
+              {
+                "label": ["ROMA", "COO"],
+                "station_id": "LIRR-FMP"
+              },
+              {
+                "label": ["MUNICH", "FMP"],
+                "station_id": "EDMM-FMP"
+              },
+              {
+                "label": ["WIEN", "FMP"],
+                "station_id": "LOVV_FMP"
+              }
+            ],
+            "rows": 5
+          }
+        },
+        {
+          "label": ["TWR"],
+          "size": 5,
+          "page": {
+            "rows": 6,
+            "client_page": {
+              "include": ["LIP*_TWR", "LIP*_GND", "LIP*_DEL"],
+              "priority": [
+                "LIPZ*_TWR",
+                "LIPZ*_GND",
+                "LIPZ*_DEL",
+                "LIPE*_TWR",
+                "LIPE*_GND",
+                "LIPQ*_TWR",
+                "_TWR",
+                "_GND",
+                "_DEL"
+              ],
+              "frequencies": "HideAll",
+              "exclude": ["LIPX*_TWR", "LIPX*_GND", "LIPO*_TWR"]
+            }
+          }
+        },
+        {
+          "label": ["AFIU"],
+          "size": 5,
+          "page": {
+            "rows": 6,
+            "client_page": {
+              "include": ["LIP*_I_TWR", "LID*_I_TWR", "LIK*_I_TWR"],
+              "frequencies": "HideAll"
+            }
+          }
+        },
+        {
+          "label": ["MISC"],
+          "size": 5,
+          "page": {
+            "rows": 6,
+            "client_page": {
+              "include": [
+                "LIP*",
+                "LID*",
+                "LIK*",
+                "LIRR_N*_CTR",
+                "LIM*_CTR",
+                "LIMM*_APP",
+                "LIR*_FMP",
+                "LIP*_FMP",
+                "LIPX_*_APP",
+                "LIRQ_*_APP",
+                "LSAZ*_CTR",
+                "LJ*_CTR",
+                "LJ*_APP",
+                "LDPL*_APP",
+                "LD*_CTR",
+                "ADR*_CTR",
+                "LDSP*_APP",
+                "LOV*_CTR",
+                "LOWI*_APP",
+                "EDM*_CTR",
+                "EDUU*_CTR"
+              ],
+              "exclude": [
+                "LSAZ_E*_CTR",
+                "LSAZ_N*_CTR",
+                "LSAZ_W*_CTR",
+                "LIMM_LA*_APP",
+                "LIMM_AS*_APP",
+                "ADR_E*_CTR",
+                "LDZO_N*_CTR",
+                "LDZO_UN*_CTR",
+                "LDZO_C*_CTR",
+                "LDZO_UC*_CTR",
+                "LIMM_WN*_CTR"
+              ],
+              "priority": [
+                "LIPP*_FMP",
+                "LIRR*_FMP",
+                "LIMM*_FMP",
+                "LIPP*",
+                "LIPZ_*_APP",
+                "LIPQ_*_APP",
+                "LIPE*_APP",
+                "LIP*_APP",
+                "LIR*",
+                "LIM*",
+                "LD*",
+                "LS*",
+                "ED*",
+                "LO*",
+                "AD*",
+                "LJ*",
+                "LIP*_TWR",
+                "LID*_TWR",
+                "LIK*_TWR",
+                "LIP*_GND",
+                "LIP*_DEL",
+                "*_FMP"
+              ],
+              "frequencies": "HideAll"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

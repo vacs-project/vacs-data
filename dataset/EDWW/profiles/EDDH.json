@@ -1,0 +1,53 @@
+{
+  "id": "EDDH",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["HAM"],
+            "station_id": "EDWW-HAM"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "EDDH-TWR"
+          },
+          {
+            "label": ["TWR", "VFR"],
+            "station_id": "EDDH-TWR_VFR"
+          },
+          {
+            "label": ["APN", "E"],
+            "station_id": "EDDH-GND_E"
+          },
+          {
+            "label": ["APN", "W"],
+            "station_id": "EDDH-GND_W"
+          },
+          {
+            "label": ["DEL"],
+            "station_id": "EDDH-DEL"
+          },
+          {
+            "label": ["HAMW"],
+            "station_id": "EDWW-HAMW"
+          },
+          {
+            "label": ["DHAT"],
+            "station_id": "EDWW-DHAT"
+          },
+          {
+            "label": ["HI", "TWR"],
+            "station_id": "EDHI-TWR"
+          },
+          {
+            "label": ["EDWW", "FMP"]
+          }
+        ]
+      }
+    }
+  ]
+}

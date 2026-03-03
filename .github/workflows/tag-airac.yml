@@ -5,12 +5,13 @@ on:
     - cron: "0 0 * * *" # Midnight UTC
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 jobs:
   tag:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
@@ -23,7 +24,7 @@ jobs:
           echo "Checking for AIRAC cycle on $TODAY..."
 
           # Read YAML file and look for current date
-          CYCLE=$(grep "^$TODAY:" .github/airac-cycles.yaml | cut -d '"' -f 2 || true)
+          CYCLE=$(grep "^$TODAY:" .github/airac-cycles.yml | cut -d '"' -f 2 || true)
 
           if [[ -n "$CYCLE" ]]; then
             echo "Found AIRAC cycle: $CYCLE"
@@ -32,22 +33,43 @@ jobs:
             echo "No AIRAC cycle found for today."
           fi
 
+      - name: Generate GitHub token
+        if: steps.check.outputs.cycle_name != ''
+        uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf # v2.2.1
+        id: generate-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: vacs-data
+
       - name: Create AIRAC Tag
         if: steps.check.outputs.cycle_name != ''
         env:
           CYCLE: ${{ steps.check.outputs.cycle_name }}
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
           TAG_NAME="airac-$CYCLE"
 
-          # Check if tag exists
-          if git rev-parse "$TAG_NAME" >/dev/null 2>&1; then
-             echo "Tag $TAG_NAME already exists, skipping."
-             exit 0
+          # Check if tag already exists
+          if gh api "repos/${{ github.repository }}/git/refs/tags/$TAG_NAME" --silent 2>/dev/null; then
+            echo "Tag $TAG_NAME already exists on remote, skipping."
+            exit 0
           fi
 
-          echo "Creating tag $TAG_NAME"
-          git tag "$TAG_NAME"
-          git push origin "$TAG_NAME"
+          echo "Creating verified tag $TAG_NAME"
+
+          # Create an annotated tag object via the API
+          TAG_SHA=$(gh api "repos/${{ github.repository }}/git/tags" \
+            -f tag="$TAG_NAME" \
+            -f message="AIRAC cycle $CYCLE" \
+            -f object="${{ github.sha }}" \
+            -f type="commit" \
+            --jq '.sha')
+
+          # Create the ref pointing to the annotated tag object
+          gh api "repos/${{ github.repository }}/git/refs" \
+            -f ref="refs/tags/$TAG_NAME" \
+            -f sha="$TAG_SHA"
+
+          echo "Created verified tag $TAG_NAME"

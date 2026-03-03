@@ -1,6 +1,6 @@
 # vacs Data Repository
 
-This is the central data repository for [**vacs**](https://github.com/MorpheusXAUT/vacs), the **VATSIM ATC Communication System**. It contains the configuration data for Stations, Positions, and Profiles used by vacs to manage diverse ATC setups across the VATSIM network.
+This is the central data repository for [**vacs**](https://github.com/vacs-project/vacs), the **VATSIM ATC Communication System**. It contains the configuration data for Stations, Positions, and Profiles used by vacs to manage diverse ATC setups across the VATSIM network.
 
 By separating configuration from the core application code, we allow FIRs to manage and update their own data independently and define their controllers' experience using vacs.
 
@@ -24,10 +24,10 @@ See the **[Tools Documentation](tools/README.md)** for more information.
 
 We welcome contributions from FIR staff and community members! Please refer to the [Dataset Documentation](docs/dataset/README.md) for detailed instructions on the file formats and directory structure.
 
-1.  [Fork the repository](https://github.com/MorpheusXAUT/vacs-data/fork).
+1.  [Fork the repository](https://github.com/vacs-project/vacs-data/fork).
 2.  Make your changes in your FIR's directory (or create it if it doesn't exist).
 3.  Validate your changes using the provided JSON schemas or the `vacs-data` tool.
-4.  [Submit a Pull Request](https://github.com/MorpheusXAUT/vacs-data/compare). Please make sure to enable "Allow edits by maintainers" so that the autofix.ci bot can automatically push formatting fixes to your PR branch.
+4.  [Submit a Pull Request](https://github.com/vacs-project/vacs-data/compare). Please make sure to enable "Allow edits by maintainers" so that the autofix.ci bot can automatically push formatting fixes to your PR branch.
 5.  Make sure to check our [contribution guidelines](CONTRIBUTING.md) for more information.
 
 ## License

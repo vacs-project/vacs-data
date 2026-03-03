@@ -1,0 +1,114 @@
+{
+  "id": "EDWW-AFIS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["PRIM"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EDWW", "EBG BER"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDWW", "DBAN"],
+                  "station_id": "EDWW-DBAN"
+                },
+                {
+                  "label": ["EDWW", "DBANT"],
+                  "station_id": "EDWW-DBANT"
+                },
+                {
+                  "label": ["EDWW", "DBDN"],
+                  "station_id": "EDWW-DBDN"
+                },
+                {
+                  "label": ["EDWW", "DBAS"],
+                  "station_id": "EDWW-DBAS"
+                },
+                {
+                  "label": ["EDWW", "DBAST"],
+                  "station_id": "EDWW-DBAST"
+                },
+                {
+                  "label": ["EDWW", "DBDS"],
+                  "station_id": "EDWW-DBDS"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["EDAY", "INFO"],
+            "station_id": "EDAY-AFIS"
+          },
+          {
+            "label": ["EDAZ", "INFO"],
+            "station_id": "EDAZ-AFIS"
+          },
+          {
+            "label": ["EDWW", "EBG EAST", ""],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDWW", "BOR"],
+                  "station_id": "EDWW-BOR"
+                },
+                {
+                  "label": ["EDWW", "MRZ"],
+                  "station_id": "EDWW-MRZ"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["EDBC", "INFO"],
+            "station_id": "EDBC-AFIS"
+          },
+          {
+            "label": ["EDBH", "INFO"],
+            "station_id": "EDBH-AFIS"
+          },
+          {
+            "label": ["EDBM", "INFO"],
+            "station_id": "EDBM-AFIS"
+          },
+          {
+            "label": ["EDBN", "INFO"],
+            "station_id": "EDBN-AFIS"
+          },
+          {
+            "label": ["EDWW", "EBG NORTH"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDWW", "EID"],
+                  "station_id": "EDWW-EID"
+                },
+                {
+                  "label": ["EDWW", "FRI"],
+                  "station_id": "EDWW-FRI"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["EDHK", "INFO"],
+            "station_id": "EDHK-AFIS"
+          },
+          {
+            "label": ["EDWE", "INFO", ""],
+            "station_id": "EDWE-AFIS"
+          },
+          {
+            "label": ["EDWI", "INFO"],
+            "station_id": "EDWI-AFIS"
+          }
+        ]
+      }
+    }
+  ]
+}

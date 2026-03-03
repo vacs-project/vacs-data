@@ -1,7 +1,7 @@
 [[positions]]
 id = "EFIN_FMP"
 prefixes = ["EFIN"]
-frequency = "121.300"
+frequency = "199.998"
 facility_type = "FMP"
 profile_id = "EFIN"
 
@@ -11,6 +11,7 @@ prefixes = ["EFIN"]
 frequency = "127.425"
 facility_type = "CTR"
 profile_id = "EFIN"
+
 [[positions]]
 id = "EFIN_B_CTR"
 prefixes = ["EFIN"]
@@ -105,347 +106,405 @@ profile_id = "EFIN"
 [[positions]]
 id = "EFHK_FMP"
 prefixes = ["EFHK"]
-frequency = "118.600"
+frequency = "199.998"
 facility_type = "FMP"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_E_APP"
 prefixes = ["EFHK"]
 frequency = "119.100"
 facility_type = "APP"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_W_APP"
 prefixes = ["EFHK"]
 frequency = "129.850"
 facility_type = "APP"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_R_APP"
 prefixes = ["EFHK"]
 frequency = "119.900"
 facility_type = "APP"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_A_APP"
 prefixes = ["EFHK"]
 frequency = "124.325"
 facility_type = "APP"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_E_TWR"
 prefixes = ["EFHK"]
 frequency = "118.600"
 facility_type = "TWR"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_W_TWR"
 prefixes = ["EFHK"]
 frequency = "118.850"
 facility_type = "TWR"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_GND"
 prefixes = ["EFHK"]
 frequency = "121.800"
 facility_type = "GND"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_DEL"
 prefixes = ["EFHK"]
 frequency = "118.125"
 facility_type = "DEL"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_C_GND"
 prefixes = ["EFHK"]
 frequency = "133.850"
 facility_type = "GND"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHK_D_GND"
 prefixes = ["EFHK"]
 frequency = "121.675"
 facility_type = "GND"
+profile_id = "EFHK"
 
 [[positions]]
 id = "EFHA_APP"
 prefixes = ["EFHA"]
 frequency = "124.550"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFJY_APP"
 prefixes = ["EFJY"]
 frequency = "127.000"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFJY_R_APP"
 prefixes = ["EFJY"]
 frequency = "128.800"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKU_APP"
 prefixes = ["EFKU"]
 frequency = "130.600"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKU_R_APP"
 prefixes = ["EFKU"]
 frequency = "122.850"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFOU_APP"
 prefixes = ["EFOU"]
 frequency = "118.150"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFPO_APP"
 prefixes = ["EFPO"]
 frequency = "128.650"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFRO_APP"
 prefixes = ["EFRO"]
 frequency = "129.900"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFRO_R_APP"
 prefixes = ["EFRO"]
 frequency = "118.600"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFTP_APP"
 prefixes = ["EFTP"]
 frequency = "126.200"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFTP_R_APP"
 prefixes = ["EFTP"]
 frequency = "120.250"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFTU_APP"
 prefixes = ["EFTU"]
 frequency = "120.475"
 facility_type = "APP"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFHA_TWR"
 prefixes = ["EFHA"]
 frequency = "128.900"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFHA_R_TWR"
 prefixes = ["EFHA_R"]
 frequency = "128.900"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFIV_R_TWR"
 prefixes = ["EFIV"]
 frequency = "118.000"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFJO_R_TWR"
 prefixes = ["EFJO"]
 frequency = "120.900"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFJY_TWR"
 prefixes = ["EFJY"]
 frequency = "118.000"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFJY_R_TWR"
 prefixes = ["EFJY_R"]
 frequency = "118.000"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFJY_GND"
 prefixes = ["EFJY"]
 frequency = "121.850"
 facility_type = "GND"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKE_R_TWR"
 prefixes = ["EFKE"]
 frequency = "119.400"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKK_R_TWR"
 prefixes = ["EFKK"]
 frequency = "120.100"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKS_R_TWR"
 prefixes = ["EFKS"]
 frequency = "118.650"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKT_R_TWR"
 prefixes = ["EFKT"]
 frequency = "118.950"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKT_DEL"
 prefixes = ["EFKT"]
 frequency = "123.100"
 facility_type = "DEL"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKU_TWR"
 prefixes = ["EFKU"]
 frequency = "120.150"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKU_R_TWR"
 prefixes = ["EFKU_R"]
 frequency = "120.150"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFLP_P_TWR"
 prefixes = ["EFLP"]
 frequency = "120.200"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFMA_R_TWR"
 prefixes = ["EFMA"]
 frequency = "119.600"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFOU_TWR"
 prefixes = ["EFOU"]
 frequency = "124.400"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFOU_R_TWR"
 prefixes = ["EFOU_R"]
 frequency = "124.400"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFPO_TWR"
 prefixes = ["EFPO"]
 frequency = "119.250"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFPO_R_TWR"
 prefixes = ["EFPO_R"]
 frequency = "119.250"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFRO_TWR"
 prefixes = ["EFRO"]
 frequency = "118.700"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFRO_R_TWR"
 prefixes = ["EFRO"]
 frequency = "118.700"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFRO_DEL"
 prefixes = ["EFRO"]
 frequency = "118.525"
 facility_type = "DEL"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFTP_TWR"
 prefixes = ["EFTP"]
 frequency = "118.700"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFTP_R_TWR"
 prefixes = ["EFTP_R"]
 frequency = "118.700"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFTP_GND"
 prefixes = ["EFTP"]
 frequency = "124.275"
 facility_type = "GND"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFTU_TWR"
 prefixes = ["EFTU"]
 frequency = "118.300"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFTU_R_TWR"
 prefixes = ["EFTU_R"]
 frequency = "118.300"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFUT_P_TWR"
 prefixes = ["EFUT"]
 frequency = "130.800"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFVA_R_TWR"
 prefixes = ["EFVA"]
 frequency = "120.950"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFET_I_TWR"
 prefixes = ["EFET"]
 frequency = "122.450"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFKI_I_TWR"
 prefixes = ["EFKI"]
 frequency = "118.100"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFMI_I_TWR"
 prefixes = ["EFMI"]
 frequency = "123.000"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFSA_I_TWR"
 prefixes = ["EFSA"]
 frequency = "118.800"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"
 
 [[positions]]
 id = "EFSI_I_TWR"
 prefixes = ["EFSI"]
 frequency = "123.600"
 facility_type = "TWR"
+profile_id = "EF_Generic_regional"

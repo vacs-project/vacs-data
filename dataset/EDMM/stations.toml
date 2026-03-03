@@ -21,7 +21,7 @@ id = "EDMM-EGG"
 controlled_by = [
   "EDMM_EGG_CTR",
   "EDMM_RDG_CTR",
-  "EDMM_RDG_CTR",
+  "EDMM_ALB_CTR",
   "EDMM_WLD_CTR",
   "EDMM_ZUG_CTR",
 ]

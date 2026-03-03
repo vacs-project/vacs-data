@@ -1,0 +1,26 @@
+{
+  "stations": [
+    {
+      "id": "LMMM-CTR",
+      "controlled_by": ["LMMM_CTR"]
+    },
+    {
+      "id": "LMMM-E-CTR",
+      "controlled_by": ["LMMM_E_CTR", "LMMM_CTR"]
+    },
+    {
+      "id": "LMML-APP",
+      "controlled_by": ["LMML_APP", "LMMM_CTR"]
+    },
+    {
+      "id": "LMML-TWR",
+      "controlled_by": ["LMML_TWR"],
+      "parent_id": "LMML-APP"
+    },
+    {
+      "id": "LMML-GND",
+      "controlled_by": ["LMML_GND"],
+      "parent_id": "LMML-TWR"
+    }
+  ]
+}

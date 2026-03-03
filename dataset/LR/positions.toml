@@ -1,0 +1,265 @@
+[[positions]]
+id = "LRAR_APP"
+prefixes = ["LRAR"]
+frequency = "123.530"
+facility_type = "APP"
+# profile_id = "APA"
+
+[[positions]]
+id = "LRAR_TWR"
+prefixes = ["LRAR"]
+frequency = "118.230"
+facility_type = "TWR"
+# profile_id = "APA"
+
+[[positions]]
+id = "LRBB_I_CTR"
+prefixes = ["LRBB"]
+frequency = "129.400"
+facility_type = "CTR"
+# profile_id = "LRBB"
+
+[[positions]]
+id = "LRBB_FMP"
+prefixes = ["LRBB"]
+frequency = "118.325"
+facility_type = "FMP"
+# profile_id = "LRBB"
+
+[[positions]]
+id = "LRBB_CTR"
+prefixes = ["LRBB"]
+frequency = "122.030"
+facility_type = "CTR"
+# profile_id = "LRBB"
+
+[[positions]]
+id = "LRBB_E_CTR"
+prefixes = ["LRBB"]
+frequency = "134.435"
+facility_type = "CTR"
+# profile_id = "LRBB"
+
+[[positions]]
+id = "LRBB_W_CTR"
+prefixes = ["LRBB"]
+frequency = "125.765"
+facility_type = "CTR"
+# profile_id = "LRBB"
+
+[[positions]]
+id = "LRBB_U_CTR"
+prefixes = ["LRBB"]
+frequency = "135.360"
+facility_type = "CTR"
+# profile_id = "LRBB"
+
+[[positions]]
+id = "LRBB_V_CTR"
+prefixes = ["LRBB"]
+frequency = "132.865"
+facility_type = "CTR"
+# profile_id = "LRBB"
+
+[[positions]]
+id = "LRBB_G_CTR"
+prefixes = ["LRBB"]
+frequency = "133.630"
+facility_type = "CTR"
+# profile_id = "LRBB"
+
+[[positions]]
+id = "LRBB_H_CTR"
+prefixes = ["LRBB"]
+frequency = "132.740"
+facility_type = "CTR"
+# profile_id = "LRBB"
+
+[[positions]]
+id = "LRBC_TWR"
+prefixes = ["LRBC"]
+frequency = "120.980"
+facility_type = "TWR"
+# profile_id = "PROC"
+
+[[positions]]
+id = "LRBM_TWR"
+prefixes = ["LRBM"]
+frequency = "118.855"
+facility_type = "TWR"
+# profile_id = "PROC"
+
+[[positions]]
+id = "LRBS_TWR"
+prefixes = ["LRBS"]
+frequency = "125.205"
+facility_type = "TWR"
+# profile_id = "APB"
+
+[[positions]]
+id = "LRBS_GND"
+prefixes = ["LRBS"]
+frequency = "129.950"
+facility_type = "GND"
+# profile_id = "APB"
+
+[[positions]]
+id = "LRBV_TWR"
+prefixes = ["LRBV"]
+frequency = "118.630"
+facility_type = "TWR"
+# profile_id = "PROC"
+
+[[positions]]
+id = "LRCK_APP"
+prefixes = ["LRCK"]
+frequency = "122.905"
+facility_type = "APP"
+# profile_id = "APC"
+
+[[positions]]
+id = "LRCK_TWR"
+prefixes = ["LRCK"]
+frequency = "124.030"
+facility_type = "TWR"
+# profile_id = "APC"
+
+[[positions]]
+id = "LRCK_P_APP"
+prefixes = ["LRCK"]
+frequency = "127.025"
+facility_type = "APP"
+# profile_id = "MIL"
+
+[[positions]]
+id = "LRCL_TWR"
+prefixes = ["LRCL"]
+frequency = "118.705"
+facility_type = "TWR"
+# profile_id = "APN"
+
+[[positions]]
+id = "LRCL_APP"
+prefixes = ["LRCL"]
+frequency = "126.430"
+facility_type = "APP"
+# profile_id = "APN"
+
+[[positions]]
+id = "LRCL_S_APP"
+prefixes = ["LRCL"]
+frequency = "119.680"
+facility_type = "APP"
+# profile_id = "APN"
+
+[[positions]]
+id = "LRCV_TWR"
+prefixes = ["LRCV"]
+frequency = "129.530"
+facility_type = "TWR"
+# profile_id = "PROC"
+
+[[positions]]
+id = "LRFT_TWR"
+prefixes = ["LRFT"]
+frequency = "122.100"
+facility_type = "TWR"
+# profile_id = "MIL"
+
+[[positions]]
+id = "LRIA_TWR"
+prefixes = ["LRIA"]
+frequency = "119.955"
+facility_type = "TWR"
+# profile_id = "PROC"
+
+[[positions]]
+id = "LROD_TWR"
+prefixes = ["LROD"]
+frequency = "118.455"
+facility_type = "TWR"
+# profile_id = "PROC"
+
+[[positions]]
+id = "LROP_TWR"
+prefixes = ["LROP"]
+frequency = "118.805"
+facility_type = "TWR"
+# profile_id = "APB"
+
+[[positions]]
+id = "LROP_APP"
+prefixes = ["LROP"]
+frequency = "119.415"
+facility_type = "APP"
+# profile_id = "APB"
+
+[[positions]]
+id = "LROP_GND"
+prefixes = ["LROP"]
+frequency = "121.855"
+facility_type = "GND"
+# profile_id = "APB"
+
+[[positions]]
+id = "LROP_F_APP"
+prefixes = ["LROP"]
+frequency = "127.155"
+facility_type = "APP"
+# profile_id = "APB"
+
+[[positions]]
+id = "LROP_DEL"
+prefixes = ["LROP"]
+frequency = "121.955"
+facility_type = "DEL"
+# profile_id = "APB"
+
+[[positions]]
+id = "LRSB_TWR"
+prefixes = ["LRSB"]
+frequency = "121.305"
+facility_type = "TWR"
+# profile_id = "APN"
+
+[[positions]]
+id = "LRSM_TWR"
+prefixes = ["LRSM"]
+frequency = "119.655"
+facility_type = "TWR"
+# profile_id = "PROC"
+
+[[positions]]
+id = "LRSV_TWR"
+prefixes = ["LRSV"]
+frequency = "129.955"
+facility_type = "TWR"
+# profile_id = "PROC"
+
+[[positions]]
+id = "LRTC_TWR"
+prefixes = ["LRTC"]
+frequency = "119.755"
+facility_type = "TWR"
+# profile_id = "PROC"
+
+[[positions]]
+id = "LRTM_TWR"
+prefixes = ["LRTM"]
+frequency = "119.180"
+facility_type = "TWR"
+# profile_id = "APN"
+
+[[positions]]
+id = "LRTR_TWR"
+prefixes = ["LRTR"]
+frequency = "120.105"
+facility_type = "TWR"
+# profile_id = "APA"
+
+[[positions]]
+id = "LRTR_GND"
+prefixes = ["LRTR"]
+frequency = "121.600"
+facility_type = "GND"
+# profile_id = "APA"

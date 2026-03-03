@@ -1,0 +1,50 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+  - repo: https://github.com/FeryET/pre-commit-rust
+    rev: v1.2.1
+    hooks:
+      - id: fmt
+        args: ["--manifest-path", "tools/Cargo.toml", "--all", "--", "--check"]
+        files: '^tools/.*\.rs$'
+      - id: clippy
+        args:
+          [
+            "--manifest-path",
+            "tools/Cargo.toml",
+            "--all",
+            "--",
+            "-D",
+            "warnings",
+          ]
+        files: '^tools/.*\.rs$'
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.37.0
+    hooks:
+      - id: check-jsonschema
+        name: validate positions
+        files: '^dataset/[^/]+/positions\.(json|toml)$'
+        args: ["--schemafile", "docs/schemas/positions.schema.json"]
+      - id: check-jsonschema
+        name: validate stations
+        files: '^dataset/[^/]+/stations\.(json|toml)$'
+        args: ["--schemafile", "docs/schemas/stations.schema.json"]
+      - id: check-jsonschema
+        name: validate profiles
+        files: '^dataset/[^/]+/profiles/.*\.(json|toml)$'
+        args: ["--schemafile", "docs/schemas/profiles.schema.json"]
+      - id: check-github-actions
+      - id: check-github-workflows
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: v3.8.1
+    hooks:
+      - id: prettier
+        files: '^dataset/.*\.(json|toml)$'
+        additional_dependencies:
+          - "prettier-plugin-toml@2.0.6"

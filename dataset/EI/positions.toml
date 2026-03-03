@@ -1,0 +1,275 @@
+[[positions]]
+id = "EIDW_UN_CTR"
+prefixes = ["EIDW"]
+frequency = "129.180"
+facility_type = "CTR"
+
+[[positions]]
+id = "EIDW_US_CTR"
+prefixes = ["EIDW"]
+frequency = "135.655"
+facility_type = "CTR"
+
+[[positions]]
+id = "EIDW_LN_CTR"
+prefixes = ["EIDW"]
+frequency = "132.580"
+facility_type = "CTR"
+
+[[positions]]
+id = "EIDW_LS_CTR"
+prefixes = ["EIDW"]
+frequency = "120.755"
+facility_type = "CTR"
+
+[[positions]]
+id = "EIDW_I_CTR"
+prefixes = ["EIDW"]
+frequency = "118.500"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_E_CTR"
+prefixes = ["EISN"]
+frequency = "134.260"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_B_CTR"
+prefixes = ["EISN"]
+frequency = "127.130"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_S_CTR"
+prefixes = ["EISN"]
+frequency = "135.230"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_N_CTR"
+prefixes = ["EISN"]
+frequency = "122.980"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_O_CTR"
+prefixes = ["EISN"]
+frequency = "135.600"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_W_CTR"
+prefixes = ["EISN"]
+frequency = "131.150"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_D_CTR"
+prefixes = ["EISN"]
+frequency = "129.665"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_ES_CTR"
+prefixes = ["EISN"]
+frequency = "135.730"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_BS_CTR"
+prefixes = ["EISN"]
+frequency = "134.630"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_SS_CTR"
+prefixes = ["EISN"]
+frequency = "133.360"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_NS_CTR"
+prefixes = ["EISN"]
+frequency = "120.040"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_WS_CTR"
+prefixes = ["EISN"]
+frequency = "132.150"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_LN_CTR"
+prefixes = ["EISN"]
+frequency = "119.075"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_LS_CTR"
+prefixes = ["EISN"]
+frequency = "124.700"
+facility_type = "CTR"
+
+[[positions]]
+id = "EISN_I_CTR"
+prefixes = ["EISN"]
+frequency = "127.500"
+facility_type = "CTR"
+
+[[positions]]
+id = "EICK_APP"
+prefixes = ["EICK"]
+frequency = "119.900"
+facility_type = "APP"
+
+[[positions]]
+id = "EIDW_APP"
+prefixes = ["EIDW"]
+frequency = "121.100"
+facility_type = "APP"
+
+[[positions]]
+id = "EIDW_F_APP"
+prefixes = ["EIDW"]
+frequency = "119.930"
+facility_type = "APP"
+
+[[positions]]
+id = "EIME_APP"
+prefixes = ["EIME"]
+frequency = "122.000"
+facility_type = "APP"
+
+[[positions]]
+id = "EINN_APP"
+prefixes = ["EINN"]
+frequency = "121.400"
+facility_type = "APP"
+
+[[positions]]
+id = "EICK_TWR"
+prefixes = ["EICK"]
+frequency = "119.300"
+facility_type = "TWR"
+
+[[positions]]
+id = "EIDL_TWR"
+prefixes = ["EIDL"]
+frequency = "129.800"
+facility_type = "TWR"
+
+[[positions]]
+id = "EIDW_S_TWR"
+prefixes = ["EIDW"]
+frequency = "118.600"
+facility_type = "TWR"
+
+[[positions]]
+id = "EIDW_N_TWR"
+prefixes = ["EIDW"]
+frequency = "124.680"
+facility_type = "TWR"
+
+[[positions]]
+id = "EIKN_TWR"
+prefixes = ["EIKN"]
+frequency = "130.705"
+facility_type = "TWR"
+
+[[positions]]
+id = "EIKY_TWR"
+prefixes = ["EIKY"]
+frequency = "123.325"
+facility_type = "TWR"
+
+[[positions]]
+id = "EIME_TWR"
+prefixes = ["EIME"]
+frequency = "123.500"
+facility_type = "TWR"
+
+[[positions]]
+id = "EINN_TWR"
+prefixes = ["EINN"]
+frequency = "118.700"
+facility_type = "TWR"
+
+[[positions]]
+id = "EISG_TWR"
+prefixes = ["EISG"]
+frequency = "122.100"
+facility_type = "TWR"
+
+[[positions]]
+id = "EIWF_TWR"
+prefixes = ["EIWF"]
+frequency = "129.850"
+facility_type = "TWR"
+
+[[positions]]
+id = "EIWT_TWR"
+prefixes = ["EIWT"]
+frequency = "122.400"
+facility_type = "TWR"
+
+[[positions]]
+id = "EICK_GND"
+prefixes = ["EICK"]
+frequency = "121.850"
+facility_type = "GND"
+
+[[positions]]
+id = "EIDW_S_GND"
+prefixes = ["EIDW"]
+frequency = "121.800"
+facility_type = "GND"
+
+[[positions]]
+id = "EIDW_N_GND"
+prefixes = ["EIDW"]
+frequency = "125.885"
+facility_type = "GND"
+
+[[positions]]
+id = "EIKN_GND"
+prefixes = ["EIKN"]
+frequency = "121.905"
+facility_type = "GND"
+
+[[positions]]
+id = "EIWF_GND"
+prefixes = ["EIWF"]
+frequency = "121.600"
+facility_type = "GND"
+
+[[positions]]
+id = "EIKY_GND"
+prefixes = ["EIKY"]
+frequency = "121.600"
+facility_type = "GND"
+
+[[positions]]
+id = "EIME_GND"
+prefixes = ["EIME"]
+frequency = "123.100"
+facility_type = "GND"
+
+[[positions]]
+id = "EINN_GND"
+prefixes = ["EINN"]
+frequency = "121.800"
+facility_type = "GND"
+
+[[positions]]
+id = "EIWT_GND"
+prefixes = ["EIWT"]
+frequency = "119.425"
+facility_type = "GND"
+
+[[positions]]
+id = "EIDW_DEL"
+prefixes = ["EIDW"]
+frequency = "122.985"
+facility_type = "DEL"

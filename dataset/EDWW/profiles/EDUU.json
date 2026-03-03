@@ -1,0 +1,237 @@
+{
+  "id": "EDUU",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["PRIM"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["OSE 1", "-365"],
+            "station_id": "EDUU-OSE12"
+          },
+          {
+            "label": ["SAL"],
+            "station_id": "EDUU-SAL"
+          },
+          {
+            "label": ["YY", "HOL", "-365"],
+            "station_id": "EDYY-HL"
+          },
+          {
+            "label": ["YY", "SOL", "-355"],
+            "station_id": "EDYY-SL"
+          },
+          {
+            "label": ["WW", "BOR"],
+            "station_id": "EDWW-BOR"
+          },
+          {
+            "label": ["MM", "HAL"],
+            "station_id": "EDMM-HAL"
+          },
+          {
+            "label": ["OSE 2", "+365"],
+            "station_id": "EDUU-OSE22"
+          },
+          {
+            "label": ["SPE"],
+            "station_id": "EDUU-SPE"
+          },
+          {
+            "label": ["YY", "HOL", "+365"],
+            "station_id": "EDYY-HH"
+          },
+          {
+            "label": ["YY", "SOL", "+355"],
+            "station_id": "EDYY-SH"
+          },
+          {
+            "label": ["WW", "FLG"],
+            "station_id": "EDWW-BOR"
+          },
+          {
+            "label": ["MM", "GER"],
+            "station_id": "EDMM-GER"
+          },
+          {
+            "label": ["HVL 1", "-365"],
+            "station_id": "EDUU-HVL12"
+          },
+          {
+            "label": ["ERL"],
+            "station_id": "EDUU-ERL"
+          },
+          {
+            "label": ["YY", "CEL", "-355"],
+            "station_id": "EDYY-CL"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["WW", "MAR"],
+            "station_id": "EDWW-MAR"
+          },
+          {
+            "label": ["MM", "MEI"],
+            "station_id": "EDMM-MEI"
+          },
+          {
+            "label": ["HVL 2", "+365"],
+            "station_id": "EDUU-HVL22"
+          },
+          {
+            "label": ["FUL"],
+            "station_id": "EDUU-FUL"
+          },
+          {
+            "label": ["YY", "CEL", "+355"],
+            "station_id": "EDYY-CH"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["WW", "MRZ"],
+            "station_id": "EDWW-MRZ"
+          },
+          {
+            "label": ["MM", "HOF"],
+            "station_id": "EDMM-HOF"
+          },
+          {
+            "label": ["EKDK", "A", "-365"],
+            "station_id": "EKDKA"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EKDK", "A", "+365"],
+            "station_id": "EKDKUA"
+          },
+          {
+            "label": ["EPWW", "B", "+365"],
+            "station_id": "EPWWB_HIGH"
+          },
+          {
+            "label": ["EPWW", "B", "335-365"],
+            "station_id": "EPWWB_MID"
+          },
+          {
+            "label": ["EPWW", "B", "-335"],
+            "station_id": "EPWWB_LOW"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["ESMM", "8", "-365"],
+            "station_id": "ESMM_8"
+          },
+          {
+            "label": ["EPWW", "D", "+365"],
+            "station_id": "EPWWD_HIGH"
+          },
+          {
+            "label": ["EPWW", "D", "335-365"],
+            "station_id": "EPWWD_MID"
+          },
+          {
+            "label": ["EPWW", "D", "-335"],
+            "station_id": "EPWWD_LOW"
+          },
+          {
+            "label": ["LKAA", "N", "+305"]
+          },
+          {
+            "label": ["TRAMON", "SUNRISE", "LONESHIP"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["TRAMON"]
+                },
+                {
+                  "label": ["SUNRISE"]
+                },
+                {
+                  "label": ["LONESHIP"]
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ESMM", "9", "+365"],
+            "station_id": "ESMM_9"
+          },
+          {
+            "label": ["EPWW", "T", "+365"],
+            "station_id": "EPWWT_HIGH"
+          },
+          {
+            "label": ["EPWW", "T", "335-365"],
+            "station_id": "EPWWT_MID"
+          },
+          {
+            "label": ["EPWW", "T", "-335"],
+            "station_id": "EPWWT_LOW"
+          },
+          {
+            "label": ["LKAA", "W", "+305"]
+          },
+          {
+            "label": ["FMP"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDWW", "FMP"]
+                },
+                {
+                  "label": ["EDGG", "FMP"]
+                },
+                {
+                  "label": ["EDMM", "FMP"],
+                  "station_id": "EDMM-FMP"
+                },
+                {
+                  "label": ["EKDK", "FMP"],
+                  "station_id": "EKDKFMP"
+                },
+                {
+                  "label": ["ESMM", "FMP"],
+                  "station_id": "ESAA_FMP"
+                },
+                {
+                  "label": ["EPWW", "FMP"],
+                  "station_id": "EPWW_FMP"
+                },
+                {
+                  "label": ["EHAA", "FMP"]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

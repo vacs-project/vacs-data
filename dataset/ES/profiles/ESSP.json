@@ -1,0 +1,127 @@
+{
+  "id": "ESSP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ÖKC"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["OS", "1"],
+            "station_id": "ESOS_1"
+          },
+          {
+            "label": ["OS", "7"],
+            "station_id": "ESOS_7"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OK", "TWR"],
+            "station_id": "ESOK_TWR"
+          },
+          {
+            "label": ["IA", "TWR"],
+            "station_id": "ESIA_TWR"
+          },
+          {
+            "label": ["GJ", "TWR"],
+            "station_id": "ESGJ_TWR"
+          },
+          {
+            "label": ["OS", "2"],
+            "station_id": "ESOS_2"
+          },
+          {
+            "label": ["OS", "9"],
+            "station_id": "ESOS_9"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ÖKC", "TC"],
+            "station_id": "ESSP_APP"
+          },
+          {
+            "label": ["ÖKC", "T3"],
+            "station_id": "ESCF_APP"
+          },
+          {
+            "label": ["ÖKC", "P3"],
+            "station_id": "ESCF_DIR"
+          },
+          {
+            "label": ["OS", "3"],
+            "station_id": "ESOS_3"
+          },
+          {
+            "label": ["OW", "APP"],
+            "station_id": "ESOW_APP"
+          },
+          {
+            "label": ["KN", "TWR"],
+            "station_id": "ESKN_TWR"
+          },
+          {
+            "label": ["SP", "TWR"],
+            "station_id": "ESSP_TWR"
+          },
+          {
+            "label": ["CF", "TWR"],
+            "station_id": "ESCF_TWR"
+          },
+          {
+            "label": ["CF", "GND"],
+            "station_id": "ESCF_GND"
+          },
+          {
+            "label": ["WS", "", ""],
+            "station_id": "ESAA_FMP"
+          },
+          {
+            "label": ["SU", "AFIS"],
+            "station_id": "ESSU_AFIS"
+          },
+          {
+            "label": ["OS", "APP-S"],
+            "station_id": "ESOS_APP-S"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SL", "TWR"],
+            "station_id": "ESSL_TWR"
+          },
+          {
+            "label": ["CF", "PAR"],
+            "station_id": "ESCF_PAR"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["MIL"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["COB"],
+            "station_id": "ESPF"
+          },
+          {
+            "label": ["GRI"],
+            "station_id": "ESCR"
+          },
+          {
+            "label": ["BSH"],
+            "station_id": "ESDK"
+          }
+        ]
+      }
+    }
+  ]
+}

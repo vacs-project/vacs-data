@@ -1,0 +1,76 @@
+{
+  "id": "EDDB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["DBAN"],
+            "station_id": "EDWW-DBAN"
+          },
+          {
+            "label": ["DBANT"],
+            "station_id": "EDWW-DBANT"
+          },
+          {
+            "label": ["TWR", "N"],
+            "station_id": "EDDB-TWR_N"
+          },
+          {
+            "label": ["GND", "N"],
+            "station_id": "EDDB-GND_N"
+          },
+          {
+            "label": ["APN", "N"],
+            "station_id": "EDDB-GND_E"
+          },
+          {
+            "label": ["DEL"],
+            "station_id": "EDDB-DEL"
+          },
+          {
+            "label": ["DBAS"],
+            "station_id": "EDWW-DBAS"
+          },
+          {
+            "label": ["DBAST"],
+            "station_id": "EDWW-DBAST"
+          },
+          {
+            "label": ["TWR", "S"],
+            "station_id": "EDDB-TWR_S"
+          },
+          {
+            "label": ["GND", "S"],
+            "station_id": "EDDB-GND_S"
+          },
+          {
+            "label": ["APN", "S"],
+            "station_id": "EDDB-GND_A"
+          },
+          {
+            "label": ["EDWW", "FMP"]
+          },
+          {
+            "label": ["DBDN"],
+            "station_id": "EDWW-DBDN"
+          },
+          {
+            "label": ["DBDS"],
+            "station_id": "EDWW-DBDS"
+          },
+          {
+            "label": ["AZ", "INFO"],
+            "station_id": "EDAZ-AFIS"
+          },
+          {
+            "label": ["FIS", "DB"]
+          }
+        ]
+      }
+    }
+  ]
+}

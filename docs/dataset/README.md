@@ -2,7 +2,7 @@
 
 This dataset configures the relationships between stations, positions, and profiles, defining the communication setup for controllers in a centralized and structured manner.
 
-This repository is primarily intended for NAV team members and contributors who want to define or maintain how controllers communicate within their FIR using [`vacs`](https://github.com/MorpheusXAUT/vacs). It is not intended for end users, who should instead refer to the main [`vacs`](https://github.com/MorpheusXAUT/vacs) repository for information on how to use [`vacs`](https://github.com/MorpheusXAUT/vacs).
+This repository is primarily intended for NAV team members and contributors who want to define or maintain how controllers communicate within their FIR using [`vacs`](https://github.com/vacs-project/vacs). It is not intended for end users, who should instead refer to the main [`vacs`](https://github.com/vacs-project/vacs) repository for information on how to use [`vacs`](https://github.com/vacs-project/vacs).
 
 ## Directory Structure
 
@@ -39,6 +39,6 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/), you can u
 
 If your tool of choice supports [JSON Schema](https://json-schema.org/), you can find the schemas for all dataset configurations in the [`docs/schemas`](../schemas/) directory or on GitHub:
 
-- [stations.schema.json](../schemas/stations.schema.json) or [GitHub](https://raw.githubusercontent.com/MorpheusXAUT/vacs-data/refs/heads/main/docs/schemas/stations.schema.json)
-- [positions.schema.json](../schemas/positions.schema.json) or [GitHub](https://raw.githubusercontent.com/MorpheusXAUT/vacs-data/refs/heads/main/docs/schemas/positions.schema.json)
-- [profiles.schema.json](../schemas/profiles.schema.json) or [GitHub](https://raw.githubusercontent.com/MorpheusXAUT/vacs-data/refs/heads/main/docs/schemas/profiles.schema.json)
+- [stations.schema.json](../schemas/stations.schema.json) or [GitHub](https://raw.githubusercontent.com/vacs-project/vacs-data/refs/heads/main/docs/schemas/stations.schema.json)
+- [positions.schema.json](../schemas/positions.schema.json) or [GitHub](https://raw.githubusercontent.com/vacs-project/vacs-data/refs/heads/main/docs/schemas/positions.schema.json)
+- [profiles.schema.json](../schemas/profiles.schema.json) or [GitHub](https://raw.githubusercontent.com/vacs-project/vacs-data/refs/heads/main/docs/schemas/profiles.schema.json)

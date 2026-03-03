@@ -28,7 +28,7 @@ controlled_by = ["EFIN_F_CTR", "EFIN_D_CTR", "EFIN_C_CTR"]
 
 [[stations]]
 id = "EFIN_G"
-controlled_by = ["EFIN_G_CTR", "EFIN_D_CTR", "EFIN_C_CTR"]
+controlled_by = ["EFIN_G_CTR", "EFIN_F_CTR", "EFIN_D_CTR", "EFIN_C_CTR"]
 
 [[stations]]
 id = "EFIN_H"
@@ -92,6 +92,7 @@ controlled_by = [
 [[stations]]
 id = "EFIN_N"
 controlled_by = [
+  "EFIN_N_CTR",
   "EFIN_M_CTR",
   "EFIN_A_CTR",
   "EFIN_G_CTR",
@@ -113,7 +114,7 @@ controlled_by = [
 
 [[stations]]
 id = "EFHK_TWR_COR"
-controlled_by = ["EFHK_FMP", "EFHK_E_TWR", "EFHK_E_APP"]
+controlled_by = ["EFHK_FMP"]
 
 [[stations]]
 id = "EFHK_RE"
@@ -144,6 +145,14 @@ id = "EFHK_GND"
 controlled_by = ["EFHK_GND"]
 
 [[stations]]
+id = "EFHK_DEICE_CO"
+controlled_by = ["EFHK_C_GND"]
+
+[[stations]]
+id = "EFHK_DEICE_OP"
+controlled_by = ["EFHK_D_GND"]
+
+[[stations]]
 id = "EFHK_CLD"
 controlled_by = ["EFHK_DEL"]
 
@@ -156,8 +165,16 @@ id = "EFJY_COR"
 controlled_by = ["EFJY_APP", "EFJY_R_TWR"]
 
 [[stations]]
+id = "EFJY_ARR"
+controlled_by = ["EFJY_R_APP"]
+
+[[stations]]
 id = "EFKU_COR"
 controlled_by = ["EFKU_APP", "EFKU_R_TWR"]
+
+[[stations]]
+id = "EFKU_ARR"
+controlled_by = ["EFKU_R_APP"]
 
 [[stations]]
 id = "EFOU_COR"

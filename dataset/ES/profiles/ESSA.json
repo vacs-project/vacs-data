@@ -1,0 +1,101 @@
+{
+  "id": "ESSA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ESSA"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["OS", "DEP-W"],
+            "station_id": "ESOS_DEP-W"
+          },
+          {
+            "label": ["OS", "ARR-W"],
+            "station_id": "ESOS_ARR-W"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR-W", ""],
+            "station_id": "ESSA_TWR-W"
+          },
+          {
+            "label": ["GND-W"],
+            "station_id": "ESSA_GND-W"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OS", "APP-C"],
+            "station_id": "ESOS_ARR-E"
+          },
+          {
+            "label": ["OS", "DIR"],
+            "station_id": "ESOS_DIR-W"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR-E"],
+            "station_id": "ESSA_TWR-E"
+          },
+          {
+            "label": ["GND-N"],
+            "station_id": "ESSA_GND-N"
+          },
+          {
+            "label": ["DEL"],
+            "station_id": "ESSA_DEL"
+          },
+          {
+            "label": ["OS", "DEP-E"],
+            "station_id": "ESOS_DEP-E"
+          },
+          {
+            "label": ["OS", "ARR-E"],
+            "station_id": "ESOS_ARR-E"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GND-E"],
+            "station_id": "ESSA_GND-E"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", "WS", ""],
+            "station_id": "ESAA_FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["CM", "TWR"],
+            "station_id": "ESCM_TWR"
+          },
+          {
+            "label": ["SB", "TWR"],
+            "station_id": "ESSB_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Malta",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["MALTA"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ROMA", "COO"],
+            "station_id": "LIRR-FMP"
+          },
+          {
+            "label": ["LAMPED", "APP"],
+            "station_id": "LICD-APP"
+          },
+          {
+            "label": ["PANTEL", "APP"],
+            "station_id": "LICG-APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ROMA", "SU", "310-UNL"],
+            "station_id": "LIRR-SU7"
+          },
+          {
+            "label": ["ROMA", "SU", "GND-300"],
+            "station_id": "LIRR-SU1"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["ROMA", "ES", "310-UNL"],
+            "station_id": "LIRR-SU7"
+          },
+          {
+            "label": ["ROMA", "ES", "GND-300"],
+            "station_id": "LIRR-ES1"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["BRINDISI", "ACC", "GND-UNL"],
+            "station_id": "LIBB-ES3"
+          },
+          {
+            "label": ["CATANIA", "APP"],
+            "station_id": "LICC-APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["MALTA", "ACC", "WEST"],
+            "station_id": "LMMM-CTR"
+          },
+          {
+            "label": ["LUQA", "RADAR"],
+            "station_id": "LMML-APP"
+          },
+          {
+            "label": ["LUQA", "TOWER"],
+            "station_id": "LMML-TWR"
+          },
+          {
+            "label": ["LUQA", "GROUND"],
+            "station_id": "LMML-GND"
+          },
+          {
+            "label": ["MALTA", "ACC", "EAST"],
+            "station_id": "LMMM-E-CTR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    }
+  ]
+}

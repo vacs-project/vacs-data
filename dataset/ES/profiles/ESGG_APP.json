@@ -1,0 +1,261 @@
+{
+  "id": "ESGG_APP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ESGG"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["MM", "4"],
+            "station_id": "ESMM_4"
+          },
+          {
+            "label": ["MM", "XK"],
+            "station_id": "ESMM_XK"
+          },
+          {
+            "label": ["EKDK", "L"],
+            "station_id": "EKDKL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", "APP-W"],
+            "station_id": "ESGG_APP-W"
+          },
+          {
+            "label": ["", "DEL"],
+            "station_id": "ESGG_DEL"
+          },
+          {
+            "label": ["MM", "5"],
+            "station_id": "ESMM_5"
+          },
+          {
+            "label": ["MM", "K"],
+            "station_id": "ESMM_K"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", "ARR"],
+            "station_id": "ESGG_ARR"
+          },
+          {
+            "label": ["", "GND"],
+            "station_id": "ESGG_GND"
+          },
+          {
+            "label": ["MM", "IN"],
+            "station_id": "ESMM_IN"
+          },
+          {
+            "label": ["MM", "IS"],
+            "station_id": "ESMM_IS"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GT", "TWR"],
+            "station_id": "ESGT_TWR"
+          },
+          {
+            "label": ["", "APP-E"],
+            "station_id": "ESGG_APP-E"
+          },
+          {
+            "label": ["", "TWR"],
+            "station_id": "ESGG_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["IB", "APP"],
+            "station_id": "ESIB_APP"
+          },
+          {
+            "label": ["IB", "TWR"],
+            "station_id": "ESIB_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["WS", ""],
+            "station_id": "ESAA_FMP"
+          },
+          {
+            "label": ["EKDK", "FMP"],
+            "station_id": "EKDKFMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["IB", "PAR"],
+            "station_id": "ESIB_PAR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ESAA"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["OS", "1"],
+            "station_id": "ESOS_1"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OS", "3"],
+            "station_id": "ESOS_3"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OK", "TWR"],
+            "station_id": "ESOK_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OE", "TWR"],
+            "station_id": "ESOE_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MT", "TWR"],
+            "station_id": "ESMT_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["IA", "APP"],
+            "station_id": "ESIA_APP"
+          },
+          {
+            "label": ["GJ", "TWR"],
+            "station_id": "ESGJ_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["MIL"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["COB", ""],
+            "station_id": "ESPF"
+          },
+          {
+            "label": ["GRI", ""],
+            "station_id": "ESCR"
+          },
+          {
+            "label": ["BSH", ""],
+            "station_id": "ESDK"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FR", "APP"],
+            "station_id": "ESFR_APP"
+          },
+          {
+            "label": ["FR", "TWR"],
+            "station_id": "ESFR_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MV", "APP"],
+            "station_id": "ESMV_APP"
+          },
+          {
+            "label": ["MV", "TWR", ""],
+            "station_id": "ESMV_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

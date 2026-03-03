@@ -1,0 +1,82 @@
+{
+  "id": "EDWW-MINOR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["PRIM"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EDWW", "MRZ"],
+            "station_id": "EDWW-MRZ"
+          },
+          {
+            "label": ["EDWW", "EMS"],
+            "station_id": "EDWW-EMS"
+          },
+          {
+            "label": ["EDWW", "HAN"],
+            "station_id": "EDWW-HAN"
+          },
+          {
+            "label": ["EDHI", "TWR"],
+            "station_id": "EDHI-TWR"
+          },
+          {
+            "label": ["EDVE", "TWR"],
+            "station_id": "EDVE-TWR"
+          },
+          {
+            "label": ["EDXW", "TWR"],
+            "station_id": "EDXW-TWR"
+          },
+          {
+            "label": ["EDWW", "EID"],
+            "station_id": "EDWW-EID"
+          },
+          {
+            "label": ["EDWW", "HAM"],
+            "station_id": "EDWW-HAM"
+          },
+          {
+            "label": ["EDAH", "TWR"],
+            "station_id": "EDAH-TWR"
+          },
+          {
+            "label": ["EDHL", "TWR + GND"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDHL", "TWR"],
+                  "station_id": "EDHL-TWR"
+                },
+                {
+                  "label": ["EDHL", "GND"],
+                  "station_id": "EDHL-GND"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["EDVK", "TWR + GND"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDVK", "TWR"],
+                  "station_id": "EDVK-TWR"
+                },
+                {
+                  "label": ["EDVK", "GND"],
+                  "station_id": "EDVK-GND"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -87,42 +87,46 @@
           },
           {
             "label": ["ESAA", "FMP"],
-            "station_id": "ESAA FMP"
+            "station_id": "ESAA_FMP"
           },
           {
             "label": ["ESMM", "SEC Y"],
-            "station_id": "ESMM Y"
+            "station_id": "ESMM_Y"
           },
           {
             "label": ["ESOS", "SEC 6"],
-            "station_id": "ESOS 6"
+            "station_id": "ESOS_6"
           },
           {
             "label": ["ESOS", "SEC 4"],
-            "station_id": "ESOS 4"
+            "station_id": "ESOS_4"
           },
           {
             "label": ["ESOS", "SEC F"],
-            "station_id": "ESOS F"
+            "station_id": "ESOS_F"
           },
           {
             "label": ["ESOS", "SEC K"],
-            "station_id": "ESOS K"
+            "station_id": "ESOS_K"
           },
           {
             "label": []
           },
           {
-            "label": ["EETT", "FMP"]
+            "label": ["EETT", "FMP"],
+            "station_id": "EETT_FMP"
           },
           {
-            "label": ["EETT", "W11"]
+            "label": ["EETT", "W11"],
+            "station_id": "EETT_W11"
           },
           {
-            "label": ["EETT", "W12"]
+            "label": ["EETT", "W12"],
+            "station_id": "EETT_W12"
           },
           {
-            "label": ["EETN", "APP"]
+            "label": ["EETN", "APP"],
+            "station_id": "EETN_APP"
           },
           {
             "label": []
@@ -214,7 +218,7 @@
       }
     },
     {
-      "label": ["TWR", "APP"],
+      "label": ["APP", "TWR"],
       "page": {
         "rows": 7,
         "keys": [
@@ -223,74 +227,11 @@
             "station_id": "EFRO_COR"
           },
           {
-            "label": ["EFOU", "COR"],
-            "station_id": "EFOU_COR"
-          },
-          {
-            "label": ["EFTP", "COR"],
-            "station_id": "EFTP_COR"
-          },
-          {
-            "label": ["EFTU", "COR"],
-            "station_id": "EFTU_COR"
-          },
-          {
-            "label": ["EFKU", "COR"],
-            "station_id": "EFKU_COR"
-          },
-          {
-            "label": ["EFJY", "COR"],
-            "station_id": "EFJY_COR"
-          },
-          {
-            "label": ["EFPO", "COR"],
-            "station_id": "EFPO_COR"
+            "label": []
           },
           {
             "label": ["EFRO", "TWR"],
             "station_id": "EFRO_TWR"
-          },
-          {
-            "label": ["EFOU", "TWR"],
-            "station_id": "EFOU_TWR"
-          },
-          {
-            "label": ["EFTP", "TWR"],
-            "station_id": "EFTP_TWR"
-          },
-          {
-            "label": ["EFTU", "TWR"],
-            "station_id": "EFTU_TWR"
-          },
-          {
-            "label": ["EFKU", "TWR"],
-            "station_id": "EFKU_TWR"
-          },
-          {
-            "label": ["EFJY", "TWR"],
-            "station_id": "EFJY_TWR"
-          },
-          {
-            "label": ["EFPO", "TWR"],
-            "station_id": "EFPO_TWR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
           },
           {
             "label": []
@@ -300,32 +241,145 @@
             "station_id": "EFIV_TWR"
           },
           {
-            "label": ["EFKK", "TWR"],
-            "station_id": "EFKK_TWR"
+            "label": ["EFUT", "TWR"],
+            "station_id": "EFUT_TWR"
           },
           {
-            "label": ["EFVA", "TWR"],
-            "station_id": "EFVA_TWR"
+            "label": []
           },
           {
-            "label": ["EFKE", "TWR"],
-            "station_id": "EFKE_TWR"
+            "label": ["EFTP", "COR"],
+            "station_id": "EFTP_COR"
           },
           {
-            "label": ["EFKS", "TWR"],
-            "station_id": "EFKS_TWR"
+            "label": []
+          },
+          {
+            "label": ["EFTP", "TWR"],
+            "station_id": "EFTP_TWR"
+          },
+          {
+            "label": []
           },
           {
             "label": ["EFJO", "TWR"],
             "station_id": "EFJO_TWR"
           },
           {
-            "label": ["EFMA", "TWR"],
-            "station_id": "EFMA_TWR"
+            "label": []
           },
           {
-            "label": ["EFUT", "TWR"],
-            "station_id": "EFUT_TWR"
+            "label": []
+          },
+          {
+            "label": ["EFKU", "COR"],
+            "station_id": "EFKU_COR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFKU", "TWR"],
+            "station_id": "EFKU_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFKE", "TWR"],
+            "station_id": "EFKE_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFOU", "COR"],
+            "station_id": "EFOU_COR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFOU", "TWR"],
+            "station_id": "EFOU_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFKT", "TWR"],
+            "station_id": "EFKT_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFJY", "COR"],
+            "station_id": "EFJY_COR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFJY", "TWR"],
+            "station_id": "EFJY_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFKK", "TWR"],
+            "station_id": "EFKK_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFTU", "COR"],
+            "station_id": "EFTU_COR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFTU", "TWR"],
+            "station_id": "EFTU_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFKS", "TWR"],
+            "station_id": "EFKS_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFPO", "APP"],
+            "station_id": "EFPO_COR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFPO", "TWR"],
+            "station_id": "EFPO_TWR"
+          },
+          {
+            "label": []
           },
           {
             "label": ["EFLP", "TWR"],
@@ -335,8 +389,14 @@
             "label": []
           },
           {
-            "label": ["EFHA", "COR"],
+            "label": []
+          },
+          {
+            "label": ["EFHA", "COR", ""],
             "station_id": "EFHA_COR"
+          },
+          {
+            "label": []
           },
           {
             "label": ["EFHA", "TWR"],
@@ -346,6 +406,105 @@
             "label": []
           },
           {
+            "label": ["EFVA", "TWR"],
+            "station_id": "EFVA_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["EFHK", ""],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": [""]
+          },
+          {
+            "label": ["RAD-W", ""],
+            "station_id": "EFHK_RW"
+          },
+          {
+            "label": ["ARR-W", ""],
+            "station_id": "EFHK_AW"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR-W"],
+            "station_id": "EFHK_TWW"
+          },
+          {
+            "label": ["GND1"],
+            "station_id": "EFHK_GND"
+          },
+          {
+            "label": ["GND2", "CLD"],
+            "station_id": "EFHK_CLD"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RAD-E", ""],
+            "station_id": "EFHK_RE"
+          },
+          {
+            "label": ["ARR-E", ""],
+            "station_id": "EFHK_AE"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR-E"],
+            "station_id": "EFHK_TWE"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR COR"],
+            "station_id": "EFHK_TWR_COR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
             "label": []
           },
           {
@@ -365,6 +524,79 @@
           },
           {
             "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["CLD", "GND", "AFIS"],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["EFKT", "CLD"],
+            "station_id": "EFKT_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFJY", "GND"],
+            "station_id": "EFJY_GND"
           },
           {
             "label": []
@@ -374,20 +606,115 @@
             "station_id": "EFET"
           },
           {
-            "label": ["EFMI", "AFIS"],
-            "station_id": "EFMI"
-          },
-          {
             "label": ["EFSI", "AFIS"],
             "station_id": "EFSI"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFRO", "CLD"],
+            "station_id": "EFRO_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFTP", "GND"],
+            "station_id": "EFTP_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFKI", "AFIS"],
+            "station_id": "EFKI"
           },
           {
             "label": ["EFSA", "AFIS"],
             "station_id": "EFSA"
           },
           {
-            "label": ["EFKI", "AFIS"],
-            "station_id": "EFKI"
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFMI", "AFIS"],
+            "station_id": "EFMI"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": []

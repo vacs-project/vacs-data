@@ -6,7 +6,7 @@ This directory contains the CLI tools for managing the `vacs-data` repository. T
 
 ### Pre-built Binaries
 
-You can download pre-built binaries for Linux, Windows, and macOS from the [GitHub Releases](https://github.com/MorpheusXAUT/vacs-data/releases/latest) page.
+You can download pre-built binaries for Linux, Windows, and macOS from the [GitHub Releases](https://github.com/vacs-project/vacs-data/releases/latest) page.
 
 ## Usage
 

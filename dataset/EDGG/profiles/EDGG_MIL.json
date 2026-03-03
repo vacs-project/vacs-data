@@ -1,0 +1,176 @@
+{
+  "id": "EDGG_MIL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "MIL",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EDGG", "RUD"],
+            "station_id": "EDGG-RUD"
+          },
+          {
+            "label": ["EDFH", "EIF"],
+            "station_id": "EDGG-EIF"
+          },
+          {
+            "label": ["EDDL", "DLA"],
+            "station_id": "EDGG-DLA"
+          },
+          {
+            "label": ["TADA"],
+            "station_id": "EDGG-TADA"
+          },
+          {
+            "label": ["ETAD", "TWR"],
+            "station_id": "EDGG-TADT"
+          },
+          {
+            "label": ["ETAD", "GND"],
+            "station_id": "EDGG-TADG"
+          },
+          {
+            "label": ["EDGG", "KIR"],
+            "station_id": "EDGG-KIR"
+          },
+          {
+            "label": ["EDDR", "PFA"],
+            "station_id": "EDGG-PFA"
+          },
+          {
+            "label": ["EDDL", "BOT"],
+            "station_id": "EDGG-BOT"
+          },
+          {
+            "label": ["TARA"],
+            "station_id": "EDGG-TARA"
+          },
+          {
+            "label": ["ETAR", "TWR"],
+            "station_id": "EDGG-TART"
+          },
+          {
+            "label": ["ETAR", "GND"],
+            "station_id": "EDGG-TARG"
+          },
+          {
+            "label": ["EDGG", "GIN"],
+            "station_id": "EDGG-GIN"
+          },
+          {
+            "label": ["EDDS", "STG"],
+            "station_id": "EDGG-STG"
+          },
+          {
+            "label": ["EDDK", "DKA"],
+            "station_id": "EDGG-DKA"
+          },
+          {
+            "label": ["THFA"],
+            "station_id": "EDGG-THFA"
+          },
+          {
+            "label": ["ETHF", "TWR"],
+            "station_id": "EDGG-THFT"
+          },
+          {
+            "label": ["ETHF", "GND"],
+            "station_id": "EDGG-THFG"
+          },
+          {
+            "label": ["EDGG", "HEF"],
+            "station_id": "EDGG-HEF"
+          },
+          {
+            "label": ["EDFM", "NKRL"],
+            "station_id": "EDGG-NKRL"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["THNA"],
+            "station_id": "EDGG-THNA"
+          },
+          {
+            "label": ["ETHN", "TWR"],
+            "station_id": "EDGG-THNT"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EDGG", "DKB"],
+            "station_id": "EDGG-DKB"
+          },
+          {
+            "label": ["EDDN", "FRK"],
+            "station_id": "EDMM-FRK"
+          },
+          {
+            "label": ["EDDF", "DFAN"],
+            "station_id": "EDGG-DFAN"
+          },
+          {
+            "label": ["TNGA"],
+            "station_id": "EDGG-TNGA"
+          },
+          {
+            "label": ["ETNG", "TWR"],
+            "station_id": "EDGG-TNGT"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EDGG", "NKRH"],
+            "station_id": "EDGG-NKRH"
+          },
+          {
+            "label": ["EDWW", "HRZ"],
+            "station_id": "EDWW-HRZ"
+          },
+          {
+            "label": ["ETOU", "TWR"],
+            "station_id": "EDGG-TOUT"
+          },
+          {
+            "label": ["TNNA"],
+            "station_id": "EDGG-TNNA"
+          },
+          {
+            "label": ["ETNN", "TWR"],
+            "station_id": "EDGG-TNNT"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EDGG", "KNG"],
+            "station_id": "EDGG-KNG"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["ETOU", "GND"],
+            "station_id": "EDGG-TOUG"
+          },
+          {
+            "label": ["TSBA"],
+            "station_id": "EDGG-TSBA"
+          },
+          {
+            "label": ["ETSB", "TWR"],
+            "station_id": "EDGG-TSBT"
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    }
+  ]
+}

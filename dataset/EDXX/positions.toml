@@ -1,0 +1,69 @@
+# Frequency also EDXX_FIS_CTR
+[[positions]]
+id = "EDXX_IDS_CTR"
+prefixes = ["EDXX"]
+frequency = "128.950"
+facility_type = "CTR"
+
+[[positions]]
+id = "EDXX_IDL_CTR"
+prefixes = ["EDXX"]
+frequency = "129.875"
+facility_type = "CTR"
+
+[[positions]]
+id = "EDXX_IDB_CTR"
+prefixes = ["EDXX"]
+frequency = "128.950"
+facility_type = "CTR"
+
+# Frequency also EDXX_GG_CTR
+[[positions]]
+id = "EDXX_IDR_CTR"
+prefixes = ["EDXX"]
+frequency = "123.525"
+facility_type = "CTR"
+
+[[positions]]
+id = "EDXX_IDM_CTR"
+prefixes = ["EDXX"]
+frequency = "126.950"
+facility_type = "CTR"
+
+[[positions]]
+id = "EDXX_IDC_CTR"
+prefixes = ["EDXX"]
+frequency = "125.800"
+facility_type = "CTR"
+
+[[positions]]
+id = "EDXX_IDF_CTR"
+prefixes = ["EDXX"]
+frequency = "119.150"
+facility_type = "CTR"
+
+[[positions]]
+id = "EDXX_IDH_CTR"
+prefixes = ["EDXX"]
+frequency = "125.100"
+facility_type = "CTR"
+
+# Frequency also EDXX_WW_CTR
+[[positions]]
+id = "EDXX_IDV_CTR"
+prefixes = ["EDXX"]
+frequency = "119.825"
+facility_type = "CTR"
+
+# Frequency also EDXX_MM_CTR
+[[positions]]
+id = "EDXX_IDO_CTR"
+prefixes = ["EDXX"]
+frequency = "120.650"
+facility_type = "CTR"
+
+[[positions]]
+id = "EDXX_ISW_CTR"
+prefixes = ["EDXX"]
+frequency = "128.525"
+facility_type = "CTR"

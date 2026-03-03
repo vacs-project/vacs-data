@@ -189,11 +189,11 @@ A layout container that arranges child nodes using flexbox.
 
 **Valid `JustifyContent` values:**
 
-- `"flex-start"`, `"flex-end"`, `"center"`, `"space-between"`, `"space-around"`, `"space-evenly"`
+- `"start"`, `"end"`, `"center"`, `"space-between"`, `"space-around"`, `"space-evenly"`
 
 **Valid `AlignItems` values:**
 
-- `"flex-start"`, `"flex-end"`, `"center"`, `"stretch"`, `"baseline"`
+- `"start"`, `"end"`, `"center"`
 
 ### GeoPageButton
 

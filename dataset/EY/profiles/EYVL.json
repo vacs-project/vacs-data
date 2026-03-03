@@ -19,10 +19,12 @@
           "page": {
             "keys": [
               {
-                "label": ["365-660", "CTR"]
+                "label": ["365-660", "CTR"],
+                "station_id": "ESMM_6"
               },
               {
-                "label": ["95-365", "CTR"]
+                "label": ["95-365", "CTR"],
+                "station_id": "ESMM_7"
               }
             ],
             "rows": 4
@@ -266,10 +268,12 @@
               "page": {
                 "keys": [
                   {
-                    "label": ["95-660", "CTR"]
+                    "label": ["315-660", "CTR"],
+                    "station_id": "EPWWN_HIGH"
                   },
                   {
-                    "label": []
+                    "label": ["95-315", "CTR"],
+                    "station_id": "EPWWN_LOW"
                   },
                   {
                     "label": []

@@ -1,12 +1,29 @@
 # Default code owners unless overridden below
-* @MorpheusXAUT @IamLuisAUT
+* @vacs-project/admin
 
 # Explicitly specify code owners for GitHub config, such as workflows or CODEOWNERS, and other relevant files
-/.github/ @MorpheusXAUT @IamLuisAUT
-/docs/ @MorpheusXAUT @IamLuisAUT
-LICENSE* @MorpheusXAUT @IamLuisAUT
-README.md @MorpheusXAUT @IamLuisAUT
-CONTRIBUTING.md @MorpheusXAUT @IamLuisAUT
+/.github/ @vacs-project/admin
+/docs/ @vacs-project/maintainers
+LICENSE* @vacs-project/admin
+README.md @vacs-project/maintainers
+CONTRIBUTING.md @vacs-project/maintainers
 
 # Dataset owners
-/dataset/LO/ @MorpheusXAUT @IamLuisAUT
+/dataset/EDGG/ @vacs-project/dataset-maintainers-edgg
+/dataset/EDMM/ @vacs-project/dataset-maintainers-edmm
+/dataset/EDWW/ @vacs-project/dataset-maintainers-edww
+/dataset/EDXX/ @vacs-project/dataset-maintainers-edgg @vacs-project/dataset-maintainers-edmm @vacs-project/dataset-maintainers-edww
+/dataset/EE/ @vacs-project/dataset-maintainers-ee
+/dataset/EF/ @vacs-project/dataset-maintainers-ef
+/dataset/EI/ @vacs-project/dataset-maintainers-ei
+/dataset/EK/ @vacs-project/dataset-maintainers-ek
+/dataset/EP/ @vacs-project/dataset-maintainers-ep
+/dataset/ES/ @vacs-project/dataset-maintainers-es
+/dataset/EY/ @vacs-project/dataset-maintainers-ey
+/dataset/LI/ @vacs-project/dataset-maintainers-li
+/dataset/LM/ @vacs-project/dataset-maintainers-lm
+/dataset/LO/ @vacs-project/dataset-maintainers-lo
+/dataset/LR/ @vacs-project/dataset-maintainers-lr
+/dataset/LZ/ @vacs-project/dataset-maintainers-lz
+/dataset/VH/ @vacs-project/dataset-maintainers-vh
+/dataset/WS/ @vacs-project/dataset-maintainers-ws

@@ -3,7 +3,7 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "DA1",
+      "label": ["DA", "1 - 2"],
       "page": {
         "rows": 6,
         "keys": [
@@ -24,7 +24,7 @@
             "station_id": "EDMM-FUE"
           },
           {
-            "label": ["EDDM", "TWR-N"],
+            "label": ["EDDM", "TWR N"],
             "station_id": "EDDM-TWR-N"
           },
           {
@@ -48,7 +48,7 @@
             "station_id": "EDMM-STA"
           },
           {
-            "label": ["EDDM", "GND-N"],
+            "label": ["EDDM", "GND N"],
             "station_id": "EDDM-GND-N"
           },
           {
@@ -72,7 +72,7 @@
             "station_id": "EDMM-TEG"
           },
           {
-            "label": ["EDDM", "TWR-S"],
+            "label": ["EDDM", "TWR S"],
             "station_id": "EDDM-TWR-S"
           },
           {
@@ -96,7 +96,7 @@
             "station_id": "EDMM-TRU"
           },
           {
-            "label": ["EDDM", "GND-S"],
+            "label": ["EDDM", "GND S"],
             "station_id": "EDDM-GND-S"
           },
           {
@@ -153,10 +153,11 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["LOVV", "B 315"],
+            "station_id": "LOVV_B7"
           },
           {
-            "label": ["LOVV", "B 125+"],
+            "label": ["LOVV", "B1"],
             "station_id": "LOVV_B1"
           },
           {

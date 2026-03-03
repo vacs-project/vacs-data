@@ -1,0 +1,188 @@
+{
+  "id": "EDMM-EAST-TWR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["DA", "1 - 2"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["HAL"],
+            "station_id": "EDMM-HAL"
+          },
+          {
+            "label": ["TRN"],
+            "station_id": "EDMM-TRN"
+          },
+          {
+            "label": ["DPND"],
+            "station_id": "EDMM-DPND"
+          },
+          {
+            "label": ["BBG", ""],
+            "station_id": "EDMM-BBG"
+          },
+          {
+            "label": ["ALB"],
+            "station_id": "EDMM-ALB"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GER"],
+            "station_id": "EDMM-GER"
+          },
+          {
+            "label": ["TRS"],
+            "station_id": "EDMM-TRS"
+          },
+          {
+            "label": ["DPSD"],
+            "station_id": "EDMM-DPSD"
+          },
+          {
+            "label": ["HOF", ""],
+            "station_id": "EDMM-HOF"
+          },
+          {
+            "label": ["RDG"],
+            "station_id": "EDMM-RDG"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MEI"],
+            "station_id": "EDMM-MEI"
+          },
+          {
+            "label": ["SAS"],
+            "station_id": "EDMM-DMNH"
+          },
+          {
+            "label": ["FRK", ""],
+            "station_id": "EDMM-FRK"
+          },
+          {
+            "label": ["DND"],
+            "station_id": "EDMM-DND"
+          },
+          {
+            "label": ["SWA"],
+            "station_id": "EDMM-SWA"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["WW", "DBAS"],
+            "station_id": "EDWW-DBAS"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EDMM", "FMP"],
+            "station_id": "EDMM-FMP"
+          },
+          {
+            "label": ["EDDP", "TWR N"],
+            "station_id": "EDDP-TWR-N"
+          },
+          {
+            "label": ["EDDN", "TWR"],
+            "station_id": "EDDN-TWR"
+          },
+          {
+            "label": ["EDDC", "TWR"],
+            "station_id": "EDDC-TWR"
+          },
+          {
+            "label": ["EDDE", "TWR"],
+            "station_id": "EDDE-TWR"
+          },
+          {
+            "label": ["EDQM", "TWR"],
+            "station_id": "EDQM-TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EDDP", "TWR S"],
+            "station_id": "EDMM-EGG"
+          },
+          {
+            "label": ["EDDN", "GND"],
+            "station_id": "EDDN-GND"
+          },
+          {
+            "label": ["EDDC", "APN"],
+            "station_id": "EDDC-APN"
+          },
+          {
+            "label": ["EDDE", "APN"],
+            "station_id": "EDDE-APN"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EDDP", "GND"],
+            "station_id": "EDDP-GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EDDC", "GND"],
+            "station_id": "EDDC-GND"
+          },
+          {
+            "label": ["EDDE", "GND"],
+            "station_id": "EDDE-GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EDDP", "DEL"],
+            "station_id": "EDDP-DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}
