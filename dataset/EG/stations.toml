@@ -629,22 +629,6 @@ id = "EGVV_D_CTR"
 parent_id = "EGVV_W_CTR"
 controlled_by = ["EGVV_D_CTR"]
 
-[[stations]]
-id = "HTSPR_1_CTR"
-controlled_by = ["HTSPR_1_CTR"]
-
-[[stations]]
-id = "HTSPR_1_APP"
-controlled_by = ["HTSPR_1_APP"]
-
-[[stations]]
-id = "HTSPR_2_CTR"
-controlled_by = ["HTSPR_2_CTR"]
-
-[[stations]]
-id = "HTSPR_2_APP"
-controlled_by = ["HTSPR_2_APP"]
-
 ####################
 # AERODROMES
 ####################
