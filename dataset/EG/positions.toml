@@ -499,12 +499,6 @@ facility_type = "APP"
 [[positions]]
 id = "EGKA_TWR"
 prefixes = ["EGKA"]
-frequency = "123.155"
-facility_type = "TWR"
-
-[[positions]]
-id = "EGKA_TWR"
-prefixes = ["EGKA"]
 frequency = "125.405"
 facility_type = "TWR"
 
@@ -729,12 +723,6 @@ id = "EGNH_A_APP"
 prefixes = ["EGNH"]
 frequency = "119.955"
 facility_type = "APP"
-
-[[positions]]
-id = "EGNH_TWR"
-prefixes = ["EGNH"]
-frequency = "119.955"
-facility_type = "TWR"
 
 [[positions]]
 id = "EGNH_TWR"
