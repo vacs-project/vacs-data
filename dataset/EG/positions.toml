@@ -533,12 +533,6 @@ frequency = "118.950"
 facility_type = "APP"
 
 [[positions]]
-id = "EGKK_S_APP"
-prefixes = ["EGKK"]
-frequency = "129.025"
-facility_type = "APP"
-
-[[positions]]
 id = "EGKK_TWR"
 prefixes = ["EGKK"]
 frequency = "124.230"
