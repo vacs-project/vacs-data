@@ -80,11 +80,11 @@ controlled_by = ["LROP_F_APP", "LROP_APP", "LRBB_CTR"]
 
 [[stations]]
 id = "LROP_GND"
-controlled_by = ["LROP_GND", "LROP_TWR", "LROP_APP", "LROP_APP"]
+controlled_by = ["LROP_GND", "LROP_TWR", "LROP_APP"]
 
 [[stations]]
 id = "LROP_DEL"
-controlled_by = ["LROP_DEL", "LROP_GND", "LROP_TWR", "LROP_APP", "LROP_APP"]
+controlled_by = ["LROP_DEL", "LROP_GND", "LROP_TWR", "LROP_APP"]
 
 [[stations]]
 id = "LRBS_TWR"
