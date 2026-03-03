@@ -566,5 +566,21 @@ parent_id = "LON_SC_CTR"
 controlled_by = ["LON_C_CTR"]
 
 ####################
+# FIS
+####################
+
+[[stations]]
+id = "EGTT_I_CTR"
+controlled_by = ["EGTT_I_CTR"]
+
+[[stations]]
+id = "EGPX_I_CTR"
+controlled_by = ["EGPX_I_CTR"]
+
+[[stations]]
+if = "EGTT_WR_CTR"
+controlled_by = ["EGTT_WR_CTR"]
+
+####################
 # AERODROMES
 ####################
