@@ -72,7 +72,15 @@
             {
               "label": ["PANTE", "APP"],
               "size": 6.25,
-              "station_id": "LICG-APP"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PANTE", "APP"],
+                    "station_id": "LICG-APP"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -101,12 +109,10 @@
                     "keys": [
                       {
                         "label": ["NW7"],
-                        "size": 6.75,
                         "station_id": "LIRR-NW7"
                       },
                       {
                         "label": ["NW1"],
-                        "size": 6.75,
                         "station_id": "LIRR-NW1"
                       }
                     ]
@@ -125,21 +131,18 @@
               "label": ["EW"],
               "size": 10,
               "page": {
-                "rows": 6,
+                "rows": 4,
                 "keys": [
                   {
                     "label": ["EW7"],
-                    "size": 6.25,
                     "station_id": "LIRR-EW7"
                   },
                   {
                     "label": ["EW1"],
-                    "size": 6.25,
                     "station_id": "LIRR-EW1"
                   },
                   {
                     "label": ["EW0"],
-                    "size": 6.25,
                     "station_id": "LIRR-EW0"
                   }
                 ]
@@ -153,9 +156,21 @@
           "gap": 0.75,
           "children": [
             {
-              "label": ["EE3"],
+              "label": ["EE"],
               "size": 10,
-              "station_id": "LIRR-EE3"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["EE7"],
+                    "station_id": "LIRR-EW7"
+                  },
+                  {
+                    "label": ["EE3"],
+                    "station_id": "LIRR-EE3"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -180,16 +195,14 @@
                   "label": ["OV"],
                   "size": 8,
                   "page": {
-                    "rows": 5,
+                    "rows": 3,
                     "keys": [
                       {
                         "label": ["OV7"],
-                        "size": 6.75,
                         "station_id": "LIRR-NW7"
                       },
                       {
                         "label": ["OV1"],
-                        "size": 6.75,
                         "station_id": "LIRR-OV1"
                       }
                     ]
@@ -199,16 +212,14 @@
                   "label": ["TS"],
                   "size": 8,
                   "page": {
-                    "rows": 5,
+                    "rows": 3,
                     "keys": [
                       {
                         "label": ["TS7"],
-                        "size": 6.75,
                         "station_id": "LIRR-NE7"
                       },
                       {
                         "label": ["TS1"],
-                        "size": 6.75,
                         "station_id": "LIRR-TS1"
                       }
                     ]
@@ -218,16 +229,14 @@
                   "label": ["US"],
                   "size": 8,
                   "page": {
-                    "rows": 5,
+                    "rows": 3,
                     "keys": [
                       {
                         "label": ["US1"],
-                        "size": 6.75,
                         "station_id": "LIRR-US1"
                       },
                       {
                         "label": ["US0"],
-                        "size": 6.75,
                         "station_id": "LIRR-US0"
                       }
                     ]
@@ -246,16 +255,14 @@
               "label": ["SU"],
               "size": 10,
               "page": {
-                "rows": 4,
+                "rows": 3,
                 "keys": [
                   {
                     "label": ["SU7"],
-                    "size": 6.75,
                     "station_id": "LIRR-SU7"
                   },
                   {
                     "label": ["SU1"],
-                    "size": 6.75,
                     "station_id": "LIRR-SU1"
                   }
                 ]
@@ -269,17 +276,14 @@
                 "keys": [
                   {
                     "label": ["ES7"],
-                    "size": 6.75,
                     "station_id": "LIRR-SU7"
                   },
                   {
                     "label": ["ES1"],
-                    "size": 6.75,
                     "station_id": "LIRR-ES1"
                   },
                   {
                     "label": ["ES0"],
-                    "size": 6.75,
                     "station_id": "LIRR-ES0"
                   }
                 ]
@@ -295,22 +299,54 @@
             {
               "label": ["TRAPANI", "APP"],
               "size": 6.25,
-              "station_id": "LICT-APP"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["TRAPANI", "APP"],
+                    "station_id": "LICT-APP"
+                  }
+                ]
+              }
             },
             {
               "label": ["PALERMO", "APP"],
               "size": 6.25,
-              "station_id": "LICJ-APP"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PALERMO", "APP"],
+                    "station_id": "LICJ-APP"
+                  }
+                ]
+              }
             },
             {
               "label": ["CATANIA", "APP"],
               "size": 6.25,
-              "station_id": "LICC-APP"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["CATANIA", "APP"],
+                    "station_id": "LICC-APP"
+                  }
+                ]
+              }
             },
             {
               "label": ["REGGIO", "APP"],
               "size": 6.25,
-              "station_id": "LICR-APP"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["REGGIO", "APP"],
+                    "station_id": "LICR-APP"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -327,7 +363,15 @@
                 {
                   "label": ["CAGLIARI", "APP"],
                   "size": 6.25,
-                  "station_id": "LIEE-APP"
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["CAGLIARI", "APP"],
+                        "station_id": "LIEE-APP"
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -363,14 +407,11 @@
                     "label": []
                   },
                   {
-                    "label": []
-                  },
-                  {
                     "label": ["FIC"],
                     "station_id": "LIBB-FIC"
                   }
                 ],
-                "rows": 4
+                "rows": 3
               }
             }
           ]
@@ -383,17 +424,14 @@
             "keys": [
               {
                 "label": ["MALTA", "ACC", "WEST"],
-                "size": 6.75,
                 "station_id": "LMMM-CTR"
               },
               {
                 "label": ["MALTA", "ACC", "EAST"],
-                "size": 6.75,
                 "station_id": "LMMM-E-CTR"
               },
               {
                 "label": ["MALTA", "APP"],
-                "size": 6.75,
                 "station_id": "LMML-APP"
               }
             ]
@@ -414,7 +452,15 @@
         {
           "label": ["ROMA", "COO"],
           "size": 5,
-          "station_id": "LIRR-FMP"
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["ROMA", "COO"],
+                "station_id": "LIRR-FMP"
+              }
+            ]
+          }
         },
         {
           "label": ["FMP"],
@@ -434,13 +480,20 @@
         {
           "label": ["FIC"],
           "size": 5,
-          "station_id": "LIRR-FIC"
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["FIC"],
+                "station_id": "LIRR-FIC"
+              }
+            ]
+          }
         },
         {
           "label": ["TWR"],
           "size": 5,
           "page": {
-            "size": 6.25,
             "rows": 6,
             "client_page": {
               "include": [
@@ -459,7 +512,6 @@
           "label": ["AFIU"],
           "size": 5,
           "page": {
-            "size": 6.25,
             "rows": 6,
             "client_page": {
               "include": ["LIE*_I_TWR", "LIC*_I_TWR", "LIBC*_I_TWR"],
@@ -471,7 +523,6 @@
           "label": ["MISC"],
           "size": 5,
           "page": {
-            "size": 6.25,
             "rows": 6,
             "client_page": {
               "include": [

@@ -39,7 +39,8 @@
       "id": "EDUU_CW_CTR",
       "prefixes": ["EDUU"],
       "frequency": "134.690",
-      "facility_type": "CTR"
+      "facility_type": "CTR",
+      "profile_id": "EDGG_UPR"
     },
     {
       "id": "EDUU_W_CTR",
@@ -269,7 +270,8 @@
       "id": "EDGG_PSA_CTR",
       "prefixes": ["EDGG"],
       "frequency": "125.405",
-      "facility_type": "CTR"
+      "facility_type": "CTR",
+      "profile_id": "EDGG_EBG4"
     },
     {
       "id": "EDGG_KTG_CTR",
@@ -597,7 +599,8 @@
       "id": "EDDK_P_GND",
       "prefixes": ["EDDK"],
       "frequency": "121.955",
-      "facility_type": "EDGG_TWR"
+      "facility_type": "GND",
+      "profile_id": "EDGG_TWR"
     },
     {
       "id": "EDDK_DEL",
@@ -997,7 +1000,7 @@
       "id": "EDFE_GND",
       "prefixes": ["EDFE"],
       "frequency": "121.730",
-      "facility_type": "EDGG_TWR"
+      "facility_type": "GND"
     },
     {
       "id": "EDFG_I_TWR",
@@ -1838,6 +1841,12 @@
       "prefixes": ["EDTZ"],
       "frequency": "124.355",
       "facility_type": "TWR"
+    },
+    {
+      "id": "EDGG_FMP",
+      "prefixes": ["EDGG"],
+      "frequency": "199.998",
+      "facility_type": "FMP"
     }
   ]
 }

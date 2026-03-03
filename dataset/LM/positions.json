@@ -4,31 +4,36 @@
       "id": "LMMM_CTR",
       "prefixes": ["LMMM"],
       "frequency": "130.975",
-      "facility_type": "CTR"
+      "facility_type": "CTR",
+      "profile_id": "Malta"
     },
     {
       "id": "LMMM_E_CTR",
       "prefixes": ["LMMM"],
       "frequency": "122.775",
-      "facility_type": "CTR"
+      "facility_type": "CTR",
+      "profile_id": "Malta"
     },
     {
       "id": "LMML_APP",
       "prefixes": ["LMML"],
       "frequency": "128.155",
-      "facility_type": "APP"
+      "facility_type": "APP",
+      "profile_id": "Malta"
     },
     {
       "id": "LMML_TWR",
       "prefixes": ["LMML"],
       "frequency": "135.105",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "Malta"
     },
     {
       "id": "LMML_GND",
       "prefixes": ["LMML"],
       "frequency": "121.605",
-      "facility_type": "GND"
+      "facility_type": "GND",
+      "profile_id": "Malta"
     }
   ]
 }

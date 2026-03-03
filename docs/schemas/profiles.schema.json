@@ -37,8 +37,8 @@
     "JustifyContent": {
       "type": "string",
       "enum": [
-        "flex-start",
-        "flex-end",
+        "start",
+        "end",
         "center",
         "space-between",
         "space-around",
@@ -47,7 +47,7 @@
     },
     "AlignItems": {
       "type": "string",
-      "enum": ["flex-start", "flex-end", "center", "stretch", "baseline"]
+      "enum": ["start", "end", "center"]
     },
     "GeoPageDividerOrientation": {
       "type": "string",

@@ -18,6 +18,41 @@ on:
 permissions: {}
 
 jobs:
+  schema:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Install check-jsonschema
+        run: pipx install check-jsonschema
+
+      - name: Validate positions
+        run: |
+          shopt -s nullglob
+          files=(dataset/*/positions.json dataset/*/positions.toml)
+          if [ ${#files[@]} -gt 0 ]; then
+            check-jsonschema --schemafile docs/schemas/positions.schema.json "${files[@]}"
+          fi
+
+      - name: Validate stations
+        run: |
+          shopt -s nullglob
+          files=(dataset/*/stations.json dataset/*/stations.toml)
+          if [ ${#files[@]} -gt 0 ]; then
+            check-jsonschema --schemafile docs/schemas/stations.schema.json "${files[@]}"
+          fi
+
+      - name: Validate profiles
+        run: |
+          shopt -s nullglob
+          files=(dataset/*/profiles/*.json)
+          if [ ${#files[@]} -gt 0 ]; then
+            check-jsonschema --schemafile docs/schemas/profiles.schema.json "${files[@]}"
+          fi
+
   validate:
     runs-on: ubuntu-latest
     permissions:

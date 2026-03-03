@@ -12,6 +12,7 @@ CONTRIBUTING.md @vacs-project/maintainers
 /dataset/EDGG/ @vacs-project/dataset-maintainers-edgg
 /dataset/EDMM/ @vacs-project/dataset-maintainers-edmm
 /dataset/EDWW/ @vacs-project/dataset-maintainers-edww
+/dataset/EDXX/ @vacs-project/dataset-maintainers-edgg @vacs-project/dataset-maintainers-edmm @vacs-project/dataset-maintainers-edww
 /dataset/EE/ @vacs-project/dataset-maintainers-ee
 /dataset/EF/ @vacs-project/dataset-maintainers-ef
 /dataset/EI/ @vacs-project/dataset-maintainers-ei

@@ -76,17 +76,14 @@
                 "keys": [
                   {
                     "label": ["EW7"],
-                    "size": 6.25,
                     "station_id": "LIRR-EW7"
                   },
                   {
                     "label": ["EW1"],
-                    "size": 6.25,
                     "station_id": "LIRR-EW1"
                   },
                   {
                     "label": ["EW0"],
-                    "size": 6.25,
                     "station_id": "LIRR-EW0"
                   }
                 ]
@@ -100,9 +97,21 @@
           "gap": 0.75,
           "children": [
             {
-              "label": ["EE3"],
+              "label": ["EE"],
               "size": 6.75,
-              "station_id": "LIRR-EE3"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["EE7"],
+                    "station_id": "LIRR-EW7"
+                  },
+                  {
+                    "label": ["EE3"],
+                    "station_id": "LIRR-EE3"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -121,17 +130,41 @@
             {
               "label": ["PISA", "APP"],
               "size": 6.25,
-              "station_id": "LIRP-APP"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PISA", "APP"],
+                    "station_id": "LIRP-APP"
+                  }
+                ]
+              }
             },
             {
               "label": ["BOLOGNA", "APP"],
               "size": 6.25,
-              "station_id": "LIPE-W-APP"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["BOLOGNA", "APP"],
+                    "station_id": "LIPE-W-APP"
+                  }
+                ]
+              }
             },
             {
               "label": ["PERUGIA", "APP"],
-              "size": 5.5,
-              "station_id": "LIRZ-APP"
+              "size": 6.25,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PERUGIA", "APP"],
+                    "station_id": "LIRZ-APP"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -148,12 +181,10 @@
                 "keys": [
                   {
                     "label": ["NW7"],
-                    "size": 6.75,
                     "station_id": "LIRR-NW7"
                   },
                   {
                     "label": ["NW1"],
-                    "size": 6.75,
                     "station_id": "LIRR-NW1"
                   }
                 ]
@@ -167,17 +198,14 @@
                 "keys": [
                   {
                     "label": ["NN7"],
-                    "size": 6.75,
                     "station_id": "LIRR-NE7"
                   },
                   {
                     "label": ["NN1"],
-                    "size": 6.75,
                     "station_id": "LIRR-NN1"
                   },
                   {
                     "label": ["NN0"],
-                    "size": 6.75,
                     "station_id": "LIRR-NN0"
                   }
                 ]
@@ -191,12 +219,10 @@
                 "keys": [
                   {
                     "label": ["NE7"],
-                    "size": 6.75,
                     "station_id": "LIRR-NE7"
                   },
                   {
                     "label": ["NE1"],
-                    "size": 6.75,
                     "station_id": "LIRR-NE1"
                   }
                 ]
@@ -211,19 +237,47 @@
           "gap": 0.75,
           "children": [
             {
-              "label": ["OV1"],
+              "label": ["OV"],
               "size": 6.25,
-              "station_id": "LIRR-OV1"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["OV7"],
+                    "station_id": "LIRR-NW7"
+                  },
+                  {
+                    "label": ["OV1"],
+                    "station_id": "LIRR-OV1"
+                  }
+                ]
+              }
             },
             {
-              "label": ["TW1"],
+              "label": ["TW"],
               "size": 8,
-              "station_id": "LIRR-TW1"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["TW1"],
+                    "station_id": "LIRR-TW1"
+                  }
+                ]
+              }
             },
             {
               "label": ["AET"],
               "size": 8,
-              "station_id": "LIRR-AET"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["AET"],
+                    "station_id": "LIRR-AET"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -234,15 +288,21 @@
           "gap": 0.75,
           "children": [
             {
-              "direction": "col",
-              "gap": 0.75,
-              "children": [
-                {
-                  "label": ["PN1"],
-                  "size": 8,
-                  "station_id": "LIRR-PN1"
-                }
-              ]
+              "label": ["PN"],
+              "size": 8,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PN1"],
+                    "station_id": "LIRR-PN1"
+                  },
+                  {
+                    "label": ["PS1"],
+                    "station_id": "LIRR-PS1"
+                  }
+                ]
+              }
             },
             {
               "direction": "col",
@@ -251,12 +311,28 @@
                 {
                   "label": ["AWL"],
                   "size": 5,
-                  "station_id": "LIRR-AWL"
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["AWL"],
+                        "station_id": "LIRR-AWL"
+                      }
+                    ]
+                  }
                 },
                 {
                   "label": ["FCO", "TWR"],
                   "size": 5,
-                  "station_id": "LIRF-TWR"
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["FCO", "TWR"],
+                        "station_id": "LIRF-TWR"
+                      }
+                    ]
+                  }
                 }
               ]
             },
@@ -267,12 +343,28 @@
                 {
                   "label": ["AEM"],
                   "size": 5,
-                  "station_id": "LIRR-AEM"
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["AEM"],
+                        "station_id": "LIRR-AEM"
+                      }
+                    ]
+                  }
                 },
                 {
                   "label": ["FCO", "TWR", "16L"],
                   "size": 5,
-                  "station_id": "LIRF-E-TWR"
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["FCO", "TWR", "16L"],
+                        "station_id": "LIRF-E-TWR"
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -330,30 +422,39 @@
               "label": ["US"],
               "size": 6.75,
               "page": {
-                "rows": 5,
+                "rows": 4,
                 "keys": [
                   {
                     "label": ["US2"],
-                    "size": 6.75,
                     "station_id": "LIRR-US2"
                   },
                   {
                     "label": ["US1"],
-                    "size": 6.75,
                     "station_id": "LIRR-US1"
                   },
                   {
                     "label": ["US0"],
-                    "size": 6.75,
                     "station_id": "LIRR-US0"
                   }
                 ]
               }
             },
             {
-              "label": ["TS1"],
+              "label": ["TS"],
               "size": 6.75,
-              "station_id": "LIRR-TS1"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["TS7"],
+                    "station_id": "LIRR-NE7"
+                  },
+                  {
+                    "label": ["TS1"],
+                    "station_id": "LIRR-TS1"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -367,12 +468,32 @@
             {
               "label": ["PESCARA", "APP"],
               "size": 5.5,
-              "station_id": "LIBP-APP"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["PESCARA", "APP"],
+                    "station_id": "LIBP-APP"
+                  }
+                ]
+              }
             },
             {
-              "label": ["ND1"],
+              "label": ["ND"],
               "size": 6.75,
-              "station_id": "LIRR-ND1"
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["ND7"],
+                    "station_id": "LIRR-NE7"
+                  },
+                  {
+                    "label": ["ND1"],
+                    "station_id": "LIRR-ND1"
+                  }
+                ]
+              }
             }
           ]
         },
@@ -390,12 +511,10 @@
                 "keys": [
                   {
                     "label": ["SU7"],
-                    "size": 6.75,
                     "station_id": "LIRR-SU7"
                   },
                   {
                     "label": ["SU1"],
-                    "size": 6.75,
                     "station_id": "LIRR-SU1"
                   }
                 ]
@@ -409,17 +528,15 @@
                 "keys": [
                   {
                     "label": ["ES7"],
-                    "size": 6.75,
                     "station_id": "LIRR-SU7"
                   },
                   {
                     "label": ["ES1"],
-                    "size": 6.75,
                     "station_id": "LIRR-ES1"
                   },
                   {
                     "label": ["ES0"],
-                    "size": 6.75,
+
                     "station_id": "LIRR-ES0"
                   }
                 ]
@@ -476,7 +593,13 @@
         },
         {
           "label": ["SPLIT", "GND-200"],
-          "size": 6.25
+          "size": 6.25,
+          "page": {
+            "rows": 3,
+            "client_page": {
+              "include": ["LDSP*_APP"]
+            }
+          }
         },
         {
           "label": ["BRINDISI"],
@@ -495,14 +618,11 @@
                 "label": []
               },
               {
-                "label": []
-              },
-              {
                 "label": ["FIC"],
                 "station_id": "LIBB-FIC"
               }
             ],
-            "rows": 4
+            "rows": 3
           }
         }
       ]
@@ -520,7 +640,15 @@
         {
           "label": ["ROMA", "COO"],
           "size": 5,
-          "station_id": "LIRR-FMP"
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["ROMA", "COO"],
+                "station_id": "LIRR-FMP"
+              }
+            ]
+          }
         },
         {
           "label": ["FMP"],
@@ -542,13 +670,20 @@
         {
           "label": ["FIC"],
           "size": 5,
-          "station_id": "LIRR-FIC"
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["FIC"],
+                "station_id": "LIRR-FIC"
+              }
+            ]
+          }
         },
         {
           "label": ["TWR"],
           "size": 5,
           "page": {
-            "size": 6.25,
             "rows": 6,
             "client_page": {
               "include": ["LIR*_TWR", "LIR*_GND", "LIR*_DEL"],
@@ -570,7 +705,6 @@
           "label": ["AFIU"],
           "size": 5,
           "page": {
-            "size": 6.25,
             "rows": 6,
             "client_page": {
               "include": ["LIR*_I_TWR", "LIA*_I_TWR", "LIQ*_I_TWR"],
@@ -582,7 +716,6 @@
           "label": ["MISC"],
           "size": 5,
           "page": {
-            "size": 6.25,
             "rows": 6,
             "client_page": {
               "include": [

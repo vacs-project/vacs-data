@@ -85,12 +85,19 @@
           "direction": "row",
           "align_items": "center",
           "padding_top": 4,
-          "gap": 0.75,
           "children": [
             {
               "label": ["FIC"],
               "size": 6.75,
-              "station_id": "LIPP-FIC"
+              "page": {
+                "keys": [
+                  {
+                    "label": ["FIC"],
+                    "station_id": "LIPP-FIC"
+                  }
+                ],
+                "rows": 3
+              }
             }
           ]
         }
@@ -105,7 +112,15 @@
         {
           "label": ["RHEIN", "320-UNL"],
           "size": 6.75,
-          "station_id": "EDUU-ALP"
+          "page": {
+            "keys": [
+              {
+                "label": ["RHEIN", "320-UNL"],
+                "station_id": "EDUU-ALP"
+              }
+            ],
+            "rows": 3
+          }
         },
         {
           "label": ["CW"],
@@ -150,9 +165,17 @@
           }
         },
         {
-          "label": ["SW1"],
+          "label": ["SW"],
           "size": 6.25,
-          "station_id": "LIPP-SW1"
+          "page": {
+            "keys": [
+              {
+                "label": ["SW1"],
+                "station_id": "LIPP-SW1"
+              }
+            ],
+            "rows": 3
+          }
         }
       ]
     },
@@ -184,19 +207,43 @@
           }
         },
         {
-          "label": ["NW1"],
+          "label": ["NW"],
           "size": 7,
-          "station_id": "LIPP-NW1"
+          "page": {
+            "keys": [
+              {
+                "label": ["NW1"],
+                "station_id": "LIPP-NW1"
+              }
+            ],
+            "rows": 3
+          }
         },
         {
           "label": ["SE0"],
           "size": 7,
-          "station_id": "LIPP-SE0"
+          "page": {
+            "keys": [
+              {
+                "label": ["SE0"],
+                "station_id": "LIPP-SE0"
+              }
+            ],
+            "rows": 3
+          }
         },
         {
           "label": ["BOLOGNA", "WEST"],
           "size": 7,
-          "station_id": "LIPE-W-APP"
+          "page": {
+            "keys": [
+              {
+                "label": ["BOLOGNA", "WEST"],
+                "station_id": "LIPE-W-APP"
+              }
+            ],
+            "rows": 3
+          }
         }
       ]
     },
@@ -209,7 +256,15 @@
         {
           "label": ["INNSBRUCK", "GND-160"],
           "size": 6.75,
-          "station_id": "LOWI_S_APP"
+          "page": {
+            "keys": [
+              {
+                "label": ["INNSBRUCK", "GND-160"],
+                "station_id": "LOWI_S_APP"
+              }
+            ],
+            "rows": 3
+          }
         },
         {
           "label": ["NE"],
@@ -237,14 +292,30 @@
           }
         },
         {
-          "label": ["CE1"],
+          "label": ["CE"],
           "size": 7,
-          "station_id": "LIPP-CE1"
+          "page": {
+            "keys": [
+              {
+                "label": ["CE1"],
+                "station_id": "LIPP-CE1"
+              }
+            ],
+            "rows": 3
+          }
         },
         {
           "label": ["BOLOGNA", "EAST"],
           "size": 7,
-          "station_id": "LIPE-E-APP"
+          "page": {
+            "keys": [
+              {
+                "label": ["BOLOGNA", "EAST"],
+                "station_id": "LIPE-E-APP"
+              }
+            ],
+            "rows": 3
+          }
         }
       ]
     },
@@ -257,7 +328,15 @@
         {
           "label": ["KLAGENF", "GND-160"],
           "size": 6.75,
-          "station_id": "LOWK_APP"
+          "page": {
+            "keys": [
+              {
+                "label": ["KLAGENF", "GND-160"],
+                "station_id": "LOWK_APP"
+              }
+            ],
+            "rows": 3
+          }
         },
         {
           "direction": "row",
@@ -267,24 +346,56 @@
             {
               "label": ["TRE", "APP"],
               "size": 5,
-              "station_id": "LIPH-APP"
+              "page": {
+                "keys": [
+                  {
+                    "label": ["TRE", "APP"],
+                    "station_id": "LIPH-APP"
+                  }
+                ],
+                "rows": 3
+              }
             },
             {
               "label": ["AVI", "APP"],
               "size": 5,
-              "station_id": "LIPA-APP"
+              "page": {
+                "keys": [
+                  {
+                    "label": ["AVI", "APP"],
+                    "station_id": "LIPA-APP"
+                  }
+                ],
+                "rows": 3
+              }
             }
           ]
         },
         {
           "label": ["CE0"],
           "size": 7,
-          "station_id": "LIPP-CE0"
+          "page": {
+            "keys": [
+              {
+                "label": ["CE0"],
+                "station_id": "LIPP-CE0"
+              }
+            ],
+            "rows": 3
+          }
         },
         {
           "label": ["FALCO", "APP"],
           "size": 5,
-          "station_id": "LIPY-APP"
+          "page": {
+            "keys": [
+              {
+                "label": ["FALCO", "APP"],
+                "station_id": "LIPY-APP"
+              }
+            ],
+            "rows": 3
+          }
         },
         {
           "label": ["ROMA"],
@@ -425,7 +536,15 @@
         {
           "label": ["PADOVA", "FMP"],
           "size": 5,
-          "station_id": "LIPP-FMP"
+          "page": {
+            "keys": [
+              {
+                "label": ["PADOVA", "FMP"],
+                "station_id": "LIPP-FMP"
+              }
+            ],
+            "rows": 3
+          }
         },
         {
           "label": ["FMP"],
@@ -456,7 +575,6 @@
           "label": ["TWR"],
           "size": 5,
           "page": {
-            "size": 6.25,
             "rows": 6,
             "client_page": {
               "include": ["LIP*_TWR", "LIP*_GND", "LIP*_DEL"],
@@ -480,7 +598,6 @@
           "label": ["AFIU"],
           "size": 5,
           "page": {
-            "size": 6.25,
             "rows": 6,
             "client_page": {
               "include": ["LIP*_I_TWR", "LID*_I_TWR", "LIK*_I_TWR"],
@@ -492,7 +609,6 @@
           "label": ["MISC"],
           "size": 5,
           "page": {
-            "size": 6.25,
             "rows": 6,
             "client_page": {
               "include": [
