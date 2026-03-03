@@ -1,0 +1,36 @@
+{
+  "id": "FALE",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FALE",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": ["FALE*", "FAJA_*", "FASA_*"],
+          "exclude": [
+            "FAJA_W*",
+            "FAJA_N_*",
+            "FAJA_NE*",
+            "FAJA_NW*",
+            "FAJA_SW*",
+            "FAJA_SE*",
+            "FAJA_IN_*",
+            "FAJA_C*"
+          ],
+          "priority": [
+            "*_FMP",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_DEL",
+            "FAJA_E*",
+            "*_CTR"
+          ],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}
