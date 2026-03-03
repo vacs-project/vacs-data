@@ -1,0 +1,123 @@
+{
+  "id": "FASA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 6,
+        "keys": [
+            {
+                "label": ["FAJA", "NORTH"]
+            },
+            {
+                "label": ["NORTH", "EAST"],
+                "station_id": "FAJA_NE"
+            },
+            {
+                "label": ["NORTH", "WEST"],
+                "station_id": "FAJA_NW"
+            },
+            {
+                "label": ["SOUTH", "EAST"],
+                "station_id": "FAJA_SE"
+            },
+            {
+                "label": ["SOUTH", "WEST"],
+                "station_id": "FAJA_SW"
+            },
+            {
+                "label": []
+            },
+            {
+                "label": ["FAJA", "SOUTH"]
+            },
+            {
+                "label": ["WEST"],
+                "station_id": "FAJA_W"
+            },
+            {
+                "label": ["CENTRAL"],
+                "station_id": "FAJA_C"
+            },
+            {
+                "label": ["EAST"],
+                "station_id": "FAJA_E"
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": ["FACA"]
+            },
+            {
+                "label": ["WEST"],
+                "station_id": "FACA_W"
+            },
+            {
+                "label": ["EAST"],
+                "station_id": "FACA_E"
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": ["SUP"],
+                "station_id": "FASA_FMP"
+            }
+        ]
+      }
+    },
+    {
+      "label": ["EXT", "ACC"],
+      "page": {
+        "rows": 6,
+        "keys": [
+            {
+                "label": ["FAJO"]
+            },
+            {
+                "label": ["FAJO", "1"],
+                "station_id": "FAJO_1"
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            },
+            {
+                "label": []
+            }
+        ]
+      }
+    }
+  ]
+}
