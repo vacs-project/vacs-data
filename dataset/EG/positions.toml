@@ -137,12 +137,6 @@ frequency = "121.855"
 facility_type = "GND"
 
 [[positions]]
-id = "EGCC_P_GND"
-prefixes = ["EGCC"]
-frequency = "130.650"
-facility_type = "GND"
-
-[[positions]]
 id = "EGCC_DEL"
 prefixes = ["EGCC"]
 frequency = "121.705"
@@ -563,12 +557,6 @@ frequency = "121.805"
 facility_type = "GND"
 
 [[positions]]
-id = "EGKK_P_GND"
-prefixes = ["EGKK"]
-frequency = "134.230"
-facility_type = "GND"
-
-[[positions]]
 id = "EGKK_DEL"
 prefixes = ["EGKK"]
 frequency = "121.955"
@@ -686,12 +674,6 @@ facility_type = "GND"
 id = "EGLL_3_GND"
 prefixes = ["EGLL"]
 frequency = "121.855"
-facility_type = "GND"
-
-[[positions]]
-id = "EGLL_P_GND"
-prefixes = ["EGLL"]
-frequency = "124.480"
 facility_type = "GND"
 
 [[positions]]
