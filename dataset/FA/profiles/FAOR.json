@@ -19,10 +19,8 @@
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": []
+            "label": ["RDR"],
+            "station_id": "FAOR_RDR"
           },
           {
             "label": ["AIR", "W"],
@@ -36,12 +34,18 @@
             "label": []
           },
           {
-            "label": ["RDR"],
-            "station_id": "FAOR_RDR"
-          },
-          {
             "label": ["RDR", "W"],
             "station_id": "FAOR_RDR_W"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GM", "AIR"],
+            "station_id": "FAGM_TWR"
+          },
+          {
+            "label": []
           },
           {
             "label": ["FIN"],
@@ -54,8 +58,16 @@
             "label": []
           },
           {
-            "label": ["GM", "AIR"],
-            "station_id": "FAGM_TWR"
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": []
@@ -90,6 +102,20 @@
           {
             "label": ["ACC", "SOUTH", "WEST"],
             "station_id": "FAJA_SW"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FAJA", "INFO", "NORTH"],
+            "station_id": "FAJA_INFO_N"
+          },
+          {
+            "label": ["FAJA", "FLOW"],
+            "station_id": "FAJA_FMP"
           }
         ]
       }
@@ -213,7 +239,8 @@
             "station_id": "FAJA_INFO_N"
           },
           {
-            "label": []
+            "label": ["FAJA", "FLOW"],
+            "station_id": "FAJA_FMP"
           }
         ]
       }

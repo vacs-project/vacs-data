@@ -127,6 +127,13 @@
       "profile_id": "FAJA"
     },
     {
+      "id": "FAMR_I_CTR",
+      "prefixes": ["FAMR"],
+      "frequency": "119.000",
+      "facility_type": "CTR",
+      "profile_id": "FAMR"
+    },
+    {
       "id": "FAOR_APP",
       "prefixes": ["FAOR"],
       "frequency": "124.500",

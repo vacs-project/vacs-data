@@ -76,6 +76,11 @@
       "controlled_by": ["FAJA_IS_CTR", "FAJA_I_CTR"]
     },
     {
+      "id": "FAMR_I_CTR",
+      "parent_id": "FAJA_NE",
+      "controlled_by": ["FAMR_I_CTR"]
+    },
+    {
       "id": "FAOR_RDR",
       "parent_id": "FAJA_NW",
       "controlled_by": ["FAOR_APP"]
