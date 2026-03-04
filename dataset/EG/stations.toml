@@ -1,8 +1,56 @@
-# LAG includes underlying TC positions
+####################
+# SUP/FLOW
+####################
+
+[[stations]]
+id = "UK_FMP"
+controlled_by = ["UK_FMP"]
+
+[[stations]]
+id = "UK_A_FMP"
+controlled_by = ["UK_A_FMP"]
+
+[[stations]]
+id = "UK_B_FMP"
+controlled_by = ["UK_B_FMP"]
+
+[[stations]]
+id = "MAN_FMP"
+controlled_by = ["MAN_FMP"]
+
+[[stations]]
+id = "LTC_FMP"
+controlled_by = ["LTC_FMP"]
+
+[[stations]]
+id = "STC_FMP"
+controlled_by = ["STC_FMP"]
+
+[[stations]]
+id = "LON_GS_CTR"
+controlled_by = ["LON_GS_CTR"]
+
+[[stations]]
+id = "LTC_GS_CTR"
+controlled_by = ["LTC_GS_CTR"]
+
+[[stations]]
+id = "SCO_GS_CTR"
+controlled_by = ["SCO_GS_CTR"]
+
+[[stations]]
+id = "STC_GS_CTR"
+controlled_by = ["STC_GS_CTR"]
+
+[[stations]]
+id = "MAN_GS_CTR"
+controlled_by = ["MAN_GS_CTR"]
 
 ####################
 # LAC POSITIONS
 ####################
+
+# LAG includes underlying TC positions
 
 [[stations]]
 id = "LON_CTR"
@@ -632,3 +680,171 @@ controlled_by = ["EGVV_D_CTR"]
 ####################
 # AERODROMES
 ####################
+
+[[stations]]
+id = "EGKK_APP"
+parent_id = "LTC_SW_CTR"
+controlled_by = ["EGKK_APP", "EGKK_F_APP"]
+
+[[stations]]
+id = "EGLC_GND"
+parent_id = "EGLC_TWR"
+controlled_by = ["EGLC_GND"]
+
+[[stations]]
+id = "EGLC_TWR"
+parent_id = "EGLC_APP"
+controlled_by = ["EGLC_TWR"]
+
+[[stations]]
+id = "EGLC_APP"
+parent_id = "THAMES_APP"
+controlled_by = ["EGLC_APP"]
+
+[[stations]]
+id = "EGLD_I_TWR"
+controlled_by = ["EGLD_I_TWR"]
+
+[[stations]]
+id = "EGLF_APP"
+parent_id = "LTC_SW_CTR"
+controlled_by = ["EGLF_APP", "EGLF_F_APP", "EGLF_L_APP"]
+
+[[stations]]
+id = "EGLF_F_APP"
+parent_id = "EGLF_APP"
+controlled_by = ["EGLF_F_APP"]
+
+[[stations]]
+id = "EGLF_L_APP"
+parent_id = "EGLF_APP"
+controlled_by = ["EGLF_L_APP"]
+
+[[stations]]
+id = "EGLL_DEL"
+parent_id = "EGLL_2_GND"
+controlled_by = ["EGLL_DEL"]
+
+[[stations]]
+id = "EGLL_A_DEL"
+parent_id = "EGLL_DEL"
+controlled_by = ["EGLL_A_DEL"]
+
+[[stations]]
+id = "EGLL_P_GND"
+parent_id = "EGLL_DEL"
+controlled_by = ["EGLL_P_GND"]
+
+[[stations]]
+id = "EGLL_1_GND"
+parent_id = "EGLL_N_TWR"
+controlled_by = ["EGLL_1_GND", "EGLL_2_GND", "EGLL_3_GND"]
+
+[[stations]]
+id = "EGLL_2_GND"
+parent_id = "EGLL_S_TWR"
+controlled_by = ["EGLL_2_GND", "EGLL_1_GND", "EGLL_3_GND"]
+
+[[stations]]
+id = "EGLL_3_GND"
+parent_id = "EGLL_N_TWR"
+controlled_by = ["EGLL_3_GND", "EGLL_1_GND", "EGLL_2_GND"]
+
+[[stations]]
+id = "EGLL_S_TWR"
+parent_id = "EGLL_N_APP"
+controlled_by = ["EGLL_S_TWR", "EGLL_N_TWR"]
+
+[[stations]]
+id = "EGLL_N_TWR"
+parent_id = "EGLL_S_TWR"
+controlled_by = ["EGLL_N_TWR"]
+
+[[stations]]
+id = "EGLL_N_APP"
+parent_id = "LTC_SE_CTR"
+controlled_by = ["EGLL_N_APP", "EGLL_S_APP", "EGLL_F_APP"]
+
+[[stations]]
+id = "EGLL_S_APP"
+parent_id = "EGLL_N_APP"
+controlled_by = ["EGLL_S_APP"]
+
+[[stations]]
+id = "EGLL_F_APP"
+parent_id = "EGLL_N_APP"
+controlled_by = ["EGLL_F_APP"]
+
+[[stations]]
+id = "EGLM_R_TWR"
+controlled_by = ["EGLM_R_TWR"]
+
+[[stations]]
+id = "EGLW_TWR"
+parent_id = "EGLL-CTR-TC_SVFR"
+controlled_by = ["EGLW_TWR"]
+
+[[stations]]
+id = "EGSS_APP"
+parent_id = "LTC_NL_CTR"
+controlled_by = ["EGSS_APP", "EGSS_F_APP", "ESSEX_APP"]
+
+[[stations]]
+id = "EGTF_R_TWR"
+controlled_by = ["EGTF_R_TWR"]
+
+[[stations]]
+id = "EGWU_GND"
+parent_id = "EGWU_TWR"
+controlled_by = ["EGWU_GND"]
+
+[[stations]]
+id = "EGWU_TWR"
+parent_id = "EGWU_APP"
+controlled_by = ["EGWU_TWR", "EGWU_F_APP", "EGWU_P_APP"]
+
+[[stations]]
+id = "EGWU_APP"
+parent_id = "EGLL_N_APP"
+controlled_by = ["EGWU_APP", "EGVV_D_CTR", "EGVV_W_CTR", "EGVV_CTR"]
+
+[[stations]]
+id = "EGWU_F_APP"
+parent_id = "EGWU_APP"
+controlled_by = ["EGWU_F_APP"]
+
+[[stations]]
+id = "EGWU_P_APP"
+parent_id = "EGWU_F_APP"
+controlled_by = ["EGWU_P_APP"]
+
+[[stations]]
+id = "ESSEX_APP"
+controlled_by = ["ESSEX_APP"]
+
+[[stations]]
+id = "SOLENT_APP"
+parent_id = "LON_HW_CTR"
+controlled_by = ["SOLENT_APP"]
+
+[[stations]]
+id = "THAMES_APP"
+parent_id = "LTC_SE_CTR"
+controlled_by = ["THAMES_APP"]
+
+# Position inserted for correct top-down TC SFVR *within* the London CTR (not within the London City CTR/CTA)
+[[stations]]
+id = "EGLL-CTR-TC_SVFR"
+parent_id = "EGLL_N_APP"
+controlled_by = [
+  "EGLC_APP",
+  "THAMES_APP",
+  "LTC_SE_CTR",
+  "LTC_S_CTR",
+  "LTC_CTR",
+  "LON_DL_CTR",
+  "LON_D_CTR",
+  "LON_S_CTR",
+  "LON_SC_CTR",
+  "LON_CTR",
+]
