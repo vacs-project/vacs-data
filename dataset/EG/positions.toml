@@ -170,7 +170,7 @@ profile_id = "EG-North_LAG"
 id = "EGCC_P_GND"
 prefixes = ["EGCC"]
 frequency = "130.650"
-facility_type = "DEL"
+facility_type = "GND"
 profile_id = "EG-North_LAG"
 
 [[positions]]
@@ -646,7 +646,7 @@ profile_id = "EGKK"
 id = "EGKK_P_GND"
 prefixes = ["EGKK"]
 frequency = "134.230"
-facility_type = "DEL"
+facility_type = "GND"
 profile_id = "EGKK"
 
 [[positions]]
@@ -786,7 +786,7 @@ profile_id = "EGLL"
 id = "EGLL_P_GND"
 prefixes = ["EGLL"]
 frequency = "124.480"
-facility_type = "DEL"
+facility_type = "GND"
 profile_id = "EGLL"
 
 [[positions]]
@@ -3148,35 +3148,35 @@ profile_id = "EG-UK_ALL"
 id = "LON_GS_CTR"
 prefixes = ["LON"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
 profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "LTC_GS_CTR"
 prefixes = ["LTC"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
 profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "SCO_GS_CTR"
 prefixes = ["SCO"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
 profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "STC_GS_CTR"
 prefixes = ["STC"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
 profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "MAN_GS_CTR"
 prefixes = ["MAN"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
 profile_id = "EG-UK_ALL"
 
 #######################
