@@ -1,0 +1,27 @@
+{
+  "id": "FAGG",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FAGG",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": ["FAGG*", "FACA_*", "FASA_*"],
+          "exclude": [],
+          "priority": [
+            "*_FMP",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_DEL",
+            "FACA_W*",
+            "*_CTR"
+          ],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

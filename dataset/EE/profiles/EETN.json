@@ -1,0 +1,499 @@
+{
+  "id": "EETN",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["TWR", "", ""],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["TWR", "ASS"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["W", "EC"],
+            "station_id": "EETT_W"
+          },
+          {
+            "label": ["W", "PLC"]
+          },
+          {
+            "label": ["APP", "EC"],
+            "station_id": "EETN_APP"
+          },
+          {
+            "label": ["APP", "PLC"]
+          },
+          {
+            "label": ["DIR"],
+            "station_id": "EETN_DIR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["E", "EC"],
+            "station_id": "EETT_E"
+          },
+          {
+            "label": ["E", "PLC"]
+          },
+          {
+            "label": ["Õhuseire", "", ""]
+          },
+          {
+            "label": ["EEEI"],
+            "station_id": "EEEI"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["N", "EC"],
+            "station_id": "EETT_N"
+          },
+          {
+            "label": ["N", "PLC"]
+          },
+          {
+            "label": ["LIGHT", "HOUSE", ""]
+          },
+          {
+            "label": ["AMBER", "LAND", ""]
+          },
+          {
+            "label": ["GALAXY"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FEED", "EC"],
+            "station_id": "EETT_FED"
+          },
+          {
+            "label": ["FEED", "PLC"]
+          },
+          {
+            "label": ["OPSUP"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["FDA"]
+          },
+          {
+            "label": ["KAUR", ""]
+          },
+          {
+            "label": ["JRCC"]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""],
+            "station_id": "EFIN_B"
+          },
+          {
+            "label": ["AMC"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["TVP"]
+          },
+          {
+            "label": ["METEO"]
+          },
+          {
+            "label": ["TLL", "elektrik"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KORK"],
+            "station_id": "EETN_RMP"
+          },
+          {
+            "label": ["Raja-", "meister"]
+          },
+          {
+            "label": ["FIS"],
+            "station_id": "EETT_FIS"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["BACKUP", "DIVERT"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Pääste", "(TLL)"]
+          },
+          {
+            "label": ["ILS", "Engineer"]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    },
+    {
+      "label": ["APP", "", ""],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["TWR", "EC"],
+            "station_id": "EETN_TWR"
+          },
+          {
+            "label": ["TWR", "PLC"]
+          },
+          {
+            "label": ["TWR", "ASS"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["W", "EC"],
+            "station_id": "EETT_W"
+          },
+          {
+            "label": ["W", "PLC"]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["DIR"],
+            "station_id": "EETN_DIR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["E", "EC"],
+            "station_id": "EETT_E"
+          },
+          {
+            "label": ["E", "PLC"]
+          },
+          {
+            "label": ["Õhuseire", "", ""]
+          },
+          {
+            "label": ["EEEI"],
+            "station_id": "EEEI"
+          },
+          {
+            "label": ["RCO"]
+          },
+          {
+            "label": ["EFHK", "RAD-E"],
+            "station_id": "EFHK_RE"
+          },
+          {
+            "label": ["N", "EC"],
+            "station_id": "EETT_N"
+          },
+          {
+            "label": ["N", "PLC"]
+          },
+          {
+            "label": ["LIGHT", "HOUSE", ""]
+          },
+          {
+            "label": ["AMBER", "LAND", ""]
+          },
+          {
+            "label": ["GALAXY"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FEED", "EC"],
+            "station_id": "EETT_FED"
+          },
+          {
+            "label": ["FEED", "PLC"]
+          },
+          {
+            "label": ["OPSUP"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["FDA"]
+          },
+          {
+            "label": ["KAUR", ""]
+          },
+          {
+            "label": ["JRCC"]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["EFIN B", "PLC"],
+            "station_id": "EFIN_B"
+          },
+          {
+            "label": ["AMC"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["TVP"]
+          },
+          {
+            "label": ["METEO"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Helsinki", "SUP"],
+            "station_id": "EFIN_FMP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KORK"],
+            "station_id": "EETN_RMP"
+          },
+          {
+            "label": ["Raja-", "meister"]
+          },
+          {
+            "label": ["FIS"],
+            "station_id": "EETT_FIS"
+          },
+          {
+            "label": ["EFIN", "FDA"]
+          },
+          {
+            "label": ["BACKUP", "DIVERT"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Pääste", "(TLL)"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EEKA"],
+            "station_id": "EEKA"
+          },
+          {
+            "label": ["EEPU"],
+            "station_id": "EEPU"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["DIR", "", ""],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["TWR", "EC"],
+            "station_id": "EETN_TWR"
+          },
+          {
+            "label": ["TWR", "PLC"]
+          },
+          {
+            "label": ["TWR", "ASS"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["APP", "EC"],
+            "station_id": "EETN_APP"
+          },
+          {
+            "label": ["APP", "PLC"]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", ""],
+            "station_id": "EETT_E"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["Õhuseire", "", ""]
+          },
+          {
+            "label": ["EEEI"],
+            "station_id": "EEEI"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", "", ""]
+          },
+          {
+            "label": ["", "", ""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", ""],
+            "station_id": "EETT_FED"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["OPSUP"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["FDA"]
+          },
+          {
+            "label": ["KAUR", ""]
+          },
+          {
+            "label": ["JRCC"]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""],
+            "station_id": "EFIN_B"
+          },
+          {
+            "label": ["AMC"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["TVP"]
+          },
+          {
+            "label": ["METEO"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KORK"],
+            "station_id": "EETN_RMP"
+          },
+          {
+            "label": ["Raja-", "meister"]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["BACKUP", "DIVERT"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Pääste", "(TLL)"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    }
+  ]
+}

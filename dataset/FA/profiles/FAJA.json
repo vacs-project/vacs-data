@@ -1,0 +1,58 @@
+{
+  "id": "FAJA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FAJA",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "FAJA_*",
+            "FASA_*",
+
+            "FACA_*",
+
+            "FAOR_*",
+            "FALA_*",
+            "FALE_*",
+            "FABL_*",
+            "FAKM_*",
+            "FAKN_*",
+            "FAPP_*",
+            "FAPM_*",
+            "FARB_*",
+            "FAWB_*",
+            "FAUP_*",
+            "FAGM_*",
+            "FAVG_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "Icao"
+        }
+      }
+    },
+    {
+      "label": "EXT",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "FBGR_*",
+            "FVHF_*",
+            "FYWF_*",
+            "FQBE_*",
+            "FQMA_*",
+            "FAJO_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "Icao"
+        }
+      }
+    }
+  ]
+}

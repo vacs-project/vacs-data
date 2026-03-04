@@ -1,0 +1,70 @@
+{
+  "id": "Scottish",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "Scottish",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "EGAA_*",
+            "EGAC_*",
+            "EGAE_*",
+            "EGPH_*",
+            "EGPF_*",
+            "EGPK_*",
+            "EGPE_*",
+            "EGPD_*",
+            "EGPB_*",
+            "EGPO_*",
+            "EGPL_*",
+            "EGPC_*",
+            "EGPN_*",
+            "EGPA_*",
+            "EGNT_*",
+            "BIRD_E*",
+            "BIRD_S*",
+            "BIRD_CTR",
+            "EDYY_J*",
+            "EDYY_HH*",
+            "EDWW_W*",
+            "EDWW_ALR*",
+            "EDWW_EID*",
+            "EDYY_D*",
+            "EHAA*",
+            "EKDK_CTR",
+            "EKDK__CTR",
+            "EKDK_*N*CTR",
+            "EKDK_V*CTR",
+            "EKDK_WE*",
+            "ENOR_CTR",
+            "ENOR__CTR",
+            "ENOR_S*",
+            "ENSV*CTR",
+            "EISN_E*",
+            "EISN_L*",
+            "EIDW_UN*",
+            "EIDW_LN*",
+            "MAN_*",
+            "LON_N*",
+            "LON_CTR",
+            "LON__CTR",
+            "STC_*",
+            "SCO_*",
+            "NAT*",
+            "EGGX*",
+            "EGVV_*",
+            "EGTT_*",
+            "EGPX_*",
+            "UK_*"
+          ],
+          "exclude": ["MAN_SE*"],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

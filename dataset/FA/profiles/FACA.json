@@ -1,0 +1,39 @@
+{
+  "id": "FACA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FACA",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "FACA_*",
+            "FASA_*",
+
+            "FAJA_*",
+
+            "FAJO_*",
+
+            "FACT_*",
+            "FAGG_*",
+            "FAPE_*",
+            "FAEL_*",
+            "FAUT_*"
+          ],
+          "exclude": [
+            "FAJA_N_*",
+            "FAJA_NE_*",
+            "FAJA_NW_*",
+            "FAJA_SW_*",
+            "FAJA_SE_*",
+            "FAJA_IN_*"
+          ],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

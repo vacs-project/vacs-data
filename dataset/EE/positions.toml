@@ -3,18 +3,21 @@ id = "EEEI_TWR"
 prefixes = ["EEEI"]
 frequency = "122.100"
 facility_type = "TWR"
+profile_id = "EEEI"
 
 [[positions]]
 id = "EEKA_I_TWR"
 prefixes = ["EEKA"]
 frequency = "133.405"
 facility_type = "TWR"
+profile_id = "EETT"
 
 [[positions]]
 id = "EEKE_I_TWR"
 prefixes = ["EEKE"]
 frequency = "118.055"
 facility_type = "TWR"
+profile_id = "EETT"
 
 [[positions]]
 id = "EENA_RDO"
@@ -27,6 +30,7 @@ id = "EEPU_I_TWR"
 prefixes = ["EEPU"]
 frequency = "135.305"
 facility_type = "TWR"
+profile_id = "EETT"
 
 [[positions]]
 id = "EERA_RDO"
@@ -45,84 +49,98 @@ id = "EETN_TWR"
 prefixes = ["EETN"]
 frequency = "135.905"
 facility_type = "TWR"
+profile_id = "EETN"
 
 [[positions]]
 id = "EETN_APP"
 prefixes = ["EETN"]
 frequency = "127.905"
 facility_type = "APP"
+profile_id = "EETN"
 
 [[positions]]
 id = "EETN_D_APP"
 prefixes = ["EETN"]
 frequency = "125.405"
 facility_type = "APP"
+profile_id = "EETN"
 
 [[positions]]
 id = "EETN_C_RMP"
 prefixes = ["EETN"]
 frequency = "131.905"
 facility_type = "RMP"
+profile_id = "EETN"
 
 [[positions]]
 id = "EETN_D_RMP"
 prefixes = ["EETN"]
 frequency = "121.780"
 facility_type = "RMP"
+profile_id = "EETN"
 
 [[positions]]
 id = "EETT_N_CTR"
 prefixes = ["EETT"]
 frequency = "127.175"
 facility_type = "CTR"
+profile_id = "EETT"
 
 [[positions]]
 id = "EETT_S_CTR"
 prefixes = ["EETT"]
 frequency = "124.415"
 facility_type = "CTR"
+profile_id = "EETT"
 
 [[positions]]
 id = "EETT_W_CTR"
 prefixes = ["EETT"]
 frequency = "134.325"
 facility_type = "CTR"
+profile_id = "EETT"
 
 [[positions]]
 id = "EETT_E_CTR"
 prefixes = ["EETT"]
 frequency = "119.380"
 facility_type = "CTR"
+profile_id = "EETT"
 
 [[positions]]
 id = "EETT_H_APP"
 prefixes = ["EETT"]
 frequency = "126.705"
 facility_type = "APP"
+profile_id = "EETT"
 
 [[positions]]
 id = "EETT_I_CTR"
 prefixes = ["EETT"]
 frequency = "128.980"
 facility_type = "CTR"
+profile_id = "EETT"
 
 [[positions]]
 id = "EETT_Y_FMP"
 prefixes = ["EETT"]
 frequency = "132.575"
 facility_type = "FMP"
+profile_id = "EETT"
 
 [[positions]]
 id = "EETT_Z_FMP"
 prefixes = ["EETT"]
 frequency = "132.580"
 facility_type = "FMP"
+profile_id = "EETT"
 
 [[positions]]
 id = "EETU_I_TWR"
 prefixes = ["EETU"]
 frequency = "133.905"
 facility_type = "TWR"
+profile_id = "EETT"
 
 [[positions]]
 id = "EEVI_RDO"

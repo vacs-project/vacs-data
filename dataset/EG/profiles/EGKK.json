@@ -1,0 +1,37 @@
+{
+  "id": "EGKK",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "Gatwick",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "EGKK*",
+            "EGLL_N*APP",
+            "EGLL_S*APP",
+            "THAMES*",
+            "EGLF_*APP",
+            "EGKR_*",
+            "LON_H*",
+            "LON_D*",
+            "LON_S*",
+            "LON_O*",
+            "LON_SC*",
+            "LON_CTR",
+            "LON__CTR",
+            "LTC_S*",
+            "LTC_CTR",
+            "EGTT_*",
+            "UK_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_APP", "*_TWR", "*_GND", "*_DEL", "*_CTR"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

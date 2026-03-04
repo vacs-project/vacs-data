@@ -1,0 +1,19 @@
+{
+  "id": "FAOR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FAOR",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": ["FAOR*", "FAJA_*", "FASA_*", "FAGM*"],
+          "exclude": ["FAJA_W*", "FAJA_E*", "FAJA_C*", "FAJA_S_*", "FAJA_IS_*"],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

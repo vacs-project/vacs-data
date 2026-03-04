@@ -1,0 +1,95 @@
+{
+  "id": "EEEI",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["TWR"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EETN", "TWR"],
+            "station_id": "EETN_TWR"
+          },
+          {
+            "label": ["EETN", "ACC E1"],
+            "station_id": "EETT_E"
+          },
+          {
+            "label": ["EETN", "O-SUP"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["EETU", "TWR"],
+            "station_id": "EETU"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["CRC", "Tallinn", ""]
+          },
+          {
+            "label": ["EETN", "APP 1"],
+            "station_id": "EETN_APP"
+          },
+          {
+            "label": ["EETN", "ACC E2"]
+          },
+          {
+            "label": ["EETN", "BRIF"]
+          },
+          {
+            "label": ["EEPU", "TWR"],
+            "station_id": "EEPU"
+          },
+          {
+            "label": ["EEEI", "AIS"]
+          },
+          {
+            "label": ["CRC", "Liel-", "varde"]
+          },
+          {
+            "label": ["EETN", "APP 2"]
+          },
+          {
+            "label": ["EETN", "ACC W1"],
+            "station_id": "EETT_W"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EEKE", "TWR"],
+            "station_id": "EEKE"
+          },
+          {
+            "label": ["EEEI", "METEO"]
+          },
+          {
+            "label": ["CRC", "Karme-", "lava"]
+          },
+          {
+            "label": ["EETN", "APP PLC"]
+          },
+          {
+            "label": ["EETN", "ACC W2"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EEKA", "TWR"],
+            "station_id": "EEKA"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DCRC", ""]
+          }
+        ]
+      }
+    }
+  ]
+}

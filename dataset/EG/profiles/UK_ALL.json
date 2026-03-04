@@ -1,0 +1,31 @@
+{
+  "id": "UK_ALL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "UK All Stations",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "SOLENT*",
+            "THAMES*",
+            "ESSEX*",
+            "NAT_*",
+            "LON_*",
+            "LTC_*",
+            "SCO_*",
+            "STC_*",
+            "MAN_*",
+            "EG*_*",
+            "UK_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

@@ -59,7 +59,7 @@
           },
           {
             "label": ["SAS"],
-            "station_id": "EDMM-DMNH"
+            "station_id": "EDMM-SAS"
           },
           {
             "label": ["FRK", ""],
@@ -124,7 +124,7 @@
           },
           {
             "label": ["EDDP", "TWR S"],
-            "station_id": "EDMM-EGG"
+            "station_id": "EDDP-TWR-S"
           },
           {
             "label": ["EDDN", "GND"],

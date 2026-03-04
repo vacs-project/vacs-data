@@ -1,0 +1,56 @@
+{
+  "id": "North_LAG",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "North LAG",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "EGCC_*",
+            "EGGP_*",
+            "EGNM_*",
+            "EGNJ_*",
+            "EGNT_*",
+            "EGNV_*",
+            "EGNS_*",
+            "EGNR_*",
+            "EGNH_*",
+            "EGSH_*",
+            "EDYY_J*",
+            "EDWW_*CTR",
+            "EDYY_D*",
+            "EHAA_*",
+            "EIDW_U*",
+            "EIDW_L*",
+            "EISN_E*",
+            "MAN_*",
+            "LON_N*",
+            "LON_E*",
+            "LON_M*",
+            "LON_C*",
+            "LON_SC*",
+            "LON_W_*",
+            "LON_WB_*",
+            "LON_WL_*",
+            "LON_CTR",
+            "LON__CTR",
+            "LTC_M*",
+            "LTC_E*",
+            "STC_*",
+            "SCO_*",
+            "EGVV_*",
+            "EGTT_*",
+            "EGPX_*",
+            "UK_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

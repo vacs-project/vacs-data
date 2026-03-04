@@ -1,0 +1,420 @@
+{
+  "id": "EETT",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC", ""],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EFIN B", "PLC"],
+            "station_id": "EFIN_B"
+          },
+          {
+            "label": ["APP EC"],
+            "station_id": "EETN_APP"
+          },
+          {
+            "label": ["APP PLC"]
+          },
+          {
+            "label": ["Malmö", "PLC"],
+            "station_id": "ESMM_Y"
+          },
+          {
+            "label": ["Stockhol", "PLC"],
+            "station_id": "ESOS_6"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFIN A", "PLC"],
+            "station_id": "EFIN_A"
+          },
+          {
+            "label": ["W", "EC"],
+            "station_id": "EETT_W"
+          },
+          {
+            "label": ["W", "PLC"]
+          },
+          {
+            "label": ["Riga N", "EC"]
+          },
+          {
+            "label": ["Riga N", "PLC"]
+          },
+          {
+            "label": ["Riga APP", "EC"]
+          },
+          {
+            "label": ["EFHK", "RAD-E"],
+            "station_id": "EFHK_RE"
+          },
+          {
+            "label": ["E EC", ""],
+            "station_id": "EETT_E"
+          },
+          {
+            "label": ["E PLC"]
+          },
+          {
+            "label": ["Riga E", "EC"]
+          },
+          {
+            "label": ["Riga E", "PLC"]
+          },
+          {
+            "label": ["Riga APP", "PLC"]
+          },
+          {
+            "label": ["FIS"],
+            "station_id": "EETT_FIS"
+          },
+          {
+            "label": ["F/N EC"],
+            "station_id": "EETT_N"
+          },
+          {
+            "label": ["F/N PLC"]
+          },
+          {
+            "label": ["St.Peter", "W PLC"]
+          },
+          {
+            "label": ["St.Peter", "SW PLC"]
+          },
+          {
+            "label": ["St.Peter", "V.Luki"]
+          },
+          {
+            "label": ["OPSUP"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["FDA"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Liepaja", "FIS"]
+          },
+          {
+            "label": ["St.Peter", "LCU"]
+          },
+          {
+            "label": ["Pskov", "LCU"]
+          },
+          {
+            "label": ["AMC"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["TVP"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Riga", "FIS"]
+          },
+          {
+            "label": ["EEKA"],
+            "station_id": "EEKA"
+          },
+          {
+            "label": ["EEKE"],
+            "station_id": "EEKE"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["JRCC"]
+          },
+          {
+            "label": ["Õhuseire"]
+          },
+          {
+            "label": ["RCO"]
+          },
+          {
+            "label": ["EEPU"],
+            "station_id": "EEPU"
+          },
+          {
+            "label": ["BACKUP", "DIVERT"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LIGHT", "HOUSE"]
+          },
+          {
+            "label": ["AMBER", "LAND"]
+          },
+          {
+            "label": ["GALAXY"]
+          },
+          {
+            "label": ["EETU"],
+            "station_id": "EETU"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["AFIS"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["SUPER"],
+            "station_id": "EETT_OPSUP"
+          },
+          {
+            "label": ["FDA"]
+          },
+          {
+            "label": ["112"]
+          },
+          {
+            "label": ["Konve", "rents"]
+          },
+          {
+            "label": ["EEKA"],
+            "station_id": "EEKA"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["Kassa"]
+          },
+          {
+            "label": ["ACCW"],
+            "station_id": "EETT_W"
+          },
+          {
+            "label": ["EERU"]
+          },
+          {
+            "label": ["EEKE"],
+            "station_id": "EEKE"
+          },
+          {
+            "label": ["FIS", ""],
+            "station_id": "EETT_FIS"
+          },
+          {
+            "label": ["ARO"]
+          },
+          {
+            "label": ["ACCE/S"],
+            "station_id": "EETT_E"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EEPU"],
+            "station_id": "EEPU"
+          },
+          {
+            "label": ["KORK"],
+            "station_id": "EETN_RMP"
+          },
+          {
+            "label": ["TVP"]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EETU", "ATIS"]
+          },
+          {
+            "label": ["EETU"],
+            "station_id": "EETU"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SUP"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["Riga", "SUP"]
+          },
+          {
+            "label": ["LIGHT", "HOUSE"]
+          },
+          {
+            "label": ["Õhuseire"]
+          },
+          {
+            "label": ["CCAMS"]
+          },
+          {
+            "label": ["EEKA"],
+            "station_id": "EEKA"
+          },
+          {
+            "label": ["Raja-", "meister"]
+          },
+          {
+            "label": ["Helsinki", "SUP"],
+            "station_id": "EFIN_FMP"
+          },
+          {
+            "label": ["AMBER", "LAND"]
+          },
+          {
+            "label": ["EEEI"],
+            "station_id": "EEEI"
+          },
+          {
+            "label": ["CHMI", "Helpdesk"]
+          },
+          {
+            "label": ["EEKE"],
+            "station_id": "EEKE"
+          },
+          {
+            "label": ["Pääste", "(TLL)"]
+          },
+          {
+            "label": ["EFIN", "SUP"],
+            "station_id": "EFIN_FMP"
+          },
+          {
+            "label": ["GALAXY"]
+          },
+          {
+            "label": ["Kuusiku", "LK"],
+            "station_id": "EERA"
+          },
+          {
+            "label": ["AUP", "CADF"]
+          },
+          {
+            "label": ["EEPU"],
+            "station_id": "EEPU"
+          },
+          {
+            "label": ["METEO"]
+          },
+          {
+            "label": ["Finavia", "Helpdesk"]
+          },
+          {
+            "label": ["Narva", "LK"],
+            "station_id": "EENA"
+          },
+          {
+            "label": ["Ridali", "LK"],
+            "station_id": "EERI"
+          },
+          {
+            "label": ["NMOC"]
+          },
+          {
+            "label": ["EETU"],
+            "station_id": "EETU"
+          },
+          {
+            "label": ["KORK"],
+            "station_id": "EETN_RMP"
+          },
+          {
+            "label": ["Malmö", "SUP"],
+            "station_id": "ESAA_FMP"
+          },
+          {
+            "label": ["AMC", "Sweden"]
+          },
+          {
+            "label": ["W", "EC"],
+            "station_id": "EETT_W"
+          },
+          {
+            "label": ["FDA"]
+          },
+          {
+            "label": ["RKIK"]
+          },
+          {
+            "label": ["112"]
+          },
+          {
+            "label": ["Stockhol", "SUP"],
+            "station_id": "ESAA_FMP"
+          },
+          {
+            "label": ["AMC", "Latvia"]
+          },
+          {
+            "label": ["E", "EC"],
+            "station_id": "EETT_E"
+          },
+          {
+            "label": ["ARO"]
+          },
+          {
+            "label": ["RCO"]
+          },
+          {
+            "label": ["JRCC"]
+          },
+          {
+            "label": ["St.Peter", "SUP"]
+          },
+          {
+            "label": ["AMC", "Finland"]
+          },
+          {
+            "label": ["APP", "EC"],
+            "station_id": "EETN_APP"
+          },
+          {
+            "label": ["NOTAM"]
+          },
+          {
+            "label": ["KAUR"]
+          },
+          {
+            "label": ["KAPO", "24H"]
+          },
+          {
+            "label": ["OPSUP", "CB"]
+          },
+          {
+            "label": ["AMC"]
+          },
+          {
+            "label": ["TWR", "EC"],
+            "station_id": "EETN_TWR"
+          },
+          {
+            "label": ["TECH"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Shift", "briefing"]
+          }
+        ]
+      }
+    }
+  ]
+}

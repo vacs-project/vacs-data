@@ -1,0 +1,65 @@
+{
+  "id": "West_LAG",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "West LAG",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "EGHE_*",
+            "EGHC_*",
+            "EGHG_*",
+            "EGHQ_*",
+            "EGTE_*",
+            "EGFF_*",
+            "EGSY_*",
+            "EGGD_*",
+            "EGBJ_*",
+            "EGBC_*",
+            "EGJB_*",
+            "EGJA_*",
+            "EGJJ_*",
+            "EGBB_*APP",
+            "EIDW_*CTR",
+            "EISN_E*",
+            "EISN_B*",
+            "EISN_CTR",
+            "EISN__CTR",
+            "MAN_CTR",
+            "MAN__CTR",
+            "MAN_W*",
+            "LON_D*",
+            "LON_S*",
+            "LON_H*",
+            "LON_O*",
+            "LON_C*",
+            "LON_M*",
+            "LON_N*",
+            "LON_CTR",
+            "LON__CTR",
+            "LTC_CTR",
+            "LTC__CTR",
+            "LTC_S*",
+            "LTC_M*",
+            "LFRR_W*",
+            "LFRR_V*",
+            "LFRR_CTR",
+            "LFRR__CTR",
+            "LFRB_*APP",
+            "EGVV_*",
+            "EGTT_*",
+            "UK_*",
+            "NAT*",
+            "EGGX*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

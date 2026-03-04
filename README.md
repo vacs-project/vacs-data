@@ -40,14 +40,14 @@ The dataset content of this repository is [licensed](LICENSE) under the **[Creat
 
 **This means you are free to:**
 
-- **Share** — copy and redistribute the material in any medium or format.
-- **Adapt** — remix, transform, and build upon the material.
+- **Share** - copy and redistribute the material in any medium or format.
+- **Adapt** - remix, transform, and build upon the material.
 
 **Under the following validation terms:**
 
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- **NonCommercial** — You may not use the material for commercial purposes.
-- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+- **Attribution** - You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **NonCommercial** - You may not use the material for commercial purposes.
+- **ShareAlike** - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 ### Tools license
 
