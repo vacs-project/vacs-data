@@ -138,18 +138,6 @@
             "station_id": "EGLL_DEL"
           },
           {
-            "label": ["GMC 1"],
-            "station_id": "EGLL_1_GND"
-          },
-          {
-            "label": ["GMC 2"],
-            "station_id": "EGLL_2_GND"
-          },
-          {
-            "label": ["GMC 3"],
-            "station_id": "EGLL_3_GND"
-          },
-          {
             "label": ["GMP", "Assist"],
             "station_id": "EGLL_A_DEL"
           },
@@ -160,6 +148,15 @@
           {
             "label": ["AIR", "South"],
             "station_id": "EGLL_S_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": []
