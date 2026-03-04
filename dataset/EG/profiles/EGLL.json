@@ -319,6 +319,31 @@
           }
         ]
       }
+    },
+    {
+      "label": ["Other", "direct", "call"],
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "SOLENT*",
+            "THAMES*",
+            "ESSEX*",
+            "NAT_*",
+            "LON_*",
+            "LTC_*",
+            "SCO_*",
+            "STC_*",
+            "MAN_*",
+            "EG*_*",
+            "UK_*"
+          ],
+          "exclude": ["EGLL_*", "LTC_NW_*", "LTC_NE_*", "LTC_SW_*", "LTC_SE_*"],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
     }
   ]
 }
