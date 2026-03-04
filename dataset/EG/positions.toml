@@ -3,1722 +3,2009 @@ id = "EGAA_APP"
 prefixes = ["EGAA"]
 frequency = "133.125"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAA_F_APP"
 prefixes = ["EGAA"]
 frequency = "120.905"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAA_TWR"
 prefixes = ["EGAA"]
 frequency = "118.300"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAA_GND"
 prefixes = ["EGAA"]
 frequency = "121.755"
 facility_type = "GND"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAA_DEL"
 prefixes = ["EGAA"]
 frequency = "126.780"
 facility_type = "DEL"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAC_APP"
 prefixes = ["EGAC"]
 frequency = "130.850"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAC_F_APP"
 prefixes = ["EGAC"]
 frequency = "134.800"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAC_TWR"
 prefixes = ["EGAC"]
 frequency = "122.830"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAE_A_APP"
 prefixes = ["EGAE"]
 frequency = "123.630"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAE_TWR"
 prefixes = ["EGAE"]
 frequency = "134.155"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGBB_APP"
 prefixes = ["EGBB"]
 frequency = "123.980"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGBB_F_APP"
 prefixes = ["EGBB"]
 frequency = "131.005"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGBB_TWR"
 prefixes = ["EGBB"]
 frequency = "118.305"
 facility_type = "TWR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGBB_GND"
 prefixes = ["EGBB"]
 frequency = "121.805"
 facility_type = "GND"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGBB_DEL"
 prefixes = ["EGBB"]
 frequency = "121.930"
 facility_type = "DEL"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGBJ_A_APP"
 prefixes = ["EGBJ"]
 frequency = "128.555"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGBJ_TWR"
 prefixes = ["EGBJ"]
 frequency = "122.905"
 facility_type = "TWR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGCC_F_APP"
 prefixes = ["EGCC"]
 frequency = "121.355"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGCC_N_APP"
 prefixes = ["EGCC"]
 frequency = "135.005"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGCC_S_APP"
 prefixes = ["EGCC"]
 frequency = "118.580"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGCC_N_TWR"
 prefixes = ["EGCC"]
 frequency = "118.630"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGCC_S_TWR"
 prefixes = ["EGCC"]
 frequency = "119.405"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGCC_GND"
 prefixes = ["EGCC"]
 frequency = "121.855"
 facility_type = "GND"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGCC_DEL"
 prefixes = ["EGCC"]
 frequency = "121.705"
 facility_type = "DEL"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGCC_P_GND"
 prefixes = ["EGCC"]
 frequency = "130.650"
-facility_type = "DEL"
+facility_type = "GND"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGDI_TWR"
 prefixes = ["EGDI"]
 frequency = "122.100"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDM_APP"
 prefixes = ["EGDM"]
 frequency = "126.705"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDM_P_APP"
 prefixes = ["EGDM"]
 frequency = "130.005"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDM_TWR"
 prefixes = ["EGDM"]
 frequency = "130.755"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDO_TWR"
 prefixes = ["EGDO"]
 frequency = "122.100"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDR_APP"
 prefixes = ["EGDR"]
 frequency = "134.055"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDR_P_APP"
 prefixes = ["EGDR"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDR_TWR"
 prefixes = ["EGDR"]
 frequency = "122.100"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDY_APP"
 prefixes = ["EGDY"]
 frequency = "127.355"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDY_P_APP"
 prefixes = ["EGDY"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDY_GND"
 prefixes = ["EGDY"]
 frequency = "122.100"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGDY_TWR"
 prefixes = ["EGDY"]
 frequency = "120.805"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGFF_APP"
 prefixes = ["EGFF"]
 frequency = "125.855"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGFF_L_APP"
 prefixes = ["EGFF"]
 frequency = "119.155"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGFF_TWR"
 prefixes = ["EGFF"]
 frequency = "133.105"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGGD_APP"
 prefixes = ["EGGD"]
 frequency = "125.650"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGGD_F_APP"
 prefixes = ["EGGD"]
 frequency = "136.080"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGGD_TWR"
 prefixes = ["EGGD"]
 frequency = "133.850"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGGD_GND"
 prefixes = ["EGGD"]
 frequency = "121.930"
 facility_type = "GND"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGGD_DEL"
 prefixes = ["EGGD"]
 frequency = "121.930"
 facility_type = "DEL"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGGP_APP"
 prefixes = ["EGGP"]
 frequency = "119.855"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGGP_F_APP"
 prefixes = ["EGGP"]
 frequency = "118.455"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGGP_TWR"
 prefixes = ["EGGP"]
 frequency = "126.355"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGGP_GND"
 prefixes = ["EGGP"]
 frequency = "121.955"
 facility_type = "GND"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGGW_APP"
 prefixes = ["EGGW"]
 frequency = "129.550"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGGW_F_APP"
 prefixes = ["EGGW"]
 frequency = "128.750"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGGW_TWR"
 prefixes = ["EGGW"]
 frequency = "132.555"
 facility_type = "TWR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGGW_GND"
 prefixes = ["EGGW"]
 frequency = "121.755"
 facility_type = "GND"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGGW_DEL"
 prefixes = ["EGGW"]
 frequency = "121.885"
 facility_type = "DEL"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGHC_TWR"
 prefixes = ["EGHC"]
 frequency = "120.255"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGHE_A_APP"
 prefixes = ["EGHE"]
 frequency = "124.880"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGHE_TWR"
 prefixes = ["EGHE"]
 frequency = "124.880"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGHG_A_APP"
 prefixes = ["EGHG"]
 frequency = "130.805"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGHG_TWR"
 prefixes = ["EGHG"]
 frequency = "125.405"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "SOLENT_APP"
 prefixes = ["SOLENT"]
 frequency = "120.230"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGHH_APP"
 prefixes = ["EGHH"]
 frequency = "119.480"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGHH_F_APP"
 prefixes = ["EGHH"]
 frequency = "118.655"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGHH_TWR"
 prefixes = ["EGHH"]
 frequency = "125.605"
 facility_type = "TWR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGHH_GND"
 prefixes = ["EGHH"]
 frequency = "121.705"
 facility_type = "GND"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGHI_APP"
 prefixes = ["EGHI"]
 frequency = "122.730"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGHI_TWR"
 prefixes = ["EGHI"]
 frequency = "118.205"
 facility_type = "TWR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGHQ_APP"
 prefixes = ["EGHQ"]
 frequency = "133.405"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGHQ_L_APP"
 prefixes = ["EGHQ"]
 frequency = "127.930"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGHQ_TWR"
 prefixes = ["EGHQ"]
 frequency = "134.380"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGHQ_GND"
 prefixes = ["EGHQ"]
 frequency = "121.955"
 facility_type = "GND"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJA_TWR"
 prefixes = ["EGJA"]
 frequency = "125.355"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJA_GND"
 prefixes = ["EGJA"]
 frequency = "130.505"
 facility_type = "GND"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJB_APP"
 prefixes = ["EGJB"]
 frequency = "128.655"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJB_F_APP"
 prefixes = ["EGJB"]
 frequency = "124.505"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJB_TWR"
 prefixes = ["EGJB"]
 frequency = "119.955"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJB_GND"
 prefixes = ["EGJB"]
 frequency = "121.805"
 facility_type = "GND"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJJ_APP"
 prefixes = ["EGJJ"]
 frequency = "120.305"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJJ_C_APP"
 prefixes = ["EGJJ"]
 frequency = "125.205"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJJ_F_APP"
 prefixes = ["EGJJ"]
 frequency = "118.555"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJJ_S_APP"
 prefixes = ["EGJJ"]
 frequency = "120.455"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJJ_TWR"
 prefixes = ["EGJJ"]
 frequency = "119.455"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGJJ_GND"
 prefixes = ["EGJJ"]
 frequency = "121.905"
 facility_type = "GND"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGKA_APP"
 prefixes = ["EGKA"]
 frequency = "123.155"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGKA_TWR"
 prefixes = ["EGKA"]
 frequency = "125.405"
 facility_type = "TWR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGKB_A_APP"
 prefixes = ["EGKB"]
 frequency = "129.405"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGKB_TWR"
 prefixes = ["EGKB"]
 frequency = "134.805"
 facility_type = "TWR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGKB_GND"
 prefixes = ["EGKB"]
 frequency = "121.630"
 facility_type = "GND"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGKK_APP"
 prefixes = ["EGKK"]
 frequency = "126.825"
 facility_type = "APP"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_F_APP"
 prefixes = ["EGKK"]
 frequency = "118.950"
 facility_type = "APP"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_TWR"
 prefixes = ["EGKK"]
 frequency = "124.230"
 facility_type = "TWR"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_GND"
 prefixes = ["EGKK"]
 frequency = "121.805"
 facility_type = "GND"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_DEL"
 prefixes = ["EGKK"]
 frequency = "121.955"
 facility_type = "DEL"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_P_GND"
 prefixes = ["EGKK"]
 frequency = "134.230"
-facility_type = "DEL"
+facility_type = "GND"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKR_TWR"
 prefixes = ["EGKR"]
 frequency = "119.605"
 facility_type = "TWR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "THAMES_APP"
 prefixes = ["THAMES"]
 frequency = "132.700"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGLC_APP"
 prefixes = ["EGLC"]
 frequency = "128.025"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGLC_TWR"
 prefixes = ["EGLC"]
 frequency = "118.080"
 facility_type = "TWR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGLC_GND"
 prefixes = ["EGLC"]
 frequency = "121.830"
 facility_type = "GND"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGLF_APP"
 prefixes = ["EGLF"]
 frequency = "134.355"
 facility_type = "APP"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLF_F_APP"
 prefixes = ["EGLF"]
 frequency = "130.055"
 facility_type = "APP"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLF_L_APP"
 prefixes = ["EGLF"]
 frequency = "125.250"
 facility_type = "APP"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLF_TWR"
 prefixes = ["EGLF"]
 frequency = "122.780"
 facility_type = "TWR"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLF_GND"
 prefixes = ["EGLF"]
 frequency = "121.815"
 facility_type = "GND"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLL_F_APP"
 prefixes = ["EGLL"]
 frequency = "120.400"
 facility_type = "APP"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLL_N_APP"
 prefixes = ["EGLL"]
 frequency = "119.730"
 facility_type = "APP"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_S_APP"
 prefixes = ["EGLL"]
 frequency = "134.980"
 facility_type = "APP"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_N_TWR"
 prefixes = ["EGLL"]
 frequency = "118.705"
 facility_type = "TWR"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_S_TWR"
 prefixes = ["EGLL"]
 frequency = "118.505"
 facility_type = "TWR"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_1_GND"
 prefixes = ["EGLL"]
 frequency = "121.905"
 facility_type = "GND"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_2_GND"
 prefixes = ["EGLL"]
 frequency = "121.705"
 facility_type = "GND"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_3_GND"
 prefixes = ["EGLL"]
 frequency = "121.855"
 facility_type = "GND"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_DEL"
 prefixes = ["EGLL"]
 frequency = "121.980"
 facility_type = "DEL"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_P_GND"
 prefixes = ["EGLL"]
 frequency = "124.480"
-facility_type = "DEL"
+facility_type = "GND"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLW_TWR"
 prefixes = ["EGLW"]
 frequency = "134.280"
 facility_type = "TWR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGMC_APP"
 prefixes = ["EGMC"]
 frequency = "128.965"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGMC_L_APP"
 prefixes = ["EGMC"]
 frequency = "130.780"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGMC_TWR"
 prefixes = ["EGMC"]
 frequency = "127.730"
 facility_type = "TWR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGMD_A_APP"
 prefixes = ["EGMD"]
 frequency = "120.705"
 facility_type = "APP"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGMD_TWR"
 prefixes = ["EGMD"]
 frequency = "119.380"
 facility_type = "TWR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "EGNH_A_APP"
 prefixes = ["EGNH"]
 frequency = "119.955"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNH_TWR"
 prefixes = ["EGNH"]
 frequency = "118.405"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNJ_APP"
 prefixes = ["EGNJ"]
 frequency = "119.130"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNJ_TWR"
 prefixes = ["EGNJ"]
 frequency = "124.905"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNM_APP"
 prefixes = ["EGNM"]
 frequency = "134.580"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNM_F_APP"
 prefixes = ["EGNM"]
 frequency = "125.380"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNM_TWR"
 prefixes = ["EGNM"]
 frequency = "120.305"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNM_DEL"
 prefixes = ["EGNM"]
 frequency = "121.805"
 facility_type = "DEL"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNO_APP"
 prefixes = ["EGNO"]
 frequency = "129.530"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGNO_P_APP"
 prefixes = ["EGNO"]
 frequency = "129.730"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGNO_TWR"
 prefixes = ["EGNO"]
 frequency = "130.805"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGNR_APP"
 prefixes = ["EGNR"]
 frequency = "120.055"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNR_F_APP"
 prefixes = ["EGNR"]
 frequency = "130.015"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNR_TWR"
 prefixes = ["EGNR"]
 frequency = "124.955"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNS_APP"
 prefixes = ["EGNS"]
 frequency = "135.905"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNS_A_APP"
 prefixes = ["EGNS"]
 frequency = "135.905"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNS_F_APP"
 prefixes = ["EGNS"]
 frequency = "120.855"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNS_TWR"
 prefixes = ["EGNS"]
 frequency = "119.005"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNT_APP"
 prefixes = ["EGNT"]
 frequency = "124.380"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNT_F_APP"
 prefixes = ["EGNT"]
 frequency = "125.830"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNT_TWR"
 prefixes = ["EGNT"]
 frequency = "119.705"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNT_GND"
 prefixes = ["EGNT"]
 frequency = "121.730"
 facility_type = "GND"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNV_APP"
 prefixes = ["EGNV"]
 frequency = "118.855"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNV_F_APP"
 prefixes = ["EGNV"]
 frequency = "128.855"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNV_TWR"
 prefixes = ["EGNV"]
 frequency = "119.805"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGNX_APP"
 prefixes = ["EGNX"]
 frequency = "126.180"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGNX_F_APP"
 prefixes = ["EGNX"]
 frequency = "120.130"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGNX_TWR"
 prefixes = ["EGNX"]
 frequency = "124.005"
 facility_type = "TWR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGNX_GND"
 prefixes = ["EGNX"]
 frequency = "121.905"
 facility_type = "GND"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGOE_TWR"
 prefixes = ["EGOE"]
 frequency = "122.100"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGOQ_TWR"
 prefixes = ["EGOQ"]
 frequency = "119.180"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGOS_APP"
 prefixes = ["EGOS"]
 frequency = "133.155"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGOS_P_APP"
 prefixes = ["EGOS"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGOS_TWR"
 prefixes = ["EGOS"]
 frequency = "122.100"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGOV_APP"
 prefixes = ["EGOV"]
 frequency = "125.230"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGOV_P_APP"
 prefixes = ["EGOV"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGOV_TWR"
 prefixes = ["EGOV"]
 frequency = "122.100"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGOW_TWR"
 prefixes = ["EGOW"]
 frequency = "119.755"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGPA_A_APP"
 prefixes = ["EGPA"]
 frequency = "118.305"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPA_TWR"
 prefixes = ["EGPA"]
 frequency = "118.305"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPB_APP"
 prefixes = ["EGPB"]
 frequency = "131.300"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPB_TWR"
 prefixes = ["EGPB"]
 frequency = "118.255"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPC_A_APP"
 prefixes = ["EGPC"]
 frequency = "119.705"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPC_TWR"
 prefixes = ["EGPC"]
 frequency = "119.705"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPD_APP"
 prefixes = ["EGPD"]
 frequency = "119.055"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPD_F_APP"
 prefixes = ["EGPD"]
 frequency = "128.305"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPD_H_APP"
 prefixes = ["EGPD"]
 frequency = "134.100"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPD_TWR"
 prefixes = ["EGPD"]
 frequency = "118.105"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPD_GND"
 prefixes = ["EGPD"]
 frequency = "121.705"
 facility_type = "GND"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPE_APP"
 prefixes = ["EGPE"]
 frequency = "122.605"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPE_TWR"
 prefixes = ["EGPE"]
 frequency = "118.405"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPF_APP"
 prefixes = ["EGPF"]
 frequency = "119.105"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPF_F_APP"
 prefixes = ["EGPF"]
 frequency = "128.755"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPF_TWR"
 prefixes = ["EGPF"]
 frequency = "118.805"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPF_GND"
 prefixes = ["EGPF"]
 frequency = "121.705"
 facility_type = "GND"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPH_APP"
 prefixes = ["EGPH"]
 frequency = "121.205"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPH_F_APP"
 prefixes = ["EGPH"]
 frequency = "128.980"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPH_TWR"
 prefixes = ["EGPH"]
 frequency = "118.705"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPH_GND"
 prefixes = ["EGPH"]
 frequency = "121.755"
 facility_type = "GND"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPH_DEL"
 prefixes = ["EGPH"]
 frequency = "121.980"
 facility_type = "DEL"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPK_APP"
 prefixes = ["EGPK"]
 frequency = "129.450"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPK_F_APP"
 prefixes = ["EGPK"]
 frequency = "124.630"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPK_TWR"
 prefixes = ["EGPK"]
 frequency = "118.150"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPL_A_APP"
 prefixes = ["EGPL"]
 frequency = "119.205"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPL_TWR"
 prefixes = ["EGPL"]
 frequency = "119.205"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPN_A_APP"
 prefixes = ["EGPN"]
 frequency = "122.905"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPN_TWR"
 prefixes = ["EGPN"]
 frequency = "122.905"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPO_A_APP"
 prefixes = ["EGPO"]
 frequency = "119.480"
 facility_type = "APP"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPO_TWR"
 prefixes = ["EGPO"]
 frequency = "119.480"
 facility_type = "TWR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGPX_I_CTR"
 prefixes = ["EGPX"]
 frequency = "119.875"
 facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "EGQL_APP"
 prefixes = ["EGQL"]
 frequency = "126.505"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGQL_P_APP"
 prefixes = ["EGQL"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGQL_TWR"
 prefixes = ["EGQL"]
 frequency = "119.230"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGQL_GND"
 prefixes = ["EGQL"]
 frequency = "122.100"
 facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGQS_APP"
 prefixes = ["EGQS"]
 frequency = "119.580"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGQS_P_APP"
 prefixes = ["EGQS"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGQS_TWR"
 prefixes = ["EGQS"]
 frequency = "118.905"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGSC_APP"
 prefixes = ["EGSC"]
 frequency = "120.965"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGSC_A_APP"
 prefixes = ["EGSC"]
 frequency = "120.965"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGSC_TWR"
 prefixes = ["EGSC"]
 frequency = "125.905"
 facility_type = "TWR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGSH_APP"
 prefixes = ["EGSH"]
 frequency = "119.355"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGSH_F_APP"
 prefixes = ["EGSH"]
 frequency = "128.330"
 facility_type = "APP"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "EGSH_TWR"
 prefixes = ["EGSH"]
 frequency = "124.255"
 facility_type = "TWR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "ESSEX_APP"
 prefixes = ["ESSEX"]
 frequency = "120.625"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGSS_APP"
 prefixes = ["EGSS"]
 frequency = "120.625"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGSS_F_APP"
 prefixes = ["EGSS"]
 frequency = "136.200"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGSS_TWR"
 prefixes = ["EGSS"]
 frequency = "123.805"
 facility_type = "TWR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGSS_GND"
 prefixes = ["EGSS"]
 frequency = "121.730"
 facility_type = "GND"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGSS_DEL"
 prefixes = ["EGSS"]
 frequency = "121.955"
 facility_type = "DEL"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGSY_TWR"
 prefixes = ["EGSY"]
 frequency = "122.865"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGTC_A_APP"
 prefixes = ["EGTC"]
 frequency = "122.855"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGTC_TWR"
 prefixes = ["EGTC"]
 frequency = "134.930"
 facility_type = "TWR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGTE_N_APP"
 prefixes = ["EGTE"]
 frequency = "128.980"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGTE_S_APP"
 prefixes = ["EGTE"]
 frequency = "123.580"
 facility_type = "APP"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGTE_TWR"
 prefixes = ["EGTE"]
 frequency = "119.805"
 facility_type = "TWR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGTK_APP"
 prefixes = ["EGTK"]
 frequency = "125.090"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGTK_F_APP"
 prefixes = ["EGTK"]
 frequency = "119.980"
 facility_type = "APP"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGTK_TWR"
 prefixes = ["EGTK"]
 frequency = "133.430"
 facility_type = "TWR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGTK_GND"
 prefixes = ["EGTK"]
 frequency = "121.955"
 facility_type = "GND"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "EGTT_I_CTR"
 prefixes = ["EGTT"]
 frequency = "124.600"
 facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "EGTT_WR_CTR"
 prefixes = ["EGTT"]
 frequency = "132.300"
 facility_type = "CTR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "EGUB_APP"
 prefixes = ["EGUB"]
 frequency = "136.455"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUB_P_APP"
 prefixes = ["EGUB"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUB_TWR"
 prefixes = ["EGUB"]
 frequency = "127.155"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUB_GND"
 prefixes = ["EGUB"]
 frequency = "121.805"
 facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUL_APP"
 prefixes = ["EGUL"]
 frequency = "136.500"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUL_P_APP"
 prefixes = ["EGUL"]
 frequency = "128.900"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUL_TWR"
 prefixes = ["EGUL"]
 frequency = "122.100"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUN_TWR"
 prefixes = ["EGUN"]
 frequency = "122.550"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUN_GND"
 prefixes = ["EGUN"]
 frequency = "121.800"
 facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUW_APP"
 prefixes = ["EGUW"]
 frequency = "125.805"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUW_P_APP"
 prefixes = ["EGUW"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGUW_TWR"
 prefixes = ["EGUW"]
 frequency = "118.210"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVA_TWR"
 prefixes = ["EGVA"]
 frequency = "124.800"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVN_APP"
 prefixes = ["EGVN"]
 frequency = "127.255"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVN_F_APP"
 prefixes = ["EGVN"]
 frequency = "133.755"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVN_L_APP"
 prefixes = ["EGVN"]
 frequency = "124.280"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVN_P_APP"
 prefixes = ["EGVN"]
 frequency = "123.555"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVN_Z_APP"
 prefixes = ["EGVN"]
 frequency = "119.005"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVN_TWR"
 prefixes = ["EGVN"]
 frequency = "123.730"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVN_GND"
 prefixes = ["EGVN"]
 frequency = "121.730"
 facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVO_APP"
 prefixes = ["EGVO"]
 frequency = "131.305"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVO_P_APP"
 prefixes = ["EGVO"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVO_TWR"
 prefixes = ["EGVO"]
 frequency = "119.230"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVP_APP"
 prefixes = ["EGVP"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVP_TWR"
 prefixes = ["EGVP"]
 frequency = "118.605"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVV_A_CTR"
 prefixes = ["EGVV"]
 frequency = "135.150"
 facility_type = "CTR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVV_CTR"
 prefixes = ["EGVV"]
 frequency = "133.900"
 facility_type = "CTR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVV_C_CTR"
 prefixes = ["EGVV"]
 frequency = "128.700"
 facility_type = "CTR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVV_D_CTR"
 prefixes = ["EGVV"]
 frequency = "199.900"
 facility_type = "CTR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVV_E_CTR"
 prefixes = ["EGVV"]
 frequency = "133.325"
 facility_type = "CTR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVV_F_CTR"
 prefixes = ["EGVV"]
 frequency = "135.075"
 facility_type = "CTR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVV_N_CTR"
 prefixes = ["EGVV"]
 frequency = "136.375"
 facility_type = "CTR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVV_Q_CTR"
 prefixes = ["EGVV"]
 frequency = "134.300"
 facility_type = "CTR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGVV_W_CTR"
 prefixes = ["EGVV"]
 frequency = "127.450"
 facility_type = "CTR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGWC_APP"
 prefixes = ["EGWC"]
 frequency = "135.880"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGWC_TWR"
 prefixes = ["EGWC"]
 frequency = "128.655"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGWU_APP"
 prefixes = ["EGWU"]
 frequency = "126.450"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGWU_F_APP"
 prefixes = ["EGWU"]
 frequency = "130.350"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGWU_P_APP"
 prefixes = ["EGWU"]
 frequency = "125.875"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGWU_TWR"
 prefixes = ["EGWU"]
 frequency = "120.675"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGWU_GND"
 prefixes = ["EGWU"]
 frequency = "121.575"
 facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXC_APP"
 prefixes = ["EGXC"]
 frequency = "119.205"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXC_P_APP"
 prefixes = ["EGXC"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXC_TWR"
 prefixes = ["EGXC"]
 frequency = "124.680"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXC_GND"
 prefixes = ["EGXC"]
 frequency = "121.855"
 facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXE_APP"
 prefixes = ["EGXE"]
 frequency = "133.380"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXE_P_APP"
 prefixes = ["EGXE"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXE_TWR"
 prefixes = ["EGXE"]
 frequency = "120.505"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXT_APP"
 prefixes = ["EGXT"]
 frequency = "119.680"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXT_P_APP"
 prefixes = ["EGXT"]
 frequency = "135.205"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXT_TWR"
 prefixes = ["EGXT"]
 frequency = "127.980"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXT_GND"
 prefixes = ["EGXT"]
 frequency = "122.100"
 facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXW_APP"
 prefixes = ["EGXW"]
 frequency = "128.955"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXW_L_APP"
 prefixes = ["EGXW"]
 frequency = "119.505"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXW_P_APP"
 prefixes = ["EGXW"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXW_TWR"
 prefixes = ["EGXW"]
 frequency = "121.305"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXZ_APP"
 prefixes = ["EGXZ"]
 frequency = "125.005"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXZ_P_APP"
 prefixes = ["EGXZ"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGXZ_GND"
 prefixes = ["EGXZ"]
 frequency = "122.100"
 facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGYD_APP"
 prefixes = ["EGYD"]
 frequency = "124.455"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGYD_P_APP"
 prefixes = ["EGYD"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGYD_TWR"
 prefixes = ["EGYD"]
 frequency = "125.055"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGYD_GND"
 prefixes = ["EGYD"]
 frequency = "121.780"
 facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGYE_TWR"
 prefixes = ["EGYE"]
 frequency = "120.430"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGYM_APP"
 prefixes = ["EGYM"]
 frequency = "124.155"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGYM_P_APP"
 prefixes = ["EGYM"]
 frequency = "123.300"
 facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGYM_TWR"
 prefixes = ["EGYM"]
 frequency = "118.330"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
 
 #######################
 # London Area
@@ -1728,192 +2015,224 @@ id = "LON_23_CTR"
 prefixes = ["LON"]
 frequency = "134.755"
 facility_type = "CTR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "LON_8_CTR"
 prefixes = ["LON"]
 frequency = "129.380"
 facility_type = "CTR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "LON_9_CTR"
 prefixes = ["LON"]
 frequency = "132.950"
 facility_type = "CTR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "LON_CTR"
 prefixes = ["LON"]
 frequency = "127.430"
 facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "LON_C_CTR"
 prefixes = ["LON"]
 frequency = "127.105"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LON_DK_CTR"
 prefixes = ["LON"]
 frequency = "128.430"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_DL_CTR"
 prefixes = ["LON"]
 frequency = "133.485"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_D_CTR"
 prefixes = ["LON"]
 frequency = "134.905"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_EN_CTR"
 prefixes = ["LON"]
 frequency = "133.940"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LON_ES_CTR"
 prefixes = ["LON"]
 frequency = "128.160"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LON_E_CTR"
 prefixes = ["LON"]
 frequency = "118.480"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LON_HW_CTR"
 prefixes = ["LON"]
 frequency = "127.830"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_H_CTR"
 prefixes = ["LON"]
 frequency = "134.440"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_ME_CTR"
 prefixes = ["LON"]
 frequency = "127.880"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LON_ML_CTR"
 prefixes = ["LON"]
 frequency = "133.975"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LON_MW_CTR"
 prefixes = ["LON"]
 frequency = "134.390"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LON_M_CTR"
 prefixes = ["LON"]
 frequency = "120.025"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LON_NE_CTR"
 prefixes = ["LON"]
 frequency = "128.130"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "LON_NU_CTR"
 prefixes = ["LON"]
 frequency = "132.860"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "LON_NW_CTR"
 prefixes = ["LON"]
 frequency = "135.580"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "LON_N_CTR"
 prefixes = ["LON"]
 frequency = "133.705"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "LON_O_CTR"
 prefixes = ["LON"]
 frequency = "129.080"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_SC_CTR"
 prefixes = ["LON"]
 frequency = "132.605"
 facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "LON_SF_CTR"
 prefixes = ["LON"]
 frequency = "135.055"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_SN_CTR"
 prefixes = ["LON"]
 frequency = "132.165"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_SU_CTR"
 prefixes = ["LON"]
 frequency = "132.840"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_S_CTR"
 prefixes = ["LON"]
 frequency = "129.430"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LON_WB_CTR"
 prefixes = ["LON"]
 frequency = "135.255"
 facility_type = "CTR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "LON_WH_CTR"
 prefixes = ["LON"]
 frequency = "128.815"
 facility_type = "CTR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "LON_WL_CTR"
 prefixes = ["LON"]
 frequency = "133.600"
 facility_type = "CTR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "LON_WX_CTR"
 prefixes = ["LON"]
 frequency = "127.700"
 facility_type = "CTR"
+profile_id = "EG-West_LAG"
 
 [[positions]]
 id = "LON_W_CTR"
 prefixes = ["LON"]
 frequency = "126.080"
 facility_type = "CTR"
+profile_id = "EG-West_LAG"
 
 #######################
 # London Terminal
@@ -1923,102 +2242,119 @@ id = "LTC_CTR"
 prefixes = ["LTC"]
 frequency = "135.805"
 facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "LTC_ED_CTR"
 prefixes = ["LTC"]
 frequency = "124.930"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_EJ_CTR"
 prefixes = ["LTC"]
 frequency = "135.425"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_ER_CTR"
 prefixes = ["LTC"]
 frequency = "133.525"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_ES_CTR"
 prefixes = ["LTC"]
 frequency = "129.605"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_E_CTR"
 prefixes = ["LTC"]
 frequency = "121.230"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_MC_CTR"
 prefixes = ["LTC"]
 frequency = "133.080"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_MW_CTR"
 prefixes = ["LTC"]
 frequency = "130.925"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_M_CTR"
 prefixes = ["LTC"]
 frequency = "121.030"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_N2_CTR"
 prefixes = ["LTC"]
 frequency = "123.905"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_NE_CTR"
 prefixes = ["LTC"]
 frequency = "118.825"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_NL_CTR"
 prefixes = ["LTC"]
 frequency = "129.280"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_NW_CTR"
 prefixes = ["LTC"]
 frequency = "121.280"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_N_CTR"
 prefixes = ["LTC"]
 frequency = "119.780"
 facility_type = "CTR"
+profile_id = "EG-Central_LAG"
 
 [[positions]]
 id = "LTC_SE_CTR"
 prefixes = ["LTC"]
 frequency = "120.530"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LTC_SW_CTR"
 prefixes = ["LTC"]
 frequency = "133.180"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 [[positions]]
 id = "LTC_S_CTR"
 prefixes = ["LTC"]
 frequency = "134.125"
 facility_type = "CTR"
+profile_id = "EG-South_LAG"
 
 #######################
 # Scottish Area
@@ -2028,84 +2364,98 @@ id = "SCO_CTR"
 prefixes = ["SCO"]
 frequency = "135.530"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_C_CTR"
 prefixes = ["SCO"]
 frequency = "127.275"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_D_CTR"
 prefixes = ["SCO"]
 frequency = "135.855"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_EH_CTR"
 prefixes = ["SCO"]
 frequency = "133.680"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_E_CTR"
 prefixes = ["SCO"]
 frequency = "121.325"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_HC_CTR"
 prefixes = ["SCO"]
 frequency = "128.675"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_H_CTR"
 prefixes = ["SCO"]
 frequency = "129.925"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_L_CTR"
 prefixes = ["SCO"]
 frequency = "124.500"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_N_CTR"
 prefixes = ["SCO"]
 frequency = "129.225"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_RE_CTR"
 prefixes = ["SCO"]
 frequency = "125.680"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_R_CTR"
 prefixes = ["SCO"]
 frequency = "129.100"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_S_CTR"
 prefixes = ["SCO"]
 frequency = "134.775"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_WD_CTR"
 prefixes = ["SCO"]
 frequency = "133.875"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "SCO_W_CTR"
 prefixes = ["SCO"]
 frequency = "132.730"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 #######################
 # Scottish TMA
@@ -2115,24 +2465,28 @@ id = "STC_A_CTR"
 prefixes = ["STC"]
 frequency = "123.775"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "STC_CTR"
 prefixes = ["STC"]
 frequency = "126.300"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "STC_E_CTR"
 prefixes = ["STC"]
 frequency = "130.975"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 [[positions]]
 id = "STC_W_CTR"
 prefixes = ["STC"]
 frequency = "124.825"
 facility_type = "CTR"
+profile_id = "EG-Scottish"
 
 #######################
 # Manchester Prestwick 
@@ -2142,525 +2496,608 @@ id = "MAN-N_CTR"
 prefixes = ["MAN-N"]
 frequency = "135.715"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_CTR"
 prefixes = ["MAN"]
 frequency = "133.200"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_E_CTR"
 prefixes = ["MAN"]
 frequency = "133.800"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_M_CTR"
 prefixes = ["MAN"]
 frequency = "199.998"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_NE_CTR"
 prefixes = ["MAN"]
 frequency = "135.715"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_SE_CTR"
 prefixes = ["MAN"]
 frequency = "134.430"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_TE_CTR"
 prefixes = ["MAN"]
 frequency = "119.530"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_WI_CTR"
 prefixes = ["MAN"]
 frequency = "133.050"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_WL_CTR"
 prefixes = ["MAN"]
 frequency = "125.950"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_WP_CTR"
 prefixes = ["MAN"]
 frequency = "126.875"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_WU_CTR"
 prefixes = ["MAN"]
 frequency = "118.780"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 [[positions]]
 id = "MAN_W_CTR"
 prefixes = ["MAN"]
 frequency = "128.055"
 facility_type = "CTR"
+profile_id = "EG-North_LAG"
 
 #######################
 # AFIS/AGCS
 #######################
-[[positions]]
-id = "EGGX_F_DEL"
-prefixes = ["EGGX"]
-frequency = "128.375"
-facility_type = "DEL"
 
 [[positions]]
 id = "EGAB_R_TWR"
 prefixes = ["EGAB"]
 frequency = "123.205"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGAD_R_TWR"
 prefixes = ["EGAD"]
 frequency = "128.305"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBD_R_TWR"
 prefixes = ["EGBD"]
 frequency = "118.355"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBE_I_TWR"
 prefixes = ["EGBE"]
 frequency = "123.830"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBF_R_TWR"
 prefixes = ["EGBF"]
 frequency = "119.030"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBG_R_TWR"
 prefixes = ["EGBG"]
 frequency = "122.130"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBK_R_TWR"
 prefixes = ["EGBK"]
 frequency = "122.705"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBM_R_TWR"
 prefixes = ["EGBM"]
 frequency = "124.080"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBN_R_TWR"
 prefixes = ["EGBN"]
 frequency = "134.880"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBO_I_TWR"
 prefixes = ["EGBO"]
 frequency = "123.005"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBP_I_TWR"
 prefixes = ["EGBP"]
 frequency = "118.430"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBS_I_TWR"
 prefixes = ["EGBS"]
 frequency = "118.155"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGBW_I_TWR"
 prefixes = ["EGBW"]
 frequency = "124.030"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGCB_I_TWR"
 prefixes = ["EGCB"]
 frequency = "120.255"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGCF_R_TWR"
 prefixes = ["EGCF"]
 frequency = "130.415"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGCJ_R_TWR"
 prefixes = ["EGCJ"]
 frequency = "122.610"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGCK_R_TWR"
 prefixes = ["EGCK"]
 frequency = "122.255"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGCL_R_TWR"
 prefixes = ["EGCL"]
 frequency = "122.930"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGCM_R_TWR"
 prefixes = ["EGCM"]
 frequency = "120.710"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGCV_R_TWR"
 prefixes = ["EGCV"]
 frequency = "122.455"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGCW_R_TWR"
 prefixes = ["EGCW"]
 frequency = "128.005"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGDJ_I_TWR"
 prefixes = ["EGDJ"]
 frequency = "122.755"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
+# Salisbury Info
 
 [[positions]]
 id = "EGDJ_R_TWR"
 prefixes = ["EGDJ"]
 frequency = "124.105"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
+# Upavon Radio
 
 [[positions]]
 id = "EGDP_R_TWR"
 prefixes = ["EGDP"]
 frequency = "122.130"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGEC_I_TWR"
 prefixes = ["EGEC"]
 frequency = "125.905"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGEF_R_TWR"
 prefixes = ["EGEF"]
 frequency = "118.030"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGEL_R_TWR"
 prefixes = ["EGEL"]
 frequency = "125.005"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGEO_I_TWR"
 prefixes = ["EGEO"]
 frequency = "118.055"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGET_I_TWR"
 prefixes = ["EGET"]
 frequency = "125.305"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGEY_R_TWR"
 prefixes = ["EGEY"]
 frequency = "123.805"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGFA_I_TWR"
 prefixes = ["EGFA"]
 frequency = "122.155"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGFE_R_TWR"
 prefixes = ["EGFE"]
 frequency = "123.605"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGFH_R_TWR"
 prefixes = ["EGFH"]
 frequency = "119.705"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGHA_R_TWR"
 prefixes = ["EGHA"]
 frequency = "122.710"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGHF_I_TWR"
 prefixes = ["EGHF"]
 frequency = "118.930"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGHJ_R_TWR"
 prefixes = ["EGHJ"]
 frequency = "123.255"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGHK_R_TWR"
 prefixes = ["EGHK"]
 frequency = "120.060"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGHN_R_TWR"
 prefixes = ["EGHN"]
 frequency = "119.280"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGHO_R_TWR"
 prefixes = ["EGHO"]
 frequency = "118.280"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGHR_I_TWR"
 prefixes = ["EGHR"]
 frequency = "122.455"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGHT_R_TWR"
 prefixes = ["EGHT"]
 frequency = "118.205"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGKH_R_TWR"
 prefixes = ["EGKH"]
 frequency = "122.210"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGKN_R_TWR"
 prefixes = ["EGKN"]
 frequency = "119.760"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGKT_R_TWR"
 prefixes = ["EGKT"]
 frequency = "124.105"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGLD_I_TWR"
 prefixes = ["EGLD"]
 frequency = "130.730"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGLJ_R_TWR"
 prefixes = ["EGLJ"]
 frequency = "125.410"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGLK_I_TWR"
 prefixes = ["EGLK"]
 frequency = "122.305"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGLM_R_TWR"
 prefixes = ["EGLM"]
 frequency = "122.605"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGNC_R_TWR"
 prefixes = ["EGNC"]
 frequency = "123.605"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGNE_R_TWR"
 prefixes = ["EGNE"]
 frequency = "130.480"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGNF_R_TWR"
 prefixes = ["EGNF"]
 frequency = "123.280"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGNL_I_TWR"
 prefixes = ["EGNL"]
 frequency = "118.080"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGNW_R_TWR"
 prefixes = ["EGNW"]
 frequency = "122.455"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGPG_R_TWR"
 prefixes = ["EGPG"]
 frequency = "120.605"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGPI_I_TWR"
 prefixes = ["EGPI"]
 frequency = "123.155"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGPR_I_TWR"
 prefixes = ["EGPR"]
 frequency = "118.080"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGPT_R_TWR"
 prefixes = ["EGPT"]
 frequency = "121.080"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGPU_I_TWR"
 prefixes = ["EGPU"]
 frequency = "122.705"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGSG_R_TWR"
 prefixes = ["EGSG"]
 frequency = "122.805"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGSL_R_TWR"
 prefixes = ["EGSL"]
 frequency = "130.555"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGSR_R_TWR"
 prefixes = ["EGSR"]
 frequency = "122.430"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGSU_I_TWR"
 prefixes = ["EGSU"]
 frequency = "122.080"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGSV_R_TWR"
 prefixes = ["EGSV"]
 frequency = "124.405"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGSX_R_TWR"
 prefixes = ["EGSX"]
 frequency = "123.530"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGTB_R_TWR"
 prefixes = ["EGTB"]
 frequency = "126.555"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGTF_R_TWR"
 prefixes = ["EGTF"]
 frequency = "123.430"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGTH_I_TWR"
 prefixes = ["EGTH"]
 frequency = "130.705"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGTO_I_TWR"
 prefixes = ["EGTO"]
 frequency = "122.255"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGTR_I_TWR"
 prefixes = ["EGTR"]
 frequency = "122.405"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGTU_R_TWR"
 prefixes = ["EGTU"]
 frequency = "123.480"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGVL_R_TWR"
 prefixes = ["EGVL"]
 frequency = "120.780"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGWN_R_TWR"
 prefixes = ["EGWN"]
 frequency = "130.430"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGXH_R_TWR"
 prefixes = ["EGXH"]
 frequency = "124.105"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
 id = "EGXY_R_TWR"
 prefixes = ["EGXY"]
 frequency = "128.530"
 facility_type = "TWR"
+profile_id = "EG-AFIS_AGCS"
 
 #######################
 # FMP
@@ -2670,66 +3107,77 @@ id = "UK_FMP"
 prefixes = ["UK"]
 frequency = "199.998"
 facility_type = "FMP"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "UK_A_FMP"
 prefixes = ["UK"]
 frequency = "199.998"
 facility_type = "FMP"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "UK_B_FMP"
 prefixes = ["UK"]
 frequency = "199.998"
 facility_type = "FMP"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "MAN_FMP"
 prefixes = ["MAN"]
 frequency = "199.998"
 facility_type = "FMP"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "LTC_FMP"
 prefixes = ["LTC"]
 frequency = "199.998"
 facility_type = "FMP"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "STC_FMP"
 prefixes = ["STC"]
 frequency = "199.998"
 facility_type = "FMP"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "LON_GS_CTR"
 prefixes = ["LON"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "LTC_GS_CTR"
 prefixes = ["LTC"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "SCO_GS_CTR"
 prefixes = ["SCO"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "STC_GS_CTR"
 prefixes = ["STC"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 [[positions]]
 id = "MAN_GS_CTR"
 prefixes = ["MAN"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "CTR"
+profile_id = "EG-UK_ALL"
 
 #######################
 # Oceanic
@@ -2834,4 +3282,10 @@ facility_type = "DEL"
 id = "EGGX_D_DEL"
 prefixes = ["EGGX"]
 frequency = "126.375"
+facility_type = "DEL"
+
+[[positions]]
+id = "EGGX_F_DEL"
+prefixes = ["EGGX"]
+frequency = "128.375"
 facility_type = "DEL"

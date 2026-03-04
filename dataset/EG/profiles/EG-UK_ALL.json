@@ -1,21 +1,24 @@
 {
-  "id": "AFIS_AGCS",
+  "id": "EG-UK_ALL",
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "AFIS/AGCS Stations",
+      "label": "UK All Stations",
       "page": {
         "rows": 10,
         "client_page": {
           "include": [
-            "EG**_I*",
-            "EG**_R*",
-            "EGTT_WR*",
-            "LON*",
-            "LTC*",
-            "MAN*",
-            "SCO*",
-            "STC*"
+            "SOLENT*",
+            "THAMES*",
+            "ESSEX*",
+            "NAT_*",
+            "LON_*",
+            "LTC_*",
+            "SCO_*",
+            "STC_*",
+            "MAN_*",
+            "EG*_*",
+            "UK_*"
           ],
           "exclude": [],
           "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],

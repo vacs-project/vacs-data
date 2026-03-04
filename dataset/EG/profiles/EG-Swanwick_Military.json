@@ -1,5 +1,5 @@
 {
-  "id": "Swanwick_Military",
+  "id": "EG-Swanwick_Military",
   "type": "Tabbed",
   "tabs": [
     {
@@ -11,6 +11,7 @@
             "EGDR_*",
             "EGDO_*",
             "EGDI_*",
+            "EGDJ_I*",
             "EGDY_*",
             "EGDM_*",
             "EGVP_*",
