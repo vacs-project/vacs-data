@@ -492,7 +492,7 @@ parent_id = "EDMM-SAS"
 
 [[stations]]
 id = "EDDC-GND"
-controlled_by = ["EDDP_GND"]
+controlled_by = ["EDDC_GND"]
 parent_id = "EDDC-TWR"
 
 [[stations]]
