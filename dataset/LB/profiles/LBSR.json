@@ -1,0 +1,208 @@
+{
+  "id": "LBSR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["INT"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": ["SOFIA", "APP"],
+            "station_id": "LBSF_APP"
+          },
+          {
+            "label": ["SOFIA", "APP DIR"],
+            "station_id": "LBSF_F_APP"
+          },
+          {
+            "label": ["SOFIA", "TWR"],
+            "station_id": "LBSF_TWR"
+          },
+          {
+            "label": ["SOFIA", "DEL"],
+            "station_id": "LBSF_DEL"
+          },
+          {
+            "label": ["SOFIA", "CTR", ""],
+            "station_id": "LBSR-SOF"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PLOVDIV", "TWR"],
+            "station_id": "LBPD_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SES", "CTR"],
+            "station_id": "LBSR-SES"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GORNA", "TWR"],
+            "station_id": "LBGO_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["VARNA", "CTR"],
+            "station_id": "LBSR-VAR"
+          },
+          {
+            "label": ["VARNA", "APP"],
+            "station_id": "LBWN_APP"
+          },
+          {
+            "label": ["VARNA", "APP DIR"],
+            "station_id": "LBWN_F_APP"
+          },
+          {
+            "label": ["VARNA", "TWR"],
+            "station_id": "LBWN_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BSS", "CTR"],
+            "station_id": "LBSR-BSS"
+          },
+          {
+            "label": ["BURGAS", "APP"],
+            "station_id": "LBBG_APP"
+          },
+          {
+            "label": ["BURGAS", "APP DIR"],
+            "station_id": "LBBG_F_APP"
+          },
+          {
+            "label": ["BURGAS", "TWR"],
+            "station_id": "LBBG_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["EXT"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": ["BEO", "CTR"]
+          },
+          {
+            "label": ["SKO", "CTR"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RBB LOM", "CTR", "(Main)"],
+            "station_id": "LR_LOKOM1"
+          },
+          {
+            "label": ["RBB LOM", "CTR", "345+"],
+            "station_id": "LR_LOKOM2"
+          },
+          {
+            "label": ["RBB LOM", "CTR", "365+"],
+            "station_id": "LR_LOKOM3"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RBB ARG", "CTR", "(Main)"],
+            "station_id": "LR_NERAG1"
+          },
+          {
+            "label": ["RBB ARG", "CTR", "345+"],
+            "station_id": "LR_DINAR2"
+          },
+          {
+            "label": ["RBB ARG", "CTR", "365+"],
+            "station_id": "LR_DINAR3"
+          },
+          {
+            "label": ["GGG", "CTR"]
+          },
+          {
+            "label": ["RBB DIN", "CTR", "(Main)"],
+            "station_id": "LR_BADIN1"
+          },
+          {
+            "label": ["RBB DIN", "CTR", "345+"],
+            "station_id": "LR_DINAR2"
+          },
+          {
+            "label": ["RBB DIN", "CTR", "365+"],
+            "station_id": "LR_DINAR3"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ANK", "CTR", "NORTH"]
+          },
+          {
+            "label": ["ANK", "CTR", "MIDDLE"]
+          },
+          {
+            "label": ["ANK", "CTR", "SOUTH"]
+          },
+          {
+            "label": ["IST", "APP", "(MAIN)"]
+          },
+          {
+            "label": ["IST", "APP", "(EAST)"]
+          },
+          {
+            "label": ["LYBE", "APP"]
+          },
+          {
+            "label": ["LYNI", "APP"]
+          },
+          {
+            "label": ["LROP", "APP"],
+            "station_id": "LROP_APP"
+          },
+          {
+            "label": ["LRCK", "APP"],
+            "station_id": "LRCK_APP"
+          },
+          {
+            "label": ["LGTS", "APP"]
+          },
+          {
+            "label": ["LWSS", "APP"]
+          }
+        ]
+      }
+    }
+  ]
+}

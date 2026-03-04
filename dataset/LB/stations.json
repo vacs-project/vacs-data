@@ -1,0 +1,80 @@
+{
+  "stations": [
+    {
+      "id": "LBSR-SOF",
+      "controlled_by": ["LBSR_CTR"]
+    },
+    {
+      "id": "LBSR-SES",
+      "controlled_by": ["LBSR_E_CTR", "LBSR_CTR"]
+    },
+    {
+      "id": "LBSR-VAR",
+      "controlled_by": ["LBSR_V_CTR", "LBSR_CTR"]
+    },
+    {
+      "id": "LBSR-BSS",
+      "controlled_by": ["LBSR_B_CTR", "LBSR_V_CTR", "LBSR_CTR"]
+    },
+    {
+      "id": "LBSF_APP",
+      "parent_id": "LBSR-SOF",
+      "controlled_by": ["LBSF_APP"]
+    },
+    {
+      "id": "LBSF_F_APP",
+      "parent_id": "LBSR-SOF",
+      "controlled_by": ["LBSF_F_APP", "LBSF_APP"]
+    },
+    {
+      "id": "LBWN_APP",
+      "parent_id": "LBSR-VAR",
+      "controlled_by": ["LBWN_APP"]
+    },
+    {
+      "id": "LBWN_F_APP",
+      "parent_id": "LBSR-VAR",
+      "controlled_by": ["LBWN_F_APP", "LBWN_APP"]
+    },
+    {
+      "id": "LBBG_APP",
+      "parent_id": "LBSR-VAR",
+      "controlled_by": ["LBBG_APP"]
+    },
+    {
+      "id": "LBBG_F_APP",
+      "parent_id": "LBSR-VAR",
+      "controlled_by": ["LBBG_F_APP", "LBBG_APP"]
+    },
+    {
+      "id": "LBSF_TWR",
+      "parent_id": "LBSF_APP",
+      "controlled_by": ["LBSF_TWR"]
+    },
+    {
+      "id": "LBWN_TWR",
+      "parent_id": "LBWN_APP",
+      "controlled_by": ["LBWN_TWR"]
+    },
+    {
+      "id": "LBBG_TWR",
+      "parent_id": "LBBG_APP",
+      "controlled_by": ["LBBG_TWR"]
+    },
+    {
+      "id": "LBPD_TWR",
+      "parent_id": "LBSR-SOF",
+      "controlled_by": ["LBPD_TWR"]
+    },
+    {
+      "id": "LBGO_TWR",
+      "parent_id": "LBSR-SES",
+      "controlled_by": ["LBGO_TWR"]
+    },
+    {
+      "id": "LBSF_DEL",
+      "parent_id": "LBSF_TWR",
+      "controlled_by": ["LBSF_DEL"]
+    }
+  ]
+}
