@@ -726,6 +726,11 @@ parent_id = "EGLL_2_GND"
 controlled_by = ["EGLL_DEL"]
 
 [[stations]]
+id = "EGLL_A_DEL"
+parent_id = "EGLL_DEL"
+controlled_by = ["EGLL_A_DEL"]
+
+[[stations]]
 id = "EGLL_P_GND"
 parent_id = "EGLL_DEL"
 controlled_by = ["EGLL_P_GND"]

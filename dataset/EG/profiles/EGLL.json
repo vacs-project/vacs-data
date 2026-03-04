@@ -24,11 +24,12 @@
             "station_id": "EGLL_3_GND"
           },
           {
-            "label": ["PLN"],
-            "station_id": "EGLL_P_GND"
+            "label": ["GMP", "Assist"],
+            "station_id": "EGLL_A_DEL"
           },
           {
-            "label": []
+            "label": ["PLN"],
+            "station_id": "EGLL_P_GND"
           },
           {
             "label": ["AIR", "North"],
@@ -149,15 +150,16 @@
             "station_id": "EGLL_3_GND"
           },
           {
+            "label": ["GMP", "Assist"],
+            "station_id": "EGLL_A_DEL"
+          },
+          {
             "label": ["AIR", "North"],
             "station_id": "EGLL_N_TWR"
           },
           {
             "label": ["AIR", "South"],
             "station_id": "EGLL_S_TWR"
-          },
-          {
-            "label": []
           },
           {
             "label": []
