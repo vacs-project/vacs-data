@@ -1,0 +1,20 @@
+# Priority-ordered list of globally accepted licenses.
+# cargo-about picks the first match, so MIT is preferred over Apache-2.0
+# when a crate offers both.
+accepted = [
+    "MIT",
+    "Apache-2.0",
+]
+
+ignore-build-dependencies = false
+ignore-dev-dependencies = false
+ignore-transitive-dependencies = false
+filter-noassertion = true
+
+private = { ignore = true }
+
+[encoding_rs]
+accepted = ["BSD-3-Clause"]
+
+[unicode-ident]
+accepted = ["Unicode-3.0"]
