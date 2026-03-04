@@ -1,0 +1,634 @@
+# LAG includes underlying TC positions
+
+####################
+# LAC POSITIONS
+####################
+
+[[stations]]
+id = "LON_CTR"
+controlled_by = ["LON_CTR"]
+
+[[stations]]
+id = "LON_SC_CTR"
+parent_id = "LON_CTR"
+controlled_by = ["LON_SC_CTR"]
+
+[[stations]]
+id = "LTC_CTR"
+controlled_by = ["LTC_CTR"]
+
+####################
+# WEST LAG SECTORS
+####################
+
+[[stations]]
+id = "EG-Sector-06"
+parent_id = "LON_WX_CTR"
+
+[[stations]]
+id = "EG-Sector-36"
+parent_id = "LON_WX_CTR"
+
+[[stations]]
+id = "EG-Sector-09"
+parent_id = "LON_9_CTR"
+
+[[stations]]
+id = "EG-Sector-35"
+parent_id = "LON_WB_CTR"
+
+[[stations]]
+id = "EG-Sector-08"
+parent_id = "LON_8_CTR"
+
+[[stations]]
+id = "EG-Sector-05"
+parent_id = "LON_WL_CTR"
+
+[[stations]]
+id = "EG-Sector-23"
+parent_id = "LON_23_CTR"
+
+####################
+# WEST LAG POSITIONS
+####################
+
+[[stations]]
+id = "LON_W_CTR"
+parent_id = "LON_CTR"
+controlled_by = ["LON_W_CTR"]
+
+[[stations]]
+id = "LON_WH_CTR"
+parent_id = "LON_W_CTR"
+controlled_by = ["LON_WH_CTR"]
+
+[[stations]]
+id = "LON_WX_CTR"
+parent_id = "LON_WH_CTR"
+controlled_by = ["LON_WX_CTR", "LON_O_CTR"]
+
+[[stations]]
+id = "LON_9_CTR"
+parent_id = "LON_WH_CTR"
+controlled_by = ["LON_9_CTR"]
+
+[[stations]]
+id = "LON_WB_CTR"
+parent_id = "LON_W_CTR"
+controlled_by = ["LON_WB_CTR"]
+
+[[stations]]
+id = "LON_WL_CTR"
+parent_id = "LON_WB_CTR"
+controlled_by = ["LON_WL_CTR"]
+
+[[stations]]
+id = "LON_23_CTR"
+parent_id = "LON_WL_CTR"
+controlled_by = ["LON_23_CTR"]
+
+[[stations]]
+id = "LON_8_CTR"
+parent_id = "LON_WL_CTR"
+controlled_by = ["LON_8_CTR"]
+
+####################
+# SOUTH LAG SECTORS
+####################
+
+[[stations]]
+id = "EG-TC-TIMBA"
+parent_id = "LTC_SE_CTR"
+
+[[stations]]
+id = "EG-TC-GODLU"
+parent_id = "LTC_SE_CTR"
+
+[[stations]]
+id = "EG-TC-BIG"
+parent_id = "LTC_SE_CTR"
+
+[[stations]]
+id = "EG-TC-WILLO"
+parent_id = "LTC_SW_CTR"
+
+[[stations]]
+id = "EG-TC-SWDEP"
+parent_id = "LTC_SW_CTR"
+
+[[stations]]
+id = "EG-TC-OCK"
+parent_id = "LTC_SW_CTR"
+
+[[stations]]
+id = "EG-TC-VATON"
+parent_id = "LON_D_CTR"
+
+[[stations]]
+id = "EG-Sector-17"
+parent_id = "LON_DL_CTR"
+
+[[stations]]
+id = "EG-Sector-16"
+parent_id = "LON_DL_CTR"
+
+[[stations]]
+id = "EG-Sector-15"
+parent_id = "LON_DK_CTR"
+
+[[stations]]
+id = "EG-Sector-26"
+parent_id = "LON_D_CTR"
+controlled_by = ["LON_SN_CTR"]
+
+[[stations]]
+id = "EG-Sector-02"
+parent_id = "LON_D_CTR"
+controlled_by = ["LON_SU_CTR", "LON_SN_CTR"]
+
+[[stations]]
+id = "EG-Sector-01"
+parent_id = "LON_H_CTR"
+controlled_by = ["LON_SU_CTR", "LON_SN_CTR"]
+
+[[stations]]
+id = "EG-Sector-24"
+parent_id = "LON_H_CTR"
+controlled_by = ["LON_SU_CTR", "LON_SN_CTR"]
+
+[[stations]]
+id = "EG-TC-CPT"
+parent_id = "EG-Sector-25"
+
+[[stations]]
+id = "EG-Sector-25"
+parent_id = "LON_H_CTR"
+controlled_by = ["LON_SN_CTR"]
+
+[[stations]]
+id = "EG-Sector-22"
+parent_id = "LON_HW_CTR"
+
+[[stations]]
+id = "EG-Sector-21"
+parent_id = "LON_HW_CTR"
+
+[[stations]]
+id = "EG-Sector-20"
+parent_id = "LON_HW_CTR"
+
+[[stations]]
+id = "EG-Sector-19"
+parent_id = "LON_H_CTR"
+
+[[stations]]
+id = "EG-Sector-18"
+parent_id = "LON_SF_CTR"
+
+####################
+# SOUTH LAG POSITIONS
+####################
+
+[[stations]]
+id = "LTC_S_CTR"
+parent_id = "LTC_CTR"
+controlled_by = ["LTC_S_CTR"]
+
+[[stations]]
+id = "LTC_SE_CTR"
+parent_id = "EG-Sector-17"
+controlled_by = ["LTC_SE_CTR", "LTC_S_CTR", "LTC_CTR"]
+
+[[stations]]
+id = "LTC_SW_CTR"
+parent_id = "EG-Sector-18"
+controlled_by = ["LTC_SW_CTR", "LTC_S_CTR", "LTC_CTR"]
+
+[[stations]]
+id = "LON_DL_CTR"
+parent_id = "LON_D_CTR"
+controlled_by = ["LON_DL_CTR"]
+
+[[stations]]
+id = "LON_DK_CTR"
+parent_id = "LON_D_CTR"
+controlled_by = ["LON_DK_CTR"]
+
+[[stations]]
+id = "LON_D_CTR"
+parent_id = "LON_S_CTR"
+controlled_by = ["LON_D_CTR"]
+
+[[stations]]
+id = "LON_SN_CTR"
+controlled_by = ["LON_SN_CTR"]
+
+[[stations]]
+id = "LON_SU_CTR"
+parent_id = "LON_SN_CTR"
+controlled_by = ["LON_SU_CTR"]
+
+[[stations]]
+id = "LON_HW_CTR"
+parent_id = "LON_O_CTR"
+controlled_by = ["LON_HW_CTR"]
+
+[[stations]]
+id = "LON_O_CTR"
+parent_id = "LON_H_CTR"
+controlled_by = ["LON_O_CTR"]
+
+[[stations]]
+id = "LON_SF_CTR"
+parent_id = "LON_H_CTR"
+controlled_by = ["LON_SF_CTR"]
+
+[[stations]]
+id = "LON_H_CTR"
+parent_id = "LON_S_CTR"
+controlled_by = ["LON_H_CTR"]
+
+[[stations]]
+id = "LON_S_CTR"
+parent_id = "LON_SC_CTR"
+controlled_by = ["LON_SC_CTR"]
+
+####################
+# NORTH LAG SECTORS
+####################
+
+[[stations]]
+id = "EG-MPC-East"
+parent_id = "MAN_NE_CTR"
+
+[[stations]]
+id = "EG-MPC-North"
+parent_id = "MAN-N_CTR"
+
+[[stations]]
+id = "EG-MPC-Trent"
+parent_id = "MAN_TE_CTR"
+
+[[stations]]
+id = "EG-MPC-Stafa"
+parent_id = "MAN_SE_CTR"
+
+[[stations]]
+id = "EG-Sector-29"
+parent_id = "MAN_WU_CTR"
+
+[[stations]]
+id = "EG-MPC-Wallasey"
+parent_id = "MAN_WL_CTR"
+
+[[stations]]
+id = "EG-MPC-IoM"
+parent_id = "MAN_WI_CTR"
+
+[[stations]]
+id = "EG-Sector-10"
+parent_id = "LON_NE_CTR"
+
+[[stations]]
+id = "EG-Sector-11"
+parent_id = "LON_NE_CTR"
+
+[[stations]]
+id = "EG-Sector-03"
+parent_id = "LON_NW_CTR"
+
+[[stations]]
+id = "EG-Sector-07"
+parent_id = "LON_NW_CTR"
+
+[[stations]]
+id = "EG-Sector-04"
+parent_id = "LON_NU_CTR"
+
+####################
+# NORTH LAG POSITIONS
+####################
+
+[[stations]]
+id = "MAN-N_CTR"
+parent_id = "MAN_NE_CTR"
+controlled_by = ["MAN-N_CTR"]
+
+[[stations]]
+id = "MAN_NE_CTR"
+parent_id = "EG-Sector-10"
+controlled_by = ["MAN_NE_CTR", "MAN_E_CTR", "MAN_CTR"]
+
+[[stations]]
+id = "MAN_E_CTR"
+parent_id = "MAN_CTR"
+controlled_by = ["MAN_E_CTR"]
+
+[[stations]]
+id = "MAN_CTR"
+controlled_by = ["MAN_CTR"]
+
+[[stations]]
+id = "MAN_TE_CTR"
+parent_id = "MAN_SE_CTR"
+controlled_by = ["MAN_TE_CTR"]
+
+[[stations]]
+id = "MAN_SE_CTR"
+parent_id = "LON_NW_CTR"
+controlled_by = ["MAN_SE_CTR", "MAN_E_CTR", "MAN_CTR"]
+
+[[stations]]
+id = "MAN_WU_CTR"
+parent_id = "MAN_W_CTR"
+controlled_by = ["MAN_WU_CTR"]
+
+[[stations]]
+id = "MAN_W_CTR"
+parent_id = "EG-Sector-07"
+controlled_by = ["MAN_W_CTR", "MAN_CTR"]
+
+[[stations]]
+id = "MAN_WP_CTR"
+parent_id = "MAN_W_CTR"
+controlled_by = ["MAN_WP_CTR"]
+
+[[stations]]
+id = "MAN_WL_CTR"
+parent_id = "MAN_WP_CTR"
+controlled_by = ["MAN_WL_CTR"]
+
+[[stations]]
+id = "MAN_WI_CTR"
+parent_id = "MAN_WP_CTR"
+controlled_by = ["MAN_WI_CTR"]
+
+[[stations]]
+id = "LON_NE_CTR"
+parent_id = "LON_N_CTR"
+controlled_by = ["LON_NE_CTR"]
+
+[[stations]]
+id = "LON_NW_CTR"
+parent_id = "LON_N_CTR"
+controlled_by = ["LON_NW_CTR"]
+
+[[stations]]
+id = "LON_NU_CTR"
+parent_id = "LON_NW_CTR"
+controlled_by = ["LON_NU_CTR"]
+
+[[stations]]
+id = "LON_N_CTR"
+parent_id = "LON_CTR"
+controlled_by = ["LON_N_CTR"]
+
+####################
+# CENTRAL LAG SECTORS
+####################
+
+[[stations]]
+id = "EG-TC-LAM"
+parent_id = "LTC_N2_CTR"
+
+[[stations]]
+id = "EG-TC-NEDEP"
+parent_id = "LTC_NE_CTR"
+
+[[stations]]
+id = "EG-TC-LOREL"
+parent_id = "LTC_NL_CTR"
+
+[[stations]]
+id = "EG-TC-NWDEP"
+parent_id = "LTC_NW_CTR"
+
+[[stations]]
+id = "EG-TC-BNN"
+parent_id = "LTC_NW_CTR"
+
+[[stations]]
+id = "EG-TC-SABER"
+parent_id = "LTC_ES_CTR"
+
+[[stations]]
+id = "EG-TC-JACKO"
+parent_id = "LTC_EJ_CTR"
+
+[[stations]]
+id = "EG-TC-DAGGA"
+parent_id = "LTC_ED_CTR"
+
+[[stations]]
+id = "EG-TC-REDFA"
+parent_id = "LTC_ER_CTR"
+
+[[stations]]
+id = "EG-TC-WELIN"
+parent_id = "LTC_MW_CTR"
+
+[[stations]]
+id = "EG-TC-COWLY"
+parent_id = "LTC_MC_CTR"
+
+[[stations]]
+id = "EG-Sector-14"
+parent_id = "LON_ES_CTR"
+controlled_by = ["LON_E_CTR"]
+# Clacton owns S14, before Sector 13, but when S13 online WITHOUT Clacton, S13 owns S14
+
+[[stations]]
+id = "EG-Sector-13"
+parent_id = "LON_ES_CTR"
+
+[[stations]]
+id = "EG-Sector-12"
+parent_id = "LON_EN_CTR"
+
+[[stations]]
+id = "EG-Sector-28"
+parent_id = "LON_ML_CTR"
+
+[[stations]]
+id = "EG-Sector-34"
+parent_id = "LON_ME_CTR"
+
+[[stations]]
+id = "EG-Sector-27-32"
+parent_id = "LON_MW_CTR"
+
+####################
+# CENTRAL LAG POSITIONS
+####################
+
+[[stations]]
+id = "LTC_N_CTR"
+parent_id = "LTC_CTR"
+controlled_by = ["LTC_N_CTR"]
+
+[[stations]]
+id = "LTC_E_CTR"
+controlled_by = ["LTC_E_CTR"]
+
+[[stations]]
+id = "LTC_M_CTR"
+controlled_by = ["LTC_M_CTR"]
+
+[[stations]]
+id = "LTC_N2_CTR"
+parent_id = "EG-TC-SABER"
+controlled_by = ["LTC_N2_CTR", "LTC_NE_CTR", "LTC_N_CTR", "LTC_CTR"]
+
+[[stations]]
+id = "LTC_NE_CTR"
+parent_id = "EG-TC-DAGGA"
+controlled_by = ["LTC_NE_CTR", "LTC_N_CTR", "LTC_CTR"]
+
+[[stations]]
+id = "LTC_NL_CTR"
+parent_id = "EG-TC-DAGGA"
+controlled_by = ["LTC_NL_CTR", "LTC_NE_CTR", "LTC_N_CTR", "LTC_CTR"]
+
+[[stations]]
+id = "LTC_NW_CTR"
+parent_id = "EG-Sector-28"
+controlled_by = ["LTC_NW_CTR", "LTC_N_CTR", "LTC_CTR", "LTC_M_CTR"]
+
+[[stations]]
+id = "LTC_ES_CTR"
+parent_id = "EG-Sector-14"
+controlled_by = ["LTC_ES_CTR", "LTC_E_CTR"]
+
+[[stations]]
+id = "LTC_EJ_CTR"
+parent_id = "LTC_ES_CTR"
+controlled_by = ["LTC_EJ_CTR"]
+
+[[stations]]
+id = "LTC_ED_CTR"
+parent_id = "LTC_ER_CTR"
+controlled_by = ["LTC_ED_CTR"]
+
+[[stations]]
+id = "LTC_ER_CTR"
+parent_id = "EG-Sector-12"
+controlled_by = ["LTC_ER_CTR", "LTC_E_CTR"]
+
+[[stations]]
+id = "LTC_MW_CTR"
+parent_id = "EG-Sector-28"
+controlled_by = ["LTC_MW_CTR", "LTC_M_CTR"]
+
+[[stations]]
+id = "LTC_MC_CTR"
+parent_id = "EG-Sector-27-32"
+controlled_by = ["LTC_MC_CTR", "LTC_M_CTR"]
+
+[[stations]]
+id = "LON_ES_CTR"
+parent_id = "LON_E_CTR"
+controlled_by = ["LON_ES_CTR"]
+
+[[stations]]
+id = "LON_EN_CTR"
+parent_id = "LON_E_CTR"
+controlled_by = ["LON_EN_CTR"]
+
+[[stations]]
+id = "LON_E_CTR"
+parent_id = "LON_C_CTR"
+controlled_by = ["LON_E_CTR"]
+
+[[stations]]
+id = "LON_ML_CTR"
+parent_id = "LON_ME_CTR"
+controlled_by = ["LON_ML_CTR"]
+
+[[stations]]
+id = "LON_ME_CTR"
+parent_id = "LON_M_CTR"
+controlled_by = ["LON_ME_CTR"]
+
+[[stations]]
+id = "LON_MW_CTR"
+parent_id = "LON_M_CTR"
+controlled_by = ["LON_MW_CTR"]
+
+[[stations]]
+id = "LON_M_CTR"
+parent_id = "LON_C_CTR"
+controlled_by = ["LON_M_CTR"]
+
+[[stations]]
+id = "LON_C_CTR"
+parent_id = "LON_SC_CTR"
+controlled_by = ["LON_C_CTR"]
+
+####################
+# FIS
+####################
+
+[[stations]]
+id = "EGTT_I_CTR"
+controlled_by = ["EGTT_I_CTR"]
+
+[[stations]]
+id = "EGPX_I_CTR"
+controlled_by = ["EGPX_I_CTR"]
+
+[[stations]]
+id = "EGTT_WR_CTR"
+controlled_by = ["EGTT_WR_CTR"]
+
+####################
+# DOMESTIC MILITARY AREA
+####################
+
+[[stations]]
+id = "EGVV_CTR"
+controlled_by = ["EGVV_CTR"]
+
+[[stations]]
+id = "EGVV_N_CTR"
+parent_id = "EGVV_CTR"
+controlled_by = ["EGVV_N_CTR"]
+
+[[stations]]
+id = "EGVV_E_CTR"
+parent_id = "EGVV_CTR"
+controlled_by = ["EGVV_E_CTR"]
+
+[[stations]]
+id = "EGVV_W_CTR"
+parent_id = "EGVV_CTR"
+controlled_by = ["EGVV_W_CTR"]
+
+[[stations]]
+id = "EGVV_Q_CTR"
+parent_id = "EGVV_N_CTR"
+controlled_by = ["EGVV_Q_CTR"]
+
+[[stations]]
+id = "EGVV_F_CTR"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGVV_F_CTR"]
+
+[[stations]]
+id = "EGVV_C_CTR"
+parent_id = "EGVV_W_CTR"
+controlled_by = ["EGVV_C_CTR"]
+
+[[stations]]
+id = "EGVV_A_CTR"
+parent_id = "EGVV_W_CTR"
+controlled_by = ["EGVV_A_CTR"]
+
+[[stations]]
+id = "EGVV_D_CTR"
+parent_id = "EGVV_W_CTR"
+controlled_by = ["EGVV_D_CTR"]
+
+####################
+# AERODROMES
+####################

@@ -134,3 +134,6 @@ target/
 
 # Patch cargo dependencies to use local vacs packages during development
 /.cargo/config.toml
+
+# Generated license file
+THIRD_PARTY_LICENSES.html

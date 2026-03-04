@@ -8,11 +8,11 @@
         "rows": 6,
         "keys": [
           {
-            "label": ["OS", "DEP-W"],
+            "label": ["DEP-W", ""],
             "station_id": "ESOS_DEP-W"
           },
           {
-            "label": ["OS", "ARR-W"],
+            "label": ["ARR-W", ""],
             "station_id": "ESOS_ARR-W"
           },
           {
@@ -30,11 +30,11 @@
             "label": []
           },
           {
-            "label": ["OS", "APP-C"],
+            "label": ["APP-C", ""],
             "station_id": "ESOS_ARR-E"
           },
           {
-            "label": ["OS", "DIR"],
+            "label": ["DIR-W", ""],
             "station_id": "ESOS_DIR-W"
           },
           {
@@ -53,11 +53,11 @@
             "station_id": "ESSA_DEL"
           },
           {
-            "label": ["OS", "DEP-E"],
+            "label": ["DEP-E", ""],
             "station_id": "ESOS_DEP-E"
           },
           {
-            "label": ["OS", "ARR-E"],
+            "label": ["ARR-E", ""],
             "station_id": "ESOS_ARR-E"
           },
           {

@@ -1,0 +1,34 @@
+{
+  "id": "FALA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FALA",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": ["FALA*", "FAOR*_APP", "FAJA_*", "FASA_*"],
+          "exclude": [
+            "FAJA_W*",
+            "FAJA_E*",
+            "FAJA_C*",
+            "FAJA_S*",
+            "FAJA_IS_*",
+            "FAOR_F*"
+          ],
+          "priority": [
+            "*_FMP",
+            "FAOR_W_*",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_DEL",
+            "*_CTR"
+          ],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

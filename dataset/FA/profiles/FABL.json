@@ -1,0 +1,37 @@
+{
+  "id": "FABL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FABL",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": ["FABL*", "FAJA_*", "FASA_*"],
+          "exclude": [
+            "FAJA_W*",
+            "FAJA_N_*",
+            "FAJA_NE*",
+            "FAJA_NW*",
+            "FAJA_SW*",
+            "FAJA_SE*",
+            "FAJA_IN_*",
+            "FAJA_E*"
+          ],
+          "priority": [
+            "*_FMP",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_DEL",
+            "FAJA_C*",
+            "FAJA_S_*",
+            "*_CTR"
+          ],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

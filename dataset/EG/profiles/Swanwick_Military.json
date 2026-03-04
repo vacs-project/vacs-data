@@ -1,0 +1,57 @@
+{
+  "id": "Swanwick_Military",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "Military",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "EGDR_*",
+            "EGDO_*",
+            "EGDI_*",
+            "EGDY_*",
+            "EGDM_*",
+            "EGVP_*",
+            "EGVO_*",
+            "EGUB_*",
+            "EGWU_*",
+            "EGVA_*",
+            "EGVN_*",
+            "EGUW_*",
+            "EGOS_*",
+            "EGOE_*",
+            "EGOV_*",
+            "EGOQ_*",
+            "EGNO_*",
+            "EGUL_*",
+            "EGUN_*",
+            "EGYM_*",
+            "EGXT_*",
+            "EGXC_*",
+            "EGYD_*",
+            "EGYE_*",
+            "EGXE_*",
+            "EGXZ_*",
+            "EGQL_*",
+            "EGQS_*",
+            "EGVV_*",
+            "MAN_*",
+            "LON_*",
+            "STC_*",
+            "SCO_*",
+            "LTC_*",
+            "EGTT_*",
+            "EGPX_*",
+            "UK_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

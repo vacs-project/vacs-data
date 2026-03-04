@@ -1,0 +1,40 @@
+{
+  "id": "FASA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FAxx",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": ["FA*", "FX*", "FAJA_*", "FACA_*", "FASA_*"],
+          "exclude": ["FAJO_*"],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "ShowAll",
+          "grouping": "Icao"
+        }
+      }
+    },
+    {
+      "label": "EXT",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "FAJO*",
+            "FYWF*",
+            "FBGR*",
+            "FVHF*",
+            "FQMA*",
+            "FQBE*",
+            "FBSK*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP"],
+          "frequencies": "ShowAll",
+          "grouping": "Icao"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "EGLL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "Heathrow",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "EGLL*",
+            "EGKK_*APP",
+            "THAMES*",
+            "EGLC_*",
+            "EGLF_*APP",
+            "EGLW*",
+            "LON_M*",
+            "LON_E*",
+            "LON_C*",
+            "LON_D*",
+            "LON_H*",
+            "LON_S*",
+            "LON_O*",
+            "LON_SC*",
+            "LON_CTR",
+            "LON__CTR",
+            "LTC_N*",
+            "LTC_S*",
+            "LTC_E*",
+            "LTC_M*",
+            "LTC_CTR",
+            "LTC__CTR",
+            "EGTT_*",
+            "UK_*"
+          ],
+          "exclude": ["EGLC_*GND"],
+          "priority": ["*_FMP", "*_APP", "*_TWR", "*_GND", "*_DEL", "*_CTR"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "FACT",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FACT",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": ["FACT*", "FACA_*", "FASA_*", "FAYP*"],
+          "exclude": ["FACA_W_*"],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

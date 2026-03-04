@@ -1,0 +1,58 @@
+{
+  "id": "Central_LAG",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "Central LAG",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "EGSS_*",
+            "EGGW_*",
+            "EGSC_*",
+            "ESSEX*",
+            "EGTK_*",
+            "EGTC_*",
+            "EGBB_*",
+            "EGNX_*",
+            "EGLL_N*APP",
+            "EGLL_*TWR",
+            "THAMES*",
+            "EGLC_*",
+            "EGMC_*",
+            "MAN_E*",
+            "MAN_NE*",
+            "MAN_S*",
+            "MAN_CTR",
+            "MAN__CTR",
+            "LON_CTR",
+            "LON__CTR",
+            "LON_SC*",
+            "LON_C*",
+            "LON_M*",
+            "LON_E*",
+            "LON_S*",
+            "LON_H*",
+            "LON_D*",
+            "LON_N*",
+            "LON_W*",
+            "LTC_*",
+            "EGVV_*",
+            "EGTT_*",
+            "UK_*",
+            "EDYY_D*",
+            "EDYY_K*",
+            "EDYY_N*",
+            "EBBU_*",
+            "EHAA_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

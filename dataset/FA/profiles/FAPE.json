@@ -1,0 +1,19 @@
+{
+  "id": "FAPE",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "FAPE",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": ["FAPE*", "FACA_*", "FASA_*"],
+          "exclude": [],
+          "priority": ["*_FMP", "*_APP", "*_TWR", "*_GND", "*_DEL", "FACA_W*"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}
