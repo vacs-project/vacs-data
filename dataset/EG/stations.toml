@@ -836,4 +836,15 @@ controlled_by = ["THAMES_APP"]
 [[stations]]
 id = "EGLL-CTR-TC_SVFR"
 parent_id = "EGLL_N_APP"
-controlled_by = ["EGLC_APP", "THAMES_APP", "LTC_SE_CTR", "LTC_S_CTR", "LTC_CTR", "LON_DL_CTR", "LON_D_CTR", "LON_S_CTR", "LON_SC_CTR", "LON_CTR"]
+controlled_by = [
+  "EGLC_APP",
+  "THAMES_APP",
+  "LTC_SE_CTR",
+  "LTC_S_CTR",
+  "LTC_CTR",
+  "LON_DL_CTR",
+  "LON_D_CTR",
+  "LON_S_CTR",
+  "LON_SC_CTR",
+  "LON_CTR",
+]
