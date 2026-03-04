@@ -1,0 +1,123 @@
+{
+  "positions": [
+    {
+      "id": "LBSR_CTR",
+      "prefixes": ["LBSR"],
+      "frequency": "131.225",
+      "facility_type": "CTR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBSR_E_CTR",
+      "prefixes": ["LBSR"],
+      "frequency": "129.100",
+      "facility_type": "CTR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBSR_V_CTR",
+      "prefixes": ["LBSR"],
+      "frequency": "134.700",
+      "facility_type": "CTR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBSR_B_CTR",
+      "prefixes": ["LBSR"],
+      "frequency": "132.950",
+      "facility_type": "CTR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBSR_I_CTR",
+      "prefixes": ["LBSR"],
+      "frequency": "130.600",
+      "facility_type": "CTR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBSF_APP",
+      "prefixes": ["LBSF"],
+      "frequency": "123.705",
+      "facility_type": "APP",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBSF_F_APP",
+      "prefixes": ["LBSF"],
+      "frequency": "129.905",
+      "facility_type": "APP",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBWN_APP",
+      "prefixes": ["LBWN"],
+      "frequency": "124.230",
+      "facility_type": "APP",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBWN_F_APP",
+      "prefixes": ["LBWN"],
+      "frequency": "128.815",
+      "facility_type": "APP",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBBG_APP",
+      "prefixes": ["LBBG"],
+      "frequency": "125.340",
+      "facility_type": "APP",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBBG_F_APP",
+      "prefixes": ["LBBG"],
+      "frequency": "126.780",
+      "facility_type": "APP",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBSF_TWR",
+      "prefixes": ["LBSF"],
+      "frequency": "118.255",
+      "facility_type": "TWR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBWN_TWR",
+      "prefixes": ["LBWN"],
+      "frequency": "119.505",
+      "facility_type": "TWR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBBG_TWR",
+      "prefixes": ["LBBG"],
+      "frequency": "119.655",
+      "facility_type": "TWR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBPD_TWR",
+      "prefixes": ["LBPD"],
+      "frequency": "133.605",
+      "facility_type": "TWR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBGO_TWR",
+      "prefixes": ["LBGO"],
+      "frequency": "133.505",
+      "facility_type": "TWR",
+      "profile_id": "LBSR"
+    },
+    {
+      "id": "LBSF_DEL",
+      "prefixes": ["LBSF"],
+      "frequency": "127.255",
+      "facility_type": "DEL",
+      "profile_id": "LBSR"
+    }
+  ]
+}
