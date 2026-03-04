@@ -4,31 +4,37 @@
       "id": "LIBB_ES3_CTR",
       "prefixes": ["LIBB"],
       "frequency": "128.300",
-      "facility_type": "CTR"
+      "facility_type": "CTR",
+      "profile_id": "LIBB"
+
     },
     {
-      "id": "LIBB_I_CTR",
+      "id": "LIBB_I_APP",
       "prefixes": ["LIBB"],
       "frequency": "131.125",
-      "facility_type": "CTR"
+      "facility_type": "APP",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBA_APP",
       "prefixes": ["LIBA"],
       "frequency": "118.855",
-      "facility_type": "APP"
+      "facility_type": "APP",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBG_APP",
       "prefixes": ["LIBG"],
       "frequency": "118.700",
-      "facility_type": "APP"
+      "facility_type": "APP",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBN_APP",
       "prefixes": ["LIBA"],
       "frequency": "118.955",
-      "facility_type": "APP"
+      "facility_type": "APP",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBP_APP",
@@ -41,13 +47,15 @@
       "id": "LIBR_CS0_APP",
       "prefixes": ["LIBR"],
       "frequency": "118.750",
-      "facility_type": "APP"
+      "facility_type": "APP",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBA_TWR",
       "prefixes": ["LIBA"],
       "frequency": "118.205",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBC_I_TWR",
@@ -60,25 +68,29 @@
       "id": "LIBD_TWR",
       "prefixes": ["LIBD"],
       "frequency": "118.300",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBF_I_TWR",
       "prefixes": ["LIBF"],
       "frequency": "120.100",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBG_TWR",
       "prefixes": ["LIBG"],
       "frequency": "118.700",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBN_TWR",
       "prefixes": ["LIBN"],
       "frequency": "119.555",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIBP_TWR",
@@ -91,7 +103,8 @@
       "id": "LIBR_TWR",
       "prefixes": ["LIBR"],
       "frequency": "118.100",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LIBB"
     },
     {
       "id": "LIMM_DCP_FMP",
