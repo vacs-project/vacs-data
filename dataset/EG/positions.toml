@@ -2669,37 +2669,37 @@ facility_type = "TWR"
 id = "UK_FMP"
 prefixes = ["UK"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "FSS"
 
 [[positions]]
 id = "UK_A_FMP"
 prefixes = ["UK"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "FSS"
 
 [[positions]]
 id = "UK_B_FMP"
 prefixes = ["UK"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "FSS"
 
 [[positions]]
 id = "MAN_FMP"
 prefixes = ["MAN"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "FSS"
 
 [[positions]]
 id = "LTC_FMP"
 prefixes = ["LTC"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "FSS"
 
 [[positions]]
 id = "STC_FMP"
 prefixes = ["STC"]
 frequency = "199.998"
-facility_type = "FMP"
+facility_type = "FSS"
 
 [[positions]]
 id = "LON_GS_CTR"
