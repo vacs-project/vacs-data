@@ -525,36 +525,42 @@ id = "EGKK_APP"
 prefixes = ["EGKK"]
 frequency = "126.825"
 facility_type = "APP"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_F_APP"
 prefixes = ["EGKK"]
 frequency = "118.950"
 facility_type = "APP"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_TWR"
 prefixes = ["EGKK"]
 frequency = "124.230"
 facility_type = "TWR"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_GND"
 prefixes = ["EGKK"]
 frequency = "121.805"
 facility_type = "GND"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_DEL"
 prefixes = ["EGKK"]
 frequency = "121.955"
 facility_type = "DEL"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKK_P_GND"
 prefixes = ["EGKK"]
 frequency = "134.230"
 facility_type = "DEL"
+profile_id = "EGKK"
 
 [[positions]]
 id = "EGKR_TWR"
@@ -591,90 +597,105 @@ id = "EGLF_APP"
 prefixes = ["EGLF"]
 frequency = "134.355"
 facility_type = "APP"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLF_F_APP"
 prefixes = ["EGLF"]
 frequency = "130.055"
 facility_type = "APP"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLF_L_APP"
 prefixes = ["EGLF"]
 frequency = "125.250"
 facility_type = "APP"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLF_TWR"
 prefixes = ["EGLF"]
 frequency = "122.780"
 facility_type = "TWR"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLF_GND"
 prefixes = ["EGLF"]
 frequency = "121.815"
 facility_type = "GND"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLL_F_APP"
 prefixes = ["EGLL"]
 frequency = "120.400"
 facility_type = "APP"
+profile_id = "EGLF"
 
 [[positions]]
 id = "EGLL_N_APP"
 prefixes = ["EGLL"]
 frequency = "119.730"
 facility_type = "APP"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_S_APP"
 prefixes = ["EGLL"]
 frequency = "134.980"
 facility_type = "APP"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_N_TWR"
 prefixes = ["EGLL"]
 frequency = "118.705"
 facility_type = "TWR"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_S_TWR"
 prefixes = ["EGLL"]
 frequency = "118.505"
 facility_type = "TWR"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_1_GND"
 prefixes = ["EGLL"]
 frequency = "121.905"
 facility_type = "GND"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_2_GND"
 prefixes = ["EGLL"]
 frequency = "121.705"
 facility_type = "GND"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_3_GND"
 prefixes = ["EGLL"]
 frequency = "121.855"
 facility_type = "GND"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_DEL"
 prefixes = ["EGLL"]
 frequency = "121.980"
 facility_type = "DEL"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLL_P_GND"
 prefixes = ["EGLL"]
 frequency = "124.480"
 facility_type = "DEL"
+profile_id = "EGLL"
 
 [[positions]]
 id = "EGLW_TWR"
