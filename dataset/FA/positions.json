@@ -131,14 +131,14 @@
       "prefixes": ["FAOR"],
       "frequency": "124.500",
       "facility_type": "APP",
-      "profile_id": "FAOR-RDR"
+      "profile_id": "FAOR"
     },
     {
       "id": "FAOR_W_APP",
       "prefixes": ["FAOR"],
       "frequency": "123.700",
       "facility_type": "APP",
-      "profile_id": "FAOR-RDR"
+      "profile_id": "FAOR"
     },
     {
       "id": "FAOR_F_APP",
