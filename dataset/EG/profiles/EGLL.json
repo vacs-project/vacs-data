@@ -53,7 +53,7 @@
           },
           {
             "label": ["TC", "SVFR"],
-            "station_id": "EGLC_APP"
+            "station_id": "EGLL-CTR-TC_SVFR"
           },
           {
             "label": ["FIN"],
@@ -191,7 +191,7 @@
           },
           {
             "label": ["TC", "SVFR"],
-            "station_id": "EGLC_APP"
+            "station_id": "EGLL-CTR-TC_SVFR"
           },
           {
             "label": ["TC", "NE"],

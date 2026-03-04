@@ -781,8 +781,8 @@ controlled_by = ["EGLM_R_TWR"]
 
 [[stations]]
 id = "EGLW_TWR"
-parent_id = "EGLL_N_APP"
-controlled_by = ["EGLW_TWR", "EGLC_APP", "THAMES_APP", "LTC_SE_CTR", "LTC_S_CTR", "LTC_CTR", "LON_DL_CTR", "LON_D_CTR", "LON_S_CTR", "LON_SC_CTR", "LON_CTR"]
+parent_id = "EGLL-CTR-SVFR"
+controlled_by = ["EGLW_TWR"]
 
 [[stations]]
 id = "EGSS_APP"
@@ -831,3 +831,9 @@ controlled_by = ["SOLENT_APP"]
 id = "THAMES_APP"
 parent_id = "LTC_SE_CTR"
 controlled_by = ["THAMES_APP"]
+
+# Position inserted for correct top-down TC SFVR *within* the London CTR (not within the London City CTR/CTA)
+[[stations]]
+id = "EGLL-CTR-TC_SVFR"
+parent_id = "EGLL_N_APP"
+controlled_by = ["EGLC_APP", "THAMES_APP", "LTC_SE_CTR", "LTC_S_CTR", "LTC_CTR", "LON_DL_CTR", "LON_D_CTR", "LON_S_CTR", "LON_SC_CTR", "LON_CTR"]
