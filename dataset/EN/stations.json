@@ -1259,8 +1259,8 @@
     {
       "id": "ENZV_A_APP",
       "controlled_by": [
-        "ENZV_A_APP"
-		"ENZV_APP",
+        "ENZV_A_APP",
+		    "ENZV_APP",
         "ENSV_CTR",
         "ENSV_N_CTR",
         "ENOR_S_CTR",
@@ -1550,7 +1550,6 @@
       "controlled_by": [
         "ENOB_CTR"
       ]
-    },
+    }
 	]
-  ]
 }
