@@ -275,6 +275,11 @@
       "controlled_by": ["FAKM_TWR"]
     },
     {
+      "id": "FAKN_APP",
+      "parent_id": "FAMR_I_CTR",
+      "controlled_by": ["FAKN_APP"]
+    },
+    {
       "id": "FYWH",
       "controlled_by": ["FYWH_CTR"]
     },
@@ -344,7 +349,7 @@
     {
       "id": "FDMS_GMC",
       "parent_id": "FDMS_TWR",
-      "controlled_by": ["FDMS_GMC"]
+      "controlled_by": ["FDMS_GND"]
     },
     {
       "id": "FAUP_APP",
@@ -374,6 +379,11 @@
       "id": "FALW_GMC",
       "parent_id": "FALW_TWR",
       "controlled_by": ["FALW_GND"]
+    },
+    {
+      "id": "FAOB_APP",
+      "parent_id": "FACA_W",
+      "controlled_by": ["FAOB_APP"]
     }
   ]
 }
