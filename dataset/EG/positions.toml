@@ -3203,110 +3203,163 @@ profile_id = "EG-UK_ALL"
 #######################
 # Oceanic
 #######################
+
 [[positions]]
-id = "EGGX_A_FSS"
-prefixes = ["EGGX"]
-frequency = "131.450"
+id = "NAT_FSS"
+prefixes = ["NAT"]
+frequency = "131.900"
 facility_type = "FSS"
-
-[[positions]]
-id = "EGGX_B_FSS"
-prefixes = ["EGGX"]
-frequency = "131.550"
-facility_type = "FSS"
-
-[[positions]]
-id = "EGGX_C_FSS"
-prefixes = ["EGGX"]
-frequency = "131.650"
-facility_type = "FSS"
-
-[[positions]]
-id = "EGGX_D_FSS"
-prefixes = ["EGGX"]
-frequency = "131.750"
-facility_type = "FSS"
-
-[[positions]]
-id = "EGGX_FSS"
-prefixes = ["EGGX"]
-frequency = "131.800"
-facility_type = "FSS"
-
-[[positions]]
-id = "EGGX_F_FSS"
-prefixes = ["EGGX"]
-frequency = "131.850"
-facility_type = "FSS"
-
-[[positions]]
-id = "EGGX_A_CTR"
-prefixes = ["EGGX"]
-frequency = "131.450"
-facility_type = "CTR"
-
-[[positions]]
-id = "EGGX_B_CTR"
-prefixes = ["EGGX"]
-frequency = "131.550"
-facility_type = "CTR"
 
 [[positions]]
 id = "EGGX_CTR"
 prefixes = ["EGGX"]
 frequency = "131.800"
 facility_type = "CTR"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_A_CTR"
+prefixes = ["EGGX"]
+frequency = "131.450"
+facility_type = "CTR"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_1_CTR"
+prefixes = ["EGGX"]
+frequency = "131.450"
+facility_type = "CTR"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_B_CTR"
+prefixes = ["EGGX"]
+frequency = "131.550"
+facility_type = "CTR"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_2_CTR"
+prefixes = ["EGGX"]
+frequency = "131.550"
+facility_type = "CTR"
+profile_id = "EGGX"
 
 [[positions]]
 id = "EGGX_C_CTR"
 prefixes = ["EGGX"]
 frequency = "131.650"
 facility_type = "CTR"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_3_CTR"
+prefixes = ["EGGX"]
+frequency = "131.650"
+facility_type = "CTR"
+profile_id = "EGGX"
 
 [[positions]]
 id = "EGGX_D_CTR"
 prefixes = ["EGGX"]
 frequency = "131.750"
 facility_type = "CTR"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_4_CTR"
+prefixes = ["EGGX"]
+frequency = "131.750"
+facility_type = "CTR"
+profile_id = "EGGX"
 
 [[positions]]
 id = "EGGX_F_CTR"
 prefixes = ["EGGX"]
 frequency = "131.850"
 facility_type = "CTR"
+profile_id = "EGGX"
 
 [[positions]]
-id = "EGGX_A_DEL"
+id = "EGGX_5_CTR"
 prefixes = ["EGGX"]
-frequency = "127.900"
-facility_type = "DEL"
-
-[[positions]]
-id = "EGGX_B_DEL"
-prefixes = ["EGGX"]
-frequency = "123.950"
-facility_type = "DEL"
-
-[[positions]]
-id = "EGGX_C_DEL"
-prefixes = ["EGGX"]
-frequency = "124.175"
-facility_type = "DEL"
+frequency = "131.850"
+facility_type = "CTR"
+profile_id = "EGGX"
 
 [[positions]]
 id = "EGGX_DEL"
 prefixes = ["EGGX"]
 frequency = "127.650"
 facility_type = "DEL"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_A_DEL"
+prefixes = ["EGGX"]
+frequency = "127.900"
+facility_type = "DEL"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_1_DEL"
+prefixes = ["EGGX"]
+frequency = "127.900"
+facility_type = "DEL"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_B_DEL"
+prefixes = ["EGGX"]
+frequency = "123.950"
+facility_type = "DEL"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_2_DEL"
+prefixes = ["EGGX"]
+frequency = "123.950"
+facility_type = "DEL"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_C_DEL"
+prefixes = ["EGGX"]
+frequency = "124.175"
+facility_type = "DEL"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_3_DEL"
+prefixes = ["EGGX"]
+frequency = "124.175"
+facility_type = "DEL"
+profile_id = "EGGX"
 
 [[positions]]
 id = "EGGX_D_DEL"
 prefixes = ["EGGX"]
 frequency = "126.375"
 facility_type = "DEL"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_4_DEL"
+prefixes = ["EGGX"]
+frequency = "126.375"
+facility_type = "DEL"
+profile_id = "EGGX"
 
 [[positions]]
 id = "EGGX_F_DEL"
 prefixes = ["EGGX"]
 frequency = "128.375"
 facility_type = "DEL"
+profile_id = "EGGX"
+
+[[positions]]
+id = "EGGX_5_DEL"
+prefixes = ["EGGX"]
+frequency = "128.375"
+facility_type = "DEL"
+profile_id = "EGGX"

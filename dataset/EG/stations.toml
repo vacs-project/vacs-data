@@ -848,3 +848,66 @@ controlled_by = [
   "LON_SC_CTR",
   "LON_CTR",
 ]
+
+####################
+# Oceanic
+####################
+
+[[stations]]
+id = "NAT_BBx"
+controlled_by = ["NAT_FSS"]
+
+[[stations]]
+id = "Shanwick"
+parent_id = "NAT_FSS"
+controlled_by = ["EGGX_CTR"]
+
+[[stations]]
+id = "Shanwick_A"
+controlled_by = ["EGGX_A_CTR", "EGGX_1_CTR"]
+
+[[stations]]
+id = "Shanwick_B"
+controlled_by = ["EGGX_B_CTR", "EGGX_2_CTR"]
+
+[[stations]]
+id = "Shanwick_C"
+controlled_by = ["EGGX_C_CTR", "EGGX_3_CTR"]
+
+[[stations]]
+id = "Shanwick_D"
+controlled_by = ["EGGX_D_CTR", "EGGX_4_CTR"]
+
+[[stations]]
+id = "Shanwick_F"
+controlled_by = ["EGGX_F_CTR", "EGGX_5_CTR"]
+
+[[stations]]
+id = "Shanwick_DEL"
+parent_id = "Shanwick"
+controlled_by = ["EGGX_DEL"]
+
+[[stations]]
+id = "Shanwick_DEL_A"
+parent_id = "Shanwick_A"
+controlled_by = ["EGGX_A_DEL", "EGGX_1_DEL"]
+
+[[stations]]
+id = "Shanwick_DEL_B"
+parent_id = "Shanwick_B"
+controlled_by = ["EGGX_B_DEL", "EGGX_2_DEL"]
+
+[[stations]]
+id = "Shanwick_DEL_C"
+parent_id = "Shanwick_C"
+controlled_by = ["EGGX_C_DEL", "EGGX_3_DEL"]
+
+[[stations]]
+id = "Shanwick_DEL_D"
+parent_id = "Shanwick_D"
+controlled_by = ["EGGX_D_DEL", "EGGX_4_DEL"]
+
+[[stations]]
+id = "Shanwick_DEL_F"
+parent_id = "Shanwick_F"
+controlled_by = ["EGGX_F_DEL", "EGGX_5_DEL"]
