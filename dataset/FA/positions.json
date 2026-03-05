@@ -113,6 +113,20 @@
       "profile_id": "FACA"
     },
     {
+      "id": "FAJA_IN_CTR",
+      "prefixes": ["FAJA"],
+      "frequency": "127.400",
+      "facility_type": "CTR",
+      "profile_id": "FAJA"
+    },
+    {
+      "id": "FAJA_IS_CTR",
+      "prefixes": ["FAJA"],
+      "frequency": "119.500",
+      "facility_type": "CTR",
+      "profile_id": "FAJA"
+    },
+    {
       "id": "FACA_IW_CTR",
       "prefixes": ["FACA"],
       "frequency": "132.125",
@@ -125,23 +139,11 @@
       "frequency": "127.525",
       "facility_type": "CTR",
       "profile_id": "FACA"
+    },
+    {
       "id": "FAJA_I_CTR",
       "prefixes": ["FAJA"],
       "frequency": "127.400",
-      "facility_type": "CTR",
-      "profile_id": "FAJA"
-    },
-    {
-      "id": "FAJA_IN_CTR",
-      "prefixes": ["FAJA"],
-      "frequency": "127.400",
-      "facility_type": "CTR",
-      "profile_id": "FAJA"
-    },
-    {
-      "id": "FAJA_IS_CTR",
-      "prefixes": ["FAJA"],
-      "frequency": "119.500",
       "facility_type": "CTR",
       "profile_id": "FAJA"
     },
