@@ -65,11 +65,7 @@
                   "station_id": "EDWW-FLG"
                 },
                 {
-                  "label": [
-                    "APP DP",
-                    "TRS",
-                    "EC"
-                  ],
+                  "label": ["APP DP", "TRS", "EC"],
                   "station_id": "EDMM-TRS"
                 },
                 {
@@ -93,11 +89,7 @@
                   "station_id": "EDWW-DBAS"
                 },
                 {
-                  "label": [
-                    "APP DC",
-                    "SAS",
-                    "EC"
-                  ],
+                  "label": ["APP DC", "SAS", "EC"],
                   "station_id": "EDMM-SAS"
                 }
               ]
@@ -210,11 +202,7 @@
                   "station_id": "EPPO_TMA_S"
                 },
                 {
-                  "label": [
-                    "APP WA",
-                    "H N",
-                    "EC"
-                  ],
+                  "label": ["APP WA", "H N", "EC"],
                   "station_id": "EPWA_TMA_N"
                 },
                 {
@@ -222,11 +210,7 @@
                   "station_id": "EPWA_TMA"
                 },
                 {
-                  "label": [
-                    "APP WA",
-                    "H S",
-                    "EC"
-                  ],
+                  "label": ["APP WA", "H S", "EC"],
                   "station_id": "EPWA_TMA_S"
                 },
                 {
@@ -254,11 +238,7 @@
                   "station_id": "EPWW_TM"
                 },
                 {
-                  "label": [
-                    "ALL FIR",
-                    "LM",
-                    "EC"
-                  ],
+                  "label": ["ALL FIR", "LM", "EC"],
                   "station_id": "EPWW_ALL"
                 },
                 {
