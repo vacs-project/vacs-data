@@ -5,7 +5,7 @@
     {
       "label": "FAxx",
       "page": {
-        "rows": 10,
+        "rows": 6,
         "client_page": {
           "include": ["FA*", "FX*", "FAJA_*", "FACA_*", "FASA_*"],
           "exclude": ["FAJO_*"],
@@ -18,7 +18,7 @@
     {
       "label": "EXT",
       "page": {
-        "rows": 10,
+        "rows": 6,
         "client_page": {
           "include": [
             "FAJO*",
