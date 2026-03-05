@@ -374,6 +374,12 @@
       "facility_type": "TWR"
     },
     {
+      "id": "FAWB_GND",
+      "prefixes": ["FAWB"],
+      "frequency": "120.600",
+      "facility_type": "GND"
+    },
+    {
       "id": "FAGC_TWR",
       "prefixes": ["FAGC"],
       "frequency": "122.850",

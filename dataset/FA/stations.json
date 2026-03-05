@@ -250,6 +250,11 @@
       "controlled_by": ["FAWB_TWR"]
     },
     {
+      "id": "FAWB_GMC",
+      "parent_id": "FAWB_TWR",
+      "controlled_by": ["FAWB_GND"]
+    },
+    {
       "id": "FAGC_TWR",
       "parent_id": "FAOR_RDR_W",
       "controlled_by": ["FAGC_TWR"]
