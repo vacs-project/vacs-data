@@ -552,6 +552,24 @@
       "prefixes": ["FAOB"],
       "frequency": "119.800",
       "facility_type": "APP"
+    },
+    {
+      "id": "FAHS_APP",
+      "prefixes": ["FAHS"],
+      "frequency": "126.400",
+      "facility_type": "APP"
+    },
+    {
+      "id": "FAHS_TWR",
+      "prefixes": ["FAHS"],
+      "frequency": "119.600",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "FAHS_GND",
+      "prefixes": ["FAHS"],
+      "frequency": "134.350",
+      "facility_type": "GND"
     }
   ]
 }

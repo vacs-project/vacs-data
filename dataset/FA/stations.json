@@ -384,6 +384,21 @@
       "id": "FAOB_APP",
       "parent_id": "FACA_W",
       "controlled_by": ["FAOB_APP"]
+    },
+    {
+      "id": "FAHS_APP",
+      "parent_id": "FAMR_I_CTR",
+      "controlled_by": ["FAHS_APP"]
+    },
+    {
+      "id": "FAHS_TWR",
+      "parent_id": "FAHS_APP",
+      "controlled_by": ["FAHS_TWR"]
+    },
+    {
+      "id": "FAHS_GMC",
+      "parent_id": "FAHS_TWR",
+      "controlled_by": ["FAHS_GND"]
     }
   ]
 }
