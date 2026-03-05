@@ -911,3 +911,31 @@ controlled_by = ["EGGX_D_DEL", "EGGX_4_DEL"]
 id = "Shanwick_DEL_F"
 parent_id = "Shanwick_F"
 controlled_by = ["EGGX_F_DEL", "EGGX_5_DEL"]
+
+####################
+# Temporary Scottish Phones (oceanic) pending resectorisation
+####################
+
+[[stations]]
+id = "SCO_N_CTR"
+parent_id = "SCO_E_CTR"
+controlled_by = ["SCO_N_CTR"]
+
+[[stations]]
+id = "SCO_E_CTR"
+parent_id = "SCO_CTR"
+controlled_by = ["SCO_E_CTR"]
+
+[[stations]]
+id = "SCO_CTR"
+controlled_by = ["SCO_CTR"]
+
+[[stations]]
+id = "SCO_W_CTR"
+parent_id = "SCO_WD_CTR"
+controlled_by = ["SCO_W_CTR"]
+
+[[stations]]
+id = "SCO_WD_CTR"
+parent_id = "SCO_CTR"
+controlled_by = ["SCO_WD_CTR"]
