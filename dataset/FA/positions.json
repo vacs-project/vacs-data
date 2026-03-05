@@ -395,22 +395,25 @@
       "id": "FAKM_APP",
       "prefixes": ["FAKM"],
       "frequency": "119.400",
-      "facility_type": "APP",
-      "profile_id": "FAKM"
+      "facility_type": "APP"
     },
     {
       "id": "FAKM_TWR",
       "prefixes": ["FAKM"],
       "frequency": "118.200",
-      "facility_type": "TWR",
-      "profile_id": "FAKM"
+      "facility_type": "TWR"
     },
+    {
+      "id": "FAKN_APP",
+      "prefixes": ["FAKN"],
+      "frequency": "119.200",
+      "facility_type": "APP"
+    }
     {
       "id": "FYWH_CTR",
       "prefixes": ["FYWH"],
       "frequency": "120.500",
-      "facility_type": "CTR",
-      "profile_id": "FYWH"
+      "facility_type": "CTR"
     },
     {
       "id": "FBGR_CTR",
@@ -443,6 +446,18 @@
       "facility_type": "APP"
     },
     {
+      "id": "FDMS_TWR",
+      "prefixes": ["FDMS"],
+      "frequency": "124.900",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "FDMS_GND",
+      "prefixes": ["FDMS"],
+      "frequency": "121.700",
+      "facility_type": "GND"
+    },
+    {
       "id": "FXMM_APP",
       "prefixes": ["FXMM"],
       "frequency": "120.700",
@@ -455,7 +470,7 @@
       "facility_type": "TWR"
     },
     {
-      "id": "FXMM_GMC",
+      "id": "FXMM_GND",
       "prefixes": ["FXMM"],
       "frequency": "121.700",
       "facility_type": "GND"

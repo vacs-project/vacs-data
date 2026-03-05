@@ -338,6 +338,7 @@
     },
     {
       "id": "FDMS_TWR",
+      "parent_id": "FDSK_APP",
       "controlled_by": ["FDMS_TWR"]
     },
     {
@@ -352,7 +353,6 @@
     },
     {
       "id": "FAPM_TWR",
-      "parent_id": "FAPM_APP",
       "controlled_by": ["FAPM_TWR"]
     },
     {
