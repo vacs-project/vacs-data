@@ -319,7 +319,7 @@
           },
           {
             "label": ["BL", "GMC"],
-            "station_id": "FABL_GMC"
+            "station_id": "FABL_TWR"
           },
           {
             "label": ["BL", "TWR"],
