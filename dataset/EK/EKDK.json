@@ -1,0 +1,283 @@
+{
+  "id": "EKDK",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EKDK"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["FMP", ""],
+            "station_id": "EKDKFMP"
+          },
+          {
+            "label": ["APPCO", ""],
+            "station_id": "EKCHAPPCO"
+          },
+          {
+            "label": ["DK", "UV"],
+            "station_id": "EKDKUV"
+          },
+          {
+            "label": ["DK", "V"],
+            "station_id": "EKDKV"
+          },
+          {
+            "label": ["DK", "L"],
+            "station_id": "EKDKL"
+          },
+          {
+            "label": ["DK", "E"],
+            "station_id": "EKDKE"
+          },
+          {
+            "label": ["DK", "N"],
+            "station_id": "EKDKN"
+          },
+          {
+            "label": ["DK", "UC"],
+            "station_id": "EKDKUC"
+          },
+          {
+            "label": ["DK", "C"],
+            "station_id": "EKDKC"
+          },
+          {
+            "label": ["DK", "D"],
+            "station_id": "EKDKD"
+          },
+          {
+            "label": ["W", "APP"],
+            "station_id": "EKCHAPPW"
+          },
+          {
+            "label": ["DK", "UA"],
+            "station_id": "EKDKUA"
+          },
+          {
+            "label": ["DK", "A"],
+            "station_id": "EKDKA"
+          },
+          {
+            "label": ["DK", "I"],
+            "station_id": "EKDKI"
+          },
+          {
+            "label": ["DK", "B"],
+            "station_id": "EKDKB"
+          },
+          {
+            "label": ["O", "APP"],
+            "station_id": "EKCHAPPE"
+          },
+          {
+            "label": ["RK", "TWR"],
+            "station_id": "EKRKTWR"
+          },
+          {
+            "label": ["RK", "APP"],
+            "station_id": "EKRKAPP"
+          },
+          {
+            "label": ["R", "DEP"],
+            "station_id": "EKCHDEPR"
+          },
+          {
+            "label": ["K", "DEP"],
+            "station_id": "EKCHDEPK"
+          },
+          {
+            "label": ["TWR", "ARR"],
+            "station_id": "EKCH_A_TWR"
+          },
+          {
+            "label": ["TWR", "DEP"],
+            "station_id": "EKCH_D_TWR"
+          },
+          {
+            "label": ["APN"],
+            "station_id": "EKCH_A_GND"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["REGIONALS"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BI", "APP"],
+            "station_id": "EKBIAPP"
+          },
+          {
+            "label": ["BI", "TWR"],
+            "station_id": "EKBI_TWR"
+          },
+          {
+            "label": ["YT", "APP"],
+            "station_id": "EKYTAPP"
+          },
+          {
+            "label": ["YT", "TWR"],
+            "station_id": "EKYTTWR"
+          },
+          {
+            "label": ["AH", "APP"],
+            "station_id": "EKAHAPP"
+          },
+          {
+            "label": ["AH", "TWR"],
+            "station_id": "EKAH_TWR"
+          },
+          {
+            "label": ["SP", "APP"],
+            "station_id": "EKSPAPP"
+          },
+          {
+            "label": ["SP", "TWR"],
+            "station_id": "EKSPTWR"
+          },
+          {
+            "label": ["KA", "APP"],
+            "station_id": "EKKAAPP"
+          },
+          {
+            "label": ["KA", "TWR"],
+            "station_id": "EKKATWR"
+          },
+          {
+            "label": ["SB", "I TWR"],
+            "station_id": "EKSB"
+          },
+          {
+            "label": ["OD", "I TWR"],
+            "station_id": "EKODTIA"
+          },
+          {
+            "label": ["EB", "I TWR"],
+            "station_id": "EKEBTIZ"
+          },
+          {
+            "label": ["RN", "TWR"],
+            "station_id": "EKRN TWR"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["FOREIGN ACC"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["PX", "N"]
+          },
+          {
+            "label": ["PX", "N", "LOW"]
+          },
+          {
+            "label": ["PX", "S"]
+          },
+          {
+            "label": ["SV", "W"]
+          },
+          {
+            "label": ["OS", "8"]
+          },
+          {
+            "label": ["OS", "4"]
+          },
+          {
+            "label": ["SV", "O"]
+          },
+          {
+            "label": ["MM", "4"],
+            "station_id": "ESMM_4"
+          },
+          {
+            "label": ["GG", "APP"],
+            "station_id": "ESGG_APP-W"
+          },
+          {
+            "label": ["MM", "K"],
+            "station_id": "ESMM_K"
+          },
+          {
+            "label": ["MM", "XK"],
+            "station_id": "ESMM_XK"
+          },
+          {
+            "label": ["MM", "L"],
+            "station_id": "ESMM_L"
+          },
+          {
+            "label": ["MM", "3"],
+            "station_id": "ESMM_3"
+          },
+          {
+            "label": ["MM", "2"],
+            "station_id": "ESMM_2"
+          },
+          {
+            "label": ["MM", "9"],
+            "station_id": "ESMM_9"
+          },
+          {
+            "label": ["MM", "8"],
+            "station_id": "ESMM_8"
+          },
+          {
+            "label": ["MM", "IN"],
+            "station_id": "ESMM_IN"
+          },
+          {
+            "label": ["MM", "IS"],
+            "station_id": "ESMM_IS"
+          },
+          {
+            "label": ["UU", "O"],
+            "station_id": "EDUU-OSE12"
+          },
+          {
+            "label": ["UU", "OH"],
+            "station_id": "EDUU-OSE22"
+          },
+          {
+            "label": ["YY", "JL"],
+            "station_id": "EDYY-JL"
+          },
+          {
+            "label": ["YY", "JH"],
+            "station_id": "EDYY-JH"
+          },
+          {
+            "label": ["YY", "HL"],
+            "station_id": "EDYY-HL"
+          },
+          {
+            "label": ["YY", "HH"],
+            "station_id": "EDYY-HH"
+          },
+          {
+            "label": ["WW", "MRZ"],
+            "station_id": "EDWW-MRZ"
+          },
+          {
+            "label": ["WW", "EID"],
+            "station_id": "EDWW-EID"
+          },
+          {
+            "label": ["WW", "HEI"],
+            "station_id": "EDWW-HEI"
+          },
+          {
+            "label": ["DH", "APP"],
+            "station_id": "EDWW-HAM"
+          }
+        ]
+      }
+    }
+  ]
+}
