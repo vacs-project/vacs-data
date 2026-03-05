@@ -213,7 +213,7 @@
       "id": "FAEL_INFO",
       "parent_id": "FAEL_TWR",
       "controlled_by": ["FAEL_I_TWR"]
-    }
+    },
     {
       "id": "FAGG_APP",
       "parent_id": "FACA_E",
