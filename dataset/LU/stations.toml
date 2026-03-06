@@ -12,7 +12,14 @@ controlled_by = ["LUKK_TWR", "LUKK_APP", "LUUU_CTR", "LRBB_E_CTR", "LRBB_CTR"]
 
 [[stations]]
 id = "LUKK_GND"
-controlled_by = ["LUKK_GND", "LUKK_TWR", "LUKK_APP", "LUUU_CTR", "LRBB_E_CTR", "LRBB_CTR"]
+controlled_by = [
+  "LUKK_GND",
+  "LUKK_TWR",
+  "LUKK_APP",
+  "LUUU_CTR",
+  "LRBB_E_CTR",
+  "LRBB_CTR",
+]
 
 [[stations]]
 id = "LUUU_CTR"
