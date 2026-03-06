@@ -310,6 +310,7 @@
     },
     {
       "id": "FXMM_APP",
+      "parent_id": "FAJA_E",
       "controlled_by": ["FXMM_APP"]
     },
     {
