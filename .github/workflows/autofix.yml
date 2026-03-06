@@ -1,14 +1,8 @@
 name: autofix.ci
 on:
   pull_request:
-    paths:
-      - "dataset/**"
-      - ".github/workflows/autofix.yml"
   push:
     branches: ["main"]
-    paths:
-      - "dataset/**"
-      - ".github/workflows/autofix.yml"
 
 permissions:
   contents: read
