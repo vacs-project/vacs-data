@@ -225,14 +225,14 @@
     {
       "id": "FACT_F_APP",
       "prefixes": ["FACT"],
-      "frequency": "119.700",
+      "frequency": "124.350",
       "facility_type": "APP",
       "profile_id": "FACT"
     },
     {
       "id": "FACT_TWR",
       "prefixes": ["FACT"],
-      "frequency": "119.700",
+      "frequency": "118.100",
       "facility_type": "TWR",
       "profile_id": "FACT"
     },
