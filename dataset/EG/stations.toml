@@ -300,7 +300,7 @@ controlled_by = ["LON_H_CTR"]
 [[stations]]
 id = "LON_S_CTR"
 parent_id = "LON_SC_CTR"
-controlled_by = ["LON_SC_CTR"]
+controlled_by = ["LON_S_CTR"]
 
 ####################
 # NORTH LAG SECTORS
@@ -819,8 +819,46 @@ parent_id = "EGWU_F_APP"
 controlled_by = ["EGWU_P_APP"]
 
 [[stations]]
+id = "EGYP_APP"
+parent_id = "ISLAND_CTR"
+controlled_by = ["EGYP_APP", "EGYP_P_APP"]
+
+[[stations]]
+id = "EGYP_P_APP"
+parent_id = "EGYP_APP"
+controlled_by = ["EGYP_P_APP"]
+
+[[stations]]
+id = "EGYP_TWR"
+parent_id = "EGYP_APP"
+controlled_by = ["EGYP_TWR"]
+
+[[stations]]
+id = "EGYP_GND"
+parent_id = "EGYP_TWR"
+controlled_by = ["EGYP_GND"]
+
+[[stations]]
+id = "LXGB_APP"
+controlled_by = ["LXGB_APP", "LXGB_P_APP"]
+
+[[stations]]
+id = "LXGB_P_APP"
+parent_id = "LXGB_APP"
+controlled_by = ["LXGB_P_APP"]
+
+[[stations]]
+id = "LXGB_TWR"
+parent_id = "LXGB_APP"
+controlled_by = ["LXGB_TWR"]
+
+[[stations]]
 id = "ESSEX_APP"
 controlled_by = ["ESSEX_APP"]
+
+[[stations]]
+id = "ISLAND_CTR"
+controlled_by = ["ISLAND_CTR"]
 
 [[stations]]
 id = "SOLENT_APP"
@@ -848,3 +886,7 @@ controlled_by = [
   "LON_SC_CTR",
   "LON_CTR",
 ]
+
+[[stations]]
+id = "SFAL_I_TWR"
+controlled_by = ["SFAL_I_TWR"]

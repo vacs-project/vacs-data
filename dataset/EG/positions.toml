@@ -3310,3 +3310,70 @@ id = "EGGX_F_DEL"
 prefixes = ["EGGX"]
 frequency = "128.375"
 facility_type = "DEL"
+
+#######################
+# Non-domestic owned
+#######################
+
+[[positions]]
+id = "LXGB_APP"
+prefixes = ["LXGB"]
+frequency = "123.300"
+facility_type = "APP"
+profile_id = "LXGB"
+
+[[positions]]
+id = "LXGB_P_APP"
+prefixes = ["LXGB"]
+frequency = "130.400"
+facility_type = "APP"
+profile_id = "LXGB"
+
+[[positions]]
+id = "LXGB_TWR"
+prefixes = ["LXGB"]
+frequency = "131.200"
+facility_type = "TWR"
+profile_id = "LXGB"
+
+[[positions]]
+id = "ISLAND_CTR"
+prefixes = ["ISLAND"]
+frequency = "131.500"
+facility_type = "CTR"
+profile_id = "ISLAND"
+
+[[positions]]
+id = "EGYP_APP"
+prefixes = ["EGYP"]
+frequency = "118.500"
+facility_type = "APP"
+profile_id = "ISLAND"
+
+[[positions]]
+id = "EGYP_P_APP"
+prefixes = ["EGYP"]
+frequency = "125.950"
+facility_type = "APP"
+profile_id = "ISLAND"
+
+[[positions]]
+id = "EGYP_TWR"
+prefixes = ["EGYP"]
+frequency = "133.350"
+facility_type = "TWR"
+profile_id = "ISLAND"
+
+[[positions]]
+id = "EGYP_GND"
+prefixes = ["EGYP"]
+frequency = "130.300"
+facility_type = "GND"
+profile_id = "ISLAND"
+
+[[positions]]
+id = "SFAL_I_TWR"
+prefixes = ["SFAL"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "ISLAND"

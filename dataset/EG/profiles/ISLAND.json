@@ -1,0 +1,57 @@
+{
+  "id": "ISLAND",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "ISLAND",
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["Comodoro", "Centro", "(INOP)"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Stanley", "Info"],
+            "station_id": "SFAL_I_TWR"
+          },
+
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ISLAND", "RAD"],
+            "station_id": "ISLAND_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["YP", "GMC"],
+            "station_id": "EGYP_GND"
+          },
+          {
+            "label": ["YP", "RAD"],
+            "station_id": "EGYP_APP"
+          },
+          {
+            "label": ["YP", "T/D"],
+            "station_id": "EGYP_P_APP"
+          },
+          {
+            "label": ["YP", "AIR"],
+            "station_id": "EGYP_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}
