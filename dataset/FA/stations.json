@@ -3,12 +3,12 @@
     {
       "id": "FACA_FMP",
       "parent_id": "FACA_W",
-      "controlled_by": ["FACA_FMP"]
+      "controlled_by": ["FACA_FMP", "FASA_CTR"]
     },
     {
       "id": "FAJA_FMP",
       "parent_id": "FAJA_NE",
-      "controlled_by": ["FAJA_FMP"]
+      "controlled_by": ["FAJA_FMP", "FASA_CTR"]
     },
     {
       "id": "FASA",
@@ -16,11 +16,11 @@
     },
     {
       "id": "FAJA_N",
-      "controlled_by": ["FAJA_N_CTR", "FAJA_CTR"]
+      "controlled_by": ["FAJA_N_CTR", "FAJA_CTR", "FASA_CTR"]
     },
     {
       "id": "FAJA_NE",
-      "controlled_by": ["FAJA_NE_CTR", "FAJA_N_CTR", "FAJA_CTR"]
+      "controlled_by": ["FAJA_NE_CTR", "FAJA_N_CTR", "FAJA_CTR", "FASA_CTR"]
     },
     {
       "id": "FAJA_NW",
@@ -39,7 +39,7 @@
     },
     {
       "id": "FAJA_S",
-      "controlled_by": ["FAJA_S_CTR", "FAJA_CTR"]
+      "controlled_by": ["FAJA_S_CTR", "FAJA_CTR", "FASA_CTR"]
     },
     {
       "id": "FAJA_W",
@@ -58,7 +58,7 @@
     },
     {
       "id": "FACA_W",
-      "controlled_by": ["FACA_CTR"]
+      "controlled_by": ["FACA_CTR", "FASA_CTR"]
     },
     {
       "id": "FACA_E",
