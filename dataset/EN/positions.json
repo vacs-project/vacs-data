@@ -734,21 +734,21 @@
       "id": "ENVA_D_APP",
       "prefixes": ["ENVA"],
       "frequency": "119.155",
-      "facility_type": "APP"
+      "facility_type": "APP",
 	  "profile_id": "ENVA-APP"
     },
     {
       "id": "ENVA_GND",
       "prefixes": ["ENVA"],
       "frequency": "121.605",
-      "facility_type": "GND"
+      "facility_type": "GND",
 	  "profile_id": "ENVA-TWR"
     },
     {
       "id": "ENVA_TWR",
       "prefixes": ["ENVA"],
       "frequency": "119.405",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
 	  "profile_id": "ENVA-TWR"
     },
     {
