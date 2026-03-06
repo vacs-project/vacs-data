@@ -576,6 +576,18 @@
       "prefixes": ["FAHS"],
       "frequency": "134.350",
       "facility_type": "GND"
-    }
+    },
+    {
+      "id": "FAYP_TWR",
+      "prefixes": ["FAYP"],
+      "frequency": "125.500",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "FAYP_GND",
+      "prefixes": ["FAYP"],
+      "frequency": "121.850",
+      "facility_type": "GND"
+     }
   ]
 }

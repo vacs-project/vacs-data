@@ -405,6 +405,16 @@
       "id": "FAHS_GMC",
       "parent_id": "FAHS_TWR",
       "controlled_by": ["FAHS_GND"]
+    },
+    {
+      "id": "FAYP_TWR",
+      "parent_id": "FACT_TWR",
+      "controlled_by": ["FAYP_TWR"]
+    },
+    {
+      "id": "FAYP_GMC",
+      "parent_id": "FAYP_TWR",
+      "controlled_by": ["FAYP_GND"]
     }
   ]
 }
