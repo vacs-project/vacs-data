@@ -301,19 +301,6 @@
       ]
     },
     {
-      "id": "ENSV_O_CTR",
-      "controlled_by": [
-        "ENSV_O_CTR",
-        "ENSV_16_CTR",
-        "ENSV_N_CTR",
-        "ENSV_CTR",
-        "ENOR_S_CTR",
-        "ENOR_SC_CTR",
-        "ENOR_CTR",
-        "ENSV_W_CTR"
-      ]
-    },
-    {
       "id": "ENLE_H_TWR",
       "controlled_by": [
         "ENLE_H_TWR",
@@ -937,10 +924,6 @@
     {
       "id": "ENVA_D_APP",
       "controlled_by": ["ENVA_D_APP"]
-    },
-    {
-      "id": "ENOB_CTR",
-      "controlled_by": ["ENOB_CTR"]
     },
     {
       "id": "ENAN_APP",

@@ -1,0 +1,57 @@
+{
+  "id": "ENVA-TWR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENVA TWR"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["VA", "APP"],
+            "station_id": "ENVA_APP"
+          },
+          {
+            "label": ["VA", "DIR"],
+            "station_id": "ENVA_D_APP"
+          },
+          {
+            "label": ["VA", "TWR"],
+            "station_id": "ENVA_TWR"
+          },
+          {
+            "label": ["VA", "GND"],
+            "station_id": "ENVA_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OL", "APP"],
+            "station_id": "ENOL_APP"
+          },
+          {
+            "label": ["OL", "ARR"],
+            "station_id": "ENOL_A_APP"
+          },
+          {
+            "label": ["OL", "TWR"],
+            "station_id": "ENOL_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}
