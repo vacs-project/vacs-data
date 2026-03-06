@@ -300,7 +300,7 @@ controlled_by = ["LON_H_CTR"]
 [[stations]]
 id = "LON_S_CTR"
 parent_id = "LON_SC_CTR"
-controlled_by = ["LON_SC_CTR"]
+controlled_by = ["LON_S_CTR"]
 
 ####################
 # NORTH LAG SECTORS
