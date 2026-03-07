@@ -127,13 +127,6 @@
       "profile_id": "ENBO"
     },
     {
-      "id": "ENBR_DEL",
-      "prefixes": ["ENBR"],
-      "frequency": "123.405",
-      "facility_type": "DEL",
-      "profile_id": "ENBR-TWR"
-    },
-    {
       "id": "ENBR_D_APP",
       "prefixes": ["ENBR"],
       "frequency": "118.855",
@@ -146,6 +139,20 @@
       "frequency": "126.105",
       "facility_type": "APP",
       "profile_id": "ENBR-APP"
+    },
+    {
+      "id": "ENBR_W_APP",
+      "prefixes": ["ENBR"],
+      "frequency": "121.005",
+      "facility_type": "APP",
+      "profile_id": "ENBR-APP"
+    },
+    {
+      "id": "ENBR_TWR",
+      "prefixes": ["ENBR"],
+      "frequency": "119.105",
+      "facility_type": "TWR",
+      "profile_id": "ENBR-TWR"
     },
     {
       "id": "ENBR_GND",
@@ -169,18 +176,11 @@
       "profile_id": "ENBR-TWR"
     },
     {
-      "id": "ENBR_TWR",
+      "id": "ENBR_DEL",
       "prefixes": ["ENBR"],
-      "frequency": "119.105",
-      "facility_type": "TWR",
+      "frequency": "123.405",
+      "facility_type": "DEL",
       "profile_id": "ENBR-TWR"
-    },
-    {
-      "id": "ENBR_W_APP",
-      "prefixes": ["ENBR"],
-      "frequency": "121.005",
-      "facility_type": "APP",
-      "profile_id": "ENBR-APP"
     },
     {
       "id": "ENBS_I_TWR",
@@ -218,17 +218,17 @@
       "profile_id": "ENDU"
     },
     {
-      "id": "ENDU_DEL",
-      "prefixes": ["ENDU"],
-      "frequency": "122.100",
-      "facility_type": "DEL",
-      "profile_id": "ENDU"
-    },
-    {
       "id": "ENDU_TWR",
       "prefixes": ["ENDU"],
       "frequency": "118.105",
       "facility_type": "TWR",
+      "profile_id": "ENDU"
+    },
+    {
+      "id": "ENDU_DEL",
+      "prefixes": ["ENDU"],
+      "frequency": "122.100",
+      "facility_type": "DEL",
       "profile_id": "ENDU"
     },
     {
@@ -239,17 +239,17 @@
       "profile_id": "ENEV"
     },
     {
-      "id": "ENEV_GND",
-      "prefixes": ["ENEV"],
-      "frequency": "121.855",
-      "facility_type": "GND",
-      "profile_id": "ENEV"
-    },
-    {
       "id": "ENEV_TWR",
       "prefixes": ["ENEV"],
       "frequency": "118.005",
       "facility_type": "TWR",
+      "profile_id": "ENEV"
+    },
+    {
+      "id": "ENEV_GND",
+      "prefixes": ["ENEV"],
+      "frequency": "121.855",
+      "facility_type": "GND",
       "profile_id": "ENEV"
     },
     {
@@ -281,18 +281,18 @@
       "profile_id": "ENGM-APP"
     },
     {
-      "id": "ENGM_E_DEL",
+      "id": "ENGM_F_APP",
       "prefixes": ["ENGM"],
-      "frequency": "121.930",
-      "facility_type": "DEL",
-      "profile_id": "ENGM-TWR"
+      "frequency": "128.905",
+      "facility_type": "APP",
+      "profile_id": "ENGM-APP"
     },
     {
-      "id": "ENGM_E_GND",
+      "id": "ENGM_W_APP",
       "prefixes": ["ENGM"],
-      "frequency": "121.905",
-      "facility_type": "GND",
-      "profile_id": "ENGM-TWR"
+      "frequency": "120.455",
+      "facility_type": "APP",
+      "profile_id": "ENGM-APP"
     },
     {
       "id": "ENGM_E_TWR",
@@ -302,11 +302,18 @@
       "profile_id": "ENGM-TWR"
     },
     {
-      "id": "ENGM_F_APP",
+      "id": "ENGM_W_TWR",
       "prefixes": ["ENGM"],
-      "frequency": "128.905",
-      "facility_type": "APP",
-      "profile_id": "ENGM-APP"
+      "frequency": "118.305",
+      "facility_type": "TWR",
+      "profile_id": "ENGM-TWR"
+    },
+    {
+      "id": "ENGM_E_GND",
+      "prefixes": ["ENGM"],
+      "frequency": "121.905",
+      "facility_type": "GND",
+      "profile_id": "ENGM-TWR"
     },
     {
       "id": "ENGM_ICE_GND",
@@ -323,20 +330,6 @@
       "profile_id": "ENGM-TWR"
     },
     {
-      "id": "ENGM_W_APP",
-      "prefixes": ["ENGM"],
-      "frequency": "120.455",
-      "facility_type": "APP",
-      "profile_id": "ENGM-APP"
-    },
-    {
-      "id": "ENGM_W_DEL",
-      "prefixes": ["ENGM"],
-      "frequency": "121.680",
-      "facility_type": "DEL",
-      "profile_id": "ENGM-TWR"
-    },
-    {
       "id": "ENGM_W_GND",
       "prefixes": ["ENGM"],
       "frequency": "121.605",
@@ -344,10 +337,17 @@
       "profile_id": "ENGM-TWR"
     },
     {
-      "id": "ENGM_W_TWR",
+      "id": "ENGM_E_DEL",
       "prefixes": ["ENGM"],
-      "frequency": "118.305",
-      "facility_type": "TWR",
+      "frequency": "121.930",
+      "facility_type": "DEL",
+      "profile_id": "ENGM-TWR"
+    },
+    {
+      "id": "ENGM_W_DEL",
+      "prefixes": ["ENGM"],
+      "frequency": "121.680",
+      "facility_type": "DEL",
       "profile_id": "ENGM-TWR"
     },
     {
@@ -617,17 +617,17 @@
       "profile_id": "LOFOTEN"
     },
     {
-      "id": "ENRY_GND",
-      "prefixes": ["ENRY"],
-      "frequency": "121.705",
-      "facility_type": "GND",
-      "profile_id": "FARRIS-TWR"
-    },
-    {
       "id": "ENRY_TWR",
       "prefixes": ["ENRY"],
       "frequency": "119.505",
       "facility_type": "TWR",
+      "profile_id": "FARRIS-TWR"
+    },
+    {
+      "id": "ENRY_GND",
+      "prefixes": ["ENRY"],
+      "frequency": "121.705",
+      "facility_type": "GND",
       "profile_id": "FARRIS-TWR"
     },
     {
@@ -750,17 +750,17 @@
       "profile_id": "ENTC"
     },
     {
-      "id": "ENTC_DEL",
-      "prefixes": ["ENTC"],
-      "frequency": "121.855",
-      "facility_type": "DEL",
-      "profile_id": "ENTC"
-    },
-    {
       "id": "ENTC_TWR",
       "prefixes": ["ENTC"],
       "frequency": "118.305",
       "facility_type": "TWR",
+      "profile_id": "ENTC"
+    },
+    {
+      "id": "ENTC_DEL",
+      "prefixes": ["ENTC"],
+      "frequency": "121.855",
+      "facility_type": "DEL",
       "profile_id": "ENTC"
     },
     {
@@ -778,17 +778,17 @@
       "profile_id": "FARRIS"
     },
     {
-      "id": "ENTO_GND",
-      "prefixes": ["ENTO"],
-      "frequency": "126.180",
-      "facility_type": "GND",
-      "profile_id": "FARRIS-TWR"
-    },
-    {
       "id": "ENTO_TWR",
       "prefixes": ["ENTO"],
       "frequency": "118.655",
       "facility_type": "TWR",
+      "profile_id": "FARRIS-TWR"
+    },
+    {
+      "id": "ENTO_GND",
+      "prefixes": ["ENTO"],
+      "frequency": "126.180",
+      "facility_type": "GND",
       "profile_id": "FARRIS-TWR"
     },
     {
@@ -806,17 +806,17 @@
       "profile_id": "ENVA-APP"
     },
     {
-      "id": "ENVA_GND",
-      "prefixes": ["ENVA"],
-      "frequency": "121.605",
-      "facility_type": "GND",
-      "profile_id": "ENVA-TWR"
-    },
-    {
       "id": "ENVA_TWR",
       "prefixes": ["ENVA"],
       "frequency": "119.405",
       "facility_type": "TWR",
+      "profile_id": "ENVA-TWR"
+    },
+    {
+      "id": "ENVA_GND",
+      "prefixes": ["ENVA"],
+      "frequency": "121.605",
+      "facility_type": "GND",
       "profile_id": "ENVA-TWR"
     },
     {
@@ -841,17 +841,17 @@
       "profile_id": "ENZV-APP"
     },
     {
-      "id": "ENZV_GND",
-      "prefixes": ["ENZV"],
-      "frequency": "121.755",
-      "facility_type": "GND",
-      "profile_id": "ENZV-TWR"
-    },
-    {
       "id": "ENZV_TWR",
       "prefixes": ["ENZV"],
       "frequency": "118.355",
       "facility_type": "TWR",
+      "profile_id": "ENZV-TWR"
+    },
+    {
+      "id": "ENZV_GND",
+      "prefixes": ["ENZV"],
+      "frequency": "121.755",
+      "facility_type": "GND",
       "profile_id": "ENZV-TWR"
     }
   ]
