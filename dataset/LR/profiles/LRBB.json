@@ -29,26 +29,27 @@
             "label": ["BELGRAD", "FDA"]
           },
           {
-            "label": ["SOFIA", "W"],
+            "label": ["SOFIA", "W-SOF"],
             "station_id": "LBSR-SOF"
           },
           {
-            "label": ["SOFIA", "E"],
+            "label": ["SOFIA", "E-SES"],
             "station_id": "LBSR-SES"
           },
           {
-            "label": ["VARNA", "W"],
+            "label": ["VARNA", "W-BSS"],
             "station_id": "LBSR-BSS"
           },
           {
-            "label": ["VARNA", "E"],
+            "label": ["VARNA", "E-VAR"],
             "station_id": "LBSR-VAR"
           },
           {
-            "label": ["FIC", "SOFIA"]
+            "label": ["APP", "VARNA"],
+            "station_id": "LBWN_APP"
           },
           {
-            "label": []
+            "label": ["FIC", "SOFIA"]
           },
           {
             "label": []
@@ -66,7 +67,7 @@
             "label": ["BPS_E", "UPP", "F345-365"]
           },
           {
-            "label": ["BPS_En", "MID", "F325-345"]
+            "label": ["BPS_EN", "MID", "F325-345"]
           },
           {
             "label": ["BPS_EN", "LOW", "F095-325"]
@@ -146,15 +147,15 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["BUDMO_LOKOM", "TOP", "F365-660"],
+            "label": ["ACC", "RV", "F365-660"],
             "station_id": "LR_BUDMO3"
           },
           {
-            "label": ["BUDMO_LOKOM", "UPP", "F345-365"],
+            "label": ["ACC", "RG", "F345-365"],
             "station_id": "LR_BUDMO2"
           },
           {
-            "label": ["BUMON", "MID"],
+            "label": ["ACC", "RW"],
             "station_id": "LR_BUMON1"
           },
           {
@@ -174,15 +175,13 @@
             "station_id": "LRTR_GND"
           },
           {
-            "label": ["NAPOC", "TOP", "F365-660"],
-            "station_id": "LR_BANAP3"
+            "label": []
           },
           {
-            "label": ["NAPOC", "UPP", "F345-365"],
-            "station_id": "LR_BANAP2"
+            "label": []
           },
           {
-            "label": ["LOKOM_NERAD", "MID"],
+            "label": ["ACC", "RS"],
             "station_id": "LR_LOKOM1"
           },
           {
@@ -202,15 +201,15 @@
             "station_id": "LRCV_TWR"
           },
           {
-            "label": ["NEBAC_DINAR", "TOP", "F365-660"],
+            "label": ["ACC", "RU", "F365-660"],
             "station_id": "LR_DINAR3"
           },
           {
-            "label": ["NEBAC_DINAR", "TOP", "F365-660"],
+            "label": ["ACC", "RH", "F345-365"],
             "station_id": "LR_DINAR2"
           },
           {
-            "label": ["BADIN", "MID"],
+            "label": ["ACC", "RE"],
             "station_id": "LR_BADIN1"
           },
           {
@@ -222,7 +221,8 @@
             "station_id": "LRIA_TWR"
           },
           {
-            "label": ["TWR", "TULCEA"]
+            "label": ["TWR", "TULCEA"],
+            "station_id": "LRTC_TWR"
           },
           {
             "label": []

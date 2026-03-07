@@ -155,6 +155,10 @@ id = "LRBV_TWR"
 controlled_by = ["LRBV_TWR", "LRBB_CTR"]
 
 [[stations]]
+id = "LRTC_TWR"
+controlled_by = ["LRTC_TWR", "LRBB_E_CTR", "LRBB_CTR"]
+
+[[stations]]
 id = "LRBB_FIC"
 controlled_by = ["LRBB_I_CTR"]
 
