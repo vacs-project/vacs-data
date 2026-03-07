@@ -181,16 +181,20 @@
             "label": ["PX", "S"]
           },
           {
-            "label": ["SV", "W"]
+            "label": ["SV", "W"],
+            "station_id": "ENSV-10"
           },
           {
-            "label": ["OS", "8"]
+            "label": ["OS", "8"],
+            "station_id": "ENOS-8"
           },
           {
-            "label": ["OS", "4"]
+            "label": ["OS", "4"],
+            "station_id": "ENOS-4"
           },
           {
-            "label": ["SV", "O"]
+            "label": ["SV", "O"],
+            "station_id": "ENSV-22"
           },
           {
             "label": ["MM", "4"],

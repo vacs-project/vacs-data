@@ -80,25 +80,30 @@
             "station_id": "EDGG-SIG"
           },
           {
-            "label": [""]
+            "label": ["EHVK", "CRS"]
+          },
+          {
+            "label": ["RH"],
+            "station_id": "EDYY-RH"
           },
           {
             "label": ["RL"],
             "station_id": "EDYY-RL"
           },
           {
-            "label": ["ML"],
-            "station_id": "EDYY-ML"
+            "label": ["EDUU", "NTM"],
+            "station_id": "EDUU-NTM"
           },
           {
             "label": ["EDYY", "YYD"]
           },
           {
-            "label": ["EHVK", "CRS"]
+            "label": ["MH"],
+            "station_id": "EDYY-MH"
           },
           {
-            "label": ["EDUU", "NTM"],
-            "station_id": "EDUU-NTM"
+            "label": ["ML"],
+            "station_id": "EDYY-ML"
           },
           {
             "label": ["EDUU", "FFM"],
@@ -106,9 +111,6 @@
           },
           {
             "label": ["EDYY", "YO"]
-          },
-          {
-            "label": [""]
           }
         ]
       }

@@ -32,8 +32,8 @@
             "station_id": "EDGG-DLGE"
           },
           {
-            "label": ["ML"],
-            "station_id": "EDYY-ML"
+            "label": ["RH"],
+            "station_id": "EDYY-RH"
           },
           {
             "label": ["EDGG", "SIG"],
@@ -53,8 +53,8 @@
             "label": [""]
           },
           {
-            "label": ["EDUU", "FFM"],
-            "station_id": "EDUU-FFM"
+            "label": ["ML"],
+            "station_id": "EDYY-ML"
           },
           {
             "label": ["EDGG", "TAU"],
@@ -77,8 +77,8 @@
             "station_id": "EDGG-DKG"
           },
           {
-            "label": ["EDUU", "NTM"],
-            "station_id": "EDUU-NTM"
+            "label": ["MH"],
+            "station_id": "EDYY-MH"
           },
           {
             "label": ["EDGG", "RUD"],
@@ -98,7 +98,8 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["EDUU", "FFM"],
+            "station_id": "EDUU-FFM"
           },
           {
             "label": ["EHAA", "ACE"]
@@ -117,13 +118,14 @@
             "label": [""]
           },
           {
+            "label": ["EDUU", "NTM"],
+            "station_id": "EDUU-NTM"
+          },
+          {
             "label": ["EDYY", "YO"]
           },
           {
             "label": ["EBBU", "BE"]
-          },
-          {
-            "label": [""]
           },
           {
             "label": [""]

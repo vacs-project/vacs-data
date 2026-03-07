@@ -227,6 +227,7 @@ controlled_by = [
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
   "EKDK_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -246,6 +247,7 @@ controlled_by = [
   "EKDK_UA_CTR",
   "EKDK_UC_CTR",
   "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -260,6 +262,7 @@ controlled_by = [
   "EKDK_UA_CTR",
   "EKDK_UC_CTR",
   "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -271,6 +274,7 @@ controlled_by = [
   "EKDK_UC_CTR",
   "EKDK_UA_CTR",
   "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -285,6 +289,7 @@ controlled_by = [
   "EKDK_UC_CTR",
   "EKDK_UA_CTR",
   "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -299,6 +304,7 @@ controlled_by = [
   "EKDK_UC_CTR",
   "EKDK_UA_CTR",
   "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -313,6 +319,7 @@ controlled_by = [
   "EKDK_UA_CTR",
   "EKDK_UC_CTR",
   "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -323,12 +330,29 @@ controlled_by = [
   "EKDK_V_CTR",
   "EKDK_N_CTR",
   "EKDK_CTR",
+  "EKDK_UN_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKDKUN"
+controlled_by = [
+  "EKDK_N_CTR",
+  "EKDK_V_CTR",
+  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
 [[stations]]
 id = "EKDKN"
-controlled_by = ["EKDK_N_CTR", "EKDK_V_CTR", "EKDK_CTR", "EKDK_UV_CTR"]
+controlled_by = [
+  "EKDK_N_CTR",
+  "EKDK_V_CTR",
+  "EKDK_CTR",
+  "EKDK_UN_CTR",
+  "EKDK_UV_CTR",
+]
 
 [[stations]]
 id = "EKDKUA"
@@ -338,6 +362,7 @@ controlled_by = [
   "EKDK_C_CTR",
   "EKDK_UC_CTR",
   "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 

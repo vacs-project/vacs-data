@@ -32,8 +32,8 @@
             "station_id": "EDGG-DLC"
           },
           {
-            "label": ["ML"],
-            "station_id": "EDYY-ML"
+            "label": ["RH"],
+            "station_id": "EDYY-RH"
           },
           {
             "label": ["SIG"],
@@ -54,7 +54,8 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["ML"],
+            "station_id": "EDYY-ML"
           },
           {
             "label": ["TAU"],
@@ -76,7 +77,8 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["MH"],
+            "station_id": "EDYY-MH"
           },
           {
             "label": [""]

@@ -154,7 +154,8 @@
             "station_id": "EDGG-TOUT"
           },
           {
-            "label": ["EDYY", "LNH"]
+            "label": ["EDYY", "RH"],
+            "station_id": "EDYY-RH"
           },
           {
             "label": ["EDGG", "NKRH"],
@@ -172,7 +173,7 @@
             "station_id": "EDGG-TART"
           },
           {
-            "label": ["EDYY", "LXH"]
+            "label": ["EDYY", "LNH"]
           },
           {
             "label": ["EBUU", "BL"]
@@ -188,7 +189,7 @@
             "label": [""]
           },
           {
-            "label": ["LFEE", "UE"]
+            "label": ["EDYY", "LXH"]
           },
           {
             "label": ["EBUU", "BE"]
@@ -204,7 +205,7 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["LFEE", "UE"]
           },
           {
             "label": [""]

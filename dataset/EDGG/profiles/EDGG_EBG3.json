@@ -231,11 +231,12 @@
             "station_id": "EDMM-GER"
           },
           {
-            "label": ["EDYY", "SL"],
-            "station_id": "EDYY-SL"
+            "label": ["EDYY", "SH"],
+            "station_id": "EDYY-SH"
           },
           {
-            "label": [""]
+            "label": ["EDYY", "SL"],
+            "station_id": "EDYY-SL"
           },
           {
             "label": ["EDGG", "HAB"],

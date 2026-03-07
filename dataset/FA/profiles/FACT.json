@@ -135,8 +135,8 @@
             "label": []
           },
           {
-            "label": ["RDR"],
-            "station_id": "FAOR_RDR"
+            "label": ["APP"],
+            "station_id": "FACT_APP"
           },
           {
             "label": []
