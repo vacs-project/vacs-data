@@ -725,7 +725,7 @@
       "id": "EDDG_GND",
       "prefixes": ["EDDG"],
       "frequency": "121.880",
-      "facility_type": "TWR",
+      "facility_type": "GND",
       "profile_id": "EDGG_TWR"
     },
     {
