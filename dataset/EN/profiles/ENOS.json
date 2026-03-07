@@ -71,7 +71,8 @@
             "label": []
           },
           {
-            "label": ["DK UN ", "FL365+"]
+            "label": ["DK UN ", "FL365+"],
+            "station_id": "EKDKUN"
           },
           {
             "label": ["DK N", "FL365-"],
