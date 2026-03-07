@@ -901,7 +901,7 @@ controlled_by = ["NAT_FSS"]
 
 [[stations]]
 id = "Shanwick"
-parent_id = "NAT_FSS"
+parent_id = "NAT_BBx"
 controlled_by = ["EGGX_CTR"]
 
 [[stations]]
