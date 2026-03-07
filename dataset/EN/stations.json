@@ -151,7 +151,16 @@
     },
     {
       "id": "ENBR_D_APP",
-      "controlled_by": ["ENBR_D_APP"]
+      "controlled_by": [
+        "ENBR_D_APP",
+        "ENBR_W_APP",
+        "ENBR_E_APP",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
     },
     {
       "id": "ENBR_E_APP",
@@ -1355,7 +1364,16 @@
     },
     {
       "id": "ENVA_D_APP",
-      "controlled_by": ["ENVA_D_APP"]
+      "controlled_by": [
+        "ENVA_D_APP",
+        "ENVA_APP",
+        "ENBD_19_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
     },
     {
       "id": "ENVA_TWR",
