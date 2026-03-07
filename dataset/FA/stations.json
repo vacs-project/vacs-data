@@ -146,7 +146,7 @@
     },
     {
       "id": "FACT_TWR",
-      "parent_id": "FACT_FIN",
+      "parent_id": "FACT_APP",
       "controlled_by": ["FACT_TWR"]
     },
     {
