@@ -1,0 +1,55 @@
+{
+  "id": "OFFSHORE",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OFFSHORE"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["EKOFISK", "HFIS"],
+            "station_id": "ENLE_H_TWR"
+          },
+          {
+            "label": ["TAMPEN", "HFIS"],
+            "station_id": "ENGC_H_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SV 20", "Offshore"],
+            "station_id": "ENSV-20"
+          },
+          {
+            "label": ["SV 21", "Offshore"],
+            "station_id": "ENSV-21"
+          },
+          {
+            "label": ["SV 22", "Offshore"],
+            "station_id": "ENSV-22"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EGPD", "HELS"]
+          },
+          {
+            "label": ["EGPB", "APP"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

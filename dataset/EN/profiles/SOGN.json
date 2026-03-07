@@ -1,0 +1,62 @@
+{
+  "id": "SOGN",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["SOGN TWR"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["FL", "AFIS"],
+            "station_id": "ENFL_I_TWR"
+          },
+          {
+            "label": ["BL", "AFIS"],
+            "station_id": "ENBL_I_TWR"
+          },
+          {
+            "label": ["SD", "AFIS"],
+            "station_id": "ENSD_I_TWR"
+          },
+          {
+            "label": ["SG", "AFIS"],
+            "station_id": "ENSG_I_TWR"
+          },
+          {
+            "label": ["SV 17"],
+            "station_id": "ENSV-17"
+          },
+          {
+            "label": ["SV 20", "Offshore"],
+            "station_id": "ENSV-20"
+          },
+          {
+            "label": ["OS 7"],
+            "station_id": "ENOS-7"
+          },
+          {
+            "label": ["OS 6"],
+            "station_id": "ENOS-6"
+          },
+          {
+            "label": ["BR W", "APP"],
+            "station_id": "ENBR_W_APP"
+          },
+          {
+            "label": ["BR E", "APP"],
+            "station_id": "ENBR_E_APP"
+          },
+          {
+            "label": ["MØRE SOUTH", "APP"],
+            "station_id": "ENAL_APP"
+          },
+          {
+            "label": ["OV", "AFIS"],
+            "station_id": "ENOV_I_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

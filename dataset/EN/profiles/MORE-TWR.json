@@ -1,0 +1,44 @@
+{
+  "id": "MORE-TWR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["MØRE TWR"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["MØRE APP", "NORTH"],
+            "station_id": "ENKB_APP"
+          },
+          {
+            "label": ["MØRE APP", "SOUTH"],
+            "station_id": "ENAL_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["AL", "TWR"],
+            "station_id": "ENAL_TWR"
+          },
+          {
+            "label": ["KB", "TWR"],
+            "station_id": "ENKB_TWR"
+          },
+          {
+            "label": ["ML", "AFIS"],
+            "station_id": "ENML_I_TWR"
+          },
+          {
+            "label": ["", "OV", "AFIS"],
+            "station_id": "ENOV_I_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

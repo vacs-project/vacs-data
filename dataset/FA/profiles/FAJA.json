@@ -3,55 +3,363 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "FAJA",
+      "label": ["ACC"],
       "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "FAJA_*",
-            "FASA_*",
-
-            "FACA_*",
-
-            "FAOR_*",
-            "FALA_*",
-            "FALE_*",
-            "FABL_*",
-            "FAKM_*",
-            "FAKN_*",
-            "FAPP_*",
-            "FAPM_*",
-            "FARB_*",
-            "FAWB_*",
-            "FAUP_*",
-            "FAGM_*",
-            "FAVG_*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "Icao"
-        }
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["WEST", "ACC"],
+            "station_id": "FAJA_W"
+          },
+          {
+            "label": ["OR", "RDR"],
+            "station_id": "FAOR_RDR"
+          },
+          {
+            "label": ["KM", "APP"],
+            "station_id": "FAKM_APP"
+          },
+          {
+            "label": ["FACA", "WEST", "ACC"],
+            "station_id": "FACA_W"
+          },
+          {
+            "label": ["FAJO", "2"],
+            "station_id": "FAJO_2"
+          },
+          {
+            "label": ["FYWH", "ACC"],
+            "station_id": "FYWH"
+          },
+          {
+            "label": ["CENT", "ACC"],
+            "station_id": "FAJA_C"
+          },
+          {
+            "label": ["OR", "RDR W"],
+            "station_id": "FAOR_RDR_W"
+          },
+          {
+            "label": ["BL", "APP"],
+            "station_id": "FABL_APP"
+          },
+          {
+            "label": ["FACA", "EAST", "ACC"],
+            "station_id": "FACA_E"
+          },
+          {
+            "label": ["FAJO"],
+            "station_id": "FAJO"
+          },
+          {
+            "label": ["FBGR", "ACC"],
+            "station_id": "FBGR"
+          },
+          {
+            "label": ["EAST", "ACC"],
+            "station_id": "FAJA_E"
+          },
+          {
+            "label": ["KN", "APP"],
+            "station_id": "FAKN_APP"
+          },
+          {
+            "label": ["LE", "APP"],
+            "station_id": "FALE_APP"
+          },
+          {
+            "label": ["FACA", "INFO", "WEST"],
+            "station_id": "FACA_INFO_W"
+          },
+          {
+            "label": ["FQMA", "ACC"],
+            "station_id": "FQMA"
+          },
+          {
+            "label": ["FVHF", "ACC"],
+            "station_id": "FVHF"
+          },
+          {
+            "label": ["NORTH", "WEST", "ACC"],
+            "station_id": "FAJA_NW"
+          },
+          {
+            "label": ["SOUTH", "WEST", "ACC"],
+            "station_id": "FAJA_SW"
+          },
+          {
+            "label": ["FAJA", "INFO", "NORTH"],
+            "station_id": "FAJA_INFO_N"
+          },
+          {
+            "label": ["FACA", "INFO", "EAST"],
+            "station_id": "FACA_INFO_E"
+          },
+          {
+            "label": ["FDSK", "APP"],
+            "station_id": "FDSK_APP"
+          },
+          {
+            "label": ["LOWVELD", "MIL", "INFO"],
+            "station_id": "FAMR_I_CTR"
+          },
+          {
+            "label": ["NORTH", "EAST", "ACC"],
+            "station_id": "FAJA_NE"
+          },
+          {
+            "label": ["SOUTH", "EAST", "ACC"],
+            "station_id": "FAJA_SE"
+          },
+          {
+            "label": ["FAJA", "INFO", "SOUTH"],
+            "station_id": "FAJA_INFO_S"
+          },
+          {
+            "label": ["FXMM", "APP"],
+            "station_id": "FXMM_APP"
+          },
+          {
+            "label": ["FACA", "FLOW"],
+            "station_id": "FACA_FMP"
+          },
+          {
+            "label": ["FAJA", "FLOW"],
+            "station_id": "FAJA_FMP"
+          }
+        ]
       }
     },
     {
-      "label": "EXT",
+      "label": ["ADC", "N"],
       "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "FBGR_*",
-            "FVHF_*",
-            "FYWF_*",
-            "FQBE_*",
-            "FQMA_*",
-            "FAJO_*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "Icao"
-        }
+        "rows": 6,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": ["MM", "TWR"],
+            "station_id": "FAMM_TWR"
+          },
+          {
+            "label": ["FALM", "APP"],
+            "station_id": "FALM_APP"
+          },
+          {
+            "label": ["FALM", "TWR"],
+            "station_id": "FALM_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FBSK", "APP"],
+            "station_id": "FBSK_APP"
+          },
+          {
+            "label": ["LA", "GMC"],
+            "station_id": "FALA_GMC"
+          },
+          {
+            "label": ["LA", "TWR"],
+            "station_id": "FALA_TWR"
+          },
+          {
+            "label": ["FALM", "GMC"],
+            "station_id": "FALM_GMC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OR", "CLD"],
+            "station_id": "FAOR_CLD"
+          },
+          {
+            "label": ["OR", "TWR W"],
+            "station_id": "FAOR_TWR_W"
+          },
+          {
+            "label": ["FAHS", "APP"],
+            "station_id": "FAHS_APP"
+          },
+          {
+            "label": ["FAHS", "TWR"],
+            "station_id": "FAHS_TWR"
+          },
+          {
+            "label": ["FDMS", "TWR"],
+            "station_id": "FDMS_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OR", "GMC"],
+            "station_id": "FAOR_GMC"
+          },
+          {
+            "label": ["OR", "TWR E"],
+            "station_id": "FAOR_TWR_E"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FAHS", "GMC"],
+            "station_id": "FAHS_GMC"
+          },
+          {
+            "label": ["FDMS", "GMC"],
+            "station_id": "FDMS_GMC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["WB", "GMC"],
+            "station_id": "FAWB_GMC"
+          },
+          {
+            "label": ["WB", "TWR"],
+            "station_id": "FAWB_TWR"
+          },
+          {
+            "label": ["FAKN", "APP"],
+            "station_id": "FAKN_APP"
+          },
+          {
+            "label": ["FQMA", "APP"],
+            "station_id": "FACA_INFO_E"
+          },
+          {
+            "label": ["FDSK", "APP"],
+            "station_id": "FDSK_APP"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ADC", "S"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["UP", "APP"],
+            "station_id": "FAUP_APP"
+          },
+          {
+            "label": ["UP", "ACSA"],
+            "station_id": "FAUP_APP"
+          },
+          {
+            "label": ["FAPM", "TWR"],
+            "station_id": "FAPM_TWR"
+          },
+          {
+            "label": ["LE", "TWR"],
+            "station_id": "FALE_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LA", "GMC"],
+            "station_id": "FALA_GMC"
+          },
+          {
+            "label": ["LA", "TWR"],
+            "station_id": "FALA_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LE", "GMC"],
+            "station_id": "FALE_GMC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KM", "ACSA"],
+            "station_id": "FAKM_TWR"
+          },
+          {
+            "label": ["KM", "TWR"],
+            "station_id": "FAKM_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BL", "GMC"],
+            "station_id": "FABL_TWR"
+          },
+          {
+            "label": ["BL", "TWR"],
+            "station_id": "FABL_TWR"
+          },
+          {
+            "label": ["FXMM", "TWR"],
+            "station_id": "FXMM_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RB", "TWR"],
+            "station_id": "FARB_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FXMM", "GMC"],
+            "station_id": "FXMM_GMC"
+          },
+          {
+            "label": ["FQMA", "APP"],
+            "station_id": "FACA_INFO_E"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
       }
     }
   ]

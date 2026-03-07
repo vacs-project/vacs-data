@@ -1,0 +1,48 @@
+{
+  "id": "NAMSOS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENNM/ENRM"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["NM", "AFIS"],
+            "station_id": "ENNM_I_TWR"
+          },
+          {
+            "label": ["RM", "AFIS"],
+            "station_id": "ENRM_I_TWR"
+          },
+          {
+            "label": ["BN", "AFIS"],
+            "station_id": "ENBN_I_TWR"
+          },
+          {
+            "label": ["BD 24"],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BD", "HELGELAND"],
+            "station_id": "ENBD-HELGELAND"
+          },
+          {
+            "label": ["VA", "APP"],
+            "station_id": "ENVA_APP"
+          },
+          {
+            "label": ["OL", "APP"],
+            "station_id": "ENOL_APP"
+          }
+        ]
+      }
+    }
+  ]
+}

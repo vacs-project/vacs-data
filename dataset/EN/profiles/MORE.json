@@ -1,0 +1,76 @@
+{
+  "id": "MORE",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["MØRE APP"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["MØRE APP", "NORTH"],
+            "station_id": "ENKB_APP"
+          },
+          {
+            "label": ["MØRE APP", "SOUTH"],
+            "station_id": "ENAL_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["AL", "TWR"],
+            "station_id": "ENAL_TWR"
+          },
+          {
+            "label": ["KB", "TWR"],
+            "station_id": "ENKB_TWR"
+          },
+          {
+            "label": ["ML", "AFIS"],
+            "station_id": "ENML_I_TWR"
+          },
+          {
+            "label": ["", "OV", "AFIS"],
+            "station_id": "ENOV_I_TWR"
+          },
+          {
+            "label": ["OL", "APP"],
+            "station_id": "ENOL_APP"
+          },
+          {
+            "label": ["OL", "ARR"],
+            "station_id": "ENOL_A_APP"
+          },
+          {
+            "label": ["VA", "APP"],
+            "station_id": "ENVA_APP"
+          },
+          {
+            "label": ["SD", "AFIS"],
+            "station_id": "ENSD_I_TWR"
+          },
+          {
+            "label": ["SV 16"],
+            "station_id": "ENSV-16"
+          },
+          {
+            "label": ["SV 17"],
+            "station_id": "ENSV-17"
+          },
+          {
+            "label": ["BD 18"],
+            "station_id": "ENBD-18"
+          },
+          {
+            "label": ["BD 23", "Offshore"],
+            "station_id": "ENBD-23"
+          }
+        ]
+      }
+    }
+  ]
+}

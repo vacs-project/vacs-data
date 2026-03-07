@@ -23,11 +23,11 @@
             "station_id": "FAOR_RDR"
           },
           {
-            "label": ["AIR", "W"],
+            "label": ["TWR", "W"],
             "station_id": "FAOR_TWR_W"
           },
           {
-            "label": ["AIR", "E"],
+            "label": ["TWR", "E"],
             "station_id": "FAOR_TWR_E"
           },
           {
@@ -41,7 +41,7 @@
             "label": []
           },
           {
-            "label": ["GM", "AIR"],
+            "label": ["GM", "TWR"],
             "station_id": "FAGM_TWR"
           },
           {
@@ -49,7 +49,7 @@
           },
           {
             "label": ["FIN"],
-            "station_id": "FAOR_RDR_W"
+            "station_id": "FAOR_FIN"
           },
           {
             "label": []
@@ -141,11 +141,11 @@
             "station_id": "FAOR_RDR"
           },
           {
-            "label": ["AIR", "W"],
+            "label": ["TWR", "W"],
             "station_id": "FAOR_TWR_W"
           },
           {
-            "label": ["AIR", "E"],
+            "label": ["TWR", "E"],
             "station_id": "FAOR_TWR_E"
           },
           {
@@ -168,7 +168,7 @@
           },
           {
             "label": ["FIN"],
-            "station_id": "FAOR_RDR_W"
+            "station_id": "FAOR_FIN"
           },
           {
             "label": []
@@ -196,15 +196,15 @@
             "station_id": "FAGC_TWR"
           },
           {
-            "label": ["GM", "AIR"],
+            "label": ["GM", "TWR"],
             "station_id": "FAGM_TWR"
           },
           {
             "label": []
           },
           {
-            "label": ["WK", "GND"],
-            "station_id": "FAWK_GND"
+            "label": ["WK", "GMC"],
+            "station_id": "FAWK_GMC"
           },
           {
             "label": []

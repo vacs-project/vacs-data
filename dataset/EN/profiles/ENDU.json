@@ -1,0 +1,69 @@
+{
+  "id": "ENDU",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENDU-ALL"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["DU", "APP"],
+            "station_id": "ENDU_APP"
+          },
+          {
+            "label": ["DU", "TWR"],
+            "station_id": "ENDU_TWR"
+          },
+          {
+            "label": ["DU", "DEL"],
+            "station_id": "ENDU_DEL"
+          },
+          {
+            "label": ["AN", "APP"],
+            "station_id": "ENAN_APP"
+          },
+          {
+            "label": ["AN", "TWR"],
+            "station_id": "ENAN_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EV", "APP"],
+            "station_id": "ENEV_APP"
+          },
+          {
+            "label": ["EV", "TWR"],
+            "station_id": "ENEV_TWR"
+          },
+          {
+            "label": ["TC", "TWR"],
+            "station_id": "ENTC_TWR"
+          },
+          {
+            "label": ["TC", "APP"],
+            "station_id": "ENTC_APP"
+          },
+          {
+            "label": ["BD 26"],
+            "station_id": "ENBD-26"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", ""]
+          }
+        ]
+      }
+    }
+  ]
+}

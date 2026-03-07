@@ -1,0 +1,26 @@
+[[stations]]
+id = "LUBM_TWR"
+controlled_by = ["LUBM_TWR", "LUUU_CTR", "LRBB_E_CTR", "LRBB_CTR"]
+
+[[stations]]
+id = "LUKK_APP"
+controlled_by = ["LUKK_APP", "LUUU_CTR", "LRBB_E_CTR", "LRBB_CTR"]
+
+[[stations]]
+id = "LUKK_TWR"
+controlled_by = ["LUKK_TWR", "LUKK_APP", "LUUU_CTR", "LRBB_E_CTR", "LRBB_CTR"]
+
+[[stations]]
+id = "LUKK_GND"
+controlled_by = [
+  "LUKK_GND",
+  "LUKK_TWR",
+  "LUKK_APP",
+  "LUUU_CTR",
+  "LRBB_E_CTR",
+  "LRBB_CTR",
+]
+
+[[stations]]
+id = "LUUU_CTR"
+controlled_by = ["LUUU_CTR", "LRBB_E_CTR", "LRBB_CTR"]

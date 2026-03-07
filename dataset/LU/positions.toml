@@ -1,0 +1,34 @@
+[[positions]]
+id = "LUBM_TWR"
+prefixes = ["LUBM"]
+frequency = "122.055"
+facility_type = "TWR"
+# profile_id = "LUUU"
+
+[[positions]]
+id = "LUKK_APP"
+prefixes = ["LUKK"]
+frequency = "133.305"
+facility_type = "APP"
+# profile_id = "LUUU"
+
+[[positions]]
+id = "LUKK_TWR"
+prefixes = ["LUKK"]
+frequency = "118.105"
+facility_type = "TWR"
+# profile_id = "LUUU"
+
+[[positions]]
+id = "LUKK_GND"
+prefixes = ["LUKK"]
+frequency = "121.805"
+facility_type = "GND"
+# profile_id = "LUUU"
+
+[[positions]]
+id = "LUUU_CTR"
+prefixes = ["LUUU"]
+frequency = "128.980"
+facility_type = "CTR"
+# profile_id = "LUUU"

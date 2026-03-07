@@ -1,18 +1,6 @@
 name: CI • Dataset
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "dataset/**"
-      - ".github/workflows/ci-dataset.yml"
-  pull_request:
-    branches:
-      - main
-    paths:
-      - "dataset/**"
-      - ".github/workflows/ci-dataset.yml"
   workflow_call:
 
 permissions: {}

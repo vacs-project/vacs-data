@@ -1,0 +1,312 @@
+{
+  "id": "LRBB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EXT", "BAZA"],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["BEO", "STP", "F385-660"]
+          },
+          {
+            "label": ["BEO", "TOP", "F365-385"]
+          },
+          {
+            "label": ["BEO", "UPP", "F345-365"]
+          },
+          {
+            "label": ["BEO", "MID", "F325-345"]
+          },
+          {
+            "label": ["BEO", "LOW", "F205-325"]
+          },
+          {
+            "label": ["BEO", "APP", "GNF-205"]
+          },
+          {
+            "label": ["BELGRAD", "FDA"]
+          },
+          {
+            "label": ["SOFIA", "W"],
+            "station_id": "LBSR-SOF"
+          },
+          {
+            "label": ["SOFIA", "E"],
+            "station_id": "LBSR-SES"
+          },
+          {
+            "label": ["VARNA", "W"],
+            "station_id": "LBSR-BSS"
+          },
+          {
+            "label": ["VARNA", "E"],
+            "station_id": "LBSR-VAR"
+          },
+          {
+            "label": ["FIC", "SOFIA"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BPS_E", "STP", "F385-660"]
+          },
+          {
+            "label": ["BPS_R", "TOP", "F375-385"]
+          },
+          {
+            "label": ["BPS_E", "HIGH", "F365-375"]
+          },
+          {
+            "label": ["BPS_E", "UPP", "F345-365"]
+          },
+          {
+            "label": ["BPS_En", "MID", "F325-345"]
+          },
+          {
+            "label": ["BPS_EN", "LOW", "F095-325"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BPS_N", "STP", "F385-660"]
+          },
+          {
+            "label": ["BPS_N", "TOP", "F375-385"]
+          },
+          {
+            "label": ["BPS_N", "HIGH", "F365-375"]
+          },
+          {
+            "label": ["BPS_N", "UPP", "F345-365"]
+          },
+          {
+            "label": ["BPS_EN", "FIC", "GND-9500"]
+          },
+          {
+            "label": ["BUDAPEST", "FDA_1"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "UKR"]
+          },
+          {
+            "label": ["ACC", "LVIV"]
+          },
+          {
+            "label": ["ACC", "KYIV"]
+          },
+          {
+            "label": ["ACC", "ODESA"]
+          },
+          {
+            "label": ["APP", "ODESA"]
+          },
+          {
+            "label": ["ACC", "SIP"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SUP", "SALA"]
+          },
+          {
+            "label": ["SUP", "INF"]
+          },
+          {
+            "label": ["FPPS"]
+          },
+          {
+            "label": ["FMP"]
+          },
+          {
+            "label": ["COASID", "_S"]
+          },
+          {
+            "label": ["MIL"]
+          },
+          {
+            "label": ["TEHNIC"]
+          }
+        ]
+      }
+    },
+    {
+      "label": ["INT", "BAZA"],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["BUDMO_LOKOM", "TOP", "F365-660"],
+            "station_id": "LR_BUDMO3"
+          },
+          {
+            "label": ["BUDMO_LOKOM", "UPP", "F345-365"],
+            "station_id": "LR_BUDMO2"
+          },
+          {
+            "label": ["BUMON", "MID"],
+            "station_id": "LR_BUMON1"
+          },
+          {
+            "label": ["TWR", "SATU"],
+            "station_id": "LRSM_TWR"
+          },
+          {
+            "label": ["TWR", "ORADEA"],
+            "station_id": "LROD_TWR"
+          },
+          {
+            "label": ["TWR", "TIMIS"],
+            "station_id": "LRTR_TWR"
+          },
+          {
+            "label": ["GND", "TIMIS"],
+            "station_id": "LRTR_GND"
+          },
+          {
+            "label": ["NAPOC", "TOP", "F365-660"],
+            "station_id": "LR_BANAP3"
+          },
+          {
+            "label": ["NAPOC", "UPP", "F345-365"],
+            "station_id": "LR_BANAP2"
+          },
+          {
+            "label": ["LOKOM_NERAD", "MID"],
+            "station_id": "LR_LOKOM1"
+          },
+          {
+            "label": ["TWR", "BAIA", ""],
+            "station_id": "LRBM_TWR"
+          },
+          {
+            "label": ["TWR", "BACAU"],
+            "station_id": "LRBC_TWR"
+          },
+          {
+            "label": ["TWR", "BRASOV"],
+            "station_id": "LRBV_TWR"
+          },
+          {
+            "label": ["TWR", "CRAIOVA"],
+            "station_id": "LRCV_TWR"
+          },
+          {
+            "label": ["NEBAC_DINAR", "TOP", "F365-660"],
+            "station_id": "LR_DINAR3"
+          },
+          {
+            "label": ["NEBAC_DINAR", "TOP", "F365-660"],
+            "station_id": "LR_DINAR2"
+          },
+          {
+            "label": ["BADIN", "MID"],
+            "station_id": "LR_BADIN1"
+          },
+          {
+            "label": ["TWR", "SUCEAVA"],
+            "station_id": "LRSV_TWR"
+          },
+          {
+            "label": ["TWR", "IASI"],
+            "station_id": "LRIA_TWR"
+          },
+          {
+            "label": ["TWR", "TULCEA"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "MOLDO"],
+            "station_id": "LUUU_CTR"
+          },
+          {
+            "label": ["FIC"],
+            "station_id": "LRBB_FIC"
+          },
+          {
+            "label": ["TWR", "OTOPENI"],
+            "station_id": "LROP_TWR"
+          },
+          {
+            "label": ["GND", "OTOPENI"],
+            "station_id": "LROP_GND"
+          },
+          {
+            "label": ["DEL", "OTOPENI"],
+            "station_id": "LROP_DEL"
+          },
+          {
+            "label": ["TWR", "BANEASA"],
+            "station_id": "LRBS_TWR"
+          },
+          {
+            "label": ["GND", "BANEASA"],
+            "station_id": "LRBS_GND"
+          },
+          {
+            "label": ["APP", "CHISINAU"],
+            "station_id": "LUKK_APP"
+          },
+          {
+            "label": ["APP", "ARAD"],
+            "station_id": "LRAR_APP"
+          },
+          {
+            "label": ["APP", "BUC"],
+            "station_id": "LROP_APP"
+          },
+          {
+            "label": ["DIR", "BUC"],
+            "station_id": "LROP_F_APP"
+          },
+          {
+            "label": ["APP", "CONSTANTA"],
+            "station_id": "LRCK_APP"
+          },
+          {
+            "label": ["APP", "NAPOC"],
+            "station_id": "LRCL_APP"
+          },
+          {
+            "label": ["APP", "NAPOC_S"],
+            "station_id": "LRCL_S_APP"
+          },
+          {
+            "label": ["SUP", "SALA"]
+          },
+          {
+            "label": ["SUP", "INF"]
+          },
+          {
+            "label": ["FPPS"]
+          },
+          {
+            "label": ["FMP"],
+            "station_id": "LRBB_FMP"
+          },
+          {
+            "label": ["COAPID", "_S"]
+          },
+          {
+            "label": ["MIL"]
+          },
+          {
+            "label": ["TEHNIC"]
+          }
+        ]
+      }
+    }
+  ]
+}

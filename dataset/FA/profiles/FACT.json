@@ -3,16 +3,239 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "FACT",
+      "label": ["CT", "ADC"],
       "page": {
-        "rows": 10,
-        "client_page": {
-          "include": ["FACT*", "FACA_*", "FASA_*", "FAYP*"],
-          "exclude": ["FACA_W_*"],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["CLD"],
+            "station_id": "FACT_CLD"
+          },
+          {
+            "label": ["GMC"],
+            "station_id": "FACT_GMC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["APP"],
+            "station_id": "FACT_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "FACT_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FIN"],
+            "station_id": "FACT_FIN"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["YP", "TWR"],
+            "station_id": "FAYP_TWR"
+          },
+          {
+            "label": ["YP", "GMC"],
+            "station_id": "FAYP_GMC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "WEST"],
+            "station_id": "FACA_W"
+          },
+          {
+            "label": ["ACC", "EAST"],
+            "station_id": "FACA_E"
+          },
+          {
+            "label": ["FACA", "INFO", "WEST"],
+            "station_id": "FACA_INFO_W"
+          },
+          {
+            "label": ["FACA", "INFO", "EAST"],
+            "station_id": "FACA_INFO_E"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FACA", "FLOW"],
+            "station_id": "FACA_FMP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["CT", "APP"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["CLD"],
+            "station_id": "FACT_CLD"
+          },
+          {
+            "label": ["GMC"],
+            "station_id": "FACT_GMC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RDR"],
+            "station_id": "FAOR_RDR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "FACT_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FIN"],
+            "station_id": "FACT_FIN"
+          },
+          {
+            "label": ["YP", "TWR"],
+            "station_id": "FAYP_TWR"
+          },
+          {
+            "label": ["YP", "GMC"],
+            "station_id": "FAYP_GMC"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FALW", "APP"],
+            "station_id": "FALW_APP"
+          },
+          {
+            "label": ["FALW", "TWR"],
+            "station_id": "FALW_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FAOB", "APP"],
+            "station_id": "FAOB_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FALW", "GMC"],
+            "station_id": "FALW_GMC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "WEST"],
+            "station_id": "FACA_W"
+          },
+          {
+            "label": ["ACC", "EAST"],
+            "station_id": "FACA_E"
+          },
+          {
+            "label": ["FACA", "INFO", "WEST"],
+            "station_id": "FACA_INFO_W"
+          },
+          {
+            "label": ["FACA", "INFO", "EAST"],
+            "station_id": "FACA_INFO_E"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FACA", "FLOW"],
+            "station_id": "FACA_FMP"
+          }
+        ]
       }
     }
   ]

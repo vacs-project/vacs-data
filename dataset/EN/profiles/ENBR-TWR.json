@@ -1,0 +1,59 @@
+{
+  "id": "ENBR-TWR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENBR-TWR"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BR W", "APP"],
+            "station_id": "ENBR_W_APP"
+          },
+          {
+            "label": ["BR E", "APP"],
+            "station_id": "ENBR_E_APP"
+          },
+          {
+            "label": ["BR", "DIR"],
+            "station_id": "ENBR_D_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BR", "TWR"],
+            "station_id": "ENBR_TWR"
+          },
+          {
+            "label": ["BR", "GND"],
+            "station_id": "ENBR_GND"
+          },
+          {
+            "label": ["BR", "DEL"],
+            "station_id": "ENBR_DEL"
+          },
+          {
+            "label": ["BR", "PLN"],
+            "station_id": "ENBR_P_GND"
+          },
+          {
+            "label": ["BR", "DEICE"],
+            "station_id": "ENBR_ICE_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SO", "AFIS"],
+            "station_id": "ENSO_I_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

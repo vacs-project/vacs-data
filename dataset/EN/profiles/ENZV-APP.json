@@ -1,0 +1,106 @@
+{
+  "id": "ENZV-APP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENZV APP"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["ZV", "APP"],
+            "station_id": "ENZV_APP"
+          },
+          {
+            "label": ["ZV", "ARR"],
+            "station_id": "ENZV_A_APP"
+          },
+          {
+            "label": ["ZV", "TWR"],
+            "station_id": "ENZV_TWR"
+          },
+          {
+            "label": ["ZV", "GND"],
+            "station_id": "ENZV_GND"
+          },
+          {
+            "label": ["HD", "TWR"],
+            "station_id": "ENHD_TWR"
+          },
+          {
+            "label": ["SO", "AFIS"],
+            "station_id": "ENSO_I_TWR"
+          },
+          {
+            "label": ["BR W", "APP"],
+            "station_id": "ENBR_W_APP"
+          },
+          {
+            "label": ["BR E", "APP"],
+            "station_id": "ENBR_E_APP"
+          },
+          {
+            "label": ["BR", "DIR"],
+            "station_id": "ENBR_D_APP"
+          },
+          {
+            "label": ["BR", "TWR"],
+            "station_id": "ENBR_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SV 9"],
+            "station_id": "ENSV-9"
+          },
+          {
+            "label": ["SV 10"],
+            "station_id": "ENSV-10"
+          },
+          {
+            "label": ["SV 11"],
+            "station_id": "ENSV-11"
+          },
+          {
+            "label": ["SV 12"],
+            "station_id": "ENSV-12"
+          },
+          {
+            "label": ["SV 13"],
+            "station_id": "ENSV-13"
+          },
+          {
+            "label": ["SV 14"],
+            "station_id": "ENSV-14"
+          },
+          {
+            "label": ["SV 15"],
+            "station_id": "ENSV-15"
+          },
+          {
+            "label": ["SV 17"],
+            "station_id": "ENSV-17"
+          },
+          {
+            "label": ["SV 21", "Offshore"],
+            "station_id": "ENSV-21"
+          },
+          {
+            "label": ["SV 22", "Offshore"],
+            "station_id": "ENSV-22"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

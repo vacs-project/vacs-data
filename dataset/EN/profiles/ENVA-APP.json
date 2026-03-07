@@ -1,0 +1,90 @@
+{
+  "id": "ENVA-APP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENVA APP"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["VA", "APP"],
+            "station_id": "ENVA_APP"
+          },
+          {
+            "label": ["VA", "DIR"],
+            "station_id": "ENVA_D_APP"
+          },
+          {
+            "label": ["VA", "TWR"],
+            "station_id": "ENVA_TWR"
+          },
+          {
+            "label": ["VA", "GND"],
+            "station_id": "ENVA_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OL", "APP"],
+            "station_id": "ENOL_APP"
+          },
+          {
+            "label": ["OL", "ARR"],
+            "station_id": "ENOL_A_APP"
+          },
+          {
+            "label": ["OL", "TWR"],
+            "station_id": "ENOL_TWR"
+          },
+          {
+            "label": ["MØRE", "APP"],
+            "station_id": "ENKB_APP"
+          },
+          {
+            "label": ["NM", "AFIS"],
+            "station_id": "ENNM_I_TWR"
+          },
+          {
+            "label": ["RM", "AFIS"],
+            "station_id": "ENRM_I_TWR"
+          },
+          {
+            "label": ["RO", "AFIS"],
+            "station_id": "ENRO_I_TWR"
+          },
+          {
+            "label": ["BD", "HELGELAND"],
+            "station_id": "ENBD-HELGELAND"
+          },
+          {
+            "label": ["BD 18"],
+            "station_id": "ENBD-18"
+          },
+          {
+            "label": ["BD 19"],
+            "station_id": "ENBD-19"
+          },
+          {
+            "label": ["BD 24"],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": ["ESOS", "N"],
+            "station_id": "ESOS_N"
+          }
+        ]
+      }
+    }
+  ]
+}

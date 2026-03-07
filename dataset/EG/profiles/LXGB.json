@@ -1,0 +1,45 @@
+{
+  "id": "LXGB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "LXGB",
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": ["Sevilla", "Control", "(INOP)"]
+          },
+          {
+            "label": ["Sevilla", "Flow", "(INOP)"]
+          },
+
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RAD"],
+            "station_id": "LXGB_TWR"
+          },
+          {
+            "label": ["T/D"],
+            "station_id": "LXGB_P_APP"
+          },
+          {
+            "label": ["AIR"],
+            "station_id": "LXGB_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

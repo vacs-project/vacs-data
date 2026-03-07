@@ -1,0 +1,58 @@
+{
+  "id": "FINNMARK",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["FINNMARK"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["HV", "AFIS"],
+            "station_id": "ENHV_I_TWR"
+          },
+          {
+            "label": ["MH", "AFIS", ""],
+            "station_id": "ENMH_I_TWR"
+          },
+          {
+            "label": ["BV", "AFIS"],
+            "station_id": "ENHV_I_TWR"
+          },
+          {
+            "label": ["BS", "AFIS"],
+            "station_id": "ENBS_I_TWR"
+          },
+          {
+            "label": ["SS", "AFIS"],
+            "station_id": "ENSS_I_TWR"
+          },
+          {
+            "label": ["VD", "AFIS"],
+            "station_id": "ENVD_I_TWR"
+          },
+          {
+            "label": ["HF", "AFIS"],
+            "station_id": "ENHF_I_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KR", "APP"],
+            "station_id": "ENKR_APP"
+          },
+          {
+            "label": ["", "BD 26"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

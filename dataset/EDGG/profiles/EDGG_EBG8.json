@@ -63,8 +63,8 @@
             "label": [""]
           },
           {
-            "label": ["EDMM", "FUE"],
-            "station_id": "EDMM-FUE"
+            "label": ["DKB"],
+            "station_id": "EDGG-DKB"
           },
           {
             "label": ["EDGG", "NKRL"],
@@ -82,8 +82,8 @@
             "label": [""]
           },
           {
-            "label": ["EDMM", "NDG"],
-            "station_id": "EDMM-NDG"
+            "label": ["KNG"],
+            "station_id": "EDGG-KNG"
           },
           {
             "label": ["EDGG", "PFA"],
@@ -100,13 +100,25 @@
             "label": [""]
           },
           {
+            "label": ["EDMM", "FUE"],
+            "station_id": "EDMM-FUE"
+          },
+          {
+            "label": ["EDMM", "SWA"],
+            "station_id": "EDMM-SWA"
+          },
+          {
+            "label": [""]
+          },
+          {
             "label": ["LSAZ", "SZN"]
           },
           {
             "label": ["LFST", "STA"]
           },
           {
-            "label": [""]
+            "label": ["EDMM", "NDG"],
+            "station_id": "EDMM-NDG"
           },
           {
             "label": [""]
@@ -116,15 +128,6 @@
           },
           {
             "label": ["LSAZ", "SZE"]
-          },
-          {
-            "label": [""]
-          },
-          {
-            "label": [""]
-          },
-          {
-            "label": [""]
           },
           {
             "label": [""]

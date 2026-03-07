@@ -1,0 +1,75 @@
+{
+  "id": "ENCN",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENCN ALL"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["CN", "APP"],
+            "station_id": "ENCN_APP"
+          },
+          {
+            "label": ["CN", "TWR"],
+            "station_id": "ENCN_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["NO", "AFIS"],
+            "station_id": "ENNO_I_TWR"
+          },
+          {
+            "label": ["FARRIS", "APP"],
+            "station_id": "ENTO_APP"
+          },
+          {
+            "label": ["FARRIS", "DIR"],
+            "station_id": "ENTO_D_APP"
+          },
+          {
+            "label": ["TO", "TWR"],
+            "station_id": "ENTO_TWR"
+          },
+          {
+            "label": ["RY", "TWR"],
+            "station_id": "ENRY_TWR"
+          },
+          {
+            "label": ["SV 9"],
+            "station_id": "ENSV-9"
+          },
+          {
+            "label": ["OS 8"],
+            "station_id": "ENOS-8"
+          },
+          {
+            "label": ["OS 5"],
+            "station_id": "ENOS-5"
+          },
+          {
+            "label": ["OS 4"],
+            "station_id": "ENOS-4"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DK V", "FL285-FL365"],
+            "station_id": "EKDKV"
+          },
+          {
+            "label": ["DK L", "FL285-"],
+            "station_id": "EKDKL"
+          }
+        ]
+      }
+    }
+  ]
+}

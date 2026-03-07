@@ -1,0 +1,37 @@
+{
+  "id": "ENRO",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENRO"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["RO", "AFIS"],
+            "station_id": "ENRO_I_TWR"
+          },
+          {
+            "label": ["BD 19"],
+            "station_id": "ENBD-19"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["VA", "APP"],
+            "station_id": "ENVA_APP"
+          },
+          {
+            "label": ["OS 1"],
+            "station_id": "ENOS-1"
+          },
+          {
+            "label": ["OS 7"],
+            "station_id": "ENOS-7"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ENKR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENKR-ALL"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["KR", "APP"],
+            "station_id": "ENKR_APP"
+          },
+          {
+            "label": ["KR", "TWR"],
+            "station_id": "ENKR_TWR"
+          },
+          {
+            "label": ["VD", "AFIS"],
+            "station_id": "ENVD_I_TWR"
+          },
+          {
+            "label": ["SS", "AFIS"],
+            "station_id": "ENSS_I_TWR"
+          },
+          {
+            "label": ["BS", "AFIS"],
+            "station_id": "ENBS_I_TWR"
+          },
+          {
+            "label": ["BV", "AFIS"],
+            "station_id": "ENBV_I_TWR"
+          },
+          {
+            "label": ["BD 26"],
+            "station_id": "ENBD-26"
+          },
+          {
+            "label": ["ULLL MR"]
+          },
+          {
+            "label": ["EFIN J"],
+            "station_id": "EFIN_J"
+          }
+        ]
+      }
+    }
+  ]
+}

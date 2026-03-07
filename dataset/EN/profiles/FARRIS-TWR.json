@@ -1,0 +1,45 @@
+{
+  "id": "FARRIS-TWR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["FARRIS TWR"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["FARRIS", "APP"],
+            "station_id": "ENTO_APP"
+          },
+          {
+            "label": ["TO", "TWR"],
+            "station_id": "ENTO_TWR"
+          },
+          {
+            "label": ["RY", "TWR"],
+            "station_id": "ENRY_TWR"
+          },
+          {
+            "label": ["NO", "AFIS"],
+            "station_id": "ENNO_I_TWR"
+          },
+          {
+            "label": ["FARRIS", "DIR"],
+            "station_id": "ENTO_D_APP"
+          },
+          {
+            "label": ["TO", "GND"],
+            "station_id": "ENTO_GND"
+          },
+          {
+            "label": ["RY", "GND"],
+            "station_id": "ENRY_GND"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

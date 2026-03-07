@@ -1,0 +1,46 @@
+{
+  "id": "ENAT/NA/HF",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENAT/NA/HF"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["AT", "APP"],
+            "station_id": "ENAT_APP"
+          },
+          {
+            "label": ["NA", "APP"],
+            "station_id": "ENNA_APP"
+          },
+          {
+            "label": ["HK", "AFIS"],
+            "station_id": "ENHK_I_TWR"
+          },
+          {
+            "label": ["HF", "AFIS"],
+            "station_id": "ENHF_I_TWR"
+          },
+          {
+            "label": ["BD 26"],
+            "station_id": "ENBD-26"
+          },
+          {
+            "label": ["TC", "APP"],
+            "station_id": "ENTC_APP"
+          },
+          {
+            "label": ["SR", "AFIS"],
+            "station_id": "ENSR_I_TWR"
+          },
+          {
+            "label": ["HV", "AFIS"],
+            "station_id": "ENHV_I_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

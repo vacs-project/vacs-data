@@ -1,0 +1,83 @@
+{
+  "id": "HELGELAND",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["HELGELAND"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["RA", "AFIS"],
+            "station_id": "ENRA_I_TWR"
+          },
+          {
+            "label": ["ST", "AFIS"],
+            "station_id": "ENST_I_TWR"
+          },
+          {
+            "label": ["MS", "AFIS"],
+            "station_id": "ENMS_I_TWR"
+          },
+          {
+            "label": ["BN", "AFIS"],
+            "station_id": "ENBN_I_TWR"
+          },
+          {
+            "label": ["RM", "AFIS"],
+            "station_id": "ENRM_I_TWR"
+          },
+          {
+            "label": ["NM", "AFIS"],
+            "station_id": "ENNM_I_TWR"
+          },
+          {
+            "label": ["BD HELGELAND", ""],
+            "station_id": "ENBD-HELGELAND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BO", "APP"],
+            "station_id": "ENBO_APP"
+          },
+          {
+            "label": ["BO", "TWR"],
+            "station_id": "ENBO_TWR"
+          },
+          {
+            "label": ["VA", "APP"],
+            "station_id": "ENVA_APP"
+          },
+          {
+            "label": ["OL", "APP"],
+            "station_id": "ENOL_A_APP"
+          },
+          {
+            "label": ["BD 23", "(Offshore)"],
+            "station_id": "ENBD-23"
+          },
+          {
+            "label": ["BD 24", ""],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": ["BD 25"],
+            "station_id": "ENBD-25"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ESOS K", ""],
+            "station_id": "ESOS_K"
+          }
+        ]
+      }
+    }
+  ]
+}

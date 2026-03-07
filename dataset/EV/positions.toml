@@ -1,0 +1,90 @@
+[[positions]]
+id = "EVAD_I_TWR"
+prefixes = ["EVAD"]
+frequency = "127.130"
+facility_type = "TWR"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVGA_TWR"
+prefixes = ["EVGA"]
+frequency = "118.155"
+facility_type = "TWR"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVLA_I_TWR"
+prefixes = ["EVLA"]
+frequency = "129.400"
+facility_type = "TWR"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRA_APP"
+prefixes = ["EVRA"]
+frequency = "129.925"
+facility_type = "APP"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRA_B_APP"
+prefixes = ["EVRA"]
+frequency = "134.850"
+facility_type = "APP"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRA_GND"
+prefixes = ["EVRA"]
+frequency = "118.805"
+facility_type = "GND"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRA_TWR"
+prefixes = ["EVRA"]
+frequency = "118.105"
+facility_type = "TWR"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRR_CTR"
+prefixes = ["EVRR"]
+frequency = "135.100"
+facility_type = "CTR"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRR_E_CTR"
+prefixes = ["EVRR"]
+frequency = "133.200"
+facility_type = "CTR"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRR_I_CTR"
+prefixes = ["EVRR"]
+frequency = "120.225"
+facility_type = "CTR"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRR_N_CTR"
+prefixes = ["EVRR"]
+frequency = "135.100"
+facility_type = "CTR"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRR_S_CTR"
+prefixes = ["EVRR"]
+frequency = "134.750"
+facility_type = "CTR"
+profile_id = "EVRR"
+
+[[positions]]
+id = "EVRR_W_CTR"
+prefixes = ["EVRR"]
+frequency = "134.125"
+facility_type = "CTR"
+profile_id = "EVRR"

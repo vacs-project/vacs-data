@@ -1,0 +1,1474 @@
+{
+  "stations": [
+    {
+      "id": "ENAL_APP",
+      "controlled_by": [
+        "ENAL_APP",
+        "ENKB_APP",
+        "ENRC_N_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENAL_TWR",
+      "controlled_by": [
+        "ENAL_TWR",
+        "ENAL_APP",
+        "ENKB_APP",
+        "ENRC_N_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENAN_APP",
+      "controlled_by": [
+        "ENAN_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENAN_TWR",
+      "controlled_by": [
+        "ENAN_TWR",
+        "ENAN_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENAS_I_TWR",
+      "controlled_by": ["ENAS_I_TWR", "ENOB_CTR"]
+    },
+    {
+      "id": "ENAT_APP",
+      "controlled_by": [
+        "ENAT_APP",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBD-18",
+      "controlled_by": [
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBD-19",
+      "controlled_by": [
+        "ENBD_19_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBD-23",
+      "controlled_by": ["ENBD_O_CTR", "ENBD_C_CTR", "ENBD_CTR", "ENOR_CTR"]
+    },
+    {
+      "id": "ENBD-24/27",
+      "controlled_by": ["ENBD_C_CTR", "ENBD_CTR", "ENOR_CTR"]
+    },
+    {
+      "id": "ENBD-25",
+      "controlled_by": ["ENBD_N_CTR", "ENBD_CTR", "ENOR_CTR"]
+    },
+    {
+      "id": "ENBD-26",
+      "controlled_by": ["ENBD_E_CTR", "ENBD_N_CTR", "ENBD_CTR", "ENOR_CTR"]
+    },
+    {
+      "id": "ENBD-HELGELAND",
+      "controlled_by": ["ENBN_APP", "ENBD_C_CTR", "ENBD_CTR", "ENOR_CTR"]
+    },
+    {
+      "id": "ENBL_I_TWR",
+      "controlled_by": [
+        "ENBL_I_TWR",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBN_I_TWR",
+      "controlled_by": [
+        "ENBN_I_TWR",
+        "ENBN_APP",
+        "ENRC_N_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBO_APP",
+      "controlled_by": [
+        "ENBO_APP",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENBD_N_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBO_TWR",
+      "controlled_by": [
+        "ENBO_TWR",
+        "ENBO_APP",
+        "ENRC_N_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENBD_N_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBR_D_APP",
+      "controlled_by": [
+        "ENBR_D_APP",
+        "ENBR_W_APP",
+        "ENBR_E_APP",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBR_E_APP",
+      "controlled_by": [
+        "ENBR_E_APP",
+        "ENBR_W_APP",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBR_W_APP",
+      "controlled_by": [
+        "ENBR_W_APP",
+        "ENBR_E_APP",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBR_TWR",
+      "controlled_by": [
+        "ENBR_TWR",
+        "ENBR_D_APP",
+        "ENBR_W_APP",
+        "ENBR_E_APP",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBR_GND",
+      "controlled_by": [
+        "ENBR_GND",
+        "ENBR_TWR",
+        "ENBR_D_APP",
+        "ENBR_W_APP",
+        "ENBR_E_APP",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBR_ICE_GND",
+      "controlled_by": [
+        "ENBR_ICE_GND",
+        "ENBR_GND",
+        "ENBR_TWR",
+        "ENBR_D_APP",
+        "ENBR_W_APP",
+        "ENBR_E_APP",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBR_P_GND",
+      "controlled_by": [
+        "ENBR_P_GND",
+        "ENBR_DEL",
+        "ENBR_GND",
+        "ENBR_TWR",
+        "ENBR_D_APP",
+        "ENBR_W_APP",
+        "ENBR_E_APP",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBR_DEL",
+      "controlled_by": [
+        "ENBR_DEL",
+        "ENBR_P_GND",
+        "ENBR_GND",
+        "ENBR_TWR",
+        "ENBR_D_APP",
+        "ENBR_W_APP",
+        "ENBR_E_APP",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBS_I_TWR",
+      "controlled_by": [
+        "ENBS_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENBV_I_TWR",
+      "controlled_by": [
+        "ENBV_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENCN_APP",
+      "controlled_by": [
+        "ENCN_APP",
+        "ENRC_S_CTR",
+        "ENOS_8_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENCN_TWR",
+      "controlled_by": [
+        "ENCN_TWR",
+        "ENCN_APP",
+        "ENRC_S_CTR",
+        "ENOS_8_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENDU_APP",
+      "controlled_by": [
+        "ENDU_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENDU_TWR",
+      "controlled_by": [
+        "ENDU_TWR",
+        "ENDU_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENDU_DEL",
+      "controlled_by": [
+        "ENDU_DEL",
+        "ENDU_TWR",
+        "ENDU_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENEV_APP",
+      "controlled_by": [
+        "ENEV_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENEV_TWR",
+      "controlled_by": [
+        "ENEV_TWR",
+        "ENEV_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENEV_GND",
+      "controlled_by": [
+        "ENEV_GND",
+        "ENEV_TWR",
+        "ENEV_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENFL_I_TWR",
+      "controlled_by": [
+        "ENFL_I_TWR",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGC_H_TWR",
+      "controlled_by": [
+        "ENGC_H_TWR",
+        "ENSV_O_CTR",
+        "ENSV_16_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_D_APP",
+      "controlled_by": [
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_E_APP",
+      "controlled_by": [
+        "ENGM_E_APP",
+        "ENGM_W_APP",
+        "ENGM_D_APP",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_F_APP",
+      "controlled_by": [
+        "ENGM_F_APP",
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_W_APP",
+      "controlled_by": [
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENGM_D_APP",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_E_TWR",
+      "controlled_by": [
+        "ENGM_E_TWR",
+        "ENGM_W_TWR",
+        "ENGM_F_APP",
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENRC_S_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_W_TWR",
+      "controlled_by": [
+        "ENGM_W_TWR",
+        "ENGM_E_TWR",
+        "ENGM_F_APP",
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENRC_S_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_E_GND",
+      "controlled_by": [
+        "ENGM_E_GND",
+        "ENGM_W_GND",
+        "ENGM_W_TWR",
+        "ENGM_E_TWR",
+        "ENGM_F_APP",
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENRC_S_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_ICE_GND",
+      "controlled_by": [
+        "ENGM_ICE_GND",
+        "ENGM_W_GND",
+        "ENGM_E_GND",
+        "ENGM_W_TWR",
+        "ENGM_E_TWR",
+        "ENGM_F_APP",
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENRC_S_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_P_GND",
+      "controlled_by": [
+        "ENGM_P_GND",
+        "ENGM_W_DEL",
+        "ENGM_E_DEL",
+        "ENGM_W_GND",
+        "ENGM_E_GND",
+        "ENGM_W_TWR",
+        "ENGM_E_TWR",
+        "ENGM_F_APP",
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENRC_S_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_W_GND",
+      "controlled_by": [
+        "ENGM_W_GND",
+        "ENGM_E_GND",
+        "ENGM_W_TWR",
+        "ENGM_E_TWR",
+        "ENGM_F_APP",
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENRC_S_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_E_DEL",
+      "controlled_by": [
+        "ENGM_E_DEL",
+        "ENGM_W_DEL",
+        "ENGM_P_GND",
+        "ENGM_E_GND",
+        "ENGM_W_GND",
+        "ENGM_W_TWR",
+        "ENGM_E_TWR",
+        "ENGM_F_APP",
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENRC_S_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENGM_W_DEL",
+      "controlled_by": [
+        "ENGM_W_DEL",
+        "ENGM_E_DEL",
+        "ENGM_P_GND",
+        "ENGM_W_GND",
+        "ENGM_E_GND",
+        "ENGM_W_TWR",
+        "ENGM_E_TWR",
+        "ENGM_F_APP",
+        "ENGM_D_APP",
+        "ENGM_W_APP",
+        "ENGM_E_APP",
+        "ENRC_S_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENHD_TWR",
+      "controlled_by": [
+        "ENHD_TWR",
+        "ENZV_APP",
+        "ENZV_A_APP",
+        "ENRC_S_CTR",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENHF_I_TWR",
+      "controlled_by": [
+        "ENHF_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENHK_I_TWR",
+      "controlled_by": [
+        "ENHK_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENHV_I_TWR",
+      "controlled_by": [
+        "ENHV_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENKB_APP",
+      "controlled_by": [
+        "ENKB_APP",
+        "ENAL_APP",
+        "ENRC_N_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENKB_TWR",
+      "controlled_by": [
+        "ENKB_TWR",
+        "ENKB_APP",
+        "ENAL_APP",
+        "ENRC_N_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENKR_APP",
+      "controlled_by": [
+        "ENKR_APP",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENKR_TWR",
+      "controlled_by": [
+        "ENKR_TWR",
+        "ENKR_APP",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENLE_H_TWR",
+      "controlled_by": [
+        "ENLE_H_TWR",
+        "ENSV_O_CTR",
+        "ENSV_W_CTR",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENLK_I_TWR",
+      "controlled_by": [
+        "ENLK_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENMH_I_TWR",
+      "controlled_by": [
+        "ENMH_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENML_I_TWR",
+      "controlled_by": [
+        "ENML_I_TWR",
+        "ENKB_APP",
+        "ENAL_APP",
+        "ENRC_N_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENMS_I_TWR",
+      "controlled_by": [
+        "ENMS_I_TWR",
+        "ENBN_APP",
+        "ENRC_N_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENNA_APP",
+      "controlled_by": [
+        "ENNA_APP",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENNM_I_TWR",
+      "controlled_by": [
+        "ENNM_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENNO_I_TWR",
+      "controlled_by": [
+        "ENNO_I_TWR",
+        "ENTO_APP",
+        "ENTO_D_APP",
+        "ENRC_S_CTR",
+        "ENOS_4_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOB",
+      "controlled_by": ["ENOB_CTR"]
+    },
+    {
+      "id": "ENOL_APP",
+      "controlled_by": [
+        "ENOL_APP",
+        "ENOL_A_APP",
+        "ENRC_N_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOL_A_APP",
+      "controlled_by": [
+        "ENOL_A_APP",
+        "ENOL_APP",
+        "ENRC_N_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOL_TWR",
+      "controlled_by": [
+        "ENOL_TWR",
+        "ENOL_APP",
+        "ENOL_A_APP",
+        "ENRC_N_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOS-1",
+      "controlled_by": [
+        "ENOS_1_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOS-2",
+      "controlled_by": [
+        "ENOS_2_CTR",
+        "ENOS_1_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOS-3",
+      "controlled_by": [
+        "ENOS_3_CTR",
+        "ENOS_4_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOS-4",
+      "controlled_by": [
+        "ENOS_4_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOS-5",
+      "controlled_by": [
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOS-6",
+      "controlled_by": [
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOS-7",
+      "controlled_by": [
+        "ENOS_7_CTR",
+        "ENOS_N_CTR",
+        "ENOS_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOS-8",
+      "controlled_by": [
+        "ENOS_8_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENOV_I_TWR",
+      "controlled_by": [
+        "ENOV_I_TWR",
+        "ENAL_APP",
+        "ENKB_APP",
+        "ENRC_N_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENRA_I_TWR",
+      "controlled_by": [
+        "ENRA_I_TWR",
+        "ENBN_APP",
+        "ENRC_N_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENRM_I_TWR",
+      "controlled_by": [
+        "ENRM_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENRO_I_TWR",
+      "controlled_by": [
+        "ENRO_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_19_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENRS_I_TWR",
+      "controlled_by": [
+        "ENRS_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENRY_TWR",
+      "controlled_by": [
+        "ENRY_TWR",
+        "ENTO_APP",
+        "ENTO_D_APP",
+        "ENRC_S_CTR",
+        "ENOS_4_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENRY_GND",
+      "controlled_by": [
+        "ENRY_GND",
+        "ENRY_TWR",
+        "ENTO_APP",
+        "ENTO_D_APP",
+        "ENRC_S_CTR",
+        "ENOS_4_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSB_I_TWR",
+      "controlled_by": ["ENSB_I_TWR", "ENOB_CTR"]
+    },
+    {
+      "id": "ENSD_I_TWR",
+      "controlled_by": [
+        "ENSD_I_TWR",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSG_I_TWR",
+      "controlled_by": [
+        "ENSG_I_TWR",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSH_I_TWR",
+      "controlled_by": [
+        "ENSH_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSK_I_TWR",
+      "controlled_by": [
+        "ENSK_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSO_I_TWR",
+      "controlled_by": [
+        "ENSO_I_TWR",
+        "ENBR_W_APP",
+        "ENBR_E_APP",
+        "ENRC_S_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSR_I_TWR",
+      "controlled_by": [
+        "ENSR_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSS_I_TWR",
+      "controlled_by": [
+        "ENSS_I_TWR",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENST_I_TWR",
+      "controlled_by": [
+        "ENST_I_TWR",
+        "ENBN_APP",
+        "ENRC_N_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-10",
+      "controlled_by": [
+        "ENSV_W_CTR",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-11",
+      "controlled_by": [
+        "ENSV_W_CTR",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-12",
+      "controlled_by": [
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-13",
+      "controlled_by": [
+        "ENSV_E_CTR",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-14",
+      "controlled_by": [
+        "ENSV_14_CTR",
+        "ENSV_E_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-15",
+      "controlled_by": [
+        "ENSV_W_CTR",
+        "ENSV_16_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-16",
+      "controlled_by": [
+        "ENSV_16_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-17",
+      "controlled_by": [
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-20",
+      "controlled_by": [
+        "ENSV_O_CTR",
+        "ENSV_16_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-21",
+      "controlled_by": [
+        "ENSV_O_CTR",
+        "ENSV_W_CTR",
+        "ENSV_16_CTR",
+        "ENSV_N_CTR",
+        "ENSV_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-22",
+      "controlled_by": [
+        "ENSV_O_CTR",
+        "ENSV_W_CTR",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENSV-9",
+      "controlled_by": [
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENTC_APP",
+      "controlled_by": ["ENTC_APP", "ENBD_N_CTR", "ENBD_CTR", "ENOR_CTR"]
+    },
+    {
+      "id": "ENTC_TWR",
+      "controlled_by": [
+        "ENTC_TWR",
+        "ENTC_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENTC_DEL",
+      "controlled_by": [
+        "ENTC_DEL",
+        "ENTC_TWR",
+        "ENTC_APP",
+        "ENRC_N_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENTO_APP",
+      "controlled_by": [
+        "ENTO_APP",
+        "ENTO_D_APP",
+        "ENRC_S_CTR",
+        "ENOS_4_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENTO_D_APP",
+      "controlled_by": [
+        "ENTO_D_APP",
+        "ENTO_APP",
+        "ENRC_S_CTR",
+        "ENOS_4_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENTO_TWR",
+      "controlled_by": [
+        "ENTO_TWR",
+        "ENTO_APP",
+        "ENTO_D_APP",
+        "ENRC_S_CTR",
+        "ENOS_4_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENTO_GND",
+      "controlled_by": [
+        "ENTO_GND",
+        "ENTO_TWR",
+        "ENTO_APP",
+        "ENTO_D_APP",
+        "ENRC_S_CTR",
+        "ENOS_4_CTR",
+        "ENOS_CTR",
+        "ENOS_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENVA_APP",
+      "controlled_by": [
+        "ENVA_APP",
+        "ENBD_19_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENVA_D_APP",
+      "controlled_by": [
+        "ENVA_D_APP",
+        "ENVA_APP",
+        "ENBD_19_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENVA_TWR",
+      "controlled_by": [
+        "ENVA_TWR",
+        "ENVA_APP",
+        "ENVA_D_APP",
+        "ENRC_N_CTR",
+        "ENBD_19_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENVA_GND",
+      "controlled_by": [
+        "ENVA_GND",
+        "ENVA_TWR",
+        "ENVA_APP",
+        "ENRC_N_CTR",
+        "ENBD_19_CTR",
+        "ENBD_S_CTR",
+        "ENBD_C_CTR",
+        "ENBD_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENVD_I_TWR",
+      "controlled_by": [
+        "ENVD_I_TWR",
+        "ENKR_APP",
+        "ENRC_N_CTR",
+        "ENBD_E_CTR",
+        "ENBD_N_CTR",
+        "ENBD_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENZV_APP",
+      "controlled_by": [
+        "ENZV_APP",
+        "ENZV_A_APP",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENZV_A_APP",
+      "controlled_by": [
+        "ENZV_A_APP",
+        "ENZV_APP",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENZV_TWR",
+      "controlled_by": [
+        "ENZV_TWR",
+        "ENZV_APP",
+        "ENZV_A_APP",
+        "ENRC_S_CTR",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    },
+    {
+      "id": "ENZV_GND",
+      "controlled_by": [
+        "ENZV_GND",
+        "ENZV_TWR",
+        "ENZV_APP",
+        "ENZV_A_APP",
+        "ENRC_S_CTR",
+        "ENSV_CTR",
+        "ENSV_N_CTR",
+        "ENOR_S_CTR",
+        "ENOR_SC_CTR",
+        "ENOR_CTR"
+      ]
+    }
+  ]
+}

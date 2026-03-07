@@ -1,0 +1,331 @@
+{
+  "id": "ENBD",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["BD 18"],
+            "station_id": "ENBD-18"
+          },
+          {
+            "label": ["BD19"],
+            "station_id": "ENBD-19"
+          },
+          {
+            "label": ["BD 24/27"],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": ["BD 25"],
+            "station_id": "ENBD-25"
+          },
+          {
+            "label": ["BD 26"],
+            "station_id": "ENBD-26"
+          },
+          {
+            "label": ["BD 23"],
+            "station_id": "ENBD-23"
+          },
+          {
+            "label": ["OB", ""],
+            "station_id": "ENOB"
+          },
+          {
+            "label": ["OS 1"],
+            "station_id": "ENOS-1"
+          },
+          {
+            "label": ["OS 7"],
+            "station_id": "ENOS-7"
+          },
+          {
+            "label": ["SV 17"],
+            "station_id": "ENSV-17"
+          },
+          {
+            "label": ["SV 16"],
+            "station_id": "ENSV-16"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ULLL MR"]
+          },
+          {
+            "label": ["EFIN J"],
+            "station_id": "EFIN_J"
+          },
+          {
+            "label": ["ESOS K"],
+            "station_id": "ESOS_K"
+          },
+          {
+            "label": ["ESOS N"],
+            "station_id": "ESOS_N"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ENBD-C"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["MØRE", "NORTH"],
+            "station_id": "ENKB_APP"
+          },
+          {
+            "label": ["MØRE", "SOUTH"],
+            "station_id": "ENAL_APP"
+          },
+          {
+            "label": ["KB", "TWR"],
+            "station_id": "ENKB_TWR"
+          },
+          {
+            "label": ["ML", "AFIS"],
+            "station_id": "ENML_I_TWR"
+          },
+          {
+            "label": ["AL", "TWR"],
+            "station_id": "ENAL_TWR"
+          },
+          {
+            "label": ["OV", "AFIS"],
+            "station_id": "ENOV_I_TWR"
+          },
+          {
+            "label": ["OL", "APP"],
+            "station_id": "ENOL_APP"
+          },
+          {
+            "label": ["OL", "ARR"],
+            "station_id": "ENOL_A_APP"
+          },
+          {
+            "label": ["OL", "TWR"],
+            "station_id": "ENOL_TWR"
+          },
+          {
+            "label": ["VA APP"],
+            "station_id": "ENVA_APP"
+          },
+          {
+            "label": ["VA DIR"],
+            "station_id": "ENVA_D_APP"
+          },
+          {
+            "label": ["VA", "TWR"],
+            "station_id": "ENVA_TWR"
+          },
+          {
+            "label": ["BO", "APP"],
+            "station_id": "ENBO_APP"
+          },
+          {
+            "label": ["BO", "TWR"],
+            "station_id": "ENBO_TWR"
+          },
+          {
+            "label": ["RM", "AFIS", ""],
+            "station_id": "ENRM_I_TWR"
+          },
+          {
+            "label": ["NM", "AFIS"],
+            "station_id": "ENNM_I_TWR"
+          },
+          {
+            "label": ["RO", "AFIS"],
+            "station_id": "ENRO_I_TWR"
+          },
+          {
+            "label": ["VA", "GND"],
+            "station_id": "ENVA_GND"
+          },
+          {
+            "label": ["BD", "HELGELAND"],
+            "station_id": "ENBD-HELGELAND"
+          },
+          {
+            "label": ["BN", "AFIS"],
+            "station_id": "ENBN_I_TWR"
+          },
+          {
+            "label": ["MS", "AFIS"],
+            "station_id": "ENMS_I_TWR"
+          },
+          {
+            "label": ["ST", "AFIS"],
+            "station_id": "ENST_I_TWR"
+          },
+          {
+            "label": ["RA", "AFIS"],
+            "station_id": "ENRA_I_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ENBD-N"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["BO", "APP"],
+            "station_id": "ENBO_APP"
+          },
+          {
+            "label": ["BO", "TWR"],
+            "station_id": "ENBO_TWR"
+          },
+          {
+            "label": ["RS", "AFIS"],
+            "station_id": "ENRS_I_TWR"
+          },
+          {
+            "label": ["LK", "AFIS"],
+            "station_id": "ENLK_I_TWR"
+          },
+          {
+            "label": ["SH", "AFIS"],
+            "station_id": "ENSH_I_TWR"
+          },
+          {
+            "label": ["SK", "AFIS"],
+            "station_id": "ENSK_I_TWR"
+          },
+          {
+            "label": ["EV", "APP"],
+            "station_id": "ENEV_APP"
+          },
+          {
+            "label": ["EV", "TWR"],
+            "station_id": "ENEV_TWR"
+          },
+          {
+            "label": ["EV", "GND"],
+            "station_id": "ENEV_GND"
+          },
+          {
+            "label": ["DU", "APP"],
+            "station_id": "ENDU_APP"
+          },
+          {
+            "label": ["DU", "TWR"],
+            "station_id": "ENDU_TWR"
+          },
+          {
+            "label": ["DU", "DEL"],
+            "station_id": "ENDU_DEL"
+          },
+          {
+            "label": ["AN", "APP"],
+            "station_id": "ENAN_APP"
+          },
+          {
+            "label": ["AN", "TWR"],
+            "station_id": "ENAN_TWR"
+          },
+          {
+            "label": ["TC", "APP"],
+            "station_id": "ENTC_APP"
+          },
+          {
+            "label": ["TC", "TWR"],
+            "station_id": "ENTC_TWR"
+          },
+          {
+            "label": ["TC", "DEL"],
+            "station_id": "ENTC_DEL"
+          },
+          {
+            "label": ["SR", "AFIS"],
+            "station_id": "ENSR_I_TWR"
+          },
+          {
+            "label": ["AT", "TWR"],
+            "station_id": "ENAT_APP"
+          },
+          {
+            "label": ["NA", "TWR"],
+            "station_id": "ENNA_APP"
+          },
+          {
+            "label": ["KR", "APP"],
+            "station_id": "ENKR_APP"
+          },
+          {
+            "label": ["KR", "TWR"],
+            "station_id": "ENKR_TWR"
+          },
+          {
+            "label": ["VD", "AFIS"],
+            "station_id": "ENVD_I_TWR"
+          },
+          {
+            "label": ["SS", "AFIS"],
+            "station_id": "ENSS_I_TWR"
+          },
+          {
+            "label": ["HF", "AFIS"],
+            "station_id": "ENHF_I_TWR"
+          },
+          {
+            "label": ["HK", "AFIS"],
+            "station_id": "ENHK_I_TWR"
+          },
+          {
+            "label": ["HV", "AFIS"],
+            "station_id": "ENHV_I_TWR"
+          },
+          {
+            "label": ["MH", "AFIS"],
+            "station_id": "ENMH_I_TWR"
+          },
+          {
+            "label": ["BV", "AFIS"],
+            "station_id": "ENBV_I_TWR"
+          },
+          {
+            "label": ["BS", "AFIS"],
+            "station_id": "ENBS_I_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

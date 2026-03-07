@@ -1,0 +1,67 @@
+{
+  "id": "ENOB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENOB"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["BD 26"],
+            "station_id": "ENBD-26"
+          },
+          {
+            "label": ["BD 25"],
+            "station_id": "ENBD-25"
+          },
+          {
+            "label": ["BD 24/27"],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": ["BD 18"],
+            "station_id": "ENBD-18"
+          },
+          {
+            "label": ["SV 16"],
+            "station_id": "ENSV-16"
+          },
+          {
+            "label": ["BGGL"]
+          },
+          {
+            "label": ["BIRD N"]
+          },
+          {
+            "label": ["BIRD E3"]
+          },
+          {
+            "label": ["BIRD E2"]
+          },
+          {
+            "label": ["BIRD E1"]
+          },
+          {
+            "label": ["SB", "AFIS"],
+            "station_id": "ENSB_I_TWR"
+          },
+          {
+            "label": ["AS", "AFIS"],
+            "station_id": "ENAS_I_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ENOB"],
+            "station_id": "ENOB"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -17,19 +17,24 @@
               "rows": 6,
               "keys": [
                 {
-                  "label": ["EDUU", "OSE2", "EC"]
+                  "label": ["EDUU", "OSE2", "EC"],
+                  "station_id": "EDUU-OSE22"
                 },
                 {
-                  "label": ["EDUU", "OSE1", "EC"]
+                  "label": ["EDUU", "OSE1", "EC"],
+                  "station_id": "EDUU-OSE12"
                 },
                 {
-                  "label": ["EDUU", "HVL1", "EC"]
+                  "label": ["EDUU", "HVL1", "EC"],
+                  "station_id": "EDUU-HVL12"
                 },
                 {
-                  "label": ["EDUU", "SPE1", "EC"]
+                  "label": ["EDUU", "SPE1", "EC"],
+                  "station_id": "EDUU-SPE"
                 },
                 {
-                  "label": ["EDUU", "SAL1", "EC"]
+                  "label": ["EDUU", "SAL1", "EC"],
+                  "station_id": "EDUU-SAL"
                 },
                 {
                   "label": ["FMP"],
@@ -44,41 +49,48 @@
               "rows": 6,
               "keys": [
                 {
-                  "label": ["EDWW", "WWC", "EC"]
+                  "label": ["EDWW", "MRZ", "EC"],
+                  "station_id": "EDWW-MRZ"
                 },
                 {
-                  "label": ["EDWW", "MRZ", "EC"]
+                  "label": ["EDWW", "MAR", "EC"],
+                  "station_id": "EDWW-MAR"
                 },
                 {
-                  "label": ["EDWW", "MAR", "EC"]
+                  "label": ["EDWW", "BOR", "EC"],
+                  "station_id": "EDWW-BOR"
                 },
                 {
-                  "label": ["EDWW", "BOR", "EC"]
+                  "label": ["EDWW", "FLG", "EC"],
+                  "station_id": "EDWW-FLG"
                 },
                 {
-                  "label": ["EDWW", "FLG", "EC"]
+                  "label": ["APP DP", "TRS", "EC"],
+                  "station_id": "EDMM-TRS"
                 },
                 {
                   "label": ["FMP"],
                   "station_id": "EPWW_FMP"
                 },
                 {
-                  "label": ["APP DB", "N", "EC"]
+                  "label": ["APP DB", "N", "EC"],
+                  "station_id": "EDWW-DBAN"
                 },
                 {
-                  "label": ["DEP DB", "N", "EC"]
+                  "label": ["DEP DB", "N", "EC"],
+                  "station_id": "EDWW-DBDN"
                 },
                 {
-                  "label": ["DEP DB", "S", "EC"]
+                  "label": ["DEP DB", "S", "EC"],
+                  "station_id": "EDWW-DBDS"
                 },
                 {
-                  "label": ["APP DB", "S", "EC"]
+                  "label": ["APP DB", "S", "EC"],
+                  "station_id": "EDWW-DBAS"
                 },
                 {
-                  "label": ["APP DC", "SAS", "EC"]
-                },
-                {
-                  "label": ["APP DP", "TRS", "EC"]
+                  "label": ["APP DC", "SAS", "EC"],
+                  "station_id": "EDMM-SAS"
                 }
               ]
             }
@@ -89,20 +101,24 @@
               "rows": 5,
               "keys": [
                 {
-                  "label": ["EDMM", "MEI", "EC"]
+                  "label": ["EDMM", "MEI", "EC"],
+                  "station_id": "EDMM-MEI"
                 },
                 {
-                  "label": ["EDMM", "GER", "EC"]
+                  "label": ["EDMM", "GER", "EC"],
+                  "station_id": "EDMM-GER"
                 },
                 {
-                  "label": ["EDMM", "HOF", "EC"]
+                  "label": ["EDMM", "HOF", "EC"],
+                  "station_id": "EDMM-HOF"
                 },
                 {
-                  "label": ["EDMM", "HAL", "EC"]
+                  "label": ["EDMM", "HAL", "EC"],
+                  "station_id": "EDMM-HAL"
                 },
                 {
-                  "label": ["FMP"],
-                  "station_id": "EPWW_FMP"
+                  "label": ["MUNICH", "FMP"],
+                  "station_id": "EDMM-FMP"
                 }
               ]
             }
@@ -313,32 +329,39 @@
               "rows": 2,
               "keys": [
                 {
-                  "label": ["ESMM", "2", "EC"]
+                  "label": ["ESMM", "2", "EC"],
+                  "station_id": "ESMM_2"
                 },
                 {
-                  "label": ["APP", "ESMS", "EC"]
+                  "label": ["APP", "ESMS", "EC"],
+                  "station_id": "ESMS_XL"
                 },
                 {
-                  "label": ["ESMM", "9", "EC"]
+                  "label": ["ESMM", "9", "EC"],
+                  "station_id": "ESMM_9"
                 },
                 {
-                  "label": ["ESMM", "8", "EC"]
+                  "label": ["ESMM", "8", "EC"],
+                  "station_id": "ESMM_8"
                 },
                 {
-                  "label": ["ESMM", "6", "EC"]
+                  "label": ["ESMM", "6", "EC"],
+                  "station_id": "ESMM_6"
                 },
                 {
-                  "label": ["ESMM", "7", "EC"]
+                  "label": ["ESMM", "7", "EC"],
+                  "station_id": "ESMM_7"
                 },
                 {
-                  "label": ["ESAA", "CTR", "EC"]
+                  "label": ["ESMM", "Y", "EC"],
+                  "station_id": "ESMM_Y"
                 },
                 {
                   "label": ["UMKK", "", "EC"]
                 },
                 {
-                  "label": ["FMP"],
-                  "station_id": "EPWW_FMP"
+                  "label": ["MALMO", "FMP"],
+                  "station_id": "ESAA_FMP"
                 }
               ]
             }
@@ -349,16 +372,20 @@
               "rows": 5,
               "keys": [
                 {
-                  "label": ["EYVL", "U", "EC"]
+                  "label": ["EYVL", "U", "EC"],
+                  "station_id": "EYVL-U"
                 },
                 {
-                  "label": ["EYVL", "M", "EC"]
+                  "label": ["EYVL", "M", "EC"],
+                  "station_id": "EYVL-M"
                 },
                 {
-                  "label": ["EYVL", "", "EC"]
+                  "label": ["EYVL", "", "EC"],
+                  "station_id": "EYVL-L"
                 },
                 {
-                  "label": ["EYVL", "E", "EC"]
+                  "label": ["EYVL", "E", "EC"],
+                  "station_id": "EYVL-E"
                 },
                 {
                   "label": ["FMP", "", ""],
@@ -409,13 +436,16 @@
               "rows": 2,
               "keys": [
                 {
-                  "label": ["LZBB", "U", "EC"]
+                  "label": ["LZBB", "U", "EC"],
+                  "station_id": "LZBB_CENTER_1U"
                 },
                 {
-                  "label": ["LZBB", "", "EC"]
+                  "label": ["LZBB", "", "EC"],
+                  "station_id": "LZBB_CENTER_0L"
                 },
                 {
-                  "label": ["TWR", "LZTT"]
+                  "label": ["TWR", "LZTT"],
+                  "station_id": "LZTT_TWR"
                 },
                 {
                   "label": ["FMP"],

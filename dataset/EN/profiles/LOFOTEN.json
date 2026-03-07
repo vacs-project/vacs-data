@@ -1,0 +1,46 @@
+{
+  "id": "LOFOTEN",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["LOFOTEN TWR"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["RS", "AFIS"],
+            "station_id": "ENRS_I_TWR"
+          },
+          {
+            "label": ["LK", "AFIS", ""],
+            "station_id": "ENLK_I_TWR"
+          },
+          {
+            "label": ["SH", "AFIS"],
+            "station_id": "ENSH_I_TWR"
+          },
+          {
+            "label": ["SK", "AFIS"],
+            "station_id": "ENSK_I_TWR"
+          },
+          {
+            "label": ["BD 25", "(Lofoten TMA)"],
+            "station_id": "ENBD-25"
+          },
+          {
+            "label": ["EV", "APP"],
+            "station_id": "ENEV_APP"
+          },
+          {
+            "label": ["AN", "APP"],
+            "station_id": "ENAN_APP"
+          },
+          {
+            "label": ["BO", "APP"],
+            "station_id": "ENBO_APP"
+          }
+        ]
+      }
+    }
+  ]
+}

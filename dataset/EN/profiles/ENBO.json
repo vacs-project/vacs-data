@@ -1,0 +1,50 @@
+{
+  "id": "ENBO",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENBO ALL"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BO", "APP"]
+          },
+          {
+            "label": ["BO", "TWR"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RS", "AFIS"]
+          },
+          {
+            "label": ["LK", "AFIS"]
+          },
+          {
+            "label": ["SH", "AFIS"]
+          },
+          {
+            "label": ["SK", "AFIS"]
+          },
+          {
+            "label": ["EV", "APP"]
+          },
+          {
+            "label": ["BD HELGELAND"]
+          },
+          {
+            "label": ["BD 24"]
+          },
+          {
+            "label": ["BD 25"]
+          }
+        ]
+      }
+    }
+  ]
+}

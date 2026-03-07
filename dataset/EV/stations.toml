@@ -1,0 +1,62 @@
+[[stations]]
+id = "EVRA_GND"
+controlled_by = [
+  "EVRA_GND",
+  "EVRA_TWR",
+  "EVRA_B_APP",
+  "EVRA_APP",
+  "EVRR_E_CTR",
+  "EVRR_CTR",
+]
+
+[[stations]]
+id = "EVRA_TWR"
+controlled_by = ["EVRA_TWR", "EVRA_B_APP", "EVRA_APP", "EVRR_E_CTR", "EVRR_CTR"]
+
+[[stations]]
+id = "EVRA_APP"
+controlled_by = ["EVRA_APP", "EVRR_E_CTR", "EVRR_CTR"]
+
+[[stations]]
+id = "EVRA_B_APP"
+controlled_by = ["EVRA_B_APP", "EVRA_APP", "EVRR_E_CTR", "EVRR_CTR"]
+
+[[stations]]
+id = "EVRR_FIS"
+controlled_by = [
+  "EVRR_I_CTR",
+  "EVRA_APP",
+  "EVRR_E_CTR",
+  "EVRR_CTR",
+  "EVRA_B_APP",
+]
+
+[[stations]]
+id = "EVLA_FIS"
+controlled_by = [
+  "EVLA_I_TWR",
+  "EVRR_I_CTR",
+  "EVRR_S_CTR",
+  "EVRR_W_CTR",
+  "EVRR_CTR",
+]
+
+[[stations]]
+id = "EVRR_E"
+controlled_by = ["EVRR_E_CTR", "EVRR_CTR"]
+
+[[stations]]
+id = "EVRR_N"
+controlled_by = ["EVRR_N_CTR", "EVRR_W_CTR", "EVRR_CTR"]
+
+[[stations]]
+id = "EVRR_S"
+controlled_by = ["EVRR_S_CTR", "EVRR_W_CTR", "EVRR_CTR", "EVRR_E_CTR"]
+
+[[stations]]
+id = "EVAD_FIS"
+controlled_by = ["EVAD_I_TWR", "EVRR_I_CTR"]
+
+[[stations]]
+id = "EVGA_TWR"
+controlled_by = ["EVGA_TWR", "EVRA_APP", "EVRR_E_CTR", "EVRR_CTR"]

@@ -1,0 +1,45 @@
+{
+  "id": "HELGELAND-TWR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["HELGELAND TWR"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BD HELGELAND", ""],
+            "station_id": "ENBD-HELGELAND"
+          },
+          {
+            "label": ["RA", "AFIS"],
+            "station_id": "ENRA_I_TWR"
+          },
+          {
+            "label": ["ST", "AFIS"],
+            "station_id": "ENST_I_TWR"
+          },
+          {
+            "label": ["MS", "AFIS"],
+            "station_id": "ENMS_I_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BN", "AFIS"],
+            "station_id": "ENBN_I_TWR"
+          },
+          {
+            "label": ["RM", "AFIS"],
+            "station_id": "ENRM_I_TWR"
+          },
+          {
+            "label": ["NM", "AFIS"],
+            "station_id": "ENNM_I_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

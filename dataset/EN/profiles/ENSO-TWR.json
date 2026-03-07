@@ -1,0 +1,60 @@
+{
+  "id": "ENSO-TWR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENSO"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ZV", "APP"],
+            "station_id": "ENZV_APP"
+          },
+          {
+            "label": ["ZV", "ARR"],
+            "station_id": "ENZV_A_APP"
+          },
+          {
+            "label": ["ZV", "TWR"],
+            "station_id": "ENZV_TWR"
+          },
+          {
+            "label": ["ZV", "GND"],
+            "station_id": "ENZV_GND"
+          },
+          {
+            "label": ["HD", "TWR"],
+            "station_id": "ENHD_TWR"
+          },
+          {
+            "label": ["SO", "AFIS"],
+            "station_id": "ENSO_I_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BR E", "APP"],
+            "station_id": "ENBR_E_APP"
+          },
+          {
+            "label": ["BR W", "APP"],
+            "station_id": "ENBR_W_APP"
+          },
+          {
+            "label": ["BR", "DIR"],
+            "station_id": "ENBR_D_APP"
+          },
+          {
+            "label": ["BR", "TWR"],
+            "station_id": "ENBR_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

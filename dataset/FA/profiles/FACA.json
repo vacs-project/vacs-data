@@ -3,36 +3,240 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "FACA",
+      "label": ["ACC"],
       "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "FACA_*",
-            "FASA_*",
-
-            "FAJA_*",
-
-            "FAJO_*",
-
-            "FACT_*",
-            "FAGG_*",
-            "FAPE_*",
-            "FAEL_*",
-            "FAUT_*"
-          ],
-          "exclude": [
-            "FAJA_N_*",
-            "FAJA_NE_*",
-            "FAJA_NW_*",
-            "FAJA_SW_*",
-            "FAJA_SE_*",
-            "FAJA_IN_*"
-          ],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["WEST", "ACC"],
+            "station_id": "FACA_W"
+          },
+          {
+            "label": ["CT", "APP"],
+            "station_id": "FACT_APP"
+          },
+          {
+            "label": ["CT", "TWR"],
+            "station_id": "FACT_TWR"
+          },
+          {
+            "label": ["FAJA", "WEST", "ACC"],
+            "station_id": "FAJA_W"
+          },
+          {
+            "label": ["FAJO", "2"],
+            "station_id": "FAJO_2"
+          },
+          {
+            "label": ["FYWH", "ACC"],
+            "station_id": "FYWH"
+          },
+          {
+            "label": ["EAST", "ACC"],
+            "station_id": "FACA_E"
+          },
+          {
+            "label": ["CT", "FIN"],
+            "station_id": "FACT_FIN"
+          },
+          {
+            "label": ["CT", "GMC"],
+            "station_id": "FACT_GMC"
+          },
+          {
+            "label": ["FAJA", "CENT", "ACC"],
+            "station_id": "FAJA_E"
+          },
+          {
+            "label": ["FAJO"],
+            "station_id": "FAJO"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PE", "APP"],
+            "station_id": "FAPE_APP"
+          },
+          {
+            "label": ["PE", "CLD"],
+            "station_id": "FAPE_CLD"
+          },
+          {
+            "label": ["CT", "CLD"],
+            "station_id": "FACT_CLD"
+          },
+          {
+            "label": ["FAJA", "EAST", "ACC"],
+            "station_id": "FAJA_E"
+          },
+          {
+            "label": ["FALW", "APP"],
+            "station_id": "FALW_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FACA", "INFO", "WEST"],
+            "station_id": "FACA_INFO_W"
+          },
+          {
+            "label": ["GG", "APP"],
+            "station_id": "FAGG_APP"
+          },
+          {
+            "label": ["EL", "APP"],
+            "station_id": "FAEL_APP"
+          },
+          {
+            "label": ["FAJA", "INFO", "SOUTH"],
+            "station_id": "FAJA_INFO_S"
+          },
+          {
+            "label": ["FAOB", "APP"],
+            "station_id": "FAOB_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FACA", "INFO", "EAST"],
+            "station_id": "FACA_INFO_E"
+          },
+          {
+            "label": ["GG", "TWR"],
+            "station_id": "FAGG_TWR"
+          },
+          {
+            "label": ["EL", "TWR"],
+            "station_id": "FAEL_TWR"
+          },
+          {
+            "label": ["FALE", "APP"],
+            "station_id": "FALE_APP"
+          },
+          {
+            "label": ["FAJA", "FLOW"],
+            "station_id": "FAJA_FMP"
+          },
+          {
+            "label": ["FACA", "FLOW"],
+            "station_id": "FACA_FMP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ADC"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["CT", "CLD"],
+            "station_id": "FACT_CLD"
+          },
+          {
+            "label": ["CT", "TWR"],
+            "station_id": "FACT_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EL", "TWR"],
+            "station_id": "FAEL_TWR"
+          },
+          {
+            "label": ["EL", "ACSA"],
+            "station_id": "FAEL_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["CT", "GMC"],
+            "station_id": "FACT_GMC"
+          },
+          {
+            "label": ["CT", "FIN"],
+            "station_id": "FACT_FIN"
+          },
+          {
+            "label": ["EL", "AFIS"],
+            "station_id": "FAEL_INFO"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FALW", "GMC"],
+            "station_id": "FALW_GMC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FALW", "TWR"],
+            "station_id": "FALW_TWR"
+          },
+          {
+            "label": ["GG", "TWR"],
+            "station_id": "FAGG_TWR"
+          },
+          {
+            "label": ["GG", "ASCA"],
+            "station_id": "FAGG_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PE", "TWR"],
+            "station_id": "FAPE_TWR"
+          },
+          {
+            "label": ["PE", "CLD"],
+            "station_id": "FAPE_CLD"
+          },
+          {
+            "label": ["PE", "ASCA"],
+            "station_id": "FAPE_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
       }
     }
   ]

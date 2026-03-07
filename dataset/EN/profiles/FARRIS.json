@@ -1,0 +1,129 @@
+{
+  "id": "FARRIS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["FARRIS APP"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["FARRIS", "APP"],
+            "station_id": "ENTO_APP"
+          },
+          {
+            "label": ["FARRIS", "DIR"],
+            "station_id": "ENTO_D_APP"
+          },
+          {
+            "label": ["TO", "TWR"],
+            "station_id": "ENTO_TWR"
+          },
+          {
+            "label": ["RY", "TWR"],
+            "station_id": "ENRY_TWR"
+          },
+          {
+            "label": ["NO", "AFIS"],
+            "station_id": "ENNO_I_TWR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["CN", "APP"],
+            "station_id": "ENCN_APP"
+          },
+          {
+            "label": ["CN", "TWR"],
+            "station_id": "ENCN_TWR"
+          },
+          {
+            "label": ["TO", "GND"],
+            "station_id": "ENTO_GND"
+          },
+          {
+            "label": ["RY", "GND"],
+            "station_id": "ENRY_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GM W", "APP"],
+            "station_id": "ENGM_W_APP"
+          },
+          {
+            "label": ["GM E", "APP"],
+            "station_id": "ENGM_E_APP"
+          },
+          {
+            "label": ["GM", "DIR"],
+            "station_id": "ENGM_D_APP"
+          },
+          {
+            "label": ["GM", "FIN"],
+            "station_id": "ENGM_F_APP"
+          },
+          {
+            "label": ["GM W", "TWR"],
+            "station_id": "ENGM_W_TWR"
+          },
+          {
+            "label": ["GM E", "TWR"],
+            "station_id": "ENGM_E_APP"
+          },
+          {
+            "label": ["OS 3"],
+            "station_id": "ENOS-3"
+          },
+          {
+            "label": ["OS 4"],
+            "station_id": "ENOS-4"
+          },
+          {
+            "label": ["OS 5"],
+            "station_id": "ENOS-5"
+          },
+          {
+            "label": ["OS 6"],
+            "station_id": "ENOS-6"
+          },
+          {
+            "label": ["OS 8"],
+            "station_id": "ENOS-8"
+          },
+          {
+            "label": ["SV 13"],
+            "station_id": "ENSV-13"
+          },
+          {
+            "label": ["ESOS", "3"],
+            "station_id": "ESOS_3"
+          },
+          {
+            "label": ["ESMM", "4"],
+            "station_id": "ESMM_4"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DK V", "FL285-FL385"],
+            "station_id": "EKDKV"
+          },
+          {
+            "label": ["DK L", "FL285-"],
+            "station_id": "EKDKL"
+          }
+        ]
+      }
+    }
+  ]
+}

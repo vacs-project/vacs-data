@@ -1,0 +1,99 @@
+{
+  "id": "LUUU",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EXE", "BAZA"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "BUC-V", "F365-660"],
+            "station_id": "LR_BANAP3"
+          },
+          {
+            "label": ["ACC", "BUC-G", "F345-365"],
+            "station_id": "LR_BANAP2"
+          },
+          {
+            "label": ["ACC", "BUC-S", "GND-F345"],
+            "station_id": "LR_LOKOM1"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "BUC-U", "F365-660"],
+            "station_id": "LR_BANAP3"
+          },
+          {
+            "label": ["ACC", "BUC-H", "F345-660"],
+            "station_id": "LR_BANAP2"
+          },
+          {
+            "label": ["ACC", "BUC-E", "GND-F345"],
+            "station_id": "LR_BADIN1"
+          },
+          {
+            "label": ["TWR", "IASI"],
+            "station_id": "LRIA_TWR"
+          },
+          {
+            "label": ["FIC", "BUC"],
+            "station_id": "LRBB_FIC"
+          },
+          {
+            "label": ["ACC", "LVIV"]
+          },
+          {
+            "label": ["TWR", "MARCU"],
+            "station_id": "LUBM_TWR"
+          },
+          {
+            "label": ["ACC", "MOLD"],
+            "station_id": "LUUU_CTR"
+          },
+          {
+            "label": ["APP", "CHISINAU"],
+            "station_id": "LUKK_APP"
+          },
+          {
+            "label": ["TWR", "CHISINAU"],
+            "station_id": "LUKK_TWR"
+          },
+          {
+            "label": ["GND", "CHISINAU"],
+            "station_id": "LUKK_GND"
+          },
+          {
+            "label": ["ACC", "KYIV"]
+          },
+          {
+            "label": ["ACC", "ODESA"]
+          },
+          {
+            "label": ["APP", "ODESA"]
+          },
+          {
+            "label": ["ACC", "UKRAINE"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

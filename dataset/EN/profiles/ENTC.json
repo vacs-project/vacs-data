@@ -1,0 +1,61 @@
+{
+  "id": "ENTC",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ENTC-ALL"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["TC", "APP"],
+            "station_id": "ENTC_APP"
+          },
+          {
+            "label": ["TC", "TWR"],
+            "station_id": "ENTC_TWR"
+          },
+          {
+            "label": ["TC", "DEL"],
+            "station_id": "ENTC_DEL"
+          },
+          {
+            "label": ["SR", "AFIS"],
+            "station_id": "ENSR_I_TWR"
+          },
+          {
+            "label": ["DU", "APP"],
+            "station_id": "ENDU_APP"
+          },
+          {
+            "label": ["DU", "TWR"],
+            "station_id": "ENDU_TWR"
+          },
+          {
+            "label": ["AN", "APP"],
+            "station_id": "ENAN_APP"
+          },
+          {
+            "label": ["AN", "TWR"],
+            "station_id": "ENAN_TWR"
+          },
+          {
+            "label": ["BD 25"],
+            "station_id": "ENBD-25"
+          },
+          {
+            "label": ["BD 26"],
+            "station_id": "ENBD-26"
+          },
+          {
+            "label": ["ENOB"],
+            "station_id": "ENOB"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}
