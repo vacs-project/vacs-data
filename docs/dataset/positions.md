@@ -70,6 +70,7 @@ The following validation rules apply:
   - must not contain duplicates
 - `frequency` must be in `XXX.XXX` format
 - `facility_type` must be one of the valid facility types listed below
+- If the `id` ends with a known facility type suffix (e.g., `_TWR`, `_APP`, `_GND`), it must match the `facility_type` field. For example, a position with `id = "LOWW_GND"` must have `facility_type = "GND"`, not `"TWR"`. This ensures consistent matching from VATSIM callsigns to vacs positions.
 
 ## Facility Types
 
