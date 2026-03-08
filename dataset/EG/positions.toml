@@ -254,7 +254,7 @@ profile_id = "EG-Swanwick_Military"
 id = "EGDY_GND"
 prefixes = ["EGDY"]
 frequency = "122.100"
-facility_type = "TWR"
+facility_type = "GND"
 profile_id = "EG-Swanwick_Military"
 
 [[positions]]
