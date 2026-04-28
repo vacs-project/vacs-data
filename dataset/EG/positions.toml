@@ -352,6 +352,7 @@ prefixes = ["EGGW"]
 frequency = "129.550"
 facility_type = "APP"
 profile_id = "ESSEX"
+default_call_sources = ["EGGW_APP"]
 
 [[positions]]
 id = "EGGW_F_APP"
@@ -359,6 +360,7 @@ prefixes = ["EGGW"]
 frequency = "128.750"
 facility_type = "APP"
 profile_id = "ESSEX"
+default_call_sources = ["EGGW_F_APP"]
 
 [[positions]]
 id = "EGGW_TWR"
@@ -366,6 +368,7 @@ prefixes = ["EGGW"]
 frequency = "132.555"
 facility_type = "TWR"
 profile_id = "ESSEX"
+default_call_sources = ["EGGW_TWR"]
 
 [[positions]]
 id = "EGGW_GND"
@@ -373,6 +376,7 @@ prefixes = ["EGGW"]
 frequency = "121.755"
 facility_type = "GND"
 profile_id = "ESSEX"
+default_call_sources = ["EGGW_GND"]
 
 [[positions]]
 id = "EGGW_DEL"
@@ -380,6 +384,7 @@ prefixes = ["EGGW"]
 frequency = "121.885"
 facility_type = "DEL"
 profile_id = "ESSEX"
+default_call_sources = ["EGGW_DEL"]
 
 [[positions]]
 id = "EGHC_TWR"
@@ -609,6 +614,7 @@ prefixes = ["EGKB"]
 frequency = "129.405"
 facility_type = "APP"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGKB_A_APP"]
 
 [[positions]]
 id = "EGKB_TWR"
@@ -616,6 +622,7 @@ prefixes = ["EGKB"]
 frequency = "134.805"
 facility_type = "TWR"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGKB_TWR"]
 
 [[positions]]
 id = "EGKB_GND"
@@ -623,6 +630,7 @@ prefixes = ["EGKB"]
 frequency = "121.630"
 facility_type = "GND"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGKB_GND"]
 
 [[positions]]
 id = "EGKK_APP"
@@ -630,6 +638,7 @@ prefixes = ["EGKK"]
 frequency = "126.825"
 facility_type = "APP"
 profile_id = "EGKK"
+default_call_sources = ["EGKK_APP"]
 
 [[positions]]
 id = "EGKK_F_APP"
@@ -637,6 +646,7 @@ prefixes = ["EGKK"]
 frequency = "118.950"
 facility_type = "APP"
 profile_id = "EGKK"
+default_call_sources = ["EGKK_F_APP"]
 
 [[positions]]
 id = "EGKK_TWR"
@@ -644,6 +654,7 @@ prefixes = ["EGKK"]
 frequency = "124.230"
 facility_type = "TWR"
 profile_id = "EGKK"
+default_call_sources = ["EGKK_TWR"]
 
 [[positions]]
 id = "EGKK_N_GND"
@@ -651,6 +662,7 @@ prefixes = ["EGKK"]
 frequency = "121.540"
 facility_type = "GND"
 profile_id = "EGKK"
+default_call_sources = ["EGKK_N_GND"]
 
 [[positions]]
 id = "EGKK_S_GND"
@@ -658,6 +670,7 @@ prefixes = ["EGKK"]
 frequency = "121.805"
 facility_type = "GND"
 profile_id = "EGKK"
+default_call_sources = ["EGKK_S_GND"]
 
 [[positions]]
 id = "EGKK_DEL"
@@ -665,6 +678,7 @@ prefixes = ["EGKK"]
 frequency = "121.955"
 facility_type = "DEL"
 profile_id = "EGKK"
+default_call_sources = ["EGKK_DEL"]
 
 [[positions]]
 id = "EGKK_A_DEL"
@@ -672,6 +686,7 @@ prefixes = ["EGKK"]
 frequency = "199.998"
 facility_type = "DEL"
 profile_id = "EGKK"
+default_call_sources = ["EGKK_A_DEL"]
 
 [[positions]]
 id = "EGKK_P_GND"
@@ -679,6 +694,7 @@ prefixes = ["EGKK"]
 frequency = "134.230"
 facility_type = "GND"
 profile_id = "EGKK"
+default_call_sources = ["EGKK_P_GND"]
 
 [[positions]]
 id = "EGKR_TWR"
@@ -686,6 +702,7 @@ prefixes = ["EGKR"]
 frequency = "119.605"
 facility_type = "TWR"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGKR_TWR"]
 
 [[positions]]
 id = "THAMES_APP"
@@ -693,6 +710,7 @@ prefixes = ["THAMES"]
 frequency = "132.700"
 facility_type = "APP"
 profile_id = "EG-South_LAG"
+default_call_sources = ["THAMES_APP"]
 
 [[positions]]
 id = "EGLC_APP"
@@ -700,6 +718,7 @@ prefixes = ["EGLC"]
 frequency = "128.025"
 facility_type = "APP"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGLC_APP"]
 
 [[positions]]
 id = "EGLC_TWR"
@@ -707,6 +726,7 @@ prefixes = ["EGLC"]
 frequency = "118.080"
 facility_type = "TWR"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGLC_TWR"]
 
 [[positions]]
 id = "EGLC_GND"
@@ -714,6 +734,7 @@ prefixes = ["EGLC"]
 frequency = "121.830"
 facility_type = "GND"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGLC_GND"]
 
 [[positions]]
 id = "EGLF_APP"
@@ -721,6 +742,7 @@ prefixes = ["EGLF"]
 frequency = "134.355"
 facility_type = "APP"
 profile_id = "EGLF"
+default_call_sources = ["EGLF_APP"]
 
 [[positions]]
 id = "EGLF_F_APP"
@@ -728,6 +750,7 @@ prefixes = ["EGLF"]
 frequency = "130.055"
 facility_type = "APP"
 profile_id = "EGLF"
+default_call_sources = ["EGLF_F_APP"]
 
 [[positions]]
 id = "EGLF_L_APP"
@@ -735,6 +758,7 @@ prefixes = ["EGLF"]
 frequency = "125.250"
 facility_type = "APP"
 profile_id = "EGLF"
+default_call_sources = ["EGLF_L_APP"]
 
 [[positions]]
 id = "EGLF_TWR"
@@ -742,6 +766,7 @@ prefixes = ["EGLF"]
 frequency = "122.780"
 facility_type = "TWR"
 profile_id = "EGLF"
+default_call_sources = ["EGLF_TWR"]
 
 [[positions]]
 id = "EGLF_GND"
@@ -749,6 +774,7 @@ prefixes = ["EGLF"]
 frequency = "121.815"
 facility_type = "GND"
 profile_id = "EGLF"
+default_call_sources = ["EGLF_GND"]
 
 [[positions]]
 id = "EGLL_F_APP"
@@ -756,6 +782,7 @@ prefixes = ["EGLL"]
 frequency = "120.400"
 facility_type = "APP"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_F_APP"]
 
 [[positions]]
 id = "EGLL_N_APP"
@@ -763,6 +790,7 @@ prefixes = ["EGLL"]
 frequency = "119.730"
 facility_type = "APP"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_N_APP"]
 
 [[positions]]
 id = "EGLL_S_APP"
@@ -770,6 +798,7 @@ prefixes = ["EGLL"]
 frequency = "134.980"
 facility_type = "APP"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_S_APP"]
 
 [[positions]]
 id = "EGLL_N_TWR"
@@ -777,6 +806,7 @@ prefixes = ["EGLL"]
 frequency = "118.705"
 facility_type = "TWR"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_N_TWR"]
 
 [[positions]]
 id = "EGLL_S_TWR"
@@ -784,6 +814,7 @@ prefixes = ["EGLL"]
 frequency = "118.505"
 facility_type = "TWR"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_S_TWR"]
 
 [[positions]]
 id = "EGLL_1_GND"
@@ -791,6 +822,7 @@ prefixes = ["EGLL"]
 frequency = "121.905"
 facility_type = "GND"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_1_GND"]
 
 [[positions]]
 id = "EGLL_2_GND"
@@ -798,6 +830,7 @@ prefixes = ["EGLL"]
 frequency = "121.705"
 facility_type = "GND"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_2_GND"]
 
 [[positions]]
 id = "EGLL_3_GND"
@@ -805,6 +838,7 @@ prefixes = ["EGLL"]
 frequency = "121.855"
 facility_type = "GND"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_3_GND"]
 
 [[positions]]
 id = "EGLL_DEL"
@@ -812,6 +846,7 @@ prefixes = ["EGLL"]
 frequency = "121.980"
 facility_type = "DEL"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_DEL"]
 
 [[positions]]
 id = "EGLL_A_DEL"
@@ -819,6 +854,7 @@ prefixes = ["EGLL"]
 frequency = "199.998"
 facility_type = "DEL"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_A_DEL"]
 
 [[positions]]
 id = "EGLL_P_GND"
@@ -826,6 +862,7 @@ prefixes = ["EGLL"]
 frequency = "124.480"
 facility_type = "GND"
 profile_id = "EGLL"
+default_call_sources = ["EGLL_P_GND"]
 
 [[positions]]
 id = "EGLW_TWR"
@@ -833,6 +870,7 @@ prefixes = ["EGLW"]
 frequency = "134.280"
 facility_type = "TWR"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGLW_TWR"]
 
 [[positions]]
 id = "EGMC_APP"
@@ -840,6 +878,7 @@ prefixes = ["EGMC"]
 frequency = "128.965"
 facility_type = "APP"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGMC_APP"]
 
 [[positions]]
 id = "EGMC_L_APP"
@@ -847,6 +886,7 @@ prefixes = ["EGMC"]
 frequency = "130.780"
 facility_type = "APP"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGMC_L_APP"]
 
 [[positions]]
 id = "EGMC_TWR"
@@ -854,6 +894,7 @@ prefixes = ["EGMC"]
 frequency = "127.730"
 facility_type = "TWR"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGMC_TWR"]
 
 [[positions]]
 id = "EGMD_A_APP"
@@ -1412,6 +1453,7 @@ prefixes = ["EGSC"]
 frequency = "120.965"
 facility_type = "APP"
 profile_id = "ESSEX"
+default_call_sources = ["EGSC_APP"]
 
 [[positions]]
 id = "EGSC_A_APP"
@@ -1419,6 +1461,7 @@ prefixes = ["EGSC"]
 frequency = "120.965"
 facility_type = "APP"
 profile_id = "ESSEX"
+default_call_sources = ["EGSC_A_APP"]
 
 [[positions]]
 id = "EGSC_TWR"
@@ -1426,6 +1469,7 @@ prefixes = ["EGSC"]
 frequency = "125.905"
 facility_type = "TWR"
 profile_id = "ESSEX"
+default_call_sources = ["EGSC_TWR"]
 
 [[positions]]
 id = "EGSH_APP"
@@ -1454,6 +1498,7 @@ prefixes = ["ESSEX"]
 frequency = "120.625"
 facility_type = "APP"
 profile_id = "ESSEX"
+default_call_sources = ["ESSEX_APP"]
 
 [[positions]]
 id = "EGSS_APP"
@@ -1461,6 +1506,7 @@ prefixes = ["EGSS"]
 frequency = "120.625"
 facility_type = "APP"
 profile_id = "ESSEX"
+default_call_sources = ["EGSS_APP"]
 
 [[positions]]
 id = "EGSS_F_APP"
@@ -1468,6 +1514,7 @@ prefixes = ["EGSS"]
 frequency = "136.200"
 facility_type = "APP"
 profile_id = "ESSEX"
+default_call_sources = ["EGSS_F_APP"]
 
 [[positions]]
 id = "EGSS_TWR"
@@ -1475,6 +1522,7 @@ prefixes = ["EGSS"]
 frequency = "123.805"
 facility_type = "TWR"
 profile_id = "ESSEX"
+default_call_sources = ["EGSS_TWR"]
 
 [[positions]]
 id = "EGSS_GND"
@@ -1482,6 +1530,7 @@ prefixes = ["EGSS"]
 frequency = "121.730"
 facility_type = "GND"
 profile_id = "ESSEX"
+default_call_sources = ["EGSS_GND"]
 
 [[positions]]
 id = "EGSS_DEL"
@@ -1489,6 +1538,7 @@ prefixes = ["EGSS"]
 frequency = "121.955"
 facility_type = "DEL"
 profile_id = "ESSEX"
+default_call_sources = ["EGSS_DEL"]
 
 [[positions]]
 id = "EGSY_TWR"
@@ -1857,6 +1907,7 @@ prefixes = ["EGWU"]
 frequency = "126.450"
 facility_type = "APP"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGWU_APP"]
 
 [[positions]]
 id = "EGWU_F_APP"
@@ -1864,6 +1915,7 @@ prefixes = ["EGWU"]
 frequency = "130.350"
 facility_type = "APP"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGWU_F_APP"]
 
 [[positions]]
 id = "EGWU_P_APP"
@@ -1871,6 +1923,7 @@ prefixes = ["EGWU"]
 frequency = "125.875"
 facility_type = "APP"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGWU_P_APP"]
 
 [[positions]]
 id = "EGWU_TWR"
@@ -1878,6 +1931,7 @@ prefixes = ["EGWU"]
 frequency = "120.675"
 facility_type = "TWR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGWU_TWR"]
 
 [[positions]]
 id = "EGWU_GND"
@@ -1885,6 +1939,7 @@ prefixes = ["EGWU"]
 frequency = "121.575"
 facility_type = "GND"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGWU_GND"]
 
 [[positions]]
 id = "EGXC_APP"
@@ -3132,6 +3187,7 @@ prefixes = ["EGSU"]
 frequency = "122.080"
 facility_type = "TWR"
 profile_id = "EG-AFIS_AGCS"
+default_call_sources = ["EGSU_I_TWR"]
 
 [[positions]]
 id = "EGSV_R_TWR"
