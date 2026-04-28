@@ -1740,6 +1740,7 @@ prefixes = ["EGVV"]
 frequency = "135.150"
 facility_type = "CTR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGVV_A_CTR"]
 
 [[positions]]
 id = "EGVV_CTR"
@@ -1747,6 +1748,7 @@ prefixes = ["EGVV"]
 frequency = "133.900"
 facility_type = "CTR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGVV_CTR"]
 
 [[positions]]
 id = "EGVV_C_CTR"
@@ -1754,6 +1756,7 @@ prefixes = ["EGVV"]
 frequency = "128.700"
 facility_type = "CTR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGVV_C_CTR"]
 
 [[positions]]
 id = "EGVV_D_CTR"
@@ -1761,6 +1764,7 @@ prefixes = ["EGVV"]
 frequency = "199.900"
 facility_type = "CTR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGVV_D_CTR"]
 
 [[positions]]
 id = "EGVV_E_CTR"
@@ -1768,6 +1772,7 @@ prefixes = ["EGVV"]
 frequency = "133.325"
 facility_type = "CTR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGVV_E_CTR"]
 
 [[positions]]
 id = "EGVV_F_CTR"
@@ -1775,6 +1780,7 @@ prefixes = ["EGVV"]
 frequency = "135.075"
 facility_type = "CTR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGVV_F_CTR"]
 
 [[positions]]
 id = "EGVV_N_CTR"
@@ -1782,6 +1788,7 @@ prefixes = ["EGVV"]
 frequency = "136.375"
 facility_type = "CTR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGVV_N_CTR"]
 
 [[positions]]
 id = "EGVV_Q_CTR"
@@ -1789,6 +1796,7 @@ prefixes = ["EGVV"]
 frequency = "134.300"
 facility_type = "CTR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGVV_Q_CTR"]
 
 [[positions]]
 id = "EGVV_W_CTR"
@@ -1796,6 +1804,7 @@ prefixes = ["EGVV"]
 frequency = "127.450"
 facility_type = "CTR"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["EGVV_W_CTR"]
 
 [[positions]]
 id = "EGWC_APP"
