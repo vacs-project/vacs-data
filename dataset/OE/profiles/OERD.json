@@ -7,10 +7,10 @@
       "page": {
         "rows": 4,
         "keys": [
-          { "label": ["CTR"], "station_id": "OERD_E_CTR" },
-          { "label": ["CTR"], "station_id": "OERD_N_CTR" },
-          { "label": ["CTR"], "station_id": "OERD_NE_CTR" },
-          { "label": ["CTR", "SECTOR 1"], "station_id": "OERD_1_CTR" }
+          { "label": ["RD", "EAST", "FL345+"], "station_id": "OERD_E_CTR" },
+          { "label": ["RD", "NORTH", "FL345+"], "station_id": "OERD_N_CTR" },
+          { "label": ["RD", "NE", "FL345+"], "station_id": "OERD_NE_CTR" },
+          { "label": ["RD", "SECTOR 1", "FL150+"], "station_id": "OERD_1_CTR" }
         ]
       }
     }

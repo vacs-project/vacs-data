@@ -58,16 +58,9 @@
       "default_call_sources": ["OEJD_S_CTR"]
     },
     {
-      "id": "OEJD_U_CTR",
-      "prefixes": ["OEJD"],
-      "frequency": "127.750",
-      "facility_type": "CTR",
-      "default_call_sources": ["OEJD_U_CTR"]
-    },
-    {
       "id": "OEJD_W_CTR",
       "prefixes": ["OEJD"],
-      "frequency": "133.700",
+      "frequency": "132.300",
       "facility_type": "CTR",
       "default_call_sources": ["OEJD_W_CTR"]
     },

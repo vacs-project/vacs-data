@@ -18,7 +18,7 @@
 
           { "label": ["APP", "FINAL"], "station_id": "OERK_F_APP" },
 
-          { "label": ["ENROUTE"], "station_id": "OERD_E_CTR" }
+          { "label": ["RD","EAST UPPER","FL345+"], "station_id": "OERD_E_CTR" }
         ]
       }
     }

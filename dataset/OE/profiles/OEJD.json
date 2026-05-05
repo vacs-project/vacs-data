@@ -1,0 +1,22 @@
+{
+  "id": "OEJD",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OEJD"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          { "label": ["JED", "EAST", "FL345+"], "station_id": "OERD_E_CTR" },
+          { "label": ["JED", "NORTH", "FL345-"], "station_id": "OEJD_N_CTR" },
+          { "label": ["JED", "SOUTH", "UNL"], "station_id": "OEJD_S_CTR" },
+          { "label": ["JED", "BBX", "UNL"], "station_id": "OERD_1_CTR" },
+          { "label": ["JED", "WEST LOW", "FL345-"], "station_id": "OEJD_W_CTR"},
+          { "label": ["JED", "NE LOW", "FL345-"], "station_id": "OEJD_NE_CTR"},
+          { "label": ["JED", "SE", "UNL"], "station_id": "OEJD_SE_CTR"}
+
+        ]
+      }
+    }
+  ]
+}
