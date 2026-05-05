@@ -18,13 +18,13 @@
 
           { "label": ["APP"], "station_id": "OEJN_APP" },
 
-          { "label": ["APP", "FEEDER"], "station_id": "OEJN_FE_APP" },
+          { "label": ["APP", "FINAL EAST"], "station_id": "OEJN_FE_APP" },
 
-          { "label": ["APP", "FINAL"], "station_id": "OEJN_FW_APP" },
+          { "label": ["APP", "FINAL WEST"], "station_id": "OEJN_FW_APP" },
 
-          { "label": ["APP", "FMC"], "station_id": "OEJN_FMC_APP" },
+          { "label": ["APP", "FLOW MANAGER"], "station_id": "OEJN_FMC_APP" },
 
-          { "label": ["ENROUTE", "CTR"], "station_id": "OEJN_1_CTR" }
+          { "label": ["JED", "TERMINAL"], "station_id": "OEJN_1_CTR" }
         ]
       }
     }
