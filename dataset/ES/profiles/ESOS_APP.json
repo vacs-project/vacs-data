@@ -16,8 +16,8 @@
             "station_id": "ESSA_TWR-W"
           },
           {
-            "label": ["APP-C"],
-            "station_id": "ESOS_ARR-E"
+            "label": ["ARR-W"],
+            "station_id": "ESOS_ARR-W"
           },
           {
             "label": ["DEP-W"],
@@ -40,11 +40,11 @@
             "station_id": "ESSA_TWR-E"
           },
           {
-            "label": ["ARR-W"],
-            "station_id": "ESOS_ARR-W"
+            "label": ["APP-C"],
+            "station_id": "ESOS_APP-C"
           },
           {
-            "label": ["DIR-W"],
+            "label": ["DIR"],
             "station_id": "ESOS_DIR-W"
           },
           {
@@ -68,8 +68,8 @@
             "station_id": "ESOS_ARR-E"
           },
           {
-            "label": ["DIR-E"],
-            "station_id": "ESOS_DIR-E"
+            "label": ["DEP-E"],
+            "station_id": "ESOS_DEP-E"
           },
           {
             "label": ["OS", "3"],
@@ -92,8 +92,8 @@
             "station_id": "ESOS_APP-S"
           },
           {
-            "label": ["DEP-E"],
-            "station_id": "ESOS_DEP-E"
+            "label": ["MM", "W"],
+            "station_id": "ESMM_W"
           },
           {
             "label": ["OS", "4"],
@@ -126,6 +126,26 @@
           {
             "label": ["EFIN", "D"],
             "station_id": "EFIN_D"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["MIL"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["COB"],
+            "station_id": "ESPF"
+          },
+          {
+            "label": ["GRI"],
+            "station_id": "ESCR"
+          },
+          {
+            "label": ["BSH"],
+            "station_id": "ESDK"
           }
         ]
       }

@@ -243,7 +243,7 @@
           },
           {
             "label": ["OS", "APP-C"],
-            "station_id": "ESOS_ARR-E"
+            "station_id": "ESOS_APP-C"
           },
           {
             "label": []
@@ -539,7 +539,8 @@
             "station_id": "EYVL-L"
           },
           {
-            "label": ["UMKK"]
+            "label": ["UMKK"],
+            "station_id": "UMKK_ACC"
           }
         ]
       }

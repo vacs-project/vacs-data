@@ -48,7 +48,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["SA", "WS"],
+            "station_id": "ESSA_WS"
           },
           {
             "label": ["OS", "K"],
@@ -66,11 +67,12 @@
             "label": []
           },
           {
-            "label": ["OS", "ARR-W"],
-            "station_id": "ESOS_ARR-W"
+            "label": ["OS", "APP-S"],
+            "station_id": "ESOS_APP-S"
           },
           {
-            "label": []
+            "label": ["OS", "APP-C"],
+            "station_id": "ESOS_APP-C"
           },
           {
             "label": ["OS", "XK"],
@@ -88,12 +90,12 @@
             "label": []
           },
           {
-            "label": ["OS", "ARR-E"],
-            "station_id": "ESOS_ARR-E"
+            "label": ["OS", "ARR-W"],
+            "station_id": "ESOS_ARR-W"
           },
           {
-            "label": ["SA", "TWR-W"],
-            "station_id": "ESSA_TWR-W"
+            "label": ["OS", "DEP-W"],
+            "station_id": "ESOS_DEP-W"
           },
           {
             "label": ["OS", "YK"],
@@ -109,10 +111,12 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["OS", "ARR-E"],
+            "station_id": "ESOS_ARR-E"
           },
           {
-            "label": []
+            "label": ["OS", "DEP-E"],
+            "station_id": "ESOS_DEP-E"
           }
         ]
       }
@@ -139,8 +143,8 @@
             "station_id": "ESMM_XK"
           },
           {
-            "label": ["OS", "DEP-E"],
-            "station_id": "ESOS_DEP-E"
+            "label": ["MM", "FIS-S"],
+            "station_id": "ESMM_FIS-S"
           },
           {
             "label": ["GG", "APP-E"],
@@ -163,11 +167,10 @@
             "station_id": "ESMM_XL"
           },
           {
-            "label": ["OS", "DEP-W"],
-            "station_id": "ESOS_DEP-W"
+            "label": []
           },
           {
-            "label": ["OS", "DIR"],
+            "label": ["SA", "DIR"],
             "station_id": "ESOS_DIR-W"
           },
           {
@@ -183,8 +186,8 @@
             "station_id": "ESMM_IN"
           },
           {
-            "label": ["MM", "FIS-S"],
-            "station_id": "ESMM_FIS-S"
+            "label": ["SA", "TWR-W"],
+            "station_id": "ESSA_TWR-W"
           },
           {
             "label": ["SA", "GND-W"],

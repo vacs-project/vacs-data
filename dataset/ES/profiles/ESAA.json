@@ -114,7 +114,7 @@
             "label": []
           },
           {
-            "label": ["OS", "DIR"],
+            "label": ["SA", "DIR"],
             "station_id": "ESOS_DIR-W"
           },
           {
@@ -910,7 +910,8 @@
             "label": []
           },
           {
-            "label": ["UMKK"]
+            "label": ["UMKK"],
+            "station_id": "UMKK_ACC"
           }
         ]
       }
