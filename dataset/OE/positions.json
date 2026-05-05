@@ -60,7 +60,7 @@
     {
       "id": "OEJD_W_CTR",
       "prefixes": ["OEJD"],
-      "frequency": "132.300",
+      "frequency": "133.700",
       "facility_type": "CTR",
       "default_call_sources": ["OEJD_W_CTR"]
     },
