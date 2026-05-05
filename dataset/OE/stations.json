@@ -39,11 +39,6 @@
       "controlled_by": ["OEJD_W_CTR"]
     },
     {
-      "id": "OEJD_W_CTR",
-      "parent_id": "OEJD_1_CTR",
-      "controlled_by": ["OEJD_W_CTR"]
-    },
-    {
       "id": "OEJD_NE_CTR",
       "parent_id": "OEJD_N_CTR",
       "controlled_by": ["OEJD_NE_CTR"]
