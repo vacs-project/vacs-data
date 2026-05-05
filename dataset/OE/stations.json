@@ -34,9 +34,9 @@
       "controlled_by": ["OEJD_S_CTR"]
     },
     {
-      "id": "OEJD_U_CTR",
+      "id": "OEJD_W_CTR",
       "parent_id": "OEJD_1_CTR",
-      "controlled_by": ["OEJD_U_CTR"]
+      "controlled_by": ["OEJD_W_CTR"]
     },
     {
       "id": "OEJD_W_CTR",
