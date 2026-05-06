@@ -1,0 +1,68 @@
+{
+  "id": "ESMX",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ESMX"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["WS"],
+            "station_id": "ESAA_FMP"
+          },
+          {
+            "label": ["MK", "TWR"],
+            "station_id": "ESMK_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GJ", "TWR"],
+            "station_id": "ESGJ_TWR"
+          },
+          {
+            "label": ["DF", "APP"],
+            "station_id": "ESDF_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MM", "K"],
+            "station_id": "ESMM_K"
+          },
+          {
+            "label": ["MM", "XK"],
+            "station_id": "ESMM_XK"
+          },
+          {
+            "label": ["MM", "FIS-S"],
+            "station_id": "ESMM_FIS-S"
+          },
+          {
+            "label": ["OS", "1"],
+            "station_id": "ESOS_1"
+          },
+          {
+            "label": ["OS", "9"],
+            "station_id": "ESOS_9"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

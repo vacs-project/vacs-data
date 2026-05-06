@@ -477,7 +477,7 @@
       "prefixes": ["ESMX"],
       "frequency": "118.155",
       "facility_type": "TWR",
-      "profile_id": "ESOS_AD_SOUTH",
+      "profile_id": "ESMX",
       "default_call_sources": ["ESMX_TWR"]
     },
     {
