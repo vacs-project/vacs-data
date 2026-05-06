@@ -200,28 +200,6 @@
       "controlled_by": ["VHHK_FMP"]
     },
     {
-      "id": "RCAA_W_CTR",
-      "controlled_by": ["RCAA_W_CTR"]
-    },
-    {
-      "id": "RCAA_E_CTR",
-      "parent_id": "RCAA_W_CTR",
-      "controlled_by": ["RCAA_E_CTR"]
-    },
-    {
-      "id": "RCAA_S_CTR",
-      "parent_id": "RCAA_E_CTR",
-      "controlled_by": ["RCAA_S_CTR"]
-    },
-    {
-      "id": "RCAA_L_CTR",
-      "controlled_by": ["RCAA_L_CTR", "RCAA_W_CTR"]
-    },
-    {
-      "id": "RCAA_N_CTR",
-      "controlled_by": ["RCAA_N_CTR", "RCAA_L_CTR", "RCAA_W_CTR"]
-    },
-    {
       "id": "ASEA_FSS",
       "controlled_by": ["ASEA_FSS"]
     },

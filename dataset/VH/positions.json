@@ -321,41 +321,6 @@
       "default_call_sources": ["VHHK_FMP"]
     },
     {
-      "id": "RCAA_W_CTR",
-      "prefixes": ["TPE"],
-      "frequency": "126.700",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "RCAA_L_CTR",
-      "prefixes": ["TPE"],
-      "frequency": "125.500",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "RCAA_N_CTR",
-      "prefixes": ["TPE"],
-      "frequency": "123.600",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "RCAA_E_CTR",
-      "prefixes": ["TPE"],
-      "frequency": "127.900",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "RCAA_S_CTR",
-      "prefixes": ["TPE"],
-      "frequency": "129.100",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
       "id": "ASEA_FSS",
       "prefixes": ["ASEA"],
       "frequency": "135.350",
