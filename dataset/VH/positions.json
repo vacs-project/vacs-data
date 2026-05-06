@@ -328,27 +328,6 @@
       "profile_id": "VHHK"
     },
     {
-      "id": "RPHI_1_CTR",
-      "prefixes": ["MNL"],
-      "frequency": "127.500",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "RPHI_N_CTR",
-      "prefixes": ["MNL"],
-      "frequency": "126.575",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "RPHI_CTR",
-      "prefixes": ["MNL"],
-      "frequency": "119.300",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
       "id": "ZBBB_FSS",
       "prefixes": ["PRC"],
       "frequency": "133.075",
