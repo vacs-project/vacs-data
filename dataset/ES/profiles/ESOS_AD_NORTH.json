@@ -3,112 +3,185 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["ESOS", ""],
+      "label": [
+        "ESOS",
+        ""
+      ],
       "page": {
         "rows": 6,
         "keys": [
           {
-            "label": ["OS", "YK"],
+            "label": [
+              "OS",
+              "YK"
+            ],
             "station_id": "ESOS_YK"
           },
           {
-            "label": ["OS", "XK"],
+            "label": [
+              "OS",
+              "XK"
+            ],
             "station_id": "ESOS_XK"
           },
           {
-            "label": ["OS", "K"],
+            "label": [
+              "OS",
+              "K"
+            ],
             "station_id": "ESOS_K"
           },
           {
-            "label": ["OS", "N"],
+            "label": [
+              "OS",
+              "N"
+            ],
             "station_id": "ESOS_N"
           },
           {
-            "label": ["OS", "F"],
+            "label": [
+              "OS",
+              "F"
+            ],
             "station_id": "ESOS_F"
           },
           {
-            "label": ["WS", "", ""],
+            "label": [
+              "WS",
+              "",
+              ""
+            ],
             "station_id": "ESAA_FMP"
           },
           {
-            "label": ["NQ", "TWR"],
+            "label": [
+              "NQ",
+              "TWR"
+            ],
             "station_id": "ESNQ_TWR"
           },
           {
-            "label": ["UT", "AFIS"],
+            "label": [
+              "UT",
+              "AFIS"
+            ],
             "station_id": "ESUT_AFIS"
           },
           {
-            "label": ["NV", "AFIS"],
+            "label": [
+              "NV",
+              "AFIS"
+            ],
             "station_id": "ESNL_AFIS"
           },
           {
             "label": []
           },
           {
-            "label": ["NZ", "TWR"],
+            "label": [
+              "NZ",
+              "TWR"
+            ],
             "station_id": "ESNZ_TWR"
           },
           {
-            "label": ["ND", "AFIS"],
+            "label": [
+              "ND",
+              "AFIS"
+            ],
             "station_id": "ESND_AFIS"
           },
           {
-            "label": ["NG", "AFIS"],
+            "label": [
+              "NG",
+              "AFIS"
+            ],
             "station_id": "ESNG_AFIS"
           },
           {
-            "label": ["NX", "TWR/AFIS"],
+            "label": [
+              "NX",
+              "TWR/AFIS"
+            ],
             "station_id": "ESNX_TWR"
           },
           {
-            "label": ["NL", "AFIS"],
+            "label": [
+              "NL",
+              "AFIS"
+            ],
             "station_id": "ESNL_AFIS"
           },
           {
             "label": []
           },
           {
-            "label": ["NK", "AFIS"],
+            "label": [
+              "NK",
+              "AFIS"
+            ],
             "station_id": "ESNK_AFIS"
           },
           {
             "label": []
           },
           {
-            "label": ["UP", "AFIS"],
+            "label": [
+              "UP",
+              "AFIS"
+            ],
             "station_id": "ESUP_AFIS"
           },
           {
-            "label": ["PA", "APP"],
+            "label": [
+              "PA",
+              "APP"
+            ],
             "station_id": "ESPA_APP"
           },
           {
-            "label": ["NS", "TWR"],
+            "label": [
+              "NS",
+              "TWR"
+            ],
             "station_id": "ESNS_TWR"
           },
           {
-            "label": ["NU", "TWR"],
+            "label": [
+              "NU",
+              "TWR"
+            ],
             "station_id": "ESNU_TWR"
           },
           {
-            "label": ["NO", "TWR"],
+            "label": [
+              "NO",
+              "TWR"
+            ],
             "station_id": "ESNO_TWR"
           },
           {
-            "label": ["NN", "TWR"],
+            "label": [
+              "NN",
+              "TWR"
+            ],
             "station_id": "ESNN_TWR"
           },
           {
             "label": []
           },
           {
-            "label": ["PA", "DIR"],
+            "label": [
+              "PA",
+              "DIR"
+            ],
             "station_id": "ESPA_DIR"
           },
           {
-            "label": ["PA", "TWR"],
+            "label": [
+              "PA",
+              "TWR"
+            ],
             "station_id": "ESPA_TWR"
           },
           {
@@ -124,7 +197,9 @@
       }
     },
     {
-      "label": ["FIR"],
+      "label": [
+        "FIR"
+      ],
       "page": {
         "rows": 6,
         "keys": [
@@ -132,23 +207,38 @@
             "label": []
           },
           {
-            "label": ["ENBD", "26"],
+            "label": [
+              "ENBD",
+              "26"
+            ],
             "station_id": "ENBD-26"
           },
           {
-            "label": ["ENBD", "25"],
+            "label": [
+              "ENBD",
+              "25"
+            ],
             "station_id": "ENBD-25"
           },
           {
-            "label": ["ENBD", "24/27"],
+            "label": [
+              "ENBD",
+              "24/27"
+            ],
             "station_id": "ENBD-24/27"
           },
           {
-            "label": ["ENBD", "19"],
+            "label": [
+              "ENBD",
+              "19"
+            ],
             "station_id": "ENBD-19"
           },
           {
-            "label": ["ENOS", "1"],
+            "label": [
+              "ENOS",
+              "1"
+            ],
             "station_id": "ENOS-1"
           },
           {
@@ -161,7 +251,11 @@
             "label": []
           },
           {
-            "label": ["ENBD", "HELGELAND", "APP"],
+            "label": [
+              "ENBD",
+              "HELGELAND",
+              "APP"
+            ],
             "station_id": "ENBD-HELGELAND"
           },
           {
@@ -201,30 +295,48 @@
             "label": []
           },
           {
-            "label": ["EFVA", "TWR"],
+            "label": [
+              "EFVA",
+              "TWR"
+            ],
             "station_id": "EFVA_TWR"
           },
           {
             "label": []
           },
           {
-            "label": ["EFIN", "FMP"],
+            "label": [
+              "EFIN",
+              "FMP"
+            ],
             "station_id": "EFIN_FMP"
           },
           {
-            "label": ["EFIN", "J"],
+            "label": [
+              "EFIN",
+              "J"
+            ],
             "station_id": "EFIN_J"
           },
           {
-            "label": ["EFIN", "H"],
+            "label": [
+              "EFIN",
+              "H"
+            ],
             "station_id": "EFIN_H"
           },
           {
-            "label": ["EFIN", "V"],
+            "label": [
+              "EFIN",
+              "V"
+            ],
             "station_id": "EFIN_V"
           },
           {
-            "label": ["EFIN", "G"],
+            "label": [
+              "EFIN",
+              "G"
+            ],
             "station_id": "EFIN_G"
           },
           {
@@ -234,20 +346,28 @@
       }
     },
     {
-      "label": ["MIL"],
+      "label": [
+        "MIL"
+      ],
       "page": {
         "rows": 3,
         "keys": [
           {
-            "label": ["COB"],
+            "label": [
+              "EAG"
+            ],
             "station_id": "ESPF"
           },
           {
-            "label": ["GRI"],
+            "label": [
+              "GRI"
+            ],
             "station_id": "ESCR"
           },
           {
-            "label": ["BSH"],
+            "label": [
+              "COB"
+            ],
             "station_id": "ESDK"
           },
           {
@@ -263,22 +383,34 @@
             "label": []
           },
           {
-            "label": ["NJ", "APP"],
+            "label": [
+              "NJ",
+              "APP"
+            ],
             "station_id": "ESNJ_APP"
           },
           {
-            "label": ["NJ", "TWR"],
+            "label": [
+              "NJ",
+              "TWR"
+            ],
             "station_id": "ESNJ_TWR"
           },
           {
             "label": []
           },
           {
-            "label": ["PE", "APP"],
+            "label": [
+              "PE",
+              "APP"
+            ],
             "station_id": "ESPE_APP"
           },
           {
-            "label": ["PE", "TWR"],
+            "label": [
+              "PE",
+              "TWR"
+            ],
             "station_id": "ESPE_TWR"
           }
         ]

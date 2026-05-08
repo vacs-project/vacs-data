@@ -3,16 +3,24 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["ESPA"],
+      "label": [
+        "ESPA"
+      ],
       "page": {
         "rows": 6,
         "keys": [
           {
-            "label": ["PE", "APP"],
+            "label": [
+              "PE",
+              "APP"
+            ],
             "station_id": "ESPE_APP"
           },
           {
-            "label": ["NS", "TWR"],
+            "label": [
+              "NS",
+              "TWR"
+            ],
             "station_id": "ESNS_TWR"
           },
           {
@@ -22,11 +30,15 @@
             "label": []
           },
           {
-            "label": ["APP"],
+            "label": [
+              "APP"
+            ],
             "station_id": "ESPA_APP"
           },
           {
-            "label": ["TWR"],
+            "label": [
+              "TWR"
+            ],
             "station_id": "ESPA_TWR"
           },
           {
@@ -42,22 +54,31 @@
             "label": []
           },
           {
-            "label": ["DIR"],
+            "label": [
+              "DIR"
+            ],
             "station_id": "ESPA_DIR"
           },
           {
-            "label": ["PAR"],
+            "label": [
+              "PAR"
+            ],
             "station_id": "ESPA_PAR"
           },
           {
-            "label": ["OS", "K"],
+            "label": [
+              "OS",
+              "K"
+            ],
             "station_id": "ESOS_K"
           },
           {
             "label": []
           },
           {
-            "label": ["WS"],
+            "label": [
+              "WS"
+            ],
             "station_id": "ESAA_FMP"
           },
           {
@@ -70,26 +91,38 @@
             "label": []
           },
           {
-            "label": ["OS", "YK"],
+            "label": [
+              "OS",
+              "YK"
+            ],
             "station_id": "ESOS_YK"
           },
           {
-            "label": ["OS", "XK"],
+            "label": [
+              "OS",
+              "XK"
+            ],
             "station_id": "ESOS_XK"
           },
           {
             "label": []
           },
           {
-            "label": ["COB"],
+            "label": [
+              "EAG"
+            ],
             "station_id": "ESPF"
           },
           {
-            "label": ["GRI"],
+            "label": [
+              "GRI"
+            ],
             "station_id": "ESCR"
           },
           {
-            "label": ["BSH"],
+            "label": [
+              "COB"
+            ],
             "station_id": "ESDK"
           }
         ]
