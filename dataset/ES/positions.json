@@ -2,1065 +2,1607 @@
   "positions": [
     {
       "id": "ESAA_CTR",
-      "prefixes": ["ESAA"],
+      "prefixes": [
+        "ESAA"
+      ],
       "frequency": "126.825",
       "facility_type": "CTR",
       "profile_id": "ESAA",
-      "default_call_sources": ["ESMM_2", "ESOS_3"]
+      "default_call_sources": [
+        "ESMM_2",
+        "ESOS_3"
+      ]
     },
     {
       "id": "ESAA_FMP",
-      "prefixes": ["ESAA"],
+      "prefixes": [
+        "ESAA"
+      ],
       "frequency": "126.825",
       "facility_type": "FMP",
       "profile_id": "ESAA",
-      "default_call_sources": ["ESAA_FMP"]
+      "default_call_sources": [
+        "ESAA_FMP"
+      ]
     },
     {
       "id": "ESCF_APP",
-      "prefixes": ["ESCF"],
-      "frequency": "135.850",
+      "prefixes": [
+        "ESCF"
+      ],
+      "frequency": "135.855",
       "facility_type": "APP",
       "profile_id": "ESSP",
-      "default_call_sources": ["ESCF_APP"]
+      "default_call_sources": [
+        "ESCF_APP"
+      ]
     },
     {
       "id": "ESCF_F_APP",
-      "prefixes": ["ESCF"],
-      "frequency": "126.400",
+      "prefixes": [
+        "ESCF"
+      ],
+      "frequency": "126.405",
       "facility_type": "APP",
       "profile_id": "ESSP",
-      "default_call_sources": ["ESCF_DIR"]
+      "default_call_sources": [
+        "ESCF_DIR"
+      ]
     },
     {
       "id": "ESCF_GND",
-      "prefixes": ["ESCF"],
-      "frequency": "121.850",
+      "prefixes": [
+        "ESCF"
+      ],
+      "frequency": "121.855",
       "facility_type": "GND",
       "profile_id": "ESSP",
-      "default_call_sources": ["ESCF_GND"]
+      "default_call_sources": [
+        "ESCF_GND"
+      ]
     },
     {
       "id": "ESCF_P_APP",
-      "prefixes": ["ESCF"],
-      "frequency": "125.200",
+      "prefixes": [
+        "ESCF"
+      ],
+      "frequency": "125.205",
       "facility_type": "APP",
       "profile_id": "ESSP",
-      "default_call_sources": ["ESCF_PAR"]
+      "default_call_sources": [
+        "ESCF_PAR"
+      ]
     },
     {
       "id": "ESCF_TWR",
-      "prefixes": ["ESCF"],
-      "frequency": "129.800",
+      "prefixes": [
+        "ESCF"
+      ],
+      "frequency": "129.805",
       "facility_type": "TWR",
       "profile_id": "ESSP",
-      "default_call_sources": ["ESCF_TWR"]
+      "default_call_sources": [
+        "ESCF_TWR"
+      ]
     },
     {
       "id": "ESCM_APP",
-      "prefixes": ["ESCM"],
-      "frequency": "130.400",
+      "prefixes": [
+        "ESCM"
+      ],
+      "frequency": "130.405",
       "facility_type": "APP",
       "profile_id": "ESCM",
-      "default_call_sources": ["ESCM_APP"]
+      "default_call_sources": [
+        "ESCM_APP"
+      ]
     },
     {
       "id": "ESCM_TWR",
-      "prefixes": ["ESCM"],
-      "frequency": "119.200",
+      "prefixes": [
+        "ESCM"
+      ],
+      "frequency": "119.205",
       "facility_type": "TWR",
       "profile_id": "ESCM",
-      "default_call_sources": ["ESCM_APP", "ESCM_TWR"]
+      "default_call_sources": [
+        "ESCM_APP",
+        "ESCM_TWR"
+      ]
     },
     {
       "id": "ESCR_CTR",
-      "prefixes": ["ESCR"],
-      "frequency": "135.200",
+      "prefixes": [
+        "ESCR"
+      ],
+      "frequency": "135.205",
       "facility_type": "CTR",
       "profile_id": "ESAA",
-      "default_call_sources": ["ESCR"]
+      "default_call_sources": [
+        "ESCR"
+      ]
     },
     {
       "id": "ESDF_APP",
-      "prefixes": ["ESDF"],
-      "frequency": "128.450",
+      "prefixes": [
+        "ESDF"
+      ],
+      "frequency": "128.455",
       "facility_type": "APP",
       "profile_id": "ESDF",
-      "default_call_sources": ["ESDF_APP"]
+      "default_call_sources": [
+        "ESDF_APP"
+      ]
     },
     {
       "id": "ESDF_GND",
-      "prefixes": ["ESDF"],
-      "frequency": "121.850",
+      "prefixes": [
+        "ESDF"
+      ],
+      "frequency": "121.855",
       "facility_type": "GND",
       "profile_id": "ESDF",
-      "default_call_sources": ["ESDF_GND"]
+      "default_call_sources": [
+        "ESDF_GND"
+      ]
     },
     {
       "id": "ESDF_P_APP",
-      "prefixes": ["ESDF"],
-      "frequency": "134.100",
+      "prefixes": [
+        "ESDF"
+      ],
+      "frequency": "134.105",
       "facility_type": "APP",
       "profile_id": "ESDF",
-      "default_call_sources": ["ESDF_PAR"]
+      "default_call_sources": [
+        "ESDF_PAR"
+      ]
     },
     {
       "id": "ESDF_F_APP",
-      "prefixes": ["ESDF"],
-      "frequency": "129.900",
+      "prefixes": [
+        "ESDF"
+      ],
+      "frequency": "129.905",
       "facility_type": "APP",
       "profile_id": "ESDF",
-      "default_call_sources": ["ESDF_DIR"]
+      "default_call_sources": [
+        "ESDF_DIR"
+      ]
     },
     {
       "id": "ESDF_TWR",
-      "prefixes": ["ESDF"],
-      "frequency": "119.200",
+      "prefixes": [
+        "ESDF"
+      ],
+      "frequency": "119.205",
       "facility_type": "TWR",
       "profile_id": "ESDF",
-      "default_call_sources": ["ESDF_APP", "ESDF_TWR"]
+      "default_call_sources": [
+        "ESDF_APP",
+        "ESDF_TWR"
+      ]
     },
     {
       "id": "ESDK_CTR",
-      "prefixes": ["ESDK"],
-      "frequency": "132.100",
+      "prefixes": [
+        "ESDK"
+      ],
+      "frequency": "132.105",
       "facility_type": "CTR",
       "profile_id": "ESAA",
-      "default_call_sources": ["ESDK"]
+      "default_call_sources": [
+        "ESDK"
+      ]
     },
     {
       "id": "ESFR_APP",
-      "prefixes": ["ESFR"],
-      "frequency": "133.500",
+      "prefixes": [
+        "ESFR"
+      ],
+      "frequency": "133.505",
       "facility_type": "APP",
       "profile_id": "ESGG_APP",
-      "default_call_sources": ["ESFR_APP"]
+      "default_call_sources": [
+        "ESFR_APP"
+      ]
     },
     {
       "id": "ESFR_TWR",
-      "prefixes": ["ESFR"],
-      "frequency": "136.025",
+      "prefixes": [
+        "ESFR"
+      ],
+      "frequency": "136.030",
       "facility_type": "TWR",
       "profile_id": "ESGG_APP",
-      "default_call_sources": ["ESFR_APP", "ESFR_TWR"]
+      "default_call_sources": [
+        "ESFR_APP",
+        "ESFR_TWR"
+      ]
     },
     {
       "id": "ESGG_A_APP",
-      "prefixes": ["ESGG"],
+      "prefixes": [
+        "ESGG"
+      ],
       "frequency": "120.130",
       "facility_type": "APP",
       "profile_id": "ESGG_APP",
-      "default_call_sources": ["ESGG_ARR"]
+      "default_call_sources": [
+        "ESGG_ARR"
+      ]
     },
     {
       "id": "ESGG_DEL",
-      "prefixes": ["ESGG"],
+      "prefixes": [
+        "ESGG"
+      ],
       "frequency": "121.680",
       "facility_type": "DEL",
       "profile_id": "ESGG",
-      "default_call_sources": ["ESGG_DEL"]
+      "default_call_sources": [
+        "ESGG_DEL"
+      ]
     },
     {
       "id": "ESGG_E_APP",
-      "prefixes": ["ESGG"],
+      "prefixes": [
+        "ESGG"
+      ],
       "frequency": "124.680",
       "facility_type": "APP",
       "profile_id": "ESGG_APP",
-      "default_call_sources": ["ESGG_APP-E"]
+      "default_call_sources": [
+        "ESGG_APP-E"
+      ]
     },
     {
       "id": "ESGG_GND",
-      "prefixes": ["ESGG"],
+      "prefixes": [
+        "ESGG"
+      ],
       "frequency": "121.905",
       "facility_type": "GND",
       "profile_id": "ESGG",
-      "default_call_sources": ["ESGG_GND"]
+      "default_call_sources": [
+        "ESGG_GND"
+      ]
     },
     {
       "id": "ESGG_TWR",
-      "prefixes": ["ESGG"],
+      "prefixes": [
+        "ESGG"
+      ],
       "frequency": "118.605",
       "facility_type": "TWR",
       "profile_id": "ESGG",
-      "default_call_sources": ["ESGG_TWR"]
+      "default_call_sources": [
+        "ESGG_TWR"
+      ]
     },
     {
       "id": "ESGG_W_APP",
-      "prefixes": ["ESGG"],
+      "prefixes": [
+        "ESGG"
+      ],
       "frequency": "124.205",
       "facility_type": "APP",
       "profile_id": "ESGG_APP",
-      "default_call_sources": ["ESGG_APP-W"]
+      "default_call_sources": [
+        "ESGG_APP-W"
+      ]
     },
     {
       "id": "ESGJ_TWR",
-      "prefixes": ["ESGJ"],
+      "prefixes": [
+        "ESGJ"
+      ],
       "frequency": "118.255",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESGJ_TWR"]
+      "default_call_sources": [
+        "ESGJ_TWR"
+      ]
     },
     {
       "id": "ESGT_TWR",
-      "prefixes": ["ESGT"],
+      "prefixes": [
+        "ESGT"
+      ],
       "frequency": "122.730",
       "facility_type": "TWR",
       "profile_id": "ESGG_APP",
-      "default_call_sources": ["ESGT_TWR"]
+      "default_call_sources": [
+        "ESGT_TWR"
+      ]
     },
     {
       "id": "ESIA_APP",
-      "prefixes": ["ESIA"],
-      "frequency": "132.050",
+      "prefixes": [
+        "ESIA"
+      ],
+      "frequency": "132.055",
       "facility_type": "APP",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESIA_APP"]
+      "default_call_sources": [
+        "ESIA_APP"
+      ]
     },
     {
       "id": "ESIA_TWR",
-      "prefixes": ["ESIA"],
-      "frequency": "133.000",
+      "prefixes": [
+        "ESIA"
+      ],
+      "frequency": "133.005",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESIA_APP", "ESIA_TWR"]
+      "default_call_sources": [
+        "ESIA_APP",
+        "ESIA_TWR"
+      ]
     },
     {
       "id": "ESIB_APP",
-      "prefixes": ["ESIB"],
-      "frequency": "134.550",
+      "prefixes": [
+        "ESIB"
+      ],
+      "frequency": "134.555",
       "facility_type": "APP",
       "profile_id": "ESIB",
-      "default_call_sources": ["ESIB_APP"]
+      "default_call_sources": [
+        "ESIB_APP"
+      ]
     },
     {
       "id": "ESIB_F_APP",
-      "prefixes": ["ESIB"],
-      "frequency": "123.000",
+      "prefixes": [
+        "ESIB"
+      ],
+      "frequency": "123.005",
       "facility_type": "APP",
       "profile_id": "ESIB",
-      "default_call_sources": ["ESIB_DIR"]
+      "default_call_sources": [
+        "ESIB_DIR"
+      ]
     },
     {
       "id": "ESIB_P_APP",
-      "prefixes": ["ESIB"],
-      "frequency": "119.300",
+      "prefixes": [
+        "ESIB"
+      ],
+      "frequency": "119.305",
       "facility_type": "APP",
       "profile_id": "ESIB",
-      "default_call_sources": ["ESIB_PAR"]
+      "default_call_sources": [
+        "ESIB_PAR"
+      ]
     },
     {
       "id": "ESIB_TWR",
-      "prefixes": ["ESIB"],
-      "frequency": "128.200",
+      "prefixes": [
+        "ESIB"
+      ],
+      "frequency": "128.205",
       "facility_type": "TWR",
       "profile_id": "ESIB",
-      "default_call_sources": ["ESIB_APP", "ESIB_TWR"]
+      "default_call_sources": [
+        "ESIB_APP",
+        "ESIB_TWR"
+      ]
     },
     {
       "id": "ESIB_GND",
-      "prefixes": ["ESIB"],
-      "frequency": "121.850",
+      "prefixes": [
+        "ESIB"
+      ],
+      "frequency": "121.855",
       "facility_type": "GND",
       "profile_id": "ESIB",
-      "default_call_sources": ["ESIB_GND"]
+      "default_call_sources": [
+        "ESIB_GND"
+      ]
     },
     {
       "id": "ESKM_I_TWR",
-      "prefixes": ["ESKM"],
+      "prefixes": [
+        "ESKM"
+      ],
       "frequency": "119.055",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESKM_AFIS"]
+      "default_call_sources": [
+        "ESKM_AFIS"
+      ]
     },
     {
       "id": "ESKN_TWR",
-      "prefixes": ["ESKN"],
+      "prefixes": [
+        "ESKN"
+      ],
       "frequency": "127.705",
       "facility_type": "TWR",
       "profile_id": "ESSP",
-      "default_call_sources": ["ESKN_TWR"]
+      "default_call_sources": [
+        "ESKN_TWR"
+      ]
     },
     {
       "id": "ESKS_TWR",
-      "prefixes": ["ESKS"],
+      "prefixes": [
+        "ESKS"
+      ],
       "frequency": "124.460",
       "facility_type": "TWR",
       "profile_id": "ESKS",
-      "default_call_sources": ["ESKS_TWR"]
+      "default_call_sources": [
+        "ESKS_TWR"
+      ]
     },
     {
       "id": "ESMK_TWR",
-      "prefixes": ["ESMK"],
+      "prefixes": [
+        "ESMK"
+      ],
       "frequency": "129.355",
       "facility_type": "TWR",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESMK_TWR"]
+      "default_call_sources": [
+        "ESMK_TWR"
+      ]
     },
     {
       "id": "ESMM_2_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "127.755",
       "facility_type": "CTR",
       "profile_id": "ESMM_ALL",
-      "default_call_sources": ["ESMM_2"]
+      "default_call_sources": [
+        "ESMM_2"
+      ]
     },
     {
       "id": "ESMM_3_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "128.055",
       "facility_type": "CTR",
       "profile_id": "ESMM_WEST",
-      "default_call_sources": ["ESMM_3"]
+      "default_call_sources": [
+        "ESMM_3"
+      ]
     },
     {
       "id": "ESMM_4_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "124.405",
       "facility_type": "CTR",
       "profile_id": "ESMM_WEST",
-      "default_call_sources": ["ESMM_4"]
+      "default_call_sources": [
+        "ESMM_4"
+      ]
     },
     {
       "id": "ESMM_5_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "132.765",
       "facility_type": "CTR",
       "profile_id": "ESMM_WEST",
-      "default_call_sources": ["ESMM_5"]
+      "default_call_sources": [
+        "ESMM_5"
+      ]
     },
     {
       "id": "ESMM_6_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "135.805",
       "facility_type": "CTR",
       "profile_id": "ESMM_ALL",
-      "default_call_sources": ["ESMM_6"]
+      "default_call_sources": [
+        "ESMM_6"
+      ]
     },
     {
       "id": "ESMM_7_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "124.155",
       "facility_type": "CTR",
       "profile_id": "ESMM_EAST",
-      "default_call_sources": ["ESMM_7"]
+      "default_call_sources": [
+        "ESMM_7"
+      ]
     },
     {
       "id": "ESMM_8_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "128.180",
       "facility_type": "CTR",
       "profile_id": "ESMM_EAST",
-      "default_call_sources": ["ESMM_8"]
+      "default_call_sources": [
+        "ESMM_8"
+      ]
     },
     {
       "id": "ESMM_9_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "135.985",
       "facility_type": "CTR",
       "profile_id": "ESMM_EAST",
-      "default_call_sources": ["ESMM_9"]
+      "default_call_sources": [
+        "ESMM_9"
+      ]
     },
     {
       "id": "ESMM_IN_APP",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "128.630",
       "facility_type": "APP",
       "profile_id": "ESMM_WEST",
-      "default_call_sources": ["ESMM_IN"]
+      "default_call_sources": [
+        "ESMM_IN"
+      ]
     },
     {
       "id": "ESMM_IS_APP",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "124.855",
       "facility_type": "APP",
       "profile_id": "ESMM_WEST",
-      "default_call_sources": ["ESMM_FIS-S"]
+      "default_call_sources": [
+        "ESMM_FIS-S"
+      ]
     },
     {
       "id": "ESMM_K_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "131.280",
       "facility_type": "CTR",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESMM_K"]
+      "default_call_sources": [
+        "ESMM_K"
+      ]
     },
     {
       "id": "ESMM_W_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "133.260",
       "facility_type": "CTR",
       "profile_id": "ESMM_ALL",
-      "default_call_sources": ["ESMM_W"]
+      "default_call_sources": [
+        "ESMM_W"
+      ]
     },
     {
       "id": "ESMM_XK_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "133.805",
       "facility_type": "CTR",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESMM_XK"]
+      "default_call_sources": [
+        "ESMM_XK"
+      ]
     },
     {
       "id": "ESMM_Y_CTR",
-      "prefixes": ["ESMM"],
+      "prefixes": [
+        "ESMM"
+      ],
       "frequency": "134.455",
       "facility_type": "CTR",
       "profile_id": "ESMM_ALL",
-      "default_call_sources": ["ESMM_Y"]
+      "default_call_sources": [
+        "ESMM_Y"
+      ]
     },
     {
       "id": "ESMQ_TWR",
-      "prefixes": ["ESMQ"],
+      "prefixes": [
+        "ESMQ"
+      ],
       "frequency": "130.805",
       "facility_type": "TWR",
       "profile_id": "ESMQ",
-      "default_call_sources": ["ESNQ_TWR"]
+      "default_call_sources": [
+        "ESNQ_TWR"
+      ]
     },
     {
       "id": "ESMS_APP",
-      "prefixes": ["ESMS"],
+      "prefixes": [
+        "ESMS"
+      ],
       "frequency": "134.980",
       "facility_type": "APP",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESMM_L"]
+      "default_call_sources": [
+        "ESMM_L"
+      ]
     },
     {
       "id": "ESMS_GND",
-      "prefixes": ["ESMS"],
+      "prefixes": [
+        "ESMS"
+      ],
       "frequency": "121.705",
       "facility_type": "GND",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESMS_GND"]
+      "default_call_sources": [
+        "ESMS_GND"
+      ]
     },
     {
       "id": "ESMS_TWR",
-      "prefixes": ["ESMS"],
+      "prefixes": [
+        "ESMS"
+      ],
       "frequency": "118.805",
       "facility_type": "TWR",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESMS_TWR"]
+      "default_call_sources": [
+        "ESMS_TWR"
+      ]
     },
     {
       "id": "ESMS_XL_APP",
-      "prefixes": ["ESMS"],
+      "prefixes": [
+        "ESMS"
+      ],
       "frequency": "134.155",
       "facility_type": "APP",
       "profile_id": "ESMM_ALL",
-      "default_call_sources": ["ESMM_XL"]
+      "default_call_sources": [
+        "ESMM_XL"
+      ]
     },
     {
       "id": "ESMT_TWR",
-      "prefixes": ["ESMT"],
+      "prefixes": [
+        "ESMT"
+      ],
       "frequency": "130.105",
       "facility_type": "TWR",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESMT_TWR"]
+      "default_call_sources": [
+        "ESMT_TWR"
+      ]
     },
     {
       "id": "ESMV_APP",
-      "prefixes": ["ESMV"],
-      "frequency": "121.150",
+      "prefixes": [
+        "ESMV"
+      ],
+      "frequency": "121.155",
       "facility_type": "APP",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESMV_APP"]
+      "default_call_sources": [
+        "ESMV_APP"
+      ]
     },
     {
       "id": "ESMV_TWR",
-      "prefixes": ["ESMV"],
-      "frequency": "136.250",
+      "prefixes": [
+        "ESMV"
+      ],
+      "frequency": "136.255",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESMV_APP", "ESMV_TWR"]
+      "default_call_sources": [
+        "ESMV_APP",
+        "ESMV_TWR"
+      ]
     },
     {
       "id": "ESMX_TWR",
-      "prefixes": ["ESMX"],
+      "prefixes": [
+        "ESMX"
+      ],
       "frequency": "118.155",
       "facility_type": "TWR",
       "profile_id": "ESMX",
-      "default_call_sources": ["ESMX_TWR"]
+      "default_call_sources": [
+        "ESMX_TWR"
+      ]
     },
     {
       "id": "ESND_I_TWR",
-      "prefixes": ["ESND"],
+      "prefixes": [
+        "ESND"
+      ],
       "frequency": "122.205",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESND_AFIS"]
+      "default_call_sources": [
+        "ESND_AFIS"
+      ]
     },
     {
       "id": "ESNG_I_TWR",
-      "prefixes": ["ESNG"],
+      "prefixes": [
+        "ESNG"
+      ],
       "frequency": "122.330",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESNG_AFIS"]
+      "default_call_sources": [
+        "ESNG_AFIS"
+      ]
     },
     {
       "id": "ESNJ_APP",
-      "prefixes": ["ESNJ"],
-      "frequency": "124.850",
+      "prefixes": [
+        "ESNJ"
+      ],
+      "frequency": "124.855",
       "facility_type": "APP",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESNJ_APP"]
+      "default_call_sources": [
+        "ESNJ_APP"
+      ]
     },
     {
       "id": "ESNJ_TWR",
-      "prefixes": ["ESNJ"],
-      "frequency": "133.000",
+      "prefixes": [
+        "ESNJ"
+      ],
+      "frequency": "133.005",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESNJ_APP", "ESNJ_TWR"]
+      "default_call_sources": [
+        "ESNJ_APP",
+        "ESNJ_TWR"
+      ]
     },
     {
       "id": "ESNK_I_TWR",
-      "prefixes": ["ESNK"],
+      "prefixes": [
+        "ESNK"
+      ],
       "frequency": "122.155",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESNK_AFIS"]
+      "default_call_sources": [
+        "ESNK_AFIS"
+      ]
     },
     {
       "id": "ESNL_I_TWR",
-      "prefixes": ["ESNL"],
+      "prefixes": [
+        "ESNL"
+      ],
       "frequency": "122.230",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESNL_AFIS"]
+      "default_call_sources": [
+        "ESNL_AFIS"
+      ]
     },
     {
       "id": "ESNN_TWR",
-      "prefixes": ["ESNN"],
+      "prefixes": [
+        "ESNN"
+      ],
       "frequency": "129.555",
       "facility_type": "TWR",
       "profile_id": "ESNN",
-      "default_call_sources": ["ESNN_TWR"]
+      "default_call_sources": [
+        "ESNN_TWR"
+      ]
     },
     {
       "id": "ESNO_TWR",
-      "prefixes": ["ESNO"],
+      "prefixes": [
+        "ESNO"
+      ],
       "frequency": "122.255",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESNO_TWR"]
+      "default_call_sources": [
+        "ESNO_TWR"
+      ]
     },
     {
       "id": "ESNQ_TWR",
-      "prefixes": ["ESNQ"],
+      "prefixes": [
+        "ESNQ"
+      ],
       "frequency": "130.155",
       "facility_type": "TWR",
       "profile_id": "ESNQ",
-      "default_call_sources": ["ESNQ_TWR"]
+      "default_call_sources": [
+        "ESNQ_TWR"
+      ]
     },
     {
       "id": "ESNS_TWR",
-      "prefixes": ["ESNS"],
+      "prefixes": [
+        "ESNS"
+      ],
       "frequency": "122.055",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESNS_TWR"]
+      "default_call_sources": [
+        "ESNS_TWR"
+      ]
     },
     {
       "id": "ESNU_TWR",
-      "prefixes": ["ESNU"],
+      "prefixes": [
+        "ESNU"
+      ],
       "frequency": "119.805",
       "facility_type": "TWR",
       "profile_id": "ESNU",
-      "default_call_sources": ["ESNU_TWR"]
+      "default_call_sources": [
+        "ESNU_TWR"
+      ]
     },
     {
       "id": "ESNV_I_TWR",
-      "prefixes": ["ESNV"],
+      "prefixes": [
+        "ESNV"
+      ],
       "frequency": "122.555",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESNV_AFIS"]
+      "default_call_sources": [
+        "ESNV_AFIS"
+      ]
     },
     {
       "id": "ESNX_TWR",
-      "prefixes": ["ESNX"],
+      "prefixes": [
+        "ESNX"
+      ],
       "frequency": "122.730",
       "facility_type": "TWR",
       "profile_id": "ESNX",
-      "default_call_sources": ["ESNX_TWR"]
+      "default_call_sources": [
+        "ESNX_TWR"
+      ]
     },
     {
       "id": "ESNZ_TWR",
-      "prefixes": ["ESNZ"],
+      "prefixes": [
+        "ESNZ"
+      ],
       "frequency": "135.655",
       "facility_type": "TWR",
       "profile_id": "ESNZ",
-      "default_call_sources": ["ESNZ_TWR"]
+      "default_call_sources": [
+        "ESNZ_TWR"
+      ]
     },
     {
       "id": "ESOE_TWR",
-      "prefixes": ["ESOE"],
+      "prefixes": [
+        "ESOE"
+      ],
       "frequency": "120.280",
       "facility_type": "TWR",
       "profile_id": "ESOE",
-      "default_call_sources": ["ESOE_TWR"]
+      "default_call_sources": [
+        "ESOE_TWR"
+      ]
     },
     {
       "id": "ESOH_I_TWR",
-      "prefixes": ["ESOH"],
+      "prefixes": [
+        "ESOH"
+      ],
       "frequency": "122.230",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESOH_AFIS"]
+      "default_call_sources": [
+        "ESOH_AFIS"
+      ]
     },
     {
       "id": "ESOK_TWR",
-      "prefixes": ["ESOK"],
+      "prefixes": [
+        "ESOK"
+      ],
       "frequency": "119.455",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESOK_TWR"]
+      "default_call_sources": [
+        "ESOK_TWR"
+      ]
     },
     {
       "id": "ESOS_1_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "118.405",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_1"]
+      "default_call_sources": [
+        "ESOS_1"
+      ]
     },
     {
       "id": "ESOS_2_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "133.705",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_2"]
+      "default_call_sources": [
+        "ESOS_2"
+      ]
     },
     {
       "id": "ESOS_3_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "131.130",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_3"]
+      "default_call_sources": [
+        "ESOS_3"
+      ]
     },
     {
       "id": "ESOS_4_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "118.205",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_4"]
+      "default_call_sources": [
+        "ESOS_4"
+      ]
     },
     {
       "id": "ESOS_6_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "132.480",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_6"]
+      "default_call_sources": [
+        "ESOS_6"
+      ]
     },
     {
       "id": "ESOS_7_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "118.280",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_7"]
+      "default_call_sources": [
+        "ESOS_7"
+      ]
     },
     {
       "id": "ESOS_8_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "129.180",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_8"]
+      "default_call_sources": [
+        "ESOS_8"
+      ]
     },
     {
       "id": "ESOS_9_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "127.530",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_9"]
+      "default_call_sources": [
+        "ESOS_9"
+      ]
     },
     {
       "id": "ESOS_F_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "124.430",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_F"]
+      "default_call_sources": [
+        "ESOS_F"
+      ]
     },
     {
       "id": "ESOS_K_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "131.055",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_K"]
+      "default_call_sources": [
+        "ESOS_K"
+      ]
     },
     {
       "id": "ESOS_N_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "132.155",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_N"]
+      "default_call_sources": [
+        "ESOS_N"
+      ]
     },
     {
       "id": "ESOS_XK_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "125.600",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_XK"]
+      "default_call_sources": [
+        "ESOS_XK"
+      ]
     },
     {
       "id": "ESOS_YK_CTR",
-      "prefixes": ["ESOS"],
+      "prefixes": [
+        "ESOS"
+      ],
       "frequency": "133.455",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL",
-      "default_call_sources": ["ESOS_YK"]
+      "default_call_sources": [
+        "ESOS_YK"
+      ]
     },
     {
       "id": "ESOW_APP",
-      "prefixes": ["ESOW"],
+      "prefixes": [
+        "ESOW"
+      ],
       "frequency": "125.955",
       "facility_type": "APP",
       "profile_id": "ESOW",
-      "default_call_sources": ["ESOW_APP"]
+      "default_call_sources": [
+        "ESOW_APP"
+      ]
     },
     {
       "id": "ESOW_TWR",
-      "prefixes": ["ESOW"],
+      "prefixes": [
+        "ESOW"
+      ],
       "frequency": "130.605",
       "facility_type": "TWR",
       "profile_id": "ESOW",
-      "default_call_sources": ["ESOW_APP", "ESOW_TWR"]
+      "default_call_sources": [
+        "ESOW_APP",
+        "ESOW_TWR"
+      ]
     },
     {
       "id": "ESPA_APP",
-      "prefixes": ["ESPA"],
-      "frequency": "125.450",
+      "prefixes": [
+        "ESPA"
+      ],
+      "frequency": "125.455",
       "facility_type": "APP",
       "profile_id": "ESPA",
-      "default_call_sources": ["ESPA_APP"]
+      "default_call_sources": [
+        "ESPA_APP"
+      ]
     },
     {
       "id": "ESPA_F_APP",
-      "prefixes": ["ESPA"],
-      "frequency": "130.800",
+      "prefixes": [
+        "ESPA"
+      ],
+      "frequency": "130.805",
       "facility_type": "APP",
       "profile_id": "ESPA",
-      "default_call_sources": ["ESPA_DIR"]
+      "default_call_sources": [
+        "ESPA_DIR"
+      ]
     },
     {
       "id": "ESPA_P_APP",
-      "prefixes": ["ESPA"],
-      "frequency": "119.000",
+      "prefixes": [
+        "ESPA"
+      ],
+      "frequency": "119.005",
       "facility_type": "APP",
       "profile_id": "ESPA",
-      "default_call_sources": ["ESPA_PAR"]
+      "default_call_sources": [
+        "ESPA_PAR"
+      ]
     },
     {
       "id": "ESPA_TWR",
-      "prefixes": ["ESPA"],
-      "frequency": "128.200",
+      "prefixes": [
+        "ESPA"
+      ],
+      "frequency": "128.205",
       "facility_type": "TWR",
       "profile_id": "ESPA",
-      "default_call_sources": ["ESPA_APP", "ESPA_TWR"]
+      "default_call_sources": [
+        "ESPA_APP",
+        "ESPA_TWR"
+      ]
     },
     {
       "id": "ESPE_APP",
-      "prefixes": ["ESPE"],
-      "frequency": "124.150",
+      "prefixes": [
+        "ESPE"
+      ],
+      "frequency": "124.155",
       "facility_type": "APP",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESPE_APP"]
+      "default_call_sources": [
+        "ESPE_APP"
+      ]
     },
     {
       "id": "ESPE_P_APP",
-      "prefixes": ["ESPE"],
-      "frequency": "135.400",
+      "prefixes": [
+        "ESPE"
+      ],
+      "frequency": "135.405",
       "facility_type": "APP",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESPE_PAR"]
+      "default_call_sources": [
+        "ESPE_PAR"
+      ]
     },
     {
       "id": "ESPE_TWR",
-      "prefixes": ["ESPE"],
-      "frequency": "130.400",
+      "prefixes": [
+        "ESPE"
+      ],
+      "frequency": "130.405",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESPE_APP", "ESPE_TWR"]
+      "default_call_sources": [
+        "ESPE_APP",
+        "ESPE_TWR"
+      ]
     },
     {
       "id": "ESPF_CTR",
-      "prefixes": ["ESPF"],
-      "frequency": "129.450",
+      "prefixes": [
+        "ESPF"
+      ],
+      "frequency": "129.455",
       "facility_type": "CTR",
       "profile_id": "ESAA",
-      "default_call_sources": ["ESPF"]
+      "default_call_sources": [
+        "ESPF"
+      ]
     },
     {
       "id": "ESSA_A_APP",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "120.505",
       "facility_type": "APP",
       "profile_id": "ESOS_APP",
-      "default_call_sources": ["ESOS_DIR-W"]
+      "default_call_sources": [
+        "ESOS_DIR-W"
+      ]
     },
     {
       "id": "ESSA_DEL",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "121.830",
       "facility_type": "DEL",
       "profile_id": "ESSA",
-      "default_call_sources": ["ESSA_DEL"]
+      "default_call_sources": [
+        "ESSA_DEL"
+      ]
     },
     {
       "id": "ESSA_E_APP",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "126.655",
       "facility_type": "APP",
       "profile_id": "ESOS_APP",
-      "default_call_sources": ["ESOS_ARR-E"]
+      "default_call_sources": [
+        "ESOS_ARR-E"
+      ]
     },
     {
       "id": "ESSA_E_DEP",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "130.330",
       "facility_type": "DEP",
       "profile_id": "ESOS_APP",
-      "default_call_sources": ["ESOS_DEP-E"]
+      "default_call_sources": [
+        "ESOS_DEP-E"
+      ]
     },
     {
       "id": "ESSA_E_GND",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "121.980",
       "facility_type": "GND",
       "profile_id": "ESSA",
-      "default_call_sources": ["ESSA_GND-E"]
+      "default_call_sources": [
+        "ESSA_GND-E"
+      ]
     },
     {
       "id": "ESSA_E_TWR",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "128.730",
       "facility_type": "TWR",
       "profile_id": "ESSA",
-      "default_call_sources": ["ESSA_TWR-E"]
+      "default_call_sources": [
+        "ESSA_TWR-E"
+      ]
     },
     {
       "id": "ESSA_F_APP",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "119.630",
       "facility_type": "APP",
       "profile_id": "ESOS_APP",
-      "default_call_sources": ["ESOS_DIR-E"]
+      "default_call_sources": [
+        "ESOS_DIR-E"
+      ]
     },
     {
       "id": "ESSA_N_GND",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "121.930",
       "facility_type": "GND",
       "profile_id": "ESSA",
-      "default_call_sources": ["ESSA_GND-N"]
+      "default_call_sources": [
+        "ESSA_GND-N"
+      ]
     },
     {
       "id": "ESSA_S_TWR",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "125.130",
       "facility_type": "TWR",
       "profile_id": "ESSA",
-      "default_call_sources": ["ESSA_TWR-E"]
+      "default_call_sources": [
+        "ESSA_TWR-E"
+      ]
     },
     {
       "id": "ESSA_W_APP",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "123.755",
       "facility_type": "APP",
       "profile_id": "ESOS_APP",
-      "default_call_sources": ["ESOS_ARR-W"]
+      "default_call_sources": [
+        "ESOS_ARR-W"
+      ]
     },
     {
       "id": "ESSA_W_DEP",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "124.105",
       "facility_type": "DEP",
       "profile_id": "ESOS_APP",
-      "default_call_sources": ["ESOS_DEP-W"]
+      "default_call_sources": [
+        "ESOS_DEP-W"
+      ]
     },
     {
       "id": "ESSA_W_GND",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "121.705",
       "facility_type": "GND",
       "profile_id": "ESSA",
-      "default_call_sources": ["ESSA_GND-W"]
+      "default_call_sources": [
+        "ESSA_GND-W"
+      ]
     },
     {
       "id": "ESSA_W_TWR",
-      "prefixes": ["ESSA"],
+      "prefixes": [
+        "ESSA"
+      ],
       "frequency": "118.505",
       "facility_type": "TWR",
       "profile_id": "ESSA",
-      "default_call_sources": ["ESSA_TWR-W"]
+      "default_call_sources": [
+        "ESSA_TWR-W"
+      ]
     },
     {
       "id": "ESSB_APP",
-      "prefixes": ["ESSB"],
+      "prefixes": [
+        "ESSB"
+      ],
       "frequency": "120.155",
       "facility_type": "APP",
       "profile_id": "ESOS_APP",
-      "default_call_sources": ["ESOS_APP-S"]
+      "default_call_sources": [
+        "ESOS_APP-S"
+      ]
     },
     {
       "id": "ESSB_GND",
-      "prefixes": ["ESSB"],
+      "prefixes": [
+        "ESSB"
+      ],
       "frequency": "121.605",
       "facility_type": "GND",
       "profile_id": "ESOS_APP",
-      "default_call_sources": ["ESSB_GND"]
+      "default_call_sources": [
+        "ESSB_GND"
+      ]
     },
     {
       "id": "ESSB_TWR",
-      "prefixes": ["ESSB"],
+      "prefixes": [
+        "ESSB"
+      ],
       "frequency": "118.105",
       "facility_type": "TWR",
       "profile_id": "ESOS_APP",
-      "default_call_sources": ["ESSB_TWR"]
+      "default_call_sources": [
+        "ESSB_TWR"
+      ]
     },
     {
       "id": "ESSD_TWR",
-      "prefixes": ["ESSD"],
+      "prefixes": [
+        "ESSD"
+      ],
       "frequency": "127.305",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESSD_TWR"]
+      "default_call_sources": [
+        "ESSD_TWR"
+      ]
     },
     {
       "id": "ESSL_TWR",
-      "prefixes": ["ESSL"],
+      "prefixes": [
+        "ESSL"
+      ],
       "frequency": "118.805",
       "facility_type": "TWR",
       "profile_id": "ESSP",
-      "default_call_sources": ["ESSL_TWR"]
+      "default_call_sources": [
+        "ESSL_TWR"
+      ]
     },
     {
       "id": "ESSP_APP",
-      "prefixes": ["ESSP"],
+      "prefixes": [
+        "ESSP"
+      ],
       "frequency": "132.955",
       "facility_type": "APP",
       "profile_id": "ESSP",
-      "default_call_sources": ["ESSP_APP"]
+      "default_call_sources": [
+        "ESSP_APP"
+      ]
     },
     {
       "id": "ESSP_TWR",
-      "prefixes": ["ESSP"],
+      "prefixes": [
+        "ESSP"
+      ],
       "frequency": "120.355",
       "facility_type": "TWR",
       "profile_id": "ESSP",
-      "default_call_sources": ["ESSP_TWR"]
+      "default_call_sources": [
+        "ESSP_TWR"
+      ]
     },
     {
       "id": "ESSR_CTR",
-      "prefixes": ["ESSR"],
+      "prefixes": [
+        "ESSR"
+      ],
       "frequency": "130.900",
       "facility_type": "CTR",
       "profile_id": "ESOS_ALL"
     },
     {
       "id": "ESSR_MM_APP",
-      "prefixes": ["ESSR"],
+      "prefixes": [
+        "ESSR"
+      ],
       "frequency": "122.325",
       "facility_type": "APP",
       "profile_id": "ESMM_KL"
     },
     {
       "id": "ESST_I_TWR",
-      "prefixes": ["ESST"],
+      "prefixes": [
+        "ESST"
+      ],
       "frequency": "122.055",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_SOUTH",
-      "default_call_sources": ["ESST_AFIS"]
+      "default_call_sources": [
+        "ESST_AFIS"
+      ]
     },
     {
       "id": "ESSU_I_TWR",
-      "prefixes": ["ESSU"],
+      "prefixes": [
+        "ESSU"
+      ],
       "frequency": "126.855",
       "facility_type": "TWR",
       "profile_id": "ESOW",
-      "default_call_sources": ["ESSU_AFIS"]
+      "default_call_sources": [
+        "ESSU_AFIS"
+      ]
     },
     {
       "id": "ESSV_APP",
-      "prefixes": ["ESSV"],
+      "prefixes": [
+        "ESSV"
+      ],
       "frequency": "126.155",
       "facility_type": "APP",
       "profile_id": "ESSV",
-      "default_call_sources": ["ESSV_APP"]
+      "default_call_sources": [
+        "ESSV_APP"
+      ]
     },
     {
       "id": "ESSV_TWR",
-      "prefixes": ["ESSV"],
+      "prefixes": [
+        "ESSV"
+      ],
       "frequency": "120.305",
       "facility_type": "TWR",
       "profile_id": "ESSV",
-      "default_call_sources": ["ESSV_APP", "ESSV_TWR"]
+      "default_call_sources": [
+        "ESSV_APP",
+        "ESSV_TWR"
+      ]
     },
     {
       "id": "ESTA_APP",
-      "prefixes": ["ESTA"],
+      "prefixes": [
+        "ESTA"
+      ],
       "frequency": "132.455",
       "facility_type": "APP",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESTA_APP"]
+      "default_call_sources": [
+        "ESTA_APP"
+      ]
     },
     {
       "id": "ESTA_TWR",
-      "prefixes": ["ESTA"],
+      "prefixes": [
+        "ESTA"
+      ],
       "frequency": "127.105",
       "facility_type": "TWR",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESTA_APP", "ESTA_TWR"]
+      "default_call_sources": [
+        "ESTA_APP",
+        "ESTA_TWR"
+      ]
     },
     {
       "id": "ESTL_APP",
-      "prefixes": ["ESTL"],
+      "prefixes": [
+        "ESTL"
+      ],
       "frequency": "129.555",
       "facility_type": "APP",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESTL_APP"]
+      "default_call_sources": [
+        "ESTL_APP"
+      ]
     },
     {
       "id": "ESTL_GND",
-      "prefixes": ["ESTL"],
+      "prefixes": [
+        "ESTL"
+      ],
       "frequency": "121.655",
       "facility_type": "GND",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESTL_GND"]
+      "default_call_sources": [
+        "ESTL_GND"
+      ]
     },
     {
       "id": "ESTL_TWR",
-      "prefixes": ["ESTL"],
+      "prefixes": [
+        "ESTL"
+      ],
       "frequency": "130.705",
       "facility_type": "TWR",
       "profile_id": "ESMM_KL",
-      "default_call_sources": ["ESTL_APP", "ESTL_TWR"]
+      "default_call_sources": [
+        "ESTL_APP",
+        "ESTL_TWR"
+      ]
     },
     {
       "id": "ESUP_I_TWR",
-      "prefixes": ["ESUP"],
+      "prefixes": [
+        "ESUP"
+      ],
       "frequency": "118.380",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESUP_AFIS"]
+      "default_call_sources": [
+        "ESUP_AFIS"
+      ]
     },
     {
       "id": "ESUT_I_TWR",
-      "prefixes": ["ESUT"],
+      "prefixes": [
+        "ESUT"
+      ],
       "frequency": "122.980",
       "facility_type": "TWR",
       "profile_id": "ESOS_AD_NORTH",
-      "default_call_sources": ["ESUT_AFIS"]
+      "default_call_sources": [
+        "ESUT_AFIS"
+      ]
     }
   ]
 }
