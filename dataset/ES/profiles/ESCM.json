@@ -3,53 +3,37 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": [
-        "ESCM"
-      ],
+      "label": ["ESCM"],
       "page": {
         "rows": 6,
         "keys": [
           {
-            "label": [
-              "OS",
-              "ARR-W"
-            ],
+            "label": ["OS", "ARR-W"],
             "station_id": "ESOS_ARR-W"
           },
           {
             "label": []
           },
           {
-            "label": [
-              "OW",
-              "APP"
-            ],
+            "label": ["OW", "APP"],
             "station_id": "ESOW_APP"
           },
           {
             "label": []
           },
           {
-            "label": [
-              "APP"
-            ],
+            "label": ["APP"],
             "station_id": "ESCM_APP"
           },
           {
-            "label": [
-              "TWR",
-              ""
-            ],
+            "label": ["TWR", ""],
             "station_id": "ESCM_TWR"
           },
           {
             "label": []
           },
           {
-            "label": [
-              "SA",
-              "TWR-W"
-            ],
+            "label": ["SA", "TWR-W"],
             "station_id": "ESSA_TWR-W"
           },
           {
@@ -65,9 +49,7 @@
             "label": []
           },
           {
-            "label": [
-              "WS"
-            ],
+            "label": ["WS"],
             "station_id": "ESAA_FMP"
           },
           {
@@ -77,21 +59,15 @@
             "label": []
           },
           {
-            "label": [
-              "EAG"
-            ],
+            "label": ["EAG"],
             "station_id": "ESPF"
           },
           {
-            "label": [
-              "GRI"
-            ],
+            "label": ["GRI"],
             "station_id": "ESCR"
           },
           {
-            "label": [
-              "COB"
-            ],
+            "label": ["COB"],
             "station_id": "ESDK"
           }
         ]

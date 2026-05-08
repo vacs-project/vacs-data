@@ -3,59 +3,39 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": [
-        "ESIB"
-      ],
+      "label": ["ESIB"],
       "page": {
         "rows": 6,
         "keys": [
           {
-            "label": [
-              "OK",
-              "TWR"
-            ],
+            "label": ["OK", "TWR"],
             "station_id": "ESOK_TWR"
           },
           {
             "label": []
           },
           {
-            "label": [
-              "GT",
-              "TWR"
-            ],
+            "label": ["GT", "TWR"],
             "station_id": "ESGT_TWR"
           },
           {
-            "label": [
-              "APP"
-            ],
+            "label": ["APP"],
             "station_id": "ESIB_APP"
           },
           {
-            "label": [
-              "TWR"
-            ],
+            "label": ["TWR"],
             "station_id": "ESIB_TWR"
           },
           {
-            "label": [
-              "GND"
-            ],
+            "label": ["GND"],
             "station_id": "ESIB_GND"
           },
           {
-            "label": [
-              "IA",
-              "APP"
-            ],
+            "label": ["IA", "APP"],
             "station_id": "ESIA_APP"
           },
           {
-            "label": [
-              "GJ",
-              "TWR"
-            ],
+            "label": ["GJ", "TWR"],
             "station_id": "ESGJ_TWR"
           },
           {
@@ -65,15 +45,11 @@
             "label": []
           },
           {
-            "label": [
-              "DIR"
-            ],
+            "label": ["DIR"],
             "station_id": "ESIB_DIR"
           },
           {
-            "label": [
-              "PAR"
-            ],
+            "label": ["PAR"],
             "station_id": "ESIB_PAR"
           },
           {
@@ -86,10 +62,7 @@
             "label": []
           },
           {
-            "label": [
-              "GG",
-              "APP-W"
-            ],
+            "label": ["GG", "APP-W"],
             "station_id": "ESGG_APP-W"
           },
           {
@@ -99,27 +72,18 @@
             "label": []
           },
           {
-            "label": [
-              "MM",
-              "IN"
-            ],
+            "label": ["MM", "IN"],
             "station_id": "ESMM_IN"
           },
           {
-            "label": [
-              "MM",
-              "4"
-            ],
+            "label": ["MM", "4"],
             "station_id": "ESMM_4"
           },
           {
             "label": []
           },
           {
-            "label": [
-              "GG",
-              "APP-E"
-            ],
+            "label": ["GG", "APP-E"],
             "station_id": "ESGG_APP-E"
           },
           {
@@ -129,37 +93,26 @@
             "label": []
           },
           {
-            "label": [
-              "WS"
-            ],
+            "label": ["WS"],
             "station_id": "ESAA_FMP"
           },
           {
-            "label": [
-              "MM",
-              "5"
-            ],
+            "label": ["MM", "5"],
             "station_id": "ESMM_5"
           },
           {
             "label": []
           },
           {
-            "label": [
-              "EAG"
-            ],
+            "label": ["EAG"],
             "station_id": "ESPF"
           },
           {
-            "label": [
-              "GRI"
-            ],
+            "label": ["GRI"],
             "station_id": "ESCR"
           },
           {
-            "label": [
-              "COB"
-            ],
+            "label": ["COB"],
             "station_id": "ESDK"
           }
         ]
