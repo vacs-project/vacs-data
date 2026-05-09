@@ -135,7 +135,7 @@
           },
           {
             "label": ["DW", "EFTA GND"],
-            "station_id": "OMDW_A_GND"
+            "station_id": "OMDW_I_GND"
           },
           {
             "label": ["SJ", "GND"],
