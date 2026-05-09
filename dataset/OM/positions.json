@@ -127,14 +127,14 @@
       "profile_id": "OMAA"
     },
     {
-      "id": "OMAA_F_APP",
+      "id": "OMAA_F2_APP",
       "prefixes": ["OMAA"],
       "frequency": "118.425",
       "facility_type": "APP",
       "profile_id": "OMAA"
     },
     {
-      "id": "OMAA_G_APP",
+      "id": "OMAA_F1_APP",
       "prefixes": ["OMAA"],
       "frequency": "118.000",
       "facility_type": "APP",
