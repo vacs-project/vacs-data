@@ -278,11 +278,6 @@
       "id": "OMAD_GND",
       "parent_id": "OMAD_TWR",
       "controlled_by": ["OMAD_GND"]
-    },
-    {
-      "id": "OMDL_TWR",
-      "parent_id": "OMAE_1_CTR",
-      "controlled_by": ["OMDL_TWR"]
     }
   ]
 }
