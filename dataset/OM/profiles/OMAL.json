@@ -3,16 +3,16 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["OMAL", "ADC"],
+      "label": ["ADC"],
       "page": {
-        "rows": 3,
+        "rows": 2,
         "keys": [
           {
-            "label": ["Al Ain", "Ground"],
+            "label": ["GMC"],
             "station_id": "OMAL_GND"
           },
           {
-            "label": ["Al Ain", "Tower"],
+            "label": ["AIR"],
             "station_id": "OMAL_TWR"
           },
           {
@@ -22,34 +22,47 @@
             "label": []
           },
           {
+            "label": ["ADR E"],
+            "station_id": "OMAA_4_APP"
+          },
+          {
             "label": []
           },
           {
             "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["UAE", "NORTH", "SFC-UNL"],
+            "station_id": "OMAE_1_CTR"
+          },
+          {
+            "label": ["UAE", "ALPHA", "SFC-UNL"],
+            "station_id": "OMAE_2_CTR"
+          },
+          {
+            "label": ["UAE", "BRAVO", "SFC-UNL"],
+            "station_id": "OMAE_5_CTR"
+          },
+          {
+            "label": ["UAE", "GOLF", "SFC-245"],
+            "station_id": "OMAE_G_CTR"
+          },
+          {
+            "label": ["UAE", "HOTEL", "SFC-275"],
+            "station_id": "OMAE_H_CTR"
+          },
+          {
+            "label": ["UAE", "LIMA", "155-245"],
+            "station_id": "OMAE_L_CTR"
+          },
+          {
+            "label": ["UAE", "SOUTH", "SFC-UNL"],
+            "station_id": "OMAE_S_CTR"
           }
         ]
-      }
-    },
-    {
-      "label": "Neighboring",
-      "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "OB*",
-            "OTDF*",
-            "DOH*",
-            "TEH*",
-            "GULF*",
-            "GULF_E*",
-            "OOMM*",
-            "OEJD*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
       }
     }
   ]
