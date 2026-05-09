@@ -8,11 +8,11 @@
         "rows": 3,
         "keys": [
           {
-            "label": ["Sharjah", "Ground"],
+            "label": ["GMC"],
             "station_id": "OMSJ_GND"
           },
           {
-            "label": ["Sharjah", "Tower"],
+            "label": ["AIR"],
             "station_id": "OMSJ_TWR"
           },
           {
@@ -26,30 +26,65 @@
           },
           {
             "label": []
+          },
+          {
+            "label": ["DEP 1"],
+            "station_id": "OMDB_1_DEP"
+          },
+          {
+            "label": ["DEP 2"],
+            "station_id": "OMDB_2_DEP"
+          },
+          {
+            "label": ["ARR"],
+            "station_id": "OMDB_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["UAE", "NORTH", "SFC-UNL"],
+            "station_id": "OMAE_1_CTR"
+          },
+          {
+            "label": ["UAE", "ALPHA", "SFC-UNL"],
+            "station_id": "OMAE_2_CTR"
+          },
+          {
+            "label": ["UAE", "CENTRAL", "SFC-UNL"],
+            "station_id": "OMAE_3_CTR"
+          },
+          {
+            "label": ["UAE", "MIKE", "SFC-UNL"],
+            "station_id": "OMAE_4_CTR"
+          },
+          {
+            "label": ["UAE", "DELTA", "SFC-245"],
+            "station_id": "OMAE_D_CTR"
+          },
+          {
+            "label": ["UAE", "EAST", "SFC-275"],
+            "station_id": "OMAE_E_CTR"
+          },
+          {
+            "label": ["UAE", "ROMEO", "SFC-275"],
+            "station_id": "OMAE_R_CTR"
+          },
+          {
+            "label": ["UAE", "WEST", "SFC-UNL"],
+            "station_id": "OMAE_W_CTR"
+          },
+          {
+            "label": ["UAE", "YANKEE", "045-195"],
+            "station_id": "OMAE_Y_CTR"
           }
         ]
-      }
-    },
-    {
-      "label": "Neighboring",
-      "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "OB*",
-            "OTDF*",
-            "DOH*",
-            "TEH*",
-            "GULF*",
-            "GULF_E*",
-            "OOMM*",
-            "OEJD*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
       }
     }
   ]
