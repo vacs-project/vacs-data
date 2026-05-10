@@ -658,19 +658,19 @@
     },
     {
       "id": "LIRR-ES1",
-      "controlled_by": ["LIRR_ES1_CTR", "LIRR_SU1_CTR"]
+      "controlled_by": ["LIRR_ES1_CTR", "LIRR_SU1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-SU1",
-      "controlled_by": ["LIRR_SU1_CTR"]
+      "controlled_by": ["LIRR_SU1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-EW1",
-      "controlled_by": ["LIRR_EW1_CTR", "LIRR_SU1_CTR"]
+      "controlled_by": ["LIRR_EW1_CTR", "LIRR_SU1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-EE3",
-      "controlled_by": ["LIRR_EE3_CTR", "LIRR_EW1_CTR", "LIRR_SU1_CTR"]
+      "controlled_by": ["LIRR_EE3_CTR", "LIRR_EW1_CTR", "LIRR_SU1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-NE1",
@@ -698,7 +698,7 @@
     },
     {
       "id": "LIRR-SU7",
-      "controlled_by": ["LIRR_SU7_CTR", "LIRR_NE7_CTR", "LIRR_SU1_CTR"]
+      "controlled_by": ["LIRR_SU7_CTR", "LIRR_NE7_CTR", "LIRR_SU1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-EW7",
