@@ -1,0 +1,410 @@
+{
+  "id": "RPHI",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["MANILA"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["DEL"],
+            "station_id": "RPLL_DEL"
+          },
+          {
+            "label": ["GND"],
+            "station_id": "RPLL_GND"
+          },
+          {
+            "label": ["P_GND"],
+            "station_id": "RPLL_P_GND"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "RPLL_TWR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["APP"],
+            "station_id": "RPLL_APP"
+          },
+          {
+            "label": ["F_APP"],
+            "station_id": "RPLL_F_APP"
+          },
+          {
+            "label": ["N_APP"],
+            "station_id": "RPLL_N_APP"
+          },
+          {
+            "label": ["S_APP"],
+            "station_id": "RPLL_S_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["RAMP 1"],
+            "station_id": "RPLL_1_RMP"
+          },
+          {
+            "label": ["RAMP 2"],
+            "station_id": "RPLL_2_RMP"
+          },
+          {
+            "label": ["RAMP 3"],
+            "station_id": "RPLL_3_RMP"
+          },
+          {
+            "label": ["RAMP D"],
+            "station_id": "RPLL_G_RMP"
+          },
+          {
+            "label": ["FMP"],
+            "station_id": "MNL_FMP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["LUZON"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["CLARK", "DEL"],
+            "station_id": "RPLC_DEL"
+          },
+          {
+            "label": ["CLARK", "GND"],
+            "station_id": "RPLC_GND"
+          },
+          {
+            "label": ["CLARK", "TWR"],
+            "station_id": "RPLC_TWR"
+          },
+          {
+            "label": ["CLARK", "APP"],
+            "station_id": "RPLC_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["SUBIC", "DEL"],
+            "station_id": "RPLB_DEL"
+          },
+          {
+            "label": ["SUBIC", "GND"],
+            "station_id": "RPLB_GND"
+          },
+          {
+            "label": ["SUBIC", "TWR"],
+            "station_id": "RPLB_TWR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["BAGUIO", "TWR"],
+            "station_id": "RPUB_TWR"
+          },
+          {
+            "label": ["LAOAG", "TWR"],
+            "station_id": "RPLI_TWR"
+          },
+          {
+            "label": ["LAOAG", "APP"],
+            "station_id": "RPLI_APP"
+          },
+          {
+            "label": ["VIGAN", "RDO"],
+            "station_id": "RPUQ_RDO"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["NAGA", "TWR"],
+            "station_id": "RPUN_TWR"
+          },
+          {
+            "label": ["NAGA", "RDO"],
+            "station_id": "RPUN_RDO"
+          },
+          {
+            "label": ["LEGASPI", "APP"],
+            "station_id": "RPLK_APP"
+          },
+          {
+            "label": ["LEGASPI", "TWR"],
+            "station_id": "RPLK_TWR"
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    },
+    {
+      "label": ["VISAYAS"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["MACTAN", "DEL"],
+            "station_id": "RPVM_DEL"
+          },
+          {
+            "label": ["MACTAN", "GND"],
+            "station_id": "RPVM_GND"
+          },
+          {
+            "label": ["MACTAN", "TWR"],
+            "station_id": "RPVM_TWR"
+          },
+          {
+            "label": ["MACTAN", "APP"],
+            "station_id": "RPVM_APP"
+          },
+          {
+            "label": ["MACTAN", "S_APP"],
+            "station_id": "RPVM_S_APP"
+          },
+          {
+            "label": ["ILOILO", "GND"],
+            "station_id": "RPVI_GND"
+          },
+          {
+            "label": ["ILOILO", "TWR"],
+            "station_id": "RPVI_TWR"
+          },
+          {
+            "label": ["BACOLOD", "TWR"],
+            "station_id": "RPVB_TWR"
+          },
+          {
+            "label": ["BACOLOD", "APP"],
+            "station_id": "RPVB_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["TACLOBAN", "TWR"],
+            "station_id": "RPVA_TWR"
+          },
+          {
+            "label": ["TACLOBAN", "APP"],
+            "station_id": "RPVA_APP"
+          },
+          {
+            "label": ["KALIBO", "TWR"],
+            "station_id": "RPVK_TWR"
+          },
+          {
+            "label": ["KALIBO", "APP"],
+            "station_id": "RPVK_APP"
+          },
+          {
+            "label": ["CATICLAN", "TWR"],
+            "station_id": "RPVE_TWR"
+          },
+          {
+            "label": ["PPS", "TWR"],
+            "station_id": "RPVP_TWR"
+          },
+          {
+            "label": ["PPS", "APP"],
+            "station_id": "RPVP_APP"
+          },
+          {
+            "label": ["ROXAS", "TWR"],
+            "station_id": "RPVR_TWR"
+          },
+          {
+            "label": ["DUMAGUETE", "TWR"],
+            "station_id": "RPVD_TWR"
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    },
+    {
+      "label": ["MINDANAO"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["DAVAO", "DEL"],
+            "station_id": "RPMD_DEL"
+          },
+          {
+            "label": ["DAVAO", "TWR"],
+            "station_id": "RPMD_TWR"
+          },
+          {
+            "label": ["DAVAO", "APP"],
+            "station_id": "RPMD_APP"
+          },
+          {
+            "label": ["DAVAO", "RDO"],
+            "station_id": "RPMD_RDO"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["CAGAYAN", "TWR"],
+            "station_id": "RPMY_TWR"
+          },
+          {
+            "label": ["CAGAYAN", "APP"],
+            "station_id": "RPMY_APP"
+          },
+          {
+            "label": ["ZAM", "TWR"],
+            "station_id": "RPMZ_TWR"
+          },
+          {
+            "label": ["ZAM", "APP"],
+            "station_id": "RPMZ_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["BUTUAN", "TWR"],
+            "station_id": "RPME_TWR"
+          },
+          {
+            "label": ["BUTUAN", "APP"],
+            "station_id": "RPME_APP"
+          },
+          {
+            "label": ["GENSAN", "TWR"],
+            "station_id": "RPMR_TWR"
+          },
+          {
+            "label": ["GENSAN", "APP"],
+            "station_id": "RPMR_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["COTABATO", "TWR"],
+            "station_id": "RPMC_TWR"
+          },
+          {
+            "label": ["SURIGAO", "RDO"],
+            "station_id": "RPMS_RDO"
+          },
+          {
+            "label": ["OZAMIS", "RDO"],
+            "station_id": "RPMO_RDO"
+          },
+          {
+            "label": ["PAGADIAN", "RDO"],
+            "station_id": "RPMP_RDO"
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    },
+    {
+      "label": ["CONTROL"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["MNL", "CTR"],
+            "station_id": "MNL_CTR"
+          },
+          {
+            "label": ["MNL", "2 CTR"],
+            "station_id": "MNL_2_CTR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["FMP"],
+            "station_id": "MNL_FMP"
+          },
+          {
+            "label": ["MNL", "N CTR"],
+            "station_id": "MNL_N_CTR"
+          },
+          {
+            "label": ["MNL", "NE CTR"],
+            "station_id": "MNL_NE_CTR"
+          },
+          {
+            "label": ["MNL", "NW CTR"],
+            "station_id": "MNL_NW_CTR"
+          },
+          {
+            "label": ["MNL", "N1 CTR"],
+            "station_id": "MNL_N1_CTR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["MNL", "C CTR"],
+            "station_id": "MNL_C_CTR"
+          },
+          {
+            "label": ["MNL", "CN CTR"],
+            "station_id": "MNL_CN_CTR"
+          },
+          {
+            "label": ["MNL", "CE CTR"],
+            "station_id": "MNL_CE_CTR"
+          },
+          {
+            "label": ["MNL", "CW CTR"],
+            "station_id": "MNL_CW_CTR"
+          },
+          {
+            "label": ["MNL", "W CTR"],
+            "station_id": "MNL_W_CTR"
+          },
+          {
+            "label": ["MNL", "S CTR"],
+            "station_id": "MNL_S_CTR"
+          },
+          {
+            "label": ["MNL", "SE CTR"],
+            "station_id": "MNL_SE_CTR"
+          },
+          {
+            "label": ["MNL", "SW CTR"],
+            "station_id": "MNL_SW_CTR"
+          },
+          {
+            "label": ["MNL", "S1 CTR"],
+            "station_id": "MNL_S1_CTR"
+          },
+          {
+            "label": ["MNL", "CS CTR"],
+            "station_id": "MNL_CS_CTR"
+          }
+        ]
+      }
+    }
+  ]
+}

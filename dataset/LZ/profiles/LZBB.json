@@ -128,7 +128,7 @@
                   },
                   {
                     "label": ["EPKK", "APP"],
-                    "station_id": "EPKK_TMA_E"
+                    "station_id": "EPKK_TMA_W"
                   },
                   {
                     "label": []
@@ -149,7 +149,8 @@
                     "label": []
                   },
                   {
-                    "label": []
+                    "label": ["EPKK", "APP"],
+                    "station_id": "EPKK_TMA_E"
                   },
                   {
                     "label": []

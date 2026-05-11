@@ -364,15 +364,15 @@
           },
           {
             "label": ["MNL", "CTR"],
-            "station_id": "RPHI_CTR"
+            "station_id": "MNL_CTR"
           },
           {
-            "label": ["MNL", "1_CTR"],
-            "station_id": "RPHI_1_CTR"
+            "label": ["MNL", "NW_CTR"],
+            "station_id": "MNL_NW_CTR"
           },
           {
             "label": ["MNL", "N_CTR"],
-            "station_id": "RPHI_N_CTR"
+            "station_id": "MNL_N_CTR"
           },
           {
             "label": ["ZSHA", "CTR"],

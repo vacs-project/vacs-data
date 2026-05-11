@@ -3,50 +3,37 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["OMAA", "Ground"],
+      "label": ["ADC"],
       "page": {
         "rows": 4,
         "keys": [
           {
-            "label": ["Abu Dhabi", "Delivery"],
+            "label": ["GMP"],
             "station_id": "OMAA_DEL"
           },
           {
-            "label": ["Abu Dhabi", "Ground", "South"],
+            "label": ["GMC 1"],
             "station_id": "OMAA_1_GND"
           },
           {
-            "label": ["Abu Dhabi", "Ground", "Central"],
+            "label": ["GMC 2"],
             "station_id": "OMAA_2_GND"
           },
           {
-            "label": ["Abu Dhabi", "Ground", "North"],
+            "label": ["GMC 3"],
             "station_id": "OMAA_3_GND"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": ["OMAA", "Tower"],
-      "page": {
-        "rows": 3,
-        "keys": [
-          {
-            "label": ["Abu Dhabi", "Tower", "South"],
+            "label": ["AIR 1"],
             "station_id": "OMAA_1_TWR"
           },
           {
-            "label": ["Abu Dhabi", "Tower", "North"],
+            "label": ["AIR 2"],
             "station_id": "OMAA_2_TWR"
           },
           {
-            "label": []
+            "label": ["AD", "AIR"],
+            "station_id": "OMAD_TWR"
           },
           {
             "label": []
@@ -56,69 +43,192 @@
           },
           {
             "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ADR C"],
+            "station_id": "OMAA_1_APP"
+          },
+          {
+            "label": ["ADR W"],
+            "station_id": "OMAA_2_APP"
+          },
+          {
+            "label": ["ADR N"],
+            "station_id": "OMAA_3_APP"
+          },
+          {
+            "label": ["ADR S"],
+            "station_id": "OMAA_4_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ADR", "DIR S"],
+            "station_id": "OMAA_F1_APP"
+          },
+          {
+            "label": ["ADR", "DIR N"],
+            "station_id": "OMAA_F2_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["UAE", "NORTH", "SFC-UNL"],
+            "station_id": "OMAE_1_CTR"
+          },
+          {
+            "label": ["UAE", "ALPHA", "SFC-UNL"],
+            "station_id": "OMAE_2_CTR"
+          },
+          {
+            "label": ["UAE", "BRAVO", "SFC-UNL"],
+            "station_id": "OMAE_5_CTR"
+          },
+          {
+            "label": ["UAE", "GOLF", "SFC-245"],
+            "station_id": "OMAE_G_CTR"
+          },
+          {
+            "label": ["UAE", "HOTEL", "SFC-275"],
+            "station_id": "OMAE_H_CTR"
+          },
+          {
+            "label": ["UAE", "LIMA", "155-245"],
+            "station_id": "OMAE_L_CTR"
+          },
+          {
+            "label": ["UAE", "SOUTH", "SFC-UNL"],
+            "station_id": "OMAE_S_CTR"
           }
         ]
       }
     },
     {
-      "label": ["Abu Dhabi", "Radar"],
+      "label": ["TMA"],
       "page": {
         "rows": 4,
         "keys": [
           {
-            "label": ["Abu Dhabi", "Radar", "Central"],
+            "label": ["ADR C"],
             "station_id": "OMAA_1_APP"
           },
           {
-            "label": ["Abu Dhabi", "Radar", "West"],
+            "label": ["ADR W"],
             "station_id": "OMAA_2_APP"
           },
           {
-            "label": ["Abu Dhabi", "Radar", "North"],
+            "label": ["ADR N"],
             "station_id": "OMAA_3_APP"
           },
           {
-            "label": ["Abu Dhabi", "Radar", "East"],
+            "label": ["ADR E"],
             "station_id": "OMAA_4_APP"
           },
           {
-            "label": ["Abu Dhabi", "Director", "North"],
-            "station_id": "OMAA_F_APP"
+            "label": ["AD DIR S"],
+            "station_id": "OMAA_F1_APP"
           },
           {
-            "label": ["Abu Dhabi", "Director", "South"],
-            "station_id": "OMAA_G_APP"
+            "label": ["AD DIR N"],
+            "station_id": "OMAA_F2_APP"
           },
           {
-            "label": ["Abu Dhabi", "Information"],
+            "label": ["FIS"],
             "station_id": "OMAA_I_APP"
           },
           {
+            "label": ["ARR DXB"],
+            "station_id": "OMDB_APP"
+          },
+          {
             "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMP"],
+            "station_id": "OMAA_DEL"
+          },
+          {
+            "label": ["AIR 1"],
+            "station_id": "OMAA_1_TWR"
+          },
+          {
+            "label": ["AIR 2"],
+            "station_id": "OMAA_2_TWR"
+          },
+          {
+            "label": ["AD", "AIR"],
+            "station_id": "OMAD_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["UAE", "NORTH", "SFC-UNL"],
+            "station_id": "OMAE_1_CTR"
+          },
+          {
+            "label": ["UAE", "ALPHA", "SFC-UNL"],
+            "station_id": "OMAE_2_CTR"
+          },
+          {
+            "label": ["UAE", "BRAVO", "SFC-UNL"],
+            "station_id": "OMAE_5_CTR"
+          },
+          {
+            "label": ["UAE", "GOLF", "SFC-245"],
+            "station_id": "OMAE_G_CTR"
+          },
+          {
+            "label": ["UAE", "HOTEL", "SFC-275"],
+            "station_id": "OMAE_H_CTR"
+          },
+          {
+            "label": ["UAE", "LIMA", "155-245"],
+            "station_id": "OMAE_L_CTR"
+          },
+          {
+            "label": ["UAE", "SOUTH", "SFC-UNL"],
+            "station_id": "OMAE_S_CTR"
           }
         ]
-      }
-    },
-    {
-      "label": "Neighboring",
-      "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "OB*",
-            "OTDF*",
-            "DOH*",
-            "TEH*",
-            "GULF*",
-            "GULF_E*",
-            "OOMM*",
-            "OEJD*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
       }
     }
   ]

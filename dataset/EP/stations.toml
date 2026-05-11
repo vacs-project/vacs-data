@@ -479,7 +479,6 @@ controlled_by = ["EPGD_GND"]
 [[stations]]
 id = "EPGD_TWR"
 controlled_by = [
-  "EPGD_GND",
   "EPGD_TWR",
   "EPGD_L_APP",
   "EPGD_APP",
@@ -553,8 +552,6 @@ controlled_by = ["EPKK_GND"]
 [[stations]]
 id = "EPKK_TWR"
 controlled_by = [
-  "EPKK_DEL",
-  "EPKK_GND",
   "EPKK_TWR",
   "EPKK_KK_APP",
   "EPKK_APP",
@@ -665,8 +662,6 @@ controlled_by = ["EPKT_GND"]
 [[stations]]
 id = "EPKT_TWR"
 controlled_by = [
-  "EPKT_DEL",
-  "EPKT_GND",
   "EPKT_TWR",
   "EPKK_APP",
   "EPWW_J_CTR",
@@ -708,7 +703,6 @@ controlled_by = ["EPLL_DEL"]
 [[stations]]
 id = "EPLL_TWR"
 controlled_by = [
-  "EPLL_DEL",
   "EPLL_TWR",
   "EPWA_S_APP",
   "EPWA_N_APP",
@@ -764,7 +758,6 @@ controlled_by = ["EPMO_DEL"]
 [[stations]]
 id = "EPMO_TWR"
 controlled_by = [
-  "EPMO_DEL",
   "EPMO_TWR",
   "EPWA_N_APP",
   "EPWA_S_APP",
@@ -801,7 +794,6 @@ controlled_by = ["EPPO_GND"]
 [[stations]]
 id = "EPPO_TWR"
 controlled_by = [
-  "EPPO_GND",
   "EPPO_TWR",
   "EPPO_N_APP",
   "EPWW_D_CTR",
@@ -983,8 +975,6 @@ controlled_by = ["EPWA_GND"]
 [[stations]]
 id = "EPWA_TWR"
 controlled_by = [
-  "EPWA_DEL",
-  "EPWA_GND",
   "EPWA_TWR",
   "EPWA_F_APP",
   "EPWA_APP",

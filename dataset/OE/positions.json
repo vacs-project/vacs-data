@@ -5,7 +5,6 @@
       "prefixes": ["OERD"],
       "frequency": "128.500",
       "facility_type": "CTR",
-      "profile_id": "OERD",
       "default_call_sources": ["OERD_CTR"]
     },
     {
@@ -13,7 +12,6 @@
       "prefixes": ["OERD"],
       "frequency": "132.950",
       "facility_type": "CTR",
-      "profile_id": "OERD",
       "default_call_sources": ["OERD_E_CTR"]
     },
     {
@@ -21,7 +19,6 @@
       "prefixes": ["OERD"],
       "frequency": "134.800",
       "facility_type": "CTR",
-      "profile_id": "OERD",
       "default_call_sources": ["OERD_N_CTR"]
     },
     {
@@ -29,7 +26,6 @@
       "prefixes": ["OERD"],
       "frequency": "132.250",
       "facility_type": "CTR",
-      "profile_id": "OERD",
       "default_call_sources": ["OERD_NE_CTR"]
     },
     {
@@ -37,7 +33,6 @@
       "prefixes": ["OERD"],
       "frequency": "128.500",
       "facility_type": "CTR",
-      "profile_id": "OERD",
       "default_call_sources": ["OERD_1_CTR"]
     },
 
@@ -46,7 +41,6 @@
       "prefixes": ["OEJD"],
       "frequency": "126.500",
       "facility_type": "CTR",
-      "profile_id": "OEJD",
       "default_call_sources": ["OEJD_1_CTR"]
     },
     {
@@ -54,7 +48,6 @@
       "prefixes": ["OEJD"],
       "frequency": "128.750",
       "facility_type": "CTR",
-      "profile_id": "OEJD",
       "default_call_sources": ["OEJD_N_CTR"]
     },
     {
@@ -62,7 +55,6 @@
       "prefixes": ["OEJD"],
       "frequency": "132.100",
       "facility_type": "CTR",
-      "profile_id": "OEJD",
       "default_call_sources": ["OEJD_S_CTR"]
     },
     {
@@ -70,7 +62,6 @@
       "prefixes": ["OEJD"],
       "frequency": "133.700",
       "facility_type": "CTR",
-      "profile_id": "OEJD",
       "default_call_sources": ["OEJD_W_CTR"]
     },
     {
@@ -78,7 +69,6 @@
       "prefixes": ["OEJD"],
       "frequency": "127.650",
       "facility_type": "CTR",
-      "profile_id": "OEJD",
       "default_call_sources": ["OEJD_NE_CTR"]
     },
     {
@@ -86,7 +76,6 @@
       "prefixes": ["OEJD"],
       "frequency": "134.500",
       "facility_type": "CTR",
-      "profile_id": "OEJD",
       "default_call_sources": ["OEJD_SE_CTR"]
     },
     {
@@ -94,7 +83,6 @@
       "prefixes": ["OEJD"],
       "frequency": "126.550",
       "facility_type": "CTR",
-      "profile_id": "OEJD",
       "default_call_sources": ["OEJD_C_CTR"]
     },
 
@@ -200,19 +188,11 @@
 
     {
       "id": "OERK_1_CTR",
-      "prefixes": ["OERD"],
+      "prefixes": ["OERK"],
       "frequency": "121.550",
       "facility_type": "CTR",
-      "profile_id": "OERD",
-      "default_call_sources": ["OERK_1_CTR"]
-    },
-    {
-      "id": "OERK_N_CTR",
-      "prefixes": ["OERK"],
-      "frequency": "126.000",
-      "facility_type": "CTR",
       "profile_id": "OERK",
-      "default_call_sources": ["OERK_N_CTR"]
+      "default_call_sources": ["OERK_1_CTR"]
     },
     {
       "id": "OERK_APP",

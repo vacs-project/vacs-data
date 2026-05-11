@@ -76,37 +76,37 @@
     },
     {
       "id": "OMAA_2_APP",
-      "parent_id": "OMAE_1_CTR",
+      "parent_id": "OMAA_1_APP",
       "controlled_by": ["OMAA_2_APP"]
     },
     {
       "id": "OMAA_3_APP",
-      "parent_id": "OMAE_1_CTR",
+      "parent_id": "OMAA_1_APP",
       "controlled_by": ["OMAA_3_APP"]
     },
     {
       "id": "OMAA_4_APP",
-      "parent_id": "OMAE_1_CTR",
+      "parent_id": "OMAA_1_APP",
       "controlled_by": ["OMAA_4_APP"]
     },
     {
-      "id": "OMAA_F_APP",
+      "id": "OMAA_F2_APP",
       "parent_id": "OMAA_1_APP",
-      "controlled_by": ["OMAA_F_APP"]
+      "controlled_by": ["OMAA_F2_APP"]
     },
     {
-      "id": "OMAA_G_APP",
-      "parent_id": "OMAA_2_APP",
-      "controlled_by": ["OMAA_G_APP"]
+      "id": "OMAA_F1_APP",
+      "parent_id": "OMAA_1_APP",
+      "controlled_by": ["OMAA_F1_APP"]
     },
     {
       "id": "OMAA_1_TWR",
-      "parent_id": "OMAA_F_APP",
+      "parent_id": "OMAA_1_APP",
       "controlled_by": ["OMAA_1_TWR"]
     },
     {
       "id": "OMAA_2_TWR",
-      "parent_id": "OMAA_G_APP",
+      "parent_id": "OMAA_1_TWR",
       "controlled_by": ["OMAA_2_TWR"]
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "id": "OMAA_2_GND",
-      "parent_id": "OMAA_2_TWR",
+      "parent_id": "OMAA_1_GND",
       "controlled_by": ["OMAA_2_GND"]
     },
     {
       "id": "OMAA_3_GND",
-      "parent_id": "OMAA_2_TWR",
+      "parent_id": "OMAA_1_GND",
       "controlled_by": ["OMAA_3_GND"]
     },
     {
@@ -156,12 +156,12 @@
     },
     {
       "id": "OMDB_1_TWR",
-      "parent_id": "OMDB_F_APP",
+      "parent_id": "OMDB_APP",
       "controlled_by": ["OMDB_1_TWR"]
     },
     {
       "id": "OMDB_2_TWR",
-      "parent_id": "OMDB_F_APP",
+      "parent_id": "OMDB_1_TWR",
       "controlled_by": ["OMDB_2_TWR"]
     },
     {
@@ -171,7 +171,7 @@
     },
     {
       "id": "OMDB_2_GND",
-      "parent_id": "OMDB_2_TWR",
+      "parent_id": "OMDB_1_GND",
       "controlled_by": ["OMDB_2_GND"]
     },
     {
@@ -186,12 +186,12 @@
     },
     {
       "id": "OMDW_APP",
-      "parent_id": "OMAE_1_CTR",
+      "parent_id": "OMDB_APP",
       "controlled_by": ["OMDW_APP"]
     },
     {
       "id": "OMDW_S_APP",
-      "parent_id": "OMAE_1_CTR",
+      "parent_id": "OMDB_APP",
       "controlled_by": ["OMDW_S_APP"]
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "id": "OMDW_A_TWR",
-      "parent_id": "OMDW_APP",
+      "parent_id": "OMDW_TWR",
       "controlled_by": ["OMDW_A_TWR"]
     },
     {
@@ -216,7 +216,7 @@
     },
     {
       "id": "OMDM_APP",
-      "parent_id": "OMAE_1_CTR",
+      "parent_id": "OMDB_APP",
       "controlled_by": ["OMDM_APP"]
     },
     {
@@ -261,7 +261,7 @@
     },
     {
       "id": "OMAL_TWR",
-      "parent_id": "OMAE_1_CTR",
+      "parent_id": "OMAA_1_APP",
       "controlled_by": ["OMAL_TWR"]
     },
     {
@@ -271,18 +271,13 @@
     },
     {
       "id": "OMAD_TWR",
-      "parent_id": "OMAE_1_CTR",
+      "parent_id": "OMAA_1_APP",
       "controlled_by": ["OMAD_TWR"]
     },
     {
       "id": "OMAD_GND",
       "parent_id": "OMAD_TWR",
       "controlled_by": ["OMAD_GND"]
-    },
-    {
-      "id": "OMDL_TWR",
-      "parent_id": "OMAE_1_CTR",
-      "controlled_by": ["OMDL_TWR"]
     }
   ]
 }

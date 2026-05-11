@@ -216,16 +216,16 @@
             "station_id": "ASEA_FSS"
           },
           {
-            "label": ["MN1"],
-            "station_id": "RPHI_1_CTR"
+            "label": ["MNW"],
+            "station_id": "MNL_NW_CTR"
           },
           {
             "label": ["MNN"],
-            "station_id": "RPHI_N_CTR"
+            "station_id": "MNL_N_CTR"
           },
           {
             "label": ["MNL"],
-            "station_id": "RPHI_CTR"
+            "station_id": "MNL_CTR"
           },
           {
             "label": ["PRC"],
