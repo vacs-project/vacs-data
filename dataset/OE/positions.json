@@ -207,6 +207,14 @@
       "default_call_sources": ["OERK_1_CTR"]
     },
     {
+      "id": "OERK_N_CTR",
+      "prefixes": ["OERK"],
+      "frequency": "126.000",
+      "facility_type": "CTR",
+      "profile_id": "OERK",
+      "default_call_sources": ["OERK_N_CTR"]
+    },
+    {
       "id": "OERK_APP",
       "prefixes": ["OERK"],
       "frequency": "120.000",
