@@ -1,10 +1,10 @@
 {
   "positions": [
     {
-      "id": "EYKA_APP",
+      "id": "EYKA_TWR",
       "prefixes": ["EYKA"],
       "frequency": "124.205",
-      "facility_type": "APP",
+      "facility_type": "TWR",
       "profile_id": "EYVL"
     },
     {
@@ -15,10 +15,10 @@
       "profile_id": "EYVL"
     },
     {
-      "id": "EYPA_APP",
+      "id": "EYPA_TWR",
       "prefixes": ["EYPA"],
       "frequency": "124.305",
-      "facility_type": "APP",
+      "facility_type": "TWR",
       "profile_id": "EYVL"
     },
     {
@@ -29,10 +29,10 @@
       "profile_id": "EYVL"
     },
     {
-      "id": "EYSA_APP",
+      "id": "EYSA_TWR",
       "prefixes": ["EYSA"],
       "frequency": "120.405",
-      "facility_type": "APP",
+      "facility_type": "TWR",
       "profile_id": "EYVL"
     },
     {
