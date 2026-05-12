@@ -19,8 +19,8 @@
           { "label": ["APP", "FINAL"], "station_id": "OERK_F_APP" },
 
           {
-            "label": ["RD", "EAST UPPER", "FL345+"],
-            "station_id": "OERD_E_CTR"
+            "label": ["RD", "TERMINAL", "FL150+"],
+            "station_id": "OERK_N_CTR"
           }
         ]
       }

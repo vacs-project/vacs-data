@@ -204,20 +204,6 @@
       "controlled_by": ["ASEA_FSS"]
     },
     {
-      "id": "RPHI_1_CTR",
-      "parent_id": "RPHI_N_CTR",
-      "controlled_by": ["RPHI_1_CTR"]
-    },
-    {
-      "id": "RPHI_N_CTR",
-      "parent_id": "RPHI_CTR",
-      "controlled_by": ["RPHI_N_CTR"]
-    },
-    {
-      "id": "RPHI_CTR",
-      "controlled_by": ["RPHI_CTR"]
-    },
-    {
       "id": "ZBBB_FSS",
       "controlled_by": ["ZBBB_FSS"]
     },

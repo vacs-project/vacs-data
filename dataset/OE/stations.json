@@ -21,6 +21,11 @@
       "parent_id": "OERD_CTR",
       "controlled_by": ["OERD_1_CTR"]
     },
+    {
+      "id": "OERK_N_CTR",
+      "parent_id": "OERD_1_CTR",
+      "controlled_by": ["OERK_N_CTR"]
+    },
 
     { "id": "OEJD_1_CTR", "controlled_by": ["OEJD_1_CTR"] },
     {
