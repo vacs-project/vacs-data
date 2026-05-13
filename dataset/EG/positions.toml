@@ -27,13 +27,6 @@ facility_type = "GND"
 profile_id = "EG-Scottish"
 
 [[positions]]
-id = "EGAA_DEL"
-prefixes = ["EGAA"]
-frequency = "126.780"
-facility_type = "DEL"
-profile_id = "EG-Scottish"
-
-[[positions]]
 id = "EGAC_APP"
 prefixes = ["EGAC"]
 frequency = "130.850"
