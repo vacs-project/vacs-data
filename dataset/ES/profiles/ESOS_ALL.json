@@ -585,7 +585,7 @@
         "rows": 3,
         "keys": [
           {
-            "label": ["COB"],
+            "label": ["EAG"],
             "station_id": "ESPF"
           },
           {
@@ -593,7 +593,7 @@
             "station_id": "ESCR"
           },
           {
-            "label": ["BSH"],
+            "label": ["COB"],
             "station_id": "ESDK"
           },
           {
