@@ -25,7 +25,6 @@
       "page": {
         "rows": 3,
         "keys": [
-          { "label": ["JED", "EAST", "FL345+"], "station_id": "OEJD_E_CTR" },
           { "label": ["JED", "NORTH", "FL345-"], "station_id": "OEJD_N_CTR", "color": "azure" },
           { "label": ["JED", "SOUTH", "UNL"], "station_id": "OEJD_S_CTR", "color": "azure" },
           {"label": []},

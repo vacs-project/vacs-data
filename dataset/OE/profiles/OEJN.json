@@ -12,10 +12,6 @@
             "station_id": "OEJN_DEL"
           },
           {
-            "label": ["APN N"],
-            "station_id": "OEJN_N_RMP"
-          },
-          {
             "label": ["APN E"],
             "station_id": "OEJN_APN_E"
           },
