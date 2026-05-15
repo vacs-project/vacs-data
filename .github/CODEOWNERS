@@ -13,6 +13,7 @@ CONTRIBUTING.md @vacs-project/maintainers
 /dataset/AFRX/ @vacs-project/dataset-maintainers-afrx
 /dataset/CARX/ @vacs-project/dataset-maintainers-vcmc @vacs-project/dataset-maintainers-tncf
 /dataset/CZQM/ @vacs-project/dataset-maintainers-czqm
+/dataset/CZVR/ @vacs-project/dataset-maintainers-czvr
 /dataset/DA/ @vacs-project/dataset-maintainers-mag
 /dataset/DT/ @vacs-project/dataset-maintainers-mag
 /dataset/EB/ @vacs-project/dataset-maintainers-eb
