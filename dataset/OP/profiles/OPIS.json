@@ -1,0 +1,66 @@
+{
+  "id": "OPIS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OPIS"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["DEL"],
+            "color": "azure",
+            "station_id": "OPIS_DEL"
+          },
+          {
+            "label": ["GND"],
+            "color": "mint",
+            "station_id": "OPIS_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OPLR", "EAST"],
+            "color": "cadet",
+            "station_id": "OPLR-E_CTR"
+          },
+          {
+            "label": ["AIR"],
+            "color": "blush",
+            "station_id": "OPIS_TWR"
+          },
+          {
+            "label": ["APP"],
+            "color": "steel",
+            "station_id": "OPIS_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ISB"],
+            "color": "cadet",
+            "station_id": "ISB_CTR"
+          },
+          {
+            "label": ["DEP"],
+            "color": "lagoon",
+            "station_id": "OPIS_DEP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OPPS", "TWR"],
+            "color": "cadet",
+            "station_id": "OPPS_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

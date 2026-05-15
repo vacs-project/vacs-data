@@ -848,6 +848,13 @@
       "profile_id": "LIRR-NORTH"
     },
     {
+      "id": "LIRR_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "135.615",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
       "id": "LICA_ES0_APP",
       "prefixes": ["LICA"],
       "frequency": "118.800",
@@ -1207,7 +1214,7 @@
     {
       "id": "LIRJ_I_TWR",
       "prefixes": ["LIRJ"],
-      "frequency": "123.700",
+      "frequency": "123.705",
       "facility_type": "TWR",
       "profile_id": "LIRR-NORTH"
     },

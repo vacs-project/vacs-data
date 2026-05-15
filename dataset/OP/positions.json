@@ -1,0 +1,464 @@
+{
+  "positions": [
+    {
+      "id": "OPLR_CTR",
+      "prefixes": ["OPLR"],
+      "frequency": "127.500",
+      "facility_type": "CTR",
+      "default_call_sources": ["OPLR_CTR"]
+    },
+    {
+      "id": "ISB_CTR",
+      "prefixes": ["ISB"],
+      "frequency": "120.750",
+      "facility_type": "CTR",
+      "default_call_sources": ["ISB_CTR"]
+    },
+    {
+      "id": "OPLR-E_CTR",
+      "prefixes": ["OPLR-E"],
+      "frequency": "127.650",
+      "facility_type": "CTR",
+      "default_call_sources": ["OPLR-E_CTR"]
+    },
+    {
+      "id": "OPLR-S_CTR",
+      "prefixes": ["OPLR-S"],
+      "frequency": "123.150",
+      "facility_type": "CTR",
+      "default_call_sources": ["OPLR-S_CTR"]
+    },
+    {
+      "id": "OPLR-W_CTR",
+      "prefixes": ["OPLR-W"],
+      "frequency": "124.100",
+      "facility_type": "CTR",
+      "default_call_sources": ["OPLR-W_CTR"]
+    },
+    {
+      "id": "OPKR_CTR",
+      "prefixes": ["OPKR"],
+      "frequency": "126.500",
+      "facility_type": "CTR",
+      "default_call_sources": ["OPKR_CTR"]
+    },
+    {
+      "id": "OPKR-C_CTR",
+      "prefixes": ["OPKR-C"],
+      "frequency": "121.050",
+      "facility_type": "CTR",
+      "default_call_sources": ["OPKR-C_CTR"]
+    },
+    {
+      "id": "OPKR-E_CTR",
+      "prefixes": ["OPKR-E"],
+      "frequency": "133.200",
+      "facility_type": "CTR",
+      "default_call_sources": ["OPKR-E_CTR"]
+    },
+    {
+      "id": "OPKR-S_CTR",
+      "prefixes": ["OPKR-S"],
+      "frequency": "132.100",
+      "facility_type": "CTR",
+      "default_call_sources": ["OPKR-S_CTR"]
+    },
+    {
+      "id": "OPKR-W_CTR",
+      "prefixes": ["OPKR-W"],
+      "frequency": "128.350",
+      "facility_type": "CTR",
+      "default_call_sources": ["OPKR-W_CTR"]
+    },
+    {
+      "id": "CHR_APP",
+      "prefixes": ["CHR"],
+      "frequency": "125.600",
+      "facility_type": "APP",
+      "default_call_sources": ["CHR_APP"]
+    },
+    {
+      "id": "CHR-N_APP",
+      "prefixes": ["CHR-N"],
+      "frequency": "121.200",
+      "facility_type": "APP",
+      "default_call_sources": ["CHR-N_APP"]
+    },
+    {
+      "id": "CHR-S_APP",
+      "prefixes": ["CHR-S"],
+      "frequency": "127.350",
+      "facility_type": "APP",
+      "default_call_sources": ["CHR-S_APP"]
+    },
+    {
+      "id": "OPBN_TWR",
+      "prefixes": ["OPBN"],
+      "frequency": "123.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPBN_TWR"]
+    },
+    {
+      "id": "OPBW_TWR",
+      "prefixes": ["OPBW"],
+      "frequency": "129.800",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPBW_TWR"]
+    },
+    {
+      "id": "OPCH_TWR",
+      "prefixes": ["OPCH"],
+      "frequency": "122.500",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPCH_TWR"]
+    },
+    {
+      "id": "OPCH_GND",
+      "prefixes": ["OPCH"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "default_call_sources": ["OPCH_GND"]
+    },
+    {
+      "id": "OPDB_TWR",
+      "prefixes": ["OPDB"],
+      "frequency": "129.500",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPDB_TWR"]
+    },
+    {
+      "id": "OPDG_TWR",
+      "prefixes": ["OPDG"],
+      "frequency": "119.400",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPDG_TWR"]
+    },
+    {
+      "id": "OPDI_TWR",
+      "prefixes": ["OPDI"],
+      "frequency": "121.950",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPDI_TWR"]
+    },
+    {
+      "id": "OPFA_TWR",
+      "prefixes": ["OPFA"],
+      "frequency": "118.600",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPFA_TWR"]
+    },
+    {
+      "id": "OPFA_GND",
+      "prefixes": ["OPFA"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "default_call_sources": ["OPFA_GND"]
+    },
+    {
+      "id": "OPGD_TWR",
+      "prefixes": ["OPGD"],
+      "frequency": "122.500",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPGD_TWR"]
+    },
+    {
+      "id": "OPGT_TWR",
+      "prefixes": ["OPGT"],
+      "frequency": "119.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPGT_TWR"]
+    },
+    {
+      "id": "OPIS_DEP",
+      "prefixes": ["OPIS"],
+      "frequency": "119.650",
+      "facility_type": "DEP",
+      "profile_id": "OPIS",
+      "default_call_sources": ["OPIS_DEP"]
+    },
+    {
+      "id": "OPIS_APP",
+      "prefixes": ["OPIS"],
+      "frequency": "121.650",
+      "facility_type": "APP",
+      "profile_id": "OPIS",
+      "default_call_sources": ["OPIS_APP"]
+    },
+    {
+      "id": "OPIS_TWR",
+      "prefixes": ["OPIS"],
+      "frequency": "122.150",
+      "facility_type": "TWR",
+      "profile_id": "OPIS",
+      "default_call_sources": ["OPIS_TWR"]
+    },
+    {
+      "id": "OPIS_GND",
+      "prefixes": ["OPIS"],
+      "frequency": "130.600",
+      "facility_type": "GND",
+      "profile_id": "OPIS",
+      "default_call_sources": ["OPIS_GND"]
+    },
+    {
+      "id": "OPIS_DEL",
+      "prefixes": ["OPIS"],
+      "frequency": "118.550",
+      "facility_type": "DEL",
+      "profile_id": "OPIS",
+      "default_call_sources": ["OPIS_DEL"]
+    },
+    {
+      "id": "OPJI_TWR",
+      "prefixes": ["OPJI"],
+      "frequency": "122.900",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPJI_TWR"]
+    },
+    {
+      "id": "OPKC_APP",
+      "prefixes": ["OPKC"],
+      "frequency": "125.500",
+      "facility_type": "APP",
+      "profile_id": "OPKC",
+      "default_call_sources": ["OPKC_APP"]
+    },
+    {
+      "id": "OPKC_TWR",
+      "prefixes": ["OPKC"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "profile_id": "OPKC",
+      "default_call_sources": ["OPKC_TWR"]
+    },
+    {
+      "id": "OPKC_GND",
+      "prefixes": ["OPKC"],
+      "frequency": "121.600",
+      "facility_type": "GND",
+      "profile_id": "OPKC",
+      "default_call_sources": ["OPKC_GND"]
+    },
+    {
+      "id": "OPKD_TWR",
+      "prefixes": ["OPKD"],
+      "frequency": "119.650",
+      "facility_type": "TWR",
+      "profile_id": "OPKC",
+      "default_call_sources": ["OPKD_TWR"]
+    },
+    {
+      "id": "OPKH_TWR",
+      "prefixes": ["OPKH"],
+      "frequency": "122.300",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPKH_TWR"]
+    },
+    {
+      "id": "OPLA_APP",
+      "prefixes": ["OPLA"],
+      "frequency": "121.300",
+      "facility_type": "APP",
+      "profile_id": "OPLA",
+      "default_call_sources": ["OPLA_APP"]
+    },
+    {
+      "id": "OPLA_TWR",
+      "prefixes": ["OPLA"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "profile_id": "OPLA",
+      "default_call_sources": ["OPLA_TWR"]
+    },
+    {
+      "id": "OPLA_GND",
+      "prefixes": ["OPLA"],
+      "frequency": "118.400",
+      "facility_type": "GND",
+      "profile_id": "OPKC",
+      "default_call_sources": ["OPLA_GND"]
+    },
+    {
+      "id": "OPMJ_TWR",
+      "prefixes": ["OPMJ"],
+      "frequency": "119.600",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPMJ_TWR"]
+    },
+    {
+      "id": "OPMT_TWR",
+      "prefixes": ["OPMT"],
+      "frequency": "119.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPMT_TWR"]
+    },
+    {
+      "id": "OPMT_GND",
+      "prefixes": ["OPMT"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "default_call_sources": ["OPMT_GND"]
+    },
+    {
+      "id": "OPNH_TWR",
+      "prefixes": ["OPNH"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPNH_TWR"]
+    },
+    {
+      "id": "OPNH_GND",
+      "prefixes": ["OPNH"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "default_call_sources": ["OPNH_GND"]
+    },
+    {
+      "id": "OPOR_TWR",
+      "prefixes": ["OPOR"],
+      "frequency": "129.900",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPOR_TWR"]
+    },
+    {
+      "id": "OPPC_TWR",
+      "prefixes": ["OPPC"],
+      "frequency": "122.200",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPPC_TWR"]
+    },
+    {
+      "id": "OPPG_TWR",
+      "prefixes": ["OPPG"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPPG_TWR"]
+    },
+    {
+      "id": "OPPG_GND",
+      "prefixes": ["OPPG"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "default_call_sources": ["OPPG_GND"]
+    },
+    {
+      "id": "OPPI_TWR",
+      "prefixes": ["OPPI"],
+      "frequency": "124.300",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPPI_TWR"]
+    },
+    {
+      "id": "OPPS_TWR",
+      "prefixes": ["OPPS"],
+      "frequency": "122.900",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPPS_TWR"]
+    },
+    {
+      "id": "OPPS_GND",
+      "prefixes": ["OPPS"],
+      "frequency": "118.300",
+      "facility_type": "GND",
+      "default_call_sources": ["OPPS_GND"]
+    },
+    {
+      "id": "OPQT_TWR",
+      "prefixes": ["OPQT"],
+      "frequency": "118.050",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPQT_TWR"]
+    },
+    {
+      "id": "OPQT_GND",
+      "prefixes": ["OPQT"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "default_call_sources": ["OPQT_GND"]
+    },
+    {
+      "id": "OPRK_TWR",
+      "prefixes": ["OPRK"],
+      "frequency": "122.200",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPRK_TWR"]
+    },
+    {
+      "id": "OPRN_TWR",
+      "prefixes": ["OPRN"],
+      "frequency": "123.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPRN_TWR"]
+    },
+    {
+      "id": "OPRT_TWR",
+      "prefixes": ["OPRT"],
+      "frequency": "122.400",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPRT_TWR"]
+    },
+    {
+      "id": "OPSD_TWR",
+      "prefixes": ["OPSD"],
+      "frequency": "118.250",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPSD_TWR"]
+    },
+    {
+      "id": "OPSK_TWR",
+      "prefixes": ["OPSK"],
+      "frequency": "122.500",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPSK_TWR"]
+    },
+    {
+      "id": "OPSS_TWR",
+      "prefixes": ["OPSS"],
+      "frequency": "120.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPSS_TWR"]
+    },
+    {
+      "id": "OPST_TWR",
+      "prefixes": ["OPST"],
+      "frequency": "119.950",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPST_TWR"]
+    },
+    {
+      "id": "OPST_GND",
+      "prefixes": ["OPST"],
+      "frequency": "121.950",
+      "facility_type": "GND",
+      "default_call_sources": ["OPST_GND"]
+    },
+    {
+      "id": "OPSW_TWR",
+      "prefixes": ["OPSW"],
+      "frequency": "132.000",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPSW_TWR"]
+    },
+    {
+      "id": "OPTU_TWR",
+      "prefixes": ["OPTU"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPTU_TWR"]
+    },
+    {
+      "id": "OPTU_GND",
+      "prefixes": ["OPTU"],
+      "frequency": "121.850",
+      "facility_type": "GND",
+      "default_call_sources": ["OPTU_GND"]
+    },
+    {
+      "id": "OPZB_TWR",
+      "prefixes": ["OPZB"],
+      "frequency": "120.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["OPZB_TWR"]
+    }
+  ]
+}
