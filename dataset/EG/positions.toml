@@ -27,13 +27,6 @@ facility_type = "GND"
 profile_id = "EG-Scottish"
 
 [[positions]]
-id = "EGAA_DEL"
-prefixes = ["EGAA"]
-frequency = "126.780"
-facility_type = "DEL"
-profile_id = "EG-Scottish"
-
-[[positions]]
 id = "EGAC_APP"
 prefixes = ["EGAC"]
 frequency = "130.850"
@@ -288,7 +281,7 @@ profile_id = "EG-West_LAG"
 [[positions]]
 id = "EGGD_APP"
 prefixes = ["EGGD"]
-frequency = "125.650"
+frequency = "125.655"
 facility_type = "APP"
 profile_id = "EG-West_LAG"
 
@@ -302,7 +295,7 @@ profile_id = "EG-West_LAG"
 [[positions]]
 id = "EGGD_TWR"
 prefixes = ["EGGD"]
-frequency = "133.850"
+frequency = "133.855"
 facility_type = "TWR"
 profile_id = "EG-West_LAG"
 

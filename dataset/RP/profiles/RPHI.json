@@ -62,8 +62,81 @@
             "station_id": "RPLL_G_RMP"
           },
           {
-            "label": ["FMP"],
+            "label": ["MNL FMP"],
             "station_id": "MNL_FMP"
+          },
+          {
+            "label": ["MNL", "CTR"],
+            "station_id": "MNL_CTR"
+          },
+          {
+            "label": ["MNL", "C CTR"],
+            "station_id": "MNL_C_CTR"
+          },
+          {
+            "label": ["MNL", "N CTR"],
+            "station_id": "MNL_N_CTR"
+          },
+          {
+            "label": ["MNL", "S CTR"],
+            "station_id": "MNL_S_CTR"
+          },
+          {
+            "label": ["MNL", "2 CTR"],
+            "station_id": "MNL_2_CTR"
+          },
+          {
+            "label": ["MNL", "NE CTR"],
+            "station_id": "MNL_NE_CTR"
+          },
+          {
+            "label": ["MNL", "NW CTR"],
+            "station_id": "MNL_NW_CTR"
+          },
+          {
+            "label": ["MNL", "N1 CTR"],
+            "station_id": "MNL_N1_CTR"
+          },
+          {
+            "label": ["MNL", "CN CTR"],
+            "station_id": "MNL_CN_CTR"
+          },
+          {
+            "label": ["MNL", "CE CTR"],
+            "station_id": "MNL_CE_CTR"
+          },
+          {
+            "label": ["MNL", "CW CTR"],
+            "station_id": "MNL_CW_CTR"
+          },
+          {
+            "label": ["MNL", "W CTR"],
+            "station_id": "MNL_W_CTR"
+          },
+          {
+            "label": ["MNL", "SE CTR"],
+            "station_id": "MNL_SE_CTR"
+          },
+          {
+            "label": ["MNL", "SW CTR"],
+            "station_id": "MNL_SW_CTR"
+          },
+          {
+            "label": ["MNL", "S1 CTR"],
+            "station_id": "MNL_S1_CTR"
+          },
+          {
+            "label": ["MNL", "CS CTR"],
+            "station_id": "MNL_CS_CTR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
           }
         ]
       }
@@ -322,17 +395,40 @@
       }
     },
     {
-      "label": ["CONTROL"],
+      "label": ["ACC"],
       "page": {
-        "rows": 5,
+        "rows": 3,
         "keys": [
           {
-            "label": ["MNL", "CTR"],
-            "station_id": "MNL_CTR"
+            "label": ["HKG", "U CTR"],
+            "station_id": "VHHK_U_CTR"
           },
           {
-            "label": ["MNL", "2 CTR"],
-            "station_id": "MNL_2_CTR"
+            "label": ["HKG", "S CTR"],
+            "station_id": "VHHK_S_CTR"
+          },
+          {
+            "label": ["HKG", "W CTR"],
+            "station_id": "VHHK_W_CTR"
+          },
+          {
+            "label": ["HKG", "C CTR"],
+            "station_id": "VHHK_C_CTR"
+          },
+          {
+            "label": ["HKG", "D CTR"],
+            "station_id": "VHHK_D_CTR"
+          },
+          {
+            "label": ["HKG", "V CTR"],
+            "station_id": "VHHK_V_CTR"
+          },
+          {
+            "label": ["WSJC", "8 CTR"],
+            "station_id": "WSJC_8_CTR"
+          },
+          {
+            "label": [""]
           },
           {
             "label": [""]
@@ -341,67 +437,23 @@
             "label": [""]
           },
           {
-            "label": ["FMP"],
-            "station_id": "MNL_FMP"
-          },
-          {
-            "label": ["MNL", "N CTR"],
-            "station_id": "MNL_N_CTR"
-          },
-          {
-            "label": ["MNL", "NE CTR"],
-            "station_id": "MNL_NE_CTR"
-          },
-          {
-            "label": ["MNL", "NW CTR"],
-            "station_id": "MNL_NW_CTR"
-          },
-          {
-            "label": ["MNL", "N1 CTR"],
-            "station_id": "MNL_N1_CTR"
+            "label": [""]
           },
           {
             "label": [""]
           },
           {
-            "label": ["MNL", "C CTR"],
-            "station_id": "MNL_C_CTR"
+            "label": [""]
           },
           {
-            "label": ["MNL", "CN CTR"],
-            "station_id": "MNL_CN_CTR"
+            "label": [""]
           },
           {
-            "label": ["MNL", "CE CTR"],
-            "station_id": "MNL_CE_CTR"
+            "label": [""]
           },
           {
-            "label": ["MNL", "CW CTR"],
-            "station_id": "MNL_CW_CTR"
-          },
-          {
-            "label": ["MNL", "W CTR"],
-            "station_id": "MNL_W_CTR"
-          },
-          {
-            "label": ["MNL", "S CTR"],
-            "station_id": "MNL_S_CTR"
-          },
-          {
-            "label": ["MNL", "SE CTR"],
-            "station_id": "MNL_SE_CTR"
-          },
-          {
-            "label": ["MNL", "SW CTR"],
-            "station_id": "MNL_SW_CTR"
-          },
-          {
-            "label": ["MNL", "S1 CTR"],
-            "station_id": "MNL_S1_CTR"
-          },
-          {
-            "label": ["MNL", "CS CTR"],
-            "station_id": "MNL_CS_CTR"
+            "label": ["ASEA", "FSS"],
+            "station_id": "ASEA_FSS"
           }
         ]
       }

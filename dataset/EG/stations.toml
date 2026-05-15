@@ -1007,7 +1007,7 @@ controlled_by = ["EGGW_DEL"]
 [[stations]]
 id = "EGGW_GND"
 parent_id = "EGGW_TWR"
-controlled_by = ["EGGW_APP"]
+controlled_by = ["EGGW_GND"]
 
 [[stations]]
 id = "EGGW_TWR"
