@@ -190,6 +190,14 @@
       "default_call_sources": ["OEJN_C_GND"]
     },
     {
+      "id": "OEJN_E_RMP",
+      "prefixes": ["OEJN"],
+      "frequency": "121.750",
+      "facility_type": "GND",
+      "profile_id": "OEJN",
+      "default_call_sources": ["OEJN_E_RMP"]
+    },
+    {
       "id": "OEJN_DEL",
       "prefixes": ["OEJN"],
       "frequency": "121.800",

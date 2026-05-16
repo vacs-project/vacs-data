@@ -101,7 +101,11 @@
       "parent_id": "OEJN_APP",
       "controlled_by": ["OEJN_C_TWR"]
     },
-
+    {
+      "id": "OEJN_E_RMP",
+      "parent_id": "OEJN_E_GND",
+      "controlled_by": ["OEJN_E_RMP"]
+    },
     {
       "id": "OEJN_E_GND",
       "parent_id": "OEJN_W_TWR",
