@@ -1,0 +1,60 @@
+{
+  "id": "OEJD-SE",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC", "SE"],
+      "page": {
+        "rows": 2,
+        "keys": [
+          {
+            "label": ["RD", "CTA"],
+            "station_id": "OERD_E_CTR"
+          },
+          {
+            "label": ["JD", "ACC", "SOUTH"],
+            "station_id": "OEJD_S_CTR"
+          },
+          {
+            "label": ["RD", "NE", "345+"],
+            "station_id": "OERD_NE_CTR"
+          },
+          {
+            "label": ["JD", "NE", "245-345"],
+            "station_id": "OERD_NE_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DOH", "R2", "245-"],
+            "station_id": "DOH_R2_APP"
+          },
+          {
+            "label": ["OTDF", "ACC 2", "245+"],
+            "station_id": "OTDF_2_CTR"
+          },
+          {
+            "label": ["UAE", "SOUTH"],
+            "station_id": "OMAE_S_CTR"
+          },
+          {
+            "label": ["OOMM", "ACC S"],
+            "station_id": "OOMM_5_CTR"
+          },
+          {
+            "label": ["OOMM", "ACC C"],
+            "station_id": "OOMM_6_CTR"
+          },
+          {
+            "label": ["OOMM", "ACC M"],
+            "station_id": "OOMM_4_CTR"
+          }
+        ]
+      }
+    }
+  ]
+}

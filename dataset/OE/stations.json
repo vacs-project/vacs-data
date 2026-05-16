@@ -26,8 +26,15 @@
       "parent_id": "OERD_1_CTR",
       "controlled_by": ["OERK_N_CTR"]
     },
-
-    { "id": "OEJD_1_CTR", "controlled_by": ["OEJD_1_CTR"] },
+    {
+      "id": "OEJD_1_CTR",
+      "controlled_by": ["OEJD_1_CTR"]
+    },
+    {
+      "id": "OEJD_2_CTR",
+      "parent_id": "OEJD_1_CTR",
+      "controlled_by": ["OEJD_2_CTR"]
+    },
     {
       "id": "OEJD_N_CTR",
       "parent_id": "OEJD_1_CTR",
@@ -35,12 +42,12 @@
     },
     {
       "id": "OEJD_S_CTR",
-      "parent_id": "OEJD_1_CTR",
+      "parent_id": "OEJD_2_CTR",
       "controlled_by": ["OEJD_S_CTR"]
     },
     {
       "id": "OEJD_W_CTR",
-      "parent_id": "OEJD_1_CTR",
+      "parent_id": "OEJD_2_CTR",
       "controlled_by": ["OEJD_W_CTR"]
     },
     {
@@ -55,7 +62,7 @@
     },
     {
       "id": "OEJD_C_CTR",
-      "parent_id": "OEJD_1_CTR",
+      "parent_id": "OEJD_2_CTR",
       "controlled_by": ["OEJD_C_CTR"]
     },
 
