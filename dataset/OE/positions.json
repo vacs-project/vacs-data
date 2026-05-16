@@ -99,12 +99,12 @@
     },
 
     {
-      "id": "OEJN_1_CTR",
+      "id": "OEJN_W_CTR",
       "prefixes": ["OEJN"],
       "frequency": "132.300",
       "facility_type": "CTR",
       "profile_id": "OEJN",
-      "default_call_sources": ["OEJN_1_CTR"]
+      "default_call_sources": ["OEJN_W_CTR"]
     },
 
     {
