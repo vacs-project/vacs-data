@@ -31,6 +31,10 @@
             "station_id": "OEJN_E_GND"
           },
           {
+            "label": ["RMP", "E"],
+            "station_id": "OEJN_E_RMP"
+          },
+          {
             "label": ["AIR W"],
             "station_id": "OEJN_W_TWR"
           },

@@ -193,7 +193,7 @@
       "id": "OEJN_E_RMP",
       "prefixes": ["OEJN"],
       "frequency": "121.750",
-      "facility_type": "GND",
+      "facility_type": "RMP",
       "profile_id": "OEJN",
       "default_call_sources": ["OEJN_E_RMP"]
     },
