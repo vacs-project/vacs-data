@@ -7,50 +7,110 @@
       "page": {
         "rows": 3,
         "keys": [
-          { "label": ["RYD", "TERMINAL", "FL150+"], "station_id": "OERK_N_CTR", "color": "azure" },
-          { "label": ["RYD", "EAST", "FL345+"], "station_id": "OERD_E_CTR", "color": "azure" },
-          { "label": ["RYD", "NORTH", "FL345+"], "station_id": "OERD_N_CTR", "color": "azure" },
-          {"label": []},
-          {"label": []},
-          {"label": []},
-          { "label": ["RYD", "NE", "FL345+"], "station_id": "OERD_NE_CTR", "color": "azure" },
-          { "label": ["RYD", "BBX", "UNL"], "station_id": "OERD_1_CTR", "color": "azure" },
-          { "label": ["JED", "BBX", "UNL"], "station_id": "OERD_1_CTR", "color": "azure" }
+          {
+            "label": ["RYD", "TERMINAL", "FL150+"],
+            "station_id": "OERK_N_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["RYD", "EAST", "FL345+"],
+            "station_id": "OERD_E_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["RYD", "NORTH", "FL345+"],
+            "station_id": "OERD_N_CTR",
+            "color": "azure"
+          },
+          { "label": [] },
+          { "label": [] },
+          { "label": [] },
+          {
+            "label": ["RYD", "NE", "FL345+"],
+            "station_id": "OERD_NE_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["RYD", "BBX", "UNL"],
+            "station_id": "OERD_1_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["JED", "BBX", "UNL"],
+            "station_id": "OERD_1_CTR",
+            "color": "azure"
+          }
         ]
       }
     },
-    
+
     {
       "label": ["OEJD"],
       "page": {
         "rows": 3,
         "keys": [
-          { "label": ["JED", "NORTH", "FL345-"], "station_id": "OEJD_N_CTR", "color": "azure" },
-          { "label": ["JED", "SOUTH", "UNL"], "station_id": "OEJD_S_CTR", "color": "azure" },
-          {"label": []},
-          {"label": []},
-          {"label": []},
-          { "label": ["JED", "UPPER", "FL245+"], "station_id": "OEJD_W_CTR", "color": "azure" },
-          { "label": ["JED", "NE LOW", "FL345-"], "station_id": "OEJD_NE_CTR", "color": "azure" },
-          { "label": ["JED", "SE", "UNL"], "station_id": "OEJD_SE_CTR", "color": "azure" },
-          {"label": []},
-          {"label": []},
-          {"label": []},
-          { "label": ["JED", "CTR", "FL245-"], "station_id": "OEJD_C_CTR", "color": "azure" },
-          { "label": ["JED", "BBX", "UNL"], "station_id": "OERD_1_CTR", "color": "azure" },
-          {"label": []}
+          {
+            "label": ["JED", "NORTH", "FL345-"],
+            "station_id": "OEJD_N_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["JED", "SOUTH", "UNL"],
+            "station_id": "OEJD_S_CTR",
+            "color": "azure"
+          },
+          { "label": [] },
+          { "label": [] },
+          { "label": [] },
+          {
+            "label": ["JED", "UPPER", "FL245+"],
+            "station_id": "OEJD_W_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["JED", "NE LOW", "FL345-"],
+            "station_id": "OEJD_NE_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["JED", "SE", "UNL"],
+            "station_id": "OEJD_SE_CTR",
+            "color": "azure"
+          },
+          { "label": [] },
+          { "label": [] },
+          { "label": [] },
+          {
+            "label": ["JED", "CTR", "FL245-"],
+            "station_id": "OEJD_C_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["JED", "BBX", "UNL"],
+            "station_id": "OERD_1_CTR",
+            "color": "azure"
+          },
+          { "label": [] }
         ]
       }
     },
-    
+
     {
       "label": ["OKAC"],
       "page": {
         "rows": 3,
         "keys": [
-          {"label": ["OKAC", "LOWER"], "station_id": "OKAC_CTR", "color": "lagoon"},
-          {"label":["OKAC", "UPPER"], "station_id": "OKAC_U_CTR", "color": "lagoon"},
-          {"label": []}
+          {
+            "label": ["OKAC", "LOWER"],
+            "station_id": "OKAC_CTR",
+            "color": "lagoon"
+          },
+          {
+            "label": ["OKAC", "UPPER"],
+            "station_id": "OKAC_U_CTR",
+            "color": "lagoon"
+          },
+          { "label": [] }
         ]
       }
     },
@@ -59,21 +119,49 @@
       "page": {
         "rows": 3,
         "keys": [
-          {"label": ["OBBB", "NORTH", "HIGH"], "station_id": "OBBB_3_CTR", "color": "steel"},
-          {"label": ["OBBB", "NORTH", "LOW"], "station_id": "OBBB_N_CTR", "color": "steel"},  
-          {"label": ["OBBB", "CENT", "LOW"], "station_id": "OBBB_CL_CTR", "color": "steel"},
-          {"label":[]},
-          {"label": []},
-          {"label": []},
-          {"label": ["OBBB", "CENT", "SUPER"], "station_id": "OBBB_1_CTR", "color": "steel"},
-          {"label": ["OBBI", "FIN"], "station_id": "OBBI_F_APP", "color": "steel"},
-          {"label": ["OBBB", "CENT", "HIGH"], "station_id": "OBBB_CH_CTR", "color": "steel"},
-          {"label": []},
-          {"label": []},
-          {"label": []},
-          {"label": ["OBBI", "APP"], "station_id": "OBBI_APP", "color": "lilac"},
-          {"label":[]},
-          {"label": []}
+          {
+            "label": ["OBBB", "NORTH", "HIGH"],
+            "station_id": "OBBB_3_CTR",
+            "color": "steel"
+          },
+          {
+            "label": ["OBBB", "NORTH", "LOW"],
+            "station_id": "OBBB_N_CTR",
+            "color": "steel"
+          },
+          {
+            "label": ["OBBB", "CENT", "LOW"],
+            "station_id": "OBBB_CL_CTR",
+            "color": "steel"
+          },
+          { "label": [] },
+          { "label": [] },
+          { "label": [] },
+          {
+            "label": ["OBBB", "CENT", "SUPER"],
+            "station_id": "OBBB_1_CTR",
+            "color": "steel"
+          },
+          {
+            "label": ["OBBI", "FIN"],
+            "station_id": "OBBI_F_APP",
+            "color": "steel"
+          },
+          {
+            "label": ["OBBB", "CENT", "HIGH"],
+            "station_id": "OBBB_CH_CTR",
+            "color": "steel"
+          },
+          { "label": [] },
+          { "label": [] },
+          { "label": [] },
+          {
+            "label": ["OBBI", "APP"],
+            "station_id": "OBBI_APP",
+            "color": "lilac"
+          },
+          { "label": [] },
+          { "label": [] }
         ]
       }
     }
