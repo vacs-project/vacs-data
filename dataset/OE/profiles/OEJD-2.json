@@ -25,11 +25,7 @@
           },
           {
             "label":["JD", "TERM"],
-            "station_id": "OEJN_W1_CTR"
-          },
-          {
-            "label": ["JD", "UPPER", "245+"],
-            "station_id": "OEJD_W_CTR"
+            "station_id": "OEJN_W_CTR"
           },
           {
             "label": ["JD", "CTR", "245-"],
