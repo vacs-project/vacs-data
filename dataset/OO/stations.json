@@ -1,0 +1,126 @@
+{
+  "stations": [
+    {
+      "id": "OOMM_FMP",
+      "parent_id": "OOMM_1_CTR",
+      "controlled_by": ["OOMM_FMP"]
+    },
+    {
+      "id": "OOMM_1_CTR",
+      "controlled_by": ["OOMM_1_CTR"]
+    },
+    {
+      "id": "OOMM_2_CTR",
+      "parent_id": "OOMM_1_CTR",
+      "controlled_by": ["OOMM_2_CTR"]
+    },
+    {
+      "id": "OOMM_3_CTR",
+      "parent_id": "OOMM_1_CTR",
+      "controlled_by": ["OOMM_3_CTR"]
+    },
+    {
+      "id": "OOMM_4_CTR",
+      "parent_id": "OOMM_1_CTR",
+      "controlled_by": ["OOMM_4_CTR"]
+    },
+    {
+      "id": "OOMM_5_CTR",
+      "parent_id": "OOMM_1_CTR",
+      "controlled_by": ["OOMM_5_CTR"]
+    },
+    {
+      "id": "OOMM_6_CTR",
+      "parent_id": "OOMM_1_CTR",
+      "controlled_by": ["OOMM_6_CTR"]
+    },
+    {
+      "id": "OOMM_7_CTR",
+      "parent_id": "OOMM_1_CTR",
+      "controlled_by": ["OOMM_7_CTR"]
+    },
+    {
+      "id": "OODQ_I_TWR",
+      "parent_id": "OOMM_4_CTR",
+      "controlled_by": ["OODQ_I_TWR"]
+    },
+    {
+      "id": "OOFD_I_TWR",
+      "parent_id": "OOMM_4_CTR",
+      "controlled_by": ["OOFD_I_TWR"]
+    },
+    {
+      "id": "OOJA_R_TWR",
+      "parent_id": "OOMM_5_CTR",
+      "controlled_by": ["OOJA_R_TWR"]
+    },
+    {
+      "id": "OOKB_APP",
+      "controlled_by": ["OOKB_APP"]
+    },
+    {
+      "id": "OOKB_TWR",
+      "parent_id": "OOKB_APP",
+      "controlled_by": ["OOKB_TWR"]
+    },
+    {
+      "id": "OOMK_I_TWR",
+      "controlled_by": ["OOMK_I_TWR"]
+    },
+    {
+      "id": "OOMS_APP",
+      "parent_id": "OOMM_1_CTR",
+      "controlled_by": ["OOMS_APP"]
+    },
+    {
+      "id": "OOMS_1_TWR",
+      "parent_id": "OOMS_APP",
+      "controlled_by": ["OOMS_1_TWR"]
+    },
+    {
+      "id": "OOMS_2_TWR",
+      "parent_id": "OOMS_APP",
+      "controlled_by": ["OOMS_2_TWR"]
+    },
+    {
+      "id": "OOMS_1_GND",
+      "parent_id": "OOMS_1_TWR",
+      "controlled_by": ["OOMS_1_GND"]
+    },
+    {
+      "id": "OOMS_2_GND",
+      "parent_id": "OOMS_2_TWR",
+      "controlled_by": ["OOMS_2_GND"]
+    },
+    {
+      "id": "OOMS_DEL",
+      "parent_id": "OOMS_1_GND",
+      "controlled_by": ["OOMS_DEL"]
+    },
+    {
+      "id": "OOMX_I_TWR",
+      "parent_id": "OOMM_5_CTR",
+      "controlled_by": ["OOMX_I_TWR"]
+    },
+    {
+      "id": "OOSA_APP",
+      "parent_id": "OOMM_5_CTR",
+      "controlled_by": ["OOSA_APP"]
+    },
+    {
+      "id": "OOSA_TWR",
+      "parent_id": "OOSA_APP",
+      "controlled_by": ["OOSA_TWR"]
+    },
+    {
+      "id": "OOSA_GND",
+      "parent_id": "OOSA_TWR",
+      "controlled_by": ["OOSA_GND"]
+    },
+    {
+      "id": "OOSH_I_TWR",
+      "parent_id": "OOMM_7_CTR",
+      "controlled_by": ["OOSH_I_TWR"]
+    }
+  ]
+}
