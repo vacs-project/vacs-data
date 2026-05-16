@@ -28,6 +28,7 @@
     },
     {
       "id": "OEJD_1_CTR",
+      "parent_id": "GULF_W_FSS",
       "controlled_by": ["OEJD_1_CTR"]
     },
     {

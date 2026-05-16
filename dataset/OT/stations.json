@@ -2,6 +2,7 @@
   "stations": [
     {
       "id": "OTDF_1_CTR",
+      "parent_id": "GULF_E_FSS",
       "controlled_by": ["OTDF_1_CTR"]
     },
     {

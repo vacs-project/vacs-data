@@ -7,6 +7,7 @@
     },
     {
       "id": "OOMM_1_CTR",
+      "parent_id": "GULF_E_FSS",
       "controlled_by": ["OOMM_1_CTR"]
     },
     {
