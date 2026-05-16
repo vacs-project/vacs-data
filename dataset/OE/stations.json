@@ -60,14 +60,14 @@
     },
 
     {
-      "id": "OEJN_1_CTR",
+      "id": "OEJN_W_CTR",
       "parent_id": "OEJD_1_CTR",
-      "controlled_by": ["OEJN_1_CTR"]
+      "controlled_by": ["OEJN_W_CTR"]
     },
 
     {
       "id": "OEJN_APP",
-      "parent_id": "OEJN_1_CTR",
+      "parent_id": "OEJN_W_CTR",
       "controlled_by": ["OEJN_APP"]
     },
     {
