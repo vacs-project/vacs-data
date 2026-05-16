@@ -1,0 +1,18 @@
+{
+  "stations": [
+    {
+      "id": "GULF_FSS",
+      "controlled_by": ["GULF_FSS"]
+    },
+    {
+      "id": "GULF_E_FSS",
+      "parent_id": "GULF_FSS",
+      "controlled_by": ["GULF_E_FSS"]
+    },
+    {
+      "id": "GULF_W_FSS",
+      "parent_id": "GULF_FSS",
+      "controlled_by": ["GULF_W_FSS"]
+    }
+  ]
+}

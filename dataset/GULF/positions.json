@@ -1,0 +1,28 @@
+{
+  "positions": [
+    {
+      "id": "GULF_FSS",
+      "prefixes": ["GULF"],
+      "frequency": "133.650",
+      "facility_type": "FSS",
+      "profile_id": "GULF",
+      "default_call_sources": ["GULF_FSS"]
+    },
+    {
+      "id": "GULF_E_FSS",
+      "prefixes": ["GULF"],
+      "frequency": "133.600",
+      "facility_type": "FSS",
+      "profile_id": "GULF",
+      "default_call_sources": ["GULF_E_FSS"]
+    },
+    {
+      "id": "GULF_W_FSS",
+      "prefixes": ["GULF"],
+      "frequency": "133.500",
+      "facility_type": "FSS",
+      "profile_id": "GULF",
+      "default_call_sources": ["GULF_W_FSS"]
+    }
+  ]
+}
