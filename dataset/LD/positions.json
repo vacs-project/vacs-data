@@ -73,7 +73,7 @@
     {
       "id": "LDDU_APP",
       "prefixes": ["LDDU"],
-      "frequency": "129.650",
+      "frequency": "123.600",
       "facility_type": "APP",
       "profile_id": "LDZO"
     },
