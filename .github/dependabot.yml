@@ -7,7 +7,9 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: "05:30" # UTC
+      time: "06:00" # UTC
+    cooldown:
+      default-days: 7
     open-pull-requests-limit: 20
     rebase-strategy: auto
     versioning-strategy: auto
@@ -18,7 +20,9 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: "06:30" # UTC
+      time: "06:00" # UTC
+    cooldown:
+      default-days: 7
     open-pull-requests-limit: 10
     rebase-strategy: auto
     labels: ["dependencies"]
