@@ -661,7 +661,7 @@
     },
     {
       "id": "ESOS_APP-C",
-      "controlled_by": ["ESSA_E_APP"],
+      "controlled_by": ["ESSA_FMP", "ESSA_E_APP"],
       "parent_id": "ESOS_9"
     },
     {

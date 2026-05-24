@@ -817,6 +817,14 @@
       "default_call_sources": ["ESSA_DEL"]
     },
     {
+      "id": "ESSA_FMP",
+      "prefixes": ["ESSA"],
+      "frequency": "126.655",
+      "facility_type": "FMP",
+      "profile_id": "ESOS_APP",
+      "default_call_sources": ["ESOS_APP-C"]
+    },
+    {
       "id": "ESSA_E_APP",
       "prefixes": ["ESSA"],
       "frequency": "126.655",
