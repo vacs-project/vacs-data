@@ -2,6 +2,7 @@
   "stations": [
     {
       "id": "OMAE_1_CTR",
+      "parent_id": "GULF_E_FSS",
       "controlled_by": ["OMAE_1_CTR"]
     },
     {

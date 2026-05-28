@@ -122,11 +122,11 @@
                         "label": []
                       },
                       {
-                        "label": ["EYPA", "APP"],
-                        "station_id": "EYPA_APP"
+                        "label": []
                       },
                       {
-                        "label": []
+                        "label": ["EYPA", "TWR"],
+                        "station_id": "EYPA_APP"
                       },
                       {
                         "label": []
@@ -142,11 +142,11 @@
                         "label": []
                       },
                       {
-                        "label": ["EYSA", "APP"],
-                        "station_id": "EYSA_APP"
+                        "label": []
                       },
                       {
-                        "label": []
+                        "label": ["EYSA", "TWR"],
+                        "station_id": "EYSA_APP"
                       },
                       {
                         "label": []
@@ -198,11 +198,11 @@
                         "label": []
                       },
                       {
-                        "label": ["EYKA", "APP"],
-                        "station_id": "EYKA_APP"
+                        "label": []
                       },
                       {
-                        "label": []
+                        "label": ["EYKA", "TWR"],
+                        "station_id": "EYKA_APP"
                       }
                     ],
                     "rows": 6

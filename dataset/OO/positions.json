@@ -12,6 +12,7 @@
       "prefixes": ["OOMM"],
       "frequency": "128.150",
       "facility_type": "CTR",
+      "profile_id": "OOMM-Hajj",
       "default_call_sources": ["OOMM_1_CTR"]
     },
     {
@@ -19,6 +20,7 @@
       "prefixes": ["OOMM"],
       "frequency": "135.600",
       "facility_type": "CTR",
+      "profile_id": "OOMM-Hajj",
       "default_call_sources": ["OOMM_2_CTR"]
     },
     {
@@ -26,6 +28,7 @@
       "prefixes": ["OOMM"],
       "frequency": "126.550",
       "facility_type": "CTR",
+      "profile_id": "OOMM-Hajj",
       "default_call_sources": ["OOMM_3_CTR"]
     },
     {
@@ -33,6 +36,7 @@
       "prefixes": ["OOMM"],
       "frequency": "118.325",
       "facility_type": "CTR",
+      "profile_id": "OOMM-Hajj",
       "default_call_sources": ["OOMM_4_CTR"]
     },
     {
@@ -40,6 +44,7 @@
       "prefixes": ["OOMM"],
       "frequency": "123.950",
       "facility_type": "CTR",
+      "profile_id": "OOMM-Hajj",
       "default_call_sources": ["OOMM_5_CTR"]
     },
     {
@@ -47,6 +52,7 @@
       "prefixes": ["OOMM"],
       "frequency": "124.700",
       "facility_type": "CTR",
+      "profile_id": "OOMM-Hajj",
       "default_call_sources": ["OOMM_6_CTR"]
     },
     {
@@ -54,6 +60,7 @@
       "prefixes": ["OOMM"],
       "frequency": "119.800",
       "facility_type": "CTR",
+      "profile_id": "OOMM-Hajj",
       "default_call_sources": ["OOMM_7_CTR"]
     },
     {
