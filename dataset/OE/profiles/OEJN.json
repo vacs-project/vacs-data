@@ -1,13 +1,13 @@
 {
-    "id": "OEJN",
-    "type": "Tabbed",
-    "tabs": [
-        {
-            "label": ["CTR"],
-            "page": {
-                "rows": 3,
-                "keys": [
-                    {
+  "id": "OEJN",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["CTR"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
             "label": ["GMP"],
             "station_id": "OEJN_DEL"
           },
@@ -19,9 +19,9 @@
             "label": ["SMC W"],
             "station_id": "OEJN_W_GND"
           },
-            { "label": [] },
-            { "label": [] },
-            { "label": [] },
+          { "label": [] },
+          { "label": [] },
+          { "label": [] },
           {
             "label": ["SMC C"],
             "station_id": "OEJN_C_GND"
@@ -49,17 +49,16 @@
             "label": ["AIR E"],
             "station_id": "OEJN_E_TWR"
           }
-                ]
-            }
-        },
+        ]
+      }
+    },
 
-        {
-            "label": ["TMA"],
-            "page": {
-            "rows": 3,
-            "keys": [
-
-                {
+    {
+      "label": ["TMA"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
             "label": ["FMC 1"],
             "station_id": "OEJN_FMC_APP"
           },
@@ -71,10 +70,10 @@
             "label": ["FIN W"],
             "station_id": "OEJN_FW_APP"
           },
-          {"label": []},
-          {"label": []},
-          {"label": []},
-           {
+          { "label": [] },
+          { "label": [] },
+          { "label": [] },
+          {
             "label": ["FIN E"],
             "station_id": "OEJN_FE_APP"
           },
@@ -86,14 +85,11 @@
             "label": ["FIN E"],
             "station_id": "OEJN_FE_APP"
           },
-          {"label": []},
-          {"label": []},
-          {"label": []}
-            ]
-            
-        }
-        }
-
-         
-    ]
+          { "label": [] },
+          { "label": [] },
+          { "label": [] }
+        ]
+      }
+    }
+  ]
 }
