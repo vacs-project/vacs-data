@@ -81,10 +81,7 @@
             "label": ["CTR W", "305-"],
             "station_id": "OEJN_W_CTR"
           },
-          {
-            "label": ["FIN E"],
-            "station_id": "OEJN_FE_APP"
-          },
+          { "label": [] },
           { "label": [] },
           { "label": [] },
           { "label": [] }
