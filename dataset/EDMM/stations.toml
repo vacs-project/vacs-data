@@ -401,12 +401,12 @@ parent_id = "EDMM-DMSL"
 
 [[stations]]
 id = "EDDM-GND-N"
-controlled_by = ["EDDM_N_GND"]
+controlled_by = ["EDDM_N_GND", "EDDM_S_GND"]
 parent_id = "EDDM-TWR-N"
 
 [[stations]]
 id = "EDDM-GND-S"
-controlled_by = ["EDDM_S_GND"]
+controlled_by = ["EDDM_S_GND", "EDDM_N_GND"]
 parent_id = "EDDM-TWR-S"
 
 [[stations]]
