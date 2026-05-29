@@ -1,13 +1,13 @@
 {
-  "id": "OEJN",
-  "type": "Tabbed",
-  "tabs": [
-    {
-      "label": ["OEJN"],
-      "page": {
-        "rows": 3,
-        "keys": [
-          {
+    "id": "OEJN",
+    "type": "Tabbed",
+    "tabs": [
+        {
+            "label": ["CTR"],
+            "page": {
+                "rows": 3,
+                "keys": [
+                    {
             "label": ["GMP"],
             "station_id": "OEJN_DEL"
           },
@@ -19,9 +19,9 @@
             "label": ["SMC W"],
             "station_id": "OEJN_W_GND"
           },
-          { "label": [] },
-          { "label": [] },
-          { "label": [] },
+            { "label": [] },
+            { "label": [] },
+            { "label": [] },
           {
             "label": ["SMC C"],
             "station_id": "OEJN_C_GND"
@@ -34,13 +34,13 @@
             "label": ["RMP", "E"],
             "station_id": "OEJN_E_RMP"
           },
+          { "label": [] },
+          { "label": [] },
+          { "label": [] },
           {
             "label": ["AIR W"],
             "station_id": "OEJN_W_TWR"
           },
-          { "label": [] },
-          { "label": [] },
-          { "label": [] },
           {
             "label": ["AIR C"],
             "station_id": "OEJN_C_TWR"
@@ -48,16 +48,21 @@
           {
             "label": ["AIR E"],
             "station_id": "OEJN_E_TWR"
-          },
+          }
+                ]
+            }
+        },
 
-          {
+        {
+            "label": ["TMA"],
+            "page": {
+            "rows": 3,
+            "keys": [
+
+                {
             "label": ["FMC 1"],
             "station_id": "OEJN_FMC_APP"
           },
-          { "label": [] },
-          { "label": [] },
-          { "label": [] },
-
           {
             "label": ["APP 1"],
             "station_id": "OEJN_APP"
@@ -66,17 +71,29 @@
             "label": ["FIN W"],
             "station_id": "OEJN_FW_APP"
           },
+          {"label": []},
+          {"label": []},
+          {"label": []},
+           {
+            "label": ["FIN E"],
+            "station_id": "OEJN_FE_APP"
+          },
+          {
+            "label": ["CTR 1", "305-"],
+            "station_id": "OEJN_W_CTR"
+          },
           {
             "label": ["FIN E"],
             "station_id": "OEJN_FE_APP"
           },
+          {"label": []},
+          {"label": []},
+          {"label": []}
+            ]
+            
+        }
+        }
 
-          {
-            "label": ["CTR 1", "305-"],
-            "station_id": "OEJN_W_CTR"
-          }
-        ]
-      }
-    }
-  ]
+         
+    ]
 }
