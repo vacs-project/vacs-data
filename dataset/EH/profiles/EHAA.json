@@ -15,32 +15,32 @@
           {
             "label": ["LON", "EN"],
             "color": "taupe",
-            "station_id": "LON_EN_CTR"
+            "station_id": "EG-Sector-12"
           },
           {
             "label": ["LON", "ES"],
             "color": "taupe",
-            "station_id": "LON_ES_CTR"
+            "station_id": "EG-Sector-13"
           },
           {
             "label": ["LON", "E"],
             "color": "taupe",
-            "station_id": "LON_E_CTR"
+            "station_id": "EG-Sector-14"
           },
           {
             "label": ["LTC", "JACKO"],
             "color": "cadet",
-            "station_id": "LTC_EJ_CTR"
+            "station_id": "EG-TC-JACKO"
           },
           {
             "label": ["LTC", "REDFA"],
             "color": "cadet",
-            "station_id": "LTC_ER_CTR"
+            "station_id": "EG-TC-REDFA"
           },
           {
             "label": ["SCO", "HUM"],
             "color": "steel",
-            "station_id": "SCO_HUM_CTR"
+            "station_id": "EG-Humber"
           },
           {
             "label": [],
