@@ -66,13 +66,16 @@
             "label": ["LFST"]
           },
           {
-            "label": ["AMS", "W"]
+            "label": ["AMS", "W"],
+            "station_id": "EHAA_W_CTR"
           },
           {
-            "label": ["AMS", "S"]
+            "label": ["AMS", "S"],
+            "station_id": "EHAA_S_CTR"
           },
           {
-            "label": ["BEEK", "APP"]
+            "label": ["BEEK", "APP"],
+            "station_id": "EHBK_APP"
           },
           {
             "label": ["EBKT"],
