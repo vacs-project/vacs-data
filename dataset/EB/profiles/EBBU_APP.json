@@ -67,11 +67,11 @@
           },
           {
             "label": ["AMS", "W"],
-            "station_id": "EHAA_W_CTR"
+            "station_id": "EHAA_W"
           },
           {
             "label": ["AMS", "S"],
-            "station_id": "EHAA_S_CTR"
+            "station_id": "EHAA_S"
           },
           {
             "label": ["BEEK", "APP"],
