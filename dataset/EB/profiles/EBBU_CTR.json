@@ -331,11 +331,13 @@
           },
           {
             "label": ["AMS", "W"],
-            "color": "clay"
+            "color": "clay",
+            "station_id": "EHAA_W_CTR"
           },
           {
             "label": ["BEEK", "APP"],
-            "color": "clay"
+            "color": "clay",
+            "station_id": "EHBK_APP"
           },
           {
             "label": ["UAC", "K"],
@@ -364,11 +366,13 @@
           },
           {
             "label": ["AMS", "S"],
-            "color": "clay"
+            "color": "clay",
+            "station_id": "EHAA_S_CTR"
           },
           {
             "label": ["NEW", "MIL"],
-            "color": "clay"
+            "color": "clay",
+            "station_id": "EHMC"
           },
           {
             "label": ["UAC", "O"],
