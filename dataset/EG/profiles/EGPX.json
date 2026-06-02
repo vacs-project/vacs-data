@@ -648,7 +648,8 @@
                       },
                       {
                         "label": ["EHAA W", "245-"],
-                        "color": "azure"
+                        "color": "azure",
+                        "station_id": "EHAA_W"
                       }
                     ]
                   }
