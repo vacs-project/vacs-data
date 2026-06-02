@@ -332,7 +332,7 @@
           {
             "label": ["AMS", "W"],
             "color": "clay",
-            "station_id": "EHAA_W_CTR"
+            "station_id": "EHAA_W"
           },
           {
             "label": ["BEEK", "APP"],
@@ -367,7 +367,7 @@
           {
             "label": ["AMS", "S"],
             "color": "clay",
-            "station_id": "EHAA_S_CTR"
+            "station_id": "EHAA_S"
           },
           {
             "label": ["NEW", "MIL"],
