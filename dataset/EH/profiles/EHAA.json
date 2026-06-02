@@ -13,17 +13,17 @@
             "station_id": "LON_NE_CTR"
           },
           {
-            "label": ["LON", "EN"],
+            "label": ["LON", "12"],
             "color": "taupe",
             "station_id": "EG-Sector-12"
           },
           {
-            "label": ["LON", "ES"],
+            "label": ["LON", "13"],
             "color": "taupe",
             "station_id": "EG-Sector-13"
           },
           {
-            "label": ["LON", "E"],
+            "label": ["LON", "14"],
             "color": "taupe",
             "station_id": "EG-Sector-14"
           },
