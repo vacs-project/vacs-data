@@ -23,9 +23,9 @@
             "station_id": "EDGG-STG"
           },
           {
-            "label": ["EDDF", "DSAT", "Feeder"],
+            "label": ["EDDF", "DFAS"],
             "color": "clay",
-            "station_id": "EDGG-DSAT"
+            "station_id": "EDGG-DFAS"
           },
           {
             "label": ["EDDS", "TWR"],
@@ -48,7 +48,9 @@
             "station_id": "EDGG-REU"
           },
           {
-            "label": [""]
+            "label": ["EDDF", "DFDS"],
+            "color": "clay",
+            "station_id": "EDGG-DFDS"
           },
           {
             "label": ["EDSB", "TWR"],
@@ -66,14 +68,12 @@
             "station_id": "EDGG-MAN"
           },
           {
-            "label": ["EDDF", "DFAS"],
-            "color": "clay",
-            "station_id": "EDGG-DFAS"
+            "label": [""]
           },
           {
-            "label": ["EDDF", "DFDS"],
+            "label": ["EDDF", "DSAT", "Feeder"],
             "color": "clay",
-            "station_id": "EDGG-DFDS"
+            "station_id": "EDGG-DSAT"
           },
           {
             "label": ["EDTL", "TWR"],
@@ -96,7 +96,9 @@
             "station_id": "EDGG-NKRL"
           },
           {
-            "label": [""]
+            "label": ["EDDR", "PFA"],
+            "color": "clay",
+            "station_id": "EDGG-PFA"
           },
           {
             "label": ["EDFM", "TWR"],
@@ -114,7 +116,9 @@
             "station_id": "EDGG-DKB"
           },
           {
-            "label": [""]
+            "label": ["HAB"],
+            "color": "lagoon",
+            "station_id": "EDGG-HAB"
           },
           {
             "label": [""]
@@ -150,12 +154,14 @@
             "label": [""]
           },
           {
-            "label": ["HAB"],
-            "color": "lagoon",
-            "station_id": "EDGG-HAB"
+            "label": ["EDGG", "KIR"],
+            "color": "mint",
+            "station_id": "EDGG-KIR"
           },
           {
-            "label": [""]
+            "label": ["EDGG", "TAU"],
+            "color": "mint",
+            "station_id": "EDGG-TAU"
           },
           {
             "label": ["EDMM", "NDG"],
@@ -170,14 +176,14 @@
             "label": [""]
           },
           {
-            "label": ["EDGG", "KIR"],
-            "color": "lagoon",
-            "station_id": "EDGG-KIR"
+            "label": ["EDGG", "GIN"],
+            "color": "mint",
+            "station_id": "EDGG-GIN"
           },
           {
-            "label": ["EDDR", "PFA"],
-            "color": "clay",
-            "station_id": "EDGG-PFA"
+            "label": ["EDGG", "SIG"],
+            "color": "mint",
+            "station_id": "EDGG-SIG"
           },
           {
             "label": ["EDMM", "FUE"],

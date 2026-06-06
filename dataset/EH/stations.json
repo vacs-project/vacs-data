@@ -1,0 +1,232 @@
+{
+  "stations": [
+    {
+      "id": "EHAA_ALL",
+      "controlled_by": ["EHAA_ALL_CTR"]
+    },
+    {
+      "id": "EHAA_LOW",
+      "controlled_by": ["EHAA_LOW_CTR"],
+      "parent_id": "EHAA_ALL"
+    },
+    {
+      "id": "EHAA_W",
+      "controlled_by": ["EHAA_W_CTR"],
+      "parent_id": "EHAA_LOW"
+    },
+    {
+      "id": "EHAA_E",
+      "controlled_by": ["EHAA_E_CTR"],
+      "parent_id": "EHAA_LOW"
+    },
+    {
+      "id": "EHAA_S",
+      "controlled_by": ["EHAA_S_CTR"],
+      "parent_id": "EHAA_LOW"
+    },
+    {
+      "id": "EHMC",
+      "controlled_by": ["EHMC_CTR"],
+      "parent_id": "EHAA_LOW"
+    },
+    {
+      "id": "EHAM_W_APP",
+      "controlled_by": ["EHAM_W_APP"],
+      "parent_id": "EHAA_LOW"
+    },
+    {
+      "id": "EHAM_E_APP",
+      "controlled_by": ["EHAM_E_APP"],
+      "parent_id": "EHAM_W_APP"
+    },
+    {
+      "id": "EHAM_A_APP",
+      "controlled_by": ["EHAM_A_APP"],
+      "parent_id": "EHAM_W_APP"
+    },
+    {
+      "id": "EHAM_S_APP",
+      "controlled_by": ["EHAM_S_APP"],
+      "parent_id": "EHAM_A_APP"
+    },
+    {
+      "id": "EHAM_B_APP",
+      "controlled_by": ["EHAM_B_APP"],
+      "parent_id": "EHAM_A_APP"
+    },
+    {
+      "id": "EHAM_M_TWR",
+      "controlled_by": ["EHAM_M_TWR"],
+      "parent_id": "EHAM_A_APP"
+    },
+    {
+      "id": "EHAM_P_TWR",
+      "controlled_by": ["EHAM_P_TWR"],
+      "parent_id": "EHAM_M_TWR"
+    },
+    {
+      "id": "EHAM_S_TWR",
+      "controlled_by": ["EHAM_S_TWR"],
+      "parent_id": "EHAM_M_TWR"
+    },
+    {
+      "id": "EHAM_N_GND",
+      "controlled_by": ["EHAM_N_GND"],
+      "parent_id": "EHAM_M_TWR"
+    },
+    {
+      "id": "EHAM_S_GND",
+      "controlled_by": ["EHAM_S_GND"],
+      "parent_id": "EHAM_N_GND"
+    },
+    {
+      "id": "EHAM_C_GND",
+      "controlled_by": ["EHAM_C_GND"],
+      "parent_id": "EHAM_N_GND"
+    },
+    {
+      "id": "EHAM_W_GND",
+      "controlled_by": ["EHAM_W_GND", "EHAM_P_TWR"],
+      "parent_id": "EHAM_M_TWR"
+    },
+    {
+      "id": "EHAM_DEL",
+      "controlled_by": ["EHAM_DEL"],
+      "parent_id": "EHAM_N_GND"
+    },
+    {
+      "id": "EHAM_P_DEL",
+      "controlled_by": ["EHAM_P_DEL"],
+      "parent_id": "EHAM_DEL"
+    },
+    {
+      "id": "EHRD_APP",
+      "controlled_by": ["EHRD_APP"],
+      "parent_id": "EHAM_W_APP"
+    },
+    {
+      "id": "EHRD_TWR",
+      "controlled_by": ["EHRD_TWR"],
+      "parent_id": "EHRD_APP"
+    },
+    {
+      "id": "EHRD_DEL",
+      "controlled_by": ["EHRD_DEL"],
+      "parent_id": "EHRD_TWR"
+    },
+    {
+      "id": "EHEH_APP",
+      "controlled_by": ["EHEH_APP"],
+      "parent_id": "EHMC"
+    },
+    {
+      "id": "EHEH_TWR",
+      "controlled_by": ["EHEH_TWR"],
+      "parent_id": "EHEH_APP"
+    },
+    {
+      "id": "EHEH_GND",
+      "controlled_by": ["EHEH_GND"],
+      "parent_id": "EHEH_TWR"
+    },
+    {
+      "id": "EHLE_APP",
+      "controlled_by": ["EHLE_APP"],
+      "parent_id": "EHAM_W_APP"
+    },
+    {
+      "id": "EHLE_TWR",
+      "controlled_by": ["EHLE_TWR"],
+      "parent_id": "EHLE_APP"
+    },
+    {
+      "id": "EHLE_DEL",
+      "controlled_by": ["EHLE_DEL"],
+      "parent_id": "EHLE_TWR"
+    },
+    {
+      "id": "EHBK_APP",
+      "controlled_by": ["EHBK_APP"],
+      "parent_id": "EHAA_S"
+    },
+    {
+      "id": "EHBK_TWR",
+      "controlled_by": ["EHBK_TWR"],
+      "parent_id": "EHBK_APP"
+    },
+    {
+      "id": "EHBK_DEL",
+      "controlled_by": ["EHBK_DEL"],
+      "parent_id": "EHBK_TWR"
+    },
+    {
+      "id": "EHGG_APP",
+      "controlled_by": ["EHGG_APP"],
+      "parent_id": "EHAA_E"
+    },
+    {
+      "id": "EHGG_TWR",
+      "controlled_by": ["EHGG_TWR"],
+      "parent_id": "EHGG_APP"
+    },
+    {
+      "id": "EHGG_DEL",
+      "controlled_by": ["EHGG_DEL"],
+      "parent_id": "EHGG_TWR"
+    },
+    {
+      "id": "EHGR_APP",
+      "controlled_by": ["EHGR_APP"],
+      "parent_id": "EHMC"
+    },
+    {
+      "id": "EHGR_TWR",
+      "controlled_by": ["EHGR_TWR"],
+      "parent_id": "EHGR_APP"
+    },
+    {
+      "id": "EHKD_APP",
+      "controlled_by": ["EHKD_APP"],
+      "parent_id": "EHMC"
+    },
+    {
+      "id": "EHKD_TWR",
+      "controlled_by": ["EHKD_TWR"],
+      "parent_id": "EHKD_APP"
+    },
+    {
+      "id": "EHLW_APP",
+      "controlled_by": ["EHLW_APP"],
+      "parent_id": "EHMC"
+    },
+    {
+      "id": "EHLW_TWR",
+      "controlled_by": ["EHLW_TWR"],
+      "parent_id": "EHLW_APP"
+    },
+    {
+      "id": "EHMZ_TWR",
+      "controlled_by": ["EHMZ_TWR"],
+      "parent_id": "EHAA_S"
+    },
+    {
+      "id": "EHVK_APP",
+      "controlled_by": ["EHVK_APP"],
+      "parent_id": "EHMC"
+    },
+    {
+      "id": "EHVK_TWR",
+      "controlled_by": ["EHVK_TWR"],
+      "parent_id": "EHVK_APP"
+    },
+    {
+      "id": "EHWO_TWR",
+      "controlled_by": ["EHWO_TWR"],
+      "parent_id": "EHMC"
+    },
+    {
+      "id": "EHAA_FMP",
+      "controlled_by": ["EHAA_FMP"]
+    }
+  ]
+}
