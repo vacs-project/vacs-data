@@ -19,7 +19,7 @@
             "station_id": "ESGT_TWR"
           },
           {
-            "label": ["APP"],
+            "label": ["T7"],
             "station_id": "ESIB_APP"
           },
           {
@@ -42,11 +42,12 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["P7"],
+            "station_id": "ESIB_DIR"
           },
           {
-            "label": ["DIR"],
-            "station_id": "ESIB_DIR"
+            "label": ["T37"],
+            "station_id": "ESFR_APP"
           },
           {
             "label": ["PAR"],

@@ -86,11 +86,11 @@
     },
     {
       "id": "ESFR_APP",
-      "controlled_by": ["ESFR_APP"]
+      "controlled_by": ["ESFR_APP", "ESFR_TWR"]
     },
     {
       "id": "ESFR_TWR",
-      "controlled_by": ["ESFR_TWR"]
+      "controlled_by": ["ESFR_TWR", "ESFR_APP"]
     },
     {
       "id": "ESGG_ARR",
