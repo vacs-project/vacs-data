@@ -12,7 +12,7 @@
       "prefixes": ["ENAL"],
       "frequency": "118.105",
       "facility_type": "TWR",
-      "profile_id": "MORE-TWR"
+      "profile_id": "MORE"
     },
     {
       "id": "ENAN_APP",
@@ -33,14 +33,14 @@
       "prefixes": ["ENAS"],
       "frequency": "123.900",
       "facility_type": "TWR",
-      "profile_id": "ENSB"
+      "profile_id": "ENOB"
     },
     {
       "id": "ENAT_APP",
       "prefixes": ["ENAT"],
       "frequency": "120.405",
       "facility_type": "APP",
-      "profile_id": "ENAT/NA/HF"
+      "profile_id": "ENAT"
     },
     {
       "id": "ENBD_19_CTR",
@@ -96,21 +96,21 @@
       "prefixes": ["ENBL"],
       "frequency": "118.455",
       "facility_type": "TWR",
-      "profile_id": "SOGN"
+      "profile_id": "ENSV"
     },
     {
       "id": "ENBN_APP",
       "prefixes": ["ENBN"],
       "frequency": "127.905",
       "facility_type": "APP",
-      "profile_id": "HELGELAND"
+      "profile_id": "ENBD"
     },
     {
       "id": "ENBN_I_TWR",
       "prefixes": ["ENBN"],
       "frequency": "119.605",
       "facility_type": "TWR",
-      "profile_id": "HELGELAND-TWR"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENBO_APP",
@@ -131,70 +131,70 @@
       "prefixes": ["ENBR"],
       "frequency": "118.855",
       "facility_type": "APP",
-      "profile_id": "ENBR-APP"
+      "profile_id": "ENBR"
     },
     {
       "id": "ENBR_E_APP",
       "prefixes": ["ENBR"],
       "frequency": "126.105",
       "facility_type": "APP",
-      "profile_id": "ENBR-APP"
+      "profile_id": "ENBR"
     },
     {
       "id": "ENBR_W_APP",
       "prefixes": ["ENBR"],
       "frequency": "121.005",
       "facility_type": "APP",
-      "profile_id": "ENBR-APP"
+      "profile_id": "ENBR"
     },
     {
       "id": "ENBR_TWR",
       "prefixes": ["ENBR"],
       "frequency": "119.105",
       "facility_type": "TWR",
-      "profile_id": "ENBR-TWR"
+      "profile_id": "ENBR"
     },
     {
       "id": "ENBR_GND",
       "prefixes": ["ENBR"],
       "frequency": "121.905",
       "facility_type": "GND",
-      "profile_id": "ENBR-TWR"
+      "profile_id": "ENBR"
     },
     {
       "id": "ENBR_ICE_GND",
       "prefixes": ["ENBR"],
       "frequency": "131.905",
       "facility_type": "GND",
-      "profile_id": "ENBR-TWR"
+      "profile_id": "ENBR"
     },
     {
       "id": "ENBR_P_GND",
       "prefixes": ["ENBR"],
       "frequency": "121.305",
       "facility_type": "GND",
-      "profile_id": "ENBR-TWR"
+      "profile_id": "ENBR"
     },
     {
       "id": "ENBR_DEL",
       "prefixes": ["ENBR"],
       "frequency": "123.405",
       "facility_type": "DEL",
-      "profile_id": "ENBR-TWR"
+      "profile_id": "ENBR"
     },
     {
       "id": "ENBS_I_TWR",
       "prefixes": ["ENBS"],
       "frequency": "123.405",
       "facility_type": "TWR",
-      "profile_id": "FINNMARK"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENBV_I_TWR",
       "prefixes": ["ENBV"],
       "frequency": "120.105",
       "facility_type": "TWR",
-      "profile_id": "FINNMARK"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENCN_APP",
@@ -257,126 +257,126 @@
       "prefixes": ["ENFL"],
       "frequency": "119.205",
       "facility_type": "TWR",
-      "profile_id": "SOGN"
+      "profile_id": "ENSV"
     },
     {
       "id": "ENGC_H_TWR",
       "prefixes": ["ENGC"],
       "frequency": "129.680",
       "facility_type": "TWR",
-      "profile_id": "OFFSHORE"
+      "profile_id": "ENSV"
     },
     {
       "id": "ENGM_D_APP",
       "prefixes": ["ENGM"],
       "frequency": "136.405",
       "facility_type": "APP",
-      "profile_id": "ENGM-APP"
+      "profile_id": "OSLO"
     },
     {
       "id": "ENGM_E_APP",
       "prefixes": ["ENGM"],
       "frequency": "118.480",
       "facility_type": "APP",
-      "profile_id": "ENGM-APP"
+      "profile_id": "OSLO"
     },
     {
       "id": "ENGM_F_APP",
       "prefixes": ["ENGM"],
       "frequency": "128.905",
       "facility_type": "APP",
-      "profile_id": "ENGM-APP"
+      "profile_id": "OSLO"
     },
     {
       "id": "ENGM_W_APP",
       "prefixes": ["ENGM"],
       "frequency": "120.455",
       "facility_type": "APP",
-      "profile_id": "ENGM-APP"
+      "profile_id": "OSLO"
     },
     {
       "id": "ENGM_E_TWR",
       "prefixes": ["ENGM"],
       "frequency": "120.105",
       "facility_type": "TWR",
-      "profile_id": "ENGM-TWR"
+      "profile_id": "ENGM"
     },
     {
       "id": "ENGM_W_TWR",
       "prefixes": ["ENGM"],
       "frequency": "118.305",
       "facility_type": "TWR",
-      "profile_id": "ENGM-TWR"
+      "profile_id": "ENGM"
     },
     {
       "id": "ENGM_E_GND",
       "prefixes": ["ENGM"],
       "frequency": "121.905",
       "facility_type": "GND",
-      "profile_id": "ENGM-TWR"
+      "profile_id": "ENGM"
     },
     {
       "id": "ENGM_ICE_GND",
       "prefixes": ["ENGM"],
       "frequency": "121.855",
       "facility_type": "GND",
-      "profile_id": "ENGM-TWR"
+      "profile_id": "ENGM"
     },
     {
       "id": "ENGM_P_GND",
       "prefixes": ["ENGM"],
       "frequency": "121.730",
       "facility_type": "GND",
-      "profile_id": "ENGM-TWR"
+      "profile_id": "ENGM"
     },
     {
       "id": "ENGM_W_GND",
       "prefixes": ["ENGM"],
       "frequency": "121.605",
       "facility_type": "GND",
-      "profile_id": "ENGM-TWR"
+      "profile_id": "ENGM"
     },
     {
       "id": "ENGM_E_DEL",
       "prefixes": ["ENGM"],
       "frequency": "121.930",
       "facility_type": "DEL",
-      "profile_id": "ENGM-TWR"
+      "profile_id": "ENGM"
     },
     {
       "id": "ENGM_W_DEL",
       "prefixes": ["ENGM"],
       "frequency": "121.680",
       "facility_type": "DEL",
-      "profile_id": "ENGM-TWR"
+      "profile_id": "ENGM"
     },
     {
       "id": "ENHD_TWR",
       "prefixes": ["ENHD"],
       "frequency": "120.505",
       "facility_type": "TWR",
-      "profile_id": "ENZV-TWR"
+      "profile_id": "ENZV"
     },
     {
       "id": "ENHF_I_TWR",
       "prefixes": ["ENHF"],
       "frequency": "121.005",
       "facility_type": "TWR",
-      "profile_id": "ENAT/NA/HF"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENHK_I_TWR",
       "prefixes": ["ENHK"],
       "frequency": "119.905",
       "facility_type": "TWR",
-      "profile_id": "ENAT/NA/HF"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENHV_I_TWR",
       "prefixes": ["ENHV"],
       "frequency": "119.805",
       "facility_type": "TWR",
-      "profile_id": "FINNMARK"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENKB_APP",
@@ -390,7 +390,7 @@
       "prefixes": ["ENKB"],
       "frequency": "118.305",
       "facility_type": "TWR",
-      "profile_id": "MORE-TWR"
+      "profile_id": "MORE"
     },
     {
       "id": "ENKR_APP",
@@ -411,56 +411,56 @@
       "prefixes": ["ENLE"],
       "frequency": "130.550",
       "facility_type": "TWR",
-      "profile_id": "OFFSHORE"
+      "profile_id": "ENSV"
     },
     {
       "id": "ENLK_I_TWR",
       "prefixes": ["ENLK"],
       "frequency": "120.505",
       "facility_type": "TWR",
-      "profile_id": "LOFOTEN"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENMH_I_TWR",
       "prefixes": ["ENMH"],
       "frequency": "121.205",
       "facility_type": "TWR",
-      "profile_id": "FINNMARK"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENML_I_TWR",
       "prefixes": ["ENML"],
       "frequency": "119.955",
       "facility_type": "TWR",
-      "profile_id": "MORE-TWR"
+      "profile_id": "MORE"
     },
     {
       "id": "ENMS_I_TWR",
       "prefixes": ["ENMS"],
       "frequency": "123.405",
       "facility_type": "TWR",
-      "profile_id": "HELGELAND-TWR"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENNA_APP",
       "prefixes": ["ENNA"],
       "frequency": "118.905",
       "facility_type": "APP",
-      "profile_id": "ENAT/NA/HF"
+      "profile_id": "ENNA"
     },
     {
       "id": "ENNM_I_TWR",
       "prefixes": ["ENNM"],
       "frequency": "119.905",
       "facility_type": "TWR",
-      "profile_id": "NAMSOS"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENNO_I_TWR",
       "prefixes": ["ENNO"],
       "frequency": "118.805",
       "facility_type": "TWR",
-      "profile_id": "FARRIS-TWR"
+      "profile_id": "FARRIS"
     },
     {
       "id": "ENOB_CTR",
@@ -572,14 +572,14 @@
       "prefixes": ["ENOV"],
       "frequency": "118.905",
       "facility_type": "TWR",
-      "profile_id": "MORE-TWR"
+      "profile_id": "MORE"
     },
     {
       "id": "ENRA_I_TWR",
       "prefixes": ["ENRA"],
       "frequency": "119.955",
       "facility_type": "TWR",
-      "profile_id": "HELGELAND-TWR"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENRC_N_CTR",
@@ -600,98 +600,98 @@
       "prefixes": ["ENRM"],
       "frequency": "119.805",
       "facility_type": "TWR",
-      "profile_id": "NAMSOS"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENRO_I_TWR",
       "prefixes": ["ENRO"],
       "frequency": "120.405",
       "facility_type": "TWR",
-      "profile_id": "ENRO"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENRS_I_TWR",
       "prefixes": ["ENRS"],
       "frequency": "119.255",
       "facility_type": "TWR",
-      "profile_id": "LOFOTEN"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENRY_TWR",
       "prefixes": ["ENRY"],
       "frequency": "119.505",
       "facility_type": "TWR",
-      "profile_id": "FARRIS-TWR"
+      "profile_id": "FARRIS"
     },
     {
       "id": "ENRY_GND",
       "prefixes": ["ENRY"],
       "frequency": "121.705",
       "facility_type": "GND",
-      "profile_id": "FARRIS-TWR"
+      "profile_id": "FARRIS"
     },
     {
       "id": "ENSB_I_TWR",
       "prefixes": ["ENSB"],
       "frequency": "118.100",
       "facility_type": "TWR",
-      "profile_id": "ENSB"
+      "profile_id": "ENOB"
     },
     {
       "id": "ENSD_I_TWR",
       "prefixes": ["ENSD"],
       "frequency": "119.805",
       "facility_type": "TWR",
-      "profile_id": "SOGN"
+      "profile_id": "ENSV"
     },
     {
       "id": "ENSG_I_TWR",
       "prefixes": ["ENSG"],
       "frequency": "119.305",
       "facility_type": "TWR",
-      "profile_id": "SOGN"
+      "profile_id": "ENSV"
     },
     {
       "id": "ENSH_I_TWR",
       "prefixes": ["ENSH"],
       "frequency": "120.205",
       "facility_type": "TWR",
-      "profile_id": "LOFOTEN"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENSK_I_TWR",
       "prefixes": ["ENSK"],
       "frequency": "120.455",
       "facility_type": "TWR",
-      "profile_id": "LOFOTEN"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENSO_I_TWR",
       "prefixes": ["ENSO"],
       "frequency": "120.205",
       "facility_type": "TWR",
-      "profile_id": "ENSO-TWR"
+      "profile_id": "ENBR"
     },
     {
       "id": "ENSR_I_TWR",
       "prefixes": ["ENSR"],
       "frequency": "119.605",
       "facility_type": "TWR",
-      "profile_id": "ENAT/NA/HF"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENSS_I_TWR",
       "prefixes": ["ENSS"],
       "frequency": "122.155",
       "facility_type": "TWR",
-      "profile_id": "FINNMARK"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENST_I_TWR",
       "prefixes": ["ENST"],
       "frequency": "120.305",
       "facility_type": "TWR",
-      "profile_id": "HELGELAND-TWR"
+      "profile_id": "AFIS"
     },
     {
       "id": "ENSV_14_CTR",
@@ -782,42 +782,42 @@
       "prefixes": ["ENTO"],
       "frequency": "118.655",
       "facility_type": "TWR",
-      "profile_id": "FARRIS-TWR"
+      "profile_id": "FARRIS"
     },
     {
       "id": "ENTO_GND",
       "prefixes": ["ENTO"],
       "frequency": "126.180",
       "facility_type": "GND",
-      "profile_id": "FARRIS-TWR"
+      "profile_id": "FARRIS"
     },
     {
       "id": "ENVA_APP",
       "prefixes": ["ENVA"],
       "frequency": "118.605",
       "facility_type": "APP",
-      "profile_id": "ENVA-APP"
+      "profile_id": "ENVA"
     },
     {
       "id": "ENVA_D_APP",
       "prefixes": ["ENVA"],
       "frequency": "119.155",
       "facility_type": "APP",
-      "profile_id": "ENVA-APP"
+      "profile_id": "ENVA"
     },
     {
       "id": "ENVA_TWR",
       "prefixes": ["ENVA"],
       "frequency": "119.405",
       "facility_type": "TWR",
-      "profile_id": "ENVA-TWR"
+      "profile_id": "ENVA"
     },
     {
       "id": "ENVA_GND",
       "prefixes": ["ENVA"],
       "frequency": "121.605",
       "facility_type": "GND",
-      "profile_id": "ENVA-TWR"
+      "profile_id": "ENVA"
     },
     {
       "id": "ENVD_I_TWR",
@@ -831,28 +831,28 @@
       "prefixes": ["ENZV"],
       "frequency": "119.605",
       "facility_type": "APP",
-      "profile_id": "ENZV-APP"
+      "profile_id": "ENZV"
     },
     {
       "id": "ENZV_A_APP",
       "prefixes": ["ENZV"],
       "frequency": "119.405",
       "facility_type": "APP",
-      "profile_id": "ENZV-APP"
+      "profile_id": "ENZV"
     },
     {
       "id": "ENZV_TWR",
       "prefixes": ["ENZV"],
       "frequency": "118.355",
       "facility_type": "TWR",
-      "profile_id": "ENZV-TWR"
+      "profile_id": "ENZV"
     },
     {
       "id": "ENZV_GND",
       "prefixes": ["ENZV"],
       "frequency": "121.755",
       "facility_type": "GND",
-      "profile_id": "ENZV-TWR"
+      "profile_id": "ENZV"
     }
   ]
 }
