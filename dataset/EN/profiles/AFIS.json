@@ -1,5 +1,5 @@
 {
-  "id": "ENBO",
+  "id": "AFIS",
   "type": "Tabbed",
   "tabs": [
     {
@@ -8,8 +8,18 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["TWR"],
-            "station_id": "ENBO_TWR"
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S25", "North"],
+            "station_id": "ENBD-25"
+          },
+          {
+            "label": ["S19"],
+            "station_id": "ENBD-19"
           },
           {
             "label": []
@@ -27,51 +37,11 @@
             "label": []
           },
           {
-            "label": ["TMA", "HLGLND"],
-            "station_id": "ENBD-HELGELAND"
+            "label": ["S26", "East"],
+            "station_id": "ENBD-26"
           },
           {
-            "label": ["TMA"],
-            "station_id": "ENBO_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["S24", "Central"],
+            "label": ["S24"],
             "station_id": "ENBD-24/27"
           },
           {
@@ -93,8 +63,39 @@
             "label": []
           },
           {
-            "label": ["S25", "North"],
-            "station_id": "ENBD-25"
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TMA", "HLGLND"],
+            "station_id": "ENBD-HELGELAND"
+          },
+          {
+            "label": ["TMA", "MØRE"],
+            "station_id": "ENAL_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           }
         ]
       }

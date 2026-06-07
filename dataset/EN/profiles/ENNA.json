@@ -1,5 +1,5 @@
 {
-  "id": "ENBO",
+  "id": "ENNA",
   "type": "Tabbed",
   "tabs": [
     {
@@ -8,10 +8,6 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["TWR"],
-            "station_id": "ENBO_TWR"
-          },
-          {
             "label": []
           },
           {
@@ -27,24 +23,11 @@
             "label": []
           },
           {
-            "label": ["TMA", "HLGLND"],
-            "station_id": "ENBD-HELGELAND"
-          },
-          {
-            "label": ["TMA"],
-            "station_id": "ENBO_APP"
-          },
-          {
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
+            "label": ["AT", "TMA"],
+            "station_id": "ENAT_APP"
           },
           {
             "label": []
@@ -71,8 +54,22 @@
             "label": []
           },
           {
-            "label": ["S24", "Central"],
-            "station_id": "ENBD-24/27"
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": []
@@ -93,8 +90,8 @@
             "label": []
           },
           {
-            "label": ["S25", "North"],
-            "station_id": "ENBD-25"
+            "label": ["S26", "East"],
+            "station_id": "ENBD-26"
           }
         ]
       }
