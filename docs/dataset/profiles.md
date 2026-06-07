@@ -251,7 +251,7 @@ The following validation rules apply:
 - For Geo Profiles:
   - Must have a valid direction (`"row"` or `"col"`)
   - Must have at least one child node
-  - All size values (`height`, `width`) must match pattern `^\d+(%|rem)$`
+  - All size values (`height`, `width`) must match pattern `^\d+(\.\d{1,5})?(%|rem)$`
   - All numeric values (padding, gap, size, thickness) must be appropriate to their type (non-negative or positive)
 - Labels:
   - Can be provided as a single string or an array of strings
