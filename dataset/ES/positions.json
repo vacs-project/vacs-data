@@ -133,7 +133,7 @@
       "prefixes": ["ESFR"],
       "frequency": "133.505",
       "facility_type": "APP",
-      "profile_id": "ESGG_APP",
+      "profile_id": "ESIB",
       "default_call_sources": ["ESFR_APP"]
     },
     {
@@ -141,7 +141,7 @@
       "prefixes": ["ESFR"],
       "frequency": "136.030",
       "facility_type": "TWR",
-      "profile_id": "ESGG_APP",
+      "profile_id": "ESIB",
       "default_call_sources": ["ESFR_APP", "ESFR_TWR"]
     },
     {
@@ -815,6 +815,14 @@
       "facility_type": "DEL",
       "profile_id": "ESSA",
       "default_call_sources": ["ESSA_DEL"]
+    },
+    {
+      "id": "ESSA_FMP",
+      "prefixes": ["ESSA"],
+      "frequency": "126.655",
+      "facility_type": "FMP",
+      "profile_id": "ESOS_APP",
+      "default_call_sources": ["ESOS_APP-C"]
     },
     {
       "id": "ESSA_E_APP",

@@ -86,11 +86,11 @@
     },
     {
       "id": "ESFR_APP",
-      "controlled_by": ["ESFR_APP"]
+      "controlled_by": ["ESFR_APP", "ESFR_TWR"]
     },
     {
       "id": "ESFR_TWR",
-      "controlled_by": ["ESFR_TWR"]
+      "controlled_by": ["ESFR_TWR", "ESFR_APP"]
     },
     {
       "id": "ESGG_ARR",
@@ -661,7 +661,7 @@
     },
     {
       "id": "ESOS_APP-C",
-      "controlled_by": ["ESSA_E_APP"],
+      "controlled_by": ["ESSA_FMP", "ESSA_E_APP"],
       "parent_id": "ESOS_9"
     },
     {

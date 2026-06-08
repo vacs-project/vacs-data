@@ -9,10 +9,12 @@
         "keys": [
           {
             "label": ["GMP", "PLN"],
+            "color": "blush",
             "station_id": "OKKK_GMP_FMP"
           },
           {
             "label": ["GMC", "PLN"],
+            "color": "blush",
             "station_id": "OKKK_GMC_FMP"
           },
           {
@@ -20,22 +22,27 @@
           },
           {
             "label": ["AIR", "PLN"],
+            "color": "blush",
             "station_id": "OKKK_AIR_FMP"
           },
           {
             "label": ["GMP"],
+            "color": "azure",
             "station_id": "OKKK_DEL"
           },
           {
             "label": ["GMC", "1"],
+            "color": "mint",
             "station_id": "OKKK_1_GND"
           },
           {
             "label": ["GMC", "2"],
+            "color": "mint",
             "station_id": "OKKK_2_GND"
           },
           {
             "label": ["AIR"],
+            "color": "clay",
             "station_id": "OKKK_TWR"
           },
           {
@@ -58,14 +65,17 @@
           },
           {
             "label": ["FIN"],
+            "color": "lilac",
             "station_id": "OKKK_F_APP"
           },
           {
             "label": ["APP"],
+            "color": "lilac",
             "station_id": "OKKK_APP"
           },
           {
             "label": ["Al Jaber", "Ground", "127.000"],
+            "color": "steel",
             "station_id": "OKAJ_GND"
           },
           {
@@ -79,6 +89,7 @@
           },
           {
             "label": ["Al Jaber", "Tower", "124.150"],
+            "color": "steel",
             "station_id": "OKAJ_TWR"
           },
           {
@@ -86,26 +97,32 @@
           },
           {
             "label": ["UPPER"],
+            "color": "lagoon",
             "station_id": "OKAC_U_CTR"
           },
           {
             "label": ["LOWER"],
+            "color": "lagoon",
             "station_id": "OKAC_CTR"
           },
           {
             "label": ["Al Jaber", "Control", "128.300"],
+            "color": "steel",
             "station_id": "OKAJ_APP"
           },
           {
             "label": ["Al Salem", "Tower", "118.000"],
+            "color": "steel",
             "station_id": "OKAS_TWR"
           },
           {
             "label": ["Al Salem", "Ground", "120.500"],
+            "color": "steel",
             "station_id": "OKAS_GND"
           },
           {
             "label": ["OKAC", "FMP"],
+            "color": "blush",
             "station_id": "OKAC_ACC_FMP"
           }
         ]
