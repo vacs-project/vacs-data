@@ -35,7 +35,7 @@
     {
       "id": "OERD_1_CTR",
       "prefixes": ["OERD"],
-      "frequency": "128.500",
+      "frequency": "128.550",
       "facility_type": "CTR",
       "profile_id": "OERD",
       "default_call_sources": ["OERD_1_CTR"]
