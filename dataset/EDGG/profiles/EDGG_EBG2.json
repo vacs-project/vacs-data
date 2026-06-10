@@ -151,7 +151,9 @@
             "color": "mint"
           },
           {
-            "label": [""]
+            "label": ["EDUU", "AMM"],
+            "color": "lavender",
+            "station_id": "EDUU-AMM"
           },
           {
             "label": ["EDGG", "KIR"],
@@ -173,7 +175,9 @@
             "color": "mint"
           },
           {
-            "label": [""]
+            "label": ["EDUU", "ALP"],
+            "color": "lavender",
+            "station_id": "EDUU-ALP"
           },
           {
             "label": ["EDGG", "GIN"],
