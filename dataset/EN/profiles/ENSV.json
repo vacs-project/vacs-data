@@ -8,8 +8,8 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["SCO", "N"],
-            "station_id": "SCO_N_CTR"
+            "label": ["SCO N", "FL255+"],
+            "station_id": "EG-Moray-High"
           },
           {
             "label": ["EKDK", "UN"],
@@ -39,8 +39,8 @@
             "station_id": "ENBR_W_APP"
           },
           {
-            "label": ["SCO", "E"],
-            "station_id": "SCO_E_CTR"
+            "label": ["SCO L", "FL255-"],
+            "station_id": "EG-Moray-Low"
           },
           {
             "label": ["EKDK", "N"],
@@ -69,8 +69,7 @@
             "station_id": "ENBR_E_APP"
           },
           {
-            "label": ["SCO"],
-            "station_id": "SCO_CTR"
+            "label": []
           },
           {
             "label": ["BD", "S18"],
@@ -247,7 +246,7 @@
             "label": []
           },
           {
-            "label": ["EGPB", "RAD"],
+            "label": ["Sumburgh", "Radar"],
             "station_id": "EGPB_APP"
           },
           {
@@ -270,7 +269,7 @@
             "label": []
           },
           {
-            "label": ["EGPD", "HELS"],
+            "label": ["Aberdeen", "HELS"],
             "station_id": "EGPD_H_APP"
           },
           {
