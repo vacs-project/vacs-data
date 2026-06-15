@@ -16,7 +16,7 @@
     },
     {
       "id": "CYWG-EAST",
-      "parent_id": "WPG_CTR",
+      "parent_id": "WPG-CTR",
       "controlled_by": ["CYWG_E_DEP"]
     },
     {

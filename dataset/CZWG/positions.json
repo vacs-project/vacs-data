@@ -29,7 +29,7 @@
       "prefixes": ["CYWG"],
       "frequency": "119.900",
       "facility_type": "DEP",
-      "profile_id": "CYWG_DC2",
+      "profile_id": "CYWG-DC2",
       "default_call_sources": ["CYWG-EAST"]
     },
     {
