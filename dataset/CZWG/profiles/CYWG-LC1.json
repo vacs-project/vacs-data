@@ -100,16 +100,16 @@
           "justify_content": "space-evenly",
           "children": [
             {
-              "label": ["CYPG", "GROUND", "121.700"],
+              "label": ["CYWG", "GROUND", "121.900"],
               "size": 8,
               "color": "lavender",
-              "station_id": "CYPG-TWR"
+              "station_id": "CYWG-GND"
             },
             {
-              "label": ["CYAV", "GROUND", "121.800"],
+              "label": ["CYWG", "TOWER", "118.300"],
               "size": 8,
               "color": "lavender",
-              "station_id": "CYFO-TMU"
+              "station_id": "CYWG-TWR"
             },
             {
               "label": ["SHIFT SUP", "HOTLINE", "NOT AVAIL"],
