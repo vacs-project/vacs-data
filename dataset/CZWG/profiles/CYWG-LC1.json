@@ -83,13 +83,13 @@
               "label": ["ST.ANDREWS", "TOWER", "118.500"],
               "size": 8,
               "color": "steel",
-              "station_id": "CYWG-GND"
+              "station_id": "CYAV-TWR"
             },
             {
               "label": ["PORTAGE", "TOWER", "126.200"],
               "size": 8,
               "color": "steel",
-              "station_id": "CYWG-DEL"
+              "station_id": "CYPG-TWR"
             }
           ]
         },
