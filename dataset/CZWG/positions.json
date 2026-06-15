@@ -5,7 +5,7 @@
       "prefixes": ["WPG"],
       "frequency": "124.000",
       "facility_type": "CTR",
-      "profile_id": "WPG"
+      "profile_id": "WPG",
       "default_call_sources": ["WPG-CTR"]
     },
     {
@@ -13,7 +13,7 @@
       "prefixes": ["CYWG"],
       "frequency": "119.500",
       "facility_type": "APP",
-      "profile_id": "CYWG-AC1"
+      "profile_id": "CYWG-AC1",
       "default_call_sources": ["CYWG-APP"]
     },
     {
@@ -101,7 +101,7 @@
       "prefixes": ["CYAV"],
       "frequency": "118.500",
       "facility_type": "TWR",
-      "profile_id": "CYAV"
+      "profile_id": "CYAV",
       "default_call_sources": ["CYAV-TWR"]
     },
     {
@@ -117,7 +117,7 @@
       "prefixes": ["CYPG"],
       "frequency": "126.200",
       "facility_type": "TWR",
-      "profile_id": "CYPG"
+      "profile_id": "CYPG",
       "default_call_sources": ["CYPG-TWR"]
     },
     {
@@ -197,7 +197,7 @@
       "prefixes": ["CYMJ"],
       "frequency": "135.300",
       "facility_type": "DEL",
-      "profile_id": "CYMJ"
+      "profile_id": "CYMJ",
       "default_call_sources": ["CYMJ-DEL"]
     },
   ]
