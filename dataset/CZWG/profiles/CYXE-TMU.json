@@ -3,7 +3,7 @@
   "type": "Geo",
   "direction": "row",
   "padding": 0.77,
-  "gap": 0.10,
+  "gap": 0.1,
   "justify_content": "space-around",
   "children": [
     {
@@ -22,7 +22,8 @@
           "label": ["TORONTO", "CENTRE", "INOP"],
           "size": 6.5,
           "color": "cadet",
-          "station_id":"TOR-CTR"        },
+          "station_id": "TOR-CTR"
+        },
         { "orientation": "horizontal", "thickness": 1, "color": "#4a5568" },
         {
           "label": ["MSP", "CENTRE", "INOP"],
@@ -53,19 +54,19 @@
           "gap": 0.3,
           "children": [
             {
-              "label": ["WPG","CTR","124.000"],
+              "label": ["WPG", "CTR", "124.000"],
               "size": 8,
               "color": "steel",
               "station_id": "WPG-CTR"
             },
             {
-              "label": ["CYQR","TMU","120.100"],
+              "label": ["CYQR", "TMU", "120.100"],
               "size": 8,
               "color": "steel",
               "station_id": "CYQR-TMU"
             },
             {
-              "label": ["CYWG","APP","119.500"],
+              "label": ["CYWG", "APP", "119.500"],
               "size": 8,
               "color": "steel",
               "station_id": "CYWG-APP"
@@ -77,19 +78,19 @@
           "gap": 0.3,
           "children": [
             {
-              "label": ["TOWER","118.300"],
+              "label": ["TOWER", "118.300"],
               "size": 8,
               "color": "steel",
               "station_id": "CYXE-TWR"
             },
             {
-              "label": ["GROUND","121.900"],
+              "label": ["GROUND", "121.900"],
               "size": 8,
               "color": "steel",
               "station_id": "CYXE-GND"
             },
             {
-              "label": ["CL/DEL","NOT AVAIL"],
+              "label": ["CL/DEL", "NOT AVAIL"],
               "size": 8,
               "color": "steel",
               "station_id": "CYXE-DEL"
@@ -100,22 +101,22 @@
         {
           "direction": "row",
           "gap": 0.3,
-	  "justify_content":"space-evenly",
+          "justify_content": "space-evenly",
           "children": [
             {
-              "label": ["CYQR","TOWER","118.600"],
+              "label": ["CYQR", "TOWER", "118.600"],
               "size": 8,
               "color": "lavender",
               "station_id": "CYQR-TWR"
             },
             {
-              "label": ["CYMJ","TOWER","126.200"],
+              "label": ["CYMJ", "TOWER", "126.200"],
               "size": 8,
               "color": "lavender",
               "station_id": "CYMJ-TWR"
             },
             {
-              "label": ["SHIFT SUP","HOTLINE", "NOT AVAIL"],
+              "label": ["SHIFT SUP", "HOTLINE", "NOT AVAIL"],
               "size": 8,
               "color": "lavender",
               "station_id": ""
@@ -150,12 +151,11 @@
                 "color": "lagoon",
                 "station_id": "CYMJ-GND"
               },
- 	      {
+              {
                 "label": ["CYMJ-DEL"],
                 "color": "lagoon",
                 "station_id": "CYMJ-DEL"
               }
-
             ]
           }
         },
@@ -204,7 +204,7 @@
       ]
     },
 
-    { "orientation": "vertical", "thickness":5 , "color": "#364153" },
+    { "orientation": "vertical", "thickness": 5, "color": "#364153" },
 
     {
       "direction": "col",
@@ -213,7 +213,7 @@
       "justify_content": "space-evenly",
       "children": [
         {
-          "label": ["EDMONTON","CENTRE","INOP"],
+          "label": ["EDMONTON", "CENTRE", "INOP"],
           "size": 8,
           "color": "snow",
           "page": {
@@ -227,18 +227,17 @@
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
-          "label": ["EDMONTON","FSS", "INOP"],
+          "label": ["EDMONTON", "FSS", "INOP"],
           "size": 6,
           "color": "snow"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
-          "label": ["HOTLINE","INOP", "..."],
+          "label": ["HOTLINE", "INOP", "..."],
           "size": 6,
           "color": "snow"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" }
-
       ]
     }
   ]

@@ -199,6 +199,6 @@
       "facility_type": "DEL",
       "profile_id": "CYMJ",
       "default_call_sources": ["CYMJ-DEL"]
-    },
+    }
   ]
 }
