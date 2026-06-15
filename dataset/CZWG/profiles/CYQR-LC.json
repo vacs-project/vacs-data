@@ -83,7 +83,7 @@
               "label": ["CYWG", "WEST", "121.000"],
               "size": 8,
               "color": "steel",
-              "station_id": "CYWG-GND"
+              "station_id": "CYWG-WEST"
             },
             {
               "label": ["CYWG", "APP", "119.500"],
