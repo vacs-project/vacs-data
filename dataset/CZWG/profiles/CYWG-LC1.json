@@ -80,16 +80,16 @@
               "station_id": "CYWG-APP"
             },
             {
-              "label": ["ST.ANDREWS", "TOWER", "118.500"],
+              "label": ["TOWER", "HOTLINE", "118.500"],
               "size": 8,
               "color": "steel",
-              "station_id": "CYAV-TWR"
+              "station_id": "CYWG-TWR"
             },
             {
-              "label": ["PORTAGE", "TOWER", "126.200"],
+              "label": ["GROUND", "HOTLINE", "121.900"],
               "size": 8,
               "color": "steel",
-              "station_id": "CYPG-TWR
+              "station_id": "CYWG-GND"
             }
           ]
         },
@@ -100,16 +100,16 @@
           "justify_content": "space-evenly",
           "children": [
             {
-              "label": ["CYWG", "GROUND", "121.900"],
-              "size": 8,
-              "color": "lavender",
-              "station_id": "CYWG-GND"
-            },
-            {
-              "label": ["CYWG", "TOWER", "118.300"],
+              "label": ["CYAV", "GROUND", "121.900"],
               "size": 8,
               "color": "lavender",
               "station_id": "CYWG-TWR"
+            },
+            {
+              "label": ["CYPG", "TOWER", "118.300"],
+              "size": 8,
+              "color": "lavender",
+              "station_id": "CYWG-APP"
             },
             {
               "label": ["SHIFT SUP", "HOTLINE", "NOT AVAIL"],
