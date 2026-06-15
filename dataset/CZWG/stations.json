@@ -12,7 +12,7 @@
     {
       "id": "CYWG-WEST",
       "parent_id": "WPG-CTR",
-      "controlled_by": ["CYWG_DEP", "CYWG_W_DEP"]
+      "controlled_by": ["CYWG_DEP"]
     },
     {
       "id": "CYWG-EAST",
