@@ -53,7 +53,6 @@
       "prefixes": ["CYQT"],
       "frequency": "119.200",
       "facility_type": "APP",
-      "profile_id": "CYQT",
       "default_call_sources": ["CYQT-TMU"]
     },
     {
@@ -61,7 +60,6 @@
       "prefixes": ["CYMJ"],
       "frequency": "119.000",
       "facility_type": "APP",
-      "profile_id": "CYMJ",
       "default_call_sources": ["CYMJ-TMU"]
     },
     {
@@ -69,7 +67,6 @@
       "prefixes": ["CYFO"],
       "frequency": "123.850",
       "facility_type": "APP",
-      "profile_id": "CYFO",
       "default_call_sources": ["CYFO-TMU"]
     },
     {
@@ -101,7 +98,6 @@
       "prefixes": ["CYAV"],
       "frequency": "118.500",
       "facility_type": "TWR",
-      "profile_id": "CYAV",
       "default_call_sources": ["CYAV-TWR"]
     },
     {
@@ -109,7 +105,6 @@
       "prefixes": ["CYMJ"],
       "frequency": "126.200",
       "facility_type": "TWR",
-      "profile_id": "CYMJ",
       "default_call_sources": ["CYMJ-TWR"]
     },
     {
@@ -117,7 +112,6 @@
       "prefixes": ["CYPG"],
       "frequency": "126.200",
       "facility_type": "TWR",
-      "profile_id": "CYPG",
       "default_call_sources": ["CYPG-TWR"]
     },
     {
@@ -125,7 +119,6 @@
       "prefixes": ["CYQT"],
       "frequency": "118.100",
       "facility_type": "TWR",
-      "profile_id": "CYQT",
       "default_call_sources": ["CYQT-TWR"]
     },
     {
@@ -157,7 +150,6 @@
       "prefixes": ["CYQT"],
       "frequency": "121.900",
       "facility_type": "GND",
-      "profile_id": "CYQT",
       "default_call_sources": ["CYQT-GND"]
     },
     {
@@ -165,7 +157,6 @@
       "prefixes": ["CYMJ"],
       "frequency": "121.800",
       "facility_type": "GND",
-      "profile_id": "CYMJ",
       "default_call_sources": ["CYMJ-GND"]
     },
     {
@@ -173,7 +164,6 @@
       "prefixes": ["CYAV"],
       "frequency": "121.800",
       "facility_type": "GND",
-      "profile_id": "CYAV",
       "default_call_sources": ["CYAV-GND"]
     },
     {
@@ -181,7 +171,6 @@
       "prefixes": ["CYPG"],
       "frequency": "121.700",
       "facility_type": "GND",
-      "profile_id": "CYPG",
       "default_call_sources": ["CYPG-GND"]
     },
     {
@@ -197,7 +186,6 @@
       "prefixes": ["CYMJ"],
       "frequency": "135.300",
       "facility_type": "DEL",
-      "profile_id": "CYMJ",
       "default_call_sources": ["CYMJ-DEL"]
     }
   ]
