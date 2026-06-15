@@ -100,7 +100,7 @@
           "justify_content": "space-evenly",
           "children": [
             {
-              "label": ["CYAV", "GROUND", "121.900"],
+              "label": ["CYAV", "TOWER", "118.500"],
               "size": 8,
               "color": "lavender",
               "station_id": "CYWG-TWR"
