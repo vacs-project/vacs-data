@@ -15,27 +15,23 @@
         {
           "label": ["MONTREAL", "CENTRE", "INOP"],
           "size": 6.5,
-          "color": "cadet",
-          "station_id": "YUL-CTR"
+          "color": "cadet"
         },
         {
           "label": ["TORONTO", "CENTRE", "INOP"],
           "size": 6.5,
-          "color": "cadet",
-          "station_id": "TOR-CTR"
+          "color": "cadet"
         },
         { "orientation": "horizontal", "thickness": 1, "color": "#4a5568" },
         {
           "label": ["MSP", "CENTRE", "INOP"],
           "size": 6.5,
-          "color": "taupe",
-          "station_id": "MSP-CTR"
+          "color": "taupe"
         },
         {
           "label": ["SLC", "CENTRE", "INOP"],
           "size": 6.5,
-          "color": "taupe",
-          "station_id": "SLC-CTR"
+          "color": "taupe"
         }
       ]
     },
@@ -92,8 +88,7 @@
             {
               "label": ["CL/DEL", "NOT AVAIL"],
               "size": 8,
-              "color": "steel",
-              "station_id": "CYXE-DEL"
+              "color": "steel"
             }
           ]
         },
@@ -118,8 +113,7 @@
             {
               "label": ["SHIFT SUP", "HOTLINE", "NOT AVAIL"],
               "size": 8,
-              "color": "lavender",
-              "station_id": ""
+              "color": "lavender"
             }
           ]
         }
