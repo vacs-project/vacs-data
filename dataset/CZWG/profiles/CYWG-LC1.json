@@ -80,7 +80,7 @@
               "station_id": "CYWG-APP"
             },
             {
-              "label": ["TOWER", "HOTLINE", "118.500"],
+              "label": ["TOWER", "HOTLINE", "118.300"],
               "size": 8,
               "color": "steel",
               "station_id": "CYWG-TWR"
@@ -106,10 +106,10 @@
               "station_id": "CYAV-TWR"
             },
             {
-              "label": ["CYPG", "TOWER", "118.300"],
+              "label": ["CYPG", "TOWER", "126.200"],
               "size": 8,
               "color": "lavender",
-              "station_id": "CYWG-APP"
+              "station_id": "CYPG-TWR"
             },
             {
               "label": ["SHIFT SUP", "HOTLINE", "NOT AVAIL"],
