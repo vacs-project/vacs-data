@@ -103,13 +103,13 @@
               "label": ["CYAV", "TOWER", "118.500"],
               "size": 8,
               "color": "lavender",
-              "station_id": "CYWG-TWR"
+              "station_id": "CYAV-TWR"
             },
             {
               "label": ["CYPG", "TOWER", "118.300"],
               "size": 8,
               "color": "lavender",
-              "station_id": "CYWG-APP"
+              "station_id": "CYWG-TWR"
             },
             {
               "label": ["SHIFT SUP", "HOTLINE", "NOT AVAIL"],
