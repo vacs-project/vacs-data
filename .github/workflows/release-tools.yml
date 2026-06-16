@@ -123,7 +123,7 @@ jobs:
         run: rustup toolchain install stable --profile minimal --no-self-update
 
       - name: Install cargo-about
-        run: cargo install cargo-about --locked
+        run: cargo install cargo-about --features=cli --locked
 
       - name: Generate third-party license file
         run: cargo about generate --workspace -o THIRD_PARTY_LICENSES.html about.hbs
