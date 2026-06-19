@@ -8,16 +8,15 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["EKDK", "UV"],
-            "station_id": "EKDKUV"
+            "label": ["EKDK", "UN", "365+"],
+            "station_id": "EKDKUN"
           },
           {
-            "label": ["EKDK", "V"],
-            "station_id": "EKDKV"
+            "label": ["EKDK", "N", "365-"],
+            "station_id": "EKDKN"
           },
           {
-            "label": ["EKDK", "L"],
-            "station_id": "EKDKL"
+            "label": []
           },
           {
             "label": []
@@ -34,15 +33,16 @@
             "label": []
           },
           {
-            "label": ["EKDK", "UN"],
-            "station_id": "EKDKUN"
+            "label": ["EKDK", "UV", "365+"],
+            "station_id": "EKDKUV"
           },
           {
-            "label": ["EKDK", "N"],
-            "station_id": "EKDKN"
+            "label": ["EKDK", "V", "285-365"],
+            "station_id": "EKDKV"
           },
           {
-            "label": []
+            "label": ["EKDK", "L", "285-"],
+            "station_id": "EKDKL"
           },
           {
             "label": []
@@ -93,7 +93,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["ESKS"],
+            "station_id": "ESKS_TWR"
           },
           {
             "label": []
