@@ -15,7 +15,7 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["BIRD", "E"]
           },
           {
             "label": []
@@ -24,7 +24,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["S16"],
+            "station_id": "ENSV-16"
           },
           {
             "label": ["S18", "South"],
@@ -38,7 +39,7 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["BICC"]
           },
           {
             "label": []
@@ -60,7 +61,7 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["BGGL"]
           },
           {
             "label": []
