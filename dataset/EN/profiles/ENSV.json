@@ -8,12 +8,12 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["SCO N", "FL255+"],
-            "station_id": "EG-Moray-High"
+            "label": ["EKDK", "UN", "365+"],
+            "station_id": "EKDKUN"
           },
           {
-            "label": ["EKDK", "UN"],
-            "station_id": "EKDKUN"
+            "label": ["EKDK", "N", "365-"],
+            "station_id": "EKDKN"
           },
           {
             "label": ["OS", "S5"],
@@ -39,12 +39,12 @@
             "station_id": "ENBR_W_APP"
           },
           {
-            "label": ["SCO L", "FL255-"],
-            "station_id": "EG-Moray-Low"
+            "label": ["SCO", "N", "255+"],
+            "station_id": "EG-Moray-High"
           },
           {
-            "label": ["EKDK", "N"],
-            "station_id": "EKDKN"
+            "label": ["SCO", "L", "255-"],
+            "station_id": "EG-Moray-Low"
           },
           {
             "label": ["OS", "S6"],
@@ -69,11 +69,11 @@
             "station_id": "ENBR_E_APP"
           },
           {
-            "label": []
-          },
-          {
             "label": ["BD", "S18"],
             "station_id": "ENBD-18"
+          },
+          {
+            "label": []
           },
           {
             "label": ["OS", "S7"],
@@ -98,11 +98,11 @@
             "station_id": "ENZV_APP"
           },
           {
-            "label": []
-          },
-          {
             "label": ["ENOB", ""],
             "station_id": "ENOB"
+          },
+          {
+            "label": ["BIRD", "E"]
           },
           {
             "label": ["OS", "S8"],
@@ -246,7 +246,7 @@
             "label": []
           },
           {
-            "label": ["Sumburgh", "Radar"],
+            "label": ["EGPB", "RAD"],
             "station_id": "EGPB_APP"
           },
           {
@@ -269,7 +269,7 @@
             "label": []
           },
           {
-            "label": ["Aberdeen", "HELS"],
+            "label": ["EGPD", "HELS"],
             "station_id": "EGPD_H_APP"
           },
           {
