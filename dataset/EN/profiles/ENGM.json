@@ -31,7 +31,9 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["APP", "W"],
+            "color": "taupe",
+            "station_id": "ENGM_W_APP"
           },
           {
             "label": ["GND W"],
@@ -54,7 +56,9 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["DIR"],
+            "color": "taupe",
+            "station_id": "ENGM_D_APP"
           },
           {
             "label": ["GND E"],
@@ -77,7 +81,9 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["FIN"],
+            "color": "taupe",
+            "station_id": "ENGM_F_APP"
           },
           {
             "label": ["TWR E"],
@@ -96,116 +102,17 @@
             "label": []
           },
           {
-            "label": ["APRON"],
+            "label": ["APRON", "DEICE"],
+            "color": "azure",
             "station_id": "ENGM_ICE_GND"
           },
           {
             "label": []
           },
           {
-            "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": ["2"],
-      "page": {
-        "rows": 7,
-        "keys": [
-          {
-            "label": ["APP W"],
-            "color": "taupe",
-            "station_id": "ENGM_W_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["APP E"],
+            "label": ["APP", "E"],
             "color": "taupe",
             "station_id": "ENGM_E_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["DIR"],
-            "color": "taupe",
-            "station_id": "ENGM_D_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["FIN"],
-            "color": "taupe",
-            "station_id": "ENGM_F_APP"
-          },
-          {
-            "label": ["TMA", "SUP"],
-            "color": "taupe",
-            "station_id": "ENGM_W_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
           }
         ]
       }
