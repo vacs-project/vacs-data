@@ -9,482 +9,610 @@
         "keys": [
           {
             "label": ["TP", "MOPAR"],
+            "color": "azure",
             "station_id": "PAR_TP"
           },
           {
             "label": ["TE", "LORNI"],
+            "color": "azure",
             "station_id": "PAR_TE"
           },
           {
             "label": ["RT", "BANOX"],
+            "color": "azure",
             "station_id": "PAR_RT"
           },
           {
             "label": ["AR", "OKIPA"],
+            "color": "azure",
             "station_id": "PAR_AR"
           },
           {
             "label": ["TN"],
+            "color": "azure",
             "station_id": "PAR_TN"
           },
           {
             "label": ["TM"],
+            "color": "azure",
             "station_id": "PAR_TM"
           },
           {
             "label": ["TH"],
+            "color": "azure",
             "station_id": "PAR_TH"
           },
           {
             "label": ["DG"],
+            "color": "azure",
             "station_id": "PAR_DG"
           },
           {
             "label": ["TB"],
+            "color": "azure",
             "station_id": "PAR_TB"
           },
           {
             "label": ["TL"],
+            "color": "azure",
             "station_id": "PAR_TL"
           },
           {
-            "label": []
+            "label": [],
+            "color": "azure"
           },
           {
             "label": ["SEINE"],
+            "color": "azure",
             "station_id": "LFPM_SI_APP"
           },
           {
             "label": ["BVS"],
+            "color": "azure",
             "station_id": "LFOB_APP"
           },
           {
             "label": ["PON", "TWR"],
+            "color": "azure",
             "station_id": "LFPT_TWR"
           },
           {
-            "label": []
+            "label": [],
+            "color": "azure"
           },
           {
-            "label": []
+            "label": [],
+            "color": "azure"
           },
           {
             "label": ["LB", "APP PON"],
+            "color": "azure",
             "station_id": "LFPT_APP"
           },
           {
             "label": ["LB", "SIV"],
+            "color": "azure",
             "station_id": "LFPT_I_APP"
           },
           {
             "label": ["OL", "DEP"],
+            "color": "azure",
             "station_id": "LFPL_TWR"
           },
           {
             "label": ["OL", "ARR"],
+            "color": "azure",
             "station_id": "LFPL_TWR"
           },
           {
             "label": ["LB", "TWR"],
+            "color": "azure",
             "station_id": "LFPB_TWR"
           },
           {
             "label": ["COOR", "INI N"],
+            "color": "azure",
             "station_id": "LFPG_N_APP"
           },
           {
             "label": ["COOR", "INI S"],
+            "color": "azure",
             "station_id": "LFPG_S_APP"
           },
           {
-            "label": ["EACA"]
+            "label": ["EACA"],
+            "color": "azure"
           },
           {
-            "label": []
+            "label": [],
+            "color": "azure"
           },
           {
-            "label": []
+            "label": [],
+            "color": "azure"
           },
           {
             "label": ["ASS", "LOC N"],
+            "color": "azure",
             "station_id": "LFPG_N_TWR"
           },
           {
             "label": ["ASS", "LOC S"],
+            "color": "azure",
             "station_id": "LFPG_S_TWR"
           },
           {
-            "label": ["CT"]
+            "label": ["CT"],
+            "color": "azure"
           },
           {
-            "label": []
+            "label": [],
+            "color": "azure"
           },
           {
-            "label": ["ASS", "HIVER", "CT"]
+            "label": ["ASS", "HIVER", "CT"],
+            "color": "azure"
           },
           {
-            "label": ["C VS"]
+            "label": ["C VS"],
+            "color": "azure"
           }
         ]
       }
     },
     {
-      "label": ["CDG VIG"],
+      "label": ["CDG", "VIG"],
       "page": {
         "rows": 4,
         "keys": [
           {
             "label": ["PVL 1"],
+            "color": "taupe",
             "station_id": "LFPG_DEL"
           },
           {
             "label": ["PVL 2"],
+            "color": "taupe",
             "station_id": "LFPG_DEL"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
             "label": ["VTL", "J"],
+            "color": "taupe",
             "station_id": "LFPG_J_RMP"
           },
           {
             "label": ["VTE", "AGEN"],
+            "color": "taupe",
             "station_id": "LFPG_FDX_RMP"
           },
           {
             "label": ["VTF", "K L"],
+            "color": "taupe",
             "station_id": "LFPG_KL_RMP"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
             "label": ["VTS", "B D"],
+            "color": "taupe",
             "station_id": "LFPG_BD_RMP"
           },
           {
             "label": ["VTS", "F"],
+            "color": "taupe",
             "station_id": "LFPG_F_RMP"
           },
           {
             "label": ["VTS", "A C E"],
+            "color": "taupe",
             "station_id": "LFPG_ACE_RMP"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
             "label": ["SOL N", "PKG"],
+            "color": "taupe",
             "station_id": "LFPG_NP_GND"
           },
           {
             "label": ["SOL N", "TWY"],
+            "color": "taupe",
             "station_id": "LFPG_N_GND"
           },
           {
             "label": ["SOL SW"],
+            "color": "taupe",
             "station_id": "LFPG_SW_GND"
           },
           {
             "label": ["SOL SE"],
+            "color": "taupe",
             "station_id": "LFPG_SE_GND"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
             "label": ["ASS", "LOC N"],
+            "color": "taupe",
             "station_id": "LFPG_N_TWR"
           },
           {
             "label": ["ASS", "LOC S"],
+            "color": "taupe",
             "station_id": "LFPG_S_TWR"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": ["CT"]
+            "label": ["CT"],
+            "color": "taupe"
           },
           {
-            "label": []
+            "label": [],
+            "color": "taupe"
           },
           {
-            "label": ["ASS HIVER", "CT"]
+            "label": ["ASS HIVER", "CT"],
+            "color": "taupe"
           },
           {
-            "label": ["C VS"]
+            "label": ["C VS"],
+            "color": "taupe"
           }
         ]
       }
     },
     {
-      "label": ["CDG IFR"],
+      "label": ["CDG", "IFR"],
       "page": {
         "rows": 4,
         "keys": [
           {
             "label": ["COOR", "INI N"],
+            "color": "blush",
             "station_id": "LFPG_N_APP"
           },
           {
             "label": ["COOR", "INI S"],
+            "color": "blush",
             "station_id": "LFPG_S_APP"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": ["SEQ", ""]
+            "label": ["SEQ", ""],
+            "color": "blush"
           },
           {
             "label": ["INI N"],
+            "color": "blush",
             "station_id": "LFPG_N_APP"
           },
           {
             "label": ["INI S"],
+            "color": "blush",
             "station_id": "LFPG_S_APP"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
             "label": ["ITM N"],
+            "color": "blush",
             "station_id": "LFPG_FN_APP"
           },
           {
             "label": ["ITM S"],
+            "color": "blush",
             "station_id": "LFPG_FS_APP"
           },
           {
-            "label": ["ITM", "BA"]
+            "label": ["ITM", "BA"],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": ["CALIBR"]
+            "label": ["CALIBR"],
+            "color": "blush"
           },
           {
             "label": ["COOR", "DEP N"],
+            "color": "blush",
             "station_id": "LFPG_N_DEP"
           },
           {
             "label": ["COOR", "DEP S"],
+            "color": "blush",
             "station_id": "LFPG_S_DEP"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
             "label": ["DEP N"],
+            "color": "blush",
             "station_id": "LFPG_N_DEP"
           },
           {
             "label": ["DEP S"],
+            "color": "blush",
             "station_id": "LFPG_S_DEP"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": []
+            "label": [],
+            "color": "blush"
           },
           {
-            "label": ["CA"]
+            "label": ["CA"],
+            "color": "blush"
           },
           {
-            "label": ["C IFR"]
+            "label": ["C IFR"],
+            "color": "blush"
           },
           {
-            "label": ["EACA", "Port*"]
+            "label": ["EACA", "Port*"],
+            "color": "blush"
           },
           {
-            "label": ["EASA", ""]
+            "label": ["EASA", ""],
+            "color": "blush"
           }
         ]
       }
     },
     {
-      "label": ["EXT IFR"],
+      "label": ["EXT", "IFR"],
       "page": {
         "rows": 4,
         "keys": [
           {
-            "label": ["CDS", "PARIS"]
+            "label": ["CDS", "PARIS"],
+            "color": "mint"
           },
           {
             "label": ["ACDS", "FMP"],
+            "color": "mint",
             "station_id": "LFXX_FMP"
           },
           {
-            "label": ["ATHTS", "VFR"]
+            "label": ["ATHTS", "VFR"],
+            "color": "mint"
           },
           {
             "label": ["SEINE*"],
+            "color": "mint",
             "station_id": "LFPM_SI_APP"
           },
           {
             "label": ["TP", "MOPAR"],
+            "color": "mint",
             "station_id": "PAR_TP"
           },
           {
             "label": ["TE", "LORNI"],
+            "color": "mint",
             "station_id": "PAR_TE"
           },
           {
             "label": ["RT", "BANOX"],
+            "color": "mint",
             "station_id": "PAR_RT"
           },
           {
             "label": ["AR", "OKIPA"],
+            "color": "mint",
             "station_id": "PAR_AR"
           },
           {
             "label": ["TN"],
+            "color": "mint",
             "station_id": "PAR_TN"
           },
           {
             "label": ["TM"],
+            "color": "mint",
             "station_id": "PAR_TM"
           },
           {
             "label": ["TH"],
+            "color": "mint",
             "station_id": "PAR_TH"
           },
           {
             "label": ["AO"],
+            "color": "mint",
             "station_id": "PAR_AO"
           },
           {
             "label": ["TB"],
+            "color": "mint",
             "station_id": "PAR_TB"
           },
           {
             "label": ["TL"],
+            "color": "mint",
             "station_id": "PAR_TL"
           },
           {
-            "label": ["Calibra", "ORLY"]
+            "label": ["Calibra", "ORLY"],
+            "color": "mint"
           },
           {
             "label": ["DG"],
+            "color": "mint",
             "station_id": "PAR_DG"
           },
           {
             "label": ["BVS*"],
+            "color": "mint",
             "station_id": "LFOB_APP"
           },
           {
             "label": ["PON", "TWR*"],
+            "color": "mint",
             "station_id": "LFPT_TWR"
           },
           {
             "label": ["Villa", "CQ*"],
+            "color": "mint",
             "station_id": "LFPV_APP"
           },
           {
             "label": ["Villa*"],
+            "color": "mint",
             "station_id": "LFPV_TWR"
           },
           {
             "label": ["OL", "PVL"],
+            "color": "mint",
             "station_id": "LFPO_DEL"
           },
           {
             "label": ["OL", "ARR"],
+            "color": "mint",
             "station_id": "LFPO_APP"
           },
           {
             "label": ["OL", "DEP"],
+            "color": "mint",
             "station_id": "LFPO_DEP"
           },
           {
-            "label": ["OL", "CT"]
+            "label": ["OL", "CT"],
+            "color": "mint"
           },
           {
             "label": ["LB", "TWR"],
+            "color": "mint",
             "station_id": "LFPB_TWR"
           },
           {
             "label": ["LFPX*"],
+            "color": "mint",
             "station_id": "LFPX_TWR"
           },
           {
             "label": ["Lognes*"],
+            "color": "mint",
             "station_id": "LFPL_TWR"
           },
           {
-            "label": ["Meaux*"]
+            "label": ["Meaux*"],
+            "color": "mint"
           },
           {
             "label": ["LB", "APP PON"],
+            "color": "mint",
             "station_id": "LFPT_APP"
           },
           {
             "label": ["LB", "SIV"],
+            "color": "mint",
             "station_id": "LFPT_I_APP"
           },
           {
-            "label": ["STIP", "Bdx*"]
+            "label": ["STIP", "Bdx*"],
+            "color": "mint"
           },
           {
-            "label": ["STPV", "Tech*"]
+            "label": ["STPV", "Tech*"],
+            "color": "mint"
           }
         ]
       }
