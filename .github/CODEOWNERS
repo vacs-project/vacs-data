@@ -66,6 +66,7 @@ CONTRIBUTING.md @vacs-project/maintainers
 /dataset/LPPO/ @vacs-project/dataset-maintainers-lppo
 /dataset/LQ/ @vacs-project/dataset-maintainers-adr
 /dataset/LR/ @vacs-project/dataset-maintainers-lr
+/dataset/LS/ @vacs-project/dataset-maintainers-ls
 /dataset/LU/ @vacs-project/dataset-maintainers-lr
 /dataset/LW/ @vacs-project/dataset-maintainers-adr
 /dataset/LY/ @vacs-project/dataset-maintainers-adr
