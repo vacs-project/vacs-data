@@ -1,0 +1,49 @@
+{
+  "id": "EINN",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["STBU"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["APP"],
+            "color": "azure",
+            "station_id": "EINN_APP"
+          },
+          {
+            "label": ["EISN", "", ""],
+            "color": "mint",
+            "station_id": "EISN_LS_CTR"
+          },
+          {
+            "label": ["EICK"],
+            "color": "lavender",
+            "station_id": "EICK_APP"
+          },
+          {
+            "label": ["AMC"],
+            "color": "azure",
+            "station_id": "EINN_TWR"
+          },
+          {
+            "label": ["FIS"],
+            "color": "mint",
+            "station_id": "EISN_I_CTR"
+          },
+          {
+            "label": ["EIKY"],
+            "color": "lavender",
+            "station_id": "EIKY_TWR"
+          },
+          {
+            "label": ["SMC"],
+            "color": "azure",
+            "station_id": "EINN_GND"
+          }
+        ]
+      }
+    }
+  ]
+}

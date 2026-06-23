@@ -9,51 +9,63 @@
         "keys": [
           {
             "label": ["EDWW", "MRZ"],
+            "color": "lagoon",
             "station_id": "EDWW-MRZ"
           },
           {
             "label": ["EDWW", "EMS"],
+            "color": "lagoon",
             "station_id": "EDWW-EMS"
           },
           {
             "label": ["EDWW", "HAN"],
+            "color": "lagoon",
             "station_id": "EDWW-HAN"
           },
           {
             "label": ["EDHI", "TWR"],
+            "color": "mint",
             "station_id": "EDHI-TWR"
           },
           {
             "label": ["EDVE", "TWR"],
+            "color": "mint",
             "station_id": "EDVE-TWR"
           },
           {
             "label": ["EDXW", "TWR"],
+            "color": "mint",
             "station_id": "EDXW-TWR"
           },
           {
             "label": ["EDWW", "EID"],
+            "color": "lagoon",
             "station_id": "EDWW-EID"
           },
           {
             "label": ["EDWW", "HAM"],
+            "color": "lagoon",
             "station_id": "EDWW-HAM"
           },
           {
             "label": ["EDAH", "TWR"],
+            "color": "mint",
             "station_id": "EDAH-TWR"
           },
           {
             "label": ["EDHL", "TWR + GND"],
+            "color": "mint",
             "page": {
               "rows": 6,
               "keys": [
                 {
                   "label": ["EDHL", "TWR"],
+                  "color": "mint",
                   "station_id": "EDHL-TWR"
                 },
                 {
                   "label": ["EDHL", "GND"],
+                  "color": "azure",
                   "station_id": "EDHL-GND"
                 }
               ]
@@ -61,15 +73,18 @@
           },
           {
             "label": ["EDVK", "TWR + GND"],
+            "color": "mint",
             "page": {
               "rows": 6,
               "keys": [
                 {
                   "label": ["EDVK", "TWR"],
+                  "color": "mint",
                   "station_id": "EDVK-TWR"
                 },
                 {
                   "label": ["EDVK", "GND"],
+                  "color": "azure",
                   "station_id": "EDVK-GND"
                 }
               ]

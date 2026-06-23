@@ -29,7 +29,8 @@
           },
           {
             "label": ["EDMA", "TWR"],
-            "station_id": "EDMA-TWR"
+            "station_id": "EDMA-TWR",
+            "color": "mint"
           },
           {
             "label": ["WLD"],
@@ -53,7 +54,8 @@
           },
           {
             "label": ["EDMO", "TWR"],
-            "station_id": "EDMO-TWR"
+            "station_id": "EDMO-TWR",
+            "color": "mint"
           },
           {
             "label": ["ALB"],
@@ -77,6 +79,7 @@
           },
           {
             "label": ["FIS", "AFIS"],
+            "color": "steel",
             "page": {
               "rows": 6,
               "keys": [
@@ -112,7 +115,8 @@
                   "label": ["EPWW", "FIS"]
                 },
                 {
-                  "label": ["LKAA", "FIS"]
+                  "label": ["LKAA", "FIS"],
+                  "station_id": "LKAA FIC"
                 },
                 {
                   "label": ["LOVV", "FIS"],
@@ -258,6 +262,7 @@
           },
           {
             "label": ["FMP", "MIL"],
+            "color": "steel",
             "page": {
               "rows": 6,
               "keys": [
@@ -414,11 +419,13 @@
           },
           {
             "label": ["EDDM", "TWR N"],
-            "station_id": "EDDM-TWR-N"
+            "station_id": "EDDM-TWR-N",
+            "color": "mint"
           },
           {
             "label": ["EDDM", "DEL"],
-            "station_id": "EDDM-DEL"
+            "station_id": "EDDM-DEL",
+            "color": "snow"
           },
           {
             "label": []
@@ -434,72 +441,87 @@
           },
           {
             "label": ["EDDM", "GND N"],
-            "station_id": "EDDM-GND-N"
+            "station_id": "EDDM-GND-N",
+            "color": "mint"
           },
           {
             "label": ["EDDM", "APN 1"],
-            "station_id": "EDDM-APN-1"
+            "station_id": "EDDM-APN-1",
+            "color": "snow"
           },
           {
             "label": []
           },
           {
             "label": ["LOVV", "W27 315+"],
-            "station_id": "LOVV_W7"
+            "station_id": "LOVV_W7",
+            "color": "clay"
           },
           {
             "label": ["LOVV", "W1 315-"],
-            "station_id": "LOVV_W1"
+            "station_id": "LOVV_W1",
+            "color": "clay"
           },
           {
             "label": ["LOWI", "APP"],
-            "station_id": "LOWI_APP"
+            "station_id": "LOWI_APP",
+            "color": "clay"
           },
           {
             "label": ["EDDM", "TWR S"],
-            "station_id": "EDDM-TWR-S"
+            "station_id": "EDDM-TWR-S",
+            "color": "mint"
           },
           {
             "label": ["EDDM", "APN 2"],
-            "station_id": "EDDM-APN-2"
+            "station_id": "EDDM-APN-2",
+            "color": "snow"
           },
           {
             "label": ["ETSN", "APP"]
           },
           {
             "label": ["LOVV", "B27 315+"],
-            "station_id": "LOVV_B7"
+            "station_id": "LOVV_B7",
+            "color": "clay"
           },
           {
             "label": ["LOVV", "B1 315-"],
-            "station_id": "LOVV_B1"
+            "station_id": "LOVV_B1",
+            "color": "clay"
           },
           {
             "label": ["LOWS", "APP"],
-            "station_id": "LOWS_APP"
+            "station_id": "LOWS_APP",
+            "color": "clay"
           },
           {
             "label": ["EDDM", "GND S"],
-            "station_id": "EDDM-GND-S"
+            "station_id": "EDDM-GND-S",
+            "color": "mint"
           },
           {
             "label": ["EDDM", "APN 3"],
-            "station_id": "EDDM-APN-3"
+            "station_id": "EDDM-APN-3",
+            "color": "snow"
           },
           {
             "label": ["ETSI", "APP"]
           },
           {
             "label": ["LOVV", "N27 315+"],
-            "station_id": "LOVV_N7"
+            "station_id": "LOVV_N7",
+            "color": "clay"
           },
           {
             "label": ["LOVV", "N1 315-"],
-            "station_id": "LOVV_N1"
+            "station_id": "LOVV_N1",
+            "color": "clay"
           },
           {
             "label": ["LOWL", "APP"],
-            "station_id": "LOWL_APP"
+            "station_id": "LOWL_APP",
+            "color": "clay"
           }
         ]
       }

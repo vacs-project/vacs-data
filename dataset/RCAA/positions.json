@@ -1,0 +1,300 @@
+{
+  "positions": [
+    {
+      "id": "TPE_W_CTR",
+      "prefixes": ["TPE"],
+      "frequency": "126.700",
+      "facility_type": "CTR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["AWR"]
+    },
+    {
+      "id": "TPE_E_CTR",
+      "prefixes": ["TPE"],
+      "frequency": "127.900",
+      "facility_type": "CTR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["AER"]
+    },
+    {
+      "id": "TPE_L_CTR",
+      "prefixes": ["TPE"],
+      "frequency": "125.500",
+      "facility_type": "CTR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["ALR"]
+    },
+    {
+      "id": "TPE_S_CTR",
+      "prefixes": ["TPE"],
+      "frequency": "129.100",
+      "facility_type": "CTR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["ASR"]
+    },
+    {
+      "id": "TPE_C_CTR",
+      "prefixes": ["TPE"],
+      "frequency": "130.300",
+      "facility_type": "CTR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["ACR"]
+    },
+    {
+      "id": "TPE_N_CTR",
+      "prefixes": ["TPE"],
+      "frequency": "123.600",
+      "facility_type": "CTR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["ANR"]
+    },
+    {
+      "id": "TPE_M_CTR",
+      "prefixes": ["TPE"],
+      "frequency": "126.900",
+      "facility_type": "CTR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["AMR"]
+    },
+    {
+      "id": "TPE_O_CTR",
+      "prefixes": ["TPE"],
+      "frequency": "130.600",
+      "facility_type": "CTR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["AOR"]
+    },
+    {
+      "id": "RCTP_S_APP",
+      "prefixes": ["RCTP"],
+      "frequency": "125.100",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TSR"]
+    },
+    {
+      "id": "RCTP_A_APP",
+      "prefixes": ["RCTP"],
+      "frequency": "125.600",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TGR"]
+    },
+    {
+      "id": "RCTP_W_APP",
+      "prefixes": ["RCTP"],
+      "frequency": "119.700",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TWR"]
+    },
+    {
+      "id": "RCTP_N_APP",
+      "prefixes": ["RCTP"],
+      "frequency": "128.500",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TNR"]
+    },
+    {
+      "id": "RCTP_E_APP",
+      "prefixes": ["RCTP"],
+      "frequency": "119.600",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TER"]
+    },
+    {
+      "id": "RCTP_M_APP",
+      "prefixes": ["RCTP"],
+      "frequency": "130.100",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TMR"]
+    },
+    {
+      "id": "RCTP_F_APP",
+      "prefixes": ["RCTP"],
+      "frequency": "121.000",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TFR"]
+    },
+    {
+      "id": "RCTP_Y_APP",
+      "prefixes": ["RCTP"],
+      "frequency": "124.000",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TYR"]
+    },
+    {
+      "id": "RCTP_TWR",
+      "prefixes": ["RCTP"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TPT"]
+    },
+    {
+      "id": "RCTP_N_GND",
+      "prefixes": ["RCTP"],
+      "frequency": "121.700",
+      "facility_type": "GND",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TGN"]
+    },
+    {
+      "id": "RCTP_S_GND",
+      "prefixes": ["RCTP"],
+      "frequency": "121.600",
+      "facility_type": "GND",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TGS"]
+    },
+    {
+      "id": "RCTP_DEL",
+      "prefixes": ["RCTP"],
+      "frequency": "121.800",
+      "facility_type": "DEL",
+      "profile_id": "RCAA",
+      "default_call_sources": ["TPCD"]
+    },
+    {
+      "id": "RCSS_TWR",
+      "prefixes": ["RCSS"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["SST"]
+    },
+    {
+      "id": "RCSS_GND",
+      "prefixes": ["RCSS"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "RCAA",
+      "default_call_sources": ["SSG"]
+    },
+    {
+      "id": "RCSS_DEL",
+      "prefixes": ["RCSS"],
+      "frequency": "121.200",
+      "facility_type": "DEL",
+      "profile_id": "RCAA",
+      "default_call_sources": ["SSCD"]
+    },
+    {
+      "id": "RCKH_K_APP",
+      "prefixes": ["RCKH"],
+      "frequency": "124.700",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["KHR"]
+    },
+    {
+      "id": "RCKH_U_APP",
+      "prefixes": ["RCKH"],
+      "frequency": "120.600",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["KKR"]
+    },
+    {
+      "id": "RCKH_F_APP",
+      "prefixes": ["RCKH"],
+      "frequency": "119.400",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["KFR"]
+    },
+    {
+      "id": "RCKH_Q_APP",
+      "prefixes": ["RCKH"],
+      "frequency": "128.100",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["KQR"]
+    },
+    {
+      "id": "RCKH_N_APP",
+      "prefixes": ["RCKH"],
+      "frequency": "121.100",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["KNR"]
+    },
+    {
+      "id": "RCKH_B_APP",
+      "prefixes": ["RCKH"],
+      "frequency": "124.600",
+      "facility_type": "APP",
+      "profile_id": "RCAA",
+      "default_call_sources": ["KBR"]
+    },
+    {
+      "id": "RCKH_TWR",
+      "prefixes": ["RCKH"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["KHT"]
+    },
+    {
+      "id": "RCKH_GND",
+      "prefixes": ["RCKH"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "RCAA",
+      "default_call_sources": ["KHG"]
+    },
+    {
+      "id": "RCKH_DEL",
+      "prefixes": ["RCKH"],
+      "frequency": "121.800",
+      "facility_type": "DEL",
+      "profile_id": "RCAA",
+      "default_call_sources": ["KHCD"]
+    },
+    {
+      "id": "RCBS_TWR",
+      "prefixes": ["RCBS"],
+      "frequency": "118.000",
+      "facility_type": "TWR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["BST"]
+    },
+    {
+      "id": "RCBS_GND",
+      "prefixes": ["RCBS"],
+      "frequency": "126.200",
+      "facility_type": "GND",
+      "profile_id": "RCAA",
+      "default_call_sources": ["BSG"]
+    },
+    {
+      "id": "RCCM_TWR",
+      "prefixes": ["RCCM"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["CMT"]
+    },
+    {
+      "id": "RCQC_TWR",
+      "prefixes": ["RCQC"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "profile_id": "RCAA",
+      "default_call_sources": ["QCT"]
+    },
+    {
+      "id": "RCQC_GND",
+      "prefixes": ["RCQC"],
+      "frequency": "126.300",
+      "facility_type": "GND",
+      "profile_id": "RCAA",
+      "default_call_sources": ["QCG"]
+    }
+  ]
+}

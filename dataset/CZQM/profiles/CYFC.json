@@ -1,0 +1,34 @@
+{
+  "id": "CYFC",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "CYFC",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["QM", "CTR"],
+            "station_id": "CZQM-CTR"
+          },
+          {
+            "label": ["SJ", "LO"],
+            "station_id": "CZQM-SJ"
+          },
+          {
+            "label": ["FC", "TWR"],
+            "station_id": "CYFC-TWR"
+          },
+          {
+            "label": ["FC", "GND"],
+            "station_id": "CYFC-GND"
+          },
+          {
+            "label": ["YG", "MF"],
+            "station_id": "CYYG-MF"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+# CTR stations - delegated to ZNY (Group 1)
+[[stations]]
+id = "PAEPR"
+controlled_by = ["NY_82_CTR"]
+
+[[stations]]
+id = "HANRI"
+controlled_by = ["NY_83_CTR"]
+
+# FSS stations - Area E
+[[stations]]
+id = "CHAMP_L"
+controlled_by = ["NY_CL_FSS"]
+
+[[stations]]
+id = "CHAMP_H"
+parent_id = "CHAMP_L"
+controlled_by = ["NY_CH_FSS"]
+
+[[stations]]
+id = "BACUS_L"
+controlled_by = ["NY_BL_FSS"]
+
+[[stations]]
+id = "BACUS_H"
+parent_id = "BACUS_L"
+controlled_by = ["NY_BH_FSS"]
+
+[[stations]]
+id = "KRAFT_L"
+controlled_by = ["NY_KL_FSS"]
+
+[[stations]]
+id = "KRAFT_H"
+parent_id = "KRAFT_L"
+controlled_by = ["NY_KH_FSS"]
+
+[[stations]]
+id = "GRATX_L"
+controlled_by = ["NY_XL_FSS"]
+
+[[stations]]
+id = "GRATX_H"
+parent_id = "GRATX_L"
+controlled_by = ["NY_XH_FSS"]
+
+# CTR stations - delegated to ZNY (Group 2)
+[[stations]]
+id = "JOBOC"
+controlled_by = ["NY_65_CTR"]
+
+[[stations]]
+id = "OHRYN"
+controlled_by = ["NY_85_CTR"]
+
+[[stations]]
+id = "ATLANTIC"
+controlled_by = ["NY_86_CTR"]
+
+# BDA stations
+[[stations]]
+id = "HILDY"
+controlled_by = ["BDA_CTR"]
+
+[[stations]]
+id = "COCOA"
+parent_id = "HILDY"
+controlled_by = ["BDA_C_CTR"]
+
+# FSS stations - Area F
+[[stations]]
+id = "APOLLO_L"
+controlled_by = ["NY_AL_FSS"]
+
+[[stations]]
+id = "APOLLO_H"
+parent_id = "APOLLO_L"
+controlled_by = ["NY_AH_FSS"]
+
+[[stations]]
+id = "GEMINI_L"
+controlled_by = ["NY_GL_FSS"]
+
+[[stations]]
+id = "GEMINI_H"
+parent_id = "GEMINI_L"
+controlled_by = ["NY_GH_FSS"]
+
+[[stations]]
+id = "MERCURY_L"
+controlled_by = ["NY_ML_FSS"]
+
+[[stations]]
+id = "MERCURY_H"
+parent_id = "MERCURY_L"
+controlled_by = ["NY_MH_FSS"]

@@ -1,0 +1,33 @@
+{
+  "id": "CYQX",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "CYQX",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["QX", "CTR"],
+            "station_id": "CZQX-CTR"
+          },
+          {
+            "label": ["QX", "APP"],
+            "station_id": "CYQX-APP"
+          },
+          {
+            "label": ["QX", "TWR"],
+            "station_id": "CYQX-TWR"
+          },
+          {
+            "label": ["QX", "GND"],
+            "station_id": "CYQX-GND"
+          },
+          {
+            "label": ""
+          }
+        ]
+      }
+    }
+  ]
+}

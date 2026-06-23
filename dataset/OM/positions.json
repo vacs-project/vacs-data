@@ -127,14 +127,14 @@
       "profile_id": "OMAA"
     },
     {
-      "id": "OMAA_F_APP",
+      "id": "OMAA_F2_APP",
       "prefixes": ["OMAA"],
       "frequency": "118.425",
       "facility_type": "APP",
       "profile_id": "OMAA"
     },
     {
-      "id": "OMAA_G_APP",
+      "id": "OMAA_F1_APP",
       "prefixes": ["OMAA"],
       "frequency": "118.000",
       "facility_type": "APP",
@@ -306,7 +306,7 @@
       "prefixes": ["OMDM"],
       "frequency": "122.500",
       "facility_type": "APP",
-      "profile_id": "OMDM"
+      "profile_id": "OMAE"
     },
     {
       "id": "OMSJ_TWR",
@@ -391,13 +391,6 @@
       "frequency": "120.375",
       "facility_type": "GND",
       "profile_id": "OMAD"
-    },
-    {
-      "id": "OMDL_TWR",
-      "prefixes": ["OMDL"],
-      "frequency": "130.700",
-      "facility_type": "TWR",
-      "profile_id": "OMDL"
     }
   ]
 }

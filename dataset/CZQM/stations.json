@@ -1,0 +1,262 @@
+{
+  "stations": [
+    {
+      "id": "CZQM-CTR",
+      "controlled_by": ["CZQM_CTR", "CZQX_CTR"]
+    },
+    {
+      "id": "CZQX-CTR",
+      "controlled_by": ["CZQX_CTR", "CZQM_CTR"]
+    },
+    {
+      "id": "CZQM-1-CTR",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_1_CTR", "CZQX_1_CTR"]
+    },
+    {
+      "id": "CZQM-2-CTR",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_2_CTR", "CZQX_2_CTR"]
+    },
+    {
+      "id": "CZQM-3-CTR",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_3_CTR", "CZQX_3_CTR"]
+    },
+    {
+      "id": "CZQM-4-CTR",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_4_CTR", "CZQX_4_CTR"]
+    },
+    {
+      "id": "CZQM-5-CTR",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_5_CTR", "CZQX_5_CTR"]
+    },
+    {
+      "id": "CZQM-6-CTR",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_6_CTR", "CZQX_6_CTR"]
+    },
+    {
+      "id": "CZQM-7-CTR",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_7_CTR", "CZQX_7_CTR"]
+    },
+    {
+      "id": "CZQM-8-CTR",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_8_CTR"]
+    },
+    {
+      "id": "CZQX-1-CTR",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CZQX_1_CTR", "CZQM_1_CTR"]
+    },
+    {
+      "id": "CZQX-2-CTR",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CZQX_2_CTR", "CZQM_2_CTR"]
+    },
+    {
+      "id": "CZQX-3-CTR",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CZQX_3_CTR", "CZQM_3_CTR"]
+    },
+    {
+      "id": "CZQX-4-CTR",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CZQX_4_CTR", "CZQM_4_CTR"]
+    },
+    {
+      "id": "CZQX-5-CTR",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CZQX_5_CTR", "CZQM_5_CTR"]
+    },
+    {
+      "id": "CZQX-6-CTR",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CZQX_6_CTR", "CZQM_6_CTR"]
+    },
+    {
+      "id": "CZQX-7-CTR",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CZQX_7_CTR", "CZQM_7_CTR"]
+    },
+    {
+      "id": "CZQM-L",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_L_APP"]
+    },
+    {
+      "id": "CYHZ-TMA",
+      "parent_id": "CZQM-L",
+      "controlled_by": ["CYHZ_APP"]
+    },
+    {
+      "id": "CYHZ-TMA-FI",
+      "parent_id": "CYHZ-TMA",
+      "controlled_by": ["CYHZ_FI_APP"]
+    },
+    {
+      "id": "CYHZ-TWR",
+      "parent_id": "CYHZ-TMA-FI",
+      "controlled_by": ["CYHZ_TWR"]
+    },
+    {
+      "id": "CYHZ-GND",
+      "parent_id": "CYHZ-TWR",
+      "controlled_by": ["CYHZ_GND"]
+    },
+    {
+      "id": "CYHZ-DEL",
+      "parent_id": "CYHZ-GND",
+      "controlled_by": ["CYHZ_DEL"]
+    },
+    {
+      "id": "CYZX-TMA",
+      "parent_id": "CYHZ-TMA",
+      "controlled_by": ["CYZX_APP"]
+    },
+    {
+      "id": "CYZX-TWR",
+      "parent_id": "CYZX-TMA",
+      "controlled_by": ["CYZX_TWR"]
+    },
+    {
+      "id": "CYZX-GND",
+      "parent_id": "CYZX-TWR",
+      "controlled_by": ["CYZX_GND"]
+    },
+    {
+      "id": "CYZX-DEL",
+      "parent_id": "CYZX-GND",
+      "controlled_by": ["CYZX_DEL"]
+    },
+    {
+      "id": "CZQM-QM",
+      "parent_id": "CZQM-L",
+      "controlled_by": ["CYQM_APP"]
+    },
+    {
+      "id": "CYQM-TWR",
+      "parent_id": "CZQM-QM",
+      "controlled_by": ["CYQM_TWR"]
+    },
+    {
+      "id": "CYQM-GND",
+      "parent_id": "CYQM-TWR",
+      "controlled_by": ["CYQM_GND"]
+    },
+    {
+      "id": "CZQM-SJ",
+      "parent_id": "CZQM-QM",
+      "controlled_by": ["CYSJ_APP"]
+    },
+    {
+      "id": "CYFC-TWR",
+      "parent_id": "CZQM-SJ",
+      "controlled_by": ["CYFC_TWR"]
+    },
+    {
+      "id": "CYFC-GND",
+      "parent_id": "CYFC-TWR",
+      "controlled_by": ["CYFC_GND"]
+    },
+    {
+      "id": "CYSJ-MF",
+      "parent_id": "CZQM-SJ",
+      "controlled_by": ["CYSJ_F_TWR"]
+    },
+    {
+      "id": "CYYG-MF",
+      "parent_id": "CZQM-QM",
+      "controlled_by": ["CYYG_F_TWR"]
+    },
+    {
+      "id": "CZQM-DG",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_DG_CTR"]
+    },
+    {
+      "id": "CZQM-ZV",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_ZV_CTR"]
+    },
+    {
+      "id": "CZQM-CB",
+      "parent_id": "CZQM-CTR",
+      "controlled_by": ["CZQM_CB_CTR"]
+    },
+    {
+      "id": "CYQX-APP",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CYQX_APP"]
+    },
+    {
+      "id": "CYQX-TWR",
+      "parent_id": "CYQX-APP",
+      "controlled_by": ["CYQX_TWR"]
+    },
+    {
+      "id": "CYQX-GND",
+      "parent_id": "CYQX-TWR",
+      "controlled_by": ["CYQX_GND"]
+    },
+    {
+      "id": "CYYT-APP",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CYYT_APP"]
+    },
+    {
+      "id": "CYYT-TWR",
+      "parent_id": "CYYT-APP",
+      "controlled_by": ["CYYT_TWR"]
+    },
+    {
+      "id": "CYYT-GND",
+      "parent_id": "CYYT-TWR",
+      "controlled_by": ["CYYT_GND"]
+    },
+    {
+      "id": "CYYR-APP",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CYYR_APP"]
+    },
+    {
+      "id": "CYYR-TWR",
+      "parent_id": "CYYR-APP",
+      "controlled_by": ["CYYR_TWR"]
+    },
+    {
+      "id": "CYYR-GND",
+      "parent_id": "CYYR-TWR",
+      "controlled_by": ["CYYR_GND"]
+    },
+    {
+      "id": "CYYR-DEL",
+      "parent_id": "CYYR-GND",
+      "controlled_by": ["CYYR_DEL"]
+    },
+    {
+      "id": "LFVP-APP",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["LFVP_APP"]
+    },
+    {
+      "id": "LFVP-TWR",
+      "parent_id": "LFVP-APP",
+      "controlled_by": ["LFVP_TWR"]
+    },
+    {
+      "id": "CYDF-MF",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CYDF_F_TWR"]
+    },
+    {
+      "id": "CYJT-MF",
+      "parent_id": "CZQX-CTR",
+      "controlled_by": ["CYJT_F_TWR"]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "KFOR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BEOGRAD", "BG"],
+            "station_id": "LYBA"
+          },
+          {
+            "label": ["BEOGRAD", "UPPER", "BGU"],
+            "station_id": "LYBA-UPPER"
+          },
+          {
+            "label": ["BEOGRAD", "WEST", "BGW"],
+            "station_id": "LYBA-WEST"
+          },
+          {
+            "label": ["BEOGRAD", "EAST", "BGE"],
+            "station_id": "LYBA-EAST"
+          },
+          {
+            "label": ["BEOGRAD", "UPPER W", "BGUW"],
+            "station_id": "LYBA-UPPER-WEST"
+          },
+          {
+            "label": ["BEOGRAD", "UPPER E", "BGUE"],
+            "station_id": "LYBA-UPPER-EAST"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TIRANA", "ACC"],
+            "station_id": "LATI-ACC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SKOPJE", "ACC"],
+            "station_id": "LWSS-ACC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ADRIA", "AD"],
+            "station_id": "ADRIA"
+          },
+          {
+            "label": ["ADRIA", "EAST"],
+            "station_id": "ADRIA-EAST"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ADRIA", "UPPER", "ADU"],
+            "station_id": "ADRIA-UPPER"
+          },
+          {
+            "label": ["ADRIA", "EAST U", "ADUE"],
+            "station_id": "ADRIA-EAST-UPPER"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["APP"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["PRISTINA", "APPROACH", "PR"],
+            "station_id": "BKPR_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TIRANA", "APPROACH", "TIR"],
+            "station_id": "LATI_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SKOPJE", "APPROACH", "SKA"],
+            "station_id": "LWSK_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PODGORICA", "RADAR", "PG"],
+            "station_id": "LYPG_APP"
+          },
+          {
+            "label": ["NIS", "APP", "NI"],
+            "station_id": "LYNI_APP"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["TWR", "GND", ""],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["PRISTINA", "TOWER"],
+            "station_id": "BKPR_TWR"
+          },
+          {
+            "label": ["PRISTINA", "GROUND"],
+            "station_id": "BKPR_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

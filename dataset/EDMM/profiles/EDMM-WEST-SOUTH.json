@@ -21,11 +21,12 @@
           },
           {
             "label": ["EDJA", "TWR"],
-            "station_id": "EDJA-TWR"
+            "station_id": "EDJA-TWR",
+            "color": "mint"
           },
           {
             "label": ["ARFA"],
-            "station_id": "LSFA-ARFA"
+            "station_id": "LSFA_APP"
           },
           {
             "label": ["LSZH", "APP"]
@@ -75,6 +76,7 @@
           },
           {
             "label": ["FIS", "AFIS"],
+            "color": "steel",
             "page": {
               "rows": 6,
               "keys": [
@@ -110,7 +112,8 @@
                   "label": ["EPWW", "FIS"]
                 },
                 {
-                  "label": ["LKAA", "FIS"]
+                  "label": ["LKAA", "FIS"],
+                  "station_id": "LKAA FIC"
                 },
                 {
                   "label": ["LOVV", "FIS"],
@@ -256,6 +259,7 @@
           },
           {
             "label": ["FMP", "MIL"],
+            "color": "steel",
             "page": {
               "rows": 6,
               "keys": [
@@ -412,15 +416,18 @@
           },
           {
             "label": ["UU", "ALP"],
-            "station_id": "EDUU-ALP"
+            "station_id": "EDUU-ALP",
+            "color": "azure"
           },
           {
             "label": ["UU", "TGO"],
-            "station_id": "EDUU-TGO"
+            "station_id": "EDUU-TGO",
+            "color": "azure"
           },
           {
             "label": ["GG", "REU"],
-            "station_id": "EDGG-REU"
+            "station_id": "EDGG-REU",
+            "color": "blush"
           },
           {
             "label": ["LSAS", "U 245+"]
@@ -436,63 +443,78 @@
           },
           {
             "label": ["UU", "WUR"],
-            "station_id": "EDUU-WUR"
+            "station_id": "EDUU-WUR",
+            "color": "azure"
           },
           {
             "label": ["GG", "LBU"],
-            "station_id": "EDGG-LBU"
+            "station_id": "EDGG-LBU",
+            "color": "blush"
           },
           {
             "label": ["LIPP", "N8 365+"],
-            "station_id": "LIPP-NE8"
+            "station_id": "LIPP-NE8",
+            "color": "lilac"
           },
           {
             "label": ["LIPP", "N6 335+", ""],
-            "station_id": "LIPP-NE6"
+            "station_id": "LIPP-NE6",
+            "color": "lilac"
           },
           {
             "label": ["LIPP", "N3 285+"],
-            "station_id": "LIPP-NE3"
+            "station_id": "LIPP-NE3",
+            "color": "lilac"
           },
           {
             "label": ["UU", "AMM"],
-            "station_id": "EDUU-AMM"
+            "station_id": "EDUU-AMM",
+            "color": "azure"
           },
           {
             "label": ["LOVV", "W27 315+"],
-            "station_id": "LOVV_W7"
+            "station_id": "LOVV_W7",
+            "color": "clay"
           },
           {
             "label": ["LOVV", "W1 315-"],
-            "station_id": "LOVV_W1"
+            "station_id": "LOVV_W1",
+            "color": "clay"
           },
           {
             "label": ["LOWI", "APP"],
-            "station_id": "LOWI_APP"
+            "station_id": "LOWI_APP",
+            "color": "clay"
           },
           {
             "label": ["LIPP", "NW1 285-"],
-            "station_id": "LIPP-NW1"
+            "station_id": "LIPP-NW1",
+            "color": "lilac"
           },
           {
             "label": ["LIPP", "NE2 285-"],
-            "station_id": "LIPP-NE2"
+            "station_id": "LIPP-NE2",
+            "color": "lilac"
           },
           {
             "label": ["UU", "DON"],
-            "station_id": "EDUU-DON"
+            "station_id": "EDUU-DON",
+            "color": "azure"
           },
           {
             "label": ["LOVV", "B27 315+"],
-            "station_id": "LOVV_B7"
+            "station_id": "LOVV_B7",
+            "color": "clay"
           },
           {
             "label": ["LOVV", "B1 315-"],
-            "station_id": "LOVV_B1"
+            "station_id": "LOVV_B1",
+            "color": "clay"
           },
           {
             "label": ["LOWS", "APP"],
-            "station_id": "LOWS_APP"
+            "station_id": "LOWS_APP",
+            "color": "clay"
           },
           {
             "label": []

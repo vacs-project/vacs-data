@@ -8,94 +8,117 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["LOVV E5", "385-USB", "PC"]
+            "label": ["LOVV E5", "385-USB", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOVV E4", "365-385", "PC"]
+            "label": ["LOVV E4", "365-385", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOVV E3", "345-365", "PC"]
+            "label": ["LOVV E3", "345-365", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOVV E2", "305-345", "PC"]
+            "label": ["LOVV E2", "305-345", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOVV E1", "LAU-305", "PC"]
+            "label": ["LOVV E1", "LAU-305", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOWW", "APP ARR", "VP PC"]
+            "label": ["LOWW", "APP ARR", "VP PC"],
+            "color": "clay"
           },
           {
-            "label": ["LOWW", "APP DEP", "VB EC"]
+            "label": ["LOWW", "APP DEP", "VB EC"],
+            "color": "clay"
           },
           {
             "label": ["LOVV E5", "385-USB", "EC"],
-            "station_id": "LOVV_E5"
+            "station_id": "LOVV_E5",
+            "color": "cadet"
           },
           {
             "label": ["LOVV E4", "365-385", "EC"],
-            "station_id": "LOVV_E4"
+            "station_id": "LOVV_E4",
+            "color": "cadet"
           },
           {
             "label": ["LOVV E3", "345-365", "EC"],
-            "station_id": "LOVV_E3"
+            "station_id": "LOVV_E3",
+            "color": "cadet"
           },
           {
             "label": ["LOVV E2", "305-345", "EC"],
-            "station_id": "LOVV_E2"
+            "station_id": "LOVV_E2",
+            "color": "cadet"
           },
           {
             "label": ["LOVV E1", "LAU-305", "EC"],
-            "station_id": "LOVV_E1"
+            "station_id": "LOVV_E1",
+            "color": "cadet"
           },
           {
             "label": ["LOWW", "APP ARR", "VP EC"],
             "station_id": "LOWW_P_APP"
           },
           {
-            "label": ["LOWW", "APP DEP", "VB EC"],
+            "label": ["LOWW", "APP DEP", "VB PC"],
             "station_id": "LOWW_APP"
           },
           {
-            "label": ["LOVV S5", "385-USB", "PC"]
+            "label": ["LOVV S5", "385-USB", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOVV S4", "365-385", "PC"]
+            "label": ["LOVV S4", "365-385", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOVV S3", "345-365", "PC"]
+            "label": ["LOVV S3", "345-365", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOVV S2", "305-345", "PC"]
+            "label": ["LOVV S2", "305-345", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOVV S1", "LAU-305", "PC"]
+            "label": ["LOVV S1", "LAU-305", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LOWG", "APP", "PC"]
+            "label": ["LOWG", "APP", "PC"],
+            "color": "clay"
           },
           {
             "label": []
           },
           {
             "label": ["LOVV S5", "385-USB", "EC"],
-            "station_id": "LOVV_S5"
+            "station_id": "LOVV_S5",
+            "color": "cadet"
           },
           {
             "label": ["LOVV S4", "365-385", "EC"],
-            "station_id": "LOVV_S4"
+            "station_id": "LOVV_S4",
+            "color": "cadet"
           },
           {
             "label": ["LOVV S3", "345-365", "EC"],
-            "station_id": "LOVV_S3"
+            "station_id": "LOVV_S3",
+            "color": "cadet"
           },
           {
             "label": ["LOVV S2", "305-345", "EC"],
-            "station_id": "LOVV_S2"
+            "station_id": "LOVV_S2",
+            "color": "cadet"
           },
           {
             "label": ["LOVV S1", "LAU-305", "EC"],
-            "station_id": "LOVV_S1"
+            "station_id": "LOVV_S1",
+            "color": "cadet"
           },
           {
             "label": ["LOWG", "APP", "EC"],
@@ -105,30 +128,39 @@
             "label": []
           },
           {
-            "label": ["LOVV FIC", "NORTH", "PC"]
+            "label": ["LOVV FIC", "NORTH", "PC"],
+            "station_id": "LOVV_I_CTR",
+            "color": "steel"
           },
           {
-            "label": ["LOWW", "TFI"]
+            "label": ["LOWW", "TFI"],
+            "color": "steel"
           },
           {
-            "label": ["LOVV FIC", "SOUTH", "PC"]
+            "label": ["LOVV FIC", "SOUTH", "PC"],
+            "station_id": "LOVV_I_CTR",
+            "color": "steel"
           },
           {
             "label": ["LOVV", "FMP"],
-            "station_id": "LOVV_FMP"
+            "station_id": "LOVV_FMP",
+            "color": "steel"
           },
           {
-            "label": ["LOVV", "FDU"]
+            "label": ["LOVV", "FDU"],
+            "color": "steel"
           },
           {
-            "label": ["LOVV", "SEC"]
+            "label": ["LOVV", "SEC"],
+            "color": "steel"
           },
           {
             "label": []
           },
           {
             "label": ["LOVV", "ACC", "SV"],
-            "station_id": "LOVV_M_CTR"
+            "station_id": "LOVV_M_CTR",
+            "color": "steel"
           },
           {
             "label": []
@@ -146,7 +178,8 @@
             "label": []
           },
           {
-            "label": ["LOWW", "APP", "SV"]
+            "label": ["LOWW", "APP", "SV"],
+            "color": "steel"
           }
         ]
       }
@@ -158,27 +191,33 @@
         "keys": [
           {
             "label": ["LZBB", "T", "127,425"],
-            "station_id": "LZBB_CENTER_1U"
+            "station_id": "LZBB_CENTER_1U",
+            "color": "lagoon"
           },
           {
-            "label": ["LZBB", "H", "135,965"]
+            "label": ["LZBB", "H", "135,965"],
+            "color": "lagoon"
           },
           {
-            "label": ["LZBB", "U", "132,355"]
+            "label": ["LZBB", "U", "132,355"],
+            "color": "lagoon"
           },
           {
-            "label": ["LZBB", "M", "125,965"]
+            "label": ["LZBB", "M", "125,965"],
+            "color": "lagoon"
           },
           {
             "label": ["LZBB", "L", "134,475"],
-            "station_id": "LZBB_CENTER_0L"
+            "station_id": "LZBB_CENTER_0L",
+            "color": "lagoon"
           },
           {
             "label": []
           },
           {
             "label": ["LZIB", "APP", "EC-PC"],
-            "station_id": "LZIB_APP"
+            "station_id": "LZIB_APP",
+            "color": "clay"
           },
           {
             "label": []
@@ -209,10 +248,12 @@
           },
           {
             "label": ["LZBB", "FIC"],
-            "station_id": "LZBB_I_CTR"
+            "station_id": "LZBB_I_CTR",
+            "color": "steel"
           },
           {
-            "label": ["LZBB", "FDU"]
+            "label": ["LZBB", "FDU"],
+            "color": "steel"
           },
           {
             "label": []
@@ -243,7 +284,8 @@
           },
           {
             "label": ["LZKZ", "APP"],
-            "station_id": "LZKZ_APP"
+            "station_id": "LZKZ_APP",
+            "color": "clay"
           },
           {
             "label": []
@@ -267,7 +309,8 @@
             "label": []
           },
           {
-            "label": ["LZBB", "ACC", "SV"]
+            "label": ["LZBB", "ACC", "SV"],
+            "color": "steel"
           },
           {
             "label": []
@@ -285,7 +328,8 @@
             "label": []
           },
           {
-            "label": ["LZIB", "APP", "SV"]
+            "label": ["LZIB", "APP", "SV"],
+            "color": "steel"
           }
         ]
       }
@@ -296,13 +340,16 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["UKLV", "T", "PC"]
+            "label": ["UKLV", "T", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["UKLV", "U", "PC"]
+            "label": ["UKLV", "U", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["UKLV", "L", "PC"]
+            "label": ["UKLV", "L", "PC"],
+            "color": "lagoon"
           },
           {
             "label": []
@@ -312,43 +359,38 @@
           },
           {
             "label": ["LRBB", "ACC", "FD 1"],
-            "station_id": "LRBB_FMP"
+            "station_id": "LRBB_FMP",
+            "color": "steel"
           },
           {
             "label": []
           },
           {
-            "label": ["UKLV", "T", "EC"]
+            "label": ["UKLV", "T", "EC"],
+            "color": "cadet"
           },
           {
-            "label": ["UKLV", "U", "EC"]
+            "label": ["UKLV", "U", "EC"],
+            "color": "cadet"
           },
           {
-            "label": ["UKLV", "L", "EC"]
+            "label": ["UKLV", "L", "EC"],
+            "color": "cadet"
           },
           {
-            "label": ["UKLV", "ACC", "SV"]
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["LRBB", "ACC", "FD 2"]
-          },
-          {
-            "label": ["ARAD", "APP", "FD"]
+            "label": ["UKLV", "ACC", "SV"],
+            "color": "steel"
           },
           {
             "label": []
           },
           {
-            "label": []
+            "label": ["LRBB", "ACC", "FD 2"],
+            "color": "steel"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
+            "label": ["ARAD", "APP", "FD"],
+            "color": "steel"
           },
           {
             "label": []
@@ -360,56 +402,82 @@
             "label": []
           },
           {
-            "label": ["LRBB", "A ST PC", "123.065"]
+            "label": []
           },
           {
-            "label": ["LRBB", "A T PC", "135.360"]
+            "label": []
           },
           {
-            "label": ["MOP M", "A M PC", "125.765"]
+            "label": []
           },
           {
-            "label": ["BUD M", "PC", "132.865"]
+            "label": []
           },
           {
-            "label": ["MOP L", "PC", "133.630"]
+            "label": ["LRBB", "A ST PC", "123.065"],
+            "color": "lagoon"
           },
           {
-            "label": ["BUD L", "A L PC", "132.740"]
+            "label": ["LRBB", "A T PC", "135.360"],
+            "color": "lagoon"
           },
           {
-            "label": ["ARAD", "APP", "PC"]
+            "label": ["MOP M", "A M PC", "125.765"],
+            "color": "lagoon"
+          },
+          {
+            "label": ["BUD M", "PC", "132.865"],
+            "color": "lagoon"
+          },
+          {
+            "label": ["MOP L", "PC", "133.630"],
+            "color": "lagoon"
+          },
+          {
+            "label": ["BUD L", "A L PC", "132.740"],
+            "color": "lagoon"
+          },
+          {
+            "label": ["ARAD", "APP", "PC"],
+            "color": "clay"
           },
           {
             "label": ["LRBB", "A ST EC", "122.030"],
-            "station_id": "LR_LOKOM1"
+            "station_id": "LR_LOKOM1",
+            "color": "cadet"
           },
           {
             "label": ["LRBB", "A T EC", "135.360"],
-            "station_id": "LR_BANAP3"
+            "station_id": "LR_BANAP3",
+            "color": "cadet"
           },
           {
             "label": ["MOP M", "A M EC", "125.765"],
-            "station_id": "LR_BUMON1"
+            "station_id": "LR_BUMON1",
+            "color": "cadet"
           },
           {
             "label": ["BUD M", "EC", "132.865"],
-            "station_id": "LR_BUDMO3"
+            "station_id": "LR_BUDMO3",
+            "color": "cadet"
           },
           {
             "label": ["MOP L", "EC", "133.630"],
-            "station_id": "LR_BUDMO2"
+            "station_id": "LR_BUDMO2",
+            "color": "cadet"
           },
           {
             "label": ["BUD L", "A L EC", "132.740"],
-            "station_id": "LR_BANAP2"
+            "station_id": "LR_BANAP2",
+            "color": "cadet"
           },
           {
             "label": ["ARAD", "APP", "EC"],
             "station_id": "LRAR_APP"
           },
           {
-            "label": ["LRBB", "ACC", "SV"]
+            "label": ["LRBB", "ACC", "SV"],
+            "color": "steel"
           },
           {
             "label": []
@@ -427,7 +495,8 @@
             "label": []
           },
           {
-            "label": ["ARAD", "APP", "SV"]
+            "label": ["ARAD", "APP", "SV"],
+            "color": "steel"
           }
         ]
       }
@@ -438,40 +507,51 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["LYBA", "NsT PC", "385-660"]
+            "label": ["LYBA", "NsT PC", "385-660"],
+            "color": "lagoon"
           },
           {
-            "label": ["LYBA", "NT PC", "365-385"]
+            "label": ["LYBA", "NT PC", "365-385"],
+            "color": "lagoon"
           },
           {
-            "label": ["LYBA", "NU PC", "345-365"]
+            "label": ["LYBA", "NU PC", "345-365"],
+            "color": "lagoon"
           },
           {
-            "label": ["LYBA", "NM PC", "325-345"]
+            "label": ["LYBA", "NM PC", "325-345"],
+            "color": "lagoon"
           },
           {
-            "label": ["LYBA", "NL PC", "125-325"]
+            "label": ["LYBA", "NL PC", "125-325"],
+            "color": "lagoon"
           },
           {
             "label": []
           },
           {
-            "label": ["LYBE", "TMA", "PC"]
+            "label": ["LYBE", "TMA", "PC"],
+            "color": "clay"
           },
           {
-            "label": ["LYBA", "NsTEPC", "385-660"]
+            "label": ["LYBA", "NsTEPC", "385-660"],
+            "color": "cadet"
           },
           {
-            "label": ["LYBA", "NT EC", "365-385"]
+            "label": ["LYBA", "NT EC", "365-385"],
+            "color": "cadet"
           },
           {
-            "label": ["LYBA", "NU EC", "345-365"]
+            "label": ["LYBA", "NU EC", "345-365"],
+            "color": "cadet"
           },
           {
-            "label": ["LYBA", "NM EC", "325-345"]
+            "label": ["LYBA", "NM EC", "325-345"],
+            "color": "cadet"
           },
           {
-            "label": ["LYBA", "NL EC", "125-325"]
+            "label": ["LYBA", "NL EC", "125-325"],
+            "color": "cadet"
           },
           {
             "label": []
@@ -495,46 +575,60 @@
             "label": []
           },
           {
-            "label": ["LYBA", "ACC", "SV"]
+            "label": ["LYBA", "ACC", "SV"],
+            "color": "steel"
           },
           {
-            "label": ["LYBA", "FDA 2", "EC"]
+            "label": ["LYBA", "FDA 2", "EC"],
+            "color": "steel"
           },
           {
-            "label": ["LDZO", "T", "PC"]
+            "label": ["LDZO", "T", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LDZO", "H", "PC"]
+            "label": ["LDZO", "H", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LDZO", "U", "PC"]
+            "label": ["LDZO", "U", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LDZO", "L", "PC"]
+            "label": ["LDZO", "L", "PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["LDZA", "APP", "PC"]
+            "label": ["LDZA", "APP", "PC"],
+            "color": "clay"
           },
           {
-            "label": ["LDZA", "APP-ACC", "SV"]
+            "label": ["LDZA", "APP-ACC", "SV"],
+            "color": "steel"
           },
           {
-            "label": ["LDZO", "CFDU"]
+            "label": ["LDZO", "CFDU"],
+            "color": "steel"
           },
           {
-            "label": ["LDZO", "T", "EC"]
+            "label": ["LDZO", "T", "EC"],
+            "color": "cadet"
           },
           {
-            "label": ["LDZO", "H", "EC"]
+            "label": ["LDZO", "H", "EC"],
+            "color": "cadet"
           },
           {
-            "label": ["LDZO", "U", "EC"]
+            "label": ["LDZO", "U", "EC"],
+            "color": "cadet"
           },
           {
-            "label": ["LDZO", "L", "EC"]
+            "label": ["LDZO", "L", "EC"],
+            "color": "cadet"
           },
           {
-            "label": ["LDZA", "APP", "EC"]
+            "label": ["LDZA", "APP", "EC"],
+            "color": "clay"
           },
           {
             "label": []
@@ -543,25 +637,31 @@
             "label": []
           },
           {
-            "label": ["LJLA", "ACC", "SEN"]
+            "label": ["LJLA", "ACC", "SEN"],
+            "color": "lavender"
           },
           {
             "label": []
           },
           {
-            "label": ["LJLJ", "APP-ACC", "PC"]
+            "label": ["LJLJ", "APP-ACC", "PC"],
+            "color": "lavender"
           },
           {
-            "label": ["LJLJ", "APP-ACC", "EC"]
+            "label": ["LJLJ", "APP-ACC", "EC"],
+            "color": "lavender"
           },
           {
-            "label": ["LJMB", "APP-FIC"]
+            "label": ["LJMB", "APP-FIC"],
+            "color": "lavender"
           },
           {
-            "label": ["LJMB", "SV"]
+            "label": ["LJMB", "SV"],
+            "color": "steel"
           },
           {
-            "label": ["LJLA", "CFDU"]
+            "label": ["LJLA", "CFDU"],
+            "color": "steel"
           }
         ]
       }
@@ -572,22 +672,28 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["WT PC"]
+            "label": ["WT PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["WH PC"]
+            "label": ["WH PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["WU PC"]
+            "label": ["WU PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["WM PC"]
+            "label": ["WM PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["WL PC"]
+            "label": ["WL PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["S PC"]
+            "label": ["S PC"],
+            "color": "lagoon"
           },
           {
             "label": ["TD 1", "EC"],
@@ -595,96 +701,123 @@
           },
           {
             "label": ["WT EC"],
-            "station_id": "LHCC_WT"
+            "station_id": "LHCC_WT",
+            "color": "cadet"
           },
           {
-            "label": ["WH EC"]
+            "label": ["WH EC"],
+            "color": "cadet"
           },
           {
             "label": ["WU EC"],
-            "station_id": "LHCC_WU"
+            "station_id": "LHCC_WU",
+            "color": "cadet"
           },
           {
-            "label": ["WM EC"]
+            "label": ["WM EC"],
+            "color": "cadet"
           },
           {
             "label": ["WL EC"],
-            "station_id": "LHCC_WL"
+            "station_id": "LHCC_WL",
+            "color": "cadet"
           },
           {
             "label": ["S EC"],
-            "station_id": "LHCC_SU"
+            "station_id": "LHCC_SU",
+            "color": "cadet"
           },
           {
             "label": ["TD 2", "EC"]
           },
           {
-            "label": ["ET PC"]
+            "label": ["ET PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["EH PC"]
+            "label": ["EH PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["EU PC"]
+            "label": ["EU PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["EM PC"]
+            "label": ["EM PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["EL PC"]
+            "label": ["EL PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["N PC"]
+            "label": ["N PC"],
+            "color": "lagoon"
           },
           {
-            "label": ["FDA 1"]
+            "label": ["FDA 1"],
+            "color": "steel"
           },
           {
             "label": ["ET EC"],
-            "station_id": "LHCC_ET"
+            "station_id": "LHCC_ET",
+            "color": "cadet"
           },
           {
-            "label": ["EH EC"]
+            "label": ["EH EC"],
+            "color": "cadet"
           },
           {
             "label": ["EU EC"],
-            "station_id": "LHCC_EU"
+            "station_id": "LHCC_EU",
+            "color": "cadet"
           },
           {
-            "label": ["EM EC"]
+            "label": ["EM EC"],
+            "color": "cadet"
           },
           {
             "label": ["EL EC"],
-            "station_id": "LHCC_EL"
+            "station_id": "LHCC_EL",
+            "color": "cadet"
           },
           {
-            "label": ["N EC"]
+            "label": ["N EC"],
+            "color": "cadet"
           },
           {
-            "label": ["AMC 1"]
+            "label": ["AMC 1"],
+            "color": "steel"
           },
           {
-            "label": ["APP", "W/U PC"]
+            "label": ["APP", "W/U PC"],
+            "color": "clay"
           },
           {
             "label": ["APP", "E/L PC"],
-            "station_id": "LHBP_P_APP"
+            "station_id": "LHBP_P_APP",
+            "color": "clay"
           },
           {
-            "label": ["FIW PC"]
+            "label": ["FIW PC"],
+            "color": "steel"
           },
           {
-            "label": ["FIN PC"]
+            "label": ["FIN PC"],
+            "color": "steel"
           },
           {
-            "label": ["FIE PC"]
+            "label": ["FIE PC"],
+            "color": "steel"
           },
           {
-            "label": ["MATIAS", "OBSERV"]
+            "label": ["MATIAS", "OBSERV"],
+            "color": "blush"
           },
           {
             "label": ["FMP 1"],
-            "station_id": "LHBP_FMP"
+            "station_id": "LHBP_FMP",
+            "color": "steel"
           },
           {
             "label": ["APP", "W/U EC"],
@@ -696,22 +829,27 @@
           },
           {
             "label": ["FIW EC"],
-            "station_id": "LHCC_WFIC"
+            "station_id": "LHCC_WFIC",
+            "color": "steel"
           },
           {
             "label": ["FIN EC"],
-            "station_id": "LHCC_FIC"
+            "station_id": "LHCC_FIC",
+            "color": "steel"
           },
           {
             "label": ["FIE EC"],
-            "station_id": "LHCC_EFIC"
+            "station_id": "LHCC_EFIC",
+            "color": "steel"
           },
           {
-            "label": ["TMCS 1", "SV"]
+            "label": ["TMCS 1", "SV"],
+            "color": "steel"
           },
           {
             "label": ["ATC SV1"],
-            "station_id": "LHCC_SV"
+            "station_id": "LHCC_SV",
+            "color": "steel"
           }
         ]
       }
@@ -722,112 +860,131 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["CRC", "IC 1"]
+            "label": ["CRC", "IC 1"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "IC 1"]
           },
           {
-            "label": ["CRC", "FA"]
+            "label": ["CRC", "FA"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "FA"]
           },
           {
             "label": ["LHKE", "APP"],
-            "station_id": "LHKE_APP"
+            "station_id": "LHKE_APP",
+            "color": "cadet"
           },
           {
             "label": ["M LHKE", "APP"]
           },
           {
             "label": ["DC 1", "DEBRECEN"],
-            "station_id": "LHDC_I_TWR"
+            "station_id": "LHDC_I_TWR",
+            "color": "cadet"
           },
           {
-            "label": ["CRC", "IC 2"]
+            "label": ["CRC", "IC 2"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "IC 2"]
           },
           {
-            "label": ["CRC", "FA KE"]
+            "label": ["CRC", "FA KE"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "FA KE"]
           },
           {
             "label": ["LHKE", "TWR"],
-            "station_id": "LHKE_TWR"
+            "station_id": "LHKE_TWR",
+            "color": "cadet"
           },
           {
             "label": ["M LHKE", "TWR"]
           },
           {
             "label": ["SM 1", "SARMELLE"],
-            "station_id": "LHSM_I_TWR"
+            "station_id": "LHSM_I_TWR",
+            "color": "steel"
           },
           {
-            "label": ["CRC", "IC 3"]
+            "label": ["CRC", "IC 3"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "IC 3"]
           },
           {
-            "label": ["CRC", "TPO/SM"]
+            "label": ["CRC", "TPO/SM"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "TPO/SM"]
           },
           {
             "label": ["LHPA", "APP"],
-            "station_id": "LHPA_APP"
+            "station_id": "LHPA_APP",
+            "color": "lagoon"
           },
           {
             "label": ["M LHPA", "APP"]
           },
           {
             "label": ["PP 1", "PECS"],
-            "station_id": "LHPP_I_TWR"
+            "station_id": "LHPP_I_TWR",
+            "color": "lagoon"
           },
           {
-            "label": ["CRC", "IC 4"]
+            "label": ["CRC", "IC 4"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "IC 4"]
           },
           {
-            "label": ["CRC", "MC"]
+            "label": ["CRC", "MC"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "MC"]
           },
           {
             "label": ["LHPA", "TWR"],
-            "station_id": "LHPA_TWR"
+            "station_id": "LHPA_TWR",
+            "color": "lagoon"
           },
           {
             "label": ["M LHPA", "TWR 3"]
           },
           {
             "label": ["PR 1", "PER"],
-            "station_id": "LHPR_I_TWR"
+            "station_id": "LHPR_I_TWR",
+            "color": "steel"
           },
           {
-            "label": ["CRC", "IC 5"]
+            "label": ["CRC", "IC 5"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "IC 5"]
           },
           {
-            "label": ["CRC ALL"]
+            "label": ["CRC ALL"],
+            "color": "cadet"
           },
           {
             "label": []
           },
           {
             "label": ["LHSN", "APP-TWR", "1"],
-            "station_id": "LHSN_APP"
+            "station_id": "LHSN_APP",
+            "color": "cadet"
           },
           {
             "label": ["M LHSN", "APP-TWR"],
@@ -837,19 +994,22 @@
             "label": []
           },
           {
-            "label": ["CRC", "IDO"]
+            "label": ["CRC", "IDO"],
+            "color": "cadet"
           },
           {
             "label": ["M CRC", "IDO"]
           },
           {
-            "label": ["KTIK"]
+            "label": ["KTIK"],
+            "color": "cadet"
           },
           {
             "label": ["M KTIK"]
           },
           {
-            "label": ["LHSN", "APP-TWR", "2"]
+            "label": ["LHSN", "APP-TWR", "2"],
+            "color": "cadet"
           },
           {
             "label": []

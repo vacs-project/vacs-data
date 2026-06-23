@@ -1,0 +1,462 @@
+{
+  "positions": [
+    {
+      "id": "CZQM_TMU",
+      "prefixes": ["CZQM"],
+      "frequency": "118.000",
+      "facility_type": "FMP",
+      "profile_id": "CZQM"
+    },
+    {
+      "id": "CZQX_TM_TMU",
+      "prefixes": ["CZQX"],
+      "frequency": "129.000",
+      "facility_type": "FMP",
+      "profile_id": "CZQM"
+    },
+    {
+      "id": "CZQM_1_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "123.800",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-1-CTR"]
+    },
+    {
+      "id": "CZQM_2_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "132.700",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-2-CTR"]
+    },
+    {
+      "id": "CZQM_3_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "135.650",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-3-CTR"]
+    },
+    {
+      "id": "CZQM_4_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "123.700",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-4-CTR"]
+    },
+    {
+      "id": "CZQM_5_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "126.450",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-5-CTR"]
+    },
+    {
+      "id": "CZQM_6_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "125.750",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-6-CTR"]
+    },
+    {
+      "id": "CZQM_7_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "132.800",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-7-CTR"]
+    },
+    {
+      "id": "CZQM_8_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "132.250",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-8-CTR"]
+    },
+    {
+      "id": "CZQM_CB_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "118.600",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-CB"]
+    },
+    {
+      "id": "CZQM_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "132.200",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-CTR"]
+    },
+    {
+      "id": "CZQM_C_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "134.250",
+      "facility_type": "CTR",
+      "profile_id": "CZQM"
+    },
+    {
+      "id": "CZQM_DG_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "123.900",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-DG"]
+    },
+    {
+      "id": "CZQM_S_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "134.250",
+      "facility_type": "CTR",
+      "profile_id": "CZQM"
+    },
+    {
+      "id": "CZQM_ZV_CTR",
+      "prefixes": ["CZQM"],
+      "frequency": "133.350",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-ZV"]
+    },
+    {
+      "id": "CZQX_1_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "132.300",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQX-1-CTR"]
+    },
+    {
+      "id": "CZQX_2_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "133.000",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQX-2-CTR"]
+    },
+    {
+      "id": "CZQX_3_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "125.075",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQX-3-CTR"]
+    },
+    {
+      "id": "CZQX_4_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "128.175",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQX-4-CTR"]
+    },
+    {
+      "id": "CZQX_5_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "132.050",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQX-5-CTR"]
+    },
+    {
+      "id": "CZQX_6_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "119.850",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQX-6-CTR"]
+    },
+    {
+      "id": "CZQX_7_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "132.500",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQX-7-CTR"]
+    },
+    {
+      "id": "CZQX_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "132.100",
+      "facility_type": "CTR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQX-CTR"]
+    },
+    {
+      "id": "CZQX_G_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "135.150",
+      "facility_type": "CTR",
+      "profile_id": "CZQM"
+    },
+    {
+      "id": "CZQX_O_CTR",
+      "prefixes": ["CZQX"],
+      "frequency": "128.075",
+      "facility_type": "CTR",
+      "profile_id": "CZQM"
+    },
+    {
+      "id": "CYHZ_APP",
+      "prefixes": ["CYHZ"],
+      "frequency": "119.200",
+      "facility_type": "APP",
+      "profile_id": "CYHZ",
+      "default_call_sources": ["CYHZ-TMA"]
+    },
+    {
+      "id": "CYHZ_FI_APP",
+      "prefixes": ["CYHZ"],
+      "frequency": "128.550",
+      "facility_type": "APP",
+      "profile_id": "CYHZ",
+      "default_call_sources": ["CYHZ-TMA-FI"]
+    },
+    {
+      "id": "CYQM_APP",
+      "prefixes": ["CYQM"],
+      "frequency": "124.400",
+      "facility_type": "APP",
+      "profile_id": "CYQM-APP",
+      "default_call_sources": ["CZQM-QM"]
+    },
+    {
+      "id": "CYQX_APP",
+      "prefixes": ["CYQX"],
+      "frequency": "128.500",
+      "facility_type": "APP",
+      "profile_id": "CYQX",
+      "default_call_sources": ["CYQX-APP"]
+    },
+    {
+      "id": "CYSJ_APP",
+      "prefixes": ["CYSJ"],
+      "frequency": "124.300",
+      "facility_type": "APP",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CZQM-SJ"]
+    },
+    {
+      "id": "CYYR_APP",
+      "prefixes": ["CYYR"],
+      "frequency": "119.500",
+      "facility_type": "APP",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYYR-APP"]
+    },
+    {
+      "id": "CYYT_APP",
+      "prefixes": ["CYYT"],
+      "frequency": "133.150",
+      "facility_type": "APP",
+      "profile_id": "CYYT",
+      "default_call_sources": ["CYYT-APP"]
+    },
+    {
+      "id": "CYZX_APP",
+      "prefixes": ["CYZX"],
+      "frequency": "120.600",
+      "facility_type": "APP",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYZX-TMA"]
+    },
+    {
+      "id": "CZQM_L_APP",
+      "prefixes": ["CZQM"],
+      "frequency": "124.400",
+      "facility_type": "APP",
+      "profile_id": "CZQM-L",
+      "default_call_sources": ["CZQM-L"]
+    },
+    {
+      "id": "CYFC_TWR",
+      "prefixes": ["CYFC"],
+      "frequency": "119.000",
+      "facility_type": "TWR",
+      "profile_id": "CYFC",
+      "default_call_sources": ["CYFC-TWR"]
+    },
+    {
+      "id": "CYHZ_TWR",
+      "prefixes": ["CYHZ"],
+      "frequency": "118.400",
+      "facility_type": "TWR",
+      "profile_id": "CYHZ",
+      "default_call_sources": ["CYHZ-TWR"]
+    },
+    {
+      "id": "CYQM_TWR",
+      "prefixes": ["CYQM"],
+      "frequency": "120.800",
+      "facility_type": "TWR",
+      "profile_id": "CYQM",
+      "default_call_sources": ["CYQM-TWR"]
+    },
+    {
+      "id": "CYQX_TWR",
+      "prefixes": ["CYQX"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "profile_id": "CYQX",
+      "default_call_sources": ["CYQX-TWR"]
+    },
+    {
+      "id": "CYYR_TWR",
+      "prefixes": ["CYYR"],
+      "frequency": "119.100",
+      "facility_type": "TWR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYYR-TWR"]
+    },
+    {
+      "id": "CYYT_TWR",
+      "prefixes": ["CYYT"],
+      "frequency": "120.600",
+      "facility_type": "TWR",
+      "profile_id": "CYYT",
+      "default_call_sources": ["CYYT-TWR"]
+    },
+    {
+      "id": "CYZX_TWR",
+      "prefixes": ["CYZX"],
+      "frequency": "119.500",
+      "facility_type": "TWR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYZX-TWR"]
+    },
+    {
+      "id": "CYFC_GND",
+      "prefixes": ["CYFC"],
+      "frequency": "121.700",
+      "facility_type": "GND",
+      "profile_id": "CYFC",
+      "default_call_sources": ["CYFC-GND"]
+    },
+    {
+      "id": "CYHZ_GND",
+      "prefixes": ["CYHZ"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "CYHZ",
+      "default_call_sources": ["CYHZ-GND"]
+    },
+    {
+      "id": "CYQM_GND",
+      "prefixes": ["CYQM"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "profile_id": "CYQM",
+      "default_call_sources": ["CYQM-GND"]
+    },
+    {
+      "id": "CYQX_GND",
+      "prefixes": ["CYQX"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "CYQX",
+      "default_call_sources": ["CYQX-GND"]
+    },
+    {
+      "id": "CYYR_GND",
+      "prefixes": ["CYYR"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYYR-GND"]
+    },
+    {
+      "id": "CYYT_GND",
+      "prefixes": ["CYYT"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "CYYT",
+      "default_call_sources": ["CYYT-GND"]
+    },
+    {
+      "id": "CYZX_GND",
+      "prefixes": ["CYZX"],
+      "frequency": "133.750",
+      "facility_type": "GND",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYZX-GND"]
+    },
+    {
+      "id": "CYHZ_DEL",
+      "prefixes": ["CYHZ"],
+      "frequency": "123.950",
+      "facility_type": "DEL",
+      "profile_id": "CYHZ",
+      "default_call_sources": ["CYHZ-DEL"]
+    },
+    {
+      "id": "CYYR_DEL",
+      "prefixes": ["CYYR"],
+      "frequency": "118.100",
+      "facility_type": "DEL",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYYR-DEL"]
+    },
+    {
+      "id": "CYZX_DEL",
+      "prefixes": ["CYZX"],
+      "frequency": "128.025",
+      "facility_type": "DEL",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYZX-DEL"]
+    },
+    {
+      "id": "CYSJ_F_TWR",
+      "prefixes": ["CYSJ"],
+      "frequency": "118.500",
+      "facility_type": "TWR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYSJ-MF"]
+    },
+    {
+      "id": "CYYG_F_TWR",
+      "prefixes": ["CYYG"],
+      "frequency": "118.000",
+      "facility_type": "TWR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYYG-MF"]
+    },
+    {
+      "id": "LFVP_APP",
+      "prefixes": ["LFVP"],
+      "frequency": "119.100",
+      "facility_type": "APP",
+      "profile_id": "LFVP",
+      "default_call_sources": ["LFVP-APP"]
+    },
+    {
+      "id": "LFVP_TWR",
+      "prefixes": ["LFVP"],
+      "frequency": "118.500",
+      "facility_type": "TWR",
+      "profile_id": "LFVP",
+      "default_call_sources": ["LFVP-TWR"]
+    },
+    {
+      "id": "CYDF_F_TWR",
+      "prefixes": ["CYDF"],
+      "frequency": "122.200",
+      "facility_type": "TWR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYDF-MF"]
+    },
+    {
+      "id": "CYJT_F_TWR",
+      "prefixes": ["CYJT"],
+      "frequency": "122.100",
+      "facility_type": "TWR",
+      "profile_id": "CZQM",
+      "default_call_sources": ["CYJT-MF"]
+    }
+  ]
+}

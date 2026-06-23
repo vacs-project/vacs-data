@@ -1,0 +1,326 @@
+[[stations]]
+id = "LFBB_BN"
+controlled_by = ["LFBB_CTR"]
+
+[[stations]]
+id = "LFBB_H1"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBB_H1_CTR", "LFBB_US_CTR"]
+
+[[stations]]
+id = "LFBB_L1"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBB_L1_CTR", "LFBB_UN_CTR"]
+
+[[stations]]
+id = "LFBB_LM"
+controlled_by = ["LFBB_CTR"]
+
+[[stations]]
+id = "LFBB_N1"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBB_N1_CTR", "LFBB_US_CTR"]
+
+[[stations]]
+id = "LFBB_P1"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBB_P1_CTR", "LFBB_UN_CTR"]
+
+[[stations]]
+id = "LFBB_R1"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBB_R1_CTR", "LFBB_UN_CTR"]
+
+[[stations]]
+id = "LFBB_T1"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBB_T1_CTR", "LFBB_UN_CTR"]
+
+[[stations]]
+id = "LFBB_TG"
+controlled_by = ["LFBB_CTR"]
+
+[[stations]]
+id = "LFBB_TZ"
+controlled_by = ["LFBB_CTR"]
+
+[[stations]]
+id = "LFBB_X1"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBB_X1_CTR", "LFBB_US_CTR"]
+
+[[stations]]
+id = "LFBB_Z1"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBB_Z1_CTR", "LFBB_US_CTR"]
+
+[[stations]]
+id = "LFBC_APP"
+controlled_by = ["LFBC_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFBD_BW_APP"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBD_BW_APP"]
+
+[[stations]]
+id = "LFBD_BE_APP"
+parent_id = "LFBD_BW_APP"
+controlled_by = ["LFBD_BE_APP"]
+
+[[stations]]
+id = "LFBD_I_APP"
+parent_id = "LFBD_BW_APP"
+controlled_by = ["LFBD_I_APP"]
+
+[[stations]]
+id = "LFBG_APP"
+controlled_by = ["LFBG_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFBH_APP"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBH_APP"]
+
+[[stations]]
+id = "LFBI_APP"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBI_APP"]
+
+[[stations]]
+id = "LFBI_I_APP"
+parent_id = "LFBI_APP"
+controlled_by = ["LFBI_I_APP"]
+
+[[stations]]
+id = "LFBL_APP"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBL_APP"]
+
+[[stations]]
+id = "LFBL_I_APP"
+parent_id = "LFBL_APP"
+controlled_by = ["LFBL_I_APP"]
+
+[[stations]]
+id = "LFBM_APP"
+controlled_by = ["LFBM_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFBO_AE_APP"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBO_AE_APP"]
+
+[[stations]]
+id = "LFBO_AW_APP"
+parent_id = "LFBO_AE_APP"
+controlled_by = ["LFBO_AW_APP"]
+
+[[stations]]
+id = "LFBO_EB_APP"
+parent_id = "LFBO_AE_APP"
+controlled_by = ["LFBO_EB_APP"]
+
+[[stations]]
+id = "LFBO_WB_APP"
+parent_id = "LFBO_AW_APP"
+controlled_by = ["LFBO_WB_APP", "LFBO_EB_APP"]
+
+[[stations]]
+id = "LFBO_I_APP"
+parent_id = "LFBO_AE_APP"
+controlled_by = ["LFBO_I_APP"]
+
+[[stations]]
+id = "LFBO_F_APP"
+parent_id = "LFBO_AE_APP"
+controlled_by = ["LFBO_F_APP"]
+
+[[stations]]
+id = "LFBP_APP"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBP_APP"]
+
+[[stations]]
+id = "LFBP_I_APP"
+parent_id = "LFBP_APP"
+controlled_by = ["LFBP_I_APP"]
+
+[[stations]]
+id = "LFBY_APP"
+controlled_by = ["LFBY_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFBZ_APP"
+parent_id = "LFBP_APP"
+controlled_by = ["LFBZ_APP"]
+
+[[stations]]
+id = "LFBZ_I_APP"
+parent_id = "LFBB_BN"
+controlled_by = ["LFBZ_I_APP", "LFBZ_APP"]
+
+[[stations]]
+id = "LFBA_TWR"
+parent_id = "LFBO_WB_APP"
+controlled_by = ["LFBA_TWR"]
+
+[[stations]]
+id = "LFBC_TWR"
+parent_id = "LFBC_APP"
+controlled_by = ["LFBC_TWR"]
+
+[[stations]]
+id = "LFBD_TWR"
+parent_id = "LFBD_BW_APP"
+controlled_by = ["LFBD_TWR"]
+
+[[stations]]
+id = "LFBE_TWR"
+parent_id = "LFBD_BE_APP"
+controlled_by = ["LFBE_TWR"]
+
+[[stations]]
+id = "LFBG_TWR"
+parent_id = "LFBG_APP"
+controlled_by = ["LFBG_TWR"]
+
+[[stations]]
+id = "LFBH_TWR"
+parent_id = "LFBH_APP"
+controlled_by = ["LFBH_TWR"]
+
+[[stations]]
+id = "LFBI_TWR"
+parent_id = "LFBI_APP"
+controlled_by = ["LFBI_TWR"]
+
+[[stations]]
+id = "LFBL_TWR"
+parent_id = "LFBL_APP"
+controlled_by = ["LFBL_TWR"]
+
+[[stations]]
+id = "LFBM_TWR"
+parent_id = "LFBM_APP"
+controlled_by = ["LFBM_TWR"]
+
+[[stations]]
+id = "LFBN_I_TWR"
+parent_id = "LFBI_APP"
+controlled_by = ["LFBN_I_TWR"]
+
+[[stations]]
+id = "LFBO_TWR"
+parent_id = "LFBO_AE_APP"
+controlled_by = ["LFBO_TWR"]
+
+[[stations]]
+id = "LFBO_I_GND"
+parent_id = "LFBO_TWR"
+controlled_by = ["LFBO_I_GND"]
+
+[[stations]]
+id = "LFBP_TWR"
+parent_id = "LFBP_APP"
+controlled_by = ["LFBP_TWR"]
+
+[[stations]]
+id = "LFBR_TWR"
+parent_id = "LFBO_AW_APP"
+controlled_by = ["LFBR_TWR"]
+
+[[stations]]
+id = "LFBT_TWR"
+parent_id = "LFBP_APP"
+controlled_by = ["LFBT_TWR"]
+
+[[stations]]
+id = "LFBU_I_TWR"
+parent_id = "LFBL_APP"
+controlled_by = ["LFBU_I_TWR"]
+
+[[stations]]
+id = "LFBY_TWR"
+parent_id = "LFBM_APP"
+controlled_by = ["LFBY_TWR"]
+
+[[stations]]
+id = "LFBZ_TWR"
+parent_id = "LFBZ_APP"
+controlled_by = ["LFBZ_TWR"]
+
+[[stations]]
+id = "LFCK_I_TWR"
+parent_id = "LFBO_EB_APP"
+controlled_by = ["LFCK_I_TWR"]
+
+[[stations]]
+id = "LFCL_TWR"
+parent_id = "LFBO_AE_APP"
+controlled_by = ["LFCL_TWR"]
+
+[[stations]]
+id = "LFDN_I_TWR"
+parent_id = "LFBH_APP"
+controlled_by = ["LFDN_I_TWR"]
+
+[[stations]]
+id = "LFLX_TWR"
+parent_id = "LFBI_APP"
+controlled_by = ["LFLX_TWR"]
+
+[[stations]]
+id = "LFMK_TWR"
+parent_id = "LFBO_EB_APP"
+controlled_by = ["LFMK_TWR"]
+
+[[stations]]
+id = "LFSL_TWR"
+parent_id = "LFBL_APP"
+controlled_by = ["LFSL_TWR"]
+
+[[stations]]
+id = "LFBD_GND"
+parent_id = "LFBD_TWR"
+controlled_by = ["LFBD_GND"]
+
+[[stations]]
+id = "LFBG_GND"
+parent_id = "LFBG_TWR"
+controlled_by = ["LFBG_GND"]
+
+[[stations]]
+id = "LFBO_GND"
+parent_id = "LFBO_TWR"
+controlled_by = ["LFBO_GND"]
+
+[[stations]]
+id = "LFBP_GND"
+parent_id = "LFBP_TWR"
+controlled_by = ["LFBP_GND"]
+
+[[stations]]
+id = "LFBR_GND"
+parent_id = "LFBR_TWR"
+controlled_by = ["LFBR_GND"]
+
+[[stations]]
+id = "LFBT_GND"
+parent_id = "LFBT_TWR"
+controlled_by = ["LFBT_GND"]
+
+[[stations]]
+id = "LFBY_GND"
+parent_id = "LFBY_TWR"
+controlled_by = ["LFBY_GND"]
+
+[[stations]]
+id = "LFBZ_GND"
+parent_id = "LFBZ_TWR"
+controlled_by = ["LFBZ_GND"]
+
+[[stations]]
+id = "LFBO_DEL"
+parent_id = "LFBO_GND"
+controlled_by = ["LFBO_DEL"]

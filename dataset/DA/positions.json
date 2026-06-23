@@ -1,0 +1,368 @@
+{
+  "positions": [
+    {
+      "id": "DAAA_FMP",
+      "prefixes": ["DAAA"],
+      "frequency": "199.998",
+      "facility_type": "FMP",
+      "default_call_sources": ["DAAA_FMP"]
+    },
+    {
+      "id": "DAAA_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "124.900",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_CTR"]
+    },
+    {
+      "id": "DAAA_C_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "132.450",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_C_CTR"]
+    },
+    {
+      "id": "DAAA_E_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "133.800",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_E_CTR"]
+    },
+    {
+      "id": "DAAA_NC_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "127.300",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_NC_CTR"]
+    },
+    {
+      "id": "DAAA_NE_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "125.400",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_NE_CTR"]
+    },
+    {
+      "id": "DAAA_NW_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "125.700",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_NW_CTR"]
+    },
+    {
+      "id": "DAAA_SC_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "131.300",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_SC_CTR"]
+    },
+    {
+      "id": "DAAA_SE_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "124.100",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_SE_CTR"]
+    },
+    {
+      "id": "DAAA_SS_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "123.800",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_SS_CTR"]
+    },
+    {
+      "id": "DAAA_SW_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "128.100",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_SW_CTR"]
+    },
+    {
+      "id": "DAAA_W_CTR",
+      "prefixes": ["DAAA"],
+      "frequency": "120.450",
+      "facility_type": "CTR",
+      "default_call_sources": ["DAAA_W_CTR"]
+    },
+    {
+      "id": "DAAG_APP",
+      "prefixes": ["DAAG"],
+      "frequency": "121.400",
+      "facility_type": "APP",
+      "default_call_sources": ["DAAG_APP"]
+    },
+    {
+      "id": "DABB_APP",
+      "prefixes": ["DABB"],
+      "frequency": "119.000",
+      "facility_type": "APP",
+      "default_call_sources": ["DABB_APP"]
+    },
+    {
+      "id": "DABC_APP",
+      "prefixes": ["DABC"],
+      "frequency": "120.100",
+      "facility_type": "APP",
+      "default_call_sources": ["DABC_APP"]
+    },
+    {
+      "id": "DAOO_APP",
+      "prefixes": ["DAOO"],
+      "frequency": "128.200",
+      "facility_type": "APP",
+      "default_call_sources": ["DAOO_APP"]
+    },
+    {
+      "id": "DAUH_APP",
+      "prefixes": ["DAUH"],
+      "frequency": "120.000",
+      "facility_type": "APP",
+      "default_call_sources": ["DAUH_APP"]
+    },
+    {
+      "id": "DAAD_TWR",
+      "prefixes": ["DAAD"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAAD_TWR"]
+    },
+    {
+      "id": "DAAE_TWR",
+      "prefixes": ["DAAE"],
+      "frequency": "118.900",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAAE_TWR"]
+    },
+    {
+      "id": "DAAG_TWR",
+      "prefixes": ["DAAG"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAAG_TWR"]
+    },
+    {
+      "id": "DAAJ_TWR",
+      "prefixes": ["DAAJ"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAAJ_TWR"]
+    },
+    {
+      "id": "DAAP_TWR",
+      "prefixes": ["DAAP"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAAP_TWR"]
+    },
+    {
+      "id": "DAAS_TWR",
+      "prefixes": ["DAAS"],
+      "frequency": "119.900",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAAS_TWR"]
+    },
+    {
+      "id": "DAAT_TWR",
+      "prefixes": ["DAAT"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAAT_TWR"]
+    },
+    {
+      "id": "DAAV_TWR",
+      "prefixes": ["DAAV"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAAV_TWR"]
+    },
+    {
+      "id": "DABB_TWR",
+      "prefixes": ["DABB"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DABB_TWR"]
+    },
+    {
+      "id": "DABC_TWR",
+      "prefixes": ["DABC"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "default_call_sources": ["DABC_TWR"]
+    },
+    {
+      "id": "DABS_TWR",
+      "prefixes": ["DABS"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DABS_TWR"]
+    },
+    {
+      "id": "DABT_TWR",
+      "prefixes": ["DABT"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DABT_TWR"]
+    },
+    {
+      "id": "DAOB_TWR",
+      "prefixes": ["DAOB"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAOB_TWR"]
+    },
+    {
+      "id": "DAOF_TWR",
+      "prefixes": ["DAOF"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAOF_TWR"]
+    },
+    {
+      "id": "DAOI_TWR",
+      "prefixes": ["DAOI"],
+      "frequency": "119.000",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAOI_TWR"]
+    },
+    {
+      "id": "DAON_TWR",
+      "prefixes": ["DAON"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAON_TWR"]
+    },
+    {
+      "id": "DAOO_TWR",
+      "prefixes": ["DAOO"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAOO_TWR"]
+    },
+    {
+      "id": "DAOR_TWR",
+      "prefixes": ["DAOR"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAOR_TWR"]
+    },
+    {
+      "id": "DAOV_TWR",
+      "prefixes": ["DAOV"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAOV_TWR"]
+    },
+    {
+      "id": "DAOY_TWR",
+      "prefixes": ["DAOY"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAOY_TWR"]
+    },
+    {
+      "id": "DATG_TWR",
+      "prefixes": ["DATG"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DATG_TWR"]
+    },
+    {
+      "id": "DATM_TWR",
+      "prefixes": ["DATM"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DATM_TWR"]
+    },
+    {
+      "id": "DAUA_TWR",
+      "prefixes": ["DAUA"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUA_TWR"]
+    },
+    {
+      "id": "DAUB_TWR",
+      "prefixes": ["DAUB"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUB_TWR"]
+    },
+    {
+      "id": "DAUE_TWR",
+      "prefixes": ["DAUE"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUE_TWR"]
+    },
+    {
+      "id": "DAUG_TWR",
+      "prefixes": ["DAUG"],
+      "frequency": "118.900",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUG_TWR"]
+    },
+    {
+      "id": "DAUH_TWR",
+      "prefixes": ["DAUH"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUH_TWR"]
+    },
+    {
+      "id": "DAUI_TWR",
+      "prefixes": ["DAUI"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUI_TWR"]
+    },
+    {
+      "id": "DAUK_TWR",
+      "prefixes": ["DAUK"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUK_TWR"]
+    },
+    {
+      "id": "DAUO_TWR",
+      "prefixes": ["DAUO"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUO_TWR"]
+    },
+    {
+      "id": "DAUT_TWR",
+      "prefixes": ["DAUT"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUT_TWR"]
+    },
+    {
+      "id": "DAUU_TWR",
+      "prefixes": ["DAUU"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUU_TWR"]
+    },
+    {
+      "id": "DAUZ_TWR",
+      "prefixes": ["DAUZ"],
+      "frequency": "119.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["DAUZ_TWR"]
+    },
+    {
+      "id": "DAAG_GND",
+      "prefixes": ["DAAG"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "default_call_sources": ["DAAG_GND"]
+    },
+    {
+      "id": "DABC_GND",
+      "prefixes": ["DABC"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "default_call_sources": ["DABC_GND"]
+    }
+  ]
+}

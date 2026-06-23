@@ -8,16 +8,20 @@
         "rows": 6,
         "keys": [
           {
-            "label": ["PRA", "LW", "EC"]
+            "label": ["PRA", "LW", "EC"],
+            "station_id": "LKAA WL"
           },
           {
-            "label": ["PRA", "LS", "EC"]
+            "label": ["PRA", "LS", "EC"],
+            "station_id": "LKAA SL"
           },
           {
-            "label": ["PRA", "TB", "EC"]
+            "label": ["PRA", "TB", "EC"],
+            "station_id": "LKAA TB"
           },
           {
-            "label": ["PRA", "KV", "EC"]
+            "label": ["PRA", "KV", "EC"],
+            "station_id": "LKAA KV"
           },
           {
             "label": ["APP", "VD1"],
@@ -128,16 +132,20 @@
         "rows": 6,
         "keys": [
           {
-            "label": ["PRA", "LW", "PLC"]
+            "label": ["PRA", "LW", "PLC"],
+            "station_id": "LKAA WL"
           },
           {
-            "label": ["PRA", "LS", "PLC"]
+            "label": ["PRA", "LS", "PLC"],
+            "station_id": "LKAA SL"
           },
           {
-            "label": ["PRA", "TB", "PLC"]
+            "label": ["PRA", "TB", "PLC"],
+            "station_id": "LKAA TB"
           },
           {
-            "label": ["PRA", "KV", "PLC"]
+            "label": ["PRA", "KV", "PLC"],
+            "station_id": "LKAA KV"
           },
           {
             "label": ["APP", "SAP"]
@@ -254,7 +262,8 @@
             "station_id": "LOAV_TWR"
           },
           {
-            "label": ["PRA", "FIC", "WEST"]
+            "label": ["PRA", "FIC", "WEST"],
+            "station_id": "LKAA FIC"
           },
           {
             "label": ["APP", "SAP"]
@@ -276,7 +285,8 @@
             "station_id": "LOAN_TWR"
           },
           {
-            "label": ["PRA", "FIC", "EAST"]
+            "label": ["PRA", "FIC", "EAST"],
+            "station_id": "LKAA FIC"
           },
           {
             "label": ["ARO"]
@@ -297,10 +307,12 @@
             "label": ["LOXN", "TWR"]
           },
           {
-            "label": ["PRA", "FIC", "MOR"]
+            "label": ["PRA", "FIC", "MOR"],
+            "station_id": "LKAA FIC"
           },
           {
-            "label": ["PRA", "TB", "PLC"]
+            "label": ["PRA", "TB", "PLC"],
+            "station_id": "LKAA TB"
           },
           {
             "label": ["APP", "TFI", "EC"],

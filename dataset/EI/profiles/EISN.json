@@ -1,0 +1,289 @@
+{
+  "id": "EISN",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EISN"],
+      "page": {
+        "rows": 8,
+        "keys": [
+          {
+            "label": ["LIFFY", ""],
+            "color": "mint",
+            "station_id": "EISN_E_CTR"
+          },
+          {
+            "label": ["BANBA"],
+            "color": "mint",
+            "station_id": "EISN_B_CTR"
+          },
+          {
+            "label": ["SOTA"],
+            "color": "mint",
+            "station_id": "EISN_S_CTR"
+          },
+          {
+            "label": ["NOTA"],
+            "color": "mint",
+            "station_id": "EISN_N_CTR"
+          },
+          {
+            "label": ["WEST"],
+            "color": "mint",
+            "station_id": "EISN_W_CTR"
+          },
+          {
+            "label": ["OCEAN"],
+            "color": "mint",
+            "station_id": "EISN_O_CTR"
+          },
+          {
+            "label": ["DEVOL"],
+            "color": "mint",
+            "station_id": "EISN_D_CTR"
+          },
+          {
+            "label": ["SHNW", ""],
+            "color": "cadet",
+            "station_id": "Shanwick"
+          },
+          {
+            "label": ["LIFFY", "Super"],
+            "color": "mint",
+            "station_id": "EISN_ES_CTR"
+          },
+          {
+            "label": ["BANBA", "Super"],
+            "color": "mint",
+            "station_id": "EISN_BS_CTR"
+          },
+          {
+            "label": ["SOTA", "Super"],
+            "color": "mint",
+            "station_id": "EISN_SS_CTR"
+          },
+          {
+            "label": ["NOTA", "Super"],
+            "color": "mint",
+            "station_id": "EISN_NS_CTR"
+          },
+          {
+            "label": ["WEST", "Super"],
+            "color": "mint",
+            "station_id": "EISN_WS_CTR"
+          },
+          {
+            "label": ["EISN", "LOW"],
+            "color": "mint",
+            "station_id": "EISN_LS_CTR"
+          },
+          {
+            "label": ["EISN", "INFO"],
+            "color": "mint",
+            "station_id": "EISN_I_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DUB", "UN"],
+            "color": "azure",
+            "station_id": "EIDW_UN_CTR"
+          },
+          {
+            "label": ["DUB", "US"],
+            "color": "azure",
+            "station_id": "EIDW_US_CTR"
+          },
+          {
+            "label": ["DUB", "APP"],
+            "color": "azure",
+            "station_id": "EIDW_APP"
+          },
+          {
+            "label": ["DUB", "TWR N"],
+            "color": "azure",
+            "station_id": "EIDW_N_TWR"
+          },
+          {
+            "label": ["DUB", "TWR S"],
+            "color": "azure",
+            "station_id": "EIDW_S_TWR"
+          },
+          {
+            "label": ["DUB", "DEL"],
+            "color": "azure",
+            "station_id": "EIDW_DEL"
+          },
+          {
+            "label": ["BAL", "RAD"],
+            "color": "clay",
+            "station_id": "EIME_APP"
+          },
+          {
+            "label": ["BRST", "-355"],
+            "color": "steel"
+          },
+          {
+            "label": ["DUB", "LN"],
+            "color": "azure",
+            "station_id": "EIDW_LN_CTR"
+          },
+          {
+            "label": ["DUB", "LS"],
+            "color": "azure",
+            "station_id": "EIDW_LS_CTR"
+          },
+          {
+            "label": ["DUB", "FIN"],
+            "color": "azure",
+            "station_id": "EIDW_F_APP"
+          },
+          {
+            "label": ["DUB", "GND N"],
+            "color": "azure",
+            "station_id": "EIDW_N_GND"
+          },
+          {
+            "label": ["DUB", "GND S"],
+            "color": "azure",
+            "station_id": "EIDW_S_GND"
+          },
+          {
+            "label": ["DUB", "INFO"],
+            "color": "azure",
+            "station_id": "EIDW_I_CTR"
+          },
+          {
+            "label": ["BAL", "TWR"],
+            "color": "clay",
+            "station_id": "EIME_TWR"
+          },
+          {
+            "label": ["BRST", "+355"],
+            "color": "steel"
+          },
+          {
+            "label": ["EINN", "APP"],
+            "color": "lilac",
+            "station_id": "EINN_APP"
+          },
+          {
+            "label": ["EICK", "APP"],
+            "color": "blush",
+            "station_id": "EICK_APP"
+          },
+          {
+            "label": ["RATH", "W"],
+            "color": "lagoon",
+            "station_id": "EG-Rathlin"
+          },
+          {
+            "label": ["ANTRIM", ""],
+            "color": "lagoon",
+            "station_id": "EG-Antrim"
+          },
+          {
+            "label": ["LON", "4"],
+            "color": "taupe",
+            "station_id": "EG-Sector-04"
+          },
+          {
+            "label": ["LON", "35"],
+            "color": "taupe",
+            "station_id": "EG-Sector-35"
+          },
+          {
+            "label": ["LON", "9"],
+            "color": "taupe",
+            "station_id": "EG-Sector-09"
+          },
+          {
+            "label": ["LON", "FIS"],
+            "color": "umber",
+            "station_id": "EGTT_I_CTR"
+          },
+          {
+            "label": ["EINN", "TWR"],
+            "color": "lilac",
+            "station_id": "EINN_TWR"
+          },
+          {
+            "label": ["EICK", "TWR"],
+            "color": "blush",
+            "station_id": "EICK_TWR"
+          },
+          {
+            "label": ["SCO", "LOW"],
+            "color": "lagoon",
+            "station_id": "EG-Westcoast-Rathlin"
+          },
+          {
+            "label": ["SCO", "IOM"],
+            "color": "lagoon",
+            "station_id": "EG-MPC-IoM"
+          },
+          {
+            "label": ["LON", "7"],
+            "color": "taupe",
+            "station_id": "EG-Sector-07"
+          },
+          {
+            "label": ["LON", "8"],
+            "color": "taupe",
+            "station_id": "EG-Sector-08"
+          },
+          {
+            "label": ["WSTRN", "RAD"],
+            "color": "taupe"
+          },
+          {
+            "label": ["RAF", "VALLEY"],
+            "color": "umber",
+            "station_id": "EGOV_APP"
+          },
+          {
+            "label": ["EINN", "GND"],
+            "color": "lilac",
+            "station_id": "EINN_GND"
+          },
+          {
+            "label": ["EICK", "GND"],
+            "color": "blush",
+            "station_id": "EICK_GND"
+          },
+          {
+            "label": ["EIDL"],
+            "color": "snow",
+            "station_id": "EIDL_TWR"
+          },
+          {
+            "label": ["EISG"],
+            "color": "snow",
+            "station_id": "EISG_TWR"
+          },
+          {
+            "label": ["EIKN"],
+            "color": "snow",
+            "station_id": "EIKN_TWR"
+          },
+          {
+            "label": ["EIKY"],
+            "color": "snow",
+            "station_id": "EIKY_TWR"
+          },
+          {
+            "label": ["", "EIWF"],
+            "color": "snow",
+            "station_id": "EIWF_TWR"
+          },
+          {
+            "label": ["EIWT"],
+            "color": "snow",
+            "station_id": "EIWT_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

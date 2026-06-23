@@ -1,0 +1,242 @@
+{
+  "id": "GMAC",
+  "type": "Geo",
+  "direction": "row",
+  "padding": 0.5,
+  "gap": 0.5,
+  "children": [
+    {
+      "direction": "col",
+      "width": "65%",
+      "justify_content": "center",
+      "gap": 0.5,
+      "children": [
+        {
+          "direction": "row",
+          "justify_content": "space-evenly",
+          "children": [
+            {
+              "label": ["ON"],
+              "size": 16.2,
+              "station_id": "GMAC_ON_CTR"
+            },
+            {
+              "label": ["WN"],
+              "size": 16.2,
+              "station_id": "GMAC_WN_CTR"
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "justify_content": "space-evenly",
+          "children": [
+            {
+              "label": ["OS"],
+              "size": 16.2,
+              "station_id": "GMAC_OS_CTR"
+            },
+            {
+              "label": ["WS"],
+              "size": 16.2,
+              "station_id": "GMAC_WS_CTR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orientation": "vertical",
+      "thickness": 5,
+      "color": "#364153",
+      "oversize": 0.5
+    },
+    {
+      "direction": "col",
+      "width": "33%",
+      "height": "100%",
+      "padding_left": 0.9,
+      "gap": 1,
+      "justify_content": "space-between",
+      "children": [
+        {
+          "label": ["LPPC"],
+          "color": "steel",
+          "size": 7,
+          "page": {
+            "rows": 2,
+            "keys": [
+              {
+                "label": []
+              },
+              {
+                "label": ["Lisboa", "MADEIRA"],
+                "station_id": "LPPC_I_CTR",
+                "color": "steel"
+              },
+              {
+                "label": ["Lisboa", "WEST", "365+"],
+                "station_id": "LPPC_WU_CTR",
+                "color": "cadet"
+              },
+              {
+                "label": ["Lisboa", "WEST", "365-"],
+                "station_id": "LPPC_W_CTR",
+                "color": "steel"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["Lisboa", "SOUTH"],
+                "station_id": "LPPC_S_CTR",
+                "color": "steel"
+              }
+            ]
+          }
+        },
+        {
+          "label": ["GCCC", "[INOP]"],
+          "color": "azure",
+          "size": 7,
+          "page": {
+            "rows": 2,
+            "keys": [
+              {
+                "label": ["Canarias", "RW3"]
+              },
+              {
+                "label": [],
+                "color": "snow"
+              },
+              {
+                "label": ["Canarias", "RCW"]
+              },
+              {
+                "label": [],
+                "color": "snow"
+              },
+              {
+                "label": ["Canarias", "RCE"]
+              },
+              {
+                "label": ["GCRR", "TWR"]
+              },
+              {
+                "label": ["Canarias", "RNE"]
+              },
+              {
+                "label": ["GCRR", "APP"]
+              }
+            ]
+          }
+        },
+        {
+          "label": ["LECS", "SM2", "[INOP]"],
+          "color": "lagoon",
+          "size": 7
+        },
+        {
+          "label": ["GMMM"],
+          "color": "mint",
+          "size": 7,
+          "page": {
+            "rows": 4,
+            "keys": [
+              {
+                "label": ["Casa", "North"],
+                "color": "cadet",
+                "station_id": "GMMM_N_CTR"
+              },
+              {
+                "label": ["Casa", "Radar"],
+                "color": "mint",
+                "station_id": "GMMN_CTR"
+              },
+              {
+                "label": ["Casa", "West"],
+                "color": "cadet",
+                "station_id": "GMMM_W_CTR"
+              },
+              {
+                "label": ["Casa", "South"],
+                "color": "cadet",
+                "station_id": "GMMM_S_CTR"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["GMMM", "FLOW"],
+                "color": "blush",
+                "station_id": "GMMM_FMP"
+              },
+              {
+                "label": ["GMMN", "FLOW", "1"],
+                "color": "blush",
+                "station_id": "GMMN_2_FMP"
+              },
+              {
+                "label": ["GMMN", "FLOW", "2"],
+                "color": "blush",
+                "station_id": "GMMN_2_FMP"
+              },
+              {
+                "label": ["GMMN", "FLOW", "3"],
+                "color": "blush",
+                "station_id": "GMMN_3_FMP"
+              },
+              {
+                "label": ["GMMN", "FLOW", "4"],
+                "color": "blush",
+                "station_id": "GMMN_4_FMP"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

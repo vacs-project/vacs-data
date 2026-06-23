@@ -1,0 +1,83 @@
+{
+  "id": "DTNH",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["Enfida", "Brgiba"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["GND"],
+            "station_id": "DTNH_GND"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "DTNH_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["APP"],
+            "station_id": "DTNH_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Carthage", "Upper"],
+            "station_id": "DTTA_U_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MB", "TWR"],
+            "color": "lagoon",
+            "station_id": "DTMB_TWR"
+          },
+          {
+            "label": ["DTTA", "APP"],
+            "station_id": "DTTA_APP"
+          },
+          {
+            "label": ["DTTC", "NORTH"],
+            "color": "taupe",
+            "station_id": "DTTC_N_CTR"
+          },
+          {
+            "label": ["DTTC", "SOUTH"],
+            "color": "taupe",
+            "station_id": "DTTC_S_CTR"
+          },
+          {
+            "label": ["DTTC", "INFO"],
+            "color": "umber",
+            "station_id": "DTTC_I_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DTTC", "FLOW"],
+            "color": "blush",
+            "station_id": "DTTC_FMP"
+          }
+        ]
+      }
+    }
+  ]
+}

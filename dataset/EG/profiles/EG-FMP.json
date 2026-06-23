@@ -1,0 +1,94 @@
+{
+  "id": "EG-FMP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["SUP", "FMP"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": [
+            "LON_GS*",
+            "LTC_GS*",
+            "MAN_GS*",
+            "SCO_GS*",
+            "SCL_GS*",
+            "*FMP"
+          ],
+          "exclude": [],
+          "priority": [
+            "*GS*CTR",
+            "UK_*",
+            "SCO*",
+            "SCL*",
+            "MAN*",
+            "LON*",
+            "LTC*",
+            "*_FMP"
+          ],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    },
+    {
+      "label": "Scottish",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": ["SCO_*", "SCL_*", "EGA*", "EGP*"],
+          "exclude": ["*FMP", "*GS*CTR"],
+          "priority": ["*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    },
+    {
+      "label": "London",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "LON_*",
+            "LTC_*",
+            "EG*_*",
+            "SOLENT*",
+            "THAMES*",
+            "ESSEX*"
+          ],
+          "exclude": ["*FMP", "*GS*CTR", "EGA*", "EGP*"],
+          "priority": ["*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    },
+    {
+      "label": "External",
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "BI*",
+            "EGGX*",
+            "CZQO*",
+            "NAT*",
+            "EN*",
+            "EK*",
+            "ED*",
+            "EH*",
+            "EB*",
+            "LF*",
+            "PAR*",
+            "EI*"
+          ],
+          "exclude": ["*FMP"],
+          "priority": ["*_FSS", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "FirAndIcao"
+        }
+      }
+    }
+  ]
+}

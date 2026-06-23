@@ -5,7 +5,8 @@
       "prefixes": ["TQPF"],
       "frequency": "118.500",
       "facility_type": "TWR",
-      "profile_id": "TQPF"
+      "profile_id": "TQPF",
+      "default_call_sources": ["TQPF_TWR"]
     }
   ]
 }

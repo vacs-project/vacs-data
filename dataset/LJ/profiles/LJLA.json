@@ -1,0 +1,274 @@
+{
+  "id": "LJLA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC", "EXT"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["WIEN", "W1"],
+            "station_id": "LOVV_W1"
+          },
+          {
+            "label": ["WIEN", "W2 (UP)"],
+            "station_id": "LOVV_W2"
+          },
+          {
+            "label": ["KLG", "APP"],
+            "station_id": "LOWK_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["WIEN", "S1"],
+            "station_id": "LOVV_S1"
+          },
+          {
+            "label": ["WIEN", "S2 (UP)"],
+            "station_id": "LOVV_S2"
+          },
+          {
+            "label": ["GRAZ", "APP"],
+            "station_id": "LOWG_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PADOVA", "CE0"],
+            "station_id": "LIPP-CE0"
+          },
+          {
+            "label": ["PADOVA", "CE1"],
+            "station_id": "LIPP-CE1"
+          },
+          {
+            "label": ["PADOVA", "CE3"],
+            "station_id": "LIPP-CE3"
+          },
+          {
+            "label": ["PADOVA", "C4"],
+            "station_id": "LIPP-CE4"
+          },
+          {
+            "label": ["PADOVA", "CE6"],
+            "station_id": "LIPP-CE6"
+          },
+          {
+            "label": ["PADOVA", "CE8"],
+            "station_id": "LIPP-CE8"
+          },
+          {
+            "label": ["PADOVA", "NE2"],
+            "station_id": "LIPP-NE2"
+          },
+          {
+            "label": ["PADOVA", "NE3"],
+            "station_id": "LIPP-NE3"
+          },
+          {
+            "label": ["PADOVA", "NE6"],
+            "station_id": "LIPP-NE6"
+          },
+          {
+            "label": ["PADOVA", "NE8"],
+            "station_id": "LIPP-NE8"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ZG", ""],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ZAGREB", "ZG", ""],
+            "station_id": "LDZO-NORTH"
+          },
+          {
+            "label": ["ZAGREB", "ZGU"],
+            "station_id": "LDZO-NORTH-UPPER"
+          },
+          {
+            "label": ["ZAGREB", "CENTRAL", "ZGC"],
+            "station_id": "LDZO-CENTRAL"
+          },
+          {
+            "label": ["ZAGREB", "UPPER", "ZGUC"],
+            "station_id": "LDZO-CENTRAL-UPPER"
+          },
+          {
+            "label": ["ZAGREB", "SOUTH", "ZGS"],
+            "station_id": "LDZO-SOUTH"
+          },
+          {
+            "label": ["ZAGREB", "SOUTH", "ZGUS"],
+            "station_id": "LDZO-SOUTH-UPPER"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ZAGREB", "APP", "ZGR"],
+            "station_id": "LDZA_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PULA", "APP", "PU"],
+            "station_id": "LDPL_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["APP"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["LJU", "APP", "LJR"],
+            "station_id": "LJLJ_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MARIBOR", "APP", "MB"],
+            "station_id": "LJMB_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PORTOROZ", "APP", "PZ"],
+            "station_id": "LJPZ_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["TWR", "GND"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["LJU", "TWR"],
+            "station_id": "LJLJ_TWR"
+          },
+          {
+            "label": ["LJU", "GND"],
+            "station_id": "LJLJ_GND"
+          },
+          {
+            "label": ["CERKLJE", "TWR"],
+            "station_id": "LJCE_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", "PORTOROZ", "TWR"],
+            "station_id": "LJPZ_TWR"
+          },
+          {
+            "label": ["MARIBOR", "TWR"],
+            "station_id": "LJMB_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

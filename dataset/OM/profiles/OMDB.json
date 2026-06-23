@@ -3,49 +3,35 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["OMDB", "Ground"],
+      "label": ["ADC"],
       "page": {
         "rows": 4,
         "keys": [
           {
-            "label": ["Dubai", "Delivery"],
+            "label": ["GMP"],
             "station_id": "OMDB_DEL"
           },
           {
-            "label": ["Dubai", "Ground", "South"],
+            "label": ["GMC 1"],
             "station_id": "OMDB_1_GND"
           },
           {
-            "label": ["Dubai", "Ground", "North"],
+            "label": ["GMC 2"],
             "station_id": "OMDB_2_GND"
           },
           {
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": ["OMDB", "Tower"],
-      "page": {
-        "rows": 4,
-        "keys": [
-          {
-            "label": ["Dubai", "Tower", "North"],
+            "label": ["AIR 1 N"],
             "station_id": "OMDB_1_TWR"
           },
           {
-            "label": ["Dubai", "Tower", "South"],
+            "label": ["AIR 2 S"],
             "station_id": "OMDB_2_TWR"
           },
           {
-            "label": ["Dubai", "Tower", "Info"],
+            "label": ["FIS"],
             "station_id": "OMDB_I_TWR"
           },
           {
@@ -56,29 +42,27 @@
           },
           {
             "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": ["Dubai", "Approach"],
-      "page": {
-        "rows": 4,
-        "keys": [
+          },
           {
-            "label": ["Dubai", "Departure", "South"],
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DEP 1 S"],
             "station_id": "OMDB_1_DEP"
           },
           {
-            "label": ["Dubai", "Departure", "North"],
+            "label": ["DEP 2 N"],
             "station_id": "OMDB_2_DEP"
           },
           {
-            "label": ["Dubai", "Arrivals"],
+            "label": ["APP"],
             "station_id": "OMDB_APP"
           },
           {
-            "label": ["Dubai", "Director"],
+            "label": ["DIR"],
             "station_id": "OMDB_F_APP"
           },
           {
@@ -86,30 +70,164 @@
           },
           {
             "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["UAE", "NORTH", "SFC-UNL"],
+            "station_id": "OMAE_1_CTR"
+          },
+          {
+            "label": ["UAE", "ALPHA", "SFC-UNL"],
+            "station_id": "OMAE_2_CTR"
+          },
+          {
+            "label": ["UAE", "CENTRAL", "SFC-UNL"],
+            "station_id": "OMAE_3_CTR"
+          },
+          {
+            "label": ["UAE", "MIKE", "SFC-UNL"],
+            "station_id": "OMAE_4_CTR"
+          },
+          {
+            "label": ["UAE", "DELTA", "SFC-245"],
+            "station_id": "OMAE_D_CTR"
+          },
+          {
+            "label": ["UAE", "EAST", "SFC-275"],
+            "station_id": "OMAE_E_CTR"
+          },
+          {
+            "label": ["UAE", "ROMEO", "SFC-275"],
+            "station_id": "OMAE_R_CTR"
+          },
+          {
+            "label": ["UAE", "WEST", "SFC-UNL"],
+            "station_id": "OMAE_W_CTR"
+          },
+          {
+            "label": ["UAE", "YANKEE", "045-195"],
+            "station_id": "OMAE_Y_CTR"
           }
         ]
       }
     },
     {
-      "label": "Neighboring",
+      "label": ["TMA"],
       "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "OB*",
-            "OTDF*",
-            "DOH*",
-            "TEH*",
-            "GULF*",
-            "GULF_E*",
-            "OOMM*",
-            "OEJD*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["DEP 1 S"],
+            "station_id": "OMDB_1_DEP"
+          },
+          {
+            "label": ["DEP 2 N"],
+            "station_id": "OMDB_2_DEP"
+          },
+          {
+            "label": ["ARR"],
+            "station_id": "OMDB_APP"
+          },
+          {
+            "label": ["DB DIR"],
+            "station_id": "OMDB_F_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMP"],
+            "station_id": "OMDB_DEL"
+          },
+          {
+            "label": ["AIR 1"],
+            "station_id": "OMDB_1_TWR"
+          },
+          {
+            "label": ["AIR 2"],
+            "station_id": "OMDB_2_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DW", "AIR"],
+            "station_id": "OMDW_TWR"
+          },
+          {
+            "label": ["EFTA AIR"],
+            "station_id": "OMDW_A_TWR"
+          },
+          {
+            "label": ["SJ", "AIR"],
+            "station_id": "OMSJ_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["UAE", "NORTH", "SFC-UNL"],
+            "station_id": "OMAE_1_CTR"
+          },
+          {
+            "label": ["UAE", "ALPHA", "SFC-UNL"],
+            "station_id": "OMAE_2_CTR"
+          },
+          {
+            "label": ["UAE", "CENTRAL", "SFC-UNL"],
+            "station_id": "OMAE_3_CTR"
+          },
+          {
+            "label": ["UAE", "MIKE", "SFC-UNL"],
+            "station_id": "OMAE_4_CTR"
+          },
+          {
+            "label": ["UAE", "DELTA", "SFC-245"],
+            "station_id": "OMAE_D_CTR"
+          },
+          {
+            "label": ["UAE", "EAST", "SFC-275"],
+            "station_id": "OMAE_E_CTR"
+          },
+          {
+            "label": ["UAE", "ROMEO", "SFC-275"],
+            "station_id": "OMAE_R_CTR"
+          },
+          {
+            "label": ["UAE", "WEST", "SFC-UNL"],
+            "station_id": "OMAE_W_CTR"
+          },
+          {
+            "label": ["UAE", "YANKEE", "045-195"],
+            "station_id": "OMAE_Y_CTR"
+          }
+        ]
       }
     }
   ]

@@ -28,11 +28,12 @@
             "station_id": "ESSV_TWR"
           },
           {
-            "label": ["OS", "9"],
-            "station_id": "ESOS_9"
+            "label": ["OS", "2"],
+            "station_id": "ESOS_2"
           },
           {
-            "label": []
+            "label": ["OS", "9"],
+            "station_id": "ESOS_9"
           },
           {
             "label": ["WS"],
@@ -48,8 +49,8 @@
             "label": []
           },
           {
-            "label": ["OS", "2"],
-            "station_id": "ESOS_2"
+            "label": ["OS", "6"],
+            "station_id": "ESOS_6"
           },
           {
             "label": ["MM", "Y"],
@@ -59,7 +60,7 @@
             "label": []
           },
           {
-            "label": ["COB"],
+            "label": ["EAG"],
             "station_id": "ESPF"
           },
           {
@@ -67,7 +68,7 @@
             "station_id": "ESCR"
           },
           {
-            "label": ["BSH"],
+            "label": ["COB"],
             "station_id": "ESDK"
           }
         ]

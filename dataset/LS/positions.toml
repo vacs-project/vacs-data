@@ -1,0 +1,461 @@
+#####
+### Radar positions
+#####
+
+[[positions]]
+id = "LSAS_CTR"
+prefixes = ["LSAS"]
+frequency = "135.015"
+facility_type = "CTR"
+
+[[positions]]
+id = "LSAS_I_CTR"
+prefixes = ["LSAS"]
+frequency = "124.700"
+facility_type = "CTR"
+
+# LSAG
+
+[[positions]]
+id = "LSAG_CTR"
+prefixes = ["LSAG"]
+frequency = "134.850"
+facility_type = "CTR"
+
+[[positions]]
+id = "LSAG_E_CTR"
+prefixes = ["LSAG"]
+frequency = "128.905"
+facility_type = "CTR"
+
+[[positions]]
+id = "LSAG_S_CTR"
+prefixes = ["LSAG"]
+frequency = "124.225"
+facility_type = "CTR"
+
+[[positions]]
+id = "LSAG_N_CTR"
+prefixes = ["LSAG"]
+frequency = "134.030"
+facility_type = "CTR"
+
+# LSAZ
+
+[[positions]]
+id = "LSAZ_CTR"
+prefixes = ["LSAZ"]
+frequency = "133.050"
+facility_type = "CTR"
+
+[[positions]]
+id = "LSAZ_S_CTR"
+prefixes = ["LSAZ"]
+frequency = "128.050"
+facility_type = "CTR"
+
+[[positions]]
+id = "LSAZ_W_CTR"
+prefixes = ["LSAZ"]
+frequency = "135.680"
+facility_type = "CTR"
+
+[[positions]]
+id = "LSAZ_E_CTR"
+prefixes = ["LSAZ"]
+frequency = "133.905"
+facility_type = "CTR"
+
+[[positions]]
+id = "LSAZ_N_CTR"
+prefixes = ["LSAZ"]
+frequency = "136.155"
+facility_type = "CTR"
+
+#####
+### Majors
+#####
+
+# LSZH
+
+[[positions]]
+id = "LSZH_APP"
+prefixes = ["LSZH"]
+frequency = "135.230"
+facility_type = "APP"
+
+[[positions]]
+id = "LSZH_W_APP"
+prefixes = ["LSZH"]
+frequency = "130.560"
+facility_type = "APP"
+
+[[positions]]
+id = "LSZH_F_APP"
+prefixes = ["LSZH"]
+frequency = "125.330"
+facility_type = "APP"
+
+[[positions]]
+id = "LSZH_DEP"
+prefixes = ["LSZH"]
+frequency = "125.955"
+facility_type = "DEP"
+
+[[positions]]
+id = "LSZH_TWR"
+prefixes = ["LSZH"]
+frequency = "118.100"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZH_2_TWR"
+prefixes = ["LSZH"]
+frequency = "120.230"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZH_S_GND"
+prefixes = ["LSZH"]
+frequency = "121.755"
+facility_type = "GND"
+
+[[positions]]
+id = "LSZH_N_GND"
+prefixes = ["LSZH"]
+frequency = "121.855"
+facility_type = "GND"
+
+[[positions]]
+id = "LSZH_GND"
+prefixes = ["LSZH"]
+frequency = "121.905"
+facility_type = "GND"
+
+[[positions]]
+id = "LSZH_DEL"
+prefixes = ["LSZH"]
+frequency = "121.930"
+facility_type = "DEL"
+
+# LSGG
+
+[[positions]]
+id = "LSGG_APP"
+prefixes = ["LSGG"]
+frequency = "136.255"
+facility_type = "APP"
+
+[[positions]]
+id = "LSGG_F_APP"
+prefixes = ["LSGG"]
+frequency = "120.305"
+facility_type = "APP"
+
+[[positions]]
+id = "LSGG_DEP"
+prefixes = ["LSGG"]
+frequency = "119.530"
+facility_type = "DEP"
+
+[[positions]]
+id = "LSGG_TWR"
+prefixes = ["LSGG"]
+frequency = "118.705"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSGG_A_GND"
+prefixes = ["LSGG"]
+frequency = "121.855"
+facility_type = "GND"
+
+[[positions]]
+id = "LSGG_GND"
+prefixes = ["LSGG"]
+frequency = "121.680"
+facility_type = "GND"
+
+#####
+### Minors
+#####
+
+# ARFA & LSZR
+
+[[positions]]
+id = "LSFA_APP"
+prefixes = ["LSFA"]
+frequency = "119.925"
+facility_type = "APP"
+
+[[positions]]
+id = "LSZR_TWR"
+prefixes = ["LSZR"]
+frequency = "135.430"
+facility_type = "TWR"
+
+# LSGC
+
+[[positions]]
+id = "LSGC_TWR"
+prefixes = ["LSGC"]
+frequency = "118.130"
+facility_type = "TWR"
+
+# LSGS
+
+[[positions]]
+id = "LSGS_APP"
+prefixes = ["LSGS"]
+frequency = "126.830"
+facility_type = "APP"
+
+[[positions]]
+id = "LSGS_TWR"
+prefixes = ["LSGS"]
+frequency = "118.275"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSGS_GND"
+prefixes = ["LSGS"]
+frequency = "121.705"
+facility_type = "GND"
+
+# LSMA
+
+[[positions]]
+id = "LSMA_TWR"
+prefixes = ["LSMA"]
+frequency = "128.475"
+facility_type = "TWR"
+
+# LSMD
+
+[[positions]]
+id = "LSMD_APP"
+prefixes = ["LSMD"]
+frequency = "134.950"
+facility_type = "APP"
+
+[[positions]]
+id = "LSMD_TWR"
+prefixes = ["LSMD"]
+frequency = "118.975"
+facility_type = "TWR"
+
+# LSME
+
+[[positions]]
+id = "LSME_APP"
+prefixes = ["LSME"]
+frequency = "119.505"
+facility_type = "APP"
+
+[[positions]]
+id = "LSME_TWR"
+prefixes = ["LSME"]
+frequency = "118.005"
+facility_type = "TWR"
+
+# LSMM
+
+[[positions]]
+id = "LSMM_TWR"
+prefixes = ["LSMM"]
+frequency = "130.150"
+facility_type = "TWR"
+
+# LSMP
+
+[[positions]]
+id = "LSMP_APP"
+prefixes = ["LSMP"]
+frequency = "136.355"
+facility_type = "APP"
+
+[[positions]]
+id = "LSMP_TWR"
+prefixes = ["LSMP"]
+frequency = "128.680"
+facility_type = "TWR"
+
+# LSZA
+
+[[positions]]
+id = "LSZA_TWR"
+prefixes = ["LSZA"]
+frequency = "120.250"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZA_DEL"
+prefixes = ["LSZA"]
+frequency = "121.780"
+facility_type = "DEL"
+
+# LSZB & LSZG
+
+[[positions]]
+id = "LSZB_APP"
+prefixes = ["LSZB"]
+frequency = "127.325"
+facility_type = "APP"
+
+[[positions]]
+id = "LSZB_TWR"
+prefixes = ["LSZB"]
+frequency = "121.030"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZB_DEL"
+prefixes = ["LSZB"]
+frequency = "121.690"
+facility_type = "DEL"
+
+[[positions]]
+id = "LSZG_TWR"
+prefixes = ["LSZG"]
+frequency = "120.105"
+facility_type = "TWR"
+
+# LSZC
+
+[[positions]]
+id = "LSZC_TWR"
+prefixes = ["LSZC"]
+frequency = "119.625"
+facility_type = "TWR"
+
+# LSZL
+
+[[positions]]
+id = "LSZL_TWR"
+prefixes = ["LSZL"]
+frequency = "134.825"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZL_GND"
+prefixes = ["LSZL"]
+frequency = "121.700"
+facility_type = "GND"
+
+#####
+### Radio stations
+#####
+
+[[positions]]
+id = "LSGB_I_TWR"
+prefixes = ["LSGB"]
+frequency = "122.155"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSGE_I_TWR"
+prefixes = ["LSGE"]
+frequency = "120.630"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSGK_I_TWR"
+prefixes = ["LSGK"]
+frequency = "119.430"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSGL_I_TWR"
+prefixes = ["LSGL"]
+frequency = "123.205"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSGN_I_TWR"
+prefixes = ["LSGN"]
+frequency = "123.605"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSPM_I_TWR"
+prefixes = ["LSPM"]
+frequency = "118.530"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSPV_I_TWR"
+prefixes = ["LSPV"]
+frequency = "123.205"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSTA_I_TWR"
+prefixes = ["LSTA"]
+frequency = "129.880"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSTZ_I_TWR"
+prefixes = ["LSTZ"]
+frequency = "121.230"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZE_I_TWR"
+prefixes = ["LSZE"]
+frequency = "123.505"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZF_I_TWR"
+prefixes = ["LSZF"]
+frequency = "123.555"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZI_I_TWR"
+prefixes = ["LSZI"]
+frequency = "119.555"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZM_I_TWR"
+prefixes = ["LSZM"]
+frequency = "134.830"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZO_I_TWR"
+prefixes = ["LSZO"]
+frequency = "122.455"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZP_I_TWR"
+prefixes = ["LSZP"]
+frequency = "123.155"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZS_I_TWR"
+prefixes = ["LSZS"]
+frequency = "135.330"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZT_I_TWR"
+prefixes = ["LSZT"]
+frequency = "119.305"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZV_I_TWR"
+prefixes = ["LSZV"]
+frequency = "118.355"
+facility_type = "TWR"
+
+[[positions]]
+id = "LSZW_I_TWR"
+prefixes = ["LSZW"]
+frequency = "123.255"
+facility_type = "TWR"

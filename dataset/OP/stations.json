@@ -1,0 +1,317 @@
+{
+  "stations": [
+    {
+      "id": "OPLR_CTR",
+      "controlled_by": ["OPLR_CTR"]
+    },
+    {
+      "id": "ISB_CTR",
+      "parent_id": "OPLR_CTR",
+      "controlled_by": ["ISB_CTR"]
+    },
+    {
+      "id": "OPLR-E_CTR",
+      "parent_id": "OPLR_CTR",
+      "controlled_by": ["OPLR-E_CTR"]
+    },
+    {
+      "id": "OPLR-S_CTR",
+      "parent_id": "OPLR_CTR",
+      "controlled_by": ["OPLR-S_CTR"]
+    },
+    {
+      "id": "OPLR-W_CTR",
+      "parent_id": "OPLR_CTR",
+      "controlled_by": ["OPLR-W_CTR"]
+    },
+    {
+      "id": "OPKR_CTR",
+      "controlled_by": ["OPKR_CTR"]
+    },
+    {
+      "id": "OPKR-C_CTR",
+      "parent_id": "OPKR_CTR",
+      "controlled_by": ["OPKR-C_CTR"]
+    },
+    {
+      "id": "OPKR-E_CTR",
+      "parent_id": "OPKR_CTR",
+      "controlled_by": ["OPKR-E_CTR"]
+    },
+    {
+      "id": "OPKR-S_CTR",
+      "parent_id": "OPKR_CTR",
+      "controlled_by": ["OPKR-S_CTR"]
+    },
+    {
+      "id": "OPKR-W_CTR",
+      "parent_id": "OPKR_CTR",
+      "controlled_by": ["OPKR-W_CTR"]
+    },
+    {
+      "id": "CHR_APP",
+      "parent_id": "ISB_CTR",
+      "controlled_by": ["CHR_APP"]
+    },
+    {
+      "id": "CHR-N_APP",
+      "parent_id": "CHR_APP",
+      "controlled_by": ["CHR-N_APP"]
+    },
+    {
+      "id": "CHR-S_APP",
+      "parent_id": "CHR_APP",
+      "controlled_by": ["CHR-S_APP"]
+    },
+    {
+      "id": "OPBN_TWR",
+      "parent_id": "OPLR-W_CTR",
+      "controlled_by": ["OPBN_TWR"]
+    },
+    {
+      "id": "OPBW_TWR",
+      "parent_id": "OPLR-S_CTR",
+      "controlled_by": ["OPBW_TWR"]
+    },
+    {
+      "id": "OPCH_TWR",
+      "parent_id": "ISB_CTR",
+      "controlled_by": ["OPCH_TWR"]
+    },
+    {
+      "id": "OPCH_GND",
+      "parent_id": "OPCH_TWR",
+      "controlled_by": ["OPCH_GND"]
+    },
+    {
+      "id": "OPDB_TWR",
+      "parent_id": "OPKR-W_CTR",
+      "controlled_by": ["OPDB_TWR"]
+    },
+    {
+      "id": "OPDG_TWR",
+      "parent_id": "OPLR-S_CTR",
+      "controlled_by": ["OPDG_TWR"]
+    },
+    {
+      "id": "OPDI_TWR",
+      "parent_id": "OPLR-W_CTR",
+      "controlled_by": ["OPDI_TWR"]
+    },
+    {
+      "id": "OPFA_TWR",
+      "parent_id": "OPLR-E_CTR",
+      "controlled_by": ["OPFA_TWR"]
+    },
+    {
+      "id": "OPFA_GND",
+      "parent_id": "OPFA_TWR",
+      "controlled_by": ["OPFA_GND"]
+    },
+    {
+      "id": "OPGD_TWR",
+      "controlled_by": ["OPGD_TWR"]
+    },
+    {
+      "id": "OPGT_TWR",
+      "parent_id": "ISB_CTR",
+      "controlled_by": ["OPGT_TWR"]
+    },
+    {
+      "id": "OPIS_APP",
+      "parent_id": "ISB_CTR",
+      "controlled_by": ["OPIS_APP"]
+    },
+    {
+      "id": "OPIS_DEP",
+      "parent_id": "OPIS_APP",
+      "controlled_by": ["OPIS_DEP"]
+    },
+    {
+      "id": "OPIS_TWR",
+      "parent_id": "OPIS_APP",
+      "controlled_by": ["OPIS_TWR"]
+    },
+    {
+      "id": "OPIS_GND",
+      "parent_id": "OPIS_TWR",
+      "controlled_by": ["OPIS_GND"]
+    },
+    {
+      "id": "OPIS_DEL",
+      "parent_id": "OPIS_GND",
+      "controlled_by": ["OPIS_DEL"]
+    },
+    {
+      "id": "OPJI_TWR",
+      "controlled_by": ["OPJI_TWR"]
+    },
+    {
+      "id": "OPKC_APP",
+      "parent_id": "OPKR-E_CTR",
+      "controlled_by": ["OPKC_APP"]
+    },
+    {
+      "id": "OPKC_TWR",
+      "parent_id": "OPKC_APP",
+      "controlled_by": ["OPKC_TWR"]
+    },
+    {
+      "id": "OPKC_GND",
+      "parent_id": "OPKC_TWR",
+      "controlled_by": ["OPKC_GND"]
+    },
+    {
+      "id": "OPKD_TWR",
+      "parent_id": "OPKR-E_CTR",
+      "controlled_by": ["OPKD_TWR"]
+    },
+    {
+      "id": "OPKH_TWR",
+      "controlled_by": ["OPKH_TWR"]
+    },
+    {
+      "id": "OPLA_APP",
+      "parent_id": "OPLR-E_CTR",
+      "controlled_by": ["OPLA_APP"]
+    },
+    {
+      "id": "OPLA_TWR",
+      "parent_id": "OPLA_APP",
+      "controlled_by": ["OPLA_TWR"]
+    },
+    {
+      "id": "OPLA_GND",
+      "parent_id": "OPLA_TWR",
+      "controlled_by": ["OPLA_GND"]
+    },
+    {
+      "id": "OPMJ_TWR",
+      "parent_id": "OPKR-E_CTR",
+      "controlled_by": ["OPMJ_TWR"]
+    },
+    {
+      "id": "OPMT_TWR",
+      "parent_id": "OPLR-E_CTR",
+      "controlled_by": ["OPMT_TWR"]
+    },
+    {
+      "id": "OPMT_GND",
+      "parent_id": "OPMT_TWR",
+      "controlled_by": ["OPMT_GND"]
+    },
+    {
+      "id": "OPNH_TWR",
+      "parent_id": "OPKR-E_CTR",
+      "controlled_by": ["OPNH_TWR"]
+    },
+    {
+      "id": "OPNH_GND",
+      "parent_id": "OPNH_TWR",
+      "controlled_by": ["OPNH_GND"]
+    },
+    {
+      "id": "OPOR_TWR",
+      "controlled_by": ["OPOR_TWR"]
+    },
+    {
+      "id": "OPPC_TWR",
+      "parent_id": "ISB_CTR",
+      "controlled_by": ["OPPC_TWR"]
+    },
+    {
+      "id": "OPPG_TWR",
+      "parent_id": "OPKR-W_CTR",
+      "controlled_by": ["OPPG_TWR"]
+    },
+    {
+      "id": "OPPG_GND",
+      "parent_id": "OPPG_TWR",
+      "controlled_by": ["OPPG_GND"]
+    },
+    {
+      "id": "OPPI_TWR",
+      "parent_id": "OPKR-S_CTR",
+      "controlled_by": ["OPPI_TWR"]
+    },
+    {
+      "id": "OPPS_TWR",
+      "parent_id": "ISB_CTR",
+      "controlled_by": ["OPPS_TWR"]
+    },
+    {
+      "id": "OPPS_GND",
+      "parent_id": "OPPS_TWR",
+      "controlled_by": ["OPPS_GND"]
+    },
+    {
+      "id": "OPQT_TWR",
+      "parent_id": "OPLR-W_CTR",
+      "controlled_by": ["OPQT_TWR"]
+    },
+    {
+      "id": "OPQT_GND",
+      "parent_id": "OPQT_TWR",
+      "controlled_by": ["OPQT_GND"]
+    },
+    {
+      "id": "OPRK_TWR",
+      "parent_id": "OPLR-S_CTR",
+      "controlled_by": ["OPRK_TWR"]
+    },
+    {
+      "id": "OPRN_TWR",
+      "controlled_by": ["OPRN_TWR"]
+    },
+    {
+      "id": "OPRT_TWR",
+      "parent_id": "ISB_CTR",
+      "controlled_by": ["OPRT_TWR"]
+    },
+    {
+      "id": "OPSD_TWR",
+      "parent_id": "ISB_CTR",
+      "controlled_by": ["OPSD_TWR"]
+    },
+    {
+      "id": "OPSK_TWR",
+      "parent_id": "OPLR-S_CTR",
+      "controlled_by": ["OPSK_TWR"]
+    },
+    {
+      "id": "OPSS_TWR",
+      "parent_id": "ISB_CTR",
+      "controlled_by": ["OPSS_TWR"]
+    },
+    {
+      "id": "OPST_TWR",
+      "parent_id": "OPLR-E_CTR",
+      "controlled_by": ["OPST_TWR"]
+    },
+    {
+      "id": "OPST_GND",
+      "parent_id": "OPST_TWR",
+      "controlled_by": ["OPST_GND"]
+    },
+    {
+      "id": "OPSW_TWR",
+      "parent_id": "OPKR-C_CTR",
+      "controlled_by": ["OPSW_TWR"]
+    },
+    {
+      "id": "OPTU_TWR",
+      "parent_id": "OPKR-S_CTR",
+      "controlled_by": ["OPTU_TWR"]
+    },
+    {
+      "id": "OPTU_GND",
+      "parent_id": "OPTU_TWR",
+      "controlled_by": ["OPTU_GND"]
+    },
+    {
+      "id": "OPZB_TWR",
+      "parent_id": "OPLR-W_CTR",
+      "controlled_by": ["OPZB_TWR"]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "UMKK",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["UMKK"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["ACC"],
+            "color": "azure",
+            "station_id": "UMKK_ACC"
+          },
+          {
+            "label": ["APP"],
+            "color": "azure",
+            "station_id": "UMKK_APP"
+          },
+          {
+            "label": ["TWR"],
+            "color": "azure",
+            "station_id": "UMKK_TWR"
+          },
+          {
+            "label": ["TMU"],
+            "color": "azure",
+            "station_id": "UMKK_TMU"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["EYVL", "U"],
+            "color": "azure",
+            "station_id": "EYVL-U"
+          },
+          {
+            "label": ["EYVL", "M"],
+            "color": "azure",
+            "station_id": "EYVL-M"
+          },
+          {
+            "label": ["EYVL", "L"],
+            "color": "azure",
+            "station_id": "EYVL-L"
+          },
+          {
+            "label": ["EYVL", "E"],
+            "color": "azure",
+            "station_id": "EYVL-E"
+          },
+          {
+            "label": ["", ""],
+            "color": "azure"
+          },
+          {
+            "label": ["EPWW", "F"],
+            "color": "azure",
+            "station_id": "EPWW_F"
+          },
+          {
+            "label": ["EPWW", "G"],
+            "color": "azure",
+            "station_id": "EPWW_G"
+          },
+          {
+            "label": ["EPWW", "N"],
+            "color": "azure",
+            "station_id": "EPWW_NE"
+          },
+          {
+            "label": ["EPWA", "FIS"],
+            "color": "azure",
+            "station_id": "EPWA_FIS_N"
+          },
+          {
+            "label": ["", ""],
+            "color": "azure"
+          },
+          {
+            "label": ["EPGD", "U"],
+            "color": "azure",
+            "station_id": "EPGD_UTMA"
+          },
+          {
+            "label": ["EPGD", "L"],
+            "color": "azure",
+            "station_id": "EPGD_LTMA"
+          },
+          {
+            "label": ["EPGD", "FIS"],
+            "color": "azure",
+            "station_id": "EPGD_FIS_E"
+          },
+          {
+            "label": ["", ""],
+            "color": "azure"
+          },
+          {
+            "label": ["", ""],
+            "color": "azure"
+          },
+          {
+            "label": ["ESMM", "6"],
+            "color": "azure",
+            "station_id": "ESMM_7"
+          },
+          {
+            "label": ["ESMM", "7"],
+            "color": "azure",
+            "station_id": "ESMM_7"
+          },
+          {
+            "label": ["", ""],
+            "color": "azure"
+          },
+          {
+            "label": ["", ""],
+            "color": "azure"
+          },
+          {
+            "label": ["", ""],
+            "color": "azure"
+          }
+        ]
+      }
+    }
+  ]
+}

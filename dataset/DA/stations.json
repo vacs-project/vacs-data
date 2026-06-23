@@ -1,0 +1,263 @@
+{
+  "stations": [
+    {
+      "id": "DAAA_FMP",
+      "parent_id": "DAAA_CTR",
+      "controlled_by": ["DAAA_FMP"]
+    },
+    {
+      "id": "DAAA_CTR",
+      "controlled_by": ["DAAA_CTR"]
+    },
+    {
+      "id": "DAAA_W_CTR",
+      "parent_id": "DAAA_CTR",
+      "controlled_by": ["DAAA_W_CTR"]
+    },
+    {
+      "id": "DAAA_NW_CTR",
+      "parent_id": "DAAA_W_CTR",
+      "controlled_by": ["DAAA_NW_CTR"]
+    },
+    {
+      "id": "DAAA_SW_CTR",
+      "parent_id": "DAAA_W_CTR",
+      "controlled_by": ["DAAA_SW_CTR"]
+    },
+    {
+      "id": "DAAA_C_CTR",
+      "parent_id": "DAAA_CTR",
+      "controlled_by": ["DAAA_C_CTR"]
+    },
+    {
+      "id": "DAAA_NC_CTR",
+      "parent_id": "DAAA_C_CTR",
+      "controlled_by": ["DAAA_NC_CTR"]
+    },
+    {
+      "id": "DAAA_SC_CTR",
+      "parent_id": "DAAA_C_CTR",
+      "controlled_by": ["DAAA_SC_CTR"]
+    },
+    {
+      "id": "DAAA_NE_CTR",
+      "parent_id": "DAAA_CTR",
+      "controlled_by": ["DAAA_NE_CTR"]
+    },
+    {
+      "id": "DAAA_E_CTR",
+      "parent_id": "DAAA_CTR",
+      "controlled_by": ["DAAA_E_CTR"]
+    },
+    {
+      "id": "DAAA_SE_CTR",
+      "parent_id": "DAAA_E_CTR",
+      "controlled_by": ["DAAA_SE_CTR"]
+    },
+    {
+      "id": "DAAA_SS_CTR",
+      "parent_id": "DAAA_E_CTR",
+      "controlled_by": ["DAAA_SS_CTR"]
+    },
+    {
+      "id": "DAAD_TWR",
+      "parent_id": "DAAA_SC_CTR",
+      "controlled_by": ["DAAD_TWR"]
+    },
+    {
+      "id": "DAAE_TWR",
+      "parent_id": "DAAA_NE_CTR",
+      "controlled_by": ["DAAE_TWR"]
+    },
+    {
+      "id": "DAAG_APP",
+      "parent_id": "DAAA_NC_CTR",
+      "controlled_by": ["DAAG_APP"]
+    },
+    {
+      "id": "DAAG_TWR",
+      "parent_id": "DAAG_APP",
+      "controlled_by": ["DAAG_TWR"]
+    },
+    {
+      "id": "DAAG_GND",
+      "parent_id": "DAAG_TWR",
+      "controlled_by": ["DAAG_GND"]
+    },
+    {
+      "id": "DAAJ_TWR",
+      "parent_id": "DAAA_SS_CTR",
+      "controlled_by": ["DAAJ_TWR"]
+    },
+    {
+      "id": "DAAP_TWR",
+      "parent_id": "DAAA_SE_CTR",
+      "controlled_by": ["DAAP_TWR"]
+    },
+    {
+      "id": "DAAS_TWR",
+      "parent_id": "DAAA_NE_CTR",
+      "controlled_by": ["DAAS_TWR"]
+    },
+    {
+      "id": "DAAT_TWR",
+      "parent_id": "DAAA_SS_CTR",
+      "controlled_by": ["DAAT_TWR"]
+    },
+    {
+      "id": "DAAV_TWR",
+      "parent_id": "DAAA_NE_CTR",
+      "controlled_by": ["DAAV_TWR"]
+    },
+    {
+      "id": "DABB_APP",
+      "parent_id": "DAAA_NE_CTR",
+      "controlled_by": ["DABB_APP"]
+    },
+    {
+      "id": "DABB_TWR",
+      "parent_id": "DABB_APP",
+      "controlled_by": ["DABB_TWR"]
+    },
+    {
+      "id": "DABC_APP",
+      "parent_id": "DAAA_NE_CTR",
+      "controlled_by": ["DABC_APP"]
+    },
+    {
+      "id": "DABC_TWR",
+      "parent_id": "DABC_APP",
+      "controlled_by": ["DABC_TWR"]
+    },
+    {
+      "id": "DABC_GND",
+      "parent_id": "DABC_TWR",
+      "controlled_by": ["DABC_GND"]
+    },
+    {
+      "id": "DABS_TWR",
+      "parent_id": "DAAA_NE_CTR",
+      "controlled_by": ["DABS_TWR"]
+    },
+    {
+      "id": "DABT_TWR",
+      "parent_id": "DABC_APP",
+      "controlled_by": ["DABT_TWR"]
+    },
+    {
+      "id": "DAOB_TWR",
+      "parent_id": "DAAA_NW_CTR",
+      "controlled_by": ["DAOB_TWR"]
+    },
+    {
+      "id": "DAOF_TWR",
+      "parent_id": "DAAA_SW_CTR",
+      "controlled_by": ["DAOF_TWR"]
+    },
+    {
+      "id": "DAOI_TWR",
+      "parent_id": "DAAA_NW_CTR",
+      "controlled_by": ["DAOI_TWR"]
+    },
+    {
+      "id": "DAON_TWR",
+      "parent_id": "DAAA_NW_CTR",
+      "controlled_by": ["DAON_TWR"]
+    },
+    {
+      "id": "DAOO_APP",
+      "parent_id": "DAAA_NW_CTR",
+      "controlled_by": ["DAOO_APP"]
+    },
+    {
+      "id": "DAOO_TWR",
+      "parent_id": "DAOO_APP",
+      "controlled_by": ["DAOO_TWR"]
+    },
+    {
+      "id": "DAOR_TWR",
+      "parent_id": "DAAA_SW_CTR",
+      "controlled_by": ["DAOR_TWR"]
+    },
+    {
+      "id": "DAOV_TWR",
+      "parent_id": "DAAA_NW_CTR",
+      "controlled_by": ["DAOV_TWR"]
+    },
+    {
+      "id": "DAOY_TWR",
+      "parent_id": "DAAA_NW_CTR",
+      "controlled_by": ["DAOY_TWR"]
+    },
+    {
+      "id": "DATG_TWR",
+      "parent_id": "DAAA_SS_CTR",
+      "controlled_by": ["DATG_TWR"]
+    },
+    {
+      "id": "DATM_TWR",
+      "parent_id": "DAAA_SW_CTR",
+      "controlled_by": ["DATM_TWR"]
+    },
+    {
+      "id": "DAUA_TWR",
+      "parent_id": "DAAA_SW_CTR",
+      "controlled_by": ["DAUA_TWR"]
+    },
+    {
+      "id": "DAUB_TWR",
+      "parent_id": "DAAA_SE_CTR",
+      "controlled_by": ["DAUB_TWR"]
+    },
+    {
+      "id": "DAUE_TWR",
+      "parent_id": "DAAA_SC_CTR",
+      "controlled_by": ["DAUE_TWR"]
+    },
+    {
+      "id": "DAUG_TWR",
+      "parent_id": "DAAA_SC_CTR",
+      "controlled_by": ["DAUG_TWR"]
+    },
+    {
+      "id": "DAUH_APP",
+      "parent_id": "DAAA_SE_CTR",
+      "controlled_by": ["DAUH_APP"]
+    },
+    {
+      "id": "DAUH_TWR",
+      "parent_id": "DAUH_APP",
+      "controlled_by": ["DAUH_TWR"]
+    },
+    {
+      "id": "DAUI_TWR",
+      "parent_id": "DAAA_SW_CTR",
+      "controlled_by": ["DAUI_TWR"]
+    },
+    {
+      "id": "DAUK_TWR",
+      "parent_id": "DAAA_SE_CTR",
+      "controlled_by": ["DAUK_TWR"]
+    },
+    {
+      "id": "DAUO_TWR",
+      "parent_id": "DAAA_SE_CTR",
+      "controlled_by": ["DAUO_TWR"]
+    },
+    {
+      "id": "DAUT_TWR",
+      "parent_id": "DAAA_SW_CTR",
+      "controlled_by": ["DAUT_TWR"]
+    },
+    {
+      "id": "DAUU_TWR",
+      "parent_id": "DAAA_SE_CTR",
+      "controlled_by": ["DAUU_TWR"]
+    },
+    {
+      "id": "DAUZ_TWR",
+      "parent_id": "DAAA_SS_CTR",
+      "controlled_by": ["DAUZ_TWR"]
+    }
+  ]
+}

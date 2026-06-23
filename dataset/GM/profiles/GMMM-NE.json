@@ -1,0 +1,226 @@
+{
+  "id": "GMMM-NE",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["NORTH"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["NORTH", "ACC"],
+            "station_id": "GMMM_N_CTR"
+          },
+          {
+            "label": ["GMAC", "WN"],
+            "station_id": "GMAC_WN_CTR"
+          },
+          {
+            "label": ["Lisboa", "SOUTH"],
+            "station_id": "LPPC_S_CTR"
+          },
+          {
+            "label": ["GMMN", "FIN"],
+            "station_id": "GMMN_F_APP"
+          },
+          {
+            "label": ["GMTT", "TWR"],
+            "station_id": "GMTT_TWR"
+          },
+          {
+            "label": ["EAST", "ACC"],
+            "station_id": "GMMM_E_CTR"
+          },
+          {
+            "label": ["WEST", "ACC"],
+            "station_id": "GMMM_W_CTR"
+          },
+          {
+            "label": ["Sevilla", "SM2", "[INOP]"]
+          },
+          {
+            "label": ["GMMT", "TWR"],
+            "station_id": "GMMT_TWR"
+          },
+          {
+            "label": ["GMTN", "TWR"],
+            "station_id": "GMTN_TWR"
+          },
+          {
+            "label": ["GMTT", "APP"],
+            "station_id": "GMTT_APP"
+          },
+          {
+            "label": ["Casa", "RADAR"],
+            "station_id": "GMMN_CTR"
+          },
+          {
+            "label": ["Sevilla", "NCS", "[INOP]"]
+          },
+          {
+            "label": ["GMMB", "TWR"],
+            "station_id": "GMMB_TWR"
+          },
+          {
+            "label": ["GMMX", "APP"],
+            "station_id": "GMMX_APP"
+          },
+          {
+            "label": ["GMMN", "APP"],
+            "station_id": "GMMN_APP"
+          },
+          {
+            "label": ["GMME", "APP"],
+            "station_id": "GMME_APP"
+          },
+          {
+            "label": ["GIB", "RAD"],
+            "station_id": "LXGB_APP"
+          },
+          {
+            "label": ["GMME", "TWR"],
+            "station_id": "GMME_TWR"
+          },
+          {
+            "label": ["GMMX", "DEL"],
+            "station_id": "GMMX_DEL"
+          },
+          {
+            "label": ["GMMN", "FLOW", "1"],
+            "color": "blush",
+            "station_id": "GMMN_1_FMP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "2"],
+            "color": "blush",
+            "station_id": "GMMN_2_FMP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "3"],
+            "color": "blush",
+            "station_id": "GMMN_3_FMP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "4"],
+            "color": "blush",
+            "station_id": "GMMN_4_FMP"
+          },
+          {
+            "label": ["GMMM", "FLOW"],
+            "color": "blush",
+            "station_id": "GMMM_FMP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["EAST"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["NORTH", "ACC"],
+            "station_id": "GMMM_N_CTR"
+          },
+          {
+            "label": ["WEST", "ACC"],
+            "station_id": "GMMM_W_CTR"
+          },
+          {
+            "label": ["Sevilla", "NCS", "[INOP]"]
+          },
+          {
+            "label": ["GMFI", "TWR"],
+            "station_id": "GMFI_TWR"
+          },
+          {
+            "label": ["GMMW", "TWR"],
+            "station_id": "GMMW_TWR"
+          },
+          {
+            "label": ["EAST", "ACC"],
+            "station_id": "GMMM_E_CTR"
+          },
+          {
+            "label": ["Casa", "RADAR"],
+            "station_id": "GMMN_CTR"
+          },
+          {
+            "label": ["Sevilla", "CEN", "305-"]
+          },
+          {
+            "label": ["GMFF", "TWR"],
+            "station_id": "GMFF_TWR"
+          },
+          {
+            "label": ["GMFO", "TWR"],
+            "station_id": "GMFO_TWR"
+          },
+          {
+            "label": ["GMFF", "APP"],
+            "station_id": "GMFF_APP"
+          },
+          {
+            "label": ["GMFO", "APP"],
+            "station_id": "GMFO_APP"
+          },
+          {
+            "label": ["Algiers", "NORTH", "WEST"]
+          },
+          {
+            "label": ["GMFB", "TWR"],
+            "station_id": "GMFB_TWR"
+          },
+          {
+            "label": ["GMMD", "TWR"],
+            "station_id": "GMMD_TWR"
+          },
+          {
+            "label": ["GMTA", "TWR"],
+            "station_id": "GMTA_TWR"
+          },
+          {
+            "label": ["GMFB", "APP"],
+            "station_id": "GMFB_APP"
+          },
+          {
+            "label": ["Algiers", "SOUTH", "WEST"]
+          },
+          {
+            "label": ["GMFK", "TWR"],
+            "station_id": "GMFK_TWR"
+          },
+          {
+            "label": ["GMME", "APP"],
+            "station_id": "GMME_APP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "1"],
+            "color": "blush",
+            "station_id": "GMMN_1_FMP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "2"],
+            "color": "blush",
+            "station_id": "GMMN_2_FMP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "3"],
+            "color": "blush",
+            "station_id": "GMMN_3_FMP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "4"],
+            "color": "blush",
+            "station_id": "GMMN_4_FMP"
+          },
+          {
+            "label": ["GMMM", "FLOW"],
+            "color": "blush",
+            "station_id": "GMMM_FMP"
+          }
+        ]
+      }
+    }
+  ]
+}

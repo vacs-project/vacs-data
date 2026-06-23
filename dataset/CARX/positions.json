@@ -1,0 +1,44 @@
+{
+  "positions": [
+    {
+      "id": "CARI_FSS",
+      "prefixes": ["CARI"],
+      "frequency": "131.300",
+      "facility_type": "FSS",
+      "profile_id": "CAR",
+      "default_call_sources": ["CARI_FSS"]
+    },
+    {
+      "id": "CARI_S_FSS",
+      "prefixes": ["CARI"],
+      "frequency": "131.300",
+      "facility_type": "FSS",
+      "profile_id": "CAR",
+      "default_call_sources": ["CARI_FSS"]
+    },
+    {
+      "id": "CARI_M_FSS",
+      "prefixes": ["CARI"],
+      "frequency": "131.300",
+      "facility_type": "FSS",
+      "profile_id": "CAR",
+      "default_call_sources": ["CARI_FSS"]
+    },
+    {
+      "id": "CARE_FSS",
+      "prefixes": ["CARE"],
+      "frequency": "131.500",
+      "facility_type": "FSS",
+      "profile_id": "CAR",
+      "default_call_sources": ["CARE_FSS"]
+    },
+    {
+      "id": "CARW_FSS",
+      "prefixes": ["CARW"],
+      "frequency": "131.700",
+      "facility_type": "FSS",
+      "profile_id": "CAR",
+      "default_call_sources": ["CARW_FSS"]
+    }
+  ]
+}

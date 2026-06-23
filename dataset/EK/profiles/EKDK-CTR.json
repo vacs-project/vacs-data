@@ -226,13 +226,28 @@
         "rows": 4,
         "keys": [
           {
-            "label": ["SCO", "MORAY"]
+            "label": ["SCO", "MORAY"],
+            "page": {
+              "rows": 2,
+              "keys": [
+                {
+                  "label": ["MORAY H", "+255"],
+                  "station_id": "EG-Moray-High"
+                },
+                {
+                  "label": ["MORAY L", "-255"],
+                  "station_id": "EG-Moray-Low"
+                }
+              ]
+            }
           },
           {
-            "label": ["SCO", "TYNE"]
+            "label": ["SCO", "TYNE"],
+            "station_id": "EG-Tyne"
           },
           {
-            "label": ["SCO", "HUMBER"]
+            "label": ["SCO", "HUMBER"],
+            "station_id": "EG-Humber"
           },
           {
             "label": ["DUTCH", "MIL"]

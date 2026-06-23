@@ -1,0 +1,39 @@
+{
+  "positions": [
+    {
+      "id": "LAAA_CTR",
+      "prefixes": ["LAAA"],
+      "frequency": "127.500",
+      "facility_type": "CTR",
+      "profile_id": "LAAA"
+    },
+    {
+      "id": "LATI_APP",
+      "prefixes": ["LATI"],
+      "frequency": "133.150",
+      "facility_type": "APP",
+      "profile_id": "LAAA"
+    },
+    {
+      "id": "LATI_TWR",
+      "prefixes": ["LATI"],
+      "frequency": "122.500",
+      "facility_type": "TWR",
+      "profile_id": "LAAA"
+    },
+    {
+      "id": "LATI_GND",
+      "prefixes": ["LATI"],
+      "frequency": "136.250",
+      "facility_type": "GND",
+      "profile_id": "LAAA"
+    },
+    {
+      "id": "LAKU_I_TWR",
+      "prefixes": ["LAKU"],
+      "frequency": "118.375",
+      "facility_type": "TWR",
+      "profile_id": "LAAA"
+    }
+  ]
+}

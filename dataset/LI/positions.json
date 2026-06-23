@@ -155,6 +155,13 @@
       "profile_id": "LIMM"
     },
     {
+      "id": "LIMM_WW0_APP",
+      "prefixes": ["LIMM"],
+      "frequency": "134.050",
+      "facility_type": "APP",
+      "profile_id": "LIMM"
+    },
+    {
       "id": "LIMM_U_CTR",
       "prefixes": ["LIMM"],
       "frequency": "132.905",
@@ -169,7 +176,7 @@
       "profile_id": "LIMM"
     },
     {
-      "id": "LIMJ_APP",
+      "id": "LIMJ_WS0_APP",
       "prefixes": ["LIMJ"],
       "frequency": "119.600",
       "facility_type": "APP",
@@ -512,6 +519,13 @@
       "profile_id": "LIPP"
     },
     {
+      "id": "LIPP_SC0_APP",
+      "prefixes": ["LIPP"],
+      "frequency": "130.525",
+      "facility_type": "APP",
+      "profile_id": "LIPP"
+    },
+    {
       "id": "LIPP_SD2_CTR",
       "prefixes": ["LIPP"],
       "frequency": "133.940",
@@ -830,6 +844,13 @@
       "id": "LIRR_NW7_CTR",
       "prefixes": ["LIRR"],
       "frequency": "121.315",
+      "facility_type": "CTR",
+      "profile_id": "LIRR-NORTH"
+    },
+    {
+      "id": "LIRR_CTR",
+      "prefixes": ["LIRR"],
+      "frequency": "135.615",
       "facility_type": "CTR",
       "profile_id": "LIRR-NORTH"
     },
@@ -1193,7 +1214,7 @@
     {
       "id": "LIRJ_I_TWR",
       "prefixes": ["LIRJ"],
-      "frequency": "123.700",
+      "frequency": "123.705",
       "facility_type": "TWR",
       "profile_id": "LIRR-NORTH"
     },
@@ -1364,13 +1385,6 @@
       "frequency": "131.675",
       "facility_type": "DEL",
       "profile_id": "LIRR-NORTH"
-    },
-    {
-      "id": "LSZA_TWR",
-      "prefixes": ["LSZA"],
-      "frequency": "120.250",
-      "facility_type": "TWR",
-      "profile_id": "LIMM"
     }
   ]
 }

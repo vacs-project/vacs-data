@@ -15,7 +15,7 @@
             "LTC*",
             "MAN*",
             "SCO*",
-            "STC*"
+            "SCL*"
           ],
           "exclude": [],
           "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],

@@ -48,10 +48,12 @@
             "label": ["E", "PLC"]
           },
           {
-            "label": ["Õhuseire", "", ""]
+            "label": ["Õhuseire", "", ""],
+            "color": "snow"
           },
           {
             "label": ["EEEI"],
+            "color": "snow",
             "station_id": "EEEI"
           },
           {
@@ -68,13 +70,16 @@
             "label": ["N", "PLC"]
           },
           {
-            "label": ["LIGHT", "HOUSE", ""]
+            "label": ["LIGHT", "HOUSE", ""],
+            "color": "snow"
           },
           {
-            "label": ["AMBER", "LAND", ""]
+            "label": ["AMBER", "LAND", ""],
+            "color": "snow"
           },
           {
-            "label": ["GALAXY"]
+            "label": ["GALAXY"],
+            "color": "snow"
           },
           {
             "label": []
@@ -88,16 +93,20 @@
           },
           {
             "label": ["OPSUP"],
+            "color": "snow",
             "station_id": "EETT_OPSUP"
           },
           {
-            "label": ["FDA"]
+            "label": ["FDA"],
+            "color": "snow"
           },
           {
-            "label": ["KAUR", ""]
+            "label": ["KAUR", ""],
+            "color": "snow"
           },
           {
-            "label": ["JRCC"]
+            "label": ["JRCC"],
+            "color": "snow"
           },
           {
             "label": ["", ""]
@@ -108,16 +117,20 @@
           },
           {
             "label": ["AMC"],
+            "color": "snow",
             "station_id": "EETT_OPSUP"
           },
           {
-            "label": ["TVP"]
+            "label": ["TVP"],
+            "color": "snow"
           },
           {
-            "label": ["METEO"]
+            "label": ["METEO"],
+            "color": "snow"
           },
           {
-            "label": ["TLL", "elektrik"]
+            "label": ["TLL", "elektrik"],
+            "color": "snow"
           },
           {
             "label": []
@@ -133,10 +146,12 @@
           },
           {
             "label": ["KORK"],
+            "color": "snow",
             "station_id": "EETN_RMP"
           },
           {
-            "label": ["Raja-", "meister"]
+            "label": ["Raja-", "meister"],
+            "color": "snow"
           },
           {
             "label": ["FIS"],
@@ -146,16 +161,19 @@
             "label": ["", ""]
           },
           {
-            "label": ["BACKUP", "DIVERT"]
+            "label": ["BACKUP", "DIVERT"],
+            "color": "blush"
           },
           {
             "label": []
           },
           {
-            "label": ["Pääste", "(TLL)"]
+            "label": ["Pääste", "(TLL)"],
+            "color": "snow"
           },
           {
-            "label": ["ILS", "Engineer"]
+            "label": ["ILS", "Engineer"],
+            "color": "snow"
           },
           {
             "label": [""]
@@ -212,17 +230,21 @@
             "label": ["E", "PLC"]
           },
           {
-            "label": ["Õhuseire", "", ""]
+            "label": ["Õhuseire", "", ""],
+            "color": "snow"
           },
           {
             "label": ["EEEI"],
+            "color": "snow",
             "station_id": "EEEI"
           },
           {
-            "label": ["RCO"]
+            "label": ["RCO"],
+            "color": "snow"
           },
           {
             "label": ["EFHK", "RAD-E"],
+            "color": "snow",
             "station_id": "EFHK_RE"
           },
           {
@@ -233,13 +255,16 @@
             "label": ["N", "PLC"]
           },
           {
-            "label": ["LIGHT", "HOUSE", ""]
+            "label": ["LIGHT", "HOUSE", ""],
+            "color": "snow"
           },
           {
-            "label": ["AMBER", "LAND", ""]
+            "label": ["AMBER", "LAND", ""],
+            "color": "snow"
           },
           {
-            "label": ["GALAXY"]
+            "label": ["GALAXY"],
+            "color": "snow"
           },
           {
             "label": []
@@ -253,33 +278,41 @@
           },
           {
             "label": ["OPSUP"],
+            "color": "snow",
             "station_id": "EETT_OPSUP"
           },
           {
-            "label": ["FDA"]
+            "label": ["FDA"],
+            "color": "snow"
           },
           {
-            "label": ["KAUR", ""]
+            "label": ["KAUR", ""],
+            "color": "snow"
           },
           {
-            "label": ["JRCC"]
+            "label": ["JRCC"],
+            "color": "snow"
           },
           {
             "label": ["", ""]
           },
           {
             "label": ["EFIN B", "PLC"],
+            "color": "snow",
             "station_id": "EFIN_B"
           },
           {
             "label": ["AMC"],
+            "color": "snow",
             "station_id": "EETT_OPSUP"
           },
           {
-            "label": ["TVP"]
+            "label": ["TVP"],
+            "color": "snow"
           },
           {
-            "label": ["METEO"]
+            "label": ["METEO"],
+            "color": "snow"
           },
           {
             "label": []
@@ -289,6 +322,7 @@
           },
           {
             "label": ["Helsinki", "SUP"],
+            "color": "snow",
             "station_id": "EFIN_FMP"
           },
           {
@@ -299,36 +333,43 @@
           },
           {
             "label": ["KORK"],
+            "color": "snow",
             "station_id": "EETN_RMP"
           },
           {
-            "label": ["Raja-", "meister"]
+            "label": ["Raja-", "meister"],
+            "color": "snow"
           },
           {
             "label": ["FIS"],
             "station_id": "EETT_FIS"
           },
           {
-            "label": ["EFIN", "FDA"]
+            "label": ["EFIN", "FDA"],
+            "color": "snow"
           },
           {
-            "label": ["BACKUP", "DIVERT"]
+            "label": ["BACKUP", "DIVERT"],
+            "color": "blush"
           },
           {
             "label": []
           },
           {
-            "label": ["Pääste", "(TLL)"]
+            "label": ["Pääste", "(TLL)"],
+            "color": "snow"
           },
           {
             "label": []
           },
           {
             "label": ["EEKA"],
+            "color": "snow",
             "station_id": "EEKA"
           },
           {
             "label": ["EEPU"],
+            "color": "snow",
             "station_id": "EEPU"
           }
         ]
@@ -379,10 +420,12 @@
             "label": ["", ""]
           },
           {
-            "label": ["Õhuseire", "", ""]
+            "label": ["Õhuseire", "", ""],
+            "color": "snow"
           },
           {
             "label": ["EEEI"],
+            "color": "snow",
             "station_id": "EEEI"
           },
           {
@@ -418,16 +461,20 @@
           },
           {
             "label": ["OPSUP"],
+            "color": "snow",
             "station_id": "EETT_OPSUP"
           },
           {
-            "label": ["FDA"]
+            "label": ["FDA"],
+            "color": "snow"
           },
           {
-            "label": ["KAUR", ""]
+            "label": ["KAUR", ""],
+            "color": "snow"
           },
           {
-            "label": ["JRCC"]
+            "label": ["JRCC"],
+            "color": "snow"
           },
           {
             "label": ["", ""]
@@ -438,13 +485,16 @@
           },
           {
             "label": ["AMC"],
+            "color": "snow",
             "station_id": "EETT_OPSUP"
           },
           {
-            "label": ["TVP"]
+            "label": ["TVP"],
+            "color": "snow"
           },
           {
-            "label": ["METEO"]
+            "label": ["METEO"],
+            "color": "snow"
           },
           {
             "label": []
@@ -463,10 +513,12 @@
           },
           {
             "label": ["KORK"],
+            "color": "snow",
             "station_id": "EETN_RMP"
           },
           {
-            "label": ["Raja-", "meister"]
+            "label": ["Raja-", "meister"],
+            "color": "snow"
           },
           {
             "label": [""]
@@ -475,13 +527,15 @@
             "label": ["", ""]
           },
           {
-            "label": ["BACKUP", "DIVERT"]
+            "label": ["BACKUP", "DIVERT"],
+            "color": "blush"
           },
           {
             "label": []
           },
           {
-            "label": ["Pääste", "(TLL)"]
+            "label": ["Pääste", "(TLL)"],
+            "color": "snow"
           },
           {
             "label": []

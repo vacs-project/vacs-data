@@ -1,0 +1,81 @@
+{
+  "positions": [
+    {
+      "id": "LJLA_CTR",
+      "prefixes": ["LJLA"],
+      "frequency": "128.880",
+      "facility_type": "CTR",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJLA_U_CTR",
+      "prefixes": ["LJLA"],
+      "frequency": "128.875",
+      "facility_type": "CTR",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJLA_I_CTR",
+      "prefixes": ["LJLA"],
+      "frequency": "118.480",
+      "facility_type": "CTR",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJLJ_APP",
+      "prefixes": ["LJLJ"],
+      "frequency": "135.280",
+      "facility_type": "APP",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJMB_APP",
+      "prefixes": ["LJMB"],
+      "frequency": "119.205",
+      "facility_type": "APP",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJPZ_APP",
+      "prefixes": ["LJPZ"],
+      "frequency": "124.880",
+      "facility_type": "APP",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJCE_TWR",
+      "prefixes": ["LJCE"],
+      "frequency": "127.230",
+      "facility_type": "TWR",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJLJ_TWR",
+      "prefixes": ["LJLJ"],
+      "frequency": "118.005",
+      "facility_type": "TWR",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJMB_TWR",
+      "prefixes": ["LJMB"],
+      "frequency": "134.305",
+      "facility_type": "TWR",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJPZ_TWR",
+      "prefixes": ["LJPZ"],
+      "frequency": "129.805",
+      "facility_type": "TWR",
+      "profile_id": "LJLA"
+    },
+    {
+      "id": "LJLJ_GND",
+      "prefixes": ["LJLJ"],
+      "frequency": "121.930",
+      "facility_type": "GND",
+      "profile_id": "LJLA"
+    }
+  ]
+}

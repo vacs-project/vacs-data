@@ -1,0 +1,18 @@
+{
+  "stations": [
+    {
+      "id": "CARI_FSS",
+      "controlled_by": ["CARI_FSS", "CARI_S_FSS", "CARI_M_FSS"]
+    },
+    {
+      "id": "CARE_FSS",
+      "parent_id": "CARI_FSS",
+      "controlled_by": ["CARE_FSS"]
+    },
+    {
+      "id": "CARW_FSS",
+      "parent_id": "CARI_FSS",
+      "controlled_by": ["CARW_FSS"]
+    }
+  ]
+}

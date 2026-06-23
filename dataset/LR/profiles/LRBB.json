@@ -8,22 +8,56 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["BEO", "STP", "F385-660"]
+            "label": ["ADRIA", "EAST", "F335-660"],
+            "station_id": "ADRIA-EAST-UPPER"
           },
           {
-            "label": ["BEO", "TOP", "F365-385"]
+            "label": ["ADRIA", "EAST", "GND-F335"],
+            "station_id": "ADRIA-EAST"
           },
           {
-            "label": ["BEO", "UPP", "F345-365"]
+            "label": ["ADRIA", "ALL", "F335-660"],
+            "station_id": "ADRIA-UPPER"
           },
           {
-            "label": ["BEO", "MID", "F325-345"]
+            "label": ["ADRIA", "ALL", "GND-F335"],
+            "station_id": "ADRIA"
           },
           {
-            "label": ["BEO", "LOW", "F205-325"]
+            "label": ["BEO", "APP", "GND-205"],
+            "station_id": "LYBE_APP"
           },
           {
-            "label": ["BEO", "APP", "GNF-205"]
+            "label": ["MIL", "APP", "GND-F125"],
+            "station_id": "LYBT_APP"
+          },
+          {
+            "label": ["VRSAC", "APP", "GND-F075"],
+            "station_id": "LYVR_APP"
+          },
+          {
+            "label": ["BEO_N", "UPP", "F335-660"],
+            "station_id": "LYBA-UPPER-NORTH"
+          },
+          {
+            "label": ["BEO", "UPP", "F335-660"],
+            "station_id": "LYBA-UPPER"
+          },
+          {
+            "label": ["BEO_E", "UPP", "F335-660"],
+            "station_id": "LYBA-UPPER-EAST"
+          },
+          {
+            "label": ["BEO_N", "MID", "F125-F335"],
+            "station_id": "LYBA-NORTH"
+          },
+          {
+            "label": ["BEO", "MID", "GND-F335"],
+            "station_id": "LYBA"
+          },
+          {
+            "label": ["BEO_E", "MID", "F125-335"],
+            "station_id": "LYBA-EAST"
           },
           {
             "label": ["BELGRAD", "FDA"]
@@ -339,7 +373,24 @@
             "station_id": "LRCL_S_APP"
           },
           {
-            "label": ["SUP", "SALA"]
+            "label": ["SUP", "SALA"],
+            "page": {
+              "rows": 4,
+              "keys": [
+                {
+                  "label": ["ACC", "X1"]
+                },
+                {
+                  "label": ["ACC", "X2"]
+                },
+                {
+                  "label": ["APP", "X"]
+                },
+                {
+                  "label": ["TWR", "X"]
+                }
+              ]
+            }
           },
           {
             "label": ["SUP", "INF"]

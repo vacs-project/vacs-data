@@ -1,0 +1,583 @@
+[[positions]]
+id = "LFBB_CTR"
+prefixes = ["LFBB"]
+frequency = "125.105"
+facility_type = "CTR"
+default_call_sources = [
+  "LFBB_BN",
+  "LFBB_H1",
+  "LFBB_L1",
+  "LFBB_LM",
+  "LFBB_N1",
+  "LFBB_P1",
+  "LFBB_R1",
+  "LFBB_T1",
+  "LFBB_TG",
+  "LFBB_TZ",
+  "LFBB_X1",
+  "LFBB_Z1",
+  "LFBD_BW_APP",
+  "LFBD_BE_APP",
+  "LFBD_I_APP",
+  "LFBH_APP",
+  "LFBI_APP",
+  "LFBI_I_APP",
+  "LFBL_APP",
+  "LFBL_I_APP",
+  "LFBO_AE_APP",
+  "LFBO_AW_APP",
+  "LFBO_EB_APP",
+  "LFBO_WB_APP",
+  "LFBO_I_APP",
+  "LFBO_F_APP",
+  "LFBP_APP",
+  "LFBP_I_APP",
+  "LFBZ_APP",
+  "LFBZ_I_APP",
+  "LFBA_TWR",
+  "LFBD_TWR",
+  "LFBE_TWR",
+  "LFBH_TWR",
+  "LFBI_TWR",
+  "LFBL_TWR",
+  "LFBN_I_TWR",
+  "LFBO_TWR",
+  "LFBP_TWR",
+  "LFBR_TWR",
+  "LFBT_TWR",
+  "LFBU_I_TWR",
+  "LFBZ_TWR",
+  "LFCK_I_TWR",
+  "LFCL_TWR",
+  "LFDN_I_TWR",
+  "LFLX_TWR",
+  "LFMK_TWR",
+  "LFSL_TWR",
+  "LFBD_GND",
+  "LFBO_GND",
+  "LFBP_GND",
+  "LFBR_GND",
+  "LFBT_GND",
+  "LFBZ_GND",
+  "LFBO_DEL",
+]
+
+[[positions]]
+id = "LFBB_H1_CTR"
+prefixes = ["LFBB"]
+frequency = "124.830"
+facility_type = "CTR"
+default_call_sources = ["LFBB_H1"]
+
+[[positions]]
+id = "LFBB_L1_CTR"
+prefixes = ["LFBB"]
+frequency = "132.990"
+facility_type = "CTR"
+default_call_sources = ["LFBB_L1"]
+
+[[positions]]
+id = "LFBB_N1_CTR"
+prefixes = ["LFBB"]
+frequency = "135.665"
+facility_type = "CTR"
+default_call_sources = ["LFBB_N1"]
+
+[[positions]]
+id = "LFBB_P1_CTR"
+prefixes = ["LFBB"]
+frequency = "133.960"
+facility_type = "CTR"
+default_call_sources = ["LFBB_P1"]
+
+[[positions]]
+id = "LFBB_R1_CTR"
+prefixes = ["LFBB"]
+frequency = "132.430"
+facility_type = "CTR"
+default_call_sources = ["LFBB_R1"]
+
+[[positions]]
+id = "LFBB_T1_CTR"
+prefixes = ["LFBB"]
+frequency = "123.630"
+facility_type = "CTR"
+default_call_sources = ["LFBB_T1"]
+
+[[positions]]
+id = "LFBB_UN_CTR"
+prefixes = ["LFBB"]
+frequency = "118.430"
+facility_type = "CTR"
+default_call_sources = ["LFBB_L1", "LFBB_P1", "LFBB_R1", "LFBB_T1"]
+
+[[positions]]
+id = "LFBB_US_CTR"
+prefixes = ["LFBB"]
+frequency = "136.040"
+facility_type = "CTR"
+default_call_sources = ["LFBB_H1", "LFBB_N1", "LFBB_X1", "LFBB_Z1"]
+
+[[positions]]
+id = "LFBB_X1_CTR"
+prefixes = ["LFBB"]
+frequency = "126.130"
+facility_type = "CTR"
+default_call_sources = ["LFBB_X1"]
+
+[[positions]]
+id = "LFBB_Z1_CTR"
+prefixes = ["LFBB"]
+frequency = "128.765"
+facility_type = "CTR"
+default_call_sources = ["LFBB_Z1"]
+
+[[positions]]
+id = "LFBC_APP"
+prefixes = ["LFBC"]
+frequency = "119.600"
+facility_type = "APP"
+default_call_sources = ["LFBC_APP"]
+
+[[positions]]
+id = "LFBC_TWR"
+prefixes = ["LFBC"]
+frequency = "118.400"
+facility_type = "TWR"
+default_call_sources = ["LFBC_TWR"]
+
+[[positions]]
+id = "LFBD_BE_APP"
+prefixes = ["LFBD"]
+frequency = "119.275"
+facility_type = "APP"
+default_call_sources = ["LFBD_BE_APP", "LFBE_TWR"]
+
+[[positions]]
+id = "LFBD_BW_APP"
+prefixes = ["LFBD"]
+frequency = "129.875"
+facility_type = "APP"
+default_call_sources = [
+  "LFBD_BW_APP",
+  "LFBD_BE_APP",
+  "LFBD_I_APP",
+  "LFBD_TWR",
+  "LFBE_TWR",
+  "LFBD_GND",
+]
+
+[[positions]]
+id = "LFBD_I_APP"
+prefixes = ["LFBD"]
+frequency = "120.575"
+facility_type = "APP"
+default_call_sources = ["LFBD_I_APP"]
+
+[[positions]]
+id = "LFBG_APP"
+prefixes = ["LFBG"]
+frequency = "132.450"
+facility_type = "APP"
+default_call_sources = ["LFBG_APP"]
+
+[[positions]]
+id = "LFBG_TWR"
+prefixes = ["LFBG"]
+frequency = "120.075"
+facility_type = "TWR"
+default_call_sources = ["LFBG_TWR"]
+
+[[positions]]
+id = "LFBG_GND"
+prefixes = ["LFBG"]
+frequency = "121.100"
+facility_type = "GND"
+default_call_sources = ["LFBG_GND"]
+
+[[positions]]
+id = "LFBH_APP"
+prefixes = ["LFBH"]
+frequency = "124.200"
+facility_type = "APP"
+default_call_sources = ["LFBH_APP", "LFBH_TWR", "LFDN_I_TWR"]
+
+[[positions]]
+id = "LFBH_I_APP"
+prefixes = ["LFBH"]
+frequency = "199.998"
+facility_type = "APP"
+default_call_sources = []
+
+[[positions]]
+id = "LFBI_APP"
+prefixes = ["LFBI"]
+frequency = "134.100"
+facility_type = "APP"
+default_call_sources = [
+  "LFBI_APP",
+  "LFBI_I_APP",
+  "LFBI_TWR",
+  "LFBN_I_TWR",
+  "LFLX_TWR",
+]
+
+[[positions]]
+id = "LFBI_I_APP"
+prefixes = ["LFBI"]
+frequency = "124.000"
+facility_type = "APP"
+default_call_sources = ["LFBI_I_APP"]
+
+[[positions]]
+id = "LFBL_APP"
+prefixes = ["LFBL"]
+frequency = "118.080"
+facility_type = "APP"
+default_call_sources = [
+  "LFBL_APP",
+  "LFBL_I_APP",
+  "LFBL_TWR",
+  "LFBU_I_TWR",
+  "LFSL_TWR",
+]
+
+[[positions]]
+id = "LFBL_I_APP"
+prefixes = ["LFBL"]
+frequency = "124.050"
+facility_type = "APP"
+default_call_sources = ["LFBL_I_APP"]
+
+[[positions]]
+id = "LFBM_APP"
+prefixes = ["LFBM"]
+frequency = "119.700"
+facility_type = "APP"
+default_call_sources = ["LFBM_APP"]
+
+[[positions]]
+id = "LFBM_TWR"
+prefixes = ["LFBM"]
+frequency = "122.100"
+facility_type = "TWR"
+default_call_sources = ["LFBM_TWR"]
+
+[[positions]]
+id = "LFBN_I_TWR"
+prefixes = ["LFBN"]
+frequency = "119.105"
+facility_type = "TWR"
+default_call_sources = ["LFBN_I_TWR"]
+
+[[positions]]
+id = "LFBO_AE_APP"
+prefixes = ["LFBO"]
+frequency = "129.305"
+facility_type = "APP"
+default_call_sources = [
+  "LFBO_AE_APP",
+  "LFBO_AW_APP",
+  "LFBO_EB_APP",
+  "LFBO_WB_APP",
+  "LFBO_I_APP",
+  "LFBO_F_APP",
+  "LFBA_TWR",
+  "LFBO_TWR",
+  "LFBR_TWR",
+  "LFCK_I_TWR",
+  "LFCL_TWR",
+  "LFMK_TWR",
+  "LFBO_GND",
+  "LFBR_GND",
+  "LFBO_DEL",
+]
+
+[[positions]]
+id = "LFBO_AW_APP"
+prefixes = ["LFBO"]
+frequency = "125.180"
+facility_type = "APP"
+default_call_sources = [
+  "LFBO_AW_APP",
+  "LFBO_WB_APP",
+  "LFBA_TWR",
+  "LFBR_TWR",
+  "LFBR_GND",
+]
+
+[[positions]]
+id = "LFBO_EB_APP"
+prefixes = ["LFBO"]
+frequency = "123.850"
+facility_type = "APP"
+default_call_sources = [
+  "LFBO_EB_APP",
+  "LFBO_WB_APP",
+  "LFBA_TWR",
+  "LFCK_I_TWR",
+  "LFMK_TWR",
+]
+
+[[positions]]
+id = "LFBO_F_APP"
+prefixes = ["LFBO"]
+frequency = "121.105"
+facility_type = "APP"
+default_call_sources = ["LFBO_F_APP"]
+
+[[positions]]
+id = "LFBO_I_APP"
+prefixes = ["LFBO"]
+frequency = "123.930"
+facility_type = "APP"
+default_call_sources = ["LFBO_I_APP"]
+
+[[positions]]
+id = "LFBO_I_GND"
+prefixes = ["LFBO"]
+frequency = "121.830"
+facility_type = "GND"
+default_call_sources = ["LFBO_I_GND"]
+
+[[positions]]
+id = "LFBO_WB_APP"
+prefixes = ["LFBO"]
+frequency = "120.355"
+facility_type = "APP"
+default_call_sources = ["LFBO_WB_APP", "LFBA_TWR"]
+
+[[positions]]
+id = "LFBP_APP"
+prefixes = ["LFBP"]
+frequency = "128.800"
+facility_type = "APP"
+default_call_sources = [
+  "LFBP_APP",
+  "LFBP_I_APP",
+  "LFBZ_APP",
+  "LFBZ_I_APP",
+  "LFBP_TWR",
+  "LFBT_TWR",
+  "LFBZ_TWR",
+  "LFBP_GND",
+  "LFBT_GND",
+  "LFBZ_GND",
+]
+
+[[positions]]
+id = "LFBP_I_APP"
+prefixes = ["LFBP"]
+frequency = "126.525"
+facility_type = "APP"
+default_call_sources = ["LFBP_I_APP"]
+
+[[positions]]
+id = "LFBR_TWR"
+prefixes = ["LFBR"]
+frequency = "123.200"
+facility_type = "TWR"
+default_call_sources = ["LFBR_TWR"]
+
+[[positions]]
+id = "LFBU_I_TWR"
+prefixes = ["LFBU"]
+frequency = "123.155"
+facility_type = "TWR"
+default_call_sources = ["LFBU_I_TWR"]
+
+[[positions]]
+id = "LFBY_APP"
+prefixes = ["LFBY"]
+frequency = "122.050"
+facility_type = "APP"
+default_call_sources = ["LFBY_APP"]
+
+[[positions]]
+id = "LFBY_TWR"
+prefixes = ["LFBY"]
+frequency = "118.325"
+facility_type = "TWR"
+default_call_sources = ["LFBY_TWR"]
+
+[[positions]]
+id = "LFBY_GND"
+prefixes = ["LFBY"]
+frequency = "121.775"
+facility_type = "GND"
+default_call_sources = ["LFBY_GND"]
+
+[[positions]]
+id = "LFBZ_APP"
+prefixes = ["LFBZ"]
+frequency = "125.600"
+facility_type = "APP"
+default_call_sources = ["LFBZ_APP", "LFBZ_I_APP", "LFBZ_TWR", "LFBZ_GND"]
+
+[[positions]]
+id = "LFBZ_I_APP"
+prefixes = ["LFBZ"]
+frequency = "119.175"
+facility_type = "APP"
+default_call_sources = ["LFBZ_I_APP"]
+
+[[positions]]
+id = "LFBA_TWR"
+prefixes = ["LFBA"]
+frequency = "121.300"
+facility_type = "TWR"
+default_call_sources = ["LFBA_TWR"]
+
+[[positions]]
+id = "LFBD_TWR"
+prefixes = ["LFBD"]
+frequency = "118.300"
+facility_type = "TWR"
+default_call_sources = ["LFBD_TWR", "LFBD_GND"]
+
+[[positions]]
+id = "LFBE_TWR"
+prefixes = ["LFBE"]
+frequency = "119.805"
+facility_type = "TWR"
+default_call_sources = ["LFBE_TWR"]
+
+[[positions]]
+id = "LFBH_TWR"
+prefixes = ["LFBH"]
+frequency = "118.000"
+facility_type = "TWR"
+default_call_sources = ["LFBH_TWR"]
+
+[[positions]]
+id = "LFBI_TWR"
+prefixes = ["LFBI"]
+frequency = "118.500"
+facility_type = "TWR"
+default_call_sources = ["LFBI_TWR"]
+
+[[positions]]
+id = "LFBL_TWR"
+prefixes = ["LFBL"]
+frequency = "119.550"
+facility_type = "TWR"
+default_call_sources = ["LFBL_TWR"]
+
+[[positions]]
+id = "LFBO_TWR"
+prefixes = ["LFBO"]
+frequency = "118.105"
+facility_type = "TWR"
+default_call_sources = ["LFBO_TWR", "LFBO_GND", "LFBO_DEL"]
+
+[[positions]]
+id = "LFBP_TWR"
+prefixes = ["LFBP"]
+frequency = "124.150"
+facility_type = "TWR"
+default_call_sources = ["LFBP_TWR", "LFBP_GND"]
+
+[[positions]]
+id = "LFBT_TWR"
+prefixes = ["LFBT"]
+frequency = "120.305"
+facility_type = "TWR"
+default_call_sources = ["LFBT_TWR", "LFBT_GND"]
+
+[[positions]]
+id = "LFBZ_TWR"
+prefixes = ["LFBZ"]
+frequency = "118.700"
+facility_type = "TWR"
+default_call_sources = ["LFBZ_TWR", "LFBZ_GND"]
+
+[[positions]]
+id = "LFCK_I_TWR"
+prefixes = ["LFCK"]
+frequency = "118.505"
+facility_type = "TWR"
+default_call_sources = ["LFCK_I_TWR"]
+
+[[positions]]
+id = "LFCL_TWR"
+prefixes = ["LFCL"]
+frequency = "122.700"
+facility_type = "TWR"
+default_call_sources = ["LFCL_TWR"]
+
+[[positions]]
+id = "LFDN_I_TWR"
+prefixes = ["LFDN"]
+frequency = "119.305"
+facility_type = "TWR"
+default_call_sources = ["LFDN_I_TWR"]
+
+[[positions]]
+id = "LFLX_TWR"
+prefixes = ["LFLX"]
+frequency = "125.875"
+facility_type = "TWR"
+default_call_sources = ["LFLX_TWR"]
+
+[[positions]]
+id = "LFMK_TWR"
+prefixes = ["LFMK"]
+frequency = "134.505"
+facility_type = "TWR"
+default_call_sources = ["LFMK_TWR"]
+
+[[positions]]
+id = "LFSL_TWR"
+prefixes = ["LFSL"]
+frequency = "121.125"
+facility_type = "TWR"
+default_call_sources = ["LFSL_TWR"]
+
+[[positions]]
+id = "LFBD_GND"
+prefixes = ["LFBD"]
+frequency = "121.900"
+facility_type = "GND"
+default_call_sources = ["LFBD_GND"]
+
+[[positions]]
+id = "LFBO_GND"
+prefixes = ["LFBO"]
+frequency = "121.905"
+facility_type = "GND"
+default_call_sources = ["LFBO_GND", "LFBO_I_GND", "LFBO_DEL"]
+
+[[positions]]
+id = "LFBP_GND"
+prefixes = ["LFBP"]
+frequency = "121.755"
+facility_type = "GND"
+default_call_sources = ["LFBP_GND"]
+
+[[positions]]
+id = "LFBR_GND"
+prefixes = ["LFBR"]
+frequency = "121.750"
+facility_type = "GND"
+default_call_sources = ["LFBR_GND"]
+
+[[positions]]
+id = "LFBT_GND"
+prefixes = ["LFBT"]
+frequency = "121.800"
+facility_type = "GND"
+default_call_sources = ["LFBT_GND"]
+
+[[positions]]
+id = "LFBZ_GND"
+prefixes = ["LFBZ"]
+frequency = "121.950"
+facility_type = "GND"
+default_call_sources = ["LFBZ_GND"]
+
+[[positions]]
+id = "LFBO_DEL"
+prefixes = ["LFBO"]
+frequency = "121.705"
+facility_type = "DEL"
+default_call_sources = ["LFBO_DEL"]

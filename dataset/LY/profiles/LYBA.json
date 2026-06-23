@@ -1,0 +1,367 @@
+{
+  "id": "LYBA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EXT"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BUDAPEST", "HC"],
+            "station_id": "LHCC_CTR"
+          },
+          {
+            "label": ["BUDAPEST", "HCW"],
+            "station_id": "LHCC_WL"
+          },
+          {
+            "label": ["BUDAPEST", "HCU"],
+            "station_id": "LHCC_WU"
+          },
+          {
+            "label": ["BUDAPEST", "HC2"],
+            "station_id": "LHCC_WT"
+          },
+          {
+            "label": ["BUDAPEST", "HC", "EAST LOW"],
+            "station_id": "LHCC_EL"
+          },
+          {
+            "label": ["BUDAPEST", "HCK"],
+            "station_id": "LHCC_EU"
+          },
+          {
+            "label": ["BUDAPEST", "HC1", ""],
+            "station_id": "LHCC_ET"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BUCHAREST", "LRCB"],
+            "station_id": "LR_LOKOM1"
+          },
+          {
+            "label": ["BUCHAREST", "LRCG", "LRCH"],
+            "station_id": "LR_LOKOM2"
+          },
+          {
+            "label": ["BUCHAREST", "LRCV", "LRCU"],
+            "station_id": "LR_LOKOM3"
+          },
+          {
+            "label": ["BUCHAREST", "LRCW", "LRCB"],
+            "station_id": "LR_BUMON1"
+          },
+          {
+            "label": ["BUCHAREST", "LRCG", "LRCH"],
+            "station_id": "LR_BUDMO2"
+          },
+          {
+            "label": ["BUCHAREST", "LRCV", "LRCU"],
+            "station_id": "LR_BUDMO3"
+          },
+          {
+            "label": ["ARAD", "APPROACH", "ARA"],
+            "station_id": "LRAR_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SOFIA", "LB"],
+            "station_id": "LBSR-SOF"
+          },
+          {
+            "label": ["SOFIA", "APPROACH", "SFA"],
+            "station_id": "LBSF_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BRINDISI", "IBS", "ES3"],
+            "station_id": "LIBB-ES3"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BEOGRAD", "BG"],
+            "station_id": "LYBA"
+          },
+          {
+            "label": ["BEOGRAD", "BGN"],
+            "station_id": "LYBA-NORTH"
+          },
+          {
+            "label": ["BEOGRAD", "BGW"],
+            "station_id": "LYBA-WEST"
+          },
+          {
+            "label": ["BEOGRAD", "BGE"],
+            "station_id": "LYBA-EAST"
+          },
+          {
+            "label": ["BEOGRAD", "BGUC"],
+            "station_id": "LYBA-UPPER"
+          },
+          {
+            "label": ["BEOGRAD", "BGUW"],
+            "station_id": "LYBA-UPPER-NORTH"
+          },
+          {
+            "label": ["BEOGRAD", "BGUN"],
+            "station_id": "LYBA-UPPER-WEST"
+          },
+          {
+            "label": ["BEOGRAD", "BGUE"],
+            "station_id": "LYBA-UPPER-EAST"
+          },
+          {
+            "label": ["ZAGREB", "ZG"],
+            "station_id": "LDZO"
+          },
+          {
+            "label": ["ZAGREB", "UPPER", "ZGU"],
+            "station_id": "LDZO-UPPER"
+          },
+          {
+            "label": ["ZAGREB", "NORTH", "ZGRN"],
+            "station_id": "LDZO-NORTH"
+          },
+          {
+            "label": ["ZAGREB", "N UPPER", "ZGUN"],
+            "station_id": "LDZO-NORTH-UPPER"
+          },
+          {
+            "label": ["ZAGREB", "SOUTH", "ZGRS"],
+            "station_id": "LDZO-SOUTH"
+          },
+          {
+            "label": ["ZAGREB", "S UPPER", "ZGUS"],
+            "station_id": "LDZO-SOUTH-UPPER"
+          },
+          {
+            "label": ["SARAJEVO", "ACC", "SJJ"],
+            "station_id": "LQSB-ACC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TIRANA", "ACC", "TI"],
+            "station_id": "LATI-ACC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SKOPJE", "ACC", "SK"],
+            "station_id": "LWSS-ACC"
+          },
+          {
+            "label": ["ADRIA", "AD"],
+            "station_id": "ADRIA"
+          },
+          {
+            "label": ["ADRIA", "W", "ADW"],
+            "station_id": "ADRIA-WEST"
+          },
+          {
+            "label": ["ADRIA", "UW", "ADUW"],
+            "station_id": "ADRIA-WEST-UPPER"
+          },
+          {
+            "label": ["KFOR", "KFR"],
+            "station_id": "KFOR"
+          },
+          {
+            "label": ["ADRIA", "ADU"],
+            "station_id": "ADRIA-UPPER"
+          },
+          {
+            "label": ["ADRIA", "E", "ADE"],
+            "station_id": "ADRIA-EAST"
+          },
+          {
+            "label": ["ADRIE", "UE", "ADUE"],
+            "station_id": "ADRIA-EAST-UPPER"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["APP"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BEOGRAD", "RADAR", "BGR"],
+            "station_id": "LYBE_APP"
+          },
+          {
+            "label": ["BEOGRAD", "FINAL", "BGF"],
+            "station_id": "LYBE_F_APP"
+          },
+          {
+            "label": ["BATAJNICA", "APPROACH", "BTA"],
+            "station_id": "LYBT_APP"
+          },
+          {
+            "label": ["VRSAC", "APPROACH", "VR"],
+            "station_id": "LYVR_TWR"
+          },
+          {
+            "label": ["PODGORICA", "RADAR", "PG"],
+            "station_id": "LYPG_APP"
+          },
+          {
+            "label": ["TIVAT", "APPROACH", "TV"],
+            "station_id": "LYTV_APP"
+          },
+          {
+            "label": ["OSIJEK", "APPROACH"],
+            "station_id": "LDOS_APP"
+          },
+          {
+            "label": ["DUBROVNIK", "APPROACH", "DR"],
+            "station_id": "LDDU_APP"
+          },
+          {
+            "label": ["NIS", "APPROACH", "NI"],
+            "station_id": "LYNI_APP"
+          },
+          {
+            "label": ["KRALJEVO", "APPROACH", "KV"],
+            "station_id": "LYKV_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TUZLA", "APPROACH", "TZ"],
+            "station_id": "LQTZ_APP"
+          },
+          {
+            "label": ["PRISTINA", "APPROACH", "PR"],
+            "station_id": "BKPR_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SARAJEVO", "APPROACH", "SJ"],
+            "station_id": "LQSA_APP"
+          },
+          {
+            "label": ["TIRANA", "APPROACH", "TIR"],
+            "station_id": "LATI_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SKOPJE", "APPROACH", "SKA"],
+            "station_id": "LWSK_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["TWR", "GND", "DEL"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BEOGRAD", "TOWER", "BGT"],
+            "station_id": "LYBE_TWR"
+          },
+          {
+            "label": ["BEOGRAD", "GROUND", "BGG"],
+            "station_id": "LYBE_GND"
+          },
+          {
+            "label": ["BEOGRAD", "DELIVERY", "BGD"],
+            "station_id": "LYBE_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BATAJNICA", "TOWER", "BTT"],
+            "station_id": "LYBT_TWR"
+          },
+          {
+            "label": ["VRSAC", "TOWER", "VRT"],
+            "station_id": "LYVR_TWR"
+          },
+          {
+            "label": ["UZICE", "TOWER", "UZ"],
+            "station_id": "LYUZ_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["NIS", "TOWER", "NIT"],
+            "station_id": "LYNI_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PODGORICA", "TOWER", "PGT"],
+            "station_id": "LYPG_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KRALJEVO", "TOWER", "KVT"],
+            "station_id": "LYKV_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

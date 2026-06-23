@@ -1,0 +1,222 @@
+{
+  "id": "FMP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ALL"],
+      "page": {
+        "rows": 5,
+        "client_page": {
+          "include": [
+            "GM*",
+
+            "GCCC*CTR",
+            "GCRR*",
+            "LE*CTR",
+            "LP*CTR",
+            "DA*CTR",
+            "GO*CTR",
+            "GQ*CTR*",
+
+            "AFRN*",
+            "AFRW*",
+
+            "LE*FMP",
+            "LP*FMP",
+            "DA*FMP",
+            "GO*FMP",
+            "GQ*FMP*",
+            "GC*FMP*"
+          ],
+          "exclude": [],
+          "priority": [
+            "*_FMP",
+            "*_CTR",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_DEL",
+            "*_CTR"
+          ],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    },
+
+    {
+      "label": ["GMMN"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["DEL"],
+            "station_id": "GMMN_DEL"
+          },
+          {
+            "label": ["GND"],
+            "station_id": "GMMN_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Casa", "RADAR"],
+            "color": "mint",
+            "station_id": "GMMN_CTR"
+          },
+          {
+            "label": ["ACC", "NORTH"],
+            "color": "cadet",
+            "station_id": "GMMM_N_CTR"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "GMMX_TWR"
+          },
+          {
+            "label": ["PLN"],
+            "color": "blush",
+            "station_id": "GMMN_P_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMAC", "WN"],
+            "color": "lagoon",
+            "station_id": "GMAC_WN_CTR"
+          },
+          {
+            "label": ["ACC", "WEST"],
+            "color": "cadet",
+            "station_id": "GMMM_W_CTR"
+          },
+          {
+            "label": ["FIN"],
+            "station_id": "GMMN_F_APP"
+          },
+          {
+            "label": ["APP"],
+            "station_id": "GMMN_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "EAST"],
+            "color": "cadet",
+            "station_id": "GMMM_E_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMMN", "FLOW", "1"],
+            "color": "blush",
+            "station_id": "GMMN_1_FMP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "2"],
+            "color": "blush",
+            "station_id": "GMMN_2_FMP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "3"],
+            "color": "blush",
+            "station_id": "GMMN_3_FMP"
+          },
+          {
+            "label": ["GMMN", "FLOW", "4"],
+            "color": "blush",
+            "station_id": "GMMN_4_FMP"
+          },
+          {
+            "label": ["GMMM", "FLOW"],
+            "color": "blush",
+            "station_id": "GMMM_FMP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["GMMX"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["DEL"],
+            "station_id": "GMMX_DEL"
+          },
+          {
+            "label": ["GND"],
+            "station_id": "GMMX_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "SOUTH"],
+            "station_id": "GMMM_S_CTR"
+          },
+          {
+            "label": ["APP"],
+            "station_id": "GMMX_APP"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "GMMX_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "WEST"],
+            "station_id": "GMMM_W_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMMM", "FLOW"],
+            "color": "blush",
+            "station_id": "GMMM_FMP"
+          }
+        ]
+      }
+    }
+  ]
+}

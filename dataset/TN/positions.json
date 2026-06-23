@@ -5,126 +5,144 @@
       "prefixes": ["TNCF"],
       "frequency": "127.100",
       "facility_type": "CTR",
-      "profile_id": "TNCF"
+      "profile_id": "TNCF",
+      "default_call_sources": ["TNCF_CTR"]
     },
     {
       "id": "TNCF_S_CTR",
       "prefixes": ["TNCF"],
       "frequency": "127.100",
       "facility_type": "CTR",
-      "profile_id": "TNCF"
+      "profile_id": "TNCF",
+      "default_call_sources": ["TNCF_CTR"]
     },
     {
       "id": "TNCF_M_CTR",
       "prefixes": ["TNCF"],
       "frequency": "127.100",
       "facility_type": "CTR",
-      "profile_id": "TNCF"
+      "profile_id": "TNCF",
+      "default_call_sources": ["TNCF_CTR"]
     },
     {
       "id": "TNCF_APP",
       "prefixes": ["TNCF"],
       "frequency": "119.800",
       "facility_type": "APP",
-      "profile_id": "TNCF"
+      "profile_id": "TNCF",
+      "default_call_sources": ["TNCF_APP"]
     },
     {
       "id": "TNCM_APP",
       "prefixes": ["TNCM"],
       "frequency": "128.950",
       "facility_type": "APP",
-      "profile_id": "TNCM"
+      "profile_id": "TNCM",
+      "default_call_sources": ["TNCM_APP"]
     },
     {
       "id": "TNCM_S_APP",
       "prefixes": ["TNCM"],
       "frequency": "128.950",
       "facility_type": "APP",
-      "profile_id": "TNCM"
+      "profile_id": "TNCM",
+      "default_call_sources": ["TNCM_APP"]
     },
     {
       "id": "TNCM_M_APP",
       "prefixes": ["TNCM"],
       "frequency": "128.950",
       "facility_type": "APP",
-      "profile_id": "TNCM"
+      "profile_id": "TNCM",
+      "default_call_sources": ["TNCM_APP"]
     },
     {
       "id": "TNCM_B_APP",
       "prefixes": ["TNCM"],
       "frequency": "119.700",
       "facility_type": "APP",
-      "profile_id": "TNCM"
+      "profile_id": "TNCM",
+      "default_call_sources": ["TNCM_B_APP"]
     },
     {
       "id": "TNCA_APP",
       "prefixes": ["TNCA"],
       "frequency": "120.900",
       "facility_type": "APP",
-      "profile_id": "TNCF"
+      "profile_id": "TNCF",
+      "default_call_sources": ["TNCA_APP"]
     },
     {
       "id": "TNCM_TWR",
       "prefixes": ["TNCM"],
       "frequency": "118.700",
       "facility_type": "TWR",
-      "profile_id": "TNCM"
+      "profile_id": "TNCM",
+      "default_call_sources": ["TNCM_TWR"]
     },
     {
       "id": "TNCM_S_TWR",
       "prefixes": ["TNCM"],
       "frequency": "118.700",
       "facility_type": "TWR",
-      "profile_id": "TNCM"
+      "profile_id": "TNCM",
+      "default_call_sources": ["TNCM_TWR"]
     },
     {
       "id": "TNCM_M_TWR",
       "prefixes": ["TNCM"],
       "frequency": "118.700",
       "facility_type": "TWR",
-      "profile_id": "TNCM"
+      "profile_id": "TNCM",
+      "default_call_sources": ["TNCM_TWR"]
     },
     {
       "id": "TNCA_TWR",
       "prefixes": ["TNCA"],
       "frequency": "118.000",
       "facility_type": "TWR",
-      "profile_id": "TNCF"
+      "profile_id": "TNCF",
+      "default_call_sources": ["TNCA_TWR"]
     },
     {
       "id": "TNCC_TWR",
       "prefixes": ["TNCC"],
       "frequency": "118.300",
       "facility_type": "TWR",
-      "profile_id": "TNCF"
+      "profile_id": "TNCF",
+      "default_call_sources": ["TNCC_TWR"]
     },
     {
       "id": "TNCB_TWR",
       "prefixes": ["TNCB"],
       "frequency": "118.700",
       "facility_type": "TWR",
-      "profile_id": "TNCF"
+      "profile_id": "TNCF",
+      "default_call_sources": ["TNCB_TWR"]
     },
     {
       "id": "TNCM_DEL",
       "prefixes": ["TNCM"],
       "frequency": "121.650",
       "facility_type": "DEL",
-      "profile_id": "TNCM"
+      "profile_id": "TNCM",
+      "default_call_sources": ["TNCM_DEL"]
     },
     {
       "id": "TNCA_RMP",
       "prefixes": ["TNCA"],
       "frequency": "121.600",
       "facility_type": "RMP",
-      "profile_id": "TNCF"
+      "profile_id": "TNCF",
+      "default_call_sources": ["TNCA_RMP"]
     },
     {
       "id": "TNCM_FMP",
       "prefixes": ["TNCM"],
       "frequency": "199.998",
       "facility_type": "FMP",
-      "profile_id": "TNCM"
+      "profile_id": "TNCM",
+      "default_call_sources": ["TNCM_FMP"]
     }
   ]
 }

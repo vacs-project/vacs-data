@@ -1,0 +1,463 @@
+{
+  "positions": [
+    {
+      "id": "GMMM_FMP",
+      "prefixes": ["GMMM"],
+      "frequency": "123.420",
+      "facility_type": "FMP",
+      "profile_id": "FMP",
+      "default_call_sources": ["GMMM_FMP"]
+    },
+    {
+      "id": "GMMN_1_FMP",
+      "prefixes": ["GMMN"],
+      "frequency": "123.410",
+      "facility_type": "FMP",
+      "profile_id": "FMP",
+      "default_call_sources": ["GMMN_1_FMP"]
+    },
+    {
+      "id": "GMMN_2_FMP",
+      "prefixes": ["GMMN"],
+      "frequency": "123.400",
+      "facility_type": "FMP",
+      "profile_id": "FMP",
+      "default_call_sources": ["GMMN_2_FMP"]
+    },
+    {
+      "id": "GMMN_3_FMP",
+      "prefixes": ["GMMN"],
+      "frequency": "123.405",
+      "facility_type": "FMP",
+      "profile_id": "FMP",
+      "default_call_sources": ["GMMN_3_FMP"]
+    },
+    {
+      "id": "GMMN_4_FMP",
+      "prefixes": ["GMMN"],
+      "frequency": "123.415",
+      "facility_type": "FMP",
+      "profile_id": "FMP",
+      "default_call_sources": ["GMMN_4_FMP"]
+    },
+    {
+      "id": "GMMM_ALL_CTR",
+      "prefixes": ["GMMM"],
+      "frequency": "126.500",
+      "facility_type": "CTR",
+      "default_call_sources": ["GMMM_ALL_CTR"]
+    },
+    {
+      "id": "GMAC_CTR",
+      "prefixes": ["GMAC"],
+      "frequency": "131.500",
+      "facility_type": "CTR",
+      "profile_id": "GMAC",
+      "default_call_sources": ["GMAC_CTR"]
+    },
+    {
+      "id": "GMAC_O_CTR",
+      "prefixes": ["GMAC"],
+      "frequency": "124.550",
+      "facility_type": "CTR",
+      "profile_id": "GMAC",
+      "default_call_sources": ["GMAC_O_CTR"]
+    },
+    {
+      "id": "GMAC_ON_CTR",
+      "prefixes": ["GMAC"],
+      "frequency": "136.000",
+      "facility_type": "CTR",
+      "profile_id": "GMAC",
+      "default_call_sources": ["GMAC_ON_CTR"]
+    },
+    {
+      "id": "GMAC_OS_CTR",
+      "prefixes": ["GMAC"],
+      "frequency": "124.500",
+      "facility_type": "CTR",
+      "profile_id": "GMAC",
+      "default_call_sources": ["GMAC_OS_CTR"]
+    },
+    {
+      "id": "GMAC_W_CTR",
+      "prefixes": ["GMAC"],
+      "frequency": "128.850",
+      "facility_type": "CTR",
+      "profile_id": "GMAC",
+      "default_call_sources": ["GMAC_W_CTR"]
+    },
+    {
+      "id": "GMAC_WN_CTR",
+      "prefixes": ["GMAC"],
+      "frequency": "128.800",
+      "facility_type": "CTR",
+      "profile_id": "GMAC",
+      "default_call_sources": ["GMAC_WN_CTR"]
+    },
+    {
+      "id": "GMAC_WS_CTR",
+      "prefixes": ["GMAC"],
+      "frequency": "127.000",
+      "facility_type": "CTR",
+      "profile_id": "GMAC",
+      "default_call_sources": ["GMAC_WS_CTR"]
+    },
+    {
+      "id": "GMMM_CTR",
+      "prefixes": ["GMMM"],
+      "frequency": "132.100",
+      "facility_type": "CTR",
+      "default_call_sources": ["GMMM_CTR"]
+    },
+    {
+      "id": "GMMM_NE_CTR",
+      "prefixes": ["GMMM"],
+      "frequency": "132.325",
+      "facility_type": "CTR",
+      "profile_id": "GMMM-NE",
+      "default_call_sources": ["GMMM_NE_CTR"]
+    },
+    {
+      "id": "GMMM_N_CTR",
+      "prefixes": ["GMMM"],
+      "frequency": "125.500",
+      "facility_type": "CTR",
+      "profile_id": "GMMM-NE",
+      "default_call_sources": ["GMMM_N_CTR"]
+    },
+    {
+      "id": "GMMM_E_CTR",
+      "prefixes": ["GMMM"],
+      "frequency": "125.100",
+      "facility_type": "CTR",
+      "profile_id": "GMMM-NE",
+      "default_call_sources": ["GMMM_E_CTR"]
+    },
+    {
+      "id": "GMMM_S_CTR",
+      "prefixes": ["GMMM"],
+      "frequency": "126.700",
+      "facility_type": "CTR",
+      "default_call_sources": ["GMMM_S_CTR"]
+    },
+    {
+      "id": "GMMM_W_CTR",
+      "prefixes": ["GMMM"],
+      "frequency": "132.500",
+      "facility_type": "CTR",
+      "default_call_sources": ["GMMM_W_CTR"]
+    },
+    {
+      "id": "GMMN_CTR",
+      "prefixes": ["GMMN"],
+      "frequency": "121.300",
+      "facility_type": "CTR",
+      "default_call_sources": ["GMMN_CTR"]
+    },
+    {
+      "id": "GMAD_APP",
+      "prefixes": ["GMAD"],
+      "frequency": "120.900",
+      "facility_type": "APP",
+      "default_call_sources": ["GMAD_APP"]
+    },
+    {
+      "id": "GMAD_TWR",
+      "prefixes": ["GMAD"],
+      "frequency": "119.500",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMAD_TWR"]
+    },
+    {
+      "id": "GMAG_APP",
+      "prefixes": ["GMAG"],
+      "frequency": "119.100",
+      "facility_type": "APP",
+      "default_call_sources": ["GMAG_APP"]
+    },
+    {
+      "id": "GMAG_TWR",
+      "prefixes": ["GMAG"],
+      "frequency": "122.500",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMAG_TWR"]
+    },
+    {
+      "id": "GMFB_APP",
+      "prefixes": ["GMFB"],
+      "frequency": "119.100",
+      "facility_type": "APP",
+      "default_call_sources": ["GMFB_APP"]
+    },
+    {
+      "id": "GMFB_TWR",
+      "prefixes": ["GMFB"],
+      "frequency": "118.000",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMFB_TWR"]
+    },
+    {
+      "id": "GMFF_APP",
+      "prefixes": ["GMFF"],
+      "frequency": "121.400",
+      "facility_type": "APP",
+      "default_call_sources": ["GMFF_APP"]
+    },
+    {
+      "id": "GMFF_TWR",
+      "prefixes": ["GMFF"],
+      "frequency": "118.800",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMFF_TWR"]
+    },
+    {
+      "id": "GMFO_APP",
+      "prefixes": ["GMFO"],
+      "frequency": "136.600",
+      "facility_type": "APP",
+      "default_call_sources": ["GMFO_APP"]
+    },
+    {
+      "id": "GMFO_TWR",
+      "prefixes": ["GMFO"],
+      "frequency": "118.200",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMFO_TWR"]
+    },
+    {
+      "id": "GMME_APP",
+      "prefixes": ["GMME"],
+      "frequency": "118.900",
+      "facility_type": "APP",
+      "default_call_sources": ["GMME_APP"]
+    },
+    {
+      "id": "GMME_TWR",
+      "prefixes": ["GMME"],
+      "frequency": "120.600",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMME_TWR"]
+    },
+    {
+      "id": "GMMH_APP",
+      "prefixes": ["GMMH"],
+      "frequency": "119.500",
+      "facility_type": "APP",
+      "default_call_sources": ["GMMH_APP"]
+    },
+    {
+      "id": "GMMH_TWR",
+      "prefixes": ["GMMH"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMMH_TWR"]
+    },
+    {
+      "id": "GMMI_APP",
+      "prefixes": ["GMMI"],
+      "frequency": "119.800",
+      "facility_type": "APP",
+      "default_call_sources": ["GMMI_APP"]
+    },
+    {
+      "id": "GMMI_TWR",
+      "prefixes": ["GMMI"],
+      "frequency": "118.250",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMMI_TWR"]
+    },
+    {
+      "id": "GMML_APP",
+      "prefixes": ["GMML"],
+      "frequency": "127.500",
+      "facility_type": "APP",
+      "default_call_sources": ["GMML_APP"]
+    },
+    {
+      "id": "GMML_TWR",
+      "prefixes": ["GMML"],
+      "frequency": "131.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMML_TWR"]
+    },
+    {
+      "id": "GMMN_APP",
+      "prefixes": ["GMMN"],
+      "frequency": "119.900",
+      "facility_type": "APP",
+      "profile_id": "GMMN",
+      "default_call_sources": ["GMMN_APP"]
+    },
+    {
+      "id": "GMMN_F_APP",
+      "prefixes": ["GMMN"],
+      "frequency": "121.300",
+      "facility_type": "APP",
+      "profile_id": "GMMN",
+      "default_call_sources": ["GMMN_F_APP"]
+    },
+    {
+      "id": "GMMN_TWR",
+      "prefixes": ["GMMN"],
+      "frequency": "118.500",
+      "facility_type": "TWR",
+      "profile_id": "GMMN",
+      "default_call_sources": ["GMMN_TWR"]
+    },
+    {
+      "id": "GMMN_GND",
+      "prefixes": ["GMMN"],
+      "frequency": "130.600",
+      "facility_type": "GND",
+      "profile_id": "GMMN",
+      "default_call_sources": ["GMMN_GND"]
+    },
+    {
+      "id": "GMMN_P_GND",
+      "prefixes": ["GMMN"],
+      "frequency": "199.998",
+      "facility_type": "GND",
+      "profile_id": "GMMN",
+      "default_call_sources": ["GMMN_P_GND"]
+    },
+    {
+      "id": "GMMN_DEL",
+      "prefixes": ["GMMN"],
+      "frequency": "121.700",
+      "facility_type": "DEL",
+      "profile_id": "GMMN",
+      "default_call_sources": ["GMMN_DEL"]
+    },
+    {
+      "id": "GMMX_APP",
+      "prefixes": ["GMMX"],
+      "frequency": "127.400",
+      "facility_type": "APP",
+      "profile_id": "GMMX",
+      "default_call_sources": ["GMMX_APP"]
+    },
+    {
+      "id": "GMMX_TWR",
+      "prefixes": ["GMMX"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "profile_id": "GMMX",
+      "default_call_sources": ["GMMX_TWR"]
+    },
+    {
+      "id": "GMMX_GND",
+      "prefixes": ["GMMX"],
+      "frequency": "125.475",
+      "facility_type": "GND",
+      "profile_id": "GMMX",
+      "default_call_sources": ["GMMX_GND"]
+    },
+    {
+      "id": "GMMX_DEL",
+      "prefixes": ["GMMX"],
+      "frequency": "127.775",
+      "facility_type": "DEL",
+      "profile_id": "GMMX",
+      "default_call_sources": ["GMMX_DEL"]
+    },
+    {
+      "id": "GMMZ_APP",
+      "prefixes": ["GMMZ"],
+      "frequency": "119.300",
+      "facility_type": "APP",
+      "default_call_sources": ["GMMZ_APP"]
+    },
+    {
+      "id": "GMMZ_TWR",
+      "prefixes": ["GMMZ"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMMZ_TWR"]
+    },
+    {
+      "id": "GMTT_APP",
+      "prefixes": ["GMTT"],
+      "frequency": "121.200",
+      "facility_type": "APP",
+      "default_call_sources": ["GMTT_APP"]
+    },
+    {
+      "id": "GMTT_TWR",
+      "prefixes": ["GMTT"],
+      "frequency": "119.500",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMTT_TWR"]
+    },
+    {
+      "id": "GMAT_TWR",
+      "prefixes": ["GMAT"],
+      "frequency": "129.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMAT_TWR"]
+    },
+    {
+      "id": "GMAZ_TWR",
+      "prefixes": ["GMAZ"],
+      "frequency": "118.350",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMAZ_TWR"]
+    },
+    {
+      "id": "GMFI_TWR",
+      "prefixes": ["GMFI"],
+      "frequency": "131.000",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMFI_TWR"]
+    },
+    {
+      "id": "GMFK_TWR",
+      "prefixes": ["GMFK"],
+      "frequency": "122.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMFK_TWR"]
+    },
+    {
+      "id": "GMMB_TWR",
+      "prefixes": ["GMMB"],
+      "frequency": "118.200",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMMB_TWR"]
+    },
+    {
+      "id": "GMMD_TWR",
+      "prefixes": ["GMMD"],
+      "frequency": "121.200",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMMD_TWR"]
+    },
+    {
+      "id": "GMMT_TWR",
+      "prefixes": ["GMMT"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMMT_TWR"]
+    },
+    {
+      "id": "GMMW_TWR",
+      "prefixes": ["GMMW"],
+      "frequency": "118.650",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMMW_TWR"]
+    },
+    {
+      "id": "GMTA_TWR",
+      "prefixes": ["GMTA"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMTA_TWR"]
+    },
+    {
+      "id": "GMTN_TWR",
+      "prefixes": ["GMTN"],
+      "frequency": "119.000",
+      "facility_type": "TWR",
+      "default_call_sources": ["GMTN_TWR"]
+    }
+  ]
+}

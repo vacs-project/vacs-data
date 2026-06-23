@@ -1,0 +1,37 @@
+{
+  "id": "OPLA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OPLA"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["GND"],
+            "color": "mint",
+            "station_id": "OPLA_GND"
+          },
+          {
+            "label": ["AIR"],
+            "color": "blush",
+            "station_id": "OPLA_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OPLR", "EAST"],
+            "color": "cadet",
+            "station_id": "OPLR-E_CTR"
+          },
+          {
+            "label": ["APP"],
+            "color": "steel",
+            "station_id": "OPLA_APP"
+          }
+        ]
+      }
+    }
+  ]
+}

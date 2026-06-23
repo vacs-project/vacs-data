@@ -1,0 +1,388 @@
+{
+  "id": "LPPO",
+  "type": "Geo",
+  "direction": "row",
+  "height": "100%",
+  "width": "100%",
+  "gap": 2,
+  "children": [
+    {
+      "direction": "col",
+      "padding_top": 13,
+      "padding_left": 2,
+      "gap": 6.5,
+      "children": [
+        {
+          "label": ["New York", "ZWY"],
+          "size": 8,
+          "page": {
+            "rows": 6,
+            "keys": [
+              {
+                "label": ["JOBOC", "65"],
+                "station_id": "JOBOC"
+              },
+              {
+                "label": ["OHRYN", "85"],
+                "station_id": "OHRYN"
+              },
+              {
+                "label": ["ATLANTIC", "86"],
+                "station_id": "ATLANTIC"
+              },
+              {
+                "label": ["PAEPR", "82"],
+                "station_id": "PAEPR"
+              },
+              {
+                "label": ["HANRI", "83"],
+                "station_id": "HANRI"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["CHAMP", "87", "High"],
+                "station_id": "CHAMP_H"
+              },
+              {
+                "label": ["CHAMP", "87", "Low"],
+                "station_id": "CHAMP_L"
+              },
+              {
+                "label": ["BACUS", "88", "High"],
+                "station_id": "BACUS_H"
+              },
+              {
+                "label": ["BACUS", "88", "Low"],
+                "station_id": "BACUS_L"
+              },
+              {
+                "label": ["GRATX", "90", "High"],
+                "station_id": "GRATX_H"
+              },
+              {
+                "label": ["GRATX", "90", "Low"],
+                "station_id": "GRATX_L"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["COCOA", "80"],
+                "station_id": "COCOA"
+              },
+              {
+                "label": ["HILDY", "81"],
+                "station_id": "HILDY"
+              },
+              {
+                "label": ["KRAFT", "89", "High"],
+                "station_id": "KRAFT_H"
+              },
+              {
+                "label": ["KRAFT", "89", "Low"],
+                "station_id": "KRAFT_L"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["MERCURY", "21-24", "High"],
+                "station_id": "MERCURY_H"
+              },
+              {
+                "label": ["MERCURY", "21-24", "Low"],
+                "station_id": "MERCURY_L"
+              },
+              {
+                "label": ["GEMINI", "18-20", "High"],
+                "station_id": "GEMINI_H"
+              },
+              {
+                "label": ["GEMINI", "18-20", "Low"],
+                "station_id": "GEMINI_L"
+              },
+              {
+                "label": ["APOLLO", "16-17", "High"],
+                "station_id": "APOLLO_H"
+              },
+              {
+                "label": ["APOLLO", "16-17", "Low"],
+                "station_id": "APOLLO_L"
+              }
+            ]
+          }
+        },
+        {
+          "label": ["ONL", "DA"],
+          "size": 4,
+          "page": {
+            "rows": 1,
+            "client_page": {
+              "include": ["LP*", "LECM*", "NAT*", "EGGX*", "CZQ*", "NY_*"],
+              "frequencies": "ShowAll",
+              "grouping": "FirAndIcao"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "gap": 0.75,
+      "padding_top": 2,
+      "children": [
+        {
+          "direction": "row",
+          "gap": 2,
+          "children": [
+            {
+              "label": ["Gander", "CZQO"],
+              "size": 8,
+              "page": {
+                "rows": 2,
+                "keys": [
+                  {
+                    "label": ["Gander", "Oceanic"],
+                    "station_id": "Gander"
+                  },
+                  {
+                    "label": ["Gander", "Delivery"],
+                    "station_id": "Gander_DEL"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["NAT", "BBX"],
+              "size": 8,
+              "station_id": "NAT_BBx"
+            },
+            {
+              "label": ["Shanwick", "EGGX"],
+              "size": 8,
+              "page": {
+                "rows": 2,
+                "keys": [
+                  {
+                    "label": ["Shanwick", "Oceanic"],
+                    "station_id": "Shanwick"
+                  },
+                  {
+                    "label": ["Shanwick", "Delivery"],
+                    "station_id": "Shanwick_DEL"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "gap": 2,
+          "padding_top": 2,
+          "padding": 0.5,
+          "justify_content": "center",
+          "children": [
+            {
+              "label": ["Aerodromes"],
+              "color": "steel",
+              "size": 8,
+              "page": {
+                "rows": 5,
+                "keys": [
+                  {
+                    "label": ["FLW APP"],
+                    "station_id": "LPFL_APP"
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": ["Corvo", "AFISO"],
+                    "station_id": "LPCR_I_TWR"
+                  },
+                  {
+                    "label": ["HOR APP"],
+                    "station_id": "LPHR_APP"
+                  },
+                  {
+                    "label": ["HOR TWR"],
+                    "station_id": "LPHR_TWR"
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": ["Pico", "AFISO"],
+                    "station_id": "LPPI_I_TWR"
+                  },
+                  {
+                    "label": ["TER APP"],
+                    "station_id": "LPLA_APP"
+                  },
+                  {
+                    "label": ["TER TWR"],
+                    "station_id": "LPLA_TWR"
+                  },
+                  {
+                    "label": ["TER GND"],
+                    "station_id": "LPLA_GND"
+                  },
+                  {
+                    "label": ["TER DLV"],
+                    "station_id": "LPLA_DEL"
+                  },
+                  {
+                    "label": ["São Jorge", "AFISO"],
+                    "station_id": "LPSJ_I_TWR"
+                  },
+                  {
+                    "label": ["PDL APP"],
+                    "station_id": "LPPD_APP"
+                  },
+                  {
+                    "label": ["PDL TWR"],
+                    "station_id": "LPPD_TWR"
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": ["Graciosa", "AFISO"],
+                    "station_id": "LPGR_I_TWR"
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": ["SMA TWR"],
+                    "station_id": "LPAZ_TWR"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["Santa Maria", "ACC"],
+              "color": "steel",
+              "size": 8,
+              "page": {
+                "rows": 2,
+                "keys": [
+                  {
+                    "label": ["SMA", "Oceanic"],
+                    "station_id": "LPPO_FSS"
+                  },
+                  {
+                    "label": ["SMA", "Radar"],
+                    "station_id": "LPPO_CTR"
+                  },
+                  {
+                    "label": ["SMA", "OCC", "Delivery"],
+                    "station_id": "LPPO_OC_DEL"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["SMA", "OCC 285+", "Trial"],
+                    "station_id": "LPPO_OC_CTR"
+                  },
+                  {
+                    "label": ["SMA", "TMA", "Trial"],
+                    "station_id": "LPPO_TMA_CTR"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "gap": 2,
+          "padding_top": 1.5,
+          "justify_content": "space-between",
+          "children": [
+            {
+              "label": ["Piarco", "TTPx", "INOP"],
+              "size": 8
+            },
+            {
+              "label": ["Sal", "GSVC", "INOP"],
+              "size": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "padding_top": 3,
+      "gap": 2,
+      "children": [
+        {
+          "label": ["Madrid", "LECM", "INOP"],
+          "size": 8
+        },
+        {
+          "label": ["Lisboa", "LPPC"],
+          "size": 8,
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["West", "Upper"],
+                "station_id": "LPPC_WU_CTR"
+              },
+              {
+                "label": ["West", "Lower"],
+                "station_id": "LPPC_W_CTR"
+              },
+              {
+                "label": ["Madeira"],
+                "station_id": "LPPC_I_CTR"
+              },
+              {
+                "label": ["North", "Upper"],
+                "station_id": "LPPC_NU_CTR"
+              },
+              {
+                "label": ["North", "Lower"],
+                "station_id": "LPPC_N_CTR"
+              },
+              {
+                "label": ["South"],
+                "station_id": "LPPC_S_CTR"
+              },
+              {
+                "label": ["Centre", "Upper"],
+                "station_id": "LPPC_CU_CTR"
+              },
+              {
+                "label": ["Centre", "Lower"],
+                "station_id": "LPPC_C_CTR"
+              }
+            ]
+          }
+        },
+        {
+          "label": ["Canaries", "GCCx", "INOP"],
+          "size": 8
+        }
+      ]
+    }
+  ]
+}

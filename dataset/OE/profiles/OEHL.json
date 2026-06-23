@@ -1,0 +1,17 @@
+{
+  "id": "OEHL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OEHL"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          { "label": ["GND"], "station_id": "OEHL_GND" },
+          { "label": ["TWR"], "station_id": "OEHL_TWR" },
+          { "label": ["APP"], "station_id": "OEHL_APP" }
+        ]
+      }
+    }
+  ]
+}

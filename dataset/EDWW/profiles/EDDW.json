@@ -3,24 +3,29 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "PRIM",
+      "label": ["PRIM"],
       "page": {
         "rows": 6,
         "keys": [
           {
             "label": ["FRI"],
+            "color": "lagoon",
             "station_id": "EDWW-FRI"
           },
           {
             "label": ["TWR"],
+            "color": "mint",
             "station_id": "EDDW-TWR"
           },
           {
             "label": ["GND"],
+            "color": "azure",
             "station_id": "EDDW-GND"
           },
           {
-            "label": ["EDWW", "FMP"]
+            "label": ["EDWW", "FMP"],
+            "color": "lagoon",
+            "station_id": "EDWW-FMP"
           }
         ]
       }

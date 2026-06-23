@@ -1,0 +1,250 @@
+{
+  "id": "KZWY",
+  "type": "Geo",
+  "direction": "row",
+  "padding": 0.5,
+  "gap": 1.5,
+  "justify_content": "space-between",
+  "children": [
+    {
+      "direction": "col",
+      "height": "100%",
+      "justify_content": "space-between",
+      "gap": 0.75,
+      "children": [
+        {
+          "label": ["ZBW", "(INOP)"],
+          "size": 7,
+          "page": {
+            "rows": 1,
+            "keys": [{ "label": ["INOP"] }]
+          }
+        },
+        {
+          "label": ["ZNY", "(INOP)"],
+          "size": 7,
+          "page": {
+            "rows": 1,
+            "keys": [{ "label": ["INOP"] }]
+          }
+        },
+        {
+          "label": ["ZDC", "(INOP)"],
+          "size": 7,
+          "page": {
+            "rows": 1,
+            "keys": [{ "label": ["INOP"] }]
+          }
+        },
+        {
+          "label": ["ZJX", "(INOP)"],
+          "size": 7,
+          "page": {
+            "rows": 1,
+            "keys": [{ "label": ["INOP"] }]
+          }
+        },
+        {
+          "label": ["ZMA", "(INOP)"],
+          "size": 7,
+          "page": {
+            "rows": 1,
+            "keys": [{ "label": ["INOP"] }]
+          }
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "height": "100%",
+      "justify_content": "space-between",
+      "gap": 0.75,
+      "children": [
+        {
+          "direction": "row",
+          "justify_content": "center",
+          "gap": 1.5,
+          "children": [
+            {
+              "label": ["Moncton"],
+              "size": 7,
+              "page": {
+                "rows": 5,
+                "keys": [
+                  { "label": ["1"], "station_id": "CZQM-1-CTR" },
+                  { "label": ["2"], "station_id": "CZQM-2-CTR" },
+                  { "label": ["3"], "station_id": "CZQM-3-CTR" },
+                  { "label": ["4"], "station_id": "CZQM-4-CTR" },
+                  { "label": ["5"], "station_id": "CZQM-5-CTR" },
+                  { "label": ["6"], "station_id": "CZQM-6-CTR" },
+                  { "label": ["7"], "station_id": "CZQM-7-CTR" },
+                  { "label": ["8"], "station_id": "CZQM-8-CTR" },
+                  { "label": [] },
+                  { "label": ["Moncton"], "station_id": "CZQM-CTR" }
+                ]
+              }
+            },
+            {
+              "label": ["Gander", "Domestic"],
+              "size": 7,
+              "page": {
+                "rows": 5,
+                "keys": [
+                  { "label": ["1"], "station_id": "CZQX-1-CTR" },
+                  { "label": ["2"], "station_id": "CZQX-2-CTR" },
+                  { "label": ["3"], "station_id": "CZQX-3-CTR" },
+                  { "label": ["4"], "station_id": "CZQX-4-CTR" },
+                  { "label": ["5"], "station_id": "CZQX-5-CTR" },
+                  { "label": ["6"], "station_id": "CZQX-6-CTR" },
+                  { "label": ["7"], "station_id": "CZQX-7-CTR" },
+                  { "label": [] },
+                  { "label": [] },
+                  { "label": ["Gander", "Domestic"], "station_id": "CZQX-CTR" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "justify_content": "center",
+          "gap": 1.5,
+          "children": [
+            {
+              "label": ["ZWY", "INTERNAL"],
+              "size": 15,
+              "page": {
+                "rows": 6,
+                "keys": [
+                  { "label": ["JOBOC", "65"], "station_id": "JOBOC" },
+                  { "label": ["OHRYN", "85"], "station_id": "OHRYN" },
+                  { "label": ["ATLANTIC", "86"], "station_id": "ATLANTIC" },
+                  { "label": ["PAEPR", "82"], "station_id": "PAEPR" },
+                  { "label": ["HANRI", "83"], "station_id": "HANRI" },
+                  { "label": [] },
+                  { "label": ["CHAMP", "87", "High"], "station_id": "CHAMP_H" },
+                  { "label": ["CHAMP", "87", "Low"], "station_id": "CHAMP_L" },
+                  { "label": ["BACUS", "88", "High"], "station_id": "BACUS_H" },
+                  { "label": ["BACUS", "88", "Low"], "station_id": "BACUS_L" },
+                  { "label": ["GRATX", "90", "High"], "station_id": "GRATX_H" },
+                  { "label": ["GRATX", "90", "Low"], "station_id": "GRATX_L" },
+                  { "label": [] },
+                  { "label": ["COCOA", "80"], "station_id": "COCOA" },
+                  { "label": ["HILDY", "81"], "station_id": "HILDY" },
+                  { "label": ["KRAFT", "89", "High"], "station_id": "KRAFT_H" },
+                  { "label": ["KRAFT", "89", "Low"], "station_id": "KRAFT_L" },
+                  { "label": [] },
+                  {
+                    "label": ["MERCURY", "21-24", "High"],
+                    "station_id": "MERCURY_H"
+                  },
+                  {
+                    "label": ["MERCURY", "21-24", "Low"],
+                    "station_id": "MERCURY_L"
+                  },
+                  {
+                    "label": ["GEMINI", "18-20", "High"],
+                    "station_id": "GEMINI_H"
+                  },
+                  {
+                    "label": ["GEMINI", "18-20", "Low"],
+                    "station_id": "GEMINI_L"
+                  },
+                  {
+                    "label": ["APOLLO", "16-17", "High"],
+                    "station_id": "APOLLO_H"
+                  },
+                  {
+                    "label": ["APOLLO", "16-17", "Low"],
+                    "station_id": "APOLLO_L"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "justify_content": "center",
+          "gap": 1.5,
+          "children": [
+            {
+              "label": ["ZMO", "(INOP)"],
+              "size": 7,
+              "page": {
+                "rows": 1,
+                "keys": [{ "label": ["INOP"] }]
+              }
+            },
+            {
+              "label": ["ZSU", "(INOP)"],
+              "size": 7,
+              "page": {
+                "rows": 1,
+                "keys": [{ "label": ["INOP"] }]
+              }
+            },
+            {
+              "label": ["Piarco"],
+              "size": 7,
+              "page": {
+                "rows": 1,
+                "client_page": {
+                  "include": ["TTZP*_*"],
+                  "frequencies": "ShowAll",
+                  "priority": ["*_CTR"],
+                  "grouping": "Fir"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "height": "100%",
+      "justify_content": "center",
+      "gap": 0.75,
+      "children": [
+        {
+          "label": ["Gander", "Oceanic"],
+          "size": 7,
+          "page": {
+            "rows": 5,
+            "keys": [
+              { "label": ["DEL", "A"], "station_id": "Gander_DEL_A" },
+              { "label": ["DEL", "B"], "station_id": "Gander_DEL_B" },
+              { "label": ["DEL", "C"], "station_id": "Gander_DEL_C" },
+              { "label": ["DEL", "D"], "station_id": "Gander_DEL_D" },
+              { "label": ["DEL", "F"], "station_id": "Gander_DEL_F" },
+              { "label": ["A"], "station_id": "Gander_A" },
+              { "label": ["B"], "station_id": "Gander_B" },
+              { "label": ["C"], "station_id": "Gander_C" },
+              { "label": ["D"], "station_id": "Gander_D" },
+              { "label": ["F"], "station_id": "Gander_F" },
+              { "label": ["G"], "station_id": "Gander_G" },
+              { "label": [] },
+              { "label": [] },
+              { "label": [] },
+              { "label": ["Gander"], "station_id": "Gander" }
+            ]
+          }
+        },
+        {
+          "label": ["Santa", "Maria"],
+          "size": 7,
+          "page": {
+            "rows": 1,
+            "client_page": {
+              "include": ["LPPO*_*"],
+              "frequencies": "ShowAll",
+              "priority": ["*_FSS"],
+              "grouping": "Fir"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

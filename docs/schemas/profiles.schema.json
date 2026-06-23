@@ -99,12 +99,30 @@
         "grouping": { "$ref": "#/$defs/ClientGroupMode" }
       }
     },
+    "CustomButtonColor": {
+      "type": "string",
+      "enum": [
+        "clay",
+        "blush",
+        "lilac",
+        "mint",
+        "lavender",
+        "taupe",
+        "cadet",
+        "steel",
+        "umber",
+        "lagoon",
+        "snow",
+        "azure"
+      ]
+    },
     "DirectAccessKey": {
       "type": "object",
       "additionalProperties": false,
       "required": ["label"],
       "properties": {
         "label": { "$ref": "#/$defs/LabelStringOrLines" },
+        "color": { "$ref": "#/$defs/CustomButtonColor" },
         "station_id": { "$ref": "#/$defs/StationId" },
         "page": { "$ref": "#/$defs/DirectAccessPage" }
       },
@@ -175,6 +193,7 @@
         "size": {
           "$ref": "#/$defs/PositiveNumber"
         },
+        "color": { "$ref": "#/$defs/CustomButtonColor" },
         "page": { "$ref": "#/$defs/DirectAccessPage" },
         "station_id": { "$ref": "#/$defs/StationId" }
       },

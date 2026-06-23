@@ -1,0 +1,128 @@
+{
+  "stations": [
+    {
+      "id": "WPG-CTR",
+      "controlled_by": ["WPG_CTR"]
+    },
+    {
+      "id": "CYWG-APP",
+      "parent_id": "WPG-CTR",
+      "controlled_by": ["CYWG_APP"]
+    },
+    {
+      "id": "CYWG-WEST",
+      "parent_id": "WPG-CTR",
+      "controlled_by": ["CYWG_DEP"]
+    },
+    {
+      "id": "CYWG-EAST",
+      "parent_id": "WPG-CTR",
+      "controlled_by": ["CYWG_E_DEP"]
+    },
+    {
+      "id": "CYXE-TMU",
+      "parent_id": "WPG-CTR",
+      "controlled_by": ["CYXE_APP"]
+    },
+    {
+      "id": "CYQR-TMU",
+      "parent_id": "WPG-CTR",
+      "controlled_by": ["CYQR_APP"]
+    },
+    {
+      "id": "CYMJ-TMU",
+      "parent_id": "WPG-CTR",
+      "controlled_by": ["CYMJ_APP"]
+    },
+    {
+      "id": "CYQT-TMU",
+      "parent_id": "WPG-CTR",
+      "controlled_by": ["CYQT_APP"]
+    },
+    {
+      "id": "CYFO-TMU",
+      "parent_id": "WPG-CTR",
+      "controlled_by": ["CYFO_APP"]
+    },
+    {
+      "id": "CYWG-TWR",
+      "parent_id": "CYWG-APP",
+      "controlled_by": ["CYWG_TWR"]
+    },
+    {
+      "id": "CYAV-TWR",
+      "parent_id": "CYWG-TWR",
+      "controlled_by": ["CYAV_TWR"]
+    },
+    {
+      "id": "CYXE-TWR",
+      "parent_id": "CYXE-TMU",
+      "controlled_by": ["CYXE_TWR"]
+    },
+    {
+      "id": "CYQR-TWR",
+      "parent_id": "CYQR-TMU",
+      "controlled_by": ["CYQR_TWR"]
+    },
+    {
+      "id": "CYQT-TWR",
+      "parent_id": "CYQT-TMU",
+      "controlled_by": ["CYQT_TWR"]
+    },
+    {
+      "id": "CYMJ-TWR",
+      "parent_id": "CYMJ-TMU",
+      "controlled_by": ["CYMJ_TWR"]
+    },
+    {
+      "id": "CYPG-TWR",
+      "parent_id": "CYWG-APP",
+      "controlled_by": ["CYPG_TWR"]
+    },
+    {
+      "id": "CYWG-GND",
+      "parent_id": "CYWG-TWR",
+      "controlled_by": ["CYWG_GND"]
+    },
+    {
+      "id": "CYXE-GND",
+      "parent_id": "CYXE-TWR",
+      "controlled_by": ["CYXE_GND"]
+    },
+    {
+      "id": "CYQR-GND",
+      "parent_id": "CYQR-TWR",
+      "controlled_by": ["CYQR_GND"]
+    },
+    {
+      "id": "CYQT-GND",
+      "parent_id": "CYQT-TWR",
+      "controlled_by": ["CYQT_GND"]
+    },
+    {
+      "id": "CYMJ-GND",
+      "parent_id": "CYMJ-TWR",
+      "controlled_by": ["CYMJ_GND"]
+    },
+    {
+      "id": "CYAV-GND",
+      "parent_id": "CYAV-TWR",
+      "controlled_by": ["CYAV_GND"]
+    },
+    {
+      "id": "CYPG-GND",
+      "parent_id": "CYPG-TWR",
+      "controlled_by": ["CYPG_GND"]
+    },
+    {
+      "id": "CYWG-DEL",
+      "parent_id": "CYWG-GND",
+      "controlled_by": ["CYWG_DEL"]
+    },
+    {
+      "id": "CYMJ-DEL",
+      "parent_id": "CYMJ-GND",
+      "controlled_by": ["CYMJ_DEL"]
+    }
+  ]
+}

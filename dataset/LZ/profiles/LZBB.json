@@ -58,15 +58,17 @@
           "justify_content": "center",
           "children": [
             {
-              "label": ["LKAA", "TB", "N/A"],
+              "label": ["LKAA", "TB/MT"],
               "size": 6.25,
               "page": {
                 "keys": [
                   {
-                    "label": ["305-660", "SH"]
+                    "label": ["305-660", "SH"],
+                    "station_id": "LKAA SU"
                   },
                   {
-                    "label": ["125-305", "SL"]
+                    "label": ["125-305", "SL"],
+                    "station_id": "LKAA SL"
                   },
                   {
                     "label": []
@@ -75,7 +77,27 @@
                     "label": []
                   },
                   {
-                    "label": ["LKTB", "APP"]
+                    "label": ["LKTB", "APP"],
+                    "station_id": "LKAA TB"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["LKMT", "APP"],
+                    "station_id": "LKAA MT"
                   },
                   {
                     "label": []
@@ -106,7 +128,7 @@
                   },
                   {
                     "label": ["EPKK", "APP"],
-                    "station_id": "EPKK_TMA_E"
+                    "station_id": "EPKK_TMA_W"
                   },
                   {
                     "label": []
@@ -127,7 +149,8 @@
                     "label": []
                   },
                   {
-                    "label": []
+                    "label": ["EPKK", "APP"],
+                    "station_id": "EPKK_TMA_E"
                   },
                   {
                     "label": []
@@ -323,19 +346,23 @@
                   "page": {
                     "keys": [
                       {
-                        "label": ["LZBB", "FIS"]
+                        "label": ["LZBB", "FIS"],
+                        "station_id": "LZBB_I_CTR"
                       },
                       {
                         "label": []
                       },
                       {
-                        "label": ["LOVV", "FIS"]
+                        "label": ["LOVV", "FIS"],
+                        "station_id": "LOVV_I_CTR"
                       },
                       {
-                        "label": ["LOWW", "FIS"]
+                        "label": ["LOWW", "FIS"],
+                        "station_id": "LOWW_I_APP"
                       },
                       {
-                        "label": ["LKAA", "FIS"]
+                        "label": ["LKAA", "FIS"],
+                        "station_id": "LKAA FIC"
                       },
                       {
                         "label": []
@@ -344,7 +371,8 @@
                         "label": ["EPWW", "FIS"]
                       },
                       {
-                        "label": ["EPKK", "FIS"]
+                        "label": ["EPKK", "FIS"],
+                        "station_id": "EPKK_FIS"
                       },
                       {
                         "label": ["UKLV", "FIS"]
@@ -353,13 +381,15 @@
                         "label": []
                       },
                       {
-                        "label": ["LHCC", "EAST", "FIS"]
+                        "label": ["LHCC", "EAST", "FIS"],
+                        "station_id": "LHCC_EFIC"
                       },
                       {
                         "label": ["LHBP", "FIS"]
                       },
                       {
-                        "label": ["LHCC", "WEST", "FIS"]
+                        "label": ["LHCC", "WEST", "FIS"],
+                        "station_id": "LHCC_WFIC"
                       },
                       {
                         "label": []
@@ -379,51 +409,61 @@
           "padding_right": 3,
           "children": [
             {
-              "label": ["LHCC", "BP", "N/A"],
+              "label": ["LHCC", "BP"],
               "size": 6.25,
               "page": {
                 "keys": [
                   {
-                    "label": ["365-660", "WT"]
+                    "label": ["365-660", "WT"],
+                    "station_id": "LHCC_WT"
                   },
                   {
-                    "label": ["345-365", "WU"]
+                    "label": ["345-365", "WU"],
+                    "station_id": "LHCC_WU"
                   },
                   {
-                    "label": ["GND-195", "WL"]
-                  },
-                  {
-                    "label": []
-                  },
-                  {
-                    "label": ["LHBP", "ARR"]
-                  },
-                  {
-                    "label": ["LHBP", "DEP"]
-                  },
-                  {
-                    "label": ["365-660", "ET"]
-                  },
-                  {
-                    "label": ["345-365", "EU"]
-                  },
-                  {
-                    "label": ["GND-195", "EL"]
+                    "label": ["GND-195", "WL"],
+                    "station_id": "LHCC_WL"
                   },
                   {
                     "label": []
                   },
                   {
+                    "label": ["LHBP", "ARR"],
+                    "station_id": "LHBP_APP"
+                  },
+                  {
+                    "label": ["LHBP", "DEP"],
+                    "station_id": "LHBP_D_APP"
+                  },
+                  {
+                    "label": ["365-660", "ET"],
+                    "station_id": "LHCC_ET"
+                  },
+                  {
+                    "label": ["345-365", "EU"],
+                    "station_id": "LHCC_EU"
+                  },
+                  {
+                    "label": ["GND-195", "EL"],
+                    "station_id": "LHCC_EL"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
                     "label": []
                   },
                   {
                     "label": []
                   },
                   {
-                    "label": ["365-660", "NT"]
+                    "label": ["365-660", "NT"],
+                    "station_id": "LHCC_NT"
                   },
                   {
-                    "label": ["345-365", "NU"]
+                    "label": ["345-365", "NU"],
+                    "station_id": "LHCC_NU"
                   },
                   {
                     "label": []
@@ -457,7 +497,7 @@
           "gap": 0.75,
           "children": [
             {
-              "label": ["UKLV"],
+              "label": ["UKLV", "N/A"],
               "size": 6.25,
               "page": {
                 "keys": [

@@ -66,8 +66,8 @@
             "station_id": "ESMM_8"
           },
           {
-            "label": ["MM", "IS"],
-            "station_id": "ESMM_IS"
+            "label": ["MM", "FIS-S"],
+            "station_id": "ESMM_FIS-S"
           },
           {
             "label": []
@@ -243,7 +243,7 @@
           },
           {
             "label": ["OS", "APP-C"],
-            "station_id": "ESOS_ARR-E"
+            "station_id": "ESOS_APP-C"
           },
           {
             "label": []
@@ -441,16 +441,16 @@
             "label": []
           },
           {
-            "label": ["EPWW", "F HIGH", ""],
-            "station_id": "EPWWF_HIGH"
+            "label": ["EPWW", "B HIGH"],
+            "station_id": "EPWWB_HIGH"
           },
           {
-            "label": ["EPWW", "F MID"],
-            "station_id": "EPWWF_MID"
+            "label": ["EPWW", "B MID"],
+            "station_id": "EPWWB_MID"
           },
           {
-            "label": ["EPWW", "F LOW"],
-            "station_id": "EPWWF_LOW"
+            "label": ["EPWW", "B LOW"],
+            "station_id": "EPWWB_LOW"
           },
           {
             "label": ["EFIN", "FMP"],
@@ -464,16 +464,16 @@
             "station_id": "EPWW_FMP"
           },
           {
-            "label": ["EPWW", "B HIGH"],
-            "station_id": "EPWWB_HIGH"
+            "label": ["EPWW", "F HIGH", ""],
+            "station_id": "EPWWF_HIGH"
           },
           {
-            "label": ["EPWW", "B MID"],
-            "station_id": "EPWWB_MID"
+            "label": ["EPWW", "F MID"],
+            "station_id": "EPWWF_MID"
           },
           {
-            "label": ["EPWW", "B LOW"],
-            "station_id": "EPWWB_LOW"
+            "label": ["EPWW", "F LOW"],
+            "station_id": "EPWWF_LOW"
           },
           {
             "label": ["EFIN", "D"],
@@ -539,7 +539,8 @@
             "station_id": "EYVL-L"
           },
           {
-            "label": ["UMKK"]
+            "label": ["UMKK"],
+            "station_id": "UMKK_ACC"
           }
         ]
       }
@@ -550,7 +551,7 @@
         "rows": 3,
         "keys": [
           {
-            "label": ["COB"],
+            "label": ["EAG"],
             "station_id": "ESPF"
           },
           {
@@ -558,7 +559,7 @@
             "station_id": "ESCR"
           },
           {
-            "label": ["BSH"],
+            "label": ["COB"],
             "station_id": "ESDK"
           },
           {

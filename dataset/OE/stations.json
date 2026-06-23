@@ -1,0 +1,305 @@
+{
+  "stations": [
+    { "id": "OERD_CTR", "controlled_by": ["OERD_CTR"] },
+    {
+      "id": "OERD_E_CTR",
+      "parent_id": "OERD_CTR",
+      "controlled_by": ["OERD_E_CTR"]
+    },
+    {
+      "id": "OERD_N_CTR",
+      "parent_id": "OERD_CTR",
+      "controlled_by": ["OERD_N_CTR"]
+    },
+    {
+      "id": "OERD_NE_CTR",
+      "parent_id": "OERD_N_CTR",
+      "controlled_by": ["OERD_NE_CTR"]
+    },
+    {
+      "id": "OERD_1_CTR",
+      "parent_id": "OERD_CTR",
+      "controlled_by": ["OERD_1_CTR"]
+    },
+    {
+      "id": "OERK_N_CTR",
+      "parent_id": "OERD_1_CTR",
+      "controlled_by": ["OERK_N_CTR"]
+    },
+    {
+      "id": "OEJD_1_CTR",
+      "parent_id": "GULF_W_FSS",
+      "controlled_by": ["OEJD_1_CTR"]
+    },
+    {
+      "id": "OEJD_2_CTR",
+      "parent_id": "OEJD_1_CTR",
+      "controlled_by": ["OEJD_2_CTR"]
+    },
+    {
+      "id": "OEJD_N_CTR",
+      "parent_id": "OEJD_1_CTR",
+      "controlled_by": ["OEJD_N_CTR"]
+    },
+    {
+      "id": "OEJD_S_CTR",
+      "parent_id": "OEJD_2_CTR",
+      "controlled_by": ["OEJD_S_CTR"]
+    },
+    {
+      "id": "OEJD_W_CTR",
+      "parent_id": "OEJD_2_CTR",
+      "controlled_by": ["OEJD_W_CTR"]
+    },
+    {
+      "id": "OEJD_NE_CTR",
+      "parent_id": "OEJD_N_CTR",
+      "controlled_by": ["OEJD_NE_CTR"]
+    },
+    {
+      "id": "OEJD_SE_CTR",
+      "parent_id": "OEJD_S_CTR",
+      "controlled_by": ["OEJD_SE_CTR"]
+    },
+    {
+      "id": "OEJD_C_CTR",
+      "parent_id": "OEJD_2_CTR",
+      "controlled_by": ["OEJD_C_CTR"]
+    },
+
+    {
+      "id": "OEJN_W_CTR",
+      "parent_id": "OEJD_1_CTR",
+      "controlled_by": ["OEJN_W_CTR"]
+    },
+
+    {
+      "id": "OEJN_APP",
+      "parent_id": "OEJN_W_CTR",
+      "controlled_by": ["OEJN_APP"]
+    },
+    {
+      "id": "OEJN_FE_APP",
+      "parent_id": "OEJN_APP",
+      "controlled_by": ["OEJN_FE_APP"]
+    },
+    {
+      "id": "OEJN_FW_APP",
+      "parent_id": "OEJN_APP",
+      "controlled_by": ["OEJN_FW_APP"]
+    },
+    {
+      "id": "OEJN_FMC_APP",
+      "parent_id": "OEJN_APP",
+      "controlled_by": ["OEJN_FMC_APP"]
+    },
+
+    {
+      "id": "OEJN_W_TWR",
+      "parent_id": "OEJN_APP",
+      "controlled_by": ["OEJN_W_TWR"]
+    },
+    {
+      "id": "OEJN_E_TWR",
+      "parent_id": "OEJN_APP",
+      "controlled_by": ["OEJN_E_TWR"]
+    },
+    {
+      "id": "OEJN_C_TWR",
+      "parent_id": "OEJN_APP",
+      "controlled_by": ["OEJN_C_TWR"]
+    },
+    {
+      "id": "OEJN_E_RMP",
+      "parent_id": "OEJN_E_GND",
+      "controlled_by": ["OEJN_E_RMP"]
+    },
+    {
+      "id": "OEJN_E_GND",
+      "parent_id": "OEJN_W_TWR",
+      "controlled_by": ["OEJN_E_GND"]
+    },
+    {
+      "id": "OEJN_W_GND",
+      "parent_id": "OEJN_W_TWR",
+      "controlled_by": ["OEJN_W_GND"]
+    },
+    {
+      "id": "OEJN_C_GND",
+      "parent_id": "OEJN_C_TWR",
+      "controlled_by": ["OEJN_C_GND"]
+    },
+    {
+      "id": "OEJN_DEL",
+      "parent_id": "OEJN_C_GND",
+      "controlled_by": ["OEJN_DEL"]
+    },
+
+    {
+      "id": "OERK_1_CTR",
+      "parent_id": "OERD_CTR",
+      "controlled_by": ["OERK_1_CTR"]
+    },
+    {
+      "id": "OERK_APP",
+      "parent_id": "OERK_1_CTR",
+      "controlled_by": ["OERK_APP"]
+    },
+    {
+      "id": "OERK_F_APP",
+      "parent_id": "OERK_APP",
+      "controlled_by": ["OERK_F_APP"]
+    },
+
+    {
+      "id": "OERK_E_TWR",
+      "parent_id": "OERK_APP",
+      "controlled_by": ["OERK_E_TWR"]
+    },
+    {
+      "id": "OERK_W_TWR",
+      "parent_id": "OERK_APP",
+      "controlled_by": ["OERK_W_TWR"]
+    },
+
+    {
+      "id": "OERK_N_GND",
+      "parent_id": "OERK_E_TWR",
+      "controlled_by": ["OERK_N_GND"]
+    },
+    {
+      "id": "OERK_S_GND",
+      "parent_id": "OERK_W_TWR",
+      "controlled_by": ["OERK_S_GND"]
+    },
+    {
+      "id": "OERK_DEL",
+      "parent_id": "OERK_S_GND",
+      "controlled_by": ["OERK_DEL"]
+    },
+
+    {
+      "id": "OEGS_APP",
+      "parent_id": "OERD_CTR",
+      "controlled_by": ["OEGS_APP"]
+    },
+    {
+      "id": "OEGS_TWR",
+      "parent_id": "OEGS_APP",
+      "controlled_by": ["OEGS_TWR"]
+    },
+    {
+      "id": "OEGS_GND",
+      "parent_id": "OEGS_TWR",
+      "controlled_by": ["OEGS_GND"]
+    },
+
+    {
+      "id": "OETF_GND",
+      "parent_id": "OETF_TWR",
+      "controlled_by": ["OETF_GND"]
+    },
+    {
+      "id": "OEHL_GND",
+      "parent_id": "OEHL_TWR",
+      "controlled_by": ["OEHL_GND"]
+    },
+    {
+      "id": "OEHL_TWR",
+      "parent_id": "OEHL_APP",
+      "controlled_by": ["OEHL_TWR"]
+    },
+    {
+      "id": "OEHL_APP",
+      "parent_id": "OEJD_N_CTR",
+      "controlled_by": ["OEHL_APP"]
+    },
+    {
+      "id": "OETB_DEL",
+      "parent_id": "OETB_GND",
+      "controlled_by": ["OETB_DEL"]
+    },
+
+    {
+      "id": "OETB_GND",
+      "parent_id": "OETB_TWR",
+      "controlled_by": ["OETB_GND"]
+    },
+    {
+      "id": "OETB_TWR",
+      "parent_id": "OETB_APP",
+      "controlled_by": ["OETB_TWR"]
+    },
+    {
+      "id": "OETB_APP",
+      "parent_id": "OEJD_C_CTR",
+      "controlled_by": ["OETB_APP"]
+    },
+
+    {
+      "id": "OEMA_GND",
+      "parent_id": "OEMA_TWR",
+      "controlled_by": ["OEMA_GND"]
+    },
+    {
+      "id": "OEMA_TWR",
+      "parent_id": "OEMA_APP",
+      "controlled_by": ["OEMA_TWR"]
+    },
+    {
+      "id": "OEMA_APP",
+      "parent_id": "OEJD_N_CTR",
+      "controlled_by": ["OEMA_APP"]
+    },
+    {
+      "id": "OETF_TWR",
+      "parent_id": "OETF_APP",
+      "controlled_by": ["OETF_TWR"]
+    },
+    {
+      "id": "OETF_APP",
+      "parent_id": "OEJD_N_CTR",
+      "controlled_by": ["OETF_APP"]
+    },
+    {
+      "id": "OENG_GND",
+      "parent_id": "OENG_TWR",
+      "controlled_by": ["OENG_GND"]
+    },
+    {
+      "id": "OENG_TWR",
+      "parent_id": "OEJD_1_CTR",
+      "controlled_by": ["OENG_TWR"]
+    },
+    {
+      "id": "OEDF_1_GND",
+      "parent_id": "OEDF_1_TWR",
+      "controlled_by": ["OEDF_1_GND"]
+    },
+    {
+      "id": "OEDF_2_GND",
+      "parent_id": "OEDF_2_TWR",
+      "controlled_by": ["OEDF_2_GND"]
+    },
+    {
+      "id": "OEDF_1_TWR",
+      "parent_id": "OEDF_L_APP",
+      "controlled_by": ["OEDF_1_TWR"]
+    },
+    {
+      "id": "OEDF_2_TWR",
+      "parent_id": "OEDF_L_APP",
+      "controlled_by": ["OEDF_2_TWR"]
+    },
+    {
+      "id": "OEDF_L_APP",
+      "parent_id": "OEDF_APP",
+      "controlled_by": ["OEDF_L_APP"]
+    },
+    {
+      "id": "OEDF_APP",
+      "parent_id": "OERD_NE_CTR",
+      "controlled_by": ["OEDF_APP"]
+    }
+  ]
+}

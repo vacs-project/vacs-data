@@ -3,116 +3,149 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "PRIM",
+      "label": ["PRIM"],
       "page": {
         "rows": 6,
         "keys": [
           {
             "label": ["EMS"],
+            "color": "lagoon",
             "station_id": "EDWW-EMS"
           },
           {
             "label": ["HAN"],
+            "color": "lagoon",
             "station_id": "EDWW-HAN"
           },
           {
             "label": ["FRI"],
+            "color": "lagoon",
             "station_id": "EDWW-FRI"
           },
           {
             "label": ["DV", "TWR"],
+            "color": "mint",
             "station_id": "EDDV-TWR"
           },
           {
             "label": ["ETHB", "TWR"],
+            "color": "steel",
             "station_id": "ETHB-TWR"
           },
           {
             "label": ["ETHS", "TWR"],
+            "color": "steel",
             "station_id": "ETHS-TWR"
           },
           {
             "label": ["HRZ"],
+            "color": "lagoon",
             "station_id": "EDWW-HRZ"
           },
           {
             "label": ["DVAT"],
+            "color": "lagoon",
             "station_id": "EDWW-DVAT"
           },
           {
             "label": ["HAM"],
+            "color": "lagoon",
             "station_id": "EDWW-HAM"
           },
           {
             "label": ["DV", "GND"],
+            "color": "mint",
             "station_id": "EDDV-GND"
           },
           {
             "label": ["ETHB", "APP"],
+            "color": "steel",
             "station_id": "ETHB-APP"
           },
           {
             "label": ["ETHS", "APP"],
+            "color": "steel",
             "station_id": "ETHS-APP"
           },
           {
             "label": ["ALR"],
+            "color": "lagoon",
             "station_id": "EDWW-ALR"
           },
           {
             "label": ["BOR"],
+            "color": "lagoon",
             "station_id": "EDWW-BOR"
           },
           {
             "label": ["GG", "HMM"],
+            "color": "clay",
             "station_id": "EDGG-HMM"
           },
           {
             "label": ["DV", "DEL"],
+            "color": "mint",
             "station_id": "EDDV-DEL"
           },
           {
             "label": ["ETHC", "TWR"],
+            "color": "steel",
             "station_id": "ETHC-TWR"
           },
           {
             "label": ["ETNW", "TWR"],
+            "color": "steel",
             "station_id": "ETNW-TWR"
           },
           {
             "label": ["HEI"],
+            "color": "lagoon",
             "station_id": "EDWW-HEI"
           },
           {
             "label": ["MAR"],
+            "color": "lagoon",
             "station_id": "EDWW-MAR"
           },
           {
-            "label": ["EDWW", "FMP"]
+            "label": ["EDWW", "FMP"],
+            "color": "lagoon",
+            "station_id": "EDWW-FMP"
           },
           {
             "label": ["VE", "TWR"],
+            "color": "mint",
             "station_id": "EDVE-TWR"
           },
           {
             "label": ["ETHC", "APP"],
+            "color": "steel",
             "station_id": "ETHC-APP"
           },
           {
             "label": ["ETNW", "APP"],
+            "color": "steel",
             "station_id": "ETNW-APP"
           },
           {
-            "label": ["FIS", "DB"]
+            "label": ["FIS", "DB"],
+            "color": "snow",
+            "station_id": "EDXX-FIS-IDB"
           },
           {
-            "label": ["FIS", "DH"]
+            "label": ["FIS", "DH"],
+            "color": "snow",
+            "station_id": "EDXX-FIS-IDH"
           },
           {
-            "label": ["FIS", "DL"]
+            "label": ["FIS", "DL"],
+            "color": "snow",
+            "station_id": "EDXX-FIS-IDL"
           },
           {
-            "label": ["FIS", "DV"]
+            "label": ["FIS", "DV"],
+            "color": "snow",
+            "station_id": "EDXX-FIS-IDV"
           }
         ]
       }

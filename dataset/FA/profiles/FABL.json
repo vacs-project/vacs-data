@@ -5,7 +5,7 @@
     {
       "label": "FABL",
       "page": {
-        "rows": 10,
+        "rows": 6,
         "client_page": {
           "include": ["FABL*", "FAJA_*", "FASA_*"],
           "exclude": [

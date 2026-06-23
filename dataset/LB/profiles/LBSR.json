@@ -107,13 +107,16 @@
         "rows": 4,
         "keys": [
           {
-            "label": []
+            "label": ["BEO", "CTR", "335+"],
+            "station_id": "LYBA-UPPER-EAST"
           },
           {
-            "label": ["BEO", "CTR"]
+            "label": ["BEO", "CTR", "(Main)"],
+            "station_id": "LYBA-EAST"
           },
           {
-            "label": ["SKO", "CTR"]
+            "label": ["SKO", "CTR", ""],
+            "station_id": "LWSS-ACC"
           },
           {
             "label": []
@@ -182,10 +185,12 @@
             "label": ["IST", "APP", "(EAST)"]
           },
           {
-            "label": ["LYBE", "APP"]
+            "label": ["LYBE", "APP"],
+            "station_id": "LYBE_APP"
           },
           {
-            "label": ["LYNI", "APP"]
+            "label": ["LYNI", "APP"],
+            "station_id": "LYNI_APP"
           },
           {
             "label": ["LROP", "APP"],

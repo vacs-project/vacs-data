@@ -1,0 +1,216 @@
+{
+  "positions": [
+    {
+      "id": "DTTC_FMP",
+      "prefixes": ["DTTC"],
+      "frequency": "132.500",
+      "facility_type": "FMP",
+      "profile_id": "DTTC",
+      "default_call_sources": ["DTTC_FMP"]
+    },
+    {
+      "id": "DTTC_CTR",
+      "prefixes": ["DTTC"],
+      "frequency": "132.500",
+      "facility_type": "CTR",
+      "profile_id": "DTTC",
+      "default_call_sources": ["DTTC_CTR"]
+    },
+    {
+      "id": "DTTC_I_CTR",
+      "prefixes": ["DTTC"],
+      "frequency": "128.900",
+      "facility_type": "CTR",
+      "profile_id": "DTTC",
+      "default_call_sources": ["DTTC_I_CTR"]
+    },
+    {
+      "id": "DTTC_N_CTR",
+      "prefixes": ["DTTC"],
+      "frequency": "132.550",
+      "facility_type": "CTR",
+      "profile_id": "DTTC-NORTH",
+      "default_call_sources": ["DTTC_N_CTR"]
+    },
+    {
+      "id": "DTTC_S_CTR",
+      "prefixes": ["DTTC"],
+      "frequency": "129.300",
+      "facility_type": "CTR",
+      "profile_id": "DTTC-SOUTH",
+      "default_call_sources": ["DTTC_S_CTR"]
+    },
+    {
+      "id": "DTTC_U_CTR",
+      "prefixes": ["DTTC"],
+      "frequency": "129.500",
+      "facility_type": "CTR",
+      "profile_id": "DTTC-NORTH",
+      "default_call_sources": ["DTTC_U_CTR"]
+    },
+    {
+      "id": "DTKA_APP",
+      "prefixes": ["DTKA"],
+      "frequency": "125.150",
+      "facility_type": "APP",
+      "default_call_sources": ["DTKA_APP"]
+    },
+    {
+      "id": "DTKA_TWR",
+      "prefixes": ["DTKA"],
+      "frequency": "119.250",
+      "facility_type": "TWR",
+      "default_call_sources": ["DTKA_TWR"]
+    },
+    {
+      "id": "DTNH_APP",
+      "prefixes": ["DTNH"],
+      "frequency": "119.300",
+      "facility_type": "APP",
+      "profile_id": "DTNH",
+      "default_call_sources": ["DTNH_APP"]
+    },
+    {
+      "id": "DTNH_TWR",
+      "prefixes": ["DTNH"],
+      "frequency": "118.550",
+      "facility_type": "TWR",
+      "profile_id": "DTNH",
+      "default_call_sources": ["DTNH_TWR"]
+    },
+    {
+      "id": "DTNH_GND",
+      "prefixes": ["DTNH"],
+      "frequency": "121.675",
+      "facility_type": "GND",
+      "profile_id": "DTNH",
+      "default_call_sources": ["DTNH_GND"]
+    },
+    {
+      "id": "DTTA_APP",
+      "prefixes": ["DTTA"],
+      "frequency": "121.200",
+      "facility_type": "APP",
+      "profile_id": "DTTA",
+      "default_call_sources": ["DTTA_APP"]
+    },
+    {
+      "id": "DTTA_U_APP",
+      "prefixes": ["DTTA"],
+      "frequency": "119.500",
+      "facility_type": "APP",
+      "profile_id": "DTTA",
+      "default_call_sources": ["DTTA_U_APP"]
+    },
+    {
+      "id": "DTTA_TWR",
+      "prefixes": ["DTTA"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "profile_id": "DTTA",
+      "default_call_sources": ["DTTA_TWR"]
+    },
+    {
+      "id": "DTTA_GND",
+      "prefixes": ["DTTA"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "DTTA",
+      "default_call_sources": ["DTTA_GND"]
+    },
+    {
+      "id": "DTTA_DEL",
+      "prefixes": ["DTTA"],
+      "frequency": "130.675",
+      "facility_type": "DEL",
+      "profile_id": "DTTA",
+      "default_call_sources": ["DTTA_DEL"]
+    },
+    {
+      "id": "DTTF_APP",
+      "prefixes": ["DTTF"],
+      "frequency": "122.750",
+      "facility_type": "APP",
+      "default_call_sources": ["DTTF_APP"]
+    },
+    {
+      "id": "DTTF_TWR",
+      "prefixes": ["DTTF"],
+      "frequency": "125.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["DTTF_TWR"]
+    },
+    {
+      "id": "DTTG_APP",
+      "prefixes": ["DTTG"],
+      "frequency": "129.150",
+      "facility_type": "APP",
+      "default_call_sources": ["DTTG_APP"]
+    },
+    {
+      "id": "DTTG_TWR",
+      "prefixes": ["DTTG"],
+      "frequency": "119.150",
+      "facility_type": "TWR",
+      "default_call_sources": ["DTTG_TWR"]
+    },
+    {
+      "id": "DTTJ_APP",
+      "prefixes": ["DTTJ"],
+      "frequency": "120.300",
+      "facility_type": "APP",
+      "default_call_sources": ["DTTJ_APP"]
+    },
+    {
+      "id": "DTTJ_TWR",
+      "prefixes": ["DTTJ"],
+      "frequency": "118.150",
+      "facility_type": "TWR",
+      "default_call_sources": ["DTTJ_TWR"]
+    },
+    {
+      "id": "DTTX_APP",
+      "prefixes": ["DTTX"],
+      "frequency": "123.700",
+      "facility_type": "APP",
+      "default_call_sources": ["DTTX_APP"]
+    },
+    {
+      "id": "DTTX_TWR",
+      "prefixes": ["DTTX"],
+      "frequency": "120.150",
+      "facility_type": "TWR",
+      "default_call_sources": ["DTTX_TWR"]
+    },
+    {
+      "id": "DTTZ_APP",
+      "prefixes": ["DTTZ"],
+      "frequency": "120.700",
+      "facility_type": "APP",
+      "default_call_sources": ["DTTZ_APP"]
+    },
+    {
+      "id": "DTTZ_TWR",
+      "prefixes": ["DTTZ"],
+      "frequency": "118.200",
+      "facility_type": "TWR",
+      "default_call_sources": ["DTTZ_TWR"]
+    },
+    {
+      "id": "DTMB_TWR",
+      "prefixes": ["DTMB"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "profile_id": "DTNH",
+      "default_call_sources": ["DTMB_TWR"]
+    },
+    {
+      "id": "DTTI_TWR",
+      "prefixes": ["DTTI"],
+      "frequency": "123.000",
+      "facility_type": "TWR",
+      "profile_id": "DTTI",
+      "default_call_sources": ["DTTI_TWR"]
+    }
+  ]
+}

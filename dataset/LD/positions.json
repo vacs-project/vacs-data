@@ -1,0 +1,207 @@
+{
+  "positions": [
+    {
+      "id": "LDZO_S_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "122.575",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZO_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "135.800",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZO_N_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "128.275",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZO_W_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "124.375",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZO_C_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "132.340",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZO_UN_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "133.635",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZO_US_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "131.275",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZO_UW_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "125.780",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZO_UC_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "136.300",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZO_U_CTR",
+      "prefixes": ["LDZO"],
+      "frequency": "129.650",
+      "facility_type": "CTR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDDU_APP",
+      "prefixes": ["LDDU"],
+      "frequency": "123.600",
+      "facility_type": "APP",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDDU_F_APP",
+      "prefixes": ["LDDU"],
+      "frequency": "134.725",
+      "facility_type": "APP",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDOS_APP",
+      "prefixes": ["LDOS"],
+      "frequency": "128.350",
+      "facility_type": "APP",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDPL_APP",
+      "prefixes": ["LDPL"],
+      "frequency": "124.600",
+      "facility_type": "APP",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDSP_APP",
+      "prefixes": ["LDSP"],
+      "frequency": "120.875",
+      "facility_type": "APP",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDSP_F_APP",
+      "prefixes": ["LDSP"],
+      "frequency": "128.675",
+      "facility_type": "APP",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZA_APP",
+      "prefixes": ["LDZA"],
+      "frequency": "118.885",
+      "facility_type": "APP",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZD_APP",
+      "prefixes": ["LDZD"],
+      "frequency": "128.525",
+      "facility_type": "APP",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDDU_TWR",
+      "prefixes": ["LDDU"],
+      "frequency": "129.500",
+      "facility_type": "TWR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDLO_TWR",
+      "prefixes": ["LDLO"],
+      "frequency": "120.300",
+      "facility_type": "TWR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDPL_TWR",
+      "prefixes": ["LDPL"],
+      "frequency": "132.000",
+      "facility_type": "TWR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDRI_TWR",
+      "prefixes": ["LDRI"],
+      "frequency": "119.000",
+      "facility_type": "TWR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDSB_TWR",
+      "prefixes": ["LDSB"],
+      "frequency": "118.025",
+      "facility_type": "TWR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDSP_TWR",
+      "prefixes": ["LDSP"],
+      "frequency": "124.675",
+      "facility_type": "TWR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZA_TWR",
+      "prefixes": ["LDZA"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZD_TWR",
+      "prefixes": ["LDZD"],
+      "frequency": "123.700",
+      "facility_type": "TWR",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZA_GND",
+      "prefixes": ["LDZA"],
+      "frequency": "121.850",
+      "facility_type": "GND",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDDU_DEL",
+      "prefixes": ["LDDU"],
+      "frequency": "125.400",
+      "facility_type": "DEL",
+      "profile_id": "LDZO"
+    },
+    {
+      "id": "LDZD_DEL",
+      "prefixes": ["LDZD"],
+      "frequency": "132.975",
+      "facility_type": "DEL",
+      "profile_id": "LDZO"
+    }
+  ]
+}

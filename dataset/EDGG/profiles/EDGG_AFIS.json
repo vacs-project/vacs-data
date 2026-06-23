@@ -1,0 +1,17 @@
+{
+  "id": "EDGG_AFIS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "AFIS",
+      "page": {
+        "rows": 5,
+        "client_page": {
+          "include": ["EDGG*", "EDXX*", "ED*_APP", "ED*_I_TWR"],
+          "grouping": "Icao",
+          "priority": ["*_CTR", "*_TWR"]
+        }
+      }
+    }
+  ]
+}

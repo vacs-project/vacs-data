@@ -1,0 +1,289 @@
+{
+  "id": "CAR",
+  "type": "Geo",
+  "direction": "row",
+  "padding": 0.5,
+  "gap": 1.5,
+  "children": [
+    {
+      "direction": "col",
+      "width": "80%",
+      "justify_content": "center",
+      "gap": 2,
+      "children": [
+        {
+          "direction": "row",
+          "justify_content": "space-between",
+          "gap": 0.75,
+          "children": [
+            {
+              "label": ["MUFH", "INOP"],
+              "size": 9,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["MUFH", "CTR"]
+                  },
+                  {
+                    "label": ["MUFH", "A CTR"]
+                  },
+                  {
+                    "label": ["MUFH", "B CTR"]
+                  },
+                  {
+                    "label": ["MUHA", "APP"]
+                  },
+                  {
+                    "label": ["MUVR", "APP"]
+                  },
+                  {
+                    "label": ["MUCL", "APP"]
+                  },
+                  {
+                    "label": ["MUCC", "APP"]
+                  },
+                  {
+                    "label": ["MUCM", "APP"]
+                  },
+                  {
+                    "label": ["MUCU", "APP"]
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["MTEG"],
+              "size": 9,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["MTEG", "CTR"]
+                  },
+                  {
+                    "label": ["MTPP", "APP"]
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["MDCS"],
+              "size": 9,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["MDCS", "CTR"],
+                    "station_id": "MDCS_CTR"
+                  },
+                  {
+                    "label": ["MDPC", "APP"],
+                    "station_id": "MDPC_APP"
+                  },
+                  {
+                    "label": ["MDCY", "APP"],
+                    "station_id": "MDCY_APP"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["TJZS", "INOP"],
+              "size": 9,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["SJU", "2 CTR"]
+                  },
+                  {
+                    "label": ["SJU", "1 APP"]
+                  },
+                  {
+                    "label": ["TNCM", "APP"],
+                    "station_id": "TNCM_APP"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "justify_content": "space-evenly",
+          "children": [
+            {
+              "label": ["MKJK", "INOP"],
+              "size": 9,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["MKJK", "CTR"]
+                  },
+                  {
+                    "label": ["MKJP", "APP"]
+                  },
+                  {
+                    "label": ["MKJS", "APP"]
+                  },
+                  {
+                    "label": ["MWCR", "APP"]
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["TNCF"],
+              "size": 9,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["TNCF", "CTR"],
+                    "station_id": "TNCF_CTR"
+                  },
+                  {
+                    "label": ["TNCF", "APP"],
+                    "station_id": "TNCF_APP"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["TTZP", "INOP"],
+              "size": 9,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["TTZP", "CTR"]
+                  },
+                  {
+                    "label": ["TBPB", "APP"]
+                  },
+                  {
+                    "label": ["TTPP", "APP"]
+                  },
+                  {
+                    "label": ["TFFF", "APP"]
+                  },
+                  {
+                    "label": ["TFFR", "APP"]
+                  },
+                  {
+                    "label": ["TAPA", "APP"]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "justify_content": "space-evenly",
+          "children": [
+            {
+              "label": ["SKED", "INOP"],
+              "size": 9,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["SKED", "CTR"]
+                  },
+                  {
+                    "label": ["SKEC", "CTR"]
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["SVZM", "INOP"],
+              "size": 9,
+              "page": {
+                "rows": 3,
+                "keys": [
+                  {
+                    "label": ["SVZM", "CTR"]
+                  },
+                  {
+                    "label": ["SVZM", "1 CTR"]
+                  },
+                  {
+                    "label": ["SVZM", "3 CTR"]
+                  },
+                  {
+                    "label": ["SVZM", "4 CTR"]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orientation": "vertical",
+      "thickness": 2,
+      "color": "#364153",
+      "oversize": 0.5
+    },
+    {
+      "direction": "col",
+      "width": "18%",
+      "height": "100%",
+      "justify_content": "space-between",
+      "gap": 0.75,
+      "children": [
+        {
+          "label": ["CARW"],
+          "size": 7,
+          "station_id": "CARW_FSS"
+        },
+        {
+          "label": ["CARE"],
+          "size": 7,
+          "station_id": "CARE_FSS"
+        },
+        {
+          "label": ["ANT"],
+          "size": 7,
+          "station_id": "ANT_CTR"
+        },
+        {
+          "label": ["OTHER"],
+          "size": 7,
+          "page": {
+            "rows": 6,
+            "client_page": {
+              "include": [
+                "MUFH*",
+                "MTEG*_CTR",
+                "MT*_APP",
+                "MDCS*",
+                "MD*_APP",
+                "SJU_*_CTR",
+                "SJU_*_APP",
+                "MKJK*",
+                "MWCR*_APP",
+                "TNCF*",
+                "TBPB*_APP",
+                "TFFR*_APP",
+                "TAPA*_APP",
+                "SKED*",
+                "SKEC*",
+                "SVZM*",
+                "CAR*",
+                "ANT*",
+                "ZMO*"
+              ],
+              "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

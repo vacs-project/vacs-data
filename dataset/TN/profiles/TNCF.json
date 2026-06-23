@@ -13,49 +13,93 @@
       "gap": 0.75,
       "children": [
         {
-          "label": ["CURACAO", "FIR"],
+          "label": ["CURACAO"],
           "size": 10.4,
           "page": {
             "rows": 3,
             "keys": [
-              { "label": ["TNCA", "RMP"], "station_id": "TNCA_RMP" },
-              { "label": ["TNCA", "TWR"], "station_id": "TNCA_TWR" },
-              { "label": ["TNCA", "APP"], "station_id": "TNCA_APP" },
+              {
+                "label": ["TNCA", "RMP"],
+                "station_id": "TNCA_RMP"
+              },
+              {
+                "label": ["TNCA", "TWR"],
+                "station_id": "TNCA_TWR"
+              },
+              {
+                "label": ["TNCA", "APP"],
+                "station_id": "TNCA_APP"
+              },
 
-              { "label": [" "] },
-              { "label": ["TNCC", "TWR"], "station_id": "TNCC_TWR" },
-              { "label": [" "] },
+              {
+                "label": [" "]
+              },
+              {
+                "label": ["TNCC", "TWR"],
+                "station_id": "TNCC_TWR"
+              },
+              {
+                "label": [" "]
+              },
 
-              { "label": [" "] },
-              { "label": ["TNCB", "TWR"], "station_id": "TNCB_TWR" },
-              { "label": [" "] },
+              {
+                "label": [" "]
+              },
+              {
+                "label": ["TNCB", "TWR"],
+                "station_id": "TNCB_TWR"
+              },
+              {
+                "label": [" "]
+              },
 
-              { "label": ["TNCF", "APP"], "station_id": "TNCF_APP" },
-              { "label": ["TNCF", "CTR"], "station_id": "TNCF_CTR" },
-              { "label": [" "] }
+              {
+                "label": ["TNCF", "APP"],
+                "station_id": "TNCF_APP"
+              },
+              {
+                "label": ["TNCF", "CTR"],
+                "station_id": "TNCF_CTR"
+              },
+              {
+                "label": [" "]
+              }
             ]
           }
         },
         {
-          "label": ["SAN JUAN", "CERAP"],
+          "label": ["MAIQUETIA"],
           "size": 10.4,
           "page": {
             "rows": 6,
             "keys": [
-              { "label": ["SJU", "2 CTR"] },
-              { "label": ["SJU", "8 CTR"] }
+              {
+                "label": ["SVZM", "CTR"]
+              },
+              {
+                "label": ["SVZM", "1 CTR"]
+              },
+              {
+                "label": ["SVZM", "3 CTR"]
+              },
+              {
+                "label": ["SVZM", "4 CTR"]
+              }
             ]
           }
         },
         {
-          "label": ["MIDCARIB", "FIR"],
+          "label": ["SAN JUAN"],
           "size": 10.4,
           "page": {
-            "rows": 3,
+            "rows": 6,
             "keys": [
-              { "label": ["MDCS", "CTR"] },
-              { "label": ["MTEG", "CTR"] },
-              { "label": ["ANT", "CTR"] }
+              {
+                "label": ["SJU", "2 CTR"]
+              },
+              {
+                "label": ["SJU", "8 CTR"]
+              }
             ]
           }
         }
@@ -69,7 +113,28 @@
       "gap": 0.75,
       "children": [
         {
-          "label": ["KINGSTON", "FIR"],
+          "label": ["MIDCARIB"],
+          "size": 10.4,
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["ANT", "CTR"],
+                "station_id": "ANT_CTR"
+              },
+              {
+                "label": ["MDCS", "CTR"],
+                "station_id": "MDCS_CTR"
+              },
+              {
+                "label": ["MTEG", "CTR"],
+                "station_id": "MTEG_CTR"
+              }
+            ]
+          }
+        },
+        {
+          "label": ["KINGSTON"],
           "size": 10.4,
           "page": {
             "rows": 5,
@@ -82,18 +147,19 @@
           "page": {
             "rows": 3,
             "keys": [
-              { "label": ["CARI", "FSS"] },
-              { "label": ["CARW", "FSS"] },
-              { "label": ["CARE", "FSS"] }
+              {
+                "label": ["CARI", "FSS"],
+                "station_id": "CARI_FSS"
+              },
+              {
+                "label": ["CARW", "FSS"],
+                "station_id": "CARW_FSS"
+              },
+              {
+                "label": ["CARE", "FSS"],
+                "station_id": "CARE_FSS"
+              }
             ]
-          }
-        },
-        {
-          "label": ["OTHER"],
-          "size": 10.4,
-          "page": {
-            "rows": 5,
-            "keys": []
           }
         }
       ]

@@ -1,0 +1,34 @@
+{
+  "id": "EISG",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EISG"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["EISN", "", ""],
+            "color": "mint",
+            "station_id": "EISN_LN_CTR"
+          },
+          {
+            "label": ["FIS"],
+            "color": "mint",
+            "station_id": "EISN_I_CTR"
+          },
+          {
+            "label": ["EIDL"],
+            "color": "lavender",
+            "station_id": "EIDL_TWR"
+          },
+          {
+            "label": ["EIKN"],
+            "color": "lavender",
+            "station_id": "EIKN_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

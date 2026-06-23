@@ -1,0 +1,428 @@
+{
+  "id": "RCAA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "ACC",
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["ANR"],
+            "station_id": "ANR"
+          },
+          {
+            "label": ["ASR"],
+            "station_id": "ASR"
+          },
+          {
+            "label": ["AWR"],
+            "station_id": "AWR"
+          },
+          {
+            "label": ["AER"],
+            "station_id": "AER"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ALR"],
+            "station_id": "ALR"
+          },
+          {
+            "label": ["AMR"],
+            "station_id": "AMR"
+          },
+          {
+            "label": ["ACR"],
+            "station_id": "ACR"
+          },
+          {
+            "label": ["AOR"],
+            "station_id": "AOR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["APP"],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["TSR"],
+            "station_id": "TSR"
+          },
+          {
+            "label": ["TNR"],
+            "station_id": "TNR"
+          },
+          {
+            "label": ["TGR"],
+            "station_id": "TGR"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "TWR"
+          },
+          {
+            "label": ["TER"],
+            "station_id": "TER"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TMR"],
+            "station_id": "TMR"
+          },
+          {
+            "label": ["TYR"],
+            "station_id": "TYR"
+          },
+          {
+            "label": ["TFR"],
+            "station_id": "TFR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KHR"],
+            "station_id": "KHR"
+          },
+          {
+            "label": ["KKR"],
+            "station_id": "KKR"
+          },
+          {
+            "label": ["KNR"],
+            "station_id": "KNR"
+          },
+          {
+            "label": ["KQR"],
+            "station_id": "KQR"
+          },
+          {
+            "label": ["KBR"],
+            "station_id": "KBR"
+          },
+          {
+            "label": ["KFR"],
+            "station_id": "KFR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["TWR"],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["TPT"],
+            "station_id": "TPT"
+          },
+          {
+            "label": ["TGN"],
+            "station_id": "TGN"
+          },
+          {
+            "label": ["TGS"],
+            "station_id": "TGS"
+          },
+          {
+            "label": ["TPCD"],
+            "station_id": "TPCD"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SST"],
+            "station_id": "SST"
+          },
+          {
+            "label": ["SSG"],
+            "station_id": "SSG"
+          },
+          {
+            "label": ["SSCD"],
+            "station_id": "SSCD"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KHT"],
+            "station_id": "KHT"
+          },
+          {
+            "label": ["KHG"],
+            "station_id": "KHG"
+          },
+          {
+            "label": ["KHCD"],
+            "station_id": "KHCD"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BST"],
+            "station_id": "BST"
+          },
+          {
+            "label": ["BSG"],
+            "station_id": "BSG"
+          },
+          {
+            "label": ["CMT"],
+            "station_id": "CMT"
+          },
+          {
+            "label": ["QCT"],
+            "station_id": "QCT"
+          },
+          {
+            "label": ["QCG"],
+            "station_id": "QCG"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["EXT"],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["HKG", "W_CTR"],
+            "station_id": "VHHK_W_CTR"
+          },
+          {
+            "label": ["HKG", "V_CTR"],
+            "station_id": "VHHK_V_CTR"
+          },
+          {
+            "label": ["HKG", "D_CTR"],
+            "station_id": "VHHK_D_CTR"
+          },
+          {
+            "label": ["HKG", "S_CTR"],
+            "station_id": "VHHK_S_CTR"
+          },
+          {
+            "label": ["HKG", "Z_CTR"],
+            "station_id": "VHHK_Z_CTR"
+          },
+          {
+            "label": ["HKG", "C_CTR"],
+            "station_id": "VHHK_C_CTR"
+          },
+          {
+            "label": ["HKG", "E_CTR"],
+            "station_id": "VHHK_E_CTR"
+          },
+          {
+            "label": ["HKG", "K_CTR"],
+            "station_id": "VHHK_K_CTR"
+          },
+          {
+            "label": ["HKG", "U_CTR"],
+            "station_id": "VHHK_U_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MNL", "CTR"],
+            "station_id": "MNL_CTR"
+          },
+          {
+            "label": ["MNL", "NW_CTR"],
+            "station_id": "MNL_NW_CTR"
+          },
+          {
+            "label": ["MNL", "N_CTR"],
+            "station_id": "MNL_N_CTR"
+          },
+          {
+            "label": ["ZSHA", "CTR"],
+            "station_id": "ZSHA_CTR"
+          },
+          {
+            "label": ["ZSSS", "S_CTR"],
+            "station_id": "ZSSS_S_CTR"
+          },
+          {
+            "label": ["ZSSS", "CTR"],
+            "station_id": "ZSSS_CTR"
+          },
+          {
+            "label": ["ZSAM", "CTR"],
+            "station_id": "ZSAM_CTR"
+          },
+          {
+            "label": ["ZGGG", "CTR"],
+            "station_id": "ZGGG_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

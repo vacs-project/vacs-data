@@ -1,0 +1,164 @@
+{
+  "stations": [
+    {
+      "id": "LYBA",
+      "controlled_by": ["LYBA_CTR", "ADR_E_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LYBA-NORTH",
+      "controlled_by": ["LYBA_N_CTR", "LYBA_CTR", "ADR_E_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LYBA-WEST",
+      "controlled_by": ["LYBA_W_CTR", "LYBA_CTR", "ADR_E_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LYBA-EAST",
+      "controlled_by": ["LYBA_E_CTR", "LYBA_CTR", "ADR_E_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LYBA-UPPER",
+      "controlled_by": ["LYBA_U_CTR", "LYBA_CTR", "ADR_E_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LYBA-UPPER-NORTH",
+      "controlled_by": [
+        "LYBA_UN_CTR",
+        "LYBA_N_CTR",
+        "LYBA_CTR",
+        "ADR_UE_CTR",
+        "ADR_E_CTR",
+        "ADR_U_CTR",
+        "ADR_CTR"
+      ]
+    },
+    {
+      "id": "LYBA-UPPER-WEST",
+      "controlled_by": [
+        "LYBA_UW_CTR",
+        "LYBA_W_CTR",
+        "LYBA_CTR",
+        "ADR_UE_CTR",
+        "ADR_E_CTR",
+        "ADR_U_CTR",
+        "ADR_CTR"
+      ]
+    },
+    {
+      "id": "LYBA-UPPER-EAST",
+      "controlled_by": [
+        "LYBA_UE_CTR",
+        "LYBA_E_CTR",
+        "LYBA_CTR",
+        "ADR_UE_CTR",
+        "ADR_E_CTR",
+        "ADR_U_CTR",
+        "ADR_CTR"
+      ]
+    },
+    {
+      "id": "KFOR",
+      "controlled_by": ["KFOR_CTR", "ADR_E_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "BKPR_APP",
+      "parent_id": "KFOR",
+      "controlled_by": ["BKPR_APP"]
+    },
+    {
+      "id": "LYBE_APP",
+      "parent_id": "LYBA-NORTH",
+      "controlled_by": ["LYBE_APP"]
+    },
+    {
+      "id": "LYBE_F_APP",
+      "parent_id": "LYBA-NORTH",
+      "controlled_by": ["LYBE_F_APP", "LYBE_APP"]
+    },
+    {
+      "id": "LYBT_APP",
+      "parent_id": "LYBA-NORTH",
+      "controlled_by": ["LYBT_APP"]
+    },
+    {
+      "id": "LYKV_APP",
+      "parent_id": "LYBA-WEST",
+      "controlled_by": ["LBBG_APP"]
+    },
+    {
+      "id": "LYNI_APP",
+      "parent_id": "LYBA-EAST",
+      "controlled_by": ["LYNI_APP"]
+    },
+    {
+      "id": "LYPG_APP",
+      "parent_id": "LYBA-WEST",
+      "controlled_by": ["LYPG_APP"]
+    },
+    {
+      "id": "LYTV_APP",
+      "parent_id": "LYBA-WEST",
+      "controlled_by": ["LYTV_APP", "LYPG_APP"]
+    },
+    {
+      "id": "LYVR_APP",
+      "parent_id": "LYBA-NORTH",
+      "controlled_by": ["LYVR_APP", "LYBE_APP"]
+    },
+    {
+      "id": "BKPR_TWR",
+      "parent_id": "BKPR_APP",
+      "controlled_by": ["BKPR_TWR"]
+    },
+    {
+      "id": "LYBE_TWR",
+      "parent_id": "LYBE_APP",
+      "controlled_by": ["LYBE_TWR"]
+    },
+    {
+      "id": "LYBT_TWR",
+      "parent_id": "LYBT_APP",
+      "controlled_by": ["LYBT_TWR"]
+    },
+    {
+      "id": "LYKV_TWR",
+      "parent_id": "LYKV_APP",
+      "controlled_by": ["LYKV_TWR"]
+    },
+    {
+      "id": "LYNI_TWR",
+      "parent_id": "LYNI_APP",
+      "controlled_by": ["LYNI_TWR"]
+    },
+    {
+      "id": "LYPG_TWR",
+      "parent_id": "LYPG_APP",
+      "controlled_by": ["LYPG_TWR"]
+    },
+    {
+      "id": "LYUZ_TWR",
+      "parent_id": "LYKV_APP",
+      "controlled_by": ["LYUZ_TWR"]
+    },
+    {
+      "id": "LYVR_TWR",
+      "parent_id": "LYVR_APP",
+      "controlled_by": ["LYVR_TWR"]
+    },
+    {
+      "id": "BKPR_GND",
+      "parent_id": "BKPR_TWR",
+      "controlled_by": ["BKPR_GND"]
+    },
+    {
+      "id": "LYBE_GND",
+      "parent_id": "LYBE_TWR",
+      "controlled_by": ["LYBE_GND"]
+    },
+    {
+      "id": "LYBE_DEL",
+      "parent_id": "LYBE_GND",
+      "controlled_by": ["LYBE_DEL"]
+    }
+  ]
+}

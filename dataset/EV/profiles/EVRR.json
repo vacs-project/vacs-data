@@ -135,7 +135,8 @@
             "label": []
           },
           {
-            "label": ["ULLL"]
+            "label": ["ULLL"],
+            "station_id": "ULLL_R6"
           },
           {
             "label": []

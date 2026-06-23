@@ -9,38 +9,47 @@
         "keys": [
           {
             "label": ["RH"],
+            "color": "lilac",
             "station_id": "EDYY-RH"
           },
           {
             "label": ["PADH"],
+            "color": "lagoon",
             "station_id": "EDGG-PAH"
           },
           {
             "label": ["DLA"],
+            "color": "umber",
             "station_id": "EDGG-DLA"
           },
           {
             "label": ["DLAT", "Feeder"],
+            "color": "taupe",
             "station_id": "EDGG-DLAT"
           },
           {
             "label": ["EDDL", "TWR"],
+            "color": "azure",
             "station_id": "EDGG-DLT"
           },
           {
             "label": ["EDDL", "E", "GND"],
+            "color": "blush",
             "station_id": "EDGG-DLGE"
           },
           {
             "label": ["RL"],
+            "color": "lilac",
             "station_id": "EDYY-RL"
           },
           {
             "label": ["EDGG", "SIG"],
+            "color": "mint",
             "station_id": "EDGG-SIG"
           },
           {
             "label": ["DLD"],
+            "color": "umber",
             "station_id": "EDGG-DLD"
           },
           {
@@ -50,42 +59,53 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["EDDL", "W", "GND"],
+            "color": "blush",
+            "station_id": "EDGG-DLGW"
           },
           {
             "label": ["MH"],
+            "color": "lilac",
             "station_id": "EDYY-MH"
           },
           {
             "label": ["EDGG", "TAU"],
+            "color": "mint",
             "station_id": "EDGG-TAU"
           },
           {
             "label": ["DKA"],
+            "color": "umber",
             "station_id": "EDGG-DKA"
           },
           {
             "label": ["DKAT", "Feeder"],
+            "color": "taupe",
             "station_id": "EDGG-DKAT"
           },
           {
             "label": ["EDDK", "TWR"],
+            "color": "azure",
             "station_id": "EDGG-DKT"
           },
           {
             "label": ["EDDK", "GND"],
+            "color": "blush",
             "station_id": "EDGG-DKG"
           },
           {
             "label": ["ML"],
+            "color": "lilac",
             "station_id": "EDYY-ML"
           },
           {
             "label": ["EDGG", "RUD"],
+            "color": "mint",
             "station_id": "EDGG-RUD"
           },
           {
             "label": ["NOR"],
+            "color": "umber",
             "station_id": "EDGG-NOR"
           },
           {
@@ -99,17 +119,22 @@
           },
           {
             "label": ["EDUU", "FFM"],
+            "color": "lavender",
             "station_id": "EDUU-FFM"
           },
           {
-            "label": ["EHAA", "ACE"]
+            "label": ["EHAA", "ACE"],
+            "color": "mint"
           },
           {
             "label": ["BOT"],
+            "color": "umber",
             "station_id": "EDGG-BOT"
           },
           {
-            "label": [""]
+            "label": ["PADL"],
+            "color": "clay",
+            "station_id": "EDGG-PADL"
           },
           {
             "label": [""]
@@ -119,18 +144,22 @@
           },
           {
             "label": ["EDUU", "NTM"],
+            "color": "lavender",
             "station_id": "EDUU-NTM"
           },
           {
             "label": ["EDYY", "LNH"],
+            "color": "lavender",
             "station_id": "EDYY-LNH"
           },
           {
             "label": ["EBBU", "EHS"],
+            "color": "mint",
             "station_id": "EBBU-EHS"
           },
           {
             "label": ["EBBU", "ELS"],
+            "color": "mint",
             "station_id": "EBBU-ELS"
           },
           {

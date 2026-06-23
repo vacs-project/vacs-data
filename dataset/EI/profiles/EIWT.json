@@ -1,0 +1,39 @@
+{
+  "id": "EIWT",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EIWT"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["DUB", "AMC S"],
+            "color": "lavender",
+            "station_id": "EIDW_S_TWR"
+          },
+          {
+            "label": ["", "LS"],
+            "color": "mint",
+            "station_id": "EIDW_LS_CTR"
+          },
+          {
+            "label": ["BAL", ""],
+            "color": "clay",
+            "station_id": "EIME_TWR"
+          },
+          {
+            "label": ["DUB", "AMC N"],
+            "color": "lavender",
+            "station_id": "EIDW_N_TWR"
+          },
+          {
+            "label": ["FIS", "", ""],
+            "color": "mint",
+            "station_id": "EIDW_I_CTR"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -8,44 +8,62 @@
     {
       "direction": "col",
       "height": "100%",
-      "width": "50%",
+      "width": "24%",
       "justify_content": "space-between",
-      "gap": 0.75,
       "children": [
         {
-          "label": ["CURACAO", "FIR"],
-          "size": 10.4,
-          "page": {
-            "rows": 4,
-            "keys": [
-              { "label": ["TNCM", "DEL"], "station_id": "TNCM_DEL" },
-              { "label": ["TNCM", "TWR"], "station_id": "TNCM_TWR" },
-              { "label": ["TNCM", "APP"], "station_id": "TNCM_APP" },
-              { "label": ["TNCM", "B APP"], "station_id": "TNCM_B_APP" },
-              { "label": ["TNCM", "FMP"], "station_id": "TNCM_FMP" },
-              { "label": ["TQPF", "TWR"], "station_id": "TQPF_TWR" }
-            ]
-          }
+          "label": ["DEL"],
+          "size": 6.25,
+          "station_id": "TNCM_DEL"
         },
         {
-          "label": ["SAN JUAN CERAP"],
-          "size": 10.4,
-          "page": {
-            "rows": 6,
-            "keys": [{ "label": ["SJU", "2 CTR"] }]
-          }
+          "label": ["TWR"],
+          "size": 6.25,
+          "station_id": "TNCM_TWR"
         },
         {
-          "label": ["PIARCO FIR"],
-          "size": 10.4,
-          "page": {
-            "rows": 3,
-            "keys": [
-              { "label": ["TTZP", "CTR"] },
-              { "label": ["TAPA", "APP"] },
-              { "label": ["TKPK", "APP"] }
-            ]
-          }
+          "label": ["APP"],
+          "size": 6.25,
+          "station_id": "TNCM_APP"
+        },
+        {
+          "label": ["B APP"],
+          "size": 6.25,
+          "station_id": "TNCM_B_APP"
+        },
+        {
+          "label": ["FMP"],
+          "size": 6.25,
+          "station_id": "TNCM_FMP"
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "height": "100%",
+      "width": "24%",
+      "justify_content": "space-between",
+      "children": [
+        {
+          "label": ["LT"],
+          "size": 6.25,
+          "station_id": "TQPF_TWR"
+        },
+        {
+          "label": ["R2", "INOP"],
+          "size": 6.25
+        },
+        {
+          "label": ["PR", "INOP"],
+          "size": 6.25
+        },
+        {
+          "label": ["VC", "INOP"],
+          "size": 6.25
+        },
+        {
+          "label": ["CC", "INOP"],
+          "size": 6.25
         }
       ]
     },
@@ -58,32 +76,113 @@
     {
       "direction": "col",
       "height": "100%",
-      "width": "53%",
+      "width": "48%",
       "justify_content": "space-between",
       "gap": 0.75,
       "children": [
         {
-          "label": ["FSS"],
-          "size": 10.4,
+          "label": ["SAN JUAN"],
+          "size": 7.6,
           "page": {
-            "rows": 3,
-            "keys": [{ "label": ["CARI", "FSS"] }, { "label": ["CARE", "FSS"] }]
+            "rows": 6,
+            "keys": [
+              {
+                "label": ["SJU", "DEL"]
+              },
+              {
+                "label": ["SJU", "GND"]
+              },
+              {
+                "label": ["SJU", "TWR"]
+              },
+              {
+                "label": ["SJU", "R1"]
+              },
+              {
+                "label": ["SJU", "R3"]
+              },
+              {
+                "label": ["SJU", "R5"]
+              },
+              {
+                "label": ["SJU", "R7"]
+              },
+              {
+                "label": ["SJU", "R9"]
+              },
+              {
+                "label": ["SJU", "R2"]
+              },
+              {
+                "label": ["SJU", "R4"]
+              },
+              {
+                "label": ["SJU", "R6"]
+              },
+              {
+                "label": ["SJU", "R8"]
+              },
+              {
+                "label": ["STT", "TWR"]
+              },
+              {
+                "label": ["STT", "GND"]
+              },
+              {
+                "label": ["STX", "TWR"]
+              },
+              {
+                "label": ["STX", "GND"]
+              },
+              {
+                "label": ["SJU", "TMU"]
+              }
+            ]
           }
         },
         {
-          "label": [" "],
-          "size": 10.4,
+          "label": ["PIARCO"],
+          "size": 7.6,
           "page": {
-            "rows": 5,
-            "keys": []
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["TTZP", "CTR"]
+              },
+              {
+                "label": ["TAPA", "APP"]
+              },
+              {
+                "label": ["TKPK", "APP"]
+              }
+            ]
+          }
+        },
+        {
+          "label": ["FSS"],
+          "size": 7.6,
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["CARI", "FSS"]
+              },
+              {
+                "label": ["CARE", "FSS"]
+              }
+            ]
           }
         },
         {
           "label": ["OTHER"],
-          "size": 10.4,
+          "size": 7.6,
           "page": {
-            "rows": 5,
-            "keys": []
+            "rows": 6,
+            "client_page": {
+              "include": ["*"],
+              "exclude": ["TNCM_*", "TQPF_*"],
+              "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"]
+            }
           }
         }
       ]

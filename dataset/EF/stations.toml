@@ -117,6 +117,10 @@ id = "EFIN_MIL"
 controlled_by = ["EFIN_MIL_CTR"]
 
 [[stations]]
+id = "EFIN_MIL_FMP"
+controlled_by = ["EFIN_MIL_FMP"]
+
+[[stations]]
 id = "EFHK_RE"
 controlled_by = ["EFHK_E_APP", "EFHK_W_APP"]
 

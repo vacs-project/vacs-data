@@ -68,10 +68,12 @@
             "station_id": "EFIN_FMP"
           },
           {
-            "label": ["TSA", "MIL"]
+            "label": ["PääJoke"],
+            "station_id": "EFIN_MIL"
           },
           {
-            "label": ["AMC", "MIL"]
+            "label": ["AMC", "MIL"],
+            "station_id": "EFIN_MIL_FMP"
           },
           {
             "label": []
@@ -657,13 +659,16 @@
             "label": []
           },
           {
-            "label": ["ULLL", "West"]
+            "label": ["ULLL", "West"],
+            "station_id": "ULLL_R4"
           },
           {
-            "label": ["ULLL", "Petro"]
+            "label": ["ULLL", "Petro"],
+            "station_id": "ULLL_R5"
           },
           {
-            "label": ["ULLL", "Murmansk"]
+            "label": ["ULLL", "Murmansk"],
+            "station_id": "ULLL_MR"
           },
           {
             "label": []

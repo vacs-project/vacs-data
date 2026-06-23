@@ -1,0 +1,2265 @@
+{
+  "id": "APP_EPWW",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["GDN"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["ESMM 8", "-365"],
+            "color": "lilac",
+            "station_id": "ESMM_8"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["B", "L"],
+            "color": "mint",
+            "station_id": "EPWWB_LOW"
+          },
+          {
+            "label": ["GD", "APP"],
+            "color": "snow",
+            "station_id": "EPGD_UTMA"
+          },
+          {
+            "label": ["D", "L"],
+            "color": "mint",
+            "station_id": "EPWWD_LOW"
+          },
+          {
+            "label": ["T", "L"],
+            "station_id": "EPWWT_LOW"
+          },
+          {
+            "label": ["ESMM 7", "-365"],
+            "color": "lilac",
+            "station_id": "ESMM_7"
+          },
+          {
+            "label": ["F", "L"],
+            "color": "mint",
+            "station_id": "EPWWF_LOW"
+          },
+          {
+            "label": ["G", "L"],
+            "color": "mint",
+            "station_id": "EPWWG_LOW"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["C", "L"],
+            "color": "mint",
+            "station_id": "EPWWC_LOW"
+          },
+          {
+            "label": ["J", "L"],
+            "station_id": "EPWWJ_LOW"
+          },
+          {
+            "label": ["UMKK", ""],
+            "color": "lavender",
+            "station_id": "UMKK_ACC"
+          },
+          {
+            "label": ["UMKK", "APP", "-265"],
+            "color": "lavender",
+            "station_id": "UMKK_APP"
+          },
+          {
+            "label": ["N", "L"],
+            "color": "mint",
+            "station_id": "EPWWN_LOW"
+          },
+          {
+            "label": ["GD L", "APP"],
+            "color": "snow",
+            "station_id": "EPGD_LTMA"
+          },
+          {
+            "label": ["E", "L"],
+            "color": "mint",
+            "station_id": "EPWWE_LOW"
+          },
+          {
+            "label": ["R", "L"],
+            "station_id": "EPWWR_LOW"
+          },
+          {
+            "label": ["FMP"],
+            "color": "clay",
+            "station_id": "EPWW_FMP"
+          },
+          {
+            "label": ["ACC", "KRAJ"],
+            "color": "cadet",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["B", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWB_HIGH"
+                },
+                {
+                  "label": ["G", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWG_HIGH"
+                },
+                {
+                  "label": ["B", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWB_MID"
+                },
+                {
+                  "label": ["G", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWG_MID"
+                },
+                {
+                  "label": ["B", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWB_LOW"
+                },
+                {
+                  "label": ["G", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWG_LOW"
+                },
+                {
+                  "label": ["C", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWC_HIGH"
+                },
+                {
+                  "label": ["J", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWJ_HIGH"
+                },
+                {
+                  "label": ["C", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWC_MID"
+                },
+                {
+                  "label": ["J", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWJ_MID"
+                },
+                {
+                  "label": ["C", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWC_LOW"
+                },
+                {
+                  "label": ["J", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWJ_LOW"
+                },
+                {
+                  "label": ["D", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWD_HIGH"
+                },
+                {
+                  "label": ["N", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWN_HIGH"
+                },
+                {
+                  "label": ["D", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWD_MID"
+                },
+                {
+                  "label": ["N", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWN_MID"
+                },
+                {
+                  "label": ["D", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWD_LOW"
+                },
+                {
+                  "label": ["N", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWN_LOW"
+                },
+                {
+                  "label": ["E", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWE_HIGH"
+                },
+                {
+                  "label": ["R", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWR_HIGH"
+                },
+                {
+                  "label": ["E", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWE_MID"
+                },
+                {
+                  "label": ["R", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWR_MID"
+                },
+                {
+                  "label": ["E", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWE_LOW"
+                },
+                {
+                  "label": ["R", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWR_LOW"
+                },
+                {
+                  "label": ["F", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWF_HIGH"
+                },
+                {
+                  "label": ["T", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWT_HIGH"
+                },
+                {
+                  "label": ["F", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWF_MID"
+                },
+                {
+                  "label": ["T", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWT_MID"
+                },
+                {
+                  "label": ["F", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWF_LOW"
+                },
+                {
+                  "label": ["T", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWT_LOW"
+                },
+                {
+                  "label": ["C", "EPWW"],
+                  "station_id": "EPWW_C"
+                },
+                {
+                  "label": ["D", "EPWW"],
+                  "station_id": "EPWW_D"
+                },
+                {
+                  "label": ["FMP", "EPWW"],
+                  "color": "clay",
+                  "station_id": "EPWW_FMP"
+                },
+                {
+                  "label": ["NFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_N"
+                },
+                {
+                  "label": ["EFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_E"
+                },
+                {
+                  "label": ["SFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_S"
+                },
+                {
+                  "label": ["DBF", "EPWW"],
+                  "station_id": "EPWW_DBF"
+                },
+                {
+                  "label": ["DBT", "EPWW"],
+                  "station_id": "EPWW_DBT"
+                },
+                {
+                  "label": ["DT", "EPWW"],
+                  "station_id": "EPWW_DT"
+                },
+                {
+                  "label": ["DTC", "EPWW"],
+                  "station_id": "EPWW_DTC"
+                },
+                {
+                  "label": ["F", "EPWW"],
+                  "station_id": "EPWW_F"
+                },
+                {
+                  "label": ["FG", "EPWW"],
+                  "station_id": "EPWW_FG"
+                },
+                {
+                  "label": ["G", "EPWW"],
+                  "station_id": "EPWW_G"
+                },
+                {
+                  "label": ["J", "EPWW"],
+                  "station_id": "EPWW_J"
+                },
+                {
+                  "label": ["JR", "EPWW"],
+                  "station_id": "EPWW_JR"
+                },
+                {
+                  "label": ["NE", "EPWW"],
+                  "station_id": "EPWW_NE"
+                },
+                {
+                  "label": ["T", "EPWW"],
+                  "station_id": "EPWW_TM"
+                },
+                {
+                  "label": ["TCJ", "EPWW"],
+                  "station_id": "EPWW_TCJ"
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BY", "TWR"],
+            "color": "steel",
+            "station_id": "EPBY_TWR"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["GD", "TWR"],
+            "color": "steel",
+            "station_id": "EPGD_TWR"
+          },
+          {
+            "label": ["GD", "GND"],
+            "color": "umber",
+            "station_id": "EPGD_GND"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PO N", "APP"],
+            "color": "snow",
+            "station_id": "EPPO_TMA_N"
+          },
+          {
+            "label": ["PO S", "APP"],
+            "color": "snow",
+            "station_id": "EPPO_TMA_S"
+          },
+          {
+            "label": ["WA N", "APP"],
+            "color": "snow",
+            "station_id": "EPWA_TMA_N"
+          },
+          {
+            "label": ["WA S", "APP"],
+            "color": "snow",
+            "station_id": "EPWA_TMA_S"
+          },
+          {
+            "label": ["KK", "APP"],
+            "color": "snow",
+            "station_id": "EPKK_TMA_W"
+          },
+          {
+            "label": ["KK E", "APP"],
+            "color": "snow",
+            "station_id": "EPKK_TMA_E"
+          },
+          {
+            "label": ["GD", "FIS"],
+            "station_id": "EPGD_FIS"
+          },
+          {
+            "label": ["GD E", "FIS"],
+            "station_id": "EPGD_FIS_E"
+          },
+          {
+            "label": ["EPJA", "JASTA", "RNIA"],
+            "station_id": "EPJA"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", "", ""]
+          },
+          {
+            "label": ["KK RZ", "APP"],
+            "color": "snow",
+            "station_id": "EPRZ_TMA"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["KRK"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["B", "L"],
+            "station_id": "EPWWB_LOW"
+          },
+          {
+            "label": ["D", "L"],
+            "station_id": "EPWWD_LOW"
+          },
+          {
+            "label": ["T", "L"],
+            "color": "mint",
+            "station_id": "EPWWT_LOW"
+          },
+          {
+            "label": ["KK", "APP"],
+            "color": "snow",
+            "station_id": "EPKK_TMA_W"
+          },
+          {
+            "label": ["KT", "DIR"],
+            "color": "snow",
+            "station_id": "EPKT_DIR"
+          },
+          {
+            "label": ["LKAA N", "-305"],
+            "color": "blush",
+            "station_id": "LKAA NL"
+          },
+          {
+            "label": ["F", "L"],
+            "station_id": "EPWWF_LOW"
+          },
+          {
+            "label": ["G", "L"],
+            "station_id": "EPWWG_LOW"
+          },
+          {
+            "label": ["C", "L"],
+            "color": "mint",
+            "station_id": "EPWWC_LOW"
+          },
+          {
+            "label": ["KK E", "APP"],
+            "color": "snow",
+            "station_id": "EPKK_TMA_E"
+          },
+          {
+            "label": ["KK", "DIR"],
+            "color": "snow",
+            "station_id": "EPKK_DIR"
+          },
+          {
+            "label": ["LKAA S", "-305"],
+            "color": "blush",
+            "station_id": "LKAA SL"
+          },
+          {
+            "label": ["N", "L"],
+            "station_id": "EPWWN_LOW"
+          },
+          {
+            "label": ["E", "L"],
+            "station_id": "EPWWE_LOW"
+          },
+          {
+            "label": ["J", "L"],
+            "color": "mint",
+            "station_id": "EPWWJ_LOW"
+          },
+          {
+            "label": ["KK RZ", "APP"],
+            "color": "snow",
+            "station_id": "EPRZ_TMA"
+          },
+          {
+            "label": ["R", "L"],
+            "color": "mint",
+            "station_id": "EPWWR_LOW"
+          },
+          {
+            "label": ["LZBB", "-305"],
+            "color": "clay",
+            "station_id": "LZBB_CENTER_0L"
+          },
+          {
+            "label": ["FMP"],
+            "color": "clay",
+            "station_id": "EPWW_FMP"
+          },
+          {
+            "label": ["ACC", "KRAJ"],
+            "color": "cadet",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["B", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWB_HIGH"
+                },
+                {
+                  "label": ["G", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWG_HIGH"
+                },
+                {
+                  "label": ["B", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWB_MID"
+                },
+                {
+                  "label": ["G", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWG_MID"
+                },
+                {
+                  "label": ["B", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWB_LOW"
+                },
+                {
+                  "label": ["G", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWG_LOW"
+                },
+                {
+                  "label": ["C", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWC_HIGH"
+                },
+                {
+                  "label": ["J", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWJ_HIGH"
+                },
+                {
+                  "label": ["C", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWC_MID"
+                },
+                {
+                  "label": ["J", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWJ_MID"
+                },
+                {
+                  "label": ["C", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWC_LOW"
+                },
+                {
+                  "label": ["J", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWJ_LOW"
+                },
+                {
+                  "label": ["D", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWD_HIGH"
+                },
+                {
+                  "label": ["N", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWN_HIGH"
+                },
+                {
+                  "label": ["D", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWD_MID"
+                },
+                {
+                  "label": ["N", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWN_MID"
+                },
+                {
+                  "label": ["D", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWD_LOW"
+                },
+                {
+                  "label": ["N", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWN_LOW"
+                },
+                {
+                  "label": ["E", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWE_HIGH"
+                },
+                {
+                  "label": ["R", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWR_HIGH"
+                },
+                {
+                  "label": ["E", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWE_MID"
+                },
+                {
+                  "label": ["R", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWR_MID"
+                },
+                {
+                  "label": ["E", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWE_LOW"
+                },
+                {
+                  "label": ["R", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWR_LOW"
+                },
+                {
+                  "label": ["F", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWF_HIGH"
+                },
+                {
+                  "label": ["T", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWT_HIGH"
+                },
+                {
+                  "label": ["F", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWF_MID"
+                },
+                {
+                  "label": ["T", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWT_MID"
+                },
+                {
+                  "label": ["F", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWF_LOW"
+                },
+                {
+                  "label": ["T", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWT_LOW"
+                },
+                {
+                  "label": ["C", "EPWW"],
+                  "station_id": "EPWW_C"
+                },
+                {
+                  "label": ["D", "EPWW"],
+                  "station_id": "EPWW_D"
+                },
+                {
+                  "label": ["FMP", "EPWW"],
+                  "color": "clay",
+                  "station_id": "EPWW_FMP"
+                },
+                {
+                  "label": ["NFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_N"
+                },
+                {
+                  "label": ["EFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_E"
+                },
+                {
+                  "label": ["SFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_S"
+                },
+                {
+                  "label": ["DBF", "EPWW"],
+                  "station_id": "EPWW_DBF"
+                },
+                {
+                  "label": ["DBT", "EPWW"],
+                  "station_id": "EPWW_DBT"
+                },
+                {
+                  "label": ["DT", "EPWW"],
+                  "station_id": "EPWW_DT"
+                },
+                {
+                  "label": ["DTC", "EPWW"],
+                  "station_id": "EPWW_DTC"
+                },
+                {
+                  "label": ["F", "EPWW"],
+                  "station_id": "EPWW_F"
+                },
+                {
+                  "label": ["FG", "EPWW"],
+                  "station_id": "EPWW_FG"
+                },
+                {
+                  "label": ["G", "EPWW"],
+                  "station_id": "EPWW_G"
+                },
+                {
+                  "label": ["J", "EPWW"],
+                  "station_id": "EPWW_J"
+                },
+                {
+                  "label": ["JR", "EPWW"],
+                  "station_id": "EPWW_JR"
+                },
+                {
+                  "label": ["NE", "EPWW"],
+                  "station_id": "EPWW_NE"
+                },
+                {
+                  "label": ["T", "EPWW"],
+                  "station_id": "EPWW_TM"
+                },
+                {
+                  "label": ["TCJ", "EPWW"],
+                  "station_id": "EPWW_TCJ"
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KK", "TWR"],
+            "color": "steel",
+            "station_id": "EPKK_TWR"
+          },
+          {
+            "label": ["KK", "GND"],
+            "color": "umber",
+            "station_id": "EPKK_GND"
+          },
+          {
+            "label": ["KK", "DEL"],
+            "color": "taupe",
+            "station_id": "EPKK_DEL"
+          },
+          {
+            "label": ["KT", "TWR"],
+            "color": "steel",
+            "station_id": "EPKT_TWR"
+          },
+          {
+            "label": ["KT", "GND"],
+            "color": "umber",
+            "station_id": "EPKT_GND"
+          },
+          {
+            "label": ["KT", "DEL"],
+            "color": "taupe",
+            "station_id": "EPKT_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RZ", "TWR"],
+            "color": "steel",
+            "station_id": "EPRZ_TWR"
+          },
+          {
+            "label": ["RZ", "GND"],
+            "color": "umber",
+            "station_id": "EPRZ_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GD", "APP"],
+            "color": "snow",
+            "station_id": "EPGD_UTMA"
+          },
+          {
+            "label": ["GD L", "APP"],
+            "color": "snow",
+            "station_id": "EPGD_LTMA"
+          },
+          {
+            "label": ["PO N", "APP"],
+            "color": "snow",
+            "station_id": "EPPO_TMA_N"
+          },
+          {
+            "label": ["PO S", "APP"],
+            "color": "snow",
+            "station_id": "EPPO_TMA_S"
+          },
+          {
+            "label": ["WA N", "APP"],
+            "color": "snow",
+            "station_id": "EPWA_TMA_N"
+          },
+          {
+            "label": ["WA S", "APP"],
+            "color": "snow",
+            "station_id": "EPWA_TMA_S"
+          },
+          {
+            "label": ["KK", "FIS"],
+            "station_id": "EPKK_FIS"
+          },
+          {
+            "label": ["KK E", "FIS"],
+            "station_id": "EPKK_FIS_E"
+          },
+          {
+            "label": ["EPGL", "GLIWICE"],
+            "station_id": "EPGL"
+          },
+          {
+            "label": ["EPKM", "KATOWICE"],
+            "station_id": "EPKM"
+          },
+          {
+            "label": ["EPML", "MIELEC", "INFO"],
+            "station_id": "EPML"
+          },
+          {
+            "label": ["EPNT", "NOWY", "TARG"],
+            "station_id": "EPNT"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["POZ"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EDWW", "MRZ"],
+            "color": "steel",
+            "station_id": "EDWW-MRZ"
+          },
+          {
+            "label": ["EDWW", "FLG"],
+            "color": "steel",
+            "station_id": "EDWW-FLG"
+          },
+          {
+            "label": ["EDDB", "APP", "-165"],
+            "color": "cadet",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDDB", "N APP", "-135"],
+                  "station_id": "EDWW-DBAN"
+                },
+                {
+                  "label": ["EDDB", "S APP", "-135"],
+                  "station_id": "EDWW-DBAS"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["EDDB", "N DEP", "-165"],
+                  "station_id": "EDWW-DBDN"
+                },
+                {
+                  "label": ["EDDB", "S DEP", "-165"],
+                  "station_id": "EDWW-DBDS"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["EDMM", "MEI"],
+            "color": "lagoon",
+            "station_id": "EDMM-MEI"
+          },
+          {
+            "label": ["EDMM", "SAS", "-165"],
+            "color": "lagoon",
+            "station_id": "EDMM-SAS"
+          },
+          {
+            "label": ["LKAA N", "-305"],
+            "color": "blush",
+            "station_id": "LKAA NL"
+          },
+          {
+            "label": ["F", "L"],
+            "station_id": "EPWWF_LOW"
+          },
+          {
+            "label": ["B", "L"],
+            "color": "mint",
+            "station_id": "EPWWB_LOW"
+          },
+          {
+            "label": ["D", "L"],
+            "color": "mint",
+            "station_id": "EPWWD_LOW"
+          },
+          {
+            "label": ["PO N", "APP"],
+            "color": "snow",
+            "station_id": "EPPO_TMA_N"
+          },
+          {
+            "label": ["PO S", "APP"],
+            "color": "snow",
+            "station_id": "EPPO_TMA_S"
+          },
+          {
+            "label": ["T", "L"],
+            "color": "mint",
+            "station_id": "EPWWT_LOW"
+          },
+          {
+            "label": ["N", "L"],
+            "station_id": "EPWWN_LOW"
+          },
+          {
+            "label": ["E", "L"],
+            "station_id": "EPWWE_LOW"
+          },
+          {
+            "label": ["G", "L"],
+            "color": "mint",
+            "station_id": "EPWWG_LOW"
+          },
+          {
+            "label": ["C", "L"],
+            "color": "mint",
+            "station_id": "EPWWC_LOW"
+          },
+          {
+            "label": ["J", "L"],
+            "color": "mint",
+            "station_id": "EPWWJ_LOW"
+          },
+          {
+            "label": ["R", "L"],
+            "station_id": "EPWWR_LOW"
+          },
+          {
+            "label": ["FMP"],
+            "color": "clay",
+            "station_id": "EPWW_FMP"
+          },
+          {
+            "label": ["ACC", "KRAJ"],
+            "color": "cadet",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["B", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWB_HIGH"
+                },
+                {
+                  "label": ["G", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWG_HIGH"
+                },
+                {
+                  "label": ["B", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWB_MID"
+                },
+                {
+                  "label": ["G", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWG_MID"
+                },
+                {
+                  "label": ["B", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWB_LOW"
+                },
+                {
+                  "label": ["G", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWG_LOW"
+                },
+                {
+                  "label": ["C", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWC_HIGH"
+                },
+                {
+                  "label": ["J", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWJ_HIGH"
+                },
+                {
+                  "label": ["C", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWC_MID"
+                },
+                {
+                  "label": ["J", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWJ_MID"
+                },
+                {
+                  "label": ["C", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWC_LOW"
+                },
+                {
+                  "label": ["J", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWJ_LOW"
+                },
+                {
+                  "label": ["D", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWD_HIGH"
+                },
+                {
+                  "label": ["N", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWN_HIGH"
+                },
+                {
+                  "label": ["D", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWD_MID"
+                },
+                {
+                  "label": ["N", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWN_MID"
+                },
+                {
+                  "label": ["D", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWD_LOW"
+                },
+                {
+                  "label": ["N", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWN_LOW"
+                },
+                {
+                  "label": ["E", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWE_HIGH"
+                },
+                {
+                  "label": ["R", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWR_HIGH"
+                },
+                {
+                  "label": ["E", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWE_MID"
+                },
+                {
+                  "label": ["R", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWR_MID"
+                },
+                {
+                  "label": ["E", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWE_LOW"
+                },
+                {
+                  "label": ["R", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWR_LOW"
+                },
+                {
+                  "label": ["F", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWF_HIGH"
+                },
+                {
+                  "label": ["T", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWT_HIGH"
+                },
+                {
+                  "label": ["F", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWF_MID"
+                },
+                {
+                  "label": ["T", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWT_MID"
+                },
+                {
+                  "label": ["F", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWF_LOW"
+                },
+                {
+                  "label": ["T", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWT_LOW"
+                },
+                {
+                  "label": ["C", "EPWW"],
+                  "station_id": "EPWW_C"
+                },
+                {
+                  "label": ["D", "EPWW"],
+                  "station_id": "EPWW_D"
+                },
+                {
+                  "label": ["FMP", "EPWW"],
+                  "color": "clay",
+                  "station_id": "EPWW_FMP"
+                },
+                {
+                  "label": ["NFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_N"
+                },
+                {
+                  "label": ["EFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_E"
+                },
+                {
+                  "label": ["SFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_S"
+                },
+                {
+                  "label": ["DBF", "EPWW"],
+                  "station_id": "EPWW_DBF"
+                },
+                {
+                  "label": ["DBT", "EPWW"],
+                  "station_id": "EPWW_DBT"
+                },
+                {
+                  "label": ["DT", "EPWW"],
+                  "station_id": "EPWW_DT"
+                },
+                {
+                  "label": ["DTC", "EPWW"],
+                  "station_id": "EPWW_DTC"
+                },
+                {
+                  "label": ["F", "EPWW"],
+                  "station_id": "EPWW_F"
+                },
+                {
+                  "label": ["FG", "EPWW"],
+                  "station_id": "EPWW_FG"
+                },
+                {
+                  "label": ["G", "EPWW"],
+                  "station_id": "EPWW_G"
+                },
+                {
+                  "label": ["J", "EPWW"],
+                  "station_id": "EPWW_J"
+                },
+                {
+                  "label": ["JR", "EPWW"],
+                  "station_id": "EPWW_JR"
+                },
+                {
+                  "label": ["NE", "EPWW"],
+                  "station_id": "EPWW_NE"
+                },
+                {
+                  "label": ["T", "EPWW"],
+                  "station_id": "EPWW_TM"
+                },
+                {
+                  "label": ["TCJ", "EPWW"],
+                  "station_id": "EPWW_TCJ"
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PO", "TWR"],
+            "color": "steel",
+            "station_id": "EPPO_TWR"
+          },
+          {
+            "label": ["PO", "GND"],
+            "color": "umber",
+            "station_id": "EPPO_GND"
+          },
+          {
+            "label": ["PO", "DEL"],
+            "color": "taupe",
+            "station_id": "EPPO_DEL"
+          },
+          {
+            "label": ["PO", "TWR"],
+            "color": "steel",
+            "station_id": "EPPO_TWR"
+          },
+          {
+            "label": ["PO", "GND"],
+            "color": "umber",
+            "station_id": "EPPO_GND"
+          },
+          {
+            "label": ["PO", "DEL"],
+            "color": "taupe",
+            "station_id": "EPPO_DEL"
+          },
+          {
+            "label": ["ZG", "TWR"],
+            "color": "steel",
+            "station_id": "EPZG_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GD", "APP"],
+            "color": "snow",
+            "station_id": "EPGD_UTMA"
+          },
+          {
+            "label": ["GD L", "APP"],
+            "color": "snow",
+            "station_id": "EPGD_LTMA"
+          },
+          {
+            "label": ["WA N", "APP"],
+            "color": "snow",
+            "station_id": "EPWA_TMA_N"
+          },
+          {
+            "label": ["WA S", "APP"],
+            "color": "snow",
+            "station_id": "EPWA_TMA_S"
+          },
+          {
+            "label": ["KK", "APP"],
+            "color": "snow",
+            "station_id": "EPKK_TMA_W"
+          },
+          {
+            "label": ["KK E", "APP"],
+            "color": "snow",
+            "station_id": "EPKK_TMA_E"
+          },
+          {
+            "label": ["PO N", "FIS"],
+            "station_id": "EPPO_FIS"
+          },
+          {
+            "label": ["PO S", "FIS"],
+            "station_id": "EPPO_FIS_S"
+          },
+          {
+            "label": ["EPZP", "PRZYLEP"],
+            "station_id": "EPZP"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", "", ""]
+          },
+          {
+            "label": ["KK RZ", "APP", ""],
+            "color": "snow",
+            "station_id": "EPRZ_TMA"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["WAW"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["B", "L"],
+            "station_id": "EPWWB_LOW"
+          },
+          {
+            "label": ["D", "L"],
+            "station_id": "EPWWD_LOW"
+          },
+          {
+            "label": ["RHEIN", "BREMEN", "MUNICH"],
+            "color": "cadet",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDUU", "OSE22", "+365"],
+                  "station_id": "EDUU-OSE22"
+                },
+                {
+                  "label": ["EDUU", "OSE12", "285-365"],
+                  "station_id": "EDUU-OSE12"
+                },
+                {
+                  "label": ["EDUU", "HVL22", "+365"],
+                  "station_id": "EDUU-HVL22"
+                },
+                {
+                  "label": ["EDUU", "HVL12", "285-365"],
+                  "station_id": "EDUU-HVL12"
+                },
+                {
+                  "label": ["EDUU", "SPE", "+315"],
+                  "station_id": "EDUU-SPE"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["EDWW", "MRZ"],
+                  "station_id": "EDWW-MRZ"
+                },
+                {
+                  "label": ["EDWW", "MAR"],
+                  "station_id": "EDWW-MAR"
+                },
+                {
+                  "label": ["EDWW", "FLG"],
+                  "station_id": "EDWW-FLG"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["EDMM", "MEI"],
+                  "station_id": "EDMM-MEI"
+                },
+                {
+                  "label": ["EDMM", "SAS", "-165"],
+                  "station_id": "EDMM-SAS"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["EDDB N", "APP", "-135"],
+                  "station_id": "EDWW-DBAN"
+                },
+                {
+                  "label": ["EDDB N", "DEP", "-165"],
+                  "station_id": "EDWW-DBDN"
+                },
+                {
+                  "label": ["EDDB S", "DEP", "-165"],
+                  "station_id": "EDWW-DBDS"
+                },
+                {
+                  "label": ["EDDB S", "APP", "-135"],
+                  "station_id": "EDWW-DBAS"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["EDUU", "FMP"],
+                  "color": "clay"
+                },
+                {
+                  "label": ["EDWW", "FMP"],
+                  "color": "clay"
+                },
+                {
+                  "label": ["EDMM", "FMP"],
+                  "color": "clay",
+                  "station_id": "EDMM-FMP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["C", "L"],
+            "color": "mint",
+            "station_id": "EPWWC_LOW"
+          },
+          {
+            "label": ["PRAHA", "BRATI", "SLAVA"],
+            "color": "cadet",
+            "page": {
+              "rows": 5,
+              "keys": [
+                {
+                  "label": ["LKAA", "N", "+305"],
+                  "station_id": "LKAA NU"
+                },
+                {
+                  "label": ["LKAA", "N", "-305"],
+                  "station_id": "LKAA NL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LZBB", "U", "+305"],
+                  "station_id": "LZBB_CENTER_1U"
+                },
+                {
+                  "label": ["LZBB", "", "-305"],
+                  "station_id": "LZBB_CENTER_0L"
+                },
+                {
+                  "label": ["LKAA", "S", "+305"],
+                  "station_id": "LKAA SU"
+                },
+                {
+                  "label": ["LKAA", "S", "-305"],
+                  "station_id": "LKAA SL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LZTT", "TWR", "-135"],
+                  "station_id": "LZTT_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LKMT", "APP", "-125"],
+                  "station_id": "LKAA MT"
+                },
+                {
+                  "label": ["LKAA", "FMP"],
+                  "color": "clay"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LZBB", "FMP"],
+                  "color": "clay"
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["T", "L"],
+            "station_id": "EPWWT_LOW"
+          },
+          {
+            "label": ["F", "L"],
+            "station_id": "EPWWF_LOW"
+          },
+          {
+            "label": ["G", "L"],
+            "color": "mint",
+            "station_id": "EPWWG_LOW"
+          },
+          {
+            "label": ["WA N", "APP"],
+            "color": "snow",
+            "station_id": "EPWA_TMA_N"
+          },
+          {
+            "label": ["WA", "APP"],
+            "color": "snow",
+            "station_id": "EPWA_TMA"
+          },
+          {
+            "label": ["WA S", "APP"],
+            "color": "snow",
+            "station_id": "EPWA_TMA_S"
+          },
+          {
+            "label": ["J", "L"],
+            "color": "mint",
+            "station_id": "EPWWJ_LOW"
+          },
+          {
+            "label": ["MALMO", "VILNUS"],
+            "color": "cadet",
+            "page": {
+              "rows": 5,
+              "keys": [
+                {
+                  "label": ["ESMM 9", "+365"],
+                  "station_id": "ESMM_9"
+                },
+                {
+                  "label": ["ESMM 8", "-365"],
+                  "station_id": "ESMM_8"
+                },
+                {
+                  "label": ["ESMM L", "-195"],
+                  "station_id": "ESMM_L"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["ESMM 6", "+365"],
+                  "station_id": "ESMM_6"
+                },
+                {
+                  "label": ["ESMM 7", "-365"],
+                  "station_id": "ESMM_7"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["ESAA", "FMP"],
+                  "color": "clay",
+                  "station_id": "ESAA_FMP"
+                },
+                {
+                  "label": ["EYVL", "FMP"],
+                  "color": "clay"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["EYVL U", "+365"],
+                  "station_id": "EYVL-U"
+                },
+                {
+                  "label": ["EYVL M", "335-365"],
+                  "station_id": "EYVL-M"
+                },
+                {
+                  "label": ["EYVL", "225-335"],
+                  "station_id": "EYVL-L"
+                },
+                {
+                  "label": ["EYVL E", "-225"],
+                  "station_id": "EYVL-E"
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["N", "L"],
+            "station_id": "EPWWN_LOW"
+          },
+          {
+            "label": ["E", "L"],
+            "color": "mint",
+            "station_id": "EPWWE_LOW"
+          },
+          {
+            "label": ["WA", "DIR"],
+            "color": "snow",
+            "station_id": "EPWA_DIR"
+          },
+          {
+            "label": ["R", "L"],
+            "color": "mint",
+            "station_id": "EPWWR_LOW"
+          },
+          {
+            "label": ["UMKK", "MINSK", "LVIV"],
+            "color": "cadet",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["UMKK"]
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["UKLV"]
+                },
+                {
+                  "label": ["UKLU", "TWR"]
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["UKR", "CTR"]
+                },
+                {
+                  "label": ["UKLL", "APP"]
+                },
+                {
+                  "label": ["UMMV", "N"]
+                },
+                {
+                  "label": ["UMMV", "W"]
+                },
+                {
+                  "label": ["UMBB", "TWR"]
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["UMMV"]
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["FMP"],
+            "color": "clay",
+            "station_id": "EPWW_FMP"
+          },
+          {
+            "label": ["ACC", "KRAJ"],
+            "color": "cadet",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["B", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWB_HIGH"
+                },
+                {
+                  "label": ["G", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWG_HIGH"
+                },
+                {
+                  "label": ["B", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWB_MID"
+                },
+                {
+                  "label": ["G", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWG_MID"
+                },
+                {
+                  "label": ["B", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWB_LOW"
+                },
+                {
+                  "label": ["G", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWG_LOW"
+                },
+                {
+                  "label": ["C", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWC_HIGH"
+                },
+                {
+                  "label": ["J", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWJ_HIGH"
+                },
+                {
+                  "label": ["C", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWC_MID"
+                },
+                {
+                  "label": ["J", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWJ_MID"
+                },
+                {
+                  "label": ["C", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWC_LOW"
+                },
+                {
+                  "label": ["J", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWJ_LOW"
+                },
+                {
+                  "label": ["D", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWD_HIGH"
+                },
+                {
+                  "label": ["N", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWN_HIGH"
+                },
+                {
+                  "label": ["D", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWD_MID"
+                },
+                {
+                  "label": ["N", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWN_MID"
+                },
+                {
+                  "label": ["D", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWD_LOW"
+                },
+                {
+                  "label": ["N", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWN_LOW"
+                },
+                {
+                  "label": ["E", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWE_HIGH"
+                },
+                {
+                  "label": ["R", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWR_HIGH"
+                },
+                {
+                  "label": ["E", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWE_MID"
+                },
+                {
+                  "label": ["R", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWR_MID"
+                },
+                {
+                  "label": ["E", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWE_LOW"
+                },
+                {
+                  "label": ["R", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWR_LOW"
+                },
+                {
+                  "label": ["F", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWF_HIGH"
+                },
+                {
+                  "label": ["T", "H"],
+                  "color": "lilac",
+                  "station_id": "EPWWT_HIGH"
+                },
+                {
+                  "label": ["F", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWF_MID"
+                },
+                {
+                  "label": ["T", "M"],
+                  "color": "lagoon",
+                  "station_id": "EPWWT_MID"
+                },
+                {
+                  "label": ["F", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWF_LOW"
+                },
+                {
+                  "label": ["T", "L"],
+                  "color": "mint",
+                  "station_id": "EPWWT_LOW"
+                },
+                {
+                  "label": ["C", "EPWW"],
+                  "station_id": "EPWW_C"
+                },
+                {
+                  "label": ["D", "EPWW"],
+                  "station_id": "EPWW_D"
+                },
+                {
+                  "label": ["FMP", "EPWW"],
+                  "color": "clay",
+                  "station_id": "EPWW_FMP"
+                },
+                {
+                  "label": ["NFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_N"
+                },
+                {
+                  "label": ["EFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_E"
+                },
+                {
+                  "label": ["SFIR", "EPWW"],
+                  "color": "blush",
+                  "station_id": "EPWW_S"
+                },
+                {
+                  "label": ["DBF", "EPWW"],
+                  "station_id": "EPWW_DBF"
+                },
+                {
+                  "label": ["DBT", "EPWW"],
+                  "station_id": "EPWW_DBT"
+                },
+                {
+                  "label": ["DT", "EPWW"],
+                  "station_id": "EPWW_DT"
+                },
+                {
+                  "label": ["DTC", "EPWW"],
+                  "station_id": "EPWW_DTC"
+                },
+                {
+                  "label": ["F", "EPWW"],
+                  "station_id": "EPWW_F"
+                },
+                {
+                  "label": ["FG", "EPWW"],
+                  "station_id": "EPWW_FG"
+                },
+                {
+                  "label": ["G", "EPWW"],
+                  "station_id": "EPWW_G"
+                },
+                {
+                  "label": ["J", "EPWW"],
+                  "station_id": "EPWW_J"
+                },
+                {
+                  "label": ["JR", "EPWW"],
+                  "station_id": "EPWW_JR"
+                },
+                {
+                  "label": ["NE", "EPWW"],
+                  "station_id": "EPWW_NE"
+                },
+                {
+                  "label": ["T", "EPWW"],
+                  "station_id": "EPWW_TM"
+                },
+                {
+                  "label": ["TCJ", "EPWW"],
+                  "station_id": "EPWW_TCJ"
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MO", "TWR"],
+            "color": "steel",
+            "station_id": "EPMO_TWR"
+          },
+          {
+            "label": ["MO", "DEL"],
+            "color": "taupe",
+            "station_id": "EPMO_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LL", "TWR"],
+            "color": "steel",
+            "station_id": "EPLL_TWR"
+          },
+          {
+            "label": ["LL", "DEL"],
+            "color": "taupe",
+            "station_id": "EPLL_DEL"
+          },
+          {
+            "label": ["WA", "TWR"],
+            "color": "steel",
+            "station_id": "EPWA_TWR"
+          },
+          {
+            "label": ["WA", "GND"],
+            "color": "umber",
+            "station_id": "EPWA_GND"
+          },
+          {
+            "label": ["WA", "DEL"],
+            "color": "taupe",
+            "station_id": "EPWA_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RA", "TWR"],
+            "color": "steel",
+            "station_id": "EPRA_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GD", "APP"],
+            "color": "snow",
+            "station_id": "EPGD_UTMA"
+          },
+          {
+            "label": ["GD L", "APP"],
+            "color": "snow",
+            "station_id": "EPGD_LTMA"
+          },
+          {
+            "label": ["PO N", "APP"],
+            "color": "snow",
+            "station_id": "EPPO_TMA_N"
+          },
+          {
+            "label": ["PO S", "APP"],
+            "color": "snow",
+            "station_id": "EPPO_TMA_S"
+          },
+          {
+            "label": ["KK", "APP"],
+            "color": "snow",
+            "station_id": "EPKK_TMA_W"
+          },
+          {
+            "label": ["KK E", "APP"],
+            "color": "snow",
+            "station_id": "EPKK_TMA_E"
+          },
+          {
+            "label": ["WA N", "FIS"],
+            "station_id": "EPWA_FIS_N"
+          },
+          {
+            "label": ["WA C", "FIS"],
+            "station_id": "EPWA_FIS_C"
+          },
+          {
+            "label": ["WA W", "FIS"],
+            "station_id": "EPWA_FIS_W"
+          },
+          {
+            "label": ["WA E", "FIS"],
+            "station_id": "EPWA_FIS_E"
+          },
+          {
+            "label": ["EPBC", "BABICE", "INFO"],
+            "station_id": "EPBC"
+          },
+          {
+            "label": ["KK RZ", "APP", ""],
+            "color": "snow",
+            "station_id": "EPRZ_TMA"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["DIR"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": [
+            "EP*",
+            "EDMM*G*CTR",
+            "EDMM*H*CTR",
+            "EDMM*M*CTR",
+            "EDWW_CTR",
+            "EDWW*B*CTR",
+            "EDWW*F*CTR",
+            "EDWW*M*CTR",
+            "EDUU*H*CTR",
+            "EDUU*O*CTR",
+            "EDUU*OH*CTR",
+            "EDUU*SPE*CTR",
+            "EDUU*SAL*CTR",
+            "EDAH*TWR",
+            "EDDB*N*APP",
+            "EDDB*S*APP",
+            "EDDB*DEP",
+            "EDDC*S*APP",
+            "EDDP*TRS*APP",
+            "EKDK_CTR",
+            "EKDK*A*CTR",
+            "EKDK*C*CTR",
+            "ESAA*CTR",
+            "ESMM*2*CTR",
+            "ESMM*5*CTR",
+            "ESMM*6*CTR",
+            "ESMM*7*CTR",
+            "ESMM*8*CTR",
+            "ESMM*9*CTR",
+            "ESMM*K*CTR",
+            "EY*CTR",
+            "EYKA_I*_APP",
+            "LK*CTR",
+            "LKPR*APP",
+            "LKMT*APP",
+            "LZBB*CTR",
+            "LZTT*TWR",
+            "UKLV*CTR",
+            "UKLL*APP",
+            "UKLU*TWR",
+            "UKR*CTR",
+            "UMKK*CTR",
+            "UMMV*CTR",
+            "UMBB*TWR"
+          ],
+          "exclude": ["LKAA*S*CTR", "LKAA*W*CTR", "UMMV*S*CTR", "EDMM_NDG_CTR"],
+          "grouping": "Fir",
+          "priority": [
+            "EPWW*",
+            "EP*_APP",
+            "EP*_TWR",
+            "ED*",
+            "*_FMP",
+            "*_CTR",
+            "*_APP",
+            "*_TWR",
+            "*_GND"
+          ]
+        }
+      }
+    }
+  ]
+}

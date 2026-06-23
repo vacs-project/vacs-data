@@ -206,7 +206,7 @@
     },
     {
       "id": "EBBR-TWR",
-      "controlled_by": ["EBBR_TWR"],
+      "controlled_by": ["EBBR_TWR", "EBBR_N_TWR"],
       "parent_id": "EBBR-APP"
     },
     {
@@ -216,8 +216,7 @@
     },
     {
       "id": "EBBR-F-APP",
-      "controlled_by": ["EBBR_F_APP"],
-      "parent_id": "EBBR-APP"
+      "controlled_by": ["EBBR_F_APP"]
     },
     {
       "id": "EBBR-APP",
@@ -259,8 +258,7 @@
     },
     {
       "id": "ELLX-F-APP",
-      "controlled_by": ["ELLX_F_APP"],
-      "parent_id": "ELLX-APP"
+      "controlled_by": ["ELLX_F_APP"]
     },
     {
       "id": "ELLX-APP",

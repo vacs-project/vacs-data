@@ -42,7 +42,7 @@ controlled_by = ["EDMM_GER_CTR", "EDMM_HAL_CTR", "EDMM_MEI_CTR", "EDMM_HOF_CTR"]
 
 [[stations]]
 id = "EDMM-HAL"
-controlled_by = ["EDMM_HAL_CTR", "EDMM_GER_CTR", "EDMM_MEI_CTR", "EDMM_HOF_CTR"]
+controlled_by = ["EDMM_HAL_CTR", "EDMM_GER_CTR", "EDMM_HOF_CTR"]
 
 [[stations]]
 id = "EDMM-HOF"
@@ -50,7 +50,7 @@ controlled_by = ["EDMM_HOF_CTR", "EDMM_BBG_CTR", "EDMM_RDG_CTR"]
 
 [[stations]]
 id = "EDMM-MEI"
-controlled_by = ["EDMM_MEI_CTR", "EDMM_GER_CTR", "EDMM_HOF_CTR", "EDMM_HAL_CTR"]
+controlled_by = ["EDMM_MEI_CTR", "EDMM_GER_CTR", "EDMM_HOF_CTR"]
 
 [[stations]]
 id = "EDMM-NDG"
@@ -178,9 +178,8 @@ id = "EDUU-SAL"
 controlled_by = [
   "EDUU_SAL_CTR",
   "EDUU_SPE_CTR",
-  #    "EDUU_H12_CTR",
+  "EDUU_H12_CTR",
   "EDMM_GER_CTR",
-  "EDMM_MEI_CTR",
   "EDMM_HOF_CTR",
   "EDMM_HAL_CTR",
 ]
@@ -190,11 +189,10 @@ id = "EDUU-SPE"
 controlled_by = [
   "EDUU_SPE_CTR",
   "EDUU_SAL_CTR",
-  #    "EDUU_H12_CTR",
+  "EDUU_H12_CTR",
   "EDMM_MEI_CTR",
   "EDMM_GER_CTR",
   "EDMM_HOF_CTR",
-  "EDMM_HAL_CTR",
 ]
 
 # Approaches
@@ -298,7 +296,6 @@ controlled_by = [
   "EDDP_TRS_APP",
   "EDMM_GER_CTR",
   "EDMM_HAL_CTR",
-  "EDMM_MEI_CTR",
   "EDMM_HOF_CTR",
 ]
 
@@ -311,7 +308,6 @@ controlled_by = [
   "EDDP_TRS_APP",
   "EDMM_GER_CTR",
   "EDMM_HAL_CTR",
-  "EDMM_MEI_CTR",
   "EDMM_HOF_CTR",
 ]
 
@@ -322,7 +318,6 @@ controlled_by = [
   "EDDP_TRN_APP",
   "EDMM_GER_CTR",
   "EDMM_HAL_CTR",
-  "EDMM_MEI_CTR",
   "EDMM_HOF_CTR",
 ]
 
@@ -334,7 +329,6 @@ controlled_by = [
   "EDDP_TRN_APP",
   "EDMM_GER_CTR",
   "EDMM_HAL_CTR",
-  "EDMM_MEI_CTR",
   "EDMM_HOF_CTR",
 ]
 
@@ -360,7 +354,6 @@ controlled_by = [
   "EDDP_TRS_APP",
   "EDMM_GER_CTR",
   "EDMM_HOF_CTR",
-  "EDMM_HAL_CTR",
 ]
 
 [[stations]]
@@ -387,14 +380,6 @@ controlled_by = [
   "EDMM_RDG_CTR",
 ]
 
-[[stations]]
-id = "LSFA-ARFA"
-controlled_by = [
-  # LSZH_APP, LSAS_CTR sadly not on vacs
-  "EDMM_ZUG_CTR",
-  "EDMM_RDG_CTR",
-]
-
 # TWR/GND EDDM
 [[stations]]
 id = "EDDM-TWR-N"
@@ -408,12 +393,12 @@ parent_id = "EDMM-DMSL"
 
 [[stations]]
 id = "EDDM-GND-N"
-controlled_by = ["EDDM_N_GND"]
+controlled_by = ["EDDM_N_GND", "EDDM_S_GND"]
 parent_id = "EDDM-TWR-N"
 
 [[stations]]
 id = "EDDM-GND-S"
-controlled_by = ["EDDM_S_GND"]
+controlled_by = ["EDDM_S_GND", "EDDM_N_GND"]
 parent_id = "EDDM-TWR-S"
 
 [[stations]]
@@ -538,9 +523,4 @@ parent_id = "EDMM-FRK"
 [[stations]]
 id = "EDNY-TWR"
 controlled_by = ["EDNY_TWR"]
-parent_id = "LSFA-ARFA"
-
-[[stations]]
-id = "LSZR-TWR"
-controlled_by = ["LSZR_TWR"]
-parent_id = "LSFA-ARFA"
+parent_id = "LSFA_APP"

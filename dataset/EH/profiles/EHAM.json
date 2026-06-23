@@ -1,0 +1,326 @@
+{
+  "id": "EHAM",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "EHAM",
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["DEL"],
+            "station_id": "EHAM_DEL",
+            "color": "azure"
+          },
+          {
+            "label": ["OPL"],
+            "station_id": "EHAM_P_DEL",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": ["FMP"],
+            "station_id": "EHAA_FMP",
+            "color": "lavender"
+          },
+          {
+            "label": ["GC1", "(S)"],
+            "station_id": "EHAM_S_GND",
+            "color": "azure"
+          },
+          {
+            "label": ["GC2", "(N)"],
+            "station_id": "EHAM_N_GND",
+            "color": "azure"
+          },
+          {
+            "label": ["GC3", "(C)"],
+            "station_id": "EHAM_C_GND",
+            "color": "azure"
+          },
+          {
+            "label": ["GCW", "(W)"],
+            "station_id": "EHAM_W_GND",
+            "color": "azure"
+          },
+          {
+            "label": ["TW1"],
+            "station_id": "EHAM_M_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["TW2"],
+            "station_id": "EHAM_S_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["TWW"],
+            "station_id": "EHAM_P_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": ["FD1"],
+            "station_id": "EHAM_W_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["FD2"],
+            "station_id": "EHAM_E_APP",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": ["AR1"],
+            "station_id": "EHAM_A_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["AR2"],
+            "station_id": "EHAM_S_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["AR3"],
+            "station_id": "EHAM_B_APP",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          }
+        ]
+      }
+    },
+    {
+      "label": "REGIO",
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["RD", "APP"],
+            "station_id": "EHRD_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["RD", "TWR"],
+            "station_id": "EHRD_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["RD", "DEL"],
+            "station_id": "EHRD_DEL",
+            "color": "azure"
+          },
+          {
+            "label": ["AMS1"],
+            "color": "mint",
+            "station_id": "EHAA_ALL"
+          },
+          {
+            "label": ["EH", "APP"],
+            "station_id": "EHEH_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EH", "TWR"],
+            "station_id": "EHEH_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EH", "GND"],
+            "station_id": "EHEH_GND",
+            "color": "azure"
+          },
+          {
+            "label": ["AMS2"],
+            "color": "mint",
+            "station_id": "EHAA_E"
+          },
+          {
+            "label": ["LE", "APP"],
+            "station_id": "EHLE_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["LE", "TWR"],
+            "station_id": "EHLE_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["LE", "DEL"],
+            "station_id": "EHLE_DEL",
+            "color": "azure"
+          },
+          {
+            "label": ["AMS3"],
+            "color": "mint",
+            "station_id": "EHAA_S"
+          },
+          {
+            "label": ["BK", "APP"],
+            "station_id": "EHBK_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["BK", "TWR"],
+            "station_id": "EHBK_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["BK", "DEL"],
+            "station_id": "EHBK_DEL",
+            "color": "azure"
+          },
+          {
+            "label": ["AMS4"],
+            "color": "mint",
+            "station_id": "EHAA_LOW"
+          },
+          {
+            "label": ["GG", "APP"],
+            "station_id": "EHGG_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["GG", "TWR"],
+            "station_id": "EHGG_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["GG", "DEL"],
+            "station_id": "EHGG_DEL",
+            "color": "azure"
+          },
+          {
+            "label": ["AMS5"],
+            "color": "mint",
+            "station_id": "EHAA_W"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          },
+          {
+            "label": [],
+            "color": "steel"
+          }
+        ]
+      }
+    },
+    {
+      "label": "ALL",
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": ["*"],
+          "exclude": [],
+          "priority": [],
+          "frequencies": "ShowAll",
+          "grouping": "FirAndIcao"
+        }
+      }
+    }
+  ]
+}

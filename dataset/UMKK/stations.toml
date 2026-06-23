@@ -1,0 +1,17 @@
+[[stations]]
+id = "UMKK_ACC"
+controlled_by = ["UMKK_CTR"]
+
+[[stations]]
+id = "UMKK_APP"
+parent_id = "UMKK_ACC"
+controlled_by = ["UMKK_APP"]
+
+[[stations]]
+id = "UMKK_TWR"
+parent_id = "UMKK_APP"
+controlled_by = ["UMKK_TWR"]
+
+[[stations]]
+id = "UMKK_TMU"
+controlled_by = ["UMKK_TMU"]

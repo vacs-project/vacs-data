@@ -1,0 +1,88 @@
+{
+  "id": "EIDW_VCT",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["DUB", "VCT"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["CDS"],
+            "color": "mint",
+            "station_id": "EIDW_DEL"
+          },
+          {
+            "label": ["AMC N"],
+            "color": "mint",
+            "station_id": "EIDW_N_TWR"
+          },
+          {
+            "label": ["AMC S"],
+            "color": "mint",
+            "station_id": "EIDW_S_TWR"
+          },
+          {
+            "label": ["BAL", ""],
+            "color": "clay",
+            "station_id": "EIME_APP"
+          },
+          {
+            "label": ["SMC N"],
+            "color": "mint",
+            "station_id": "EIDW_N_GND"
+          },
+          {
+            "label": ["SMC S"],
+            "color": "mint",
+            "station_id": "EIDW_S_GND"
+          },
+          {
+            "label": ["EIWT", ""],
+            "color": "snow",
+            "station_id": "EIWT_TWR"
+          },
+          {
+            "label": ["TM"],
+            "color": "azure"
+          },
+          {
+            "label": ["FIS"],
+            "color": "azure",
+            "station_id": "EIDW_I_CTR"
+          },
+          {
+            "label": ["US"],
+            "color": "azure",
+            "station_id": "EIDW_US_CTR"
+          },
+          {
+            "label": ["LS"],
+            "color": "azure",
+            "station_id": "EIDW_LS_CTR"
+          },
+          {
+            "label": ["APP"],
+            "color": "azure",
+            "station_id": "EIDW_APP"
+          },
+          {
+            "label": ["UN"],
+            "color": "azure",
+            "station_id": "EIDW_UN_CTR"
+          },
+          {
+            "label": ["LN"],
+            "color": "azure",
+            "station_id": "EIDW_LN_CTR"
+          },
+          {
+            "label": ["FINALS"],
+            "color": "azure",
+            "station_id": "EIDW_F_APP"
+          }
+        ]
+      }
+    }
+  ]
+}

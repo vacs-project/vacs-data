@@ -58,7 +58,8 @@
             "station_id": "EETT_FED"
           },
           {
-            "label": ["ULLL", "West"]
+            "label": ["ULLL", "West"],
+            "station_id": "ULLL_R4"
           },
           {
             "label": []
@@ -172,10 +173,12 @@
             "station_id": "EETT_FMP"
           },
           {
-            "label": ["AMC", "MIL"]
+            "label": ["AMC", "MIL"],
+            "station_id": "EFIN_MIL_FMP"
           },
           {
-            "label": ["TSA", "MIL"]
+            "label": ["PääJoke"],
+            "station_id": "EFIN_MIL"
           }
         ]
       }

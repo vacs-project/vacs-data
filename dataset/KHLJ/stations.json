@@ -7,6 +7,7 @@
     },
     {
       "id": "OBBB_1_CTR",
+      "parent_id": "GULF_E_FSS",
       "controlled_by": ["OBBB_1_CTR"]
     },
     {
@@ -96,6 +97,7 @@
     },
     {
       "id": "OKAC_CTR",
+      "parent_id": "GULF_E_FSS",
       "controlled_by": ["OKAC_CTR"]
     },
     {

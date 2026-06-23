@@ -9,6 +9,7 @@
         "keys": [
           {
             "label": ["EFIN B", "PLC"],
+            "color": "snow",
             "station_id": "EFIN_B"
           },
           {
@@ -20,10 +21,12 @@
           },
           {
             "label": ["Malmö", "PLC"],
+            "color": "snow",
             "station_id": "ESMM_Y"
           },
           {
             "label": ["Stockhol", "PLC"],
+            "color": "snow",
             "station_id": "ESOS_6"
           },
           {
@@ -31,6 +34,7 @@
           },
           {
             "label": ["EFIN A", "PLC"],
+            "color": "snow",
             "station_id": "EFIN_A"
           },
           {
@@ -42,17 +46,21 @@
           },
           {
             "label": ["Riga N", "EC"],
+            "color": "snow",
             "station_id": "EVRR_N"
           },
           {
-            "label": ["Riga N", "PLC"]
+            "label": ["Riga N", "PLC"],
+            "color": "snow"
           },
           {
             "label": ["Riga APP", "EC"],
+            "color": "snow",
             "station_id": "EVRA_APP"
           },
           {
             "label": ["EFHK", "RAD-E"],
+            "color": "snow",
             "station_id": "EFHK_RE"
           },
           {
@@ -64,13 +72,16 @@
           },
           {
             "label": ["Riga E", "EC"],
+            "color": "snow",
             "station_id": "EVRR_E"
           },
           {
-            "label": ["Riga E", "PLC"]
+            "label": ["Riga E", "PLC"],
+            "color": "snow"
           },
           {
-            "label": ["Riga APP", "PLC"]
+            "label": ["Riga APP", "PLC"],
+            "color": "snow"
           },
           {
             "label": ["FIS"],
@@ -84,54 +95,70 @@
             "label": ["F/N PLC"]
           },
           {
-            "label": ["St.Peter", "W PLC"]
+            "label": ["St.Peter", "W PLC"],
+            "color": "snow",
+            "station_id": "ULLL_W"
           },
           {
-            "label": ["St.Peter", "SW PLC"]
+            "label": ["St.Peter", "SW PLC"],
+            "color": "snow",
+            "station_id": "ULLL_SW"
           },
           {
-            "label": ["St.Peter", "V.Luki"]
+            "label": ["St.Peter", "V.Luki"],
+            "color": "snow",
+            "station_id": "ULLL_R6"
           },
           {
             "label": ["OPSUP"],
+            "color": "snow",
             "station_id": "EETT_OPSUP"
           },
           {
-            "label": ["FDA"]
+            "label": ["FDA"],
+            "color": "snow"
           },
           {
             "label": []
           },
           {
             "label": ["Liepaja", "FIS"],
+            "color": "snow",
             "station_id": "EVLA_FIS"
           },
           {
-            "label": ["St.Peter", "LCU"]
+            "label": ["St.Peter", "LCU"],
+            "color": "snow"
           },
           {
-            "label": ["Pskov", "LCU"]
+            "label": ["Pskov", "LCU"],
+            "color": "snow"
           },
           {
             "label": ["AMC"],
+            "color": "snow",
             "station_id": "EETT_OPSUP"
           },
           {
-            "label": ["TVP"]
+            "label": ["TVP"],
+            "color": "snow"
           },
           {
             "label": []
           },
           {
             "label": ["Riga", "FIS"],
+            "color": "snow",
             "station_id": "EVRR_FIS"
           },
           {
             "label": ["EEKA"],
+            "color": "snow",
             "station_id": "EEKA"
           },
           {
             "label": ["EEKE"],
+            "color": "snow",
             "station_id": "EEKE"
           },
           {
@@ -141,35 +168,44 @@
             "label": []
           },
           {
-            "label": ["JRCC"]
+            "label": ["JRCC"],
+            "color": "snow"
           },
           {
-            "label": ["Õhuseire"]
+            "label": ["Õhuseire"],
+            "color": "snow"
           },
           {
-            "label": ["RCO"]
+            "label": ["RCO"],
+            "color": "snow"
           },
           {
             "label": ["EEPU"],
+            "color": "snow",
             "station_id": "EEPU"
           },
           {
-            "label": ["BACKUP", "DIVERT"]
+            "label": ["BACKUP", "DIVERT"],
+            "color": "blush"
           },
           {
             "label": []
           },
           {
-            "label": ["LIGHT", "HOUSE"]
+            "label": ["LIGHT", "HOUSE"],
+            "color": "snow"
           },
           {
-            "label": ["AMBER", "LAND"]
+            "label": ["AMBER", "LAND"],
+            "color": "snow"
           },
           {
-            "label": ["GALAXY"]
+            "label": ["GALAXY"],
+            "color": "snow"
           },
           {
             "label": ["EETU"],
+            "color": "snow",
             "station_id": "EETU"
           }
         ]
@@ -191,7 +227,8 @@
             "label": ["112"]
           },
           {
-            "label": ["Konve", "rents"]
+            "label": ["Konve", "rents"],
+            "color": "blush"
           },
           {
             "label": ["EEKA"],
@@ -261,10 +298,12 @@
             "label": ["Riga", "SUP"]
           },
           {
-            "label": ["LIGHT", "HOUSE"]
+            "label": ["LIGHT", "HOUSE"],
+            "color": "snow"
           },
           {
-            "label": ["Õhuseire"]
+            "label": ["Õhuseire"],
+            "color": "snow"
           },
           {
             "label": ["CCAMS"]
@@ -281,7 +320,8 @@
             "station_id": "EFIN_FMP"
           },
           {
-            "label": ["AMBER", "LAND"]
+            "label": ["AMBER", "LAND"],
+            "color": "snow"
           },
           {
             "label": ["EEEI"],
@@ -302,7 +342,8 @@
             "station_id": "EFIN_FMP"
           },
           {
-            "label": ["GALAXY"]
+            "label": ["GALAXY"],
+            "color": "snow"
           },
           {
             "label": ["Kuusiku", "LK"],
@@ -345,7 +386,8 @@
             "station_id": "ESAA_FMP"
           },
           {
-            "label": ["AMC", "Sweden"]
+            "label": ["AMC", "Sweden"],
+            "color": "snow"
           },
           {
             "label": ["W", "EC"],
@@ -355,7 +397,8 @@
             "label": ["FDA"]
           },
           {
-            "label": ["RKIK"]
+            "label": ["RKIK"],
+            "color": "snow"
           },
           {
             "label": ["112"]
@@ -365,7 +408,8 @@
             "station_id": "ESAA_FMP"
           },
           {
-            "label": ["AMC", "Latvia"]
+            "label": ["AMC", "Latvia"],
+            "color": "snow"
           },
           {
             "label": ["E", "EC"],
@@ -375,16 +419,20 @@
             "label": ["ARO"]
           },
           {
-            "label": ["RCO"]
+            "label": ["RCO"],
+            "color": "snow"
           },
           {
             "label": ["JRCC"]
           },
           {
-            "label": ["St.Peter", "SUP"]
+            "label": ["St.Peter", "SUP"],
+            "station_id": "ULLL_TMU"
           },
           {
-            "label": ["AMC", "Finland"]
+            "label": ["AMC", "Finland"],
+            "color": "snow",
+            "station_id": "EFIN_MIL_FMP"
           },
           {
             "label": ["APP", "EC"],
@@ -400,10 +448,13 @@
             "label": ["KAPO", "24H"]
           },
           {
-            "label": ["OPSUP", "CB"]
+            "label": ["OPSUP", "CB"],
+            "color": "blush"
           },
           {
-            "label": ["AMC"]
+            "label": ["AMC"],
+            "color": "snow",
+            "station_id": "EETT_OPSUP"
           },
           {
             "label": ["TWR", "EC"],

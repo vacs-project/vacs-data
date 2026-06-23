@@ -27,23 +27,16 @@ facility_type = "GND"
 profile_id = "EG-Scottish"
 
 [[positions]]
-id = "EGAA_DEL"
-prefixes = ["EGAA"]
-frequency = "126.780"
-facility_type = "DEL"
-profile_id = "EG-Scottish"
-
-[[positions]]
 id = "EGAC_APP"
 prefixes = ["EGAC"]
-frequency = "130.850"
+frequency = "130.855"
 facility_type = "APP"
 profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAC_F_APP"
 prefixes = ["EGAC"]
-frequency = "134.800"
+frequency = "134.805"
 facility_type = "APP"
 profile_id = "EG-Scottish"
 
@@ -288,7 +281,7 @@ profile_id = "EG-West_LAG"
 [[positions]]
 id = "EGGD_APP"
 prefixes = ["EGGD"]
-frequency = "125.650"
+frequency = "125.655"
 facility_type = "APP"
 profile_id = "EG-West_LAG"
 
@@ -302,7 +295,7 @@ profile_id = "EG-West_LAG"
 [[positions]]
 id = "EGGD_TWR"
 prefixes = ["EGGD"]
-frequency = "133.850"
+frequency = "133.855"
 facility_type = "TWR"
 profile_id = "EG-West_LAG"
 
@@ -636,7 +629,14 @@ facility_type = "TWR"
 profile_id = "EGKK"
 
 [[positions]]
-id = "EGKK_GND"
+id = "EGKK_N_GND"
+prefixes = ["EGKK"]
+frequency = "121.540"
+facility_type = "GND"
+profile_id = "EGKK"
+
+[[positions]]
+id = "EGKK_S_GND"
 prefixes = ["EGKK"]
 frequency = "121.805"
 facility_type = "GND"
@@ -2381,133 +2381,189 @@ profile_id = "EG-South_LAG"
 # Scottish Area
 #######################
 [[positions]]
+id = "SCL_CTR"
+prefixes = ["SCL"]
+frequency = "121.375"
+facility_type = "CTR"
+profile_id = "EGPX"
+default_call_sources = ["SCL_CTR"]
+
+[[positions]]
+id = "SCL_TAY_CTR"
+prefixes = ["SCL"]
+frequency = "124.500"
+facility_type = "CTR"
+profile_id = "EGPX"
+default_call_sources = ["SCL_TAY_CTR"]
+
+[[positions]]
 id = "SCO_CTR"
+prefixes = ["SCO"]
+frequency = "125.680"
+facility_type = "CTR"
+profile_id = "EGPX"
+default_call_sources = [
+  "SCO_S_CTR",
+  "SCO_N_CTR",
+  "SCO_BDS_CTR",
+  "SCO_W_CTR",
+  "SCO_CTR",
+]
+
+[[positions]]
+id = "SCO_BDS_CTR"
 prefixes = ["SCO"]
 frequency = "135.530"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_BDS_CTR"]
 
 [[positions]]
-id = "SCO_C_CTR"
+id = "SCO_CEN_CTR"
 prefixes = ["SCO"]
 frequency = "127.275"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
-
-[[positions]]
-id = "SCO_D_CTR"
-prefixes = ["SCO"]
-frequency = "135.855"
-facility_type = "CTR"
-profile_id = "EG-Scottish"
-
-[[positions]]
-id = "SCO_EH_CTR"
-prefixes = ["SCO"]
-frequency = "133.680"
-facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_CEN_CTR"]
 
 [[positions]]
 id = "SCO_E_CTR"
 prefixes = ["SCO"]
-frequency = "121.325"
+frequency = "134.855"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_BDS_CTR", "SCO_S_CTR", "SCO_N_CTR", "SCO_E_CTR"]
+
+[[positions]]
+id = "SCO_GRP_CTR"
+prefixes = ["SCO"]
+frequency = "132.490"
+facility_type = "CTR"
+profile_id = "EGPX"
+default_call_sources = ["SCO_GRP_CTR"]
 
 [[positions]]
 id = "SCO_HC_CTR"
 prefixes = ["SCO"]
 frequency = "128.675"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_CEN_CTR", "SCO_HEB_CTR", "SCO_HC_CTR"]
 
 [[positions]]
-id = "SCO_H_CTR"
+id = "SCO_HEB_CTR"
 prefixes = ["SCO"]
-frequency = "129.925"
+frequency = "133.680"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_HEB_CTR"]
 
 [[positions]]
-id = "SCO_L_CTR"
+id = "SCO_HUM_CTR"
 prefixes = ["SCO"]
-frequency = "124.500"
+frequency = "121.325"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_HUM_CTR"]
 
 [[positions]]
 id = "SCO_N_CTR"
 prefixes = ["SCO"]
 frequency = "129.225"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_N_CTR"]
 
 [[positions]]
-id = "SCO_RE_CTR"
+id = "SCO_PEN_CTR"
 prefixes = ["SCO"]
-frequency = "125.680"
+frequency = "126.930"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_PEN_CTR"]
 
 [[positions]]
-id = "SCO_R_CTR"
+id = "SCO_RAT_CTR"
 prefixes = ["SCO"]
 frequency = "129.100"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_RAT_CTR"]
 
 [[positions]]
 id = "SCO_S_CTR"
 prefixes = ["SCO"]
 frequency = "134.775"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_S_CTR"]
 
 [[positions]]
-id = "SCO_WD_CTR"
+id = "SCO_SOL_CTR"
+prefixes = ["SCO"]
+frequency = "135.855"
+facility_type = "CTR"
+profile_id = "EGPX"
+default_call_sources = ["SCO_SOL_CTR"]
+
+[[positions]]
+id = "SCO_WB_CTR"
 prefixes = ["SCO"]
 frequency = "133.875"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_BDS_CTR", "SCO_W_CTR", "SCO_WB_CTR"]
 
 [[positions]]
 id = "SCO_W_CTR"
 prefixes = ["SCO"]
 frequency = "132.730"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCO_W_CTR"]
 
 #######################
 # Scottish TMA
 #######################
 [[positions]]
-id = "STC_A_CTR"
-prefixes = ["STC"]
+id = "SCL_GTA_CTR"
+prefixes = ["SCL"]
+frequency = "124.930"
+facility_type = "CTR"
+profile_id = "EGPX"
+default_call_sources = ["SCL_TMA_CTR", "SCL_ANT_CTR"]
+
+[[positions]]
+id = "SCL_ANT_CTR"
+prefixes = ["SCL"]
 frequency = "123.775"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCL_ANT_CTR"]
 
 [[positions]]
-id = "STC_CTR"
-prefixes = ["STC"]
+id = "SCL_TMA_CTR"
+prefixes = ["SCL"]
 frequency = "126.300"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCL_TMA_CTR"]
 
 [[positions]]
-id = "STC_E_CTR"
-prefixes = ["STC"]
+id = "SCL_TLA_CTR"
+prefixes = ["SCL"]
 frequency = "130.975"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCL_TLA_CTR"]
 
 [[positions]]
-id = "STC_W_CTR"
-prefixes = ["STC"]
+id = "SCL_GAL_CTR"
+prefixes = ["SCL"]
 frequency = "124.825"
 facility_type = "CTR"
-profile_id = "EG-Scottish"
+profile_id = "EGPX"
+default_call_sources = ["SCL_GAL_CTR"]
 
 #######################
 # Manchester Prestwick 
@@ -3128,77 +3184,77 @@ id = "UK_FMP"
 prefixes = ["UK"]
 frequency = "199.998"
 facility_type = "FMP"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
 id = "UK_A_FMP"
 prefixes = ["UK"]
 frequency = "199.998"
 facility_type = "FMP"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
 id = "UK_B_FMP"
 prefixes = ["UK"]
 frequency = "199.998"
 facility_type = "FMP"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
 id = "MAN_FMP"
 prefixes = ["MAN"]
 frequency = "199.998"
 facility_type = "FMP"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
 id = "LTC_FMP"
 prefixes = ["LTC"]
 frequency = "199.998"
 facility_type = "FMP"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
-id = "STC_FMP"
-prefixes = ["STC"]
+id = "SCL_FMP"
+prefixes = ["SCL"]
 frequency = "199.998"
 facility_type = "FMP"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
 id = "LON_GS_CTR"
 prefixes = ["LON"]
 frequency = "199.998"
 facility_type = "CTR"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
 id = "LTC_GS_CTR"
 prefixes = ["LTC"]
 frequency = "199.998"
 facility_type = "CTR"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
 id = "SCO_GS_CTR"
 prefixes = ["SCO"]
 frequency = "199.998"
 facility_type = "CTR"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
-id = "STC_GS_CTR"
-prefixes = ["STC"]
+id = "SCL_GS_CTR"
+prefixes = ["SCL"]
 frequency = "199.998"
 facility_type = "CTR"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 [[positions]]
 id = "MAN_GS_CTR"
 prefixes = ["MAN"]
 frequency = "199.998"
 facility_type = "CTR"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-FMP"
 
 #######################
 # Non-domestic owned

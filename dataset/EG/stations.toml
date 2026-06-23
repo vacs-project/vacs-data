@@ -23,8 +23,8 @@ id = "LTC_FMP"
 controlled_by = ["LTC_FMP"]
 
 [[stations]]
-id = "STC_FMP"
-controlled_by = ["STC_FMP"]
+id = "SCL_FMP"
+controlled_by = ["SCL_FMP"]
 
 [[stations]]
 id = "LON_GS_CTR"
@@ -39,8 +39,8 @@ id = "SCO_GS_CTR"
 controlled_by = ["SCO_GS_CTR"]
 
 [[stations]]
-id = "STC_GS_CTR"
-controlled_by = ["STC_GS_CTR"]
+id = "SCL_GS_CTR"
+controlled_by = ["SCL_GS_CTR"]
 
 [[stations]]
 id = "MAN_GS_CTR"
@@ -614,6 +614,207 @@ parent_id = "LON_SC_CTR"
 controlled_by = ["LON_C_CTR"]
 
 ####################
+# SCOTTISH SECTORS
+####################
+# Note: where it is not possible to split sectors apart on VATSIM, the station is combined
+
+[[stations]]
+id = "EG-Talla"
+parent_id = "SCL_TLA_CTR"
+
+[[stations]]
+id = "EG-Galloway"
+parent_id = "SCL_GAL_CTR"
+
+[[stations]]
+id = "EG-Tay"
+parent_id = "SCL_TAY_CTR"
+
+[[stations]]
+id = "EG-Moray-Low"
+parent_id = "EG-Moray-High"
+controlled_by = ["SCL_CTR"]
+
+[[stations]]
+id = "EG-Hebrides-Low"
+parent_id = "EG-Hebrides-High"
+controlled_by = ["SCL_CTR"]
+
+# *****ATTENTION!!!*****
+# Westcoast sector split into pseudo-sectors, when Scottish Low isn't online, the respective upper
+# sector takes ownership of a slice identical to the upper sector in the lower Westcoast sector
+
+# Westcoast (Hebrides) is assumed as part of Hebrides Low for VACS purposes
+
+[[stations]]
+id = "EG-Westcoast-Central"
+parent_id = "EG-Central"
+controlled_by = ["SCL_CTR"]
+
+[[stations]]
+id = "EG-Westcoast-Rathlin"
+parent_id = "EG-Rathlin"
+controlled_by = ["SCL_CTR"]
+
+[[stations]]
+id = "EG-Westcoast-Grampian"
+parent_id = "EG-Grampian"
+controlled_by = ["SCL_CTR"]
+
+[[stations]]
+id = "EG-Antrim"
+parent_id = "SCL_ANT_CTR"
+
+[[stations]]
+id = "EG-Rathlin"
+parent_id = "SCO_RAT_CTR"
+
+[[stations]]
+id = "EG-Central"
+parent_id = "SCO_CEN_CTR"
+
+[[stations]]
+id = "EG-Hebrides-High"
+parent_id = "SCO_HEB_CTR"
+
+[[stations]]
+id = "EG-Moray-High"
+parent_id = "SCO_N_CTR"
+
+[[stations]]
+id = "EG-Humber"
+parent_id = "SCO_HUM_CTR"
+
+[[stations]]
+id = "EG-Tyne"
+parent_id = "SCO_S_CTR"
+
+[[stations]]
+id = "EG-Grampian"
+parent_id = "SCO_GRP_CTR"
+
+[[stations]]
+id = "EG-Pennine"
+parent_id = "SCO_PEN_CTR"
+
+[[stations]]
+id = "EG-Solway"
+parent_id = "SCO_SOL_CTR"
+
+[[stations]]
+id = "EG-Borders"
+parent_id = "SCO_BDS_CTR"
+
+####################
+# SCOTTISH POSITIONS
+####################
+
+[[stations]]
+id = "SCO_CTR"
+controlled_by = ["SCO_CTR"]
+
+[[stations]]
+id = "SCO_WB_CTR"
+parent_id = "SCO_CTR"
+controlled_by = ["SCO_WB_CTR"]
+
+[[stations]]
+id = "SCL_CTR"
+controlled_by = ["SCL_CTR"]
+
+[[stations]]
+id = "SCL_TAY_CTR"
+parent_id = "EG-Grampian"
+controlled_by = ["SCL_TAY_CTR", "SCL_CTR"]
+
+[[stations]]
+id = "SCL_GTA_CTR"
+controlled_by = ["SCL_GTA_CTR"]
+
+[[stations]]
+id = "SCL_TMA_CTR"
+controlled_by = ["SCL_TMA_CTR", "SCL_GTA_CTR", "SCL_CTR"]
+
+[[stations]]
+id = "SCL_GAL_CTR"
+parent_id = "SCL_TMA_CTR"
+controlled_by = ["SCL_GAL_CTR"]
+
+[[stations]]
+id = "SCL_TLA_CTR"
+parent_id = "SCL_TMA_CTR"
+controlled_by = ["SCL_TLA_CTR"]
+
+[[stations]]
+id = "SCL_ANT_CTR"
+parent_id = "EG-Rathlin"
+controlled_by = ["SCL_ANT_CTR", "SCL_GTA_CTR", "SCL_CTR"]
+
+[[stations]]
+id = "SCO_RAT_CTR"
+parent_id = "SCO_W_CTR"
+controlled_by = ["SCO_RAT_CTR"]
+
+[[stations]]
+id = "SCO_CEN_CTR"
+parent_id = "SCO_W_CTR"
+controlled_by = ["SCO_CEN_CTR", "SCO_HC_CTR"]
+
+[[stations]]
+id = "SCO_HEB_CTR"
+parent_id = "SCO_N_CTR"
+controlled_by = ["SCO_HEB_CTR", "SCO_HC_CTR"]
+
+[[stations]]
+id = "SCO_HC_CTR"
+controlled_by = ["SCO_HC_CTR"]
+
+[[stations]]
+id = "SCO_W_CTR"
+parent_id = "SCO_WB_CTR"
+controlled_by = ["SCO_W_CTR"]
+
+[[stations]]
+id = "SCO_E_CTR"
+parent_id = "SCO_CTR"
+controlled_by = ["SCO_E_CTR"]
+
+[[stations]]
+id = "SCO_N_CTR"
+parent_id = "SCO_E_CTR"
+controlled_by = ["SCO_N_CTR"]
+
+[[stations]]
+id = "SCO_S_CTR"
+parent_id = "SCO_E_CTR"
+controlled_by = ["SCO_S_CTR"]
+
+[[stations]]
+id = "SCO_HUM_CTR"
+parent_id = "SCO_S_CTR"
+controlled_by = ["SCO_HUM_CTR"]
+
+[[stations]]
+id = "SCO_GRP_CTR"
+parent_id = "SCO_S_CTR"
+controlled_by = ["SCO_GRP_CTR"]
+
+[[stations]]
+id = "SCO_BDS_CTR"
+parent_id = "SCO_WB_CTR"
+controlled_by = ["SCO_BDS_CTR", "SCO_WB_CTR", "SCO_S_CTR"]
+
+[[stations]]
+id = "SCO_PEN_CTR"
+parent_id = "SCO_BDS_CTR"
+controlled_by = ["SCO_PEN_CTR"]
+
+[[stations]]
+id = "SCO_SOL_CTR"
+parent_id = "SCO_BDS_CTR"
+controlled_by = ["SCO_SOL_CTR"]
+
+####################
 # FIS
 ####################
 
@@ -680,6 +881,58 @@ controlled_by = ["EGVV_D_CTR"]
 ####################
 # AERODROMES
 ####################
+
+[[stations]]
+id = "EGAA_GND"
+parent_id = "EGAA_TWR"
+controlled_by = ["EGAA_GND"]
+
+[[stations]]
+id = "EGAA_TWR"
+parent_id = "EGAA_APP"
+controlled_by = ["EGAA_TWR"]
+
+[[stations]]
+id = "EGAA_APP"
+parent_id = "SCL_ANT_CTR"
+controlled_by = ["EGAA_APP", "EGAA_F_APP"]
+
+[[stations]]
+id = "EGAA_F_APP"
+parent_id = "EGAA_APP"
+controlled_by = ["EGAA_F_APP"]
+
+[[stations]]
+id = "EGAC_TWR"
+parent_id = "EGAC_APP"
+controlled_by = ["EGAC_TWR"]
+
+[[stations]]
+id = "EGAC_APP"
+parent_id = "EGAA_APP"
+controlled_by = ["EGAC_APP"]
+
+[[stations]]
+id = "EGAE_TWR"
+parent_id = "EGAE_A_APP"
+controlled_by = ["EGAE_TWR"]
+
+[[stations]]
+id = "EGAE_A_APP"
+parent_id = "SCO_RAT_CTR"
+controlled_by = ["EGAE_A_APP"]
+
+[[stations]]
+id = "EGAE_reverse"
+controlled_by = [
+  "EGAE_A_APP",
+  "SCL_CTR",
+  "SCO_RAT_CTR",
+  "SCO_W_CTR",
+  "SCO_WB_CTR",
+  "SCO_CTR",
+  "EGAE_TWR",
+]
 
 [[stations]]
 id = "EGBB_APP"
@@ -754,7 +1007,7 @@ controlled_by = ["EGGW_DEL"]
 [[stations]]
 id = "EGGW_GND"
 parent_id = "EGGW_TWR"
-controlled_by = ["EGGW_APP"]
+controlled_by = ["EGGW_GND"]
 
 [[stations]]
 id = "EGGW_TWR"
@@ -772,9 +1025,49 @@ parent_id = "EGGW_APP"
 controlled_by = ["EGGW_F_APP"]
 
 [[stations]]
+id = "EGKK_DEL"
+parent_id = "EGKK_N_GND"
+controlled_by = ["EGKK_DEL"]
+
+[[stations]]
+id = "EGKK_A_DEL"
+parent_id = "EGKK_DEL"
+controlled_by = ["EGKK_A_DEL"]
+
+[[stations]]
+id = "EGKK_P_GND"
+parent_id = "EGKK_DEL"
+controlled_by = ["EGKK_P_GND"]
+
+[[stations]]
+id = "EGKK_N_GND"
+parent_id = "EGKK_TWR"
+controlled_by = ["EGKK_N_GND", "EGKK_S_GND"]
+
+[[stations]]
+id = "EGKK_S_GND"
+parent_id = "EGKK_N_GND"
+controlled_by = ["EGKK_S_GND"]
+
+[[stations]]
+id = "EGKK_TWR"
+parent_id = "EGKK_APP"
+controlled_by = ["EGKK_TWR"]
+
+[[stations]]
 id = "EGKK_APP"
 parent_id = "LTC_SW_CTR"
 controlled_by = ["EGKK_APP", "EGKK_F_APP"]
+
+[[stations]]
+id = "EGKK_F_APP"
+parent_id = "EGKK_APP"
+controlled_by = ["EGKK_F_APP"]
+
+[[stations]]
+id = "EGKR_TWR"
+parent_id = "EGKK_F_APP"
+controlled_by = ["EGKR_TWR"]
 
 [[stations]]
 id = "EGLC_GND"
@@ -910,6 +1203,61 @@ parent_id = "EGNR_APP"
 controlled_by = ["EGNR_F_APP"]
 
 [[stations]]
+id = "EGNS_TWR"
+parent_id = "EGNS_APP"
+controlled_by = ["EGNS_TWR"]
+
+[[stations]]
+id = "EGNS_APP"
+parent_id = "EGNS_A_APP"
+controlled_by = ["EGNS_APP", "EGNS_F_APP"]
+
+[[stations]]
+id = "EGNS_F_APP"
+parent_id = "EGNS_APP"
+controlled_by = ["EGNS_F_APP"]
+
+[[stations]]
+id = "EGNS_A_APP"
+parent_id = "MAN_WI_CTR"
+controlled_by = ["EGNS_A_APP"]
+
+[[stations]]
+id = "EGNT_GND"
+parent_id = "EGNT_TWR"
+controlled_by = ["EGNT_GND"]
+
+[[stations]]
+id = "EGNT_TWR"
+parent_id = "EGNT_APP"
+controlled_by = ["EGNT_TWR"]
+
+[[stations]]
+id = "EGNT_APP"
+parent_id = "MAN_NE_CTR"
+controlled_by = ["EGNT_APP", "EGNT_F_APP"]
+
+[[stations]]
+id = "EGNT_F_APP"
+parent_id = "EGNT_APP"
+controlled_by = ["EGNT_F_APP"]
+
+[[stations]]
+id = "EGNV_TWR"
+parent_id = "EGNV_APP"
+controlled_by = ["EGNV_TWR"]
+
+[[stations]]
+id = "EGNV_APP"
+parent_id = "EGNT_APP"
+controlled_by = ["EGNV_APP", "EGNV_F_APP"]
+
+[[stations]]
+id = "EGNV_F_APP"
+parent_id = "EGNV_APP"
+controlled_by = ["EGNV_F_APP"]
+
+[[stations]]
 id = "EGNX_APP"
 parent_id = "LTC_MW_CTR"
 controlled_by = ["EGNX_APP", "EGNX_F_APP"]
@@ -918,6 +1266,201 @@ controlled_by = ["EGNX_APP", "EGNX_F_APP"]
 id = "EGNX_F_APP"
 parent_id = "EGNX_APP"
 controlled_by = ["EGNX_F_APP"]
+
+[[stations]]
+id = "EGOV_APP"
+parent_id = "EGVV_W_CTR"
+controlled_by = ["EGOV_APP", "EGOV_P_APP"]
+
+[[stations]]
+id = "EGPA_A_APP"
+parent_id = "EG-Moray-Low"
+controlled_by = ["EGPA_A_APP"]
+
+[[stations]]
+id = "EGPA_TWR"
+parent_id = "EGPA_A_APP"
+controlled_by = ["EGPA_TWR"]
+
+[[stations]]
+id = "EGPB_TWR"
+parent_id = "EGPB_APP"
+controlled_by = ["EGPB_TWR"]
+
+[[stations]]
+id = "EGPB_APP"
+parent_id = "EG-Moray-Low"
+controlled_by = ["EGPB_APP"]
+
+[[stations]]
+id = "EGPC_A_APP"
+parent_id = "EG-Moray-Low"
+controlled_by = ["EGPC_A_APP"]
+
+[[stations]]
+id = "EGPC_TWR"
+parent_id = "EGPC_A_APP"
+controlled_by = ["EGPC_TWR"]
+
+[[stations]]
+id = "EGPD_GND"
+parent_id = "EGPD_TWR"
+controlled_by = ["EGPD_GND"]
+
+[[stations]]
+id = "EGPD_TWR"
+parent_id = "EGPD_APP"
+controlled_by = ["EGPD_TWR"]
+
+[[stations]]
+id = "EGPD_APP"
+parent_id = "EG-Tay"
+controlled_by = ["EGPD_APP", "EGPD_F_APP", "EGPD_H_APP"]
+
+[[stations]]
+id = "EGPD_F_APP"
+parent_id = "EGPD_APP"
+controlled_by = ["EGPD_F_APP"]
+
+[[stations]]
+id = "EGPD_H_APP"
+parent_id = "EGPD_APP"
+controlled_by = ["EGPD_H_APP"]
+
+[[stations]]
+id = "EGPE_APP"
+parent_id = "EG-Moray-Low"
+controlled_by = ["EGPE_APP"]
+
+[[stations]]
+id = "EGPE_TWR"
+parent_id = "EGPE_APP"
+controlled_by = ["EGPE_TWR"]
+
+[[stations]]
+id = "EGPF_GND"
+parent_id = "EGPF_TWR"
+controlled_by = ["EGPF_GND"]
+
+[[stations]]
+id = "EGPF_TWR"
+parent_id = "EGPF_APP"
+controlled_by = ["EGPF_TWR"]
+
+[[stations]]
+id = "EGPF_APP"
+parent_id = "SCL_GAL_CTR"
+controlled_by = ["EGPF_APP", "EGPF_F_APP"]
+
+[[stations]]
+id = "EGPF_F_APP"
+parent_id = "EGPF_APP"
+controlled_by = ["EGPF_F_APP"]
+
+[[stations]]
+id = "EGPH_DEL"
+parent_id = "EGPH_GND"
+controlled_by = ["EGPH_DEL"]
+
+[[stations]]
+id = "EGPH_GND"
+parent_id = "EGPH_TWR"
+controlled_by = ["EGPH_GND"]
+
+[[stations]]
+id = "EGPH_TWR"
+parent_id = "EGPH_APP"
+controlled_by = ["EGPH_TWR"]
+
+[[stations]]
+id = "EGPH_APP"
+parent_id = "SCL_TLA_CTR"
+controlled_by = ["EGPH_APP", "EGPH_F_APP"]
+
+[[stations]]
+id = "EGPH_F_APP"
+parent_id = "EGPH_APP"
+controlled_by = ["EGPH_F_APP"]
+
+[[stations]]
+id = "EGPK_TWR"
+parent_id = "EGPK_APP"
+controlled_by = ["EGPK_TWR"]
+
+[[stations]]
+id = "EGPK_APP"
+parent_id = "SCL_GAL_CTR"
+controlled_by = ["EGPK_APP", "EGPK_F_APP"]
+
+[[stations]]
+id = "EGPK_F_APP"
+parent_id = "EGPK_APP"
+controlled_by = ["EGPK_F_APP"]
+
+[[stations]]
+id = "EGPL_A_APP"
+parent_id = "EG-Westcoast-Central"
+controlled_by = ["EGPL_A_APP"]
+
+[[stations]]
+id = "EGPL_TWR"
+parent_id = "EGPL_A_APP"
+controlled_by = ["EGPL_TWR"]
+
+[[stations]]
+id = "EGPN_A_APP"
+parent_id = "EG-Tay"
+controlled_by = ["EGPN_A_APP"]
+
+[[stations]]
+id = "EGPN_TWR"
+parent_id = "EGPN_A_APP"
+controlled_by = ["EGPN_TWR"]
+
+[[stations]]
+id = "EGPO_A_APP"
+parent_id = "EG-Hebrides-Low"
+controlled_by = ["EGPO_A_APP"]
+
+[[stations]]
+id = "EGPO_TWR"
+parent_id = "EGPO_A_APP"
+controlled_by = ["EGPO_TWR"]
+
+[[stations]]
+id = "EGQL_APP"
+parent_id = "EGVV_N_CTR"
+controlled_by = ["EGQL_APP", "EGQL_P_APP"]
+
+[[stations]]
+id = "EGQL_P_APP"
+parent_id = "EGQL_APP"
+controlled_by = ["EGQL_P_APP"]
+
+[[stations]]
+id = "EGQL_TWR"
+parent_id = "EGQL_APP"
+controlled_by = ["EGQL_TWR"]
+
+[[stations]]
+id = "EGQL_GND"
+parent_id = "EGQL_TWR"
+controlled_by = ["EGQL_GND"]
+
+[[stations]]
+id = "EGQS_APP"
+parent_id = "EGVV_Q_CTR"
+controlled_by = ["EGQS_APP", "EGQS_P_APP"]
+
+[[stations]]
+id = "EGQS_P_APP"
+parent_id = "EGQS_APP"
+controlled_by = ["EGQS_P_APP"]
+
+[[stations]]
+id = "EGQS_TWR"
+parent_id = "EGQS_APP"
+controlled_by = ["EGQS_TWR"]
 
 [[stations]]
 id = "EGSC_TWR"
@@ -942,7 +1485,7 @@ controlled_by = ["EGSS_DEL"]
 [[stations]]
 id = "EGSS_GND"
 parent_id = "EGSS_TWR"
-controlled_by = ["EGSS_TWR"]
+controlled_by = ["EGSS_GND"]
 
 [[stations]]
 id = "EGSS_TWR"
@@ -1074,31 +1617,3 @@ controlled_by = [
 [[stations]]
 id = "SFAL_I_TWR"
 controlled_by = ["SFAL_I_TWR"]
-
-####################
-# Temporary Scottish Phones (oceanic) pending resectorisation
-####################
-
-[[stations]]
-id = "SCO_N_CTR"
-parent_id = "SCO_E_CTR"
-controlled_by = ["SCO_N_CTR"]
-
-[[stations]]
-id = "SCO_E_CTR"
-parent_id = "SCO_CTR"
-controlled_by = ["SCO_E_CTR"]
-
-[[stations]]
-id = "SCO_CTR"
-controlled_by = ["SCO_CTR"]
-
-[[stations]]
-id = "SCO_W_CTR"
-parent_id = "SCO_WD_CTR"
-controlled_by = ["SCO_W_CTR"]
-
-[[stations]]
-id = "SCO_WD_CTR"
-parent_id = "SCO_CTR"
-controlled_by = ["SCO_WD_CTR"]

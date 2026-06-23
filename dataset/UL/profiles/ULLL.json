@@ -1,0 +1,575 @@
+{
+  "id": "ULLL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["ACC", "Combined"],
+            "station_id": "ULLL_R",
+            "color": "azure"
+          },
+          {
+            "label": ["R", "ACC"],
+            "station_id": "ULLL_R",
+            "color": "azure"
+          },
+          {
+            "label": ["WK", "ACC"],
+            "station_id": "ULLL_WK",
+            "color": "azure"
+          },
+          {
+            "label": ["AM", "ACC"],
+            "station_id": "ULLL_AM",
+            "color": "azure"
+          },
+          {
+            "label": ["S", "ACC"],
+            "station_id": "ULLL_S",
+            "color": "azure"
+          },
+          {
+            "label": ["ACC", "TMU"],
+            "station_id": "ULLL_TMU",
+            "color": "azure"
+          },
+          {
+            "label": ["R1", "ACC"],
+            "station_id": "ULLL_R",
+            "color": "azure"
+          },
+          {
+            "label": ["R2", "ACC"],
+            "station_id": "ULLL_R2",
+            "color": "azure"
+          },
+          {
+            "label": ["R3", "ACC"],
+            "station_id": "ULLL_SW",
+            "color": "azure"
+          },
+          {
+            "label": ["R4", "ACC"],
+            "station_id": "ULLL_R4",
+            "color": "azure"
+          },
+          {
+            "label": ["SW", "(R3+R4)"],
+            "station_id": "ULLL_SW",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["R5", "ACC"],
+            "station_id": "ULLL_R5",
+            "color": "azure"
+          },
+          {
+            "label": ["R6", "ACC"],
+            "station_id": "ULLL_R6",
+            "color": "azure"
+          },
+          {
+            "label": ["LCU 1", "132,0"],
+            "color": "azure"
+          },
+          {
+            "label": ["LCU 2", "126,0"],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["AR", "ACC"],
+            "station_id": "ULLL_AR",
+            "color": "azure"
+          },
+          {
+            "label": ["MO", "ACC"],
+            "station_id": "ULLL_MR",
+            "color": "azure"
+          },
+          {
+            "label": ["MR", "ACC"],
+            "station_id": "ULLL_MR",
+            "color": "azure"
+          },
+          {
+            "label": ["NM", "ACC"],
+            "station_id": "ULLL_NM",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["W1", "ACC"],
+            "station_id": "ULLL_W",
+            "color": "azure"
+          },
+          {
+            "label": ["W2", "ACC"],
+            "station_id": "ULLL_W",
+            "color": "azure"
+          },
+          {
+            "label": ["KT", "ACC"],
+            "station_id": "ULLL_WK",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["S1", "ACC"],
+            "station_id": "ULLL_SC",
+            "color": "azure"
+          },
+          {
+            "label": ["S2", "ACC"],
+            "station_id": "ULLL_SC",
+            "color": "azure"
+          },
+          {
+            "label": ["S3", "ACC"],
+            "station_id": "ULLL_SC",
+            "color": "azure"
+          },
+          {
+            "label": ["S4", "ACC"],
+            "station_id": "ULLL_S",
+            "color": "azure"
+          },
+          {
+            "label": ["S5", "ACC"],
+            "station_id": "ULLL_S",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ACC", "EXT"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["Helsinki", "J"],
+            "station_id": "EFIN_J",
+            "color": "azure"
+          },
+          {
+            "label": ["Helsinki", "V"],
+            "station_id": "EFIN_V",
+            "color": "azure"
+          },
+          {
+            "label": ["Helsinki", "N"],
+            "station_id": "EFIN_N",
+            "color": "azure"
+          },
+          {
+            "label": ["Helsinki", "L"],
+            "station_id": "EFIN_L",
+            "color": "azure"
+          },
+          {
+            "label": ["Helsinki", "A"],
+            "station_id": "EFIN_A",
+            "color": "azure"
+          },
+          {
+            "label": ["Helsinki", "APP"],
+            "station_id": "EFHK_RE",
+            "color": "azure"
+          },
+          {
+            "label": ["Riga", "ACC"],
+            "station_id": "EVRR_E",
+            "color": "azure"
+          },
+          {
+            "label": ["Tallin", "ACC"],
+            "station_id": "EETT_E",
+            "color": "azure"
+          },
+          {
+            "label": ["Tallin", "FIS"],
+            "station_id": "EETT_FIS",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["Moscow", "ACC"],
+            "color": "azure"
+          },
+          {
+            "label": ["Moscow", "S1"],
+            "color": "azure"
+          },
+          {
+            "label": ["Moscow", "S2"],
+            "color": "azure"
+          },
+          {
+            "label": ["Moscow", "S3"],
+            "color": "azure"
+          },
+          {
+            "label": ["Moscow", "Z2"],
+            "color": "azure"
+          },
+          {
+            "label": ["Moscow", "G5"],
+            "color": "azure"
+          },
+          {
+            "label": ["Ekateri", "nburg", "ACC"],
+            "color": "azure"
+          },
+          {
+            "label": ["Ekateri", "nburg", "7"],
+            "color": "azure"
+          },
+          {
+            "label": ["Ekateri", "nburg", "8"],
+            "color": "azure"
+          },
+          {
+            "label": ["Ekateri", "nburg", "9"],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["Tyumen", "ACC"],
+            "color": "azure"
+          },
+          {
+            "label": ["Tyumen", "5"],
+            "color": "azure"
+          },
+          {
+            "label": ["Tyumen", "8"],
+            "color": "azure"
+          },
+          {
+            "label": ["Tyumen", "9"],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["Krasnoya", "rsk", "ACC"],
+            "color": "azure"
+          },
+          {
+            "label": ["Magadan", "ACC"],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SPB", "TMA"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["APP", "Combined"],
+            "station_id": "ULLL_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["APP", "1(East)"],
+            "station_id": "ULLL_E_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["APP", "2(West)"],
+            "station_id": "ULLL_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["LED", "TMU"],
+            "station_id": "ULLL_TMU",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["Pulkovo", "Radar"],
+            "station_id": "ULLI_R_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["Tower", "10L/28R"],
+            "station_id": "ULLI_A_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Tower", "10R/28L"],
+            "station_id": "ULLI_D_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Tower", "VFR"],
+            "station_id": "ULLI_VFR_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["Pulkovo", "GND"],
+            "station_id": "ULLI_GND",
+            "color": "azure"
+          },
+          {
+            "label": ["Pulkovo", "DEL"],
+            "station_id": "ULLI_DEL",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ADCs", "2"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["Petroza", "vodsk", "TWR"],
+            "station_id": "ULPB_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Pskov", "TWR"],
+            "station_id": "ULOO_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Cherepo", "vets", "TWR"],
+            "station_id": "ULWC_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Vologda", "TWR"],
+            "station_id": "ULWW_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Tochilka", "TWR"],
+            "station_id": "ULWU_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["Arkhang", "elsk", "APP"],
+            "station_id": "ULAA_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["Arkhang", "elsk", "TWR"],
+            "station_id": "ULAA_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Vaskovo", "TWR"],
+            "station_id": "ULAH_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Mezen", "TWR"],
+            "station_id": "ULAE_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Solovki", "TWR"],
+            "station_id": "ULAS_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["Murmansk", "APP"],
+            "station_id": "ULMM_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["Murmansk", "TWR"],
+            "station_id": "ULMM_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Talovka", "TWR"],
+            "station_id": "ULMK_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Naryan-", "Mar", "APP"],
+            "station_id": "ULAM_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["Naryan-", "Mar", "TWR"],
+            "station_id": "ULAM_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["Sivkar", "Radar"],
+            "station_id": "UUYY_R_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["Sivkar", "TWR"],
+            "station_id": "UUYY_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Ukhta", "TWR"],
+            "station_id": "UUYH_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Pechora", "TWR"],
+            "station_id": "UUYP_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Usinsk", "TWR"],
+            "station_id": "UUYS_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Avtopark", "TWR"],
+            "station_id": "UUYX_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Vorkuta", "APP"],
+            "station_id": "UUYW_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["Vorkuta", "TWR"],
+            "station_id": "UUYW_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["Amderma", "TWR"],
+            "station_id": "ULDD_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["Varandey", "TWR"],
+            "station_id": "ULDW_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          }
+        ]
+      }
+    }
+  ]
+}

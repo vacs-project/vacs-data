@@ -684,6 +684,12 @@
       "frequency": "118.605",
       "facility_type": "TWR",
       "profile_id": "EDWW-AFIS"
+    },
+    {
+      "id": "EDWW_FMP",
+      "prefixes": ["EDWW"],
+      "frequency": "199.998",
+      "facility_type": "FMP"
     }
   ]
 }

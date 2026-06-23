@@ -3,65 +3,77 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["UAE", "CTR"],
+      "label": ["UAE", "ACC"],
       "page": {
         "rows": 5,
         "keys": [
           {
-            "label": ["UAE", "CTR", "North"],
+            "label": ["ACC", "North"],
             "station_id": "OMAE_1_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Alpha"],
+            "label": ["ACC", "Alpha"],
             "station_id": "OMAE_2_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Central"],
+            "label": ["ACC", "Central"],
             "station_id": "OMAE_3_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Mike"],
+            "label": ["ACC", "Mike"],
             "station_id": "OMAE_4_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Bravo"],
+            "label": ["ACC ", "Bravo"],
             "station_id": "OMAE_5_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Delta"],
+            "label": ["ACC", "Delta", "-245"],
             "station_id": "OMAE_D_CTR"
           },
           {
-            "label": ["UAE", "CTR", "East"],
+            "label": ["ACC", "East", "-275"],
             "station_id": "OMAE_E_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Golf"],
+            "label": ["ACC", "Golf", "-245"],
             "station_id": "OMAE_G_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Hotel"],
+            "label": ["ACC", "Hotel", "-275"],
             "station_id": "OMAE_H_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Lima"],
+            "label": ["ACC", "Lima", "155-245"],
             "station_id": "OMAE_L_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Romeo"],
+            "label": ["ACC", "Romeo", "-275"],
             "station_id": "OMAE_R_CTR"
           },
           {
-            "label": ["UAE", "CTR", "South"],
+            "label": ["ACC", "South"],
             "station_id": "OMAE_S_CTR"
           },
           {
-            "label": ["UAE", "CTR", "West"],
+            "label": ["ACC", "West", "-275"],
             "station_id": "OMAE_W_CTR"
           },
           {
-            "label": ["UAE", "CTR", "Yankee"],
+            "label": ["ACC", "Yankee", "045-195"],
             "station_id": "OMAE_Y_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": []
@@ -73,25 +85,161 @@
       }
     },
     {
-      "label": "Neighboring",
+      "label": ["ADC"],
       "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "OB*",
-            "OTDF*",
-            "DOH*",
-            "TEH*",
-            "GULF*",
-            "GULF_E*",
-            "OOMM*",
-            "OEJD*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["DB", "TWR 1"],
+            "station_id": "OMDB_1_TWR"
+          },
+          {
+            "label": ["DB", "GND 1"],
+            "station_id": "OMDB_1_GND"
+          },
+          {
+            "label": ["DB", "TWR 2"],
+            "station_id": "OMDB_2_TWR"
+          },
+          {
+            "label": ["DB", "DEL"],
+            "station_id": "OMDB_DEL"
+          },
+          {
+            "label": ["AA", "TWR 1"],
+            "station_id": "OMAA_1_TWR"
+          },
+          {
+            "label": ["AA", "GND 1"],
+            "station_id": "OMAA_1_GND"
+          },
+          {
+            "label": ["AA", "TWR 2"],
+            "station_id": "OMAA_2_TWR"
+          },
+          {
+            "label": ["AA", "DEL"],
+            "station_id": "OMAA_DEL"
+          },
+          {
+            "label": ["DW", "TWR"],
+            "station_id": "OMDW_TWR"
+          },
+          {
+            "label": ["DW", "GND"],
+            "station_id": "OMDW_GND"
+          },
+          {
+            "label": ["DW", "EFTA TWR"],
+            "station_id": "OMDW_A_TWR"
+          },
+          {
+            "label": ["DW", "EFTA GND"],
+            "station_id": "OMDW_I_GND"
+          },
+          {
+            "label": ["SJ", "GND"],
+            "station_id": "OMSJ_GND"
+          },
+          {
+            "label": ["SJ", "TWR"],
+            "station_id": "OMSJ_TWR"
+          },
+          {
+            "label": ["AD", "TWR"],
+            "station_id": "OMAD_TWR"
+          },
+          {
+            "label": ["AD", "GND"],
+            "station_id": "OMAD_GND"
+          },
+          {
+            "label": ["AL", "TWR"],
+            "station_id": "OMAL_TWR"
+          },
+          {
+            "label": ["AL", "GND"],
+            "station_id": "OMAL_GND"
+          },
+          {
+            "label": ["FJ", "GND"],
+            "station_id": "OMFJ_GND"
+          },
+          {
+            "label": ["FJ", "TWR"],
+            "station_id": "OMFJ_TWR"
+          },
+          {
+            "label": ["RK", "GND"],
+            "station_id": "OMRK_GND"
+          },
+          {
+            "label": ["RK", "TWR"],
+            "station_id": "OMRK_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["TMA"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ARR"],
+            "station_id": "OMDB_APP"
+          },
+          {
+            "label": ["DEP 1"],
+            "station_id": "OMDB_1_DEP"
+          },
+          {
+            "label": ["DEP 2"],
+            "station_id": "OMDB_2_DEP"
+          },
+          {
+            "label": ["DB DIR"],
+            "station_id": "OMDB_F_APP"
+          },
+          {
+            "label": ["ADR C"],
+            "station_id": "OMAA_1_APP"
+          },
+          {
+            "label": ["ADR W"],
+            "station_id": "OMAA_2_APP"
+          },
+          {
+            "label": ["ADR N"],
+            "station_id": "OMAA_3_APP"
+          },
+          {
+            "label": ["ADR E"],
+            "station_id": "OMAA_4_APP"
+          },
+          {
+            "label": ["AD DIR S"],
+            "station_id": "OMAA_F1_APP"
+          },
+          {
+            "label": ["AD DIR N"],
+            "station_id": "OMAA_F2_APP"
+          },
+          {
+            "label": ["FJ APP"],
+            "station_id": "OMFJ_APP"
+          },
+          {
+            "label": ["RK APP"],
+            "station_id": "OMRK_APP"
+          }
+        ]
       }
     }
   ]

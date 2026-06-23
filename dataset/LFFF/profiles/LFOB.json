@@ -1,0 +1,467 @@
+{
+  "id": "LFOB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["Generale"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["EVREUX", "APP"],
+            "color": "lagoon",
+            "station_id": "LFOE_APP"
+          },
+          {
+            "label": ["BOURGET", "SIV_ouest"],
+            "color": "steel",
+            "station_id": "LFPT_I_APP"
+          },
+          {
+            "label": ["CIV"],
+            "color": "azure"
+          },
+          {
+            "label": ["Secteur", "Nord"],
+            "color": "clay"
+          },
+          {
+            "label": ["OPS_CDC", "CAM_V"],
+            "color": "lagoon"
+          },
+          {
+            "label": ["BOURGET", "APP"],
+            "color": "steel",
+            "station_id": "LFPT_APP"
+          },
+          {
+            "label": ["BTIV"],
+            "color": "azure"
+          },
+          {
+            "label": ["CDG", "CdS"],
+            "color": "clay",
+            "station_id": "LFPG_N_APP"
+          },
+          {
+            "label": ["PRISON", "BEAUVAIS"]
+          },
+          {
+            "label": ["RPO"],
+            "color": "umber"
+          },
+          {
+            "label": ["ATHIS", "CdS"],
+            "color": "azure"
+          },
+          {
+            "label": ["CDG", "ARR"],
+            "color": "clay",
+            "station_id": "LFPG_N_APP"
+          },
+          {
+            "label": ["BGTA"],
+            "color": "lavender"
+          },
+          {
+            "label": ["LILLE", "QR"],
+            "color": "mint",
+            "station_id": "LFQQ_QR_APP"
+          },
+          {
+            "label": ["FMP"],
+            "color": "azure",
+            "station_id": "LFXX_FMP"
+          },
+          {
+            "label": ["CDG", "DEP"],
+            "color": "clay",
+            "station_id": "LFPG_N_DEP"
+          },
+          {
+            "label": ["ROUEN", "TWR"],
+            "color": "azure",
+            "station_id": "LFOP_TWR"
+          },
+          {
+            "label": ["LILLE", "QD"],
+            "color": "mint",
+            "station_id": "LFQQ_QD_APP"
+          },
+          {
+            "label": ["TP"],
+            "color": "azure",
+            "station_id": "PAR_TP"
+          },
+          {
+            "label": ["OB6"],
+            "color": "clay"
+          },
+          {
+            "label": ["PONTOISE", "TWR"],
+            "color": "lilac",
+            "station_id": "LFPT_TWR"
+          },
+          {
+            "label": ["LILLE", "QA"],
+            "color": "mint",
+            "station_id": "LFQQ_QA_APP"
+          },
+          {
+            "label": ["TN"],
+            "color": "azure",
+            "station_id": "PAR_TN"
+          },
+          {
+            "label": ["OB67"],
+            "color": "clay"
+          },
+          {
+            "label": ["BNIA"],
+            "color": "taupe"
+          },
+          {
+            "label": ["OPS", "T2"],
+            "color": "lavender"
+          },
+          {
+            "label": ["SPPA"],
+            "color": "taupe"
+          },
+          {
+            "label": ["SECOURS", "SSLIA"],
+            "color": "blush"
+          },
+          {
+            "label": ["SSLIA"],
+            "color": "blush"
+          },
+          {
+            "label": ["CEP"],
+            "color": "lavender"
+          },
+          {
+            "label": ["MTCE"],
+            "color": "cadet"
+          },
+          {
+            "label": ["OPS"],
+            "color": "lavender"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["Technique"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["Locaux"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SIV"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "LFVP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "LFVP",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["QX", "CTR"],
+            "station_id": "CZQX-CTR"
+          },
+          {
+            "label": ["LFVP", "APP"],
+            "station_id": "LFVP-APP"
+          },
+          {
+            "label": ["LFVP", "TWR"],
+            "station_id": "LFVP-TWR"
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          }
+        ]
+      }
+    }
+  ]
+}

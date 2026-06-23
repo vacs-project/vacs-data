@@ -1,0 +1,24 @@
+{
+  "id": "EIWF",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EIWF"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["EISN", "", ""],
+            "color": "mint",
+            "station_id": "EISN_LS_CTR"
+          },
+          {
+            "label": ["FIS"],
+            "color": "mint",
+            "station_id": "EISN_I_CTR"
+          }
+        ]
+      }
+    }
+  ]
+}

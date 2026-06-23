@@ -3,27 +3,220 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "OKAC",
+      "label": ["OKAC"],
       "page": {
-        "rows": 6,
-        "client_page": {
-          "include": [
-            "OK*",
-
-            "OBBB*",
-            "OEJD*",
-            "OERD*",
-            "ORBB*",
-            "ORMM*_APP",
-            "TEH*",
-            "GULF_E*",
-            "GULF*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["[OKAC]", "UPPER"],
+            "color": "lagoon",
+            "station_id": "OKAC_U_CTR"
+          },
+          {
+            "label": [],
+            "color": "snow"
+          },
+          {
+            "label": ["[OKAJ]", "GMC"],
+            "color": "steel",
+            "station_id": "OKAJ_GND"
+          },
+          {
+            "label": ["[OKKK]", "GMP", "PLN"],
+            "color": "blush",
+            "station_id": "OKKK_GMP_FMP"
+          },
+          {
+            "label": ["[OKKK]", "GMP"],
+            "color": "mint",
+            "station_id": "OKKK_DEL"
+          },
+          {
+            "label": ["[OKAC]", "LOWER"],
+            "color": "lagoon",
+            "station_id": "OKAC_CTR"
+          },
+          {
+            "label": [],
+            "color": "snow"
+          },
+          {
+            "label": ["[OKAJ]", "AIR"],
+            "color": "steel",
+            "station_id": "OKAJ_TWR"
+          },
+          {
+            "label": ["[OKKK]", "APP"],
+            "color": "mint",
+            "station_id": "OKKK_APP"
+          },
+          {
+            "label": ["[OKKK]", "GMC 1"],
+            "color": "mint",
+            "station_id": "OKKK_1_GND"
+          },
+          {
+            "label": [],
+            "color": "snow"
+          },
+          {
+            "label": [],
+            "color": "snow"
+          },
+          {
+            "label": ["[OKAJ]", "CTL"],
+            "color": "steel",
+            "station_id": "OKAJ_APP"
+          },
+          {
+            "label": ["[OKKK]", "FIN"],
+            "color": "mint",
+            "station_id": "OKKK_F_APP"
+          },
+          {
+            "label": ["[OKKK]", "GMC 2"],
+            "color": "mint",
+            "station_id": "OKKK_2_GND"
+          },
+          {
+            "label": [],
+            "color": "snow"
+          },
+          {
+            "label": [],
+            "color": "snow"
+          },
+          {
+            "label": ["[OKAS]", "AIR"],
+            "color": "steel",
+            "station_id": "OKAS_TWR"
+          },
+          {
+            "label": ["[OKAS]", "GMC"],
+            "color": "steel",
+            "station_id": "OKAS_GND"
+          },
+          {
+            "label": ["[OKKK]", "AIR"],
+            "color": "mint",
+            "station_id": "OBBS_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["[OKKK]", "FMP"],
+            "color": "blush",
+            "station_id": "OKAC_ACC_FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TEH"],
+            "page": {
+              "rows": 10,
+              "client_page": {
+                "include": ["TEH*"],
+                "exclude": [],
+                "priority": [
+                  "*_FMP",
+                  "*_CTR",
+                  "*_APP",
+                  "*_TWR",
+                  "*_GND",
+                  "*_DEL"
+                ],
+                "frequencies": "HideAll",
+                "grouping": "None"
+              }
+            }
+          },
+          {
+            "label": ["OR"],
+            "page": {
+              "rows": 3,
+              "keys": [
+                {
+                  "label": ["ORBB", "345+", "[INOP]"],
+                  "color": "umber"
+                },
+                {
+                  "label": ["ORBB", "235-345", "[INOP]"],
+                  "color": "umber"
+                },
+                {
+                  "label": ["ALI TMA", "235-", "[INOP]"],
+                  "color": "taupe"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["OE"],
+            "page": {
+              "rows": 2,
+              "keys": [
+                {
+                  "label": ["RD EAST", "345+", "[INOP]"],
+                  "color": "lagoon",
+                  "station_id": "OERD_E_CTR"
+                },
+                {
+                  "label": ["JD EAST", "345-", "[INOP]"],
+                  "color": "mint",
+                  "station_id": "OERD_1_CTR"
+                },
+                {
+                  "label": ["RD NE", "345+", "[INOP]"],
+                  "color": "lagoon",
+                  "station_id": "OERD_NE_CTR"
+                },
+                {
+                  "label": ["JD NE", "245-345", "[INOP]"],
+                  "color": "mint",
+                  "station_id": "OEJD_NE_CTR"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["OBBB"],
+            "page": {
+              "rows": 2,
+              "keys": [
+                {
+                  "label": ["[OBBB]", "NORTH", "HIGH"],
+                  "color": "lagoon",
+                  "station_id": "OBBB_3_CTR"
+                },
+                {
+                  "label": ["[OBBB]", "NORTH", "LOW"],
+                  "color": "lagoon",
+                  "station_id": "OBBB_N_CTR"
+                },
+                {
+                  "label": [],
+                  "color": "snow"
+                },
+                {
+                  "label": ["[OBBB]", "FMP"],
+                  "color": "blush",
+                  "station_id": "OBBB_FM_CTR"
+                }
+              ]
+            }
+          }
+        ]
       }
     }
   ]

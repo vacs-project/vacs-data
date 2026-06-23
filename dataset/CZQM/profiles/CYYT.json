@@ -1,0 +1,33 @@
+{
+  "id": "CYYT",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "CYYT",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["QX", "CTR"],
+            "station_id": "CZQX-CTR"
+          },
+          {
+            "label": ["YT", "APP"],
+            "station_id": "CYYT-APP"
+          },
+          {
+            "label": ["YT", "TWR"],
+            "station_id": "CYYT-TWR"
+          },
+          {
+            "label": ["YT", "GND"],
+            "station_id": "CYYT-GND"
+          },
+          {
+            "label": ""
+          }
+        ]
+      }
+    }
+  ]
+}

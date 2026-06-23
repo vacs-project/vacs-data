@@ -3,221 +3,7 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "EBBR",
-      "page": {
-        "rows": 8,
-        "keys": [
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["EBAW", "GND"],
-            "station_id": "EBAW-TWR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["T", "25R"],
-            "station_id": "EBBR-NTWR"
-          },
-          {
-            "label": ["T", "25L"],
-            "station_id": "EBBR-TWR"
-          },
-          {
-            "label": ["T", "01"],
-            "station_id": "EBBR-NTWR"
-          },
-          {
-            "label": ["EBGB"]
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["T", "GN"],
-            "station_id": "EBBR-N-GND"
-          },
-          {
-            "label": ["T", "GS"],
-            "station_id": "EBBR-S-GND"
-          },
-          {
-            "label": ["T", "GC"],
-            "station_id": "EBBR-C-GND"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["T", "DCL"],
-            "station_id": "EBBR-DEL"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["T", "SUP"],
-            "station_id": "EBBR-FMP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["DEP"],
-            "station_id": "EBBR-DEP"
-          },
-          {
-            "label": ["ARR"],
-            "station_id": "EBBR-APP"
-          },
-          {
-            "label": ["FIN"],
-            "station_id": "EBBR-F-APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["SUP", "ACC"],
-            "station_id": "EBBU-FMP"
-          },
-          {
-            "label": ["FIC"],
-            "station_id": "EBBU-FIC"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": "REGIO",
+      "label": ["REGIO"],
       "page": {
         "rows": 8,
         "keys": [
@@ -234,7 +20,7 @@
           },
           {
             "label": ["EBBR", "AIR 01"],
-            "station_id": "EBBR-NTWR"
+            "station_id": "EBBR-TWR"
           },
           {
             "label": ["EBBR", "AIR 25L"],
@@ -411,29 +197,38 @@
           },
           {
             "label": ["FIC"],
+            "color": "lagoon",
             "station_id": "EBBU-FIC"
           },
           {
             "label": ["ACC", "SUP"],
+            "color": "lagoon",
             "station_id": "EBBU-FMP"
           },
           {
-            "label": []
+            "label": ["ELS"],
+            "color": "lagoon",
+            "station_id": "EBBU-ELS"
           },
           {
-            "label": []
+            "label": [],
+            "color": "lagoon"
           },
           {
-            "label": []
+            "label": [],
+            "color": "lagoon"
           },
           {
-            "label": []
+            "label": [],
+            "color": "lagoon"
           },
           {
-            "label": []
+            "label": [],
+            "color": "lagoon"
           },
           {
-            "label": []
+            "label": [],
+            "color": "lagoon"
           }
         ]
       }

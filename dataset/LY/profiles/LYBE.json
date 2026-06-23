@@ -1,0 +1,113 @@
+{
+  "id": "LYBE",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 2,
+        "keys": [
+          {
+            "label": ["BEOGRAD", "BG"],
+            "station_id": "LYBA"
+          },
+          {
+            "label": ["BEOGRAD", "BGN"],
+            "station_id": "LYBA-NORTH"
+          },
+          {
+            "label": ["BEOGRAD", "BGW"],
+            "station_id": "LYBA-WEST"
+          },
+          {
+            "label": ["BEOGRAD", "BGE"],
+            "station_id": "LYBA-EAST"
+          },
+          {
+            "label": ["ADRIA", "AD"],
+            "station_id": "ADRIA"
+          },
+          {
+            "label": ["ADRIA", "EAST", "ADE"],
+            "station_id": "ADRIA-EAST"
+          },
+          {
+            "label": ["ADRIA", "WEST", "ADW"],
+            "station_id": "ADRIA-WEST"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["LY*"],
+      "page": {
+        "rows": 2,
+        "keys": [
+          {
+            "label": ["NIS", "APP"],
+            "station_id": "LYNI_APP"
+          },
+          {
+            "label": ["NIS", "TWR"],
+            "station_id": "LYNI_TWR"
+          },
+          {
+            "label": ["BATAJNICA", "APP"],
+            "station_id": "LYBT_APP"
+          },
+          {
+            "label": ["BATAJNICA", "TWR"],
+            "station_id": "LYBT_TWR"
+          },
+          {
+            "label": ["VRSAC", "APP"],
+            "station_id": "LYVR_APP"
+          },
+          {
+            "label": ["VRSAC", "TWR"],
+            "station_id": "LYVR_TWR"
+          },
+          {
+            "label": ["KRALJEVO", "APP"],
+            "station_id": "LYKV_APP"
+          },
+          {
+            "label": ["KRALJEVO", "TWR"],
+            "station_id": "LYKV_TWR"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["BGD"],
+      "page": {
+        "rows": 2,
+        "keys": [
+          {
+            "label": ["BEOGRAD", "RADAR"],
+            "station_id": "LYBE_APP"
+          },
+          {
+            "label": ["BEOGRAD", "TOWER"],
+            "station_id": "LYBE_TWR"
+          },
+          {
+            "label": ["BEOGRAD", "GROUND"],
+            "station_id": "LYBE_GND"
+          },
+          {
+            "label": ["BEOGRAD", "DELIVERY"],
+            "station_id": "LYBE_DEL"
+          },
+          {
+            "label": ["BEOGRAD", "FINAL"],
+            "station_id": "LYBE_F_APP"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

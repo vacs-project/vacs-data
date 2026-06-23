@@ -133,15 +133,35 @@ A client page displays a dynamic list of online clients instead of a static grid
 - `"Icao"`: Group by first 4 chars
 - `"FirAndIcao"` (default): Group by FIR then ICAO code
 
+### CustomButtonColor
+
+**Valid `color` values:**
+
+- `"clay"`
+- `"blush"`
+- `"lilac"`
+- `"mint"`
+- `"lavender"`
+- `"taupe"`
+- `"cadet"`
+- `"steel"`
+- `"umber"`
+- `"lagoon"`
+- `"snow"`
+- `"azure"`
+
+See [button color reference](#button-colors) for a visual representation of these colors.
+
 ### DirectAccessKey
 
 Represents a single callable button.
 
-| Field        | Type                                  | Required | Description                                                                                                               |
-| :----------- | :------------------------------------ | :------- | :------------------------------------------------------------------------------------------------------------------------ |
-| `label`      | String or Array of strings            | Yes      | Multi-line label (up to 3 lines). Can be empty string or empty array for blank keys.                                      |
-| `station_id` | String                                | No       | Station ID to call when pressed. Mutually exclusive with `page`. If neither is specified, the button will be disabled.    |
-| `page`       | [DirectAccessPage](#directaccesspage) | No       | Subpage to open when pressed. Mutually exclusive with `station_id`. If neither is specified, the button will be disabled. |
+| Field        | Type                                    | Required | Description                                                                                                                                   |
+| :----------- | :-------------------------------------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
+| `label`      | String or Array of strings              | Yes      | Multi-line label (up to 3 lines). Can be empty string or empty array for blank keys.                                                          |
+| `color`      | [CustomButtonColor](#custombuttoncolor) | No       | The background color of the key, which may be overridden dynamically by state changes (e.g., incoming call). Defaults to gray if unspecified. |
+| `station_id` | String                                  | No       | Station ID to call when pressed. Mutually exclusive with `page`. If neither is specified, the button will be disabled.                        |
+| `page`       | [DirectAccessPage](#directaccesspage)   | No       | Subpage to open when pressed. Mutually exclusive with `station_id`. If neither is specified, the button will be disabled.                     |
 
 ## Tabbed Profile Components
 
@@ -199,12 +219,13 @@ A layout container that arranges child nodes using flexbox.
 
 A clickable button that can trigger a direct access page or call a station.
 
-| Field        | Type                                  | Required | Description                                                                                                                                         |
-| :----------- | :------------------------------------ | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `label`      | String or Array of strings            | Yes      | Multi-line label (1-3 lines, cannot be empty).                                                                                                      |
-| `size`       | Number                                | Yes      | Button size (> 0). Controls relative sizing in the layout.                                                                                          |
-| `page`       | [DirectAccessPage](#directaccesspage) | No       | Optional nested page to display when button is pressed. Mutually exclusive with `station_id`. If neither is specified, the button will be disabled. |
-| `station_id` | String                                | No       | Station ID to call directly when pressed. Mutually exclusive with `page`. If neither is specified, the button will be disabled.                     |
+| Field        | Type                                    | Required | Description                                                                                                                                         |
+| :----------- | :-------------------------------------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `label`      | String or Array of strings              | Yes      | Multi-line label (1-3 lines, cannot be empty).                                                                                                      |
+| `size`       | Number                                  | Yes      | Button size (> 0). Controls relative sizing in the layout.                                                                                          |
+| `color`      | [CustomButtonColor](#custombuttoncolor) | No       | The background color of the button, which may be overridden dynamically by state changes (e.g., incoming call). Defaults to gray if unspecified.    |
+| `page`       | [DirectAccessPage](#directaccesspage)   | No       | Optional nested page to display when button is pressed. Mutually exclusive with `station_id`. If neither is specified, the button will be disabled. |
+| `station_id` | String                                  | No       | Station ID to call directly when pressed. Mutually exclusive with `page`. If neither is specified, the button will be disabled.                     |
 
 ### GeoPageDivider
 
@@ -230,7 +251,7 @@ The following validation rules apply:
 - For Geo Profiles:
   - Must have a valid direction (`"row"` or `"col"`)
   - Must have at least one child node
-  - All size values (`height`, `width`) must match pattern `^\d+(%|rem)$`
+  - All size values (`height`, `width`) must match pattern `^\d+(\.\d{1,5})?(%|rem)$`
   - All numeric values (padding, gap, size, thickness) must be appropriate to their type (non-negative or positive)
 - Labels:
   - Can be provided as a single string or an array of strings
@@ -539,3 +560,9 @@ Client page grouped by ICAO (four letters)
 ![Client Page](../images/client_page.png "Client Page")
 
 List of clients prioritized and displayed as per [Client Page Configuration](#client-page-configuration)
+
+### Button Colors
+
+![Button Colors](../images/button_colors.png "Button Colors")
+
+The colors of the fourth and fifth row cannot be used as a custom button color. They are provided for reference only.

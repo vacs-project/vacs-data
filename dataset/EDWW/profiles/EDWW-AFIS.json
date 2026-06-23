@@ -9,31 +9,38 @@
         "keys": [
           {
             "label": ["EDWW", "EBG BER"],
+            "color": "lagoon",
             "page": {
               "rows": 6,
               "keys": [
                 {
                   "label": ["EDWW", "DBAN"],
+                  "color": "lagoon",
                   "station_id": "EDWW-DBAN"
                 },
                 {
                   "label": ["EDWW", "DBANT"],
+                  "color": "lagoon",
                   "station_id": "EDWW-DBANT"
                 },
                 {
                   "label": ["EDWW", "DBDN"],
+                  "color": "lagoon",
                   "station_id": "EDWW-DBDN"
                 },
                 {
                   "label": ["EDWW", "DBAS"],
+                  "color": "lagoon",
                   "station_id": "EDWW-DBAS"
                 },
                 {
                   "label": ["EDWW", "DBAST"],
+                  "color": "lagoon",
                   "station_id": "EDWW-DBAST"
                 },
                 {
                   "label": ["EDWW", "DBDS"],
+                  "color": "lagoon",
                   "station_id": "EDWW-DBDS"
                 }
               ]
@@ -41,23 +48,28 @@
           },
           {
             "label": ["EDAY", "INFO"],
+            "color": "mint",
             "station_id": "EDAY-AFIS"
           },
           {
             "label": ["EDAZ", "INFO"],
+            "color": "mint",
             "station_id": "EDAZ-AFIS"
           },
           {
             "label": ["EDWW", "EBG EAST", ""],
+            "color": "lagoon",
             "page": {
               "rows": 6,
               "keys": [
                 {
                   "label": ["EDWW", "BOR"],
+                  "color": "lagoon",
                   "station_id": "EDWW-BOR"
                 },
                 {
                   "label": ["EDWW", "MRZ"],
+                  "color": "lagoon",
                   "station_id": "EDWW-MRZ"
                 }
               ]
@@ -65,31 +77,38 @@
           },
           {
             "label": ["EDBC", "INFO"],
+            "color": "mint",
             "station_id": "EDBC-AFIS"
           },
           {
             "label": ["EDBH", "INFO"],
+            "color": "mint",
             "station_id": "EDBH-AFIS"
           },
           {
             "label": ["EDBM", "INFO"],
+            "color": "mint",
             "station_id": "EDBM-AFIS"
           },
           {
             "label": ["EDBN", "INFO"],
+            "color": "mint",
             "station_id": "EDBN-AFIS"
           },
           {
             "label": ["EDWW", "EBG NORTH"],
+            "color": "lagoon",
             "page": {
               "rows": 6,
               "keys": [
                 {
                   "label": ["EDWW", "EID"],
+                  "color": "lagoon",
                   "station_id": "EDWW-EID"
                 },
                 {
                   "label": ["EDWW", "FRI"],
+                  "color": "lagoon",
                   "station_id": "EDWW-FRI"
                 }
               ]
@@ -97,14 +116,17 @@
           },
           {
             "label": ["EDHK", "INFO"],
+            "color": "mint",
             "station_id": "EDHK-AFIS"
           },
           {
             "label": ["EDWE", "INFO", ""],
+            "color": "mint",
             "station_id": "EDWE-AFIS"
           },
           {
             "label": ["EDWI", "INFO"],
+            "color": "mint",
             "station_id": "EDWI-AFIS"
           }
         ]

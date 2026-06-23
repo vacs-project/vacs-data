@@ -1,0 +1,143 @@
+name: AIRAC
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, labeled, unlabeled, synchronize]
+
+permissions: {}
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  gate:
+    name: "AIRAC ✓"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - name: Check AIRAC labels
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          # Find any airac/* label on this PR
+          AIRAC_LABEL=$(gh pr view "$PR_NUMBER" --json labels \
+            --jq '.labels[].name | select(startswith("airac/"))' | head -1)
+
+          if [[ -z "$AIRAC_LABEL" ]]; then
+            echo "No AIRAC label found - gate open."
+            echo "has_label=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          CYCLE="${AIRAC_LABEL#airac/}"
+          echo "Found AIRAC label: $AIRAC_LABEL (cycle $CYCLE)"
+          echo "has_label=true" >> "$GITHUB_OUTPUT"
+          echo "label=$AIRAC_LABEL" >> "$GITHUB_OUTPUT"
+          echo "cycle=$CYCLE" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout cycles file
+        if: steps.check.outputs.has_label == 'true'
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          sparse-checkout: .github/airac-cycles.yml
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Evaluate gate
+        if: steps.check.outputs.has_label == 'true'
+        id: gate
+        env:
+          CYCLE: ${{ steps.check.outputs.cycle }}
+          LABEL: ${{ steps.check.outputs.label }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+
+          # Look up the effective date for this cycle
+          EFFECTIVE_DATE=$(grep "\"$CYCLE\"" .github/airac-cycles.yml | cut -d: -f1 | tr -d ' ' || true)
+
+          if [[ -z "$EFFECTIVE_DATE" ]]; then
+            echo "::error::Label '$LABEL' references unknown AIRAC cycle '$CYCLE'. Check .github/airac-cycles.yml."
+            exit 1
+          fi
+
+          echo "effective_date=$EFFECTIVE_DATE" >> "$GITHUB_OUTPUT"
+
+          if [[ "$TODAY" < "$EFFECTIVE_DATE" ]]; then
+            echo "blocked=true" >> "$GITHUB_OUTPUT"
+            echo "::error::Merge blocked until $EFFECTIVE_DATE (AIRAC $CYCLE)"
+          else
+            echo "blocked=false" >> "$GITHUB_OUTPUT"
+            echo "AIRAC $CYCLE is effective ($EFFECTIVE_DATE <= $TODAY). Gate open."
+          fi
+
+      - name: Generate GitHub token
+        if: steps.check.outputs.has_label == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: generate-token
+        with:
+          client-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: vacs-data
+
+      - name: Post or update comment
+        if: steps.check.outputs.has_label == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          CYCLE: ${{ steps.check.outputs.cycle }}
+          LABEL: ${{ steps.check.outputs.label }}
+          BLOCKED: ${{ steps.gate.outputs.blocked }}
+          EFFECTIVE_DATE: ${{ steps.gate.outputs.effective_date }}
+        run: |
+          MARKER="<!-- airac-gate-bot -->"
+
+          if [[ "$BLOCKED" == "true" ]]; then
+            BODY="$MARKER
+          > [!CAUTION]
+          > **Merge blocked** - This PR targets **AIRAC cycle $CYCLE** (effective $EFFECTIVE_DATE).
+          >
+          > The merge check will pass automatically once the cycle date arrives.
+          > You can [enable auto-merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/automatically-merging-a-pull-request) now - the PR will merge on its own once all checks pass.
+          >
+          > [View all PRs for AIRAC $CYCLE](https://github.com/$GH_REPO/pulls?q=is%3Apr+is%3Aopen+label%3A${LABEL})"
+          else
+            BODY="$MARKER
+          > [!TIP]
+          > **AIRAC cycle $CYCLE** is now effective ($EFFECTIVE_DATE). This PR is ready to merge!"
+          fi
+
+          # Find existing bot comment
+          COMMENT_ID=$(gh api "repos/$GH_REPO/issues/$PR_NUMBER/comments" \
+            --jq ".[] | select(.body | startswith(\"$MARKER\")) | .id" | head -1)
+
+          if [[ -n "$COMMENT_ID" ]]; then
+            gh api "repos/$GH_REPO/issues/comments/$COMMENT_ID" \
+              -X PATCH -f body="$BODY" --silent
+            echo "Updated existing comment $COMMENT_ID"
+          else
+            gh api "repos/$GH_REPO/issues/$PR_NUMBER/comments" \
+              -f body="$BODY" --silent
+            echo "Posted new comment"
+          fi
+
+      - name: Fail if blocked
+        if: steps.gate.outputs.blocked == 'true'
+        run: |
+          echo "### ❌ AIRAC Gate - Blocked" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Merge is blocked until **${{ steps.gate.outputs.effective_date }}** (AIRAC ${{ steps.check.outputs.cycle }}). Enable **auto-merge** to merge automatically when the gate opens." >> "$GITHUB_STEP_SUMMARY"
+          exit 1
+
+      - name: Pass
+        if: steps.check.outputs.has_label != 'true' || steps.gate.outputs.blocked != 'true'
+        run: |
+          echo "### ✅ AIRAC Gate - Open" >> "$GITHUB_STEP_SUMMARY"

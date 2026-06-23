@@ -1,6 +1,11 @@
 {
   "stations": [
     {
+      "id": "FASA_FMP",
+      "parent_id": "FASA_CTR",
+      "controlled_by": ["FASA_FMP"]
+    },
+    {
       "id": "FACA_FMP",
       "parent_id": "FACA_CTR",
       "controlled_by": ["FACA_FMP", "FASA_CTR"]

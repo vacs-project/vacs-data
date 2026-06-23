@@ -1,0 +1,295 @@
+[[positions]]
+id = "RJTT_APP"
+prefixes = ["RJTT"]
+frequency = "119.100"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_APP", "RJTT_N_APP", "RJTT_S_APP", "RJTT_DEP"]
+
+[[positions]]
+id = "RJTT_N_APP"
+prefixes = ["RJTT"]
+frequency = "119.400"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_N_APP", "RJTT_K_APP", "RJTT_APP"]
+
+[[positions]]
+id = "RJTT_K_APP"
+prefixes = ["RJTT"]
+frequency = "125.400"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_K_APP", "RJTT_N_APP", "RJTT_APP"]
+
+[[positions]]
+id = "RJTT_S_APP"
+prefixes = ["RJTT"]
+frequency = "119.100"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_S_APP", "RJTT_F_APP", "RJTT_Z_APP", "RJTT_APP"]
+
+[[positions]]
+id = "RJTT_F_APP"
+prefixes = ["RJTT"]
+frequency = "119.650"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_F_APP", "RJTT_R_APP", "RJTT_S_APP"]
+
+[[positions]]
+id = "RJTT_R_APP"
+prefixes = ["RJTT"]
+frequency = "126.500"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_R_APP", "RJTT_F_APP", "RJTT_S_APP"]
+
+[[positions]]
+id = "RJTT_H_APP"
+prefixes = ["RJTT"]
+frequency = "119.700"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_H_APP", "RJTT_APP"]
+
+[[positions]]
+id = "RJTT_Z_APP"
+prefixes = ["RJTT"]
+frequency = "124.000"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_Z_APP", "RJTT_S_APP", "RJTT_APP"]
+
+[[positions]]
+id = "RJTT_DEP"
+prefixes = ["RJTT"]
+frequency = "126.000"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_DEP", "RJTT_N_DEP", "RJTT_S_DEP"]
+
+[[positions]]
+id = "RJTT_N_DEP"
+prefixes = ["RJTT"]
+frequency = "120.800"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_N_DEP", "RJTT_DEP"]
+
+[[positions]]
+id = "RJTT_S_DEP"
+prefixes = ["RJTT"]
+frequency = "126.000"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_S_DEP", "RJTT_DEP"]
+
+[[positions]]
+id = "RJTT_V_APP"
+prefixes = ["RJTT"]
+frequency = "124.750"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJTT_V_APP", "RJTT_APP"]
+
+[[positions]]
+id = "RJTT_N_TWR"
+prefixes = ["RJTT"]
+frequency = "118.575"
+facility_type = "TWR"
+profile_id = "RJ"
+default_call_sources = ["RJTT_N_TWR"]
+
+[[positions]]
+id = "RJTT_E_TWR"
+prefixes = ["RJTT"]
+frequency = "124.350"
+facility_type = "TWR"
+profile_id = "RJ"
+default_call_sources = ["RJTT_E_TWR"]
+
+[[positions]]
+id = "RJTT_S_TWR"
+prefixes = ["RJTT"]
+frequency = "118.750"
+facility_type = "TWR"
+profile_id = "RJ"
+default_call_sources = ["RJTT_S_TWR"]
+
+[[positions]]
+id = "RJTT_W_TWR"
+prefixes = ["RJTT"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "RJ"
+default_call_sources = ["RJTT_W_TWR"]
+
+[[positions]]
+id = "RJTT_K_GND"
+prefixes = ["RJTT"]
+frequency = "121.625"
+facility_type = "GND"
+profile_id = "RJ"
+default_call_sources = ["RJTT_K_GND"]
+
+[[positions]]
+id = "RJTT_GND"
+prefixes = ["RJTT"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "RJ"
+default_call_sources = ["RJTT_GND"]
+
+[[positions]]
+id = "RJTT_W_GND"
+prefixes = ["RJTT"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "RJ"
+default_call_sources = ["RJTT_W_GND"]
+
+[[positions]]
+id = "RJTT_N_GND"
+prefixes = ["RJTT"]
+frequency = "122.075"
+facility_type = "GND"
+profile_id = "RJ"
+default_call_sources = ["RJTT_N_GND"]
+
+[[positions]]
+id = "RJTT_E_GND"
+prefixes = ["RJTT"]
+frequency = "118.225"
+facility_type = "GND"
+profile_id = "RJ"
+default_call_sources = ["RJTT_E_GND"]
+
+[[positions]]
+id = "RJTT_S_GND"
+prefixes = ["RJTT"]
+frequency = "121.975"
+facility_type = "GND"
+profile_id = "RJ"
+default_call_sources = ["RJTT_S_GND"]
+
+[[positions]]
+id = "RJTT_DEL"
+prefixes = ["RJTT"]
+frequency = "121.825"
+facility_type = "DEL"
+profile_id = "RJ"
+default_call_sources = ["RJTT_DEL"]
+
+[[positions]]
+id = "RJAA_APP"
+prefixes = ["RJAA"]
+frequency = "124.400"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_APP", "RJAA_S_APP", "RJAA_DEP"]
+
+[[positions]]
+id = "RJAA_S_APP"
+prefixes = ["RJAA"]
+frequency = "124.400"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_S_APP", "RJAA_APP"]
+
+[[positions]]
+id = "RJAA_R_APP"
+prefixes = ["RJAA"]
+frequency = "120.200"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_R_APP", "RJAA_S_APP", "RJAA_APP"]
+
+[[positions]]
+id = "RJAA_B_APP"
+prefixes = ["RJAA"]
+frequency = "121.275"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_B_APP", "RJAA_S_APP", "RJAA_APP"]
+
+[[positions]]
+id = "RJAA_E_APP"
+prefixes = ["RJAA"]
+frequency = "127.700"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_E_APP", "RJAA_APP"]
+
+[[positions]]
+id = "RJAA_A_APP"
+prefixes = ["RJAA"]
+frequency = "125.200"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_A_APP", "RJAA_APP"]
+
+[[positions]]
+id = "RJAA_DEP"
+prefixes = ["RJAA"]
+frequency = "124.200"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_DEP", "RJAA_A_DEP", "RJAA_B_DEP"]
+
+[[positions]]
+id = "RJAA_A_DEP"
+prefixes = ["RJAA"]
+frequency = "124.200"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_A_DEP", "RJAA_DEP"]
+
+[[positions]]
+id = "RJAA_B_DEP"
+prefixes = ["RJAA"]
+frequency = "119.600"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_B_DEP", "RJAA_DEP"]
+
+[[positions]]
+id = "RJAA_R_DEP"
+prefixes = ["RJAA"]
+frequency = "119.025"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_R_DEP", "RJAA_DEP"]
+
+[[positions]]
+id = "RJAA_S_DEP"
+prefixes = ["RJAA"]
+frequency = "120.600"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_S_DEP", "RJAA_DEP"]
+
+[[positions]]
+id = "RJAA_N_DEP"
+prefixes = ["RJAA"]
+frequency = "125.525"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_N_DEP", "RJAA_DEP"]
+
+[[positions]]
+id = "RJAA_W_DEP"
+prefixes = ["RJAA"]
+frequency = "125.100"
+facility_type = "DEP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_W_DEP", "RJAA_DEP"]
+
+[[positions]]
+id = "RJAA_V_APP"
+prefixes = ["RJAA"]
+frequency = "119.450"
+facility_type = "APP"
+profile_id = "RJ"
+default_call_sources = ["RJAA_V_APP", "RJAA_APP"]

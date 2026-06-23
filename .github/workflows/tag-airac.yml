@@ -15,7 +15,7 @@ jobs:
       contents: read
     steps:
       - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           persist-credentials: false
 
@@ -38,10 +38,10 @@ jobs:
 
       - name: Generate GitHub token
         if: steps.check.outputs.cycle_name != ''
-        uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859 # v3.0.0
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         id: generate-token
         with:
-          app-id: ${{ secrets.APP_ID }}
+          client-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           repositories: vacs-data
@@ -76,3 +76,59 @@ jobs:
             -f sha="$TAG_SHA"
 
           echo "Created verified tag $TAG_NAME"
+
+      - name: Unlock AIRAC PRs
+        if: steps.check.outputs.cycle_name != ''
+        env:
+          CYCLE: ${{ steps.check.outputs.cycle_name }}
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+        shell: bash
+        run: |
+          LABEL="airac/$CYCLE"
+
+          # Find all open PRs with this cycle's label
+          PR_NUMBERS=$(gh pr list --label "$LABEL" --state open --json number --jq '.[].number')
+
+          if [[ -z "$PR_NUMBERS" ]]; then
+            echo "No open PRs with label $LABEL"
+            exit 0
+          fi
+
+          MARKER="<!-- airac-gate-bot -->"
+          COMMENT="$MARKER
+          > [!TIP]
+          > **AIRAC cycle $CYCLE is now effective.** This PR is ready to merge!
+          >
+          > The merge gate has been lifted. If auto-merge is enabled, this PR will merge once CI passes."
+
+          for pr in $PR_NUMBERS; do
+            echo "Unlocking PR #$pr..."
+
+            # Remove the AIRAC label (triggers gate re-evaluation → pass)
+            gh pr edit "$pr" --remove-label "$LABEL"
+
+            # Update or post the bot comment
+            COMMENT_ID=$(gh api "repos/${{ github.repository }}/issues/$pr/comments" \
+              --jq ".[] | select(.body | startswith(\"$MARKER\")) | .id" | head -1)
+
+            if [[ -n "$COMMENT_ID" ]]; then
+              gh api "repos/${{ github.repository }}/issues/comments/$COMMENT_ID" \
+                -X PATCH -f body="$COMMENT" --silent
+            else
+              gh api "repos/${{ github.repository }}/issues/$pr/comments" \
+                -f body="$COMMENT" --silent
+            fi
+
+            # Check for merge conflicts
+            MERGEABLE=$(gh pr view "$pr" --json mergeable --jq '.mergeable')
+            if [[ "$MERGEABLE" == "CONFLICTING" ]]; then
+              gh pr comment "$pr" --body "> [!WARNING]
+          > This PR has **merge conflicts** that must be resolved before it can merge.
+          > Please rebase or merge \`main\` into your branch and push to unblock auto-merge."
+              echo "  PR #$pr has merge conflicts - notified author"
+            fi
+
+            echo "  PR #$pr unlocked"
+          done
+
+          echo "### ✅ Unlocked $(echo "$PR_NUMBERS" | wc -w | tr -d ' ') PR(s) for AIRAC $CYCLE" >> "$GITHUB_STEP_SUMMARY"

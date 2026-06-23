@@ -1,0 +1,75 @@
+{
+  "id": "OOMM-Hajj",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ACC", "NORTH", "128.150"],
+            "station_id": "OMAA_DEL"
+          },
+          {
+            "label": ["ACC", "ALPHA", "135.600"],
+            "station_id": "OMAA_DEL"
+          },
+          {
+            "label": ["OEJD", "ACC SE"],
+            "station_id": "OEJD_SE_CTR"
+          },
+          {
+            "label": ["UAE", "BBX"],
+            "station_id": "OMAE_1_CTR"
+          },
+          {
+            "label": ["ACC", "BRAVO", "126.550"],
+            "station_id": "OMAA_DEL"
+          },
+          {
+            "label": ["ACC", "MIKE", "118.325"],
+            "station_id": "OMAA_DEL"
+          },
+          {
+            "label": ["OPKR", "ACC", "SOUTH"],
+            "station_id": "OPKR-S_CTR"
+          },
+          {
+            "label": ["OYSC", "ACC", "[INOP]"]
+          },
+          {
+            "label": ["ACC", "SOUTH", "123.950"],
+            "station_id": "OMAA_DEL"
+          },
+          {
+            "label": ["ACC", "CHARLIE", "124.700"],
+            "station_id": "OMAA_DEL"
+          },
+          {
+            "label": ["VABB", "ACC U5", "[INOP]"]
+          },
+          {
+            "label": ["Mumbai", "Radio", "10.084"]
+          },
+          {
+            "label": ["ACC", "WEST", "119.800"],
+            "station_id": "OMAA_DEL"
+          },
+          {
+            "label": ["OOMS", "RDR"],
+            "station_id": "OOMS_APP"
+          },
+          {
+            "label": ["OOSA", "APP"],
+            "station_id": "OOSA_APP"
+          },
+          {
+            "label": ["OOMS", "DEL"],
+            "station_id": "OOMS_DEL"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,6 +1,14 @@
 {
   "positions": [
     {
+      "id": "FASA_FMP",
+      "prefixes": ["FASA"],
+      "frequency": "199.998",
+      "facility_type": "FMP",
+      "profile_id": "FASA",
+      "default_call_sources": ["FASA_FMP"]
+    },
+    {
       "id": "FACA_FMP",
       "prefixes": ["FACA"],
       "frequency": "199.998",

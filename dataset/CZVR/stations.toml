@@ -1,0 +1,357 @@
+[[stations]]
+id = "ZVR-CV"
+controlled_by = ["CZVR_CTR", "CZVR_1_CTR"]
+
+[[stations]]
+id = "ZVR-KA (SOUTH)"
+parent_id = "ZVR-CV"
+controlled_by = [
+  "CZVR_A_CTR",
+  "CZVR_A1_CTR",
+  "CZVR_C_CTR",
+  "CZVR_C1_CTR",
+  "CZVR_E_CTR",
+  "CZVR_E1_CTR",
+]
+
+[[stations]]
+id = "ZVR-KA (NORTH)"
+parent_id = "ZVR-CV"
+controlled_by = [
+  "CZVR_A_CTR",
+  "CZVR_A1_CTR",
+  "CZVR_X_CTR",
+  "CZVR_X1_CTR",
+  "CZVR_N_CTR",
+  "CZVR_N1_CTR",
+  "CZVR_E_CTR",
+  "CZVR_E1_CTR",
+]
+
+[[stations]]
+id = "ZVR-XC"
+parent_id = "ZVR-CV"
+controlled_by = ["CZVR_C_CTR", "CZVR_C1_CTR", "CZVR_E_CTR", "CZVR_E1_CTR"]
+
+[[stations]]
+id = "ZVR-VE"
+parent_id = "ZVR-CV"
+controlled_by = ["CZVR_E_CTR", "CZVR_E1_CTR", "CZVR_A_CTR", "CZVR_A1_CTR"]
+
+[[stations]]
+id = "ZVR-PACIFIC"
+controlled_by = ["CZVR_F_CTR", "CZVR_F1_CTR"]
+
+[[stations]]
+id = "ZVR-HD"
+parent_id = "ZVR-CV"
+controlled_by = ["CZVR_H_CTR", "CZVR_H1_CTR", "CZVR_N_CTR", "CZVR_N1_CTR"]
+
+[[stations]]
+id = "ZVR-NK"
+parent_id = "ZVR-CV"
+controlled_by = ["CZVR_K_CTR", "CZVR_K1_CTR", "CZVR_W_CTR", "CZVR_W1_CTR"]
+
+[[stations]]
+id = "ZVR-VN"
+parent_id = "ZVR-CV"
+controlled_by = ["CZVR_N_CTR", "CZVR_N1_CTR"]
+
+[[stations]]
+id = "ZVR-VS"
+parent_id = "ZVR-CV"
+controlled_by = [
+  "CZVR_S_CTR",
+  "CZVR_S1_CTR",
+  "CZVR_C_CTR",
+  "CZVR_C1_CTR",
+  "CZVR_E_CTR",
+  "CZVR_E1_CTR",
+]
+
+[[stations]]
+id = "ZVR-VW"
+parent_id = "ZVR-CV"
+controlled_by = ["CZVR_W_CTR", "CZVR_W1_CTR"]
+
+[[stations]]
+id = "ZVR-XS"
+parent_id = "ZVR-CV"
+controlled_by = ["CZVR_X_CTR", "CZVR_X1_CTR", "CZVR_N_CTR", "CZVR_N1_CTR"]
+
+[[stations]]
+id = "ZVR-NY"
+parent_id = "ZVR-CV"
+controlled_by = ["CZVR_Y_CTR", "CZVR_Y1_CTR", "CZVR_E_CTR", "CZVR_E1_CTR"]
+
+[[stations]]
+id = "ZVR-ZP"
+parent_id = "ZVR-CV"
+controlled_by = ["CZVR_Z_CTR", "CZVR_Z1_CTR", "CZVR_W_CTR", "CZVR_W1_CTR"]
+
+[[stations]]
+id = "CYQQ-DEP"
+parent_id = "CYQQ-APP"
+controlled_by = ["CYQQ_DEP", "CYQQ_1_DEP"]
+
+[[stations]]
+id = "CYVR-S-DEP"
+parent_id = "CYVR-O-APP"
+controlled_by = ["CYVR_DEP", "CYVR_1_DEP"]
+
+[[stations]]
+id = "CYVR-N-DEP"
+parent_id = "CYVR-S-DEP"
+controlled_by = ["CYVR_N_DEP", "CYVR_N1_DEP"]
+
+[[stations]]
+id = "CYVR-TML"
+parent_id = "CYVR-S-DEP"
+controlled_by = ["CYVR_T_APP", "CYVR_T1_APP"]
+
+[[stations]]
+id = "CYLW-APP"
+parent_id = "ZVR-KA (NORTH)"
+controlled_by = ["CYLW_APP", "CYLW_1_APP"]
+
+[[stations]]
+id = "CYQQ-APP"
+parent_id = "ZVR-VW"
+controlled_by = ["CYQQ_APP", "CYQQ_1_APP"]
+
+[[stations]]
+id = "CYVR-O-APP"
+parent_id = "ZVR-CV"
+controlled_by = ["CYVR_APP", "CYVR_1_APP"]
+
+[[stations]]
+id = "CYVR-I-APP"
+parent_id = "CYVR-O-APP"
+controlled_by = ["CYVR_L_APP", "CYVR_L1_APP"]
+
+[[stations]]
+id = "CYVR-ILS-MONITOR"
+controlled_by = ["CYVR_X_APP", "CYVR_X1_APP"]
+
+[[stations]]
+id = "CYYJ-APP"
+parent_id = "CYVR-S-DEP"
+controlled_by = ["CYYJ_APP", "CYYJ_1_APP"]
+
+[[stations]]
+id = "CYBL-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYBL_F_TWR", "CYBL_F1_TWR"]
+
+[[stations]]
+id = "CYCD-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYCD_F_TWR", "CYCD_F1_TWR"]
+
+[[stations]]
+id = "CYCG-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYCG_F_TWR", "CYCG_F1_TWR"]
+
+[[stations]]
+id = "CYHC-TWR"
+parent_id = "CYVR-S-DEP"
+controlled_by = ["CYHC_TWR", "CYHC_1_TWR"]
+
+[[stations]]
+id = "CYKA-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYKA_F_TWR", "CYKA_F1_TWR"]
+
+[[stations]]
+id = "CYLW-TWR"
+parent_id = "CYLW-APP"
+controlled_by = ["CYLW_TWR", "CYLW_1_TWR"]
+
+[[stations]]
+id = "CYNJ-TWR"
+parent_id = "CYVR-S-DEP"
+controlled_by = ["CYNJ_TWR", "CYNJ_1_TWR"]
+
+[[stations]]
+id = "CYPK-TWR"
+parent_id = "CYVR-S-DEP"
+controlled_by = ["CYPK_TWR", "CYPK_1_TWR"]
+
+[[stations]]
+id = "CYQQ-TWR"
+parent_id = "CYQQ-DEP"
+controlled_by = ["CYQQ_TWR", "CYQQ_1_TWR"]
+
+[[stations]]
+id = "CYVR-N-TWR"
+parent_id = "CYVR-S-TWR"
+controlled_by = ["CYVR_N_TWR", "CYVR_N1_TWR"]
+
+[[stations]]
+id = "CYVR-O-TWR"
+parent_id = "CYVR-S-TWR"
+controlled_by = ["CYVR_O_TWR", "CYVR_O1_TWR"]
+
+[[stations]]
+id = "CYVR-S-TWR"
+parent_id = "CYVR-S-DEP"
+controlled_by = ["CYVR_TWR", "CYVR_1_TWR"]
+
+[[stations]]
+id = "CYWH-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYWH_F_TWR", "CYWH_F1_TWR"]
+
+[[stations]]
+id = "CYWL-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYWL_F_TWR", "CYWL_F1_TWR"]
+
+[[stations]]
+id = "CYXC-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYXC_F_TWR", "CYXC_F1_TWR"]
+
+[[stations]]
+id = "CYXS-TWR"
+parent_id = "ZVR-XS"
+controlled_by = ["CYXS_TWR", "CYXS_1_TWR"]
+
+[[stations]]
+id = "CYXT-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYXT_F_TWR", "CYXT_F1_TWR"]
+
+[[stations]]
+id = "CYXX-TWR"
+parent_id = "CYYJ-APP"
+controlled_by = ["CYXX_TWR", "CYXX_1_TWR"]
+
+[[stations]]
+id = "CYYD-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYYD_F_TWR", "CYYD_F1_TWR"]
+
+[[stations]]
+id = "CYYF-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYYF_F_TWR", "CYYF_F1_TWR"]
+
+[[stations]]
+id = "CYYJ-O-TWR"
+parent_id = "CYYJ-TWR"
+controlled_by = ["CYYJ_O_TWR", "CYYJ_O1_TWR"]
+
+[[stations]]
+id = "CYYJ-TWR"
+parent_id = "CYYJ-APP"
+controlled_by = ["CYYJ_TWR", "CYYJ_1_TWR"]
+
+[[stations]]
+id = "CYZT-FSS"
+parent_id = "ZVR-PACIFIC"
+controlled_by = ["CYZT_F_TWR", "CYZT_F1_TWR"]
+
+[[stations]]
+id = "CZBB-O-TWR"
+parent_id = "CZBB-TWR"
+controlled_by = ["CZBB_O_TWR", "CZBB_O1_TWR"]
+
+[[stations]]
+id = "CZBB-TWR"
+parent_id = "CYVR-S-DEP"
+controlled_by = ["CZBB_TWR", "CZBB_1_TWR"]
+
+[[stations]]
+id = "CYCD-GND-ADVSY"
+parent_id = "CYCD-FSS"
+controlled_by = ["CYCD_F_GND", "CYCD_F1_GND"]
+
+[[stations]]
+id = "CYLW-GND"
+parent_id = "CYLW-TWR"
+controlled_by = ["CYLW_GND", "CYLW_1_GND"]
+
+[[stations]]
+id = "CYNJ-GND"
+parent_id = "CYNJ-TWR"
+controlled_by = ["CYNJ_GND", "CYNJ_1_GND"]
+
+[[stations]]
+id = "CYPK-GND"
+parent_id = "CYPK-TWR"
+controlled_by = ["CYPK_GND", "CYPK_1_GND"]
+
+[[stations]]
+id = "CYQQ-GND"
+parent_id = "CYQQ-TWR"
+controlled_by = ["CYQQ_GND", "CYQQ_1_GND"]
+
+[[stations]]
+id = "CYVR-APN"
+controlled_by = ["CYVR_A_GND", "CYVR_A1_GND"]
+
+[[stations]]
+id = "CYVR-S-GND"
+parent_id = "CYVR-S-TWR"
+controlled_by = ["CYVR_GND", "CYVR_1_GND", "CYVR_N_GND", "CYVR_N1_GND"]
+
+[[stations]]
+id = "CYVR-N-GND"
+parent_id = "CYVR-N-TWR"
+controlled_by = ["CYVR_N_GND", "CYVR_N1_GND", "CYVR_GND", "CYVR_1_GND"]
+
+[[stations]]
+id = "CYVR-PAD-CTL"
+parent_id = "CYVR-N-GND"
+controlled_by = ["CYVR_P_GND", "CYVR_P1_GND"]
+
+[[stations]]
+id = "CYXS-GND"
+parent_id = "CYXS-TWR"
+controlled_by = ["CYXS_GND", "CYXS_1_GND"]
+
+[[stations]]
+id = "CYXX-GND"
+parent_id = "CYXX-TWR"
+controlled_by = ["CYXX_GND", "CYXX_1_GND"]
+
+[[stations]]
+id = "CYYF-GND-ADVSY"
+parent_id = "CYYF-FSS"
+controlled_by = ["CYYF_F_GND", "CYYF_F1_GND"]
+
+[[stations]]
+id = "CYYJ-GND"
+parent_id = "CYYJ-TWR"
+controlled_by = ["CYYJ_GND", "CYYJ_1_GND"]
+
+[[stations]]
+id = "CZBB-GND"
+parent_id = "CZBB-TWR"
+controlled_by = ["CZBB_GND", "CZBB_1_GND"]
+
+[[stations]]
+id = "CYHC-DEL"
+parent_id = "CYHC-TWR"
+controlled_by = ["CYHC_DEL", "CYHC_1_DEL"]
+
+[[stations]]
+id = "CYKA-DEL"
+parent_id = "CYKA-FSS"
+controlled_by = ["CYKA_DEL", "CYKA_1_DEL"]
+
+[[stations]]
+id = "CYVR-DEL"
+parent_id = "CYVR-S-GND"
+controlled_by = ["CYVR_DEL", "CYVR_1_DEL"]
+
+[[stations]]
+id = "CYYJ-DEL"
+parent_id = "CYYJ-GND"
+controlled_by = ["CYYJ_DEL", "CYYJ_1_DEL"]
+
+[[stations]]
+id = "ZVR-TMU"
+controlled_by = ["CZVR_TMU", "CZVR_T_CTR"]

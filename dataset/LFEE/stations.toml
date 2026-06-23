@@ -1,0 +1,252 @@
+[[stations]]
+id = "LFEE_HE"
+controlled_by = ["LFEE_HE_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_HH"
+controlled_by = ["LFEE_HH_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_HN"
+controlled_by = ["LFEE_HN_CTR", "LFEE_N_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_HR"
+controlled_by = ["LFEE_HR_CTR", "LFEE_N_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_KD"
+controlled_by = ["LFEE_KD_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_KE"
+controlled_by = ["LFEE_KE_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_KF"
+controlled_by = ["LFEE_KF_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_KH"
+controlled_by = ["LFEE_KH_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_KN"
+controlled_by = ["LFEE_KN_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_KR"
+controlled_by = ["LFEE_KR_CTR", "LFEE_N_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_UB"
+parent_id = "LFEE_HN"
+controlled_by = ["LFEE_UB_CTR"]
+
+[[stations]]
+id = "LFEE_UE"
+controlled_by = ["LFEE_UE_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_UF"
+controlled_by = ["LFEE_UF_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_UH"
+controlled_by = ["LFEE_UH_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_UN"
+parent_id = "LFEE_HN"
+controlled_by = ["LFEE_UN_CTR"]
+
+[[stations]]
+id = "LFEE_UR"
+controlled_by = ["LFEE_UR_CTR", "LFEE_N_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_XE"
+controlled_by = ["LFEE_XE_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_XH"
+controlled_by = ["LFEE_XH_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_XR"
+controlled_by = ["LFEE_XR_CTR", "LFEE_N_CTR", "LFEE_CTR", "PAR_CTR"]
+
+[[stations]]
+id = "LFEE_YB"
+parent_id = "LFEE_HN"
+controlled_by = ["LFEE_YB_CTR"]
+
+[[stations]]
+id = "LFEE_YR"
+parent_id = "LFEE_HR"
+controlled_by = ["LFEE_YR_CTR"]
+
+[[stations]]
+id = "LFSB_APP"
+controlled_by = [
+  "LFSB_APP",
+  "LFSB_C_APP",
+  "LFEE_CTR",
+  "LSAZ_W_CTR",
+  "LSAZ_S_CTR",
+  "LSAZ_CTR",
+  "LSAS_CTR",
+]
+
+[[stations]]
+id = "LFSB_C_APP"
+controlled_by = ["LFSB_C_APP", "LFEE_UH_CTR", "LFEE_CTR"]
+
+[[stations]]
+id = "LFJL_APP"
+parent_id = "LFST_SC_APP"
+controlled_by = ["LFJL_APP"]
+
+[[stations]]
+id = "LFQE_APP"
+controlled_by = ["LFQE_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFQP_APP"
+controlled_by = ["LFQP_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFQP_TWR"
+parent_id = "LFQP_APP"
+controlled_by = ["LFQP_TWR"]
+
+[[stations]]
+id = "LFSI_APP"
+controlled_by = ["LFSI_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFSO_APP"
+controlled_by = ["LFSO_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFST_SU_APP"
+controlled_by = ["LFST_SU_APP", "LFEE_UE_CTR", "LFEE_CTR"]
+
+[[stations]]
+id = "LFST_SC_APP"
+parent_id = "LFST_SU_APP"
+controlled_by = ["LFST_SC_APP"]
+
+[[stations]]
+id = "LFST_RE_APP"
+parent_id = "LFST_RW_APP"
+controlled_by = ["LFST_RE_APP"]
+
+[[stations]]
+id = "LFST_RW_APP"
+parent_id = "LFST_SU_APP"
+controlled_by = ["LFST_RW_APP"]
+
+[[stations]]
+id = "LFSX_APP"
+controlled_by = ["LFSX_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFGA_TWR"
+parent_id = "LFSB_APP"
+controlled_by = ["LFGA_TWR"]
+
+[[stations]]
+id = "LFGJ_TWR"
+parent_id = "LFSB_C_APP"
+controlled_by = ["LFGJ_TWR"]
+
+[[stations]]
+id = "LFJL_TWR"
+parent_id = "LFST_SC_APP"
+controlled_by = ["LFJL_TWR"]
+
+[[stations]]
+id = "LFLH_I_TWR"
+parent_id = "LFSB_C_APP"
+controlled_by = ["LFLH_I_TWR"]
+
+[[stations]]
+id = "LFQE_TWR"
+parent_id = "LFQE_APP"
+controlled_by = ["LFQE_TWR"]
+
+[[stations]]
+id = "LFQM_I_TWR"
+parent_id = "LFSB_C_APP"
+controlled_by = ["LFQM_I_TWR"]
+
+[[stations]]
+id = "LFSB_TWR"
+parent_id = "LFSB_APP"
+controlled_by = ["LFSB_TWR"]
+
+[[stations]]
+id = "LFSD_I_TWR"
+parent_id = "LFSB_C_APP"
+controlled_by = ["LFSD_I_TWR"]
+
+[[stations]]
+id = "LFSG_I_TWR"
+parent_id = "LFSB_C_APP"
+controlled_by = ["LFSG_I_TWR"]
+
+[[stations]]
+id = "LFSI_TWR"
+parent_id = "LFSI_APP"
+controlled_by = ["LFSI_TWR"]
+
+[[stations]]
+id = "LFSN_I_TWR"
+parent_id = "LFST_SC_APP"
+controlled_by = ["LFSN_I_TWR"]
+
+[[stations]]
+id = "LFSO_TWR"
+parent_id = "LFSO_APP"
+controlled_by = ["LFSO_TWR"]
+
+[[stations]]
+id = "LFST_TWR"
+parent_id = "LFST_RW_APP"
+controlled_by = ["LFST_TWR"]
+
+[[stations]]
+id = "LFSX_TWR"
+parent_id = "LFSX_APP"
+controlled_by = ["LFSX_TWR"]
+
+[[stations]]
+id = "LFGA_GND"
+parent_id = "LFGA_TWR"
+controlled_by = ["LFGA_GND"]
+
+[[stations]]
+id = "LFJL_GND"
+parent_id = "LFJL_TWR"
+controlled_by = ["LFJL_GND"]
+
+[[stations]]
+id = "LFSB_GND"
+parent_id = "LFSB_TWR"
+controlled_by = ["LFSB_GND"]
+
+[[stations]]
+id = "LFSO_GND"
+parent_id = "LFSO_TWR"
+controlled_by = ["LFSO_GND"]
+
+[[stations]]
+id = "LFST_GND"
+parent_id = "LFST_TWR"
+controlled_by = ["LFST_GND"]
+
+[[stations]]
+id = "LFSB_DEL"
+parent_id = "LFSB_GND"
+controlled_by = ["LFSB_DEL"]

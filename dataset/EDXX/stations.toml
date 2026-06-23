@@ -71,3 +71,15 @@ parent_id = "EDXX-FIS-MM"
 id = "EDXX-FIS-IDM"
 controlled_by = ["EDXX_IDM_CTR"]
 parent_id = "EDXX-FIS-MM"
+
+[[stations]]
+id = "ETXX-SR"
+controlled_by = ["ETXX_SR_CTR"]
+
+[[stations]]
+id = "ETXX-LS"
+controlled_by = ["ETXX_LS_CTR"]
+
+[[stations]]
+id = "ETXX-TRA"
+controlled_by = ["ETXX_TRA_CTR"]

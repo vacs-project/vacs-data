@@ -62,6 +62,7 @@
           },
           {
             "label": ["DTTC", "FLOW"],
+            "color": "blush",
             "station_id": "DTTC_FMP"
           }
         ]
@@ -141,6 +142,7 @@
           },
           {
             "label": ["DTTC", "FLOW"],
+            "color": "blush",
             "station_id": "DTTC_FMP"
           }
         ]

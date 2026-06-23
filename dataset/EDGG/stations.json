@@ -34,7 +34,13 @@
         "EDYY_RH_CTR",
         "EDGG_PAH_CTR",
         "EDGG_NH_CTR",
-        "EDGG_AH_CTR"
+        "EDGG_AH_CTR",
+        "EDYY_SL_CTR",
+        "EDYY_SH_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EMS_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
       ]
     },
     {
@@ -47,7 +53,13 @@
         "EDYY_RL_CTR",
         "EDGG_PAH_CTR",
         "EDGG_NH_CTR",
-        "EDGG_AH_CTR"
+        "EDGG_AH_CTR",
+        "EDYY_SH_CTR",
+        "EDYY_SL_CTR",
+        "EDYY_BB_CTR",
+        "EDWW_EMS_CTR",
+        "EDWW_W_CTR",
+        "EDWW_CTR"
       ]
     },
     {

@@ -161,7 +161,7 @@
               },
               {
                 "label": ["ZUR", "ARFA"],
-                "station_id": "LSFA-ARFA"
+                "station_id": "LSFA_APP"
               }
             ],
             "rows": 6
@@ -213,7 +213,8 @@
                     "label": []
                   },
                   {
-                    "label": ["PRA", "FIC", "WEST"]
+                    "label": ["PRA", "FIC", "WEST"],
+                    "station_id": "LKAA FIC"
                   },
                   {
                     "label": ["LOWW", "AIS", "ARO"]
@@ -232,7 +233,8 @@
                     "label": []
                   },
                   {
-                    "label": ["PRA", "FIC", "EAST"]
+                    "label": ["PRA", "FIC", "EAST"],
+                    "station_id": "LKAA FIC"
                   },
                   {
                     "label": ["LOWW", "TWR", "COO"],
@@ -242,7 +244,8 @@
                     "label": ["WW", "MET"]
                   },
                   {
-                    "label": ["LJU", "FIC"]
+                    "label": ["LJU", "FIC"],
+                    "station_id": "LJLA-INFORMATION"
                   },
                   {
                     "label": ["FIC-S", "PLC"],
@@ -252,7 +255,8 @@
                     "label": []
                   },
                   {
-                    "label": ["PRA", "FIC", "MORAVA"]
+                    "label": ["PRA", "FIC", "MORAVA"],
+                    "station_id": "LKAA FIC"
                   },
                   {
                     "label": ["APP", "TFI", "PLC"],
@@ -262,7 +266,8 @@
                     "label": ["RCC"]
                   },
                   {
-                    "label": ["LJMB", "APP"]
+                    "label": ["LJMB", "APP"],
+                    "station_id": "LJMB_APP"
                   },
                   {
                     "label": ["FIC-S", "EC"],
@@ -709,22 +714,26 @@
               "page": {
                 "keys": [
                   {
-                    "label": ["LJU", "121.330", "PLC"]
+                    "label": []
                   },
                   {
-                    "label": ["LJU", "128.880", "PLC"]
+                    "label": []
                   },
                   {
-                    "label": ["LJU", "119.885", "PLC"]
+                    "label": ["LJU", "UPP"],
+                    "station_id": "LJLA-UPPER"
                   },
                   {
-                    "label": ["LJU", "130.235", "PLC"]
+                    "label": ["LJU"],
+                    "station_id": "LJLA"
                   },
                   {
-                    "label": ["LJU", "135.280", "PLC"]
+                    "label": ["LJLJ", "APP"],
+                    "station_id": "LJLJ_APP"
                   },
                   {
-                    "label": ["LJMB", "APP"]
+                    "label": ["LJMB", "APP"],
+                    "station_id": "LJMB_APP"
                   }
                 ],
                 "rows": 6
@@ -751,40 +760,52 @@
               "page": {
                 "keys": [
                   {
-                    "label": ["PRA", "TW", "380+"]
+                    "label": ["PRA", "TW", "380+"],
+                    "station_id": "LKAA WU"
                   },
                   {
-                    "label": ["PRA", "HW", "360-370"]
+                    "label": ["PRA", "HW", "360-370"],
+                    "station_id": "LKAA WU"
                   },
                   {
-                    "label": ["PRA", "UW", "350"]
+                    "label": ["PRA", "UW", "350"],
+                    "station_id": "LKAA WU"
                   },
                   {
-                    "label": ["PRA", "MW", "310-340"]
+                    "label": ["PRA", "MW", "310-340"],
+                    "station_id": "LKAA WU"
                   },
                   {
-                    "label": ["PRA", "LW", "300-"]
+                    "label": ["PRA", "LW", "300-"],
+                    "station_id": "LKAA WL"
                   },
                   {
-                    "label": ["PRA", "KV", "125-"]
+                    "label": ["PRA", "KV", "125-"],
+                    "station_id": "LKAA KV"
                   },
                   {
-                    "label": ["PRA", "TS", "380+"]
+                    "label": ["PRA", "TS", "380+"],
+                    "station_id": "LKAA SU"
                   },
                   {
-                    "label": ["PRA", "HS", "360-370"]
+                    "label": ["PRA", "HS", "360-370"],
+                    "station_id": "LKAA SU"
                   },
                   {
-                    "label": ["PRA", "US", "350"]
+                    "label": ["PRA", "US", "350"],
+                    "station_id": "LKAA SU"
                   },
                   {
-                    "label": ["PRA", "MS", "310-340"]
+                    "label": ["PRA", "MS", "310-340"],
+                    "station_id": "LKAA SU"
                   },
                   {
-                    "label": ["PRA", "LS", "300-"]
+                    "label": ["PRA", "LS", "300-"],
+                    "station_id": "LKAA SL"
                   },
                   {
-                    "label": ["PRA", "TB", "125-"]
+                    "label": ["PRA", "TB", "125-"],
+                    "station_id": "LKAA TB"
                   }
                 ],
                 "rows": 6
@@ -864,19 +885,24 @@
                     "label": []
                   },
                   {
-                    "label": ["ZAG", "TOP", "PLC"]
+                    "label": ["ZAG", "TOP", "PLC"],
+                    "station_id": "LDZO-NORTH-UPPER"
                   },
                   {
-                    "label": ["ZAG", "HIGH", "PLC"]
+                    "label": ["ZAG", "HIGH", "PLC"],
+                    "station_id": "LDZO-NORTH-UPPER"
                   },
                   {
-                    "label": ["ZAG", "UPP", "PLC"]
+                    "label": ["ZAG", "UPP", "PLC"],
+                    "station_id": "LDZO-NORTH-UPPER"
                   },
                   {
-                    "label": ["ZAG", "LOW", "PLC"]
+                    "label": ["ZAG", "LOW", "PLC"],
+                    "station_id": "LDZO-NORTH"
                   },
                   {
-                    "label": ["ZAG APP", "200-", "PLC"]
+                    "label": ["ZAG APP", "200-", "PLC"],
+                    "station_id": "LDZA_APP"
                   }
                 ],
                 "rows": 6

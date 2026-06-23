@@ -301,16 +301,16 @@
             "station_id": "LTC_FMP"
           },
           {
-            "label": ["STC", "FMP"],
-            "station_id": "STC_FMP"
+            "label": ["SCL", "FMP"],
+            "station_id": "SCL_FMP"
           },
           {
             "label": ["ScAC", "Group", "Supvisr"],
             "station_id": "SCO_GS_CTR"
           },
           {
-            "label": ["STC", "Group", "Supvisr"],
-            "station_id": "STC_GS_CTR"
+            "label": ["SCL", "Group", "Supvisr"],
+            "station_id": "SCL_GS_CTR"
           }
         ]
       }

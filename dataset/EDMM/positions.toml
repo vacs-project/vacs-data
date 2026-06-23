@@ -117,42 +117,42 @@ id = "EDUU_ALP_CTR"
 prefixes = ["EDUU"]
 frequency = "133.755"
 facility_type = "CTR"
-profile_id = "EDMM-WEST-SOUTH"
+profile_id = "EDUU-SOUTH"
 
 [[positions]]
 id = "EDUU_AMM_CTR"
 prefixes = ["EDUU"]
 frequency = "123.390"
 facility_type = "CTR"
-profile_id = "EDMM-WEST-SOUTH"
+profile_id = "EDUU-SOUTH"
 
 [[positions]]
 id = "EDUU_DON_CTR"
 prefixes = ["EDUU"]
 frequency = "127.290"
 facility_type = "CTR"
-profile_id = "EDMM-WEST-NORTH"
+profile_id = "EDUU-SOUTH"
 
 [[positions]]
 id = "EDUU_ERL_CTR"
 prefixes = ["EDUU"]
 frequency = "136.405"
 facility_type = "CTR"
-profile_id = "EDMM-EAST"
+profile_id = "EDUU-EAST"
 
 [[positions]]
 id = "EDUU_SAL_CTR"
 prefixes = ["EDUU"]
 frequency = "133.860"
 facility_type = "CTR"
-profile_id = "EDMM-EAST"
+profile_id = "EDUU-EAST"
 
 [[positions]]
 id = "EDUU_SPE_CTR"
 prefixes = ["EDUU"]
 frequency = "133.285"
 facility_type = "CTR"
-profile_id = "EDMM-EAST"
+profile_id = "EDUU-EAST"
 
 # EDDM APP
 [[positions]]
@@ -237,14 +237,14 @@ profile_id = "EDMM-EAST-AD"
 [[positions]]
 id = "EDDP_ND_APP"
 prefixes = ["EDDP"]
-frequency = "120.840"
+frequency = "129.765"
 facility_type = "APP"
 profile_id = "EDMM-EAST-AD"
 
 [[positions]]
 id = "EDDP_SD_APP"
 prefixes = ["EDDP"]
-frequency = "129.765"
+frequency = "120.840"
 facility_type = "APP"
 profile_id = "EDMM-EAST-AD"
 
@@ -470,12 +470,5 @@ profile_id = "EDMM-EAST-AD"
 id = "EDNY_TWR"
 prefixes = ["EDNY"]
 frequency = "120.080"
-facility_type = "TWR"
-profile_id = "EDMM-WEST-SOUTH"
-
-[[positions]]
-id = "LSZR_TWR"
-prefixes = ["LSZR"]
-frequency = "135.430"
 facility_type = "TWR"
 profile_id = "EDMM-WEST-SOUTH"

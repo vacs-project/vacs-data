@@ -1,0 +1,17 @@
+{
+  "id": "OEMA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OEMA"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          { "label": ["GND"], "station_id": "OEMA_GND" },
+          { "label": ["TWR"], "station_id": "OEMA_TWR" },
+          { "label": ["APP"], "station_id": "OEMA_APP" }
+        ]
+      }
+    }
+  ]
+}

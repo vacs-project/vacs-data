@@ -86,11 +86,11 @@
     },
     {
       "id": "ESFR_APP",
-      "controlled_by": ["ESFR_APP"]
+      "controlled_by": ["ESFR_APP", "ESFR_TWR"]
     },
     {
       "id": "ESFR_TWR",
-      "controlled_by": ["ESFR_TWR"]
+      "controlled_by": ["ESFR_TWR", "ESFR_APP"]
     },
     {
       "id": "ESGG_ARR",
@@ -322,7 +322,7 @@
       "controlled_by": ["ESMM_IN_APP", "ESMM_IS_APP"]
     },
     {
-      "id": "ESMM_IS",
+      "id": "ESMM_FIS-S",
       "controlled_by": ["ESMM_IS_APP", "ESMM_IN_APP"]
     },
     {
@@ -660,6 +660,11 @@
       "parent_id": "ESSA_TWR-W"
     },
     {
+      "id": "ESOS_APP-C",
+      "controlled_by": ["ESSA_FMP", "ESSA_E_APP"],
+      "parent_id": "ESOS_9"
+    },
+    {
       "id": "ESOS_ARR-E",
       "controlled_by": ["ESSA_E_APP"],
       "parent_id": "ESOS_9"
@@ -687,6 +692,18 @@
         "ESOS_1_CTR",
         "ESOS_3_CTR",
         "ESAA_CTR"
+      ]
+    },
+    {
+      "id": "ESSA_WS",
+      "controlled_by": [
+        "ESSA_E_TWR",
+        "ESSA_S_TWR",
+        "ESSA_W_TWR",
+        "ESSA_W_GND",
+        "ESSA_N_GND",
+        "ESSA_E_GND",
+        "ESSA_DEL"
       ]
     },
     {

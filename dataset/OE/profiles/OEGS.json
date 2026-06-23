@@ -1,0 +1,17 @@
+{
+  "id": "OEGS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OEGS"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          { "label": ["GND"], "station_id": "OEGS_GND" },
+          { "label": ["TWR"], "station_id": "OEGS_TWR" },
+          { "label": ["APP"], "station_id": "OEGS_APP" }
+        ]
+      }
+    }
+  ]
+}

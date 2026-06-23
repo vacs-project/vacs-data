@@ -66,7 +66,8 @@
             "station_id": "DTMB_TWR"
           },
           {
-            "label": ["DTTC", "FMP"],
+            "label": ["DTTC", "FLOW"],
+            "color": "blush",
             "station_id": "DTTC_FMP"
           },
           {

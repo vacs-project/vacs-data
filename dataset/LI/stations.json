@@ -113,11 +113,16 @@
     },
     {
       "id": "LIMM-WN0",
-      "controlled_by": ["LIMF_WN0_APP", "LIMM_WN2_CTR", "LIMM_WS2_CTR"]
+      "controlled_by": [
+        "LIMF_WN0_APP",
+        "LIMM_WW0_APP",
+        "LIMM_WN2_CTR",
+        "LIMM_WS2_CTR"
+      ]
     },
     {
-      "id": "LIMJ-APP",
-      "controlled_by": ["LIMJ_APP", "LIMM_WS2_CTR"]
+      "id": "LIMM-WS0",
+      "controlled_by": ["LIMJ_WS0_APP", "LIMM_WW0_APP", "LIMM_WS2_CTR"]
     },
     {
       "id": "LIMM-ADE",
@@ -245,12 +250,12 @@
     {
       "id": "LIMG-AFIU",
       "controlled_by": ["LIMG_I_TWR"],
-      "parent_id": "LIMJ-APP"
+      "parent_id": "LIMM-WS0"
     },
     {
       "id": "LIMJ-TWR",
       "controlled_by": ["LIMJ_TWR"],
-      "parent_id": "LIMJ-APP"
+      "parent_id": "LIMM-WS0"
     },
     {
       "id": "LIML-TWR",
@@ -544,7 +549,7 @@
     },
     {
       "id": "LIPP-CE0",
-      "controlled_by": ["LIPQ_CE0_APP", "LIPZ_SE0_APP"],
+      "controlled_by": ["LIPQ_CE0_APP", "LIPP_SC0_APP"],
       "parent_id": "LIPP-CE1"
     },
     {
@@ -553,7 +558,7 @@
     },
     {
       "id": "LIPP-SE0",
-      "controlled_by": ["LIPZ_SE0_APP"],
+      "controlled_by": ["LIPZ_SE0_APP", "LIPP_SC0_APP"],
       "parent_id": "LIPP-CE1"
     },
     {
@@ -648,52 +653,73 @@
         "LIRR_ND1_CTR",
         "LIRR_US2_CTR",
         "LIRR_TS1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
       "id": "LIRR-ES1",
-      "controlled_by": ["LIRR_ES1_CTR", "LIRR_SU1_CTR"]
+      "controlled_by": ["LIRR_ES1_CTR", "LIRR_SU1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-SU1",
-      "controlled_by": ["LIRR_SU1_CTR"]
+      "controlled_by": ["LIRR_SU1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-EW1",
-      "controlled_by": ["LIRR_EW1_CTR", "LIRR_SU1_CTR"]
+      "controlled_by": ["LIRR_EW1_CTR", "LIRR_SU1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-EE3",
-      "controlled_by": ["LIRR_EE3_CTR", "LIRR_EW1_CTR", "LIRR_SU1_CTR"]
+      "controlled_by": [
+        "LIRR_EE3_CTR",
+        "LIRR_EW1_CTR",
+        "LIRR_SU1_CTR",
+        "LIRR_CTR"
+      ]
     },
     {
       "id": "LIRR-NE1",
-      "controlled_by": ["LIRR_NE1_CTR"]
+      "controlled_by": ["LIRR_NE1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-NW1",
-      "controlled_by": ["LIRR_NW1_CTR", "LIRR_NE1_CTR"]
+      "controlled_by": ["LIRR_NW1_CTR", "LIRR_NE1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-TS1",
-      "controlled_by": ["LIRR_TS1_CTR", "LIRR_NE1_CTR"]
+      "controlled_by": ["LIRR_TS1_CTR", "LIRR_NE1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-NN1",
-      "controlled_by": ["LIRR_NN1_CTR", "LIRR_NE1_CTR"]
+      "controlled_by": ["LIRR_NN1_CTR", "LIRR_NE1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-OV1",
-      "controlled_by": ["LIRR_OV1_CTR", "LIRR_NW1_CTR", "LIRR_NE1_CTR"]
+      "controlled_by": [
+        "LIRR_OV1_CTR",
+        "LIRR_NW1_CTR",
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
+      ]
     },
     {
       "id": "LIRR-US2",
-      "controlled_by": ["LIRR_US2_CTR", "LIRR_TS1_CTR", "LIRR_NE1_CTR"]
+      "controlled_by": [
+        "LIRR_US2_CTR",
+        "LIRR_TS1_CTR",
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
+      ]
     },
     {
       "id": "LIRR-SU7",
-      "controlled_by": ["LIRR_SU7_CTR", "LIRR_NE7_CTR", "LIRR_SU1_CTR"]
+      "controlled_by": [
+        "LIRR_SU7_CTR",
+        "LIRR_NE7_CTR",
+        "LIRR_SU1_CTR",
+        "LIRR_CTR"
+      ]
     },
     {
       "id": "LIRR-EW7",
@@ -706,7 +732,7 @@
     },
     {
       "id": "LIRR-NE7",
-      "controlled_by": ["LIRR_NE7_CTR", "LIRR_NE1_CTR"]
+      "controlled_by": ["LIRR_NE7_CTR", "LIRR_NE1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-NW7",
@@ -714,7 +740,8 @@
         "LIRR_NW7_CTR",
         "LIRR_NE7_CTR",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -798,7 +825,8 @@
         "LIRR_TW1_APP",
         "LIRR_OV1_CTR",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -811,7 +839,8 @@
         "LIRR_PN1_DEP",
         "LIRR_OV1_CTR",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -829,7 +858,8 @@
         "LIRR_PN1_DEP",
         "LIRR_OV1_CTR",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -845,12 +875,13 @@
         "LIRR_TW1_APP",
         "LIRR_PN1_DEP",
         "LIRR_NN1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
       "id": "LIRZ-APP",
-      "controlled_by": ["LIRZ_APP", "LIRR_NE1_CTR"]
+      "controlled_by": ["LIRZ_APP", "LIRR_NE1_CTR", "LIRR_CTR"]
     },
     {
       "id": "LIRR-PN1",
@@ -860,7 +891,8 @@
         "LIRR_OV1_CTR",
         "LIRR_TW1_APP",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -871,7 +903,8 @@
         "LIRR_OV1_CTR",
         "LIRR_TW1_APP",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -972,7 +1005,8 @@
         "LIRR_PN1_DEP",
         "LIRR_OV1_CTR",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -985,7 +1019,8 @@
         "LIRR_OV1_CTR",
         "LIRR_TW1_APP",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -1001,7 +1036,8 @@
         "LIRR_AET_APP",
         "LIRR_OV1_CTR",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -1017,7 +1053,8 @@
         "LIRR_AET_APP",
         "LIRR_OV1_CTR",
         "LIRR_NW1_CTR",
-        "LIRR_NE1_CTR"
+        "LIRR_NE1_CTR",
+        "LIRR_CTR"
       ]
     },
     {
@@ -1157,16 +1194,6 @@
       "id": "LIRN-P-DEL",
       "controlled_by": ["LIRN_P_DEL"],
       "parent_id": "LIRN-GND"
-    },
-    {
-      "id": "LSZA-TWR",
-      "controlled_by": [
-        "LSZA_TWR",
-        "LIMM_ANW_APP",
-        "LIMM_ANE_APP",
-        "LIMM_EN2_CTR",
-        "LIMM_WS2_CTR"
-      ]
     }
   ]
 }

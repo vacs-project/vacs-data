@@ -1,0 +1,90 @@
+{
+  "id": "CZQM-L",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["CZQM", "L"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["QM", "CTR"],
+            "station_id": "CZQM-CTR"
+          },
+          {
+            "label": ["QM", "LO"],
+            "station_id": "CZQM-QM"
+          },
+          {
+            "label": ["QM", "TWR"],
+            "station_id": "CYQM-TWR"
+          },
+          {
+            "label": ["QM", "GND"],
+            "station_id": "CYQM-GND"
+          },
+          {
+            "label": ["SJ", "MF"],
+            "station_id": "CYSJ-MF"
+          },
+          {
+            "label": ["QM", "DG"],
+            "station_id": "CZQM-DG"
+          },
+          {
+            "label": ["SJ", "LO"],
+            "station_id": "CZQM-SJ"
+          },
+          {
+            "label": ["FC", "TWR"],
+            "station_id": "CYFC-TWR"
+          },
+          {
+            "label": ["FC", "GND"],
+            "station_id": "CYFC-GND"
+          },
+          {
+            "label": ["YG", "MF"],
+            "station_id": "CYYG-MF"
+          },
+          {
+            "label": ["QM", "CB"],
+            "station_id": "CZQM-CB"
+          },
+          {
+            "label": ["HZ", "APP"],
+            "station_id": "CYHZ-TMA"
+          },
+          {
+            "label": ["HZ", "TWR"],
+            "station_id": "CYHZ-TWR"
+          },
+          {
+            "label": ["HZ", "GND"],
+            "station_id": "CYHZ-GND"
+          },
+          {
+            "label": ["HZ", "DEL"],
+            "station_id": "CYHZ-DEL"
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ["HZ", "FI"],
+            "station_id": "CYHZ-TMA-FI"
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          }
+        ]
+      }
+    }
+  ]
+}

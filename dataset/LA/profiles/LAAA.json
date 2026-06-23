@@ -1,0 +1,121 @@
+{
+  "id": "LAAA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["BEOGRAD", "RADAR", "BG"],
+            "station_id": "LYBA"
+          },
+          {
+            "label": ["BEOGRAD", "WEST", "BGW"],
+            "station_id": "LYBA-WEST"
+          },
+          {
+            "label": ["BRINDISI", "ES3", "INS"],
+            "station_id": "LIBB-ES3"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TIRANA", "CONTROL", "TI"],
+            "station_id": "LATI-ACC"
+          },
+          {
+            "label": ["BEOGRAD", "RADAR UP", "BGU"],
+            "station_id": "LYBA-UPPER"
+          },
+          {
+            "label": ["BEOGRAD", "WEST UP", "BGUW"],
+            "station_id": "LYBA-UPPER-WEST"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SKOPJE", "CONTROL"],
+            "station_id": "LWSS-ACC"
+          },
+          {
+            "label": ["KFOR", "ACC"],
+            "station_id": "KFOR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["APP"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["TIRANA", "APPROACH", "TIR"],
+            "station_id": "LATI_APP"
+          },
+          {
+            "label": ["PODGORICA", "RADAR", "PG"],
+            "station_id": "LYPG_APP"
+          },
+          {
+            "label": ["SKOPJE", "APPROACH", "SKA"],
+            "station_id": "LWSK_APP"
+          },
+          {
+            "label": ["OHRID", "APPROACH", "OA"],
+            "station_id": "LWOH_APP"
+          },
+          {
+            "label": ["PRISTINA", "APPROACH", "PR"],
+            "station_id": "BKPR_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["GND"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["TIRANA", "TOWER", "TIT"],
+            "station_id": "LATI_TWR"
+          },
+          {
+            "label": ["TIRANA", "GROUND", "TI"],
+            "station_id": "LATI_GND"
+          },
+          {
+            "label": ["KUKES", "INFO"],
+            "station_id": "LAKU_I_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

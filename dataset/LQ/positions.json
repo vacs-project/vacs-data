@@ -1,0 +1,81 @@
+{
+  "positions": [
+    {
+      "id": "LQSB_CTR",
+      "prefixes": ["LQSB"],
+      "frequency": "128.850",
+      "facility_type": "CTR",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQSB_I_CTR",
+      "prefixes": ["LQSB"],
+      "frequency": "135.575",
+      "facility_type": "CTR",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQBK_APP",
+      "prefixes": ["LQBK"],
+      "frequency": "133.075",
+      "facility_type": "APP",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQMO_APP",
+      "prefixes": ["LQMO"],
+      "frequency": "120.225",
+      "facility_type": "APP",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQSA_APP",
+      "prefixes": ["LQSA"],
+      "frequency": "119.775",
+      "facility_type": "APP",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQTZ_APP",
+      "prefixes": ["LQTZ"],
+      "frequency": "120.350",
+      "facility_type": "APP",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQBK_TWR",
+      "prefixes": ["LQBK"],
+      "frequency": "133.075",
+      "facility_type": "TWR",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQMO_TWR",
+      "prefixes": ["LQMO"],
+      "frequency": "125.550",
+      "facility_type": "TWR",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQSA_TWR",
+      "prefixes": ["LQSA"],
+      "frequency": "118.250",
+      "facility_type": "TWR",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQTZ_TWR",
+      "prefixes": ["LQTZ"],
+      "frequency": "132.925",
+      "facility_type": "TWR",
+      "profile_id": "LQSB"
+    },
+    {
+      "id": "LQSA_GND",
+      "prefixes": ["LQSA"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "LQSB"
+    }
+  ]
+}

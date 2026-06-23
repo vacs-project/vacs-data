@@ -1,0 +1,70 @@
+{
+  "id": "GMMX",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["GMMX"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["DEL"],
+            "station_id": "GMMX_DEL"
+          },
+          {
+            "label": ["GND"],
+            "station_id": "GMMX_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "SOUTH"],
+            "station_id": "GMMM_S_CTR"
+          },
+          {
+            "label": ["APP"],
+            "station_id": "GMMX_APP"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "GMMX_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "WEST"],
+            "station_id": "GMMM_W_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMMM", "FLOW"],
+            "color": "blush",
+            "station_id": "GMMM_FMP"
+          }
+        ]
+      }
+    }
+  ]
+}

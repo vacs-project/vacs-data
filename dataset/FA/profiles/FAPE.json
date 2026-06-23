@@ -5,7 +5,7 @@
     {
       "label": "FAPE",
       "page": {
-        "rows": 10,
+        "rows": 6,
         "client_page": {
           "include": ["FAPE*", "FACA_*", "FASA_*"],
           "exclude": [],

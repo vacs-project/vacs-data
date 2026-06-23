@@ -1,0 +1,57 @@
+{
+  "stations": [
+    {
+      "id": "LQSB-ACC",
+      "controlled_by": ["LQSB_CTR", "ADR_W_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LQSB-INFORMATION",
+      "controlled_by": ["LQSB_I_CTR"]
+    },
+    {
+      "id": "LQBK_APP",
+      "parent_id": "LQSB-ACC",
+      "controlled_by": ["LQBK_APP"]
+    },
+    {
+      "id": "LQMO_APP",
+      "parent_id": "LQSB-ACC",
+      "controlled_by": ["LQMO_APP"]
+    },
+    {
+      "id": "LQSA_APP",
+      "parent_id": "LQSB-ACC",
+      "controlled_by": ["LQSA_APP"]
+    },
+    {
+      "id": "LQTZ_APP",
+      "parent_id": "LQSB-ACC",
+      "controlled_by": ["LQTZ_APP"]
+    },
+    {
+      "id": "LQBK_TWR",
+      "parent_id": "LQBK_APP",
+      "controlled_by": ["LQBK_TWR"]
+    },
+    {
+      "id": "LQMO_TWR",
+      "parent_id": "LQMO_APP",
+      "controlled_by": ["LQMO_TWR"]
+    },
+    {
+      "id": "LQSA_TWR",
+      "parent_id": "LQSA_APP",
+      "controlled_by": ["LQSA_TWR"]
+    },
+    {
+      "id": "LQTZ_TWR",
+      "parent_id": "LQTZ_APP",
+      "controlled_by": ["LQTZ_TWR"]
+    },
+    {
+      "id": "LQSA_GND",
+      "parent_id": "LQSA_TWR",
+      "controlled_by": ["LQSA_GND"]
+    }
+  ]
+}

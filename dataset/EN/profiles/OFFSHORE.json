@@ -37,10 +37,12 @@
             "label": []
           },
           {
-            "label": ["EGPD", "HELS"]
+            "label": ["EGPD", "HELS"],
+            "station_id": "EGPD_H_APP"
           },
           {
-            "label": ["EGPB", "APP"]
+            "label": ["EGPB", "RAD"],
+            "station_id": "EGPB_APP"
           },
           {
             "label": []

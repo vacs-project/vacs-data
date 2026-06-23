@@ -1,0 +1,314 @@
+{
+  "stations": [
+    {
+      "id": "GMMM_FMP",
+      "parent_id": "GMMM_CTR",
+      "controlled_by": ["GMMM_FMP"]
+    },
+    {
+      "id": "GMMN_1_FMP",
+      "parent_id": "GMMM_FMP",
+      "controlled_by": ["GMMM_FMP"]
+    },
+    {
+      "id": "GMMN_2_FMP",
+      "parent_id": "GMMN_1_FMP",
+      "controlled_by": ["GMMN_2_FMP"]
+    },
+    {
+      "id": "GMMN_3_FMP",
+      "parent_id": "GMMN_2_FMP",
+      "controlled_by": ["GMMN_3_FMP"]
+    },
+    {
+      "id": "GMMN_4_FMP",
+      "parent_id": "GMMN_3_FMP",
+      "controlled_by": ["GMMN_4_FMP"]
+    },
+    {
+      "id": "GMMM_ALL_CTR",
+      "parent_id": "AFRN_FSS",
+      "controlled_by": ["GMMM_ALL_CTR"]
+    },
+    {
+      "id": "GMAC_CTR",
+      "parent_id": "GMMM_ALL_CTR",
+      "controlled_by": ["GMAC_CTR"]
+    },
+    {
+      "id": "GMAC_O_CTR",
+      "parent_id": "GMAC_CTR",
+      "controlled_by": ["GMAC_O_CTR"]
+    },
+    {
+      "id": "GMAC_ON_CTR",
+      "parent_id": "GMAC_O_CTR",
+      "controlled_by": ["GMAC_ON_CTR"]
+    },
+    {
+      "id": "GMAC_OS_CTR",
+      "parent_id": "GMAC_O_CTR",
+      "controlled_by": ["GMAC_OS_CTR"]
+    },
+    {
+      "id": "GMAC_W_CTR",
+      "parent_id": "GMAC_CTR",
+      "controlled_by": ["GMAC_W_CTR"]
+    },
+    {
+      "id": "GMAC_WN_CTR",
+      "parent_id": "GMAC_W_CTR",
+      "controlled_by": ["GMAC_WN_CTR"]
+    },
+    {
+      "id": "GMAC_WS_CTR",
+      "parent_id": "GMAC_W_CTR",
+      "controlled_by": ["GMAC_WS_CTR"]
+    },
+    {
+      "id": "GMMM_CTR",
+      "parent_id": "GMMM_ALL_CTR",
+      "controlled_by": ["GMMM_CTR"]
+    },
+    {
+      "id": "GMMM_NE_CTR",
+      "parent_id": "GMMM_CTR",
+      "controlled_by": ["GMMM_NE_CTR"]
+    },
+    {
+      "id": "GMMM_N_CTR",
+      "parent_id": "GMMM_NE_CTR",
+      "controlled_by": ["GMMM_N_CTR"]
+    },
+    {
+      "id": "GMMM_E_CTR",
+      "parent_id": "GMMM_NE_CTR",
+      "controlled_by": ["GMMM_E_CTR"]
+    },
+    {
+      "id": "GMMM_S_CTR",
+      "parent_id": "GMMM_CTR",
+      "controlled_by": ["GMMM_S_CTR"]
+    },
+    {
+      "id": "GMMM_W_CTR",
+      "parent_id": "GMMM_S_CTR",
+      "controlled_by": ["GMMM_W_CTR"]
+    },
+    {
+      "id": "GMMN_CTR",
+      "parent_id": "GMMM_N_CTR",
+      "controlled_by": ["GMMN_CTR"]
+    },
+    {
+      "id": "GMAD_APP",
+      "parent_id": "GMMM_S_CTR",
+      "controlled_by": ["GMAD_APP"]
+    },
+    {
+      "id": "GMAD_TWR",
+      "parent_id": "GMAD_APP",
+      "controlled_by": ["GMAD_TWR"]
+    },
+    {
+      "id": "GMAG_APP",
+      "parent_id": "GMMM_S_CTR",
+      "controlled_by": ["GMAG_APP"]
+    },
+    {
+      "id": "GMAG_TWR",
+      "parent_id": "GMAG_APP",
+      "controlled_by": ["GMAG_TWR"]
+    },
+    {
+      "id": "GMFB_APP",
+      "parent_id": "GMMM_E_CTR",
+      "controlled_by": ["GMFB_APP"]
+    },
+    {
+      "id": "GMFB_TWR",
+      "parent_id": "GMFB_APP",
+      "controlled_by": ["GMFB_TWR"]
+    },
+    {
+      "id": "GMFF_APP",
+      "parent_id": "GMMM_E_CTR",
+      "controlled_by": ["GMFF_APP"]
+    },
+    {
+      "id": "GMFF_TWR",
+      "parent_id": "GMFF_APP",
+      "controlled_by": ["GMFF_TWR"]
+    },
+    {
+      "id": "GMFO_APP",
+      "parent_id": "GMMM_E_CTR",
+      "controlled_by": ["GMFO_APP"]
+    },
+    {
+      "id": "GMFO_TWR",
+      "parent_id": "GMFO_APP",
+      "controlled_by": ["GMFO_TWR"]
+    },
+    {
+      "id": "GMME_APP",
+      "parent_id": "GMMN_CTR",
+      "controlled_by": ["GMME_APP"]
+    },
+    {
+      "id": "GMME_TWR",
+      "parent_id": "GMME_APP",
+      "controlled_by": ["GMME_TWR"]
+    },
+    {
+      "id": "GMMH_APP",
+      "parent_id": "GMMM_S_CTR",
+      "controlled_by": ["GMMH_APP"]
+    },
+    {
+      "id": "GMMH_TWR",
+      "parent_id": "GMMH_APP",
+      "controlled_by": ["GMMH_TWR"]
+    },
+    {
+      "id": "GMMI_APP",
+      "parent_id": "GMMM_S_CTR",
+      "controlled_by": ["GMMI_APP"]
+    },
+    {
+      "id": "GMMI_TWR",
+      "parent_id": "GMMI_APP",
+      "controlled_by": ["GMMI_TWR"]
+    },
+    {
+      "id": "GMML_APP",
+      "parent_id": "GMMM_S_CTR",
+      "controlled_by": ["GMML_APP"]
+    },
+    {
+      "id": "GMML_TWR",
+      "parent_id": "GMML_APP",
+      "controlled_by": ["GMML_TWR"]
+    },
+    {
+      "id": "GMMN_APP",
+      "parent_id": "GMMN_CTR",
+      "controlled_by": ["GMMN_APP"]
+    },
+    {
+      "id": "GMMN_F_APP",
+      "parent_id": "GMMN_APP",
+      "controlled_by": ["GMMN_F_APP"]
+    },
+    {
+      "id": "GMMN_TWR",
+      "parent_id": "GMMN_APP",
+      "controlled_by": ["GMMN_TWR"]
+    },
+    {
+      "id": "GMMN_GND",
+      "parent_id": "GMMN_TWR",
+      "controlled_by": ["GMMN_GND"]
+    },
+    {
+      "id": "GMMN_P_GND",
+      "parent_id": "GMMN_DEL",
+      "controlled_by": ["GMMN_P_GND"]
+    },
+    {
+      "id": "GMMN_DEL",
+      "parent_id": "GMMN_GND",
+      "controlled_by": ["GMMN_DEL"]
+    },
+    {
+      "id": "GMMX_APP",
+      "parent_id": "GMMM_W_CTR",
+      "controlled_by": ["GMMX_APP"]
+    },
+    {
+      "id": "GMMX_TWR",
+      "parent_id": "GMMX_APP",
+      "controlled_by": ["GMMX_TWR"]
+    },
+    {
+      "id": "GMMX_GND",
+      "parent_id": "GMMX_TWR",
+      "controlled_by": ["GMMX_GND"]
+    },
+    {
+      "id": "GMMX_DEL",
+      "parent_id": "GMMX_GND",
+      "controlled_by": ["GMMX_DEL"]
+    },
+    {
+      "id": "GMMZ_APP",
+      "parent_id": "GMMM_W_CTR",
+      "controlled_by": ["GMMZ_APP"]
+    },
+    {
+      "id": "GMMZ_TWR",
+      "parent_id": "GMMZ_APP",
+      "controlled_by": ["GMMZ_TWR"]
+    },
+    {
+      "id": "GMTT_APP",
+      "parent_id": "GMMM_N_CTR",
+      "controlled_by": ["GMTT_APP"]
+    },
+    {
+      "id": "GMTT_TWR",
+      "parent_id": "GMTT_APP",
+      "controlled_by": ["GMTT_TWR"]
+    },
+    {
+      "id": "GMAT_TWR",
+      "parent_id": "GMMM_S_CTR",
+      "controlled_by": ["GMAT_TWR"]
+    },
+    {
+      "id": "GMAZ_TWR",
+      "parent_id": "GMMM_W_CTR",
+      "controlled_by": ["GMAZ_TWR"]
+    },
+    {
+      "id": "GMFI_TWR",
+      "parent_id": "GMMM_E_CTR",
+      "controlled_by": ["GMFI_TWR"]
+    },
+    {
+      "id": "GMFK_TWR",
+      "parent_id": "GMMM_E_CTR",
+      "controlled_by": ["GMFK_TWR"]
+    },
+    {
+      "id": "GMMB_TWR",
+      "parent_id": "GMMN_APP",
+      "controlled_by": ["GMMB_TWR"]
+    },
+    {
+      "id": "GMMD_TWR",
+      "parent_id": "GMMM_W_CTR",
+      "controlled_by": ["GMMD_TWR"]
+    },
+    {
+      "id": "GMMT_TWR",
+      "parent_id": "GMMN_APP",
+      "controlled_by": ["GMMT_TWR"]
+    },
+    {
+      "id": "GMMW_TWR",
+      "parent_id": "GMMM_E_CTR",
+      "controlled_by": ["GMMW_TWR"]
+    },
+    {
+      "id": "GMTA_TWR",
+      "parent_id": "GMMM_E_CTR",
+      "controlled_by": ["GMTA_TWR"]
+    },
+    {
+      "id": "GMTN_TWR",
+      "parent_id": "GMMM_N_CTR",
+      "controlled_by": ["GMTN_TWR"]
+    }
+  ]
+}

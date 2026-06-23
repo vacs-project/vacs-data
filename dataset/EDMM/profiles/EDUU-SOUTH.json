@@ -1,0 +1,387 @@
+{
+  "id": "EDUU-SOUTH",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["DA", "1-2"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["NTM", ""],
+            "station_id": "EDUU-NTM"
+          },
+          {
+            "label": ["FFM", ""],
+            "station_id": "EDUU-FFM"
+          },
+          {
+            "label": ["SLN", ""],
+            "station_id": "EDUU-SLN"
+          },
+          {
+            "label": ["MM", "NDG"],
+            "station_id": "EDMM-NDG",
+            "color": "azure"
+          },
+          {
+            "label": ["MM", "FUE"],
+            "station_id": "EDMM-FUE",
+            "color": "azure"
+          },
+          {
+            "label": ["MM", "ZUG"],
+            "station_id": "EDMM-ZUG",
+            "color": "azure"
+          },
+          {
+            "label": ["FUL", ""],
+            "station_id": "EDUU-FUL"
+          },
+          {
+            "label": ["WUR", ""],
+            "station_id": "EDUU-WUR"
+          },
+          {
+            "label": ["TGO", ""],
+            "station_id": "EDUU-TGO"
+          },
+          {
+            "label": ["MM", "WLD"],
+            "station_id": "EDMM-WLD",
+            "color": "azure"
+          },
+          {
+            "label": ["MM", "STA"],
+            "station_id": "EDMM-STA",
+            "color": "azure"
+          },
+          {
+            "label": ["MM", "TEG"],
+            "station_id": "EDMM-TEG",
+            "color": "azure"
+          },
+          {
+            "label": ["ERL", ""],
+            "station_id": "EDUU-ERL"
+          },
+          {
+            "label": ["DON", ""],
+            "station_id": "EDUU-DON"
+          },
+          {
+            "label": ["AMM", ""],
+            "station_id": "EDUU-AMM"
+          },
+          {
+            "label": ["ALP", ""],
+            "station_id": "EDUU-ALP"
+          },
+          {
+            "label": ["MM", "ALB"],
+            "station_id": "EDMM-ALB",
+            "color": "azure"
+          },
+          {
+            "label": ["MM", "TRU"],
+            "station_id": "EDMM-TRU",
+            "color": "azure"
+          },
+          {
+            "label": ["SPE", ""],
+            "station_id": "EDUU-SPE"
+          },
+          {
+            "label": ["SAL", ""],
+            "station_id": "EDUU-SAL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MM", "RDG"],
+            "station_id": "EDMM-RDG",
+            "color": "azure"
+          },
+          {
+            "label": ["MM", "EGG"],
+            "station_id": "EDMM-EGG",
+            "color": "azure"
+          },
+          {
+            "label": ["FMP", "MIL"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["EDMM", "FMP"],
+                  "station_id": "EDMM-FMP"
+                },
+                {
+                  "label": ["EDWW", "FMP"]
+                },
+                {
+                  "label": ["EDGG", "FMP"]
+                },
+                {
+                  "label": ["EPWW", "FMP"],
+                  "station_id": "EPWW_FMP"
+                },
+                {
+                  "label": ["LKAA", "FMP"]
+                },
+                {
+                  "label": ["LIPP", "FMP"],
+                  "station_id": "LIPP-FMP"
+                },
+                {
+                  "label": ["LSAS", "FMP"]
+                },
+                {
+                  "label": ["LOVV", "FMP"],
+                  "station_id": "LOVV_FMP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["ETXX", "SR"]
+                },
+                {
+                  "label": ["ETXX", "LS"]
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["MM", "HOF"],
+            "station_id": "EDMM-HOF",
+            "color": "azure"
+          },
+          {
+            "label": ["MM", "BBG"],
+            "station_id": "EDMM-BBG",
+            "color": "azure"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LIPP", "N8 365+"],
+            "station_id": "LIPP-NE8",
+            "color": "lilac"
+          },
+          {
+            "label": ["LIPP", "N6 335+", ""],
+            "station_id": "LIPP-NE6",
+            "color": "lilac"
+          },
+          {
+            "label": ["LIPP", "N3 285+"],
+            "station_id": "LIPP-NE3",
+            "color": "lilac"
+          },
+          {
+            "label": ["GG", "LBU"],
+            "station_id": "EDGG-LBU",
+            "color": "blush"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LOVV", "W27 315+"],
+            "station_id": "LOVV_W7",
+            "color": "clay"
+          },
+          {
+            "label": ["LOVV", "W1 315-"],
+            "station_id": "LOVV_W1",
+            "color": "clay"
+          },
+          {
+            "label": ["GG", "DKB"],
+            "station_id": "EDGG-DKB",
+            "color": "blush"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LOVV", "B27 315+"],
+            "station_id": "LOVV_B7",
+            "color": "clay"
+          },
+          {
+            "label": ["LOVV", "B1 315-"],
+            "station_id": "LOVV_B1",
+            "color": "clay"
+          },
+          {
+            "label": ["GG", "KTG"],
+            "station_id": "EDGG-KTG",
+            "color": "blush"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LKAA", "W 305+"],
+            "station_id": "LKAA WU",
+            "color": "lilac"
+          },
+          {
+            "label": ["LKAA", "W 305-"],
+            "station_id": "LKAA WL",
+            "color": "lilac"
+          },
+          {
+            "label": ["LOVV", "N27 315+"],
+            "station_id": "LOVV_N7",
+            "color": "clay"
+          },
+          {
+            "label": ["LOVV", "N1 315-"],
+            "station_id": "LOVV_N1",
+            "color": "clay"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["DIR"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": ["ED*", "ET*", "LO*", "LK*", "LS*", "EP*"],
+          "exclude": ["LON*"],
+          "grouping": "Fir",
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
+        }
+      }
+    }
+  ]
+}

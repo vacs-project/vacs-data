@@ -1,0 +1,188 @@
+{
+  "stations": [
+    {
+      "id": "AWR",
+      "controlled_by": ["TPE_W_CTR"]
+    },
+    {
+      "id": "AER",
+      "parent_id": "AWR",
+      "controlled_by": ["TPE_E_CTR"]
+    },
+    {
+      "id": "ALR",
+      "parent_id": "AWR",
+      "controlled_by": ["TPE_L_CTR"]
+    },
+    {
+      "id": "ASR",
+      "parent_id": "AER",
+      "controlled_by": ["TPE_S_CTR"]
+    },
+    {
+      "id": "ACR",
+      "parent_id": "AWR",
+      "controlled_by": ["TPE_C_CTR"]
+    },
+    {
+      "id": "ANR",
+      "parent_id": "ALR",
+      "controlled_by": ["TPE_N_CTR"]
+    },
+    {
+      "id": "AMR",
+      "parent_id": "ANR",
+      "controlled_by": ["TPE_M_CTR"]
+    },
+    {
+      "id": "AOR",
+      "parent_id": "AER",
+      "controlled_by": ["TPE_O_CTR"]
+    },
+    {
+      "id": "TSR",
+      "parent_id": "AWR",
+      "controlled_by": ["RCTP_S_APP"]
+    },
+    {
+      "id": "TGR",
+      "parent_id": "TSR",
+      "controlled_by": ["RCTP_A_APP"]
+    },
+    {
+      "id": "TWR",
+      "parent_id": "TSR",
+      "controlled_by": ["RCTP_W_APP"]
+    },
+    {
+      "id": "TNR",
+      "parent_id": "TSR",
+      "controlled_by": ["RCTP_N_APP"]
+    },
+    {
+      "id": "TER",
+      "parent_id": "TWR",
+      "controlled_by": ["RCTP_E_APP"]
+    },
+    {
+      "id": "TMR",
+      "parent_id": "TSR",
+      "controlled_by": ["RCTP_M_APP"]
+    },
+    {
+      "id": "TFR",
+      "parent_id": "TNR",
+      "controlled_by": ["RCTP_F_APP"]
+    },
+    {
+      "id": "TYR",
+      "parent_id": "TER",
+      "controlled_by": ["RCTP_Y_APP"]
+    },
+    {
+      "id": "TPT",
+      "parent_id": "TSR",
+      "controlled_by": ["RCTP_TWR"]
+    },
+    {
+      "id": "TGN",
+      "parent_id": "TPT",
+      "controlled_by": ["RCTP_N_GND"]
+    },
+    {
+      "id": "TGS",
+      "parent_id": "TPT",
+      "controlled_by": ["RCTP_S_GND"]
+    },
+    {
+      "id": "TPCD",
+      "parent_id": "TGN",
+      "controlled_by": ["RCTP_DEL"]
+    },
+    {
+      "id": "SST",
+      "parent_id": "TWR",
+      "controlled_by": ["RCSS_TWR"]
+    },
+    {
+      "id": "SSG",
+      "parent_id": "SST",
+      "controlled_by": ["RCSS_GND"]
+    },
+    {
+      "id": "SSCD",
+      "parent_id": "SSG",
+      "controlled_by": ["RCSS_DEL"]
+    },
+    {
+      "id": "KHR",
+      "parent_id": "AER",
+      "controlled_by": ["RCKH_K_APP"]
+    },
+    {
+      "id": "KKR",
+      "parent_id": "KHR",
+      "controlled_by": ["RCKH_U_APP"]
+    },
+    {
+      "id": "KFR",
+      "parent_id": "KHR",
+      "controlled_by": ["RCKH_F_APP"]
+    },
+    {
+      "id": "KQR",
+      "parent_id": "KKR",
+      "controlled_by": ["RCKH_Q_APP"]
+    },
+    {
+      "id": "KNR",
+      "parent_id": "KKR",
+      "controlled_by": ["RCKH_N_APP"]
+    },
+    {
+      "id": "KBR",
+      "parent_id": "KQR",
+      "controlled_by": ["RCKH_B_APP"]
+    },
+    {
+      "id": "KHT",
+      "parent_id": "KHR",
+      "controlled_by": ["RCKH_TWR"]
+    },
+    {
+      "id": "KHG",
+      "parent_id": "KHT",
+      "controlled_by": ["RCKH_GND"]
+    },
+    {
+      "id": "KHCD",
+      "parent_id": "KHG",
+      "controlled_by": ["RCKH_DEL"]
+    },
+    {
+      "id": "BST",
+      "parent_id": "KBR",
+      "controlled_by": ["RCBS_TWR"]
+    },
+    {
+      "id": "BSG",
+      "parent_id": "BST",
+      "controlled_by": ["RCBS_GND"]
+    },
+    {
+      "id": "CMT",
+      "parent_id": "KQR",
+      "controlled_by": ["RCCM_TWR"]
+    },
+    {
+      "id": "QCT",
+      "parent_id": "KQR",
+      "controlled_by": ["RCQC_TWR"]
+    },
+    {
+      "id": "QCG",
+      "parent_id": "QCT",
+      "controlled_by": ["RCQC_GND"]
+    }
+  ]
+}

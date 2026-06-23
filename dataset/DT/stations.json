@@ -2,10 +2,12 @@
   "stations": [
     {
       "id": "DTTC_FMP",
+      "parent_id": "DTTC_CTR",
       "controlled_by": ["DTTC_FMP"]
     },
     {
       "id": "DTTC_CTR",
+      "parent_id": "AFRN_FSS",
       "controlled_by": ["DTTC_CTR"]
     },
     {

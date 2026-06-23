@@ -1,0 +1,33 @@
+{
+  "id": "CYQM",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "CYQM",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["QM", "CTR"],
+            "station_id": "CZQM-CTR"
+          },
+          {
+            "label": ["QM", "LO"],
+            "station_id": "CZQM-QM"
+          },
+          {
+            "label": ["QM", "TWR"],
+            "station_id": "CYQM-TWR"
+          },
+          {
+            "label": ["QM", "GND"],
+            "station_id": "CYQM-GND"
+          },
+          {
+            "label": ""
+          }
+        ]
+      }
+    }
+  ]
+}

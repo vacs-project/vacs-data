@@ -1,0 +1,16 @@
+{
+  "id": "OENG",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OENG"],
+      "page": {
+        "rows": 2,
+        "keys": [
+          { "label": ["GND"], "station_id": "OENG_GND" },
+          { "label": ["TWR"], "station_id": "OENG_TWR" }
+        ]
+      }
+    }
+  ]
+}

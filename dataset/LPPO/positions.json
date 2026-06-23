@@ -1,0 +1,118 @@
+{
+  "positions": [
+    {
+      "id": "LPCR_I_TWR",
+      "prefixes": ["LPCR"],
+      "frequency": "122.300",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LPPI_I_TWR",
+      "prefixes": ["LPPI"],
+      "frequency": "122.700",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LPSJ_I_TWR",
+      "prefixes": ["LPSJ"],
+      "frequency": "119.800",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LPGR_I_TWR",
+      "prefixes": ["LPGR"],
+      "frequency": "122.900",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LPLA_DEL",
+      "prefixes": ["LPLA"],
+      "frequency": "134.100",
+      "facility_type": "DEL"
+    },
+    {
+      "id": "LPLA_GND",
+      "prefixes": ["LPLA"],
+      "frequency": "121.900",
+      "facility_type": "GND"
+    },
+    {
+      "id": "LPLA_TWR",
+      "prefixes": ["LPLA"],
+      "frequency": "122.100",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LPLA_APP",
+      "prefixes": ["LPLA"],
+      "frequency": "135.000",
+      "facility_type": "APP"
+    },
+    {
+      "id": "LPAZ_TWR",
+      "prefixes": ["LPAZ"],
+      "frequency": "118.100",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LPPD_TWR",
+      "prefixes": ["LPPD"],
+      "frequency": "118.300",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LPPD_APP",
+      "prefixes": ["LPPD"],
+      "frequency": "119.400",
+      "facility_type": "APP"
+    },
+    {
+      "id": "LPHR_TWR",
+      "prefixes": ["LPHR"],
+      "frequency": "118.000",
+      "facility_type": "TWR"
+    },
+    {
+      "id": "LPHR_APP",
+      "prefixes": ["LPHR"],
+      "frequency": "120.600",
+      "facility_type": "APP"
+    },
+    {
+      "id": "LPFL_APP",
+      "prefixes": ["LPFL"],
+      "frequency": "118.800",
+      "facility_type": "APP"
+    },
+    {
+      "id": "LPPO_TMA_CTR",
+      "prefixes": ["LPPO"],
+      "frequency": "129.400",
+      "facility_type": "CTR"
+    },
+    {
+      "id": "LPPO_CTR",
+      "prefixes": ["LPPO"],
+      "frequency": "132.150",
+      "facility_type": "CTR"
+    },
+    {
+      "id": "LPPO_OC_DEL",
+      "prefixes": ["LPPO"],
+      "frequency": "127.900",
+      "facility_type": "DEL"
+    },
+    {
+      "id": "LPPO_OC_CTR",
+      "prefixes": ["LPPO"],
+      "frequency": "131.130",
+      "facility_type": "CTR"
+    },
+    {
+      "id": "LPPO_FSS",
+      "prefixes": ["LPPO"],
+      "frequency": "133.060",
+      "facility_type": "FSS"
+    }
+  ]
+}

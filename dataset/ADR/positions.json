@@ -1,0 +1,44 @@
+{
+  "positions": [
+    {
+      "id": "ADR_CTR",
+      "prefixes": ["ADR"],
+      "frequency": "130.000",
+      "facility_type": "CTR"
+    },
+    {
+      "id": "ADR_U_CTR",
+      "prefixes": ["ADR"],
+      "frequency": "130.750",
+      "facility_type": "CTR"
+    },
+    {
+      "id": "ADR_W_CTR",
+      "prefixes": ["ADR"],
+      "frequency": "130.450",
+      "facility_type": "CTR",
+      "profile_id": "ADRW"
+    },
+    {
+      "id": "ADR_E_CTR",
+      "prefixes": ["ADR"],
+      "frequency": "130.550",
+      "facility_type": "CTR",
+      "profile_id": "ADRE"
+    },
+    {
+      "id": "ADR_UW_CTR",
+      "prefixes": ["ADR"],
+      "frequency": "130.110",
+      "facility_type": "CTR",
+      "profile_id": "ADRW"
+    },
+    {
+      "id": "ADR_UE_CTR",
+      "prefixes": ["ADR"],
+      "frequency": "130.250",
+      "facility_type": "CTR",
+      "profile_id": "ADRE"
+    }
+  ]
+}

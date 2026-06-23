@@ -1,0 +1,222 @@
+[[stations]]
+id = "RJTT_APP"
+controlled_by = [
+  "RJTT_APP",
+  "RJTT_DEP",
+  "RJTT_N_APP",
+  "RJTT_S_APP",
+  "RJTT_K_APP",
+  "RJTT_F_APP",
+  "RJTT_R_APP",
+  "RJTT_H_APP",
+  "RJTT_Z_APP",
+  "RJTT_V_APP",
+  "RJTT_N_DEP",
+  "RJTT_S_DEP",
+]
+
+[[stations]]
+id = "RJTT_N_APP"
+parent_id = "RJTT_APP"
+controlled_by = ["RJTT_N_APP"]
+
+[[stations]]
+id = "RJTT_K_APP"
+parent_id = "RJTT_N_APP"
+controlled_by = ["RJTT_K_APP"]
+
+[[stations]]
+id = "RJTT_S_APP"
+parent_id = "RJTT_APP"
+controlled_by = ["RJTT_S_APP"]
+
+[[stations]]
+id = "RJTT_F_APP"
+parent_id = "RJTT_APP"
+controlled_by = ["RJTT_F_APP", "RJTT_S_APP"]
+
+[[stations]]
+id = "RJTT_R_APP"
+parent_id = "RJTT_APP"
+controlled_by = ["RJTT_R_APP", "RJTT_F_APP", "RJTT_S_APP"]
+
+[[stations]]
+id = "RJTT_H_APP"
+parent_id = "RJTT_APP"
+controlled_by = ["RJTT_H_APP"]
+
+[[stations]]
+id = "RJTT_Z_APP"
+parent_id = "RJTT_APP"
+controlled_by = ["RJTT_Z_APP", "RJTT_S_APP"]
+
+[[stations]]
+id = "RJTT_DEP"
+parent_id = "RJTT_APP"
+controlled_by = ["RJTT_DEP", "RJTT_N_DEP", "RJTT_S_DEP"]
+
+[[stations]]
+id = "RJTT_N_DEP"
+parent_id = "RJTT_DEP"
+controlled_by = ["RJTT_N_DEP", "RJTT_S_DEP", "RJTT_N_APP"]
+
+[[stations]]
+id = "RJTT_S_DEP"
+parent_id = "RJTT_DEP"
+controlled_by = ["RJTT_S_DEP", "RJTT_N_DEP", "RJTT_S_APP"]
+
+[[stations]]
+id = "RJTT_V_APP"
+parent_id = "RJTT_APP"
+controlled_by = ["RJTT_V_APP", "RJTT_S_APP"]
+
+[[stations]]
+id = "RJTT_N_TWR"
+parent_id = "RJTT_TWR"
+controlled_by = ["RJTT_N_TWR", "RJTT_W_TWR"]
+
+[[stations]]
+id = "RJTT_E_TWR"
+parent_id = "RJTT_TWR"
+controlled_by = ["RJTT_E_TWR"]
+
+[[stations]]
+id = "RJTT_S_TWR"
+parent_id = "RJTT_TWR"
+controlled_by = ["RJTT_S_TWR", "RJTT_E_TWR"]
+
+[[stations]]
+id = "RJTT_W_TWR"
+parent_id = "RJTT_TWR"
+controlled_by = ["RJTT_W_TWR"]
+
+[[stations]]
+id = "RJTT_GND"
+parent_id = "RJTT_TWR"
+controlled_by = [
+  "RJTT_N_GND",
+  "RJTT_E_GND",
+  "RJTT_W_GND",
+  "RJTT_S_GND",
+  "RJTT_K_GND",
+  "RJTT_GND",
+]
+
+[[stations]]
+id = "RJTT_W_GND"
+parent_id = "RJTT_GND"
+controlled_by = ["RJTT_W_GND"]
+
+[[stations]]
+id = "RJTT_N_GND"
+parent_id = "RJTT_GND"
+controlled_by = ["RJTT_N_GND", "RJTT_W_GND"]
+
+[[stations]]
+id = "RJTT_E_GND"
+parent_id = "RJTT_GND"
+controlled_by = ["RJTT_E_GND"]
+
+[[stations]]
+id = "RJTT_S_GND"
+parent_id = "RJTT_GND"
+controlled_by = ["RJTT_S_GND", "RJTT_E_GND"]
+
+[[stations]]
+id = "RJTT_K_GND"
+parent_id = "RJTT_GND"
+controlled_by = ["RJTT_K_GND", "RJTT_W_GND"]
+
+[[stations]]
+id = "RJTT_DEL"
+parent_id = "RJTT_GND"
+controlled_by = ["RJTT_DEL"]
+
+[[stations]]
+id = "RJAA_APP"
+controlled_by = [
+  "RJAA_APP",
+  "RJAA_S_APP",
+  "RJAA_R_APP",
+  "RJAA_B_APP",
+  "RJAA_E_APP",
+  "RJAA_A_APP",
+]
+
+[[stations]]
+id = "RJAA_S_APP"
+parent_id = "RJAA_APP"
+controlled_by = ["RJAA_S_APP"]
+
+[[stations]]
+id = "RJAA_R_APP"
+parent_id = "RJAA_S_APP"
+controlled_by = ["RJAA_R_APP"]
+
+[[stations]]
+id = "RJAA_B_APP"
+parent_id = "RJAA_R_APP"
+controlled_by = ["RJAA_B_APP"]
+
+[[stations]]
+id = "RJAA_E_APP"
+parent_id = "RJAA_APP"
+controlled_by = ["RJAA_E_APP"]
+
+[[stations]]
+id = "RJAA_A_APP"
+parent_id = "RJAA_R_APP"
+controlled_by = ["RJAA_A_APP"]
+
+[[stations]]
+id = "RJAA_DEP"
+parent_id = "RJAA_APP"
+controlled_by = [
+  "RJAA_DEP",
+  "RJAA_A_DEP",
+  "RJAA_B_DEP",
+  "RJAA_R_DEP",
+  "RJAA_S_DEP",
+  "RJAA_N_DEP",
+  "RJAA_W_DEP",
+]
+
+[[stations]]
+id = "RJAA_A_DEP"
+parent_id = "RJAA_DEP"
+controlled_by = ["RJAA_A_DEP"]
+
+[[stations]]
+id = "RJAA_B_DEP"
+parent_id = "RJAA_DEP"
+controlled_by = ["RJAA_B_DEP"]
+
+[[stations]]
+id = "RJAA_R_DEP"
+parent_id = "RJAA_DEP"
+controlled_by = ["RJAA_R_DEP"]
+
+[[stations]]
+id = "RJAA_S_DEP"
+parent_id = "RJAA_DEP"
+controlled_by = ["RJAA_S_DEP"]
+
+[[stations]]
+id = "RJAA_N_DEP"
+parent_id = "RJAA_DEP"
+controlled_by = ["RJAA_N_DEP"]
+
+[[stations]]
+id = "RJAA_W_DEP"
+parent_id = "RJAA_DEP"
+controlled_by = ["RJAA_W_DEP"]
+
+[[stations]]
+id = "RJAA_V_APP"
+parent_id = "RJAA_DEP"
+controlled_by = ["RJAA_V_APP"]
+
+[[stations]]
+id = "RJTT_TWR"
+parent_id = "RJTT_S_DEP"
+controlled_by = ["RJTT_N_TWR", "RJTT_E_TWR", "RJTT_S_TWR", "RJTT_W_TWR"]

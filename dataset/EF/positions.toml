@@ -4,6 +4,7 @@ prefixes = ["EFIN"]
 frequency = "199.998"
 facility_type = "FMP"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_FMP"]
 
 [[positions]]
 id = "EFIN_A_CTR"
@@ -11,6 +12,7 @@ prefixes = ["EFIN"]
 frequency = "127.425"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_A"]
 
 [[positions]]
 id = "EFIN_B_CTR"
@@ -18,6 +20,7 @@ prefixes = ["EFIN"]
 frequency = "125.225"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_B"]
 
 [[positions]]
 id = "EFIN_C_CTR"
@@ -25,6 +28,7 @@ prefixes = ["EFIN"]
 frequency = "132.675"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_C"]
 
 [[positions]]
 id = "EFIN_D_CTR"
@@ -32,6 +36,7 @@ prefixes = ["EFIN"]
 frequency = "121.300"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_D"]
 
 [[positions]]
 id = "EFIN_E_CTR"
@@ -39,6 +44,7 @@ prefixes = ["EFIN"]
 frequency = "134.575"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_E"]
 
 [[positions]]
 id = "EFIN_F_CTR"
@@ -46,6 +52,7 @@ prefixes = ["EFIN"]
 frequency = "132.725"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_F"]
 
 [[positions]]
 id = "EFIN_G_CTR"
@@ -53,6 +60,7 @@ prefixes = ["EFIN"]
 frequency = "127.100"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_G"]
 
 [[positions]]
 id = "EFIN_H_CTR"
@@ -60,6 +68,7 @@ prefixes = ["EFIN"]
 frequency = "124.200"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_H"]
 
 [[positions]]
 id = "EFIN_J_CTR"
@@ -67,6 +76,7 @@ prefixes = ["EFIN"]
 frequency = "126.100"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_J"]
 
 [[positions]]
 id = "EFIN_K_CTR"
@@ -74,6 +84,7 @@ prefixes = ["EFIN"]
 frequency = "123.775"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_K"]
 
 [[positions]]
 id = "EFIN_L_CTR"
@@ -81,6 +92,7 @@ prefixes = ["EFIN"]
 frequency = "130.975"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_L"]
 
 [[positions]]
 id = "EFIN_M_CTR"
@@ -88,6 +100,7 @@ prefixes = ["EFIN"]
 frequency = "132.325"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_M"]
 
 [[positions]]
 id = "EFIN_N_CTR"
@@ -95,6 +108,7 @@ prefixes = ["EFIN"]
 frequency = "135.525"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_N"]
 
 [[positions]]
 id = "EFIN_V_CTR"
@@ -102,6 +116,7 @@ prefixes = ["EFIN"]
 frequency = "126.300"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_V"]
 
 [[positions]]
 id = "EFIN_MIL_CTR"
@@ -109,6 +124,15 @@ prefixes = ["EFIN"]
 frequency = "131.525"
 facility_type = "CTR"
 profile_id = "EFIN"
+default_call_sources = ["EFIN_MIL"]
+
+[[positions]]
+id = "EFIN_MIL_FMP"
+prefixes = ["EFIN"]
+frequency = "131.525"
+facility_type = "FMP"
+profile_id = "EFIN"
+default_call_sources = ["EFIN_MIL_FMP"]
 
 [[positions]]
 id = "EFHK_E_APP"
@@ -116,6 +140,7 @@ prefixes = ["EFHK"]
 frequency = "119.100"
 facility_type = "APP"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_RE"]
 
 [[positions]]
 id = "EFHK_W_APP"
@@ -123,6 +148,7 @@ prefixes = ["EFHK"]
 frequency = "129.850"
 facility_type = "APP"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_RW"]
 
 [[positions]]
 id = "EFHK_R_APP"
@@ -130,6 +156,7 @@ prefixes = ["EFHK"]
 frequency = "119.900"
 facility_type = "APP"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_AE"]
 
 [[positions]]
 id = "EFHK_A_APP"
@@ -137,6 +164,7 @@ prefixes = ["EFHK"]
 frequency = "124.325"
 facility_type = "APP"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_AW"]
 
 [[positions]]
 id = "EFHK_E_TWR"
@@ -144,6 +172,7 @@ prefixes = ["EFHK"]
 frequency = "118.600"
 facility_type = "TWR"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_TWE"]
 
 [[positions]]
 id = "EFHK_W_TWR"
@@ -151,6 +180,7 @@ prefixes = ["EFHK"]
 frequency = "118.850"
 facility_type = "TWR"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_TWW"]
 
 [[positions]]
 id = "EFHK_GND"
@@ -158,6 +188,7 @@ prefixes = ["EFHK"]
 frequency = "121.800"
 facility_type = "GND"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_GND"]
 
 [[positions]]
 id = "EFHK_DEL"
@@ -165,6 +196,7 @@ prefixes = ["EFHK"]
 frequency = "118.125"
 facility_type = "DEL"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_CLD"]
 
 [[positions]]
 id = "EFHK_C_GND"
@@ -172,6 +204,7 @@ prefixes = ["EFHK"]
 frequency = "133.850"
 facility_type = "GND"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_DEICE_CO"]
 
 [[positions]]
 id = "EFHK_D_GND"
@@ -179,6 +212,7 @@ prefixes = ["EFHK"]
 frequency = "121.675"
 facility_type = "GND"
 profile_id = "EFHK"
+default_call_sources = ["EFHK_DEICE_OP"]
 
 [[positions]]
 id = "EFHA_APP"
@@ -186,6 +220,7 @@ prefixes = ["EFHA"]
 frequency = "124.550"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFHA_COR"]
 
 [[positions]]
 id = "EFJY_APP"
@@ -193,6 +228,7 @@ prefixes = ["EFJY"]
 frequency = "127.000"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFJY_COR"]
 
 [[positions]]
 id = "EFJY_R_APP"
@@ -200,6 +236,7 @@ prefixes = ["EFJY"]
 frequency = "128.800"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFJY_ARR"]
 
 [[positions]]
 id = "EFKU_APP"
@@ -207,6 +244,7 @@ prefixes = ["EFKU"]
 frequency = "130.600"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFKU_COR"]
 
 [[positions]]
 id = "EFKU_R_APP"
@@ -214,6 +252,7 @@ prefixes = ["EFKU"]
 frequency = "122.850"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFKU_ARR"]
 
 [[positions]]
 id = "EFOU_APP"
@@ -221,6 +260,7 @@ prefixes = ["EFOU"]
 frequency = "118.150"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFOU_COR"]
 
 [[positions]]
 id = "EFPO_APP"
@@ -228,6 +268,7 @@ prefixes = ["EFPO"]
 frequency = "128.650"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFPO_COR"]
 
 [[positions]]
 id = "EFRO_APP"
@@ -235,6 +276,7 @@ prefixes = ["EFRO"]
 frequency = "129.900"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFRO_COR"]
 
 [[positions]]
 id = "EFRO_R_APP"
@@ -242,6 +284,7 @@ prefixes = ["EFRO"]
 frequency = "118.600"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFRO_ARR"]
 
 [[positions]]
 id = "EFTP_APP"
@@ -249,6 +292,7 @@ prefixes = ["EFTP"]
 frequency = "126.200"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFTP_COR"]
 
 [[positions]]
 id = "EFTP_R_APP"
@@ -256,6 +300,7 @@ prefixes = ["EFTP"]
 frequency = "120.250"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFTP_ARR"]
 
 [[positions]]
 id = "EFTU_APP"
@@ -263,6 +308,7 @@ prefixes = ["EFTU"]
 frequency = "120.475"
 facility_type = "APP"
 profile_id = "EFXX"
+default_call_sources = ["EFTU_COR"]
 
 [[positions]]
 id = "EFHA_TWR"
@@ -270,6 +316,7 @@ prefixes = ["EFHA"]
 frequency = "128.900"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFHA_TWR"]
 
 [[positions]]
 id = "EFHA_R_TWR"
@@ -277,6 +324,7 @@ prefixes = ["EFHA_R"]
 frequency = "128.900"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFHA_TWR"]
 
 [[positions]]
 id = "EFIV_R_TWR"
@@ -284,6 +332,7 @@ prefixes = ["EFIV"]
 frequency = "118.000"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFIV_TWR"]
 
 [[positions]]
 id = "EFJO_R_TWR"
@@ -291,6 +340,7 @@ prefixes = ["EFJO"]
 frequency = "120.900"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFJO_TWR"]
 
 [[positions]]
 id = "EFJY_TWR"
@@ -298,6 +348,7 @@ prefixes = ["EFJY"]
 frequency = "118.000"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFJY_TWR"]
 
 [[positions]]
 id = "EFJY_R_TWR"
@@ -305,6 +356,7 @@ prefixes = ["EFJY_R"]
 frequency = "118.000"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFJY_TWR"]
 
 [[positions]]
 id = "EFJY_GND"
@@ -312,6 +364,7 @@ prefixes = ["EFJY"]
 frequency = "121.850"
 facility_type = "GND"
 profile_id = "EFXX"
+default_call_sources = ["EFJY_GND"]
 
 [[positions]]
 id = "EFKE_R_TWR"
@@ -319,6 +372,7 @@ prefixes = ["EFKE"]
 frequency = "119.400"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFKE_TWR"]
 
 [[positions]]
 id = "EFKK_R_TWR"
@@ -326,6 +380,7 @@ prefixes = ["EFKK"]
 frequency = "120.100"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFKK_TWR"]
 
 [[positions]]
 id = "EFKS_R_TWR"
@@ -333,6 +388,7 @@ prefixes = ["EFKS"]
 frequency = "118.650"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFKS_TWR"]
 
 [[positions]]
 id = "EFKT_R_TWR"
@@ -340,6 +396,7 @@ prefixes = ["EFKT"]
 frequency = "118.950"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFKT_TWR"]
 
 [[positions]]
 id = "EFKT_DEL"
@@ -347,6 +404,7 @@ prefixes = ["EFKT"]
 frequency = "123.100"
 facility_type = "DEL"
 profile_id = "EFXX"
+default_call_sources = ["EFKT_DEL"]
 
 [[positions]]
 id = "EFKU_TWR"
@@ -354,6 +412,7 @@ prefixes = ["EFKU"]
 frequency = "120.150"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFKU_TWR"]
 
 [[positions]]
 id = "EFKU_R_TWR"
@@ -361,6 +420,7 @@ prefixes = ["EFKU_R"]
 frequency = "120.150"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFKU_TWR"]
 
 [[positions]]
 id = "EFLP_P_TWR"
@@ -368,6 +428,7 @@ prefixes = ["EFLP"]
 frequency = "120.200"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFLP_TWR"]
 
 [[positions]]
 id = "EFMA_R_TWR"
@@ -375,6 +436,7 @@ prefixes = ["EFMA"]
 frequency = "119.600"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFMA_TWR"]
 
 [[positions]]
 id = "EFOU_TWR"
@@ -382,6 +444,7 @@ prefixes = ["EFOU"]
 frequency = "124.400"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFOU_TWR"]
 
 [[positions]]
 id = "EFOU_R_TWR"
@@ -389,6 +452,7 @@ prefixes = ["EFOU_R"]
 frequency = "124.400"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFOU_TWR"]
 
 [[positions]]
 id = "EFPO_TWR"
@@ -396,6 +460,7 @@ prefixes = ["EFPO"]
 frequency = "119.250"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFPO_TWR"]
 
 [[positions]]
 id = "EFPO_R_TWR"
@@ -403,6 +468,7 @@ prefixes = ["EFPO_R"]
 frequency = "119.250"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFPO_TWR"]
 
 [[positions]]
 id = "EFRO_TWR"
@@ -410,6 +476,7 @@ prefixes = ["EFRO"]
 frequency = "118.700"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFRO_TWR"]
 
 [[positions]]
 id = "EFRO_R_TWR"
@@ -417,6 +484,7 @@ prefixes = ["EFRO"]
 frequency = "118.700"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFRO_TWR"]
 
 [[positions]]
 id = "EFRO_DEL"
@@ -424,6 +492,7 @@ prefixes = ["EFRO"]
 frequency = "118.525"
 facility_type = "DEL"
 profile_id = "EFXX"
+default_call_sources = ["EFRO_DEL"]
 
 [[positions]]
 id = "EFTP_TWR"
@@ -431,6 +500,7 @@ prefixes = ["EFTP"]
 frequency = "118.700"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFTP_TWR"]
 
 [[positions]]
 id = "EFTP_R_TWR"
@@ -438,6 +508,7 @@ prefixes = ["EFTP_R"]
 frequency = "118.700"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFTP_TWR"]
 
 [[positions]]
 id = "EFTP_GND"
@@ -445,6 +516,7 @@ prefixes = ["EFTP"]
 frequency = "124.275"
 facility_type = "GND"
 profile_id = "EFXX"
+default_call_sources = ["EFTP_GND"]
 
 [[positions]]
 id = "EFTU_TWR"
@@ -452,6 +524,7 @@ prefixes = ["EFTU"]
 frequency = "118.300"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFTU_TWR"]
 
 [[positions]]
 id = "EFTU_R_TWR"
@@ -459,6 +532,7 @@ prefixes = ["EFTU_R"]
 frequency = "118.300"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFTU_TWR"]
 
 [[positions]]
 id = "EFUT_P_TWR"
@@ -466,6 +540,7 @@ prefixes = ["EFUT"]
 frequency = "130.800"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFUT_TWR"]
 
 [[positions]]
 id = "EFVA_R_TWR"
@@ -473,6 +548,7 @@ prefixes = ["EFVA"]
 frequency = "120.950"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFVA_TWR"]
 
 [[positions]]
 id = "EFET_I_TWR"
@@ -480,6 +556,7 @@ prefixes = ["EFET"]
 frequency = "122.450"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFET"]
 
 [[positions]]
 id = "EFKI_I_TWR"
@@ -487,6 +564,7 @@ prefixes = ["EFKI"]
 frequency = "118.100"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFKI"]
 
 [[positions]]
 id = "EFMI_I_TWR"
@@ -494,6 +572,7 @@ prefixes = ["EFMI"]
 frequency = "123.000"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFMI"]
 
 [[positions]]
 id = "EFSA_I_TWR"
@@ -501,6 +580,7 @@ prefixes = ["EFSA"]
 frequency = "118.800"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFSA"]
 
 [[positions]]
 id = "EFSI_I_TWR"
@@ -508,3 +588,4 @@ prefixes = ["EFSI"]
 frequency = "123.600"
 facility_type = "TWR"
 profile_id = "EFXX"
+default_call_sources = ["EFSI"]

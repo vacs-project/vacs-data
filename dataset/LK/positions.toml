@@ -1,0 +1,230 @@
+[[positions]]
+id = "LKAA_CTR"
+prefixes = ["LKAA"]
+frequency = "127.125"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKAA_U_CTR"
+prefixes = ["LKAA"]
+frequency = "124.775"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKAA_L_CTR"
+prefixes = ["LKAA"]
+frequency = "135.135"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKAA_R_CTR"
+prefixes = ["LKAA"]
+frequency = "124.050"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKAA_N_CTR"
+prefixes = ["LKAA"]
+frequency = "127.825"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKAA_S_CTR"
+prefixes = ["LKAA"]
+frequency = "133.410"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKAA_W_CTR"
+prefixes = ["LKAA"]
+frequency = "120.275"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKAA_I_CTR"
+prefixes = ["LKAA"]
+frequency = "126.100"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKPR_APP"
+prefixes = ["LKPR"]
+frequency = "127.580"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKPR_D_APP"
+prefixes = ["LKPR"]
+frequency = "119.010"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKPR_DEP"
+prefixes = ["LKPR"]
+frequency = "120.530"
+facility_type = "DEP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKCV_APP"
+prefixes = ["LKCV"]
+frequency = "130.280"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKKB_APP"
+prefixes = ["LKKB"]
+frequency = "124.680"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKKV_APP"
+prefixes = ["LKKV"]
+frequency = "118.650"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKMT_APP"
+prefixes = ["LKMT"]
+frequency = "119.375"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKNA_APP"
+prefixes = ["LKNA"]
+frequency = "118.155"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKPD_APP"
+prefixes = ["LKPD"]
+frequency = "128.365"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKTB_APP"
+prefixes = ["LKTB"]
+frequency = "127.350"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKVO_APP"
+prefixes = ["LKVO"]
+frequency = "127.480"
+facility_type = "APP"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKCS_I_TWR"
+prefixes = ["LKCS"]
+frequency = "135.930"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKCV_TWR"
+prefixes = ["LKCV"]
+frequency = "134.205"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKKB_TWR"
+prefixes = ["LKKB"]
+frequency = "120.880"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKKU_TWR"
+prefixes = ["LKKU"]
+frequency = "120.105"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKKV_TWR"
+prefixes = ["LKKV"]
+frequency = "121.230"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKLT_I_TWR"
+prefixes = ["LKLT"]
+frequency = "120.335"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKMT_TWR"
+prefixes = ["LKMT"]
+frequency = "120.805"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKNA_TWR"
+prefixes = ["LKNA"]
+frequency = "126.505"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKPD_TWR"
+prefixes = ["LKPD"]
+frequency = "120.155"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKPR_TWR"
+prefixes = ["LKPR"]
+frequency = "134.560"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKTB_TWR"
+prefixes = ["LKTB"]
+frequency = "119.605"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKVO_TWR"
+prefixes = ["LKVO"]
+frequency = "133.080"
+facility_type = "TWR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKPR_GND"
+prefixes = ["LKPR"]
+frequency = "121.910"
+facility_type = "GND"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKPR_DEL"
+prefixes = ["LKPR"]
+frequency = "120.060"
+facility_type = "DEL"
+profile_id = "LKAA"

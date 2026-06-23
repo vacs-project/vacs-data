@@ -1,0 +1,96 @@
+{
+  "id": "EIME",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["BAL"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["BAL", "RAD"],
+            "color": "azure",
+            "station_id": "EIME_APP"
+          },
+          {
+            "label": ["US"],
+            "color": "mint",
+            "station_id": "EIDW_US_CTR"
+          },
+          {
+            "label": ["LS"],
+            "color": "mint",
+            "station_id": "EIDW_LS_CTR"
+          },
+          {
+            "label": ["APP"],
+            "color": "mint",
+            "station_id": "EIDW_APP"
+          },
+          {
+            "label": ["DUB", "AMC S"],
+            "color": "lavender",
+            "station_id": "EIDW_S_TWR"
+          },
+          {
+            "label": ["EISN", "LOW"],
+            "color": "snow",
+            "station_id": "EISN_LS_CTR"
+          },
+          {
+            "label": ["BAL", "AMC"],
+            "color": "azure",
+            "station_id": "EIME_TWR"
+          },
+          {
+            "label": ["UN"],
+            "color": "mint",
+            "station_id": "EIDW_UN_CTR"
+          },
+          {
+            "label": ["LN"],
+            "color": "mint",
+            "station_id": "EIDW_LN_CTR"
+          },
+          {
+            "label": ["FINALS"],
+            "color": "mint",
+            "station_id": "EIDW_F_APP"
+          },
+          {
+            "label": ["DUB", "AMC N"],
+            "color": "lavender",
+            "station_id": "EIDW_N_TWR"
+          },
+          {
+            "label": ["EISN", "FIS"],
+            "color": "snow",
+            "station_id": "EISN_I_CTR"
+          },
+          {
+            "label": ["BAL", "SMC"],
+            "color": "azure"
+          },
+          {
+            "label": ["", "TM"],
+            "color": "mint"
+          },
+          {
+            "label": ["FIS", "", ""],
+            "color": "mint",
+            "station_id": "EIDW_I_CTR"
+          },
+          {
+            "label": ["HLDG"],
+            "color": "mint"
+          },
+          {
+            "label": ["EIWT"],
+            "color": "clay",
+            "station_id": "EIWT_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

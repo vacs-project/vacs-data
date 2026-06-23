@@ -67,3 +67,21 @@ id = "EDXX_ISW_CTR"
 prefixes = ["EDXX"]
 frequency = "128.525"
 facility_type = "CTR"
+
+[[positions]]
+id = "ETXX_LS_CTR"
+prefixes = ["ETXX"]
+frequency = "122.765"
+facility_type = "CTR"
+
+[[positions]]
+id = "ETXX_SR_CTR"
+prefixes = ["ETXX"]
+frequency = "131.080"
+facility_type = "CTR"
+
+[[positions]]
+id = "ETXX_TRA_CTR"
+prefixes = ["ETXX"]
+frequency = "130.510"
+facility_type = "CTR"

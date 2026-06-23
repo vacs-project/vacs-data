@@ -1,0 +1,248 @@
+{
+  "id": "EBBR_TWR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EBBR"],
+      "page": {
+        "rows": 8,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EBAW", "GND"],
+            "color": "snow",
+            "station_id": "EBAW-TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["T", "25R"],
+            "color": "azure",
+            "station_id": "EBBR-NTWR"
+          },
+          {
+            "label": ["T", "25L"],
+            "color": "azure",
+            "station_id": "EBBR-TWR"
+          },
+          {
+            "label": ["T", "01"],
+            "color": "azure",
+            "station_id": "EBBR-TWR"
+          },
+          {
+            "label": ["EBGB"],
+            "color": "lilac"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["T", "GN"],
+            "color": "azure",
+            "station_id": "EBBR-N-GND"
+          },
+          {
+            "label": ["T", "GS"],
+            "color": "azure",
+            "station_id": "EBBR-S-GND"
+          },
+          {
+            "label": ["T", "GC"],
+            "color": "azure",
+            "station_id": "EBBR-C-GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["T", "DCL"],
+            "color": "azure",
+            "station_id": "EBBR-DEL"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["T", "SUP"],
+            "color": "azure",
+            "station_id": "EBBR-FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DEP"],
+            "color": "steel",
+            "station_id": "EBBR-DEP"
+          },
+          {
+            "label": ["ARR"],
+            "color": "steel",
+            "station_id": "EBBR-APP"
+          },
+          {
+            "label": ["FIN"],
+            "color": "steel",
+            "station_id": "EBBR-F-APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SUP", "ACC"],
+            "color": "snow",
+            "station_id": "EBBU-FMP"
+          },
+          {
+            "label": ["FIC"],
+            "color": "snow",
+            "station_id": "EBBU-FIC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ARR"],
+            "color": "lagoon",
+            "station_id": "EBBR-APP"
+          },
+          {
+            "label": ["FIN"],
+            "color": "lagoon",
+            "station_id": "EBBR-F-APP"
+          },
+          {
+            "label": ["DEP"],
+            "color": "lagoon",
+            "station_id": "EBBR-DEP"
+          },
+          {
+            "label": [],
+            "color": "lagoon"
+          },
+          {
+            "label": [],
+            "color": "lagoon"
+          },
+          {
+            "label": ["T", "SUP"],
+            "color": "lagoon",
+            "station_id": "EBBR-FMP"
+          },
+          {
+            "label": [],
+            "color": "lagoon"
+          },
+          {
+            "label": [],
+            "color": "lagoon"
+          }
+        ]
+      }
+    }
+  ]
+}

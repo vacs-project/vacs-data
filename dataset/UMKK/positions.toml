@@ -1,0 +1,27 @@
+[[positions]]
+id = "UMKK_CTR"
+prefixes = ["UMKK"]
+frequency = "123.700"
+facility_type = "CTR"
+profile_id = "UMKK"
+
+[[positions]]
+id = "UMKK_APP"
+prefixes = ["UMKK"]
+frequency = "126.000"
+facility_type = "APP"
+profile_id = "UMKK"
+
+[[positions]]
+id = "UMKK_TWR"
+prefixes = ["UMKK"]
+frequency = "127.200"
+facility_type = "TWR"
+profile_id = "UMKK"
+
+[[positions]]
+id = "UMKK_TMU"
+prefixes = ["UMKK"]
+frequency = "199.999"
+facility_type = "FMP"
+profile_id = "UMKK"

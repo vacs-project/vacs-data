@@ -3,16 +3,16 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["OTBD", "ADC"],
+      "label": ["ADC"],
       "page": {
-        "rows": 3,
+        "rows": 2,
         "keys": [
           {
-            "label": ["OTBD", "Ground"],
+            "label": ["GMC"],
             "station_id": "OTBD_GND"
           },
           {
-            "label": ["OTBD", "Tower"],
+            "label": ["AIR"],
             "station_id": "OTBD_TWR"
           },
           {
@@ -22,121 +22,14 @@
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": ["Doha", "Approach"],
-      "page": {
-        "rows": 4,
-        "keys": [
-          {
-            "label": ["Doha", "Approach", "East"],
-            "station_id": "DOH_A1_APP"
-          },
-          {
-            "label": ["Doha", "Approach", "West"],
+            "label": ["APP", "2"],
             "station_id": "DOH_A2_APP"
           },
           {
-            "label": ["Doha", "Director", "East"],
-            "station_id": "DOH_F1_APP"
-          },
-          {
-            "label": ["Doha", "Director", "Central"],
-            "station_id": "DOH_F2_APP"
-          },
-          {
-            "label": ["Doha", "Director", "West"],
+            "label": ["FIN", "3"],
             "station_id": "DOH_F3_APP"
-          },
-          {
-            "label": []
           }
         ]
-      }
-    },
-    {
-      "label": ["Doha", "Radar"],
-      "page": {
-        "rows": 3,
-        "keys": [
-          {
-            "label": ["Doha", "Radar", "North"],
-            "station_id": "DOH_R1_APP"
-          },
-          {
-            "label": ["Doha", "Radar", "South"],
-            "station_id": "DOH_R2_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": ["OTDF", "CTR"],
-      "page": {
-        "rows": 3,
-        "keys": [
-          {
-            "label": ["Doha", "Control", "North"],
-            "station_id": "OTDF_1_CTR"
-          },
-          {
-            "label": ["Doha", "Control", "South"],
-            "station_id": "OTDF_2_CTR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": "Neighboring",
-      "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "OB*",
-            "OKAC*",
-            "OERD*",
-            "OEDF*_APP",
-            "OMAE*",
-            "TEH*",
-            "GULF_E*",
-            "GULF*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
       }
     }
   ]

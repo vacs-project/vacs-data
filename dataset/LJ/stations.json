@@ -1,0 +1,63 @@
+{
+  "stations": [
+    {
+      "id": "LJLA",
+      "controlled_by": ["LJLA_CTR", "ADR_W_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LJLA-UPPER",
+      "controlled_by": [
+        "LJLA_U_CTR",
+        "LJLA_CTR",
+        "ADR_UW_CTR",
+        "ADR_U_CTR",
+        "ADR_W_CTR",
+        "ADR_CTR"
+      ]
+    },
+    {
+      "id": "LJLA-INFORMATION",
+      "controlled_by": ["LJLA_I_CTR", "LJLA_CTR"]
+    },
+    {
+      "id": "LJLJ_APP",
+      "parent_id": "LJLA",
+      "controlled_by": ["LJLJ_APP"]
+    },
+    {
+      "id": "LJMB_APP",
+      "parent_id": "LJLA",
+      "controlled_by": ["LJMB_APP"]
+    },
+    {
+      "id": "LJPZ_APP",
+      "parent_id": "LJLA",
+      "controlled_by": ["LJPZ_APP"]
+    },
+    {
+      "id": "LJCE_TWR",
+      "parent_id": "LJLJ_APP",
+      "controlled_by": ["LJCE_TWR"]
+    },
+    {
+      "id": "LJLJ_TWR",
+      "parent_id": "LJLJ_APP",
+      "controlled_by": ["LJLJ_TWR"]
+    },
+    {
+      "id": "LJMB_TWR",
+      "parent_id": "LJMB_APP",
+      "controlled_by": ["LJMB_TWR"]
+    },
+    {
+      "id": "LJPZ_TWR",
+      "parent_id": "LJPZ_APP",
+      "controlled_by": ["LJPZ_TWR"]
+    },
+    {
+      "id": "LJLJ_GND",
+      "parent_id": "LJLJ_TWR",
+      "controlled_by": ["LJLJ_GND"]
+    }
+  ]
+}

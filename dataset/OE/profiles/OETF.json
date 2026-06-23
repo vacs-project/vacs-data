@@ -1,0 +1,17 @@
+{
+  "id": "OETF",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OETF"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          { "label": ["GND"], "station_id": "OETF_GND" },
+          { "label": ["TWR"], "station_id": "OETF_TWR" },
+          { "label": ["APP"], "station_id": "OETF_APP" }
+        ]
+      }
+    }
+  ]
+}

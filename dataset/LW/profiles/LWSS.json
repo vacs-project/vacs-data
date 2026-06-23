@@ -1,0 +1,110 @@
+{
+  "id": "LWSS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["SKOPJE", "CONTROL", "SK"],
+            "station_id": "LWSS-ACC"
+          },
+          {
+            "label": ["KFOR", "ACC"],
+            "station_id": "KFOR"
+          },
+          {
+            "label": ["TIRANA", "CONTROL", "TI"],
+            "station_id": "LATI_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BEOGRAD", "RADAR", "BG"],
+            "station_id": "LYBA"
+          },
+          {
+            "label": ["BEOGRAD", "RADAR UP", "BGU"],
+            "station_id": "LYBA-UPPER"
+          },
+          {
+            "label": ["BEOGRAD", "EAST", "BGE"],
+            "station_id": "LYBA-EAST"
+          },
+          {
+            "label": ["BEOGRAD", "EAST", "BGUE"],
+            "station_id": "LYBA-UPPER-EAST"
+          },
+          {
+            "label": ["SOFIA", "CONTROL", "SF"],
+            "station_id": "LBSR-SOF"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["APP"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["SKOPJE", "APPROACH", "SKA"],
+            "station_id": "LWSK_APP"
+          },
+          {
+            "label": ["OHRID", "APPROACH", "OA"],
+            "station_id": "LWOH_APP"
+          },
+          {
+            "label": ["PRISTINA", "APPROACH", "PR"],
+            "station_id": "BKPR_APP"
+          },
+          {
+            "label": ["TIRANA", "APPROACH", "TIR"],
+            "station_id": "LATI_APP"
+          },
+          {
+            "label": ["SOFIA", "APPROACH", "SFA"],
+            "station_id": "LBSF_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["GND"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["SKOPJE", "TOWER"],
+            "station_id": "LWSK_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

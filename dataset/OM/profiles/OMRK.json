@@ -3,20 +3,20 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["OMRK", "ADC"],
+      "label": ["ADC"],
       "page": {
-        "rows": 4,
+        "rows": 2,
         "keys": [
           {
-            "label": ["Ras Al Khaimah", "Ground"],
+            "label": ["GMC"],
             "station_id": "OMRK_GND"
           },
           {
-            "label": ["Ras Al Khaimah", "Tower"],
+            "label": ["AIR"],
             "station_id": "OMRK_TWR"
           },
           {
-            "label": ["Ras Al Khaimah", "Approach"],
+            "label": ["APP"],
             "station_id": "OMRK_APP"
           },
           {
@@ -27,30 +27,24 @@
           },
           {
             "label": []
+          },
+          {
+            "label": ["UAE", "EAST", "SFC-275"],
+            "station_id": "OMAE_E_CTR"
+          },
+          {
+            "label": ["UAE", "ROMEO", "SFC-275"],
+            "station_id": "OMAE_R_CTR"
+          },
+          {
+            "label": ["UAE", "HOTEL", "SFC-275"],
+            "station_id": "OMAE_H_CTR"
+          },
+          {
+            "label": ["UAE", "MIKE", "SFC-UNL"],
+            "station_id": "OMAE_4_CTR"
           }
         ]
-      }
-    },
-    {
-      "label": "Neighboring",
-      "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "OB*",
-            "OTDF*",
-            "DOH*",
-            "TEH*",
-            "GULF*",
-            "GULF_E*",
-            "OOMM*",
-            "OEJD*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
       }
     }
   ]

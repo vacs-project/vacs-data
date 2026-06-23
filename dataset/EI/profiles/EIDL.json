@@ -1,0 +1,39 @@
+{
+  "id": "EIDL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EIDL"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["EISN", "", ""],
+            "color": "mint",
+            "station_id": "EISN_LN_CTR"
+          },
+          {
+            "label": ["SCO"],
+            "color": "azure",
+            "station_id": "EG-Westcoast-Rathlin"
+          },
+          {
+            "label": ["EISG"],
+            "color": "lavender",
+            "station_id": "EISG_TWR"
+          },
+          {
+            "label": ["FIS"],
+            "color": "mint",
+            "station_id": "EISN_I_CTR"
+          },
+          {
+            "label": ["EGAE"],
+            "color": "azure",
+            "station_id": "EGAE_reverse"
+          }
+        ]
+      }
+    }
+  ]
+}

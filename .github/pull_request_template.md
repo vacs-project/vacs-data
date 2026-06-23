@@ -17,6 +17,14 @@
 
 <!-- What does this PR change and why? -->
 
+### AIRAC dependency
+
+- [ ] This change is **AIRAC-dependent** and should only go live after a specific AIRAC cycle takes effect.
+
+<!-- If checked, add the appropriate airac/XXYY label to this PR (e.g., airac/2604).
+     The merge check will block until that cycle's effective date, then pass automatically.
+     You can enable auto-merge now -- the PR will merge on its own once the gate opens and CI passes. -->
+
 ### Checklist
 
 - [ ] Dataset files are in the correct `dataset/{FIR}/` directory.

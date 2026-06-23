@@ -3,39 +3,47 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "PRIM",
+      "label": ["PRIM"],
       "page": {
         "rows": 6,
         "keys": [
           {
             "label": ["HAN"],
+            "color": "lagoon",
             "station_id": "EDWW-HAN"
           },
           {
             "label": ["DVAT"],
+            "color": "lagoon",
             "station_id": "EDWW-DVAT"
           },
           {
             "label": ["TWR"],
+            "color": "mint",
             "station_id": "EDDV-TWR"
           },
           {
             "label": ["GND"],
+            "color": "azure",
             "station_id": "EDDV-GND"
           },
           {
             "label": ["DEL"],
+            "color": "blush",
             "station_id": "EDDV-DEL"
           },
           {
-            "label": ["EDWW", "FMP"]
+            "label": ["EDWW", "FMP"],
+            "color": "lagoon"
           },
           {
             "label": ["ETNW", "APP"],
+            "color": "steel",
             "station_id": "ETNW-APP"
           },
           {
             "label": ["ETNW", "TWR"],
+            "color": "steel",
             "station_id": "ETNW-TWR"
           }
         ]

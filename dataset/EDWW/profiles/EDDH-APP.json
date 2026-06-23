@@ -9,128 +9,166 @@
         "keys": [
           {
             "label": ["EID"],
+            "color": "lagoon",
             "station_id": "EDWW-EID"
           },
           {
             "label": ["HAM"],
+            "color": "lagoon",
             "station_id": "EDWW-HAM"
           },
           {
             "label": ["FRI"],
+            "color": "lagoon",
             "station_id": "EDWW-FRI"
           },
           {
             "label": ["HI", "TWR"],
+            "color": "mint",
             "station_id": "EDHI-TWR"
           },
           {
             "label": ["EKDK", "I"],
+            "color": "umber",
             "station_id": "EKDKI"
           },
           {
             "label": ["ETMN", "APP"],
+            "color": "steel",
             "station_id": "ETMN-APP"
           },
           {
             "label": ["ALR"],
+            "color": "lagoon",
             "station_id": "EDWW-ALR"
           },
           {
             "label": ["HAMW"],
+            "color": "lagoon",
             "station_id": "EDWW-HAMW"
           },
           {
             "label": ["HAN"],
+            "color": "lagoon",
             "station_id": "EDWW-HAN"
           },
           {
             "label": ["HL", "TWR"],
+            "color": "mint",
             "station_id": "EDHL-TWR"
           },
           {
             "label": ["EKDK", "B"],
+            "color": "umber",
             "station_id": "EKDKB"
           },
           {
             "label": ["ETNH", "APP"],
+            "color": "steel",
             "station_id": "ETNH-APP"
           },
           {
             "label": ["HEI"],
+            "color": "lagoon",
             "station_id": "EDWW-HEI"
           },
           {
             "label": ["DHAT"],
+            "color": "lagoon",
             "station_id": "EDWW-DHAT"
           },
           {
             "label": ["DH", "TWR"],
+            "color": "mint",
             "station_id": "EDDH-TWR"
           },
           {
             "label": ["HL", "GND"],
+            "color": "mint",
             "station_id": "EDHL-GND"
           },
           {
-            "label": ["FIS", "DH"]
+            "label": ["FIS", "DH"],
+            "color": "snow",
+            "station_id": "EDXX-FIS-IDH"
           },
           {
             "label": ["TRAMON", "SUNRISE", "LONESHIP"],
+            "color": "steel",
             "page": {
               "rows": 6,
               "keys": [
                 {
-                  "label": ["TRAMON", "", ""]
+                  "label": ["TRAMON", "", ""],
+                  "color": "steel",
+                  "station_id": "ETXX-TRA"
                 },
                 {
-                  "label": ["SUNRISE"]
+                  "label": ["SUNRISE"],
+                  "color": "steel",
+                  "station_id": "ETXX-SR"
                 },
                 {
-                  "label": ["LONESHIP"]
+                  "label": ["LONESHIP"],
+                  "color": "steel",
+                  "station_id": "ETXX-LS"
                 }
               ]
             }
           },
           {
             "label": ["MRZ"],
+            "color": "lagoon",
             "station_id": "EDWW-MRZ"
           },
           {
             "label": ["MAR"],
+            "color": "lagoon",
             "station_id": "EDWW-MAR"
           },
           {
             "label": ["DH", "GND/DEL"],
+            "color": "mint",
             "page": {
               "rows": 6,
               "keys": [
                 {
                   "label": ["DH", "TWR"],
+                  "color": "mint",
                   "station_id": "EDDH-TWR"
                 },
                 {
                   "label": ["DH", "APN", "E"],
+                  "color": "mint",
                   "station_id": "EDDH-GND_E"
                 },
                 {
                   "label": ["DH", "APN", "W"],
+                  "color": "mint",
                   "station_id": "EDDH-GND_W"
                 },
                 {
                   "label": ["DH", "DEL"],
+                  "color": "mint",
                   "station_id": "EDDH-DEL"
                 }
               ]
             }
           },
           {
-            "label": ["FIS", "SW"]
+            "label": ["FIS", "SW"],
+            "color": "snow",
+            "station_id": "EDXX-FIS-ISW"
           },
           {
-            "label": ["FIS", "DB"]
+            "label": ["FIS", "DB"],
+            "color": "snow",
+            "station_id": "EDXX-FIS-IDB"
           },
           {
-            "label": ["EDWW", "FMP"]
+            "label": ["EDWW", "FMP"],
+            "color": "lagoon",
+            "station_id": "EDWW-FMP"
           }
         ]
       }

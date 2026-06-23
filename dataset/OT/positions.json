@@ -1,6 +1,13 @@
 {
   "positions": [
     {
+      "id": "OTDF_FMP",
+      "prefixes": ["OTDF"],
+      "frequency": "135.725",
+      "facility_type": "FMP",
+      "profile_id": "OTDF"
+    },
+    {
       "id": "OTDF_1_CTR",
       "prefixes": ["OTDF"],
       "frequency": "135.725",
@@ -19,119 +26,119 @@
       "prefixes": ["DOH"],
       "frequency": "121.100",
       "facility_type": "APP",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "DOH_R2_APP",
       "prefixes": ["DOH"],
       "frequency": "120.675",
       "facility_type": "APP",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "DOH_A1_APP",
       "prefixes": ["DOH"],
       "frequency": "124.775",
       "facility_type": "APP",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "DOH_A2_APP",
       "prefixes": ["DOH"],
       "frequency": "119.725",
       "facility_type": "APP",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "DOH_F1_APP",
       "prefixes": ["DOH"],
       "frequency": "119.400",
       "facility_type": "APP",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "DOH_F2_APP",
       "prefixes": ["DOH"],
       "frequency": "124.050",
       "facility_type": "APP",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "DOH_F3_APP",
       "prefixes": ["DOH"],
       "frequency": "123.875",
       "facility_type": "APP",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "OTHH_1_TWR",
       "prefixes": ["OTHH"],
       "frequency": "118.525",
       "facility_type": "TWR",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "OTHH_2_TWR",
       "prefixes": ["OTHH"],
       "frequency": "118.025",
       "facility_type": "TWR",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "OTHH_1_GND",
       "prefixes": ["OTHH"],
       "frequency": "120.225",
       "facility_type": "GND",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "OTHH_2_GND",
       "prefixes": ["OTHH"],
       "frequency": "118.650",
       "facility_type": "GND",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "OTHH_3_GND",
       "prefixes": ["OTHH"],
       "frequency": "118.575",
       "facility_type": "GND",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "OTHH_4_GND",
       "prefixes": ["OTHH"],
       "frequency": "118.075",
       "facility_type": "GND",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "OTHH_5_GND",
       "prefixes": ["OTHH"],
       "frequency": "119.075",
       "facility_type": "GND",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "OTHH_DEL",
       "prefixes": ["OTHH"],
       "frequency": "120.875",
       "facility_type": "DEL",
-      "profile_id": "OTDF"
+      "profile_id": "OTHH"
     },
     {
       "id": "OTBD_TWR",
       "prefixes": ["OTBD"],
       "frequency": "118.900",
       "facility_type": "TWR",
-      "profile_id": "OTDF"
+      "profile_id": "OTBD"
     },
     {
       "id": "OTBD_GND",
       "prefixes": ["OTBD"],
       "frequency": "121.925",
       "facility_type": "GND",
-      "profile_id": "OTDF"
+      "profile_id": "OTBD"
     }
   ]
 }

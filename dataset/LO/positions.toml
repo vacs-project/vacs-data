@@ -234,6 +234,14 @@ default_call_sources = [
 ]
 
 [[positions]]
+id = "LOVV_WC_CTR"
+prefixes = ["LOVV"]
+frequency = "132.765"
+facility_type = "CTR"
+profile_id = "LOVV"
+default_call_sources = ["LOVV_W1", "LOVV_W2", "LOVV_B1", "LOVV_B2"]
+
+[[positions]]
 id = "LOVV_WU_CTR"
 prefixes = ["LOVV"]
 frequency = "129.965"

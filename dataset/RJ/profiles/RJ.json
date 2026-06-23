@@ -1,0 +1,281 @@
+{
+  "id": "RJ",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "RJTT",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["HS"],
+            "station_id": "RJTT_S_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["HF"],
+            "station_id": "RJTT_F_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["HR"],
+            "station_id": "RJTT_R_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["HZ"],
+            "station_id": "RJTT_Z_APP",
+            "color": "azure"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["HN"],
+            "station_id": "RJTT_N_APP",
+            "color": "cadet"
+          },
+          {
+            "label": ["HK"],
+            "station_id": "RJTT_K_APP",
+            "color": "cadet"
+          },
+          {
+            "label": ["HH"],
+            "station_id": "RJTT_H_APP",
+            "color": "cadet"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DEP", "HN"],
+            "station_id": "RJTT_N_DEP",
+            "color": "blush"
+          },
+          {
+            "label": ["DEP", "HS"],
+            "station_id": "RJTT_S_DEP",
+            "color": "blush"
+          },
+          {
+            "label": ["HV"],
+            "station_id": "RJTT_V_APP",
+            "color": "lilac"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LN"],
+            "station_id": "RJTT_N_TWR",
+            "color": "mint"
+          },
+          {
+            "label": ["LE"],
+            "station_id": "RJTT_E_TWR",
+            "color": "mint"
+          },
+          {
+            "label": ["LS"],
+            "station_id": "RJTT_S_TWR",
+            "color": "mint"
+          },
+          {
+            "label": ["LW"],
+            "station_id": "RJTT_W_TWR",
+            "color": "mint"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GN"],
+            "station_id": "RJTT_N_GND",
+            "color": "lagoon"
+          },
+          {
+            "label": ["GE"],
+            "station_id": "RJTT_E_GND",
+            "color": "lagoon"
+          },
+          {
+            "label": ["GS"],
+            "station_id": "RJTT_S_GND",
+            "color": "lagoon"
+          },
+          {
+            "label": ["GW"],
+            "station_id": "RJTT_W_GND",
+            "color": "lagoon"
+          },
+          {
+            "label": ["GK"],
+            "station_id": "RJTT_K_GND",
+            "color": "lagoon"
+          },
+          {
+            "label": ["DEL"],
+            "station_id": "RJTT_DEL",
+            "color": "taupe"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "RJAA",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["NS"],
+            "station_id": "RJAA_S_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["NR"],
+            "station_id": "RJAA_R_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["NB"],
+            "station_id": "RJAA_B_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["NA"],
+            "station_id": "RJAA_A_APP",
+            "color": "azure"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["NE"],
+            "station_id": "RJAA_E_APP",
+            "color": "cadet"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DEP", "NA"],
+            "station_id": "RJAA_A_DEP",
+            "color": "blush"
+          },
+          {
+            "label": ["DEP", "NB"],
+            "station_id": "RJAA_B_DEP",
+            "color": "blush"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DEP", "NS"],
+            "station_id": "RJAA_S_DEP",
+            "color": "umber"
+          },
+          {
+            "label": ["DEP", "NN"],
+            "station_id": "RJAA_N_DEP",
+            "color": "umber"
+          },
+          {
+            "label": ["DEP", "NW"],
+            "station_id": "RJAA_W_DEP",
+            "color": "umber"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["NK"],
+            "station_id": "RJAA_R_DEP",
+            "color": "lilac"
+          },
+          {
+            "label": ["NV"],
+            "station_id": "RJAA_V_APP",
+            "color": "lilac"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -57,8 +57,8 @@
             "station_id": "ESMM_IN"
           },
           {
-            "label": ["MM", "IS"],
-            "station_id": "ESMM_IS"
+            "label": ["MM", "FIS-S"],
+            "station_id": "ESMM_FIS-S"
           },
           {
             "label": []
@@ -192,15 +192,15 @@
         "rows": 3,
         "keys": [
           {
-            "label": ["COB", ""],
+            "label": ["EAG"],
             "station_id": "ESPF"
           },
           {
-            "label": ["GRI", ""],
+            "label": ["GRI"],
             "station_id": "ESCR"
           },
           {
-            "label": ["BSH", ""],
+            "label": ["COB"],
             "station_id": "ESDK"
           },
           {

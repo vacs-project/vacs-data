@@ -3,48 +3,41 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["OTHH", "Ground"],
+      "label": ["ADC"],
       "page": {
         "rows": 4,
         "keys": [
           {
-            "label": ["OTHH", "Delivery"],
+            "label": ["GMP"],
             "station_id": "OTHH_DEL"
           },
           {
-            "label": ["OTHH", "Ground", "East"],
+            "label": ["GMC 1"],
             "station_id": "OTHH_1_GND"
           },
           {
-            "label": ["OTHH", "Ground", "Central"],
+            "label": ["GMC 2"],
             "station_id": "OTHH_2_GND"
           },
           {
-            "label": ["OTHH", "Ground", "West"],
+            "label": ["GMC 3"],
             "station_id": "OTHH_3_GND"
           },
           {
-            "label": ["OTHH", "Ground", "Overflow"],
+            "label": ["GMC 4"],
             "station_id": "OTHH_4_GND"
           },
           {
-            "label": ["OTHH", "Ground", "Planner"],
-            "station_id": "OTHH_5_GND"
-          }
-        ]
-      }
-    },
-    {
-      "label": ["OTHH", "Tower"],
-      "page": {
-        "rows": 3,
-        "keys": [
+            "label": ["GMC", "PLN"],
+            "station_id": "OTHH_5_GND",
+            "color": "blush"
+          },
           {
-            "label": ["OTHH", "Tower", "East"],
+            "label": ["AIR 1"],
             "station_id": "OTHH_1_TWR"
           },
           {
-            "label": ["OTHH", "Tower", "West"],
+            "label": ["AIR 2"],
             "station_id": "OTHH_2_TWR"
           },
           {
@@ -58,58 +51,42 @@
           },
           {
             "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": ["Doha", "Approach"],
-      "page": {
-        "rows": 4,
-        "keys": [
+          },
           {
-            "label": ["Doha", "Approach", "East"],
+            "label": ["APP 1"],
             "station_id": "DOH_A1_APP"
           },
           {
-            "label": ["Doha", "Approach", "West"],
+            "label": ["APP 2"],
             "station_id": "DOH_A2_APP"
           },
           {
-            "label": ["Doha", "Director", "East"],
-            "station_id": "DOH_F1_APP"
-          },
-          {
-            "label": ["Doha", "Director", "Central"],
-            "station_id": "DOH_F2_APP"
-          },
-          {
-            "label": ["Doha", "Director", "West"],
-            "station_id": "DOH_F3_APP"
-          },
-          {
-            "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": ["Doha", "Radar"],
-      "page": {
-        "rows": 3,
-        "keys": [
-          {
-            "label": ["Doha", "Radar", "North"],
+            "label": ["RDR 1"],
             "station_id": "DOH_R1_APP"
           },
           {
-            "label": ["Doha", "Radar", "South"],
+            "label": ["RDR 2"],
             "station_id": "DOH_R2_APP"
           },
           {
             "label": []
           },
           {
+            "label": ["FIN 1"],
+            "station_id": "DOH_F1_APP"
+          },
+          {
+            "label": ["FIN 2"],
+            "station_id": "DOH_F2_APP"
+          },
+          {
+            "label": ["FIN 3"],
+            "station_id": "DOH_F3_APP"
+          },
+          {
+            "label": []
+          },
+          {
             "label": []
           },
           {
@@ -117,58 +94,146 @@
           },
           {
             "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BD", "AIR"],
+            "station_id": "OTBD_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC 1"],
+            "station_id": "OTDF_1_CTR"
+          },
+          {
+            "label": ["ACC 2"],
+            "station_id": "OTDF_2_CTR"
           }
         ]
       }
     },
     {
-      "label": ["OTDF", "CTR"],
+      "label": ["TMA"],
       "page": {
-        "rows": 3,
+        "rows": 4,
         "keys": [
           {
-            "label": ["Doha", "Control", "North"],
+            "label": ["APP 1"],
+            "station_id": "DOH_A1_APP"
+          },
+          {
+            "label": ["APP 2"],
+            "station_id": "DOH_A2_APP"
+          },
+          {
+            "label": ["RDR 1"],
+            "station_id": "DOH_R1_APP"
+          },
+          {
+            "label": ["RDR 2"],
+            "station_id": "DOH_R2_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FIN 1"],
+            "station_id": "DOH_F1_APP"
+          },
+          {
+            "label": ["FIN 2"],
+            "station_id": "DOH_F2_APP"
+          },
+          {
+            "label": ["FIN 3"],
+            "station_id": "DOH_F3_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMP"],
+            "station_id": "OTHH_DEL"
+          },
+          {
+            "label": ["GMC", "PLN"],
+            "station_id": "OTHH_5_GND",
+            "color": "blush"
+          },
+          {
+            "label": ["AIR 1"],
+            "station_id": "OTHH_1_TWR"
+          },
+          {
+            "label": ["AIR 2"],
+            "station_id": "OTHH_2_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BD", "AIR"],
+            "station_id": "OTBD_TWR"
+          },
+          {
+            "label": ["ACC 1"],
             "station_id": "OTDF_1_CTR"
           },
           {
-            "label": ["Doha", "Control", "South"],
+            "label": ["ACC 2"],
             "station_id": "OTDF_2_CTR"
           },
           {
             "label": []
           },
           {
-            "label": []
+            "label": ["OBBI", "APP"],
+            "station_id": "OBBI_APP"
           },
           {
             "label": []
           },
           {
-            "label": []
+            "label": ["UAE", "CENT"],
+            "station_id": "OMAE_3_CTR"
+          },
+          {
+            "label": ["UAE", "ALPHA"],
+            "station_id": "OMAE_2_CTR"
+          },
+          {
+            "label": ["UAE", "GOLF"],
+            "station_id": "OMAE_G_CTR"
           }
         ]
-      }
-    },
-    {
-      "label": "Neighboring",
-      "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "OB*",
-            "OKAC*",
-            "OERD*",
-            "OEDF*_APP",
-            "OMAE*",
-            "TEH*",
-            "GULF_E*",
-            "GULF*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
       }
     }
   ]

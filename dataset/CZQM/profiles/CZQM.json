@@ -1,0 +1,512 @@
+{
+  "id": "CZQM",
+  "type": "Geo",
+  "direction": "row",
+  "padding": 0.5,
+  "gap": 1.5,
+  "justify_content": "space-evenly",
+  "align_items": "center",
+  "children": [
+    {
+      "direction": "col",
+      "height": "100%",
+      "justify_content": "space-around",
+      "children": [
+        {
+          "label": "NAT",
+          "size": 6,
+          "page": {
+            "rows": 6,
+            "keys": [
+              {
+                "label": ["CZQO"],
+                "station_id": "Gander"
+              },
+              {
+                "label": ["DEL"],
+                "station_id": "Gander_DEL"
+              },
+              {
+                "label": [""]
+              },
+              {
+                "label": [""]
+              },
+              {
+                "label": [""]
+              },
+              {
+                "label": [""]
+              },
+              {
+                "label": ["A"],
+                "station_id": "Gander_A"
+              },
+              {
+                "label": ["B"],
+                "station_id": "Gander_B"
+              },
+              {
+                "label": ["C"],
+                "station_id": "Gander_C"
+              },
+              {
+                "label": ["D"],
+                "station_id": "Gander_D"
+              },
+              {
+                "label": ["F"],
+                "station_id": "Gander_F"
+              },
+              {
+                "label": ["G"],
+                "station_id": "Gander_G"
+              },
+              {
+                "label": ["DEL", "A"],
+                "station_id": "Gander_DEL_A"
+              },
+              {
+                "label": ["DEL", "B"],
+                "station_id": "Gander_DEL_B"
+              },
+              {
+                "label": ["DEL", "C"],
+                "station_id": "Gander_DEL_C"
+              },
+              {
+                "label": ["DEL", "D"],
+                "station_id": "Gander_DEL_D"
+              },
+              {
+                "label": ["DEL", "F"],
+                "station_id": "Gander_DEL_F"
+              },
+              {
+                "label": [""]
+              }
+            ]
+          }
+        },
+        {
+          "label": "CZUL",
+          "size": 6,
+          "page": {
+            "rows": 5,
+            "client_page": {
+              "include": ["CZUL_*", "MTL_*"]
+            }
+          }
+        },
+        {
+          "label": "BOS",
+          "size": 6,
+          "page": {
+            "rows": 5,
+            "client_page": {
+              "include": ["BOS_*"]
+            }
+          }
+        },
+        {
+          "label": "KZWY",
+          "size": 6,
+          "page": {
+            "rows": 5,
+            "client_page": {
+              "include": ["NY*_*"],
+              "frequencies": "ShowAll",
+              "priority": ["*_FSS"],
+              "grouping": "Fir"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "height": "100%",
+      "justify_content": "space-evenly",
+      "align_items": "start",
+      "children": [
+        {
+          "direction": "row",
+          "width": "100%",
+          "gap": 2,
+          "justify_content": "space-between",
+          "align_items": "center",
+          "children": [
+            {
+              "direction": "col",
+              "gap": 0.5,
+              "children": [
+                {
+                  "label": ["QM", "Moncton"],
+                  "size": 12,
+                  "page": {
+                    "rows": 5,
+                    "keys": [
+                      {
+                        "label": ["QM"],
+                        "station_id": "CZQM-CTR"
+                      },
+                      {
+                        "label": ["QM", "LO"],
+                        "station_id": "CZQM-QM"
+                      },
+                      {
+                        "label": ["SJ", "LO"],
+                        "station_id": "CZQM-SJ"
+                      },
+                      {
+                        "label": ["QM", "DG"],
+                        "station_id": "CZQM-DG"
+                      },
+                      {
+                        "label": ["QM", "ZV"],
+                        "station_id": "CZQM-ZV"
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ["QM", "4"],
+                        "station_id": "CZQM-4-CTR"
+                      },
+                      {
+                        "label": ["QM", "3"],
+                        "station_id": "CZQM-3-CTR"
+                      },
+                      {
+                        "label": ["QM", "2"],
+                        "station_id": "CZQM-2-CTR"
+                      },
+                      {
+                        "label": ["QM", "1"],
+                        "station_id": "CZQM-1-CTR"
+                      },
+                      {
+                        "label": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "direction": "row",
+                  "justify_content": "space-around",
+                  "children": [
+                    {
+                      "label": ["CYHZ"],
+                      "size": 6,
+                      "page": {
+                        "rows": 5,
+                        "keys": [
+                          {
+                            "label": ["HZ", "APP"],
+                            "station_id": "CYHZ-TMA"
+                          },
+                          {
+                            "label": ["HZ", "FI"],
+                            "station_id": "CYHZ-TMA-FI"
+                          },
+                          {
+                            "label": ["HZ", "TWR"],
+                            "station_id": "CYHZ-TWR"
+                          },
+                          {
+                            "label": ["HZ", "GND"],
+                            "station_id": "CYHZ-GND"
+                          },
+                          {
+                            "label": ["HZ", "DEL"],
+                            "station_id": "CYHZ-DEL"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "label": ["CYQM"],
+                      "size": 6,
+                      "page": {
+                        "rows": 5,
+                        "keys": [
+                          {
+                            "label": ["QM", "LO"],
+                            "station_id": "CZQM-QM"
+                          },
+                          {
+                            "label": ["QM", "TWR"],
+                            "station_id": "CYQM-TWR"
+                          },
+                          {
+                            "label": ["QM", "GND"],
+                            "station_id": "CYQM-GND"
+                          },
+                          {
+                            "label": ""
+                          },
+                          {
+                            "label": ""
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "justify_content": "space-around",
+                  "width": "100%",
+                  "align_items": "center",
+                  "children": [
+                    {
+                      "label": ["CYFC"],
+                      "size": 6,
+                      "page": {
+                        "rows": 5,
+                        "keys": [
+                          {
+                            "label": ["SJ", "LO"],
+                            "station_id": "CZQM-SJ"
+                          },
+                          {
+                            "label": ["FC", "TWR"],
+                            "station_id": "CYFC-TWR"
+                          },
+                          {
+                            "label": ["FC", "GND"],
+                            "station_id": "CYFC-GND"
+                          },
+                          {
+                            "label": ""
+                          },
+                          {
+                            "label": ""
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "gap": 0.5,
+              "children": [
+                {
+                  "label": ["QX", "Gander"],
+                  "size": 12,
+                  "page": {
+                    "rows": 5,
+                    "keys": [
+                      {
+                        "label": ["QX"],
+                        "station_id": "CZQX-CTR"
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ["QX", "7"],
+                        "station_id": "CZQX-7-CTR"
+                      },
+                      {
+                        "label": ["QX", "6"],
+                        "station_id": "CZQX-6-CTR"
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ""
+                      },
+                      {
+                        "label": ["QX", "5"],
+                        "station_id": "CZQX-5-CTR"
+                      },
+                      {
+                        "label": ["QX", "4"],
+                        "station_id": "CZQX-4-CTR"
+                      },
+                      {
+                        "label": ["QX", "3"],
+                        "station_id": "CZQX-3-CTR"
+                      },
+                      {
+                        "label": ["QX", "2"],
+                        "station_id": "CZQX-2-CTR"
+                      },
+                      {
+                        "label": ["QX", "1"],
+                        "station_id": "CZQX-1-CTR"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "direction": "row",
+                  "justify_content": "space-around",
+                  "children": [
+                    {
+                      "label": ["CYQX"],
+                      "size": 6,
+                      "page": {
+                        "rows": 5,
+                        "keys": [
+                          {
+                            "label": ["QX", "APP"],
+                            "station_id": "CYQX-APP"
+                          },
+                          {
+                            "label": ["QX", "TWR"],
+                            "station_id": "CYQX-TWR"
+                          },
+                          {
+                            "label": ["QX", "GND"],
+                            "station_id": "CYQX-GND"
+                          },
+                          {
+                            "label": ""
+                          },
+                          {
+                            "label": ""
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "label": ["CYYT"],
+                      "size": 6,
+                      "page": {
+                        "rows": 5,
+                        "keys": [
+                          {
+                            "label": ["YT", "APP"],
+                            "station_id": "CYYT-APP"
+                          },
+                          {
+                            "label": ["YT", "TWR"],
+                            "station_id": "CYYT-TWR"
+                          },
+                          {
+                            "label": ["YT", "GND"],
+                            "station_id": "CYYT-GND"
+                          },
+                          {
+                            "label": ""
+                          },
+                          {
+                            "label": ""
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "justify_content": "space-around",
+                  "children": [
+                    {
+                      "label": ["LFVP"],
+                      "size": 6,
+                      "page": {
+                        "rows": 5,
+                        "keys": [
+                          {
+                            "label": ["LFVP", "APP"],
+                            "station_id": "LFVP-APP"
+                          },
+                          {
+                            "label": ["LFVP", "TWR"],
+                            "station_id": "LFVP-TWR"
+                          },
+                          {
+                            "label": ""
+                          },
+                          {
+                            "label": ""
+                          },
+                          {
+                            "label": ""
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "height": "100%",
+      "justify_content": "space-around",
+      "children": [
+        {
+          "label": "TMU",
+          "size": 6,
+          "page": {
+            "client_page": {
+              "include": ["CZQM", "CZQX"],
+              "exclude": ["*_DEL", "*_GND", "*_TWR", "*_APP", "*_CTR"]
+            },
+            "rows": 5
+          }
+        },
+        {
+          "label": "MIL",
+          "size": 6,
+          "page": {
+            "rows": 5,
+            "keys": [
+              {
+                "label": ["PAGE", "INOP"]
+              }
+            ]
+          }
+        },
+        {
+          "label": ["MF"],
+          "size": 6,
+          "page": {
+            "rows": 5,
+            "keys": [
+              {
+                "label": ["PAGE", "INOP"]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+# CTR positions (delegated to ZNY when online)
+[[positions]]
+id = "NY_82_CTR"
+prefixes = ["NY_82"]
+frequency = "126.020"
+facility_type = "CTR"
+profile_id = "KZWY"
+default_call_sources = ["PAEPR"]
+
+[[positions]]
+id = "NY_83_CTR"
+prefixes = ["NY_83"]
+frequency = "133.520"
+facility_type = "CTR"
+profile_id = "KZWY"
+default_call_sources = ["HANRI"]
+
+# FSS positions - Area E
+[[positions]]
+id = "NY_CL_FSS"
+prefixes = ["NY_CL"]
+frequency = "130.000"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["CHAMP_L"]
+
+[[positions]]
+id = "NY_CH_FSS"
+prefixes = ["NY_CH"]
+frequency = "130.050"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["CHAMP_H"]
+
+[[positions]]
+id = "NY_BL_FSS"
+prefixes = ["NY_BL"]
+frequency = "130.100"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["BACUS_L"]
+
+[[positions]]
+id = "NY_BH_FSS"
+prefixes = ["NY_BH"]
+frequency = "130.150"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["BACUS_H"]
+
+[[positions]]
+id = "NY_KL_FSS"
+prefixes = ["NY_KL"]
+frequency = "130.200"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["KRAFT_L"]
+
+[[positions]]
+id = "NY_KH_FSS"
+prefixes = ["NY_KH"]
+frequency = "130.250"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["KRAFT_H"]
+
+[[positions]]
+id = "NY_XL_FSS"
+prefixes = ["NY_XL"]
+frequency = "130.300"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["GRATX_L"]
+
+[[positions]]
+id = "NY_XH_FSS"
+prefixes = ["NY_XH"]
+frequency = "130.350"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["GRATX_H"]
+
+# CTR positions (delegated to ZNY when online)
+[[positions]]
+id = "NY_65_CTR"
+prefixes = ["NY_65"]
+frequency = "125.920"
+facility_type = "CTR"
+profile_id = "KZWY"
+default_call_sources = ["JOBOC"]
+
+[[positions]]
+id = "NY_85_CTR"
+prefixes = ["NY_85"]
+frequency = "121.120"
+facility_type = "CTR"
+profile_id = "KZWY"
+default_call_sources = ["OHRYN"]
+
+[[positions]]
+id = "NY_86_CTR"
+prefixes = ["NY_86"]
+frequency = "133.500"
+facility_type = "CTR"
+profile_id = "KZWY"
+default_call_sources = ["ATLANTIC"]
+
+# BDA positions
+[[positions]]
+id = "BDA_C_CTR"
+prefixes = ["BDA_C"]
+frequency = "119.100"
+facility_type = "CTR"
+profile_id = "KZWY"
+default_call_sources = ["COCOA"]
+
+[[positions]]
+id = "BDA_CTR"
+prefixes = ["BDA"]
+frequency = "128.500"
+facility_type = "CTR"
+profile_id = "KZWY"
+default_call_sources = ["HILDY"]
+
+# FSS positions - Area F
+[[positions]]
+id = "NY_AL_FSS"
+prefixes = ["NY_AL"]
+frequency = "130.400"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["APOLLO_L"]
+
+[[positions]]
+id = "NY_AH_FSS"
+prefixes = ["NY_AH"]
+frequency = "130.450"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["APOLLO_H"]
+
+[[positions]]
+id = "NY_GL_FSS"
+prefixes = ["NY_GL"]
+frequency = "130.500"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["GEMINI_L"]
+
+[[positions]]
+id = "NY_GH_FSS"
+prefixes = ["NY_GH"]
+frequency = "130.550"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["GEMINI_H"]
+
+[[positions]]
+id = "NY_ML_FSS"
+prefixes = ["NY_ML"]
+frequency = "130.600"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["MERCURY_L"]
+
+[[positions]]
+id = "NY_MH_FSS"
+prefixes = ["NY_MH"]
+frequency = "130.650"
+facility_type = "FSS"
+profile_id = "KZWY"
+default_call_sources = ["MERCURY_H"]

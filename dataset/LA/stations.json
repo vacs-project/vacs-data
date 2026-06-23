@@ -1,0 +1,28 @@
+{
+  "stations": [
+    {
+      "id": "LATI-ACC",
+      "controlled_by": ["LAAA_CTR", "ADR_E_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LATI_APP",
+      "parent_id": "LATI-ACC",
+      "controlled_by": ["LATI_APP"]
+    },
+    {
+      "id": "LATI_TWR",
+      "parent_id": "LATI_APP",
+      "controlled_by": ["LATI_TWR"]
+    },
+    {
+      "id": "LATI_GND",
+      "parent_id": "LATI_TWR",
+      "controlled_by": ["LATI_GND"]
+    },
+    {
+      "id": "LAKU_I_TWR",
+      "parent_id": "LATI-ACC",
+      "controlled_by": ["LAKU_I_TWR"]
+    }
+  ]
+}

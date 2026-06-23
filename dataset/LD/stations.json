@@ -1,0 +1,178 @@
+{
+  "stations": [
+    {
+      "id": "LDZO",
+      "controlled_by": ["LDZO_CTR", "ADR_W_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LDZO-UPPER",
+      "controlled_by": [
+        "LDZO_U_CTR",
+        "LDZO_CTR",
+        "ADR_UW_CTR",
+        "ADR_U_CTR",
+        "ADR_W_CTR",
+        "ADR_CTR"
+      ]
+    },
+    {
+      "id": "LDZO-NORTH",
+      "controlled_by": ["LDZO_N_CTR", "LDZO_CTR", "ADR_W_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LDZO-NORTH-UPPER",
+      "controlled_by": [
+        "LDZO_UN_CTR",
+        "LDZO_U_CTR",
+        "LDZO_CTR",
+        "ADR_UW_CTR",
+        "ADR_U_CTR",
+        "ADR_W_CTR",
+        "ADR_CTR"
+      ]
+    },
+    {
+      "id": "LDZO-WEST",
+      "controlled_by": ["LDZO_W_CTR", "LDZO_CTR", "ADR_W_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LDZO-WEST-UPPER",
+      "controlled_by": [
+        "LDZO_UW_CTR",
+        "LDZO_W_CTR",
+        "LDZO_CTR",
+        "ADR_UW_CTR",
+        "ADR_U_CTR",
+        "ADR_W_CTR",
+        "ADR_CTR"
+      ]
+    },
+    {
+      "id": "LDZO-CENTRAL",
+      "controlled_by": ["LDZO_C_CTR", "LDZO_CTR", "ADR_W_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LDZO-CENTRAL-UPPER",
+      "controlled_by": [
+        "LDZO_UC_CTR",
+        "LDZO_C_CTR",
+        "LDZO_CTR",
+        "ADR_UW_CTR",
+        "ADR_U_CTR",
+        "ADR_W_CTR",
+        "ADR_CTR"
+      ]
+    },
+    {
+      "id": "LDZO-SOUTH",
+      "controlled_by": ["LDZO_S_CTR", "LDZO_CTR", "ADR_W_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "LDZO-SOUTH-UPPER",
+      "controlled_by": [
+        "LDZO_US_CTR",
+        "LDZO_S_CTR",
+        "LDZO_CTR",
+        "ADR_UW_CTR",
+        "ADR_U_CTR",
+        "ADR_W_CTR",
+        "ADR_CTR"
+      ]
+    },
+    {
+      "id": "LDZA_APP",
+      "parent_id": "LDZO-NORTH",
+      "controlled_by": ["LDZA_APP"]
+    },
+    {
+      "id": "LDDU_APP",
+      "parent_id": "LDZO-SOUTH",
+      "controlled_by": ["LDDU_APP"]
+    },
+    {
+      "id": "LDDU_F_APP",
+      "parent_id": "LDZO-SOUTH",
+      "controlled_by": ["LDDU_F_APP", "LDDU_APP"]
+    },
+    {
+      "id": "LDOS_APP",
+      "parent_id": "LDZO-NORTH",
+      "controlled_by": ["LDOS_APP"]
+    },
+    {
+      "id": "LDPL_APP",
+      "parent_id": "LDZO-WEST",
+      "controlled_by": ["LDPL_APP"]
+    },
+    {
+      "id": "LDSP_APP",
+      "parent_id": "LDZO",
+      "controlled_by": ["LDSP_APP"]
+    },
+    {
+      "id": "LDSP_F_APP",
+      "parent_id": "LDZO-SOUTH",
+      "controlled_by": ["LDSP_F_APP", "LDSP_APP"]
+    },
+    {
+      "id": "LDZD_APP",
+      "parent_id": "LDZO",
+      "controlled_by": ["LDZD_APP"]
+    },
+    {
+      "id": "LDDU_TWR",
+      "parent_id": "LDDU_APP",
+      "controlled_by": ["LDDU_TWR"]
+    },
+    {
+      "id": "LDLO_TWR",
+      "parent_id": "LDPL_APP",
+      "controlled_by": ["LDLO_TWR"]
+    },
+    {
+      "id": "LDPL_TWR",
+      "parent_id": "LDPL_APP",
+      "controlled_by": ["LDPL_TWR"]
+    },
+    {
+      "id": "LDRI_TWR",
+      "parent_id": "LDPL_APP",
+      "controlled_by": ["LDPL_TWR"]
+    },
+    {
+      "id": "LDSB_TWR",
+      "parent_id": "LDSP_APP",
+      "controlled_by": ["LDSB_TWR"]
+    },
+    {
+      "id": "LDSP_TWR",
+      "parent_id": "LDSP_APP",
+      "controlled_by": ["LDSP_APP"]
+    },
+    {
+      "id": "LDZA_TWR",
+      "parent_id": "LDZA_APP",
+      "controlled_by": ["LDZA_TWR"]
+    },
+    {
+      "id": "LDZD_TWR",
+      "parent_id": "LDZD_APP",
+      "controlled_by": ["LDZD_TWR"]
+    },
+    {
+      "id": "LDZA_GND",
+      "parent_id": "LDZA_TWR",
+      "controlled_by": ["LDZA_GND", "LDZA_TWR"]
+    },
+    {
+      "id": "LDDU_DEL",
+      "parent_id": "LDDU_TWR",
+      "controlled_by": ["LDDU_DEL", "LDDU_TWR"]
+    },
+    {
+      "id": "LDZD_DEL",
+      "parent_id": "LDZD_TWR",
+      "controlled_by": ["LDZD_DEL", "LDZD_TWR"]
+    }
+  ]
+}

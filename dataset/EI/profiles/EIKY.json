@@ -1,0 +1,34 @@
+{
+  "id": "EIKY",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["EIKY"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["EISN", "", ""],
+            "color": "mint",
+            "station_id": "EISN_LS_CTR"
+          },
+          {
+            "label": ["FIS"],
+            "color": "mint",
+            "station_id": "EISN_I_CTR"
+          },
+          {
+            "label": ["EINN"],
+            "color": "lavender",
+            "station_id": "EINN_APP"
+          },
+          {
+            "label": ["EICK"],
+            "color": "lavender",
+            "station_id": "EICK_APP"
+          }
+        ]
+      }
+    }
+  ]
+}

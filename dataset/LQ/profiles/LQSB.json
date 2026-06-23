@@ -1,0 +1,193 @@
+{
+  "id": "LQSB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["ZAGREB", "RADAR", "ZG"],
+            "station_id": "LDZO"
+          },
+          {
+            "label": ["ZAGREB", "NORTH", "ZGN"],
+            "station_id": "LDZO-NORTH"
+          },
+          {
+            "label": ["ZAGREB", "CENTRAL", "ZGC"],
+            "station_id": "LDZO-CENTRAL"
+          },
+          {
+            "label": ["ZAGREB", "WEST", "ZGW"],
+            "station_id": "LDZO-WEST"
+          },
+          {
+            "label": ["ZAGREB", "SOUTH", "ZGS"],
+            "station_id": "LDZO-SOUTH"
+          },
+          {
+            "label": ["ZAGREB", "RADAR UP", "ZGU"],
+            "station_id": "LDZO-UPPER"
+          },
+          {
+            "label": ["ZAGREB", "NORTH UP", "ZGUN"],
+            "station_id": "LDZO-NORTH-UPPER"
+          },
+          {
+            "label": ["ZAGREB", "CENTRAL UP", "ZGUC"],
+            "station_id": "LDZO-CENTRAL-UPPER"
+          },
+          {
+            "label": ["ZAGREB", "WEST UP", "ZGUW"],
+            "station_id": "LDZO-WEST-UPPER"
+          },
+          {
+            "label": ["ZAGREB", "SOUTH UP", "ZGUS"],
+            "station_id": "LDZO-SOUTH-UPPER"
+          },
+          {
+            "label": ["BEOGRAD", "RADAR", "BG"],
+            "station_id": "LYBA"
+          },
+          {
+            "label": ["BEOGRAD", "NORTH", "BGN"],
+            "station_id": "LYBA-NORTH"
+          },
+          {
+            "label": ["BEOGRAD", "WEST", "BGW"],
+            "station_id": "LYBA-WEST"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BEOGRAD", "RADAR UP"],
+            "station_id": "LYBA-UPPER"
+          },
+          {
+            "label": ["BEOGRAD", "NORTH UP", "BGUN"],
+            "station_id": "LYBA-UPPER-NORTH"
+          },
+          {
+            "label": ["BEOGRAD", "WEST UP", "BGUW"],
+            "station_id": "LYBA-UPPER-WEST"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SARAJEVO", "RADAR", "SJJ"],
+            "station_id": "LQSB-ACC"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["APP"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BLUKA", "APPROACH", "BK"],
+            "station_id": "LQBK_APP"
+          },
+          {
+            "label": ["TUZLA", "APPROACH", "TZ"],
+            "station_id": "LQTZ_APP"
+          },
+          {
+            "label": ["SARAJEVO", "RADAR", "SJ"],
+            "station_id": "LQSA_APP"
+          },
+          {
+            "label": ["MOSTAR", "APPROACH", "MO"],
+            "station_id": "LQMO_APP"
+          },
+          {
+            "label": ["OSIJEK", "APPROACH", "OS"],
+            "station_id": "LDOS_APP"
+          },
+          {
+            "label": ["ZAGREB", "RADAR", "ZGR"],
+            "station_id": "LDZA_APP"
+          },
+          {
+            "label": ["SPLIT", "RADAR", "ST"],
+            "station_id": "LDSP_APP"
+          },
+          {
+            "label": ["DUBROVNIK", "RADAR", "DR"],
+            "station_id": "LDDU_APP"
+          },
+          {
+            "label": ["ZADAR", "RADAR", "ZDR"],
+            "station_id": "LDZD_APP"
+          },
+          {
+            "label": ["BEOGRAD", "RADAR", "BGR"],
+            "station_id": "LYBE_APP"
+          },
+          {
+            "label": ["KRALJEVO", "APPROACH", "KV"],
+            "station_id": "LYKV_APP"
+          },
+          {
+            "label": ["PODGORICA", "RADAR", "PG"],
+            "station_id": "LYPG_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["GND"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["SARAJEVO", "TOWER"],
+            "station_id": "LQSA_TWR"
+          },
+          {
+            "label": ["SARAJEVO", "GROUND"],
+            "station_id": "LQSA_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   "stations": [
     {
       "id": "OTDF_1_CTR",
+      "parent_id": "GULF_E_FSS",
       "controlled_by": ["OTDF_1_CTR"]
     },
     {
@@ -16,7 +17,7 @@
     },
     {
       "id": "DOH_R2_APP",
-      "parent_id": "OTDF_1_CTR",
+      "parent_id": "DOH_R1_APP",
       "controlled_by": ["DOH_R2_APP"]
     },
     {
@@ -26,7 +27,7 @@
     },
     {
       "id": "DOH_A2_APP",
-      "parent_id": "DOH_R2_APP",
+      "parent_id": "DOH_A1_APP",
       "controlled_by": ["DOH_A2_APP"]
     },
     {
@@ -36,22 +37,22 @@
     },
     {
       "id": "DOH_F2_APP",
-      "parent_id": "DOH_A1_APP",
+      "parent_id": "DOH_F1_APP",
       "controlled_by": ["DOH_F2_APP"]
     },
     {
       "id": "DOH_F3_APP",
-      "parent_id": "DOH_A2_APP",
+      "parent_id": "DOH_F1_APP",
       "controlled_by": ["DOH_F3_APP"]
     },
     {
       "id": "OTHH_1_TWR",
-      "parent_id": "DOH_F1_APP",
+      "parent_id": "DOH_R1_APP",
       "controlled_by": ["OTHH_1_TWR"]
     },
     {
       "id": "OTHH_2_TWR",
-      "parent_id": "DOH_F2_APP",
+      "parent_id": "OTHH_1_TWR",
       "controlled_by": ["OTHH_2_TWR"]
     },
     {
@@ -61,22 +62,22 @@
     },
     {
       "id": "OTHH_2_GND",
-      "parent_id": "OTHH_2_TWR",
+      "parent_id": "OTHH_1_GND",
       "controlled_by": ["OTHH_2_GND"]
     },
     {
       "id": "OTHH_3_GND",
-      "parent_id": "OTHH_2_TWR",
+      "parent_id": "OTHH_2_GND",
       "controlled_by": ["OTHH_3_GND"]
     },
     {
       "id": "OTHH_4_GND",
-      "parent_id": "OTHH_2_GND",
+      "parent_id": "OTHH_3_GND",
       "controlled_by": ["OTHH_4_GND"]
     },
     {
       "id": "OTHH_5_GND",
-      "parent_id": "OTHH_2_GND",
+      "parent_id": "OTHH_4_GND",
       "controlled_by": ["OTHH_5_GND"]
     },
     {
@@ -86,7 +87,7 @@
     },
     {
       "id": "OTBD_TWR",
-      "parent_id": "DOH_F3_APP",
+      "parent_id": "DOH_A2_APP",
       "controlled_by": ["OTBD_TWR"]
     },
     {

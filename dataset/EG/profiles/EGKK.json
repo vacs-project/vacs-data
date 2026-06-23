@@ -3,34 +3,311 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "Gatwick",
+      "label": "ADC",
       "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "EGKK*",
-            "EGLL_N*APP",
-            "EGLL_S*APP",
-            "THAMES*",
-            "EGLF_*APP",
-            "EGKR_*",
-            "LON_H*",
-            "LON_D*",
-            "LON_S*",
-            "LON_O*",
-            "LON_SC*",
-            "LON_CTR",
-            "LON__CTR",
-            "LTC_S*",
-            "LTC_CTR",
-            "EGTT_*",
-            "UK_*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_APP", "*_TWR", "*_GND", "*_DEL", "*_CTR"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["GMP"],
+            "station_id": "EGKK_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMC", "North"],
+            "station_id": "EGKK_N_GND"
+          },
+          {
+            "label": ["GMC", "South"],
+            "station_id": "EGKK_S_GND"
+          },
+          {
+            "label": ["GMP", "Assist"],
+            "station_id": "EGKK_A_DEL"
+          },
+          {
+            "label": ["PLN"],
+            "station_id": "EGKK_P_GND"
+          },
+          {
+            "label": ["AIR"],
+            "station_id": "EGKK_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EGKR"],
+            "station_id": "EGKR_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["INT"],
+            "station_id": "EGKK_APP"
+          },
+          {
+            "label": ["FIN"],
+            "station_id": "EGKK_F_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Solent", "RAD"],
+            "station_id": "SOLENT_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TC", "SW"],
+            "station_id": "LTC_SW_CTR"
+          },
+          {
+            "label": ["TC", "Heathrow", "INT S"],
+            "station_id": "EGLL_S_APP"
+          },
+          {
+            "label": ["LF", "RAD"],
+            "station_id": "EGLF_APP"
+          },
+          {
+            "label": ["TC", "NE"],
+            "station_id": "LTC_NE_CTR"
+          },
+          {
+            "label": ["TC", "SE"],
+            "station_id": "LTC_SE_CTR"
+          },
+          {
+            "label": ["TC", "Thames"],
+            "station_id": "THAMES_APP"
+          },
+          {
+            "label": ["LF", "LARS"],
+            "station_id": "EGLF_L_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": "APC",
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["GMP"],
+            "station_id": "EGKK_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMC", "North"],
+            "station_id": "EGKK_N_GND"
+          },
+          {
+            "label": ["GMC", "South"],
+            "station_id": "EGKK_S_GND"
+          },
+          {
+            "label": ["GMP", "Assist"],
+            "station_id": "EGKK_A_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["AIR"],
+            "station_id": "EGKK_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EGKR"],
+            "station_id": "EGKR_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["INT"],
+            "station_id": "EGKK_APP"
+          },
+          {
+            "label": ["FIN"],
+            "station_id": "EGKK_F_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TC", "SW"],
+            "station_id": "LTC_SW_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TC", "NE"],
+            "station_id": "LTC_NE_CTR"
+          },
+          {
+            "label": ["TC", "SE"],
+            "station_id": "LTC_SE_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["Solent", "RAD"],
+            "station_id": "SOLENT_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TC", "Heathrow", "INT S"],
+            "station_id": "EGLL_S_APP"
+          },
+          {
+            "label": ["LF", "RAD"],
+            "station_id": "EGLF_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TC", "Thames"],
+            "station_id": "THAMES_APP"
+          },
+          {
+            "label": ["LF", "LARS"],
+            "station_id": "EGLF_L_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SUP", "Flow"],
+      "page": {
+        "rows": 2,
+        "keys": [
+          {
+            "label": ["UK", "FMP"],
+            "station_id": "UK_FMP"
+          },
+          {
+            "label": ["LTC", "FMP"],
+            "station_id": "LTC_FMP"
+          },
+          {
+            "label": ["UK", "FMP", "2"],
+            "station_id": "UK_A_FMP"
+          },
+          {
+            "label": ["UK", "FMP", "3"],
+            "station_id": "UK_B_FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LAC", "Group", "Supvisr"],
+            "station_id": "LON_GS_CTR"
+          },
+          {
+            "label": ["LTC", "Group", "Supvisr"],
+            "station_id": "LTC_GS_CTR"
+          },
+          {
+            "label": ["MAN", "Group", "Supvisr"],
+            "station_id": "MAN_GS_CTR"
+          },
+          {
+            "label": ["MAN", "FMP"],
+            "station_id": "MAN_FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SCL", "FMP"],
+            "station_id": "SCL_FMP"
+          },
+          {
+            "label": ["ScAC", "Group", "Supvisr"],
+            "station_id": "SCO_GS_CTR"
+          },
+          {
+            "label": ["SCL", "Group", "Supvisr"],
+            "station_id": "SCL_GS_CTR"
+          }
+        ]
       }
     }
   ]

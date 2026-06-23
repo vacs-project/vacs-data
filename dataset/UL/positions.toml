@@ -1,0 +1,363 @@
+[[positions]]
+id = "ULLL_CTR"
+prefixes = ["ULLL"]
+frequency = "134.100"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_AM_CTR"
+prefixes = ["ULLL"]
+frequency = "133.200"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_AR_CTR"
+prefixes = ["ULLL"]
+frequency = "132.150"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_KT_CTR"
+prefixes = ["ULLL"]
+frequency = "129.200"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_MO_CTR"
+prefixes = ["ULLL"]
+frequency = "126.925"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_MR_CTR"
+prefixes = ["ULLL"]
+frequency = "132.100"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_NM_CTR"
+prefixes = ["ULLL"]
+frequency = "133.200"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_R_CTR"
+prefixes = ["ULLL"]
+frequency = "129.250"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_R2_CTR"
+prefixes = ["ULLL"]
+frequency = "135.600"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_R4_CTR"
+prefixes = ["ULLL"]
+frequency = "135.400"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_R5_CTR"
+prefixes = ["ULLL"]
+frequency = "133.600"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_R6_CTR"
+prefixes = ["ULLL"]
+frequency = "129.300"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_S_CTR"
+prefixes = ["ULLL"]
+frequency = "133.300"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_SC_CTR"
+prefixes = ["ULLL"]
+frequency = "130.300"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_SW_CTR"
+prefixes = ["ULLL"]
+frequency = "126.900"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_W_CTR"
+prefixes = ["ULLL"]
+frequency = "132.900"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_WK_CTR"
+prefixes = ["ULLL"]
+frequency = "131.300"
+facility_type = "CTR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_APP"
+prefixes = ["ULLL"]
+frequency = "119.300"
+facility_type = "APP"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_E_APP"
+prefixes = ["ULLL"]
+frequency = "125.300"
+facility_type = "APP"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLL_TMU"
+prefixes = ["ULLL"]
+frequency = "199.998"
+facility_type = "FMP"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLI_R_APP"
+prefixes = ["ULLI"]
+frequency = "120.300"
+facility_type = "APP"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLI_TWR"
+prefixes = ["ULLI"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLI_A_TWR"
+prefixes = ["ULLI"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLI_D_TWR"
+prefixes = ["ULLI"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLI_VFR_TWR"
+prefixes = ["ULLI"]
+frequency = "133.500"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLI_GND"
+prefixes = ["ULLI"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULLI_DEL"
+prefixes = ["ULLI"]
+frequency = "121.900"
+facility_type = "DEL"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULAA_APP"
+prefixes = ["ULAA"]
+frequency = "122.000"
+facility_type = "APP"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULAA_TWR"
+prefixes = ["ULAA"]
+frequency = "121.800"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULAE_TWR"
+prefixes = ["ULAE"]
+frequency = "122.700"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULAH_TWR"
+prefixes = ["ULAH"]
+frequency = "120.000"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULAM_APP"
+prefixes = ["ULAM"]
+frequency = "127.000"
+facility_type = "APP"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULAM_TWR"
+prefixes = ["ULAM"]
+frequency = "127.000"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULAS_TWR"
+prefixes = ["ULAS"]
+frequency = "118.000"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULDD_TWR"
+prefixes = ["ULDD"]
+frequency = "129.400"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULDW_TWR"
+prefixes = ["ULDD"]
+frequency = "129.400"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULMM_APP"
+prefixes = ["ULMM"]
+frequency = "120.700"
+facility_type = "APP"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULMM_TWR"
+prefixes = ["ULMM"]
+frequency = "120.300"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULMK_TWR"
+prefixes = ["ULMK"]
+frequency = "121.200"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULOO_TWR"
+prefixes = ["ULOO"]
+frequency = "122.200"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULPB_TWR"
+prefixes = ["ULPB"]
+frequency = "128.500"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULWC_TWR"
+prefixes = ["ULWC"]
+frequency = "119.200"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULWU_TWR"
+prefixes = ["ULWU"]
+frequency = "133.300"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "ULWW_TWR"
+prefixes = ["ULWW"]
+frequency = "120.900"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "UUYY_R_APP"
+prefixes = ["UUYY"]
+frequency = "121.700"
+facility_type = "APP"
+profile_id = "ULLL"
+
+[[positions]]
+id = "UUYY_TWR"
+prefixes = ["UUYY"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "UUYH_TWR"
+prefixes = ["UUYH"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "UUYP_TWR"
+prefixes = ["UUYP"]
+frequency = "119.300"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "UUYS_TWR"
+prefixes = ["UUYS"]
+frequency = "118.200"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "UUYX_TWR"
+prefixes = ["UUYX"]
+frequency = "129.000"
+facility_type = "TWR"
+profile_id = "ULLL"
+
+[[positions]]
+id = "UUYW_APP"
+prefixes = ["UUYW"]
+frequency = "129.500"
+facility_type = "APP"
+profile_id = "ULLL"
+
+[[positions]]
+id = "UUYW_TWR"
+prefixes = ["UUYW"]
+frequency = "120.600"
+facility_type = "TWR"
+profile_id = "ULLL"

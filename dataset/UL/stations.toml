@@ -1,0 +1,268 @@
+# ULLL_R Sectors
+
+[[stations]]
+id = "ULLL_R1"
+parent_id = "ULLL_SW"
+
+[[stations]]
+id = "ULLL_R2"
+parent_id = "ULLL_R"
+controlled_by = ["ULLL_R2_CTR"]
+
+[[stations]]
+id = "ULLL_R3"
+parent_id = "ULLL_SW"
+
+[[stations]]
+id = "ULLL_R4"
+parent_id = "ULLL_SW"
+controlled_by = ["ULLL_R4_CTR"]
+
+[[stations]]
+id = "ULLL_SW"
+parent_id = "ULLL_R"
+
+[[stations]]
+id = "ULLL_R5"
+parent_id = "ULLL_R"
+
+[[stations]]
+id = "ULLL_R6"
+parent_id = "ULLL_R"
+
+[[stations]]
+id = "ULLL_R"
+controlled_by = ["ULLL_R_CTR", "ULLL_CTR"]
+
+# ULLL_AM Sector
+
+[[stations]]
+id = "ULLL_AR"
+parent_id = "ULLL_AM"
+
+[[stations]]
+id = "ULLL_NM"
+parent_id = "ULLL_AM"
+
+[[stations]]
+id = "ULLL_MR"
+parent_id = "ULLL_AM"
+
+[[stations]]
+id = "ULLL_MO"
+parent_id = "ULLL_AM"
+
+[[stations]]
+id = "ULLL_AM"
+controlled_by = ["ULLL_AM_CTR", "ULLL_CTR"]
+
+# ULLL_WK Sector
+
+[[stations]]
+id = "ULLL_W"
+parent_id = "ULLL_WK"
+
+[[stations]]
+id = "ULLL_WK"
+controlled_by = ["ULLL_WK_CTR", "ULLL_CTR"]
+
+# ULLL_S Sector
+
+[[stations]]
+id = "ULLL_SC"
+parent_id = "ULLL_S"
+
+[[stations]]
+id = "ULLL_S"
+controlled_by = ["ULLL_S_CTR", "ULLL_CTR"]
+
+# ULLL TMA
+
+[[stations]]
+id = "ULLL_APP"
+parent_id = "ULLL_R"
+controlled_by = ["ULLL_APP"]
+
+[[stations]]
+id = "ULLL_E_APP"
+parent_id = "ULLL_APP"
+controlled_by = ["ULLL_E_APP"]
+
+# ULLI
+
+[[stations]]
+id = "ULLI_R_APP"
+parent_id = "ULLL_APP"
+controlled_by = ["ULLI_R_APP"]
+
+[[stations]]
+id = "ULLI_TWR"
+parent_id = "ULLI_R_APP"
+
+[[stations]]
+id = "ULLI_A_TWR"
+parent_id = "ULLI_TWR"
+controlled_by = ["ULLI_A_TWR", "ULLI_D_TWR"]
+
+[[stations]]
+id = "ULLI_D_TWR"
+parent_id = "ULLI_TWR"
+controlled_by = ["ULLI_D_TWR", "ULLI_A_TWR"]
+
+[[stations]]
+id = "ULLI_VFR_TWR"
+parent_id = "ULLI_TWR"
+controlled_by = ["ULLI_VFR_TWR", "ULLI_D_TWR"]
+
+[[stations]]
+id = "ULLI_GND"
+parent_id = "ULLI_TWR"
+controlled_by = ["ULLI_GND"]
+
+[[stations]]
+id = "ULLI_DEL"
+parent_id = "ULLI_GND"
+controlled_by = ["ULLI_DEL"]
+
+# ULAA
+
+[[stations]]
+id = "ULAA_APP"
+parent_id = "ULLL_AR"
+controlled_by = ["ULAA_APP"]
+
+[[stations]]
+id = "ULAA_TWR"
+parent_id = "ULAA_APP"
+controlled_by = ["ULAA_TWR"]
+
+# ULLL_AR Regional airports
+
+[[stations]]
+id = "ULAE_TWR"
+parent_id = "ULLL_AR"
+controlled_by = ["ULAE_TWR"]
+
+[[stations]]
+id = "ULAH_TWR"
+parent_id = "ULLL_AR"
+controlled_by = ["ULAH_TWR"]
+
+[[stations]]
+id = "ULAM_APP"
+parent_id = "ULLL_AR"
+controlled_by = ["ULAM_APP"]
+
+[[stations]]
+id = "ULAM_TWR"
+parent_id = "ULAM_APP"
+controlled_by = ["ULAM_TWR"]
+
+[[stations]]
+id = "ULAS_TWR"
+parent_id = "ULLL_AR"
+controlled_by = ["ULAS_TWR"]
+
+[[stations]]
+id = "ULDD_TWR"
+parent_id = "ULLL_S"
+controlled_by = ["ULDD_TWR"]
+
+[[stations]]
+id = "ULDW_TWR"
+parent_id = "ULLL_S"
+controlled_by = ["ULDW_TWR"]
+
+#ULLL_MR Airports
+
+[[stations]]
+id = "ULMM_APP"
+parent_id = "ULLL_MR"
+controlled_by = ["ULMM_APP"]
+
+[[stations]]
+id = "ULMM_TWR"
+parent_id = "ULMM_APP"
+controlled_by = ["ULMM_TWR"]
+
+[[stations]]
+id = "ULMK_TWR"
+parent_id = "ULLL_MR"
+controlled_by = ["ULMK_TWR"]
+
+#ULLL_R Airports
+
+[[stations]]
+id = "ULOO_TWR"
+parent_id = "ULLL_R"
+controlled_by = ["ULOO_TWR"]
+
+[[stations]]
+id = "ULPB_TWR"
+parent_id = "ULLL_R"
+controlled_by = ["ULPB_TWR"]
+
+#ULLL_WK Airports
+
+[[stations]]
+id = "ULWC_TWR"
+parent_id = "ULLL_W"
+controlled_by = ["ULWC_TWR"]
+
+[[stations]]
+id = "ULWU_TWR"
+parent_id = "ULLL_WK"
+controlled_by = ["ULWU_TWR"]
+
+[[stations]]
+id = "ULWW_TWR"
+parent_id = "ULLL_W"
+controlled_by = ["ULWW_TWR"]
+
+#ULLL_S Airports
+
+[[stations]]
+id = "UUYY_R_APP"
+parent_id = "ULLL_SC"
+controlled_by = ["UUYY_R_APP"]
+
+[[stations]]
+id = "UUYY_TWR"
+parent_id = "UUYY_R_APP"
+controlled_by = ["UUYY_TWR"]
+
+[[stations]]
+id = "UUYH_TWR"
+parent_id = "ULLL_S"
+controlled_by = ["UUYH_TWR"]
+
+[[stations]]
+id = "UUYP_TWR"
+parent_id = "ULLL_S"
+controlled_by = ["UUYP_TWR"]
+
+[[stations]]
+id = "UUYS_TWR"
+parent_id = "ULLL_S"
+controlled_by = ["UUYS_TWR"]
+
+[[stations]]
+id = "UUYX_TWR"
+parent_id = "ULLL_S"
+controlled_by = ["UUYX_TWR"]
+
+[[stations]]
+id = "UUYW_APP"
+parent_id = "ULLL_S"
+controlled_by = ["UUYW_APP"]
+
+[[stations]]
+id = "UUYW_TWR"
+parent_id = "ULLL_S"
+controlled_by = ["UUYW_TWR"]
+
+#FMP
+
+[[stations]]
+id = "ULLL_TMU"
+controlled_by = ["ULLL_TMU"]

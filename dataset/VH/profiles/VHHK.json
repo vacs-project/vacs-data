@@ -193,39 +193,39 @@
         "keys": [
           {
             "label": ["PEW"],
-            "station_id": "RCAA_W_CTR"
+            "station_id": "AWR"
           },
           {
             "label": ["PEL"],
-            "station_id": "RCAA_L_CTR"
+            "station_id": "ALR"
           },
           {
             "label": ["PEE"],
-            "station_id": "RCAA_E_CTR"
+            "station_id": "AER"
           },
           {
             "label": ["PEN"],
-            "station_id": "RCAA_N_CTR"
+            "station_id": "ANR"
           },
           {
             "label": ["PES"],
-            "station_id": "RCAA_S_CTR"
+            "station_id": "ASR"
           },
           {
             "label": ["SEA"],
             "station_id": "ASEA_FSS"
           },
           {
-            "label": ["MN1"],
-            "station_id": "RPHI_1_CTR"
+            "label": ["MNW"],
+            "station_id": "MNL_NW_CTR"
           },
           {
             "label": ["MNN"],
-            "station_id": "RPHI_N_CTR"
+            "station_id": "MNL_N_CTR"
           },
           {
             "label": ["MNL"],
-            "station_id": "RPHI_CTR"
+            "station_id": "MNL_CTR"
           },
           {
             "label": ["PRC"],

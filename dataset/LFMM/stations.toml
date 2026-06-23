@@ -1,0 +1,623 @@
+[[stations]]
+id = "LFMM_A1"
+controlled_by = ["LFMM_A_CTR", "LFMM_EU_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_AJ"
+controlled_by = ["LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_B"
+controlled_by = ["LFMM_EU_CTR", "LFMM_U_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_BT"
+controlled_by = ["LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_D"
+controlled_by = ["LFMM_WU_CTR", "LFMM_U_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_E"
+controlled_by = ["LFMM_U_CTR", "LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_F"
+controlled_by = ["LFMM_WU_CTR", "LFMM_U_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_G"
+controlled_by = ["LFMM_EU_CTR", "LFMM_U_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_K"
+controlled_by = ["LFMM_U_CTR", "LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_LE"
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_LO"
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_LS"
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_M"
+controlled_by = ["LFMM_WU_CTR", "LFMM_U_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_ML"
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_MN"
+controlled_by = ["LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_MO"
+controlled_by = ["LFMM_W_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_ST"
+controlled_by = ["LFMM_E_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_W"
+controlled_by = ["LFMM_W_CTR", "LFMM_WU_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_Y"
+controlled_by = ["LFMM_EU_CTR", "LFMM_U_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFMM_Z"
+controlled_by = ["LFMM_WU_CTR", "LFMM_U_CTR", "LFMM_RAW_CTR", "LFMM_CTR"]
+
+[[stations]]
+id = "LFKB_IS_APP"
+parent_id = "LFKB_IN_APP"
+controlled_by = ["LFKB_IS_APP"]
+
+[[stations]]
+id = "LFKB_IN_APP"
+parent_id = "LFKB_KB_APP"
+controlled_by = ["LFKB_IN_APP"]
+
+[[stations]]
+id = "LFKB_KC_APP"
+parent_id = "LFKB_KB_APP"
+controlled_by = ["LFKB_KC_APP"]
+
+[[stations]]
+id = "LFKB_KB_APP"
+parent_id = "LFMM_AJ"
+controlled_by = ["LFKB_KB_APP"]
+
+[[stations]]
+id = "LFKJ_APP"
+parent_id = "LFMM_AJ"
+controlled_by = ["LFKJ_APP"]
+
+[[stations]]
+id = "LFKJ_I_APP"
+parent_id = "LFKJ_APP"
+controlled_by = ["LFKJ_I_APP"]
+
+[[stations]]
+id = "LFKS_APP"
+controlled_by = ["LFKS_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFLB_APP"
+parent_id = "LFLL_VE_APP"
+controlled_by = ["LFLB_APP"]
+
+[[stations]]
+id = "LFLB_I_APP"
+parent_id = "LFLB_APP"
+controlled_by = ["LFLB_I_APP"]
+
+[[stations]]
+id = "LFLC_CL_APP"
+parent_id = "LFLC_CF_APP"
+controlled_by = ["LFLC_CL_APP"]
+
+[[stations]]
+id = "LFLC_CK_APP"
+parent_id = "LFLC_CF_APP"
+controlled_by = ["LFLC_CK_APP"]
+
+[[stations]]
+id = "LFLC_CF_APP"
+parent_id = "LFMM_LE"
+controlled_by = ["LFLC_CF_APP"]
+
+[[stations]]
+id = "LFLC_CN_APP"
+parent_id = "LFLC_CF_APP"
+controlled_by = ["LFLC_CN_APP"]
+
+[[stations]]
+id = "LFLC_CY_APP"
+parent_id = "LFLC_CF_APP"
+controlled_by = ["LFLC_CY_APP"]
+
+[[stations]]
+id = "LFLL_VW_APP"
+parent_id = "LFMM_LE"
+controlled_by = ["LFLL_VW_APP"]
+
+[[stations]]
+id = "LFLL_VE_APP"
+parent_id = "LFLL_VW_APP"
+controlled_by = ["LFLL_VE_APP"]
+
+[[stations]]
+id = "LFLL_F_APP"
+parent_id = "LFLL_VW_APP"
+controlled_by = ["LFLL_F_APP"]
+
+[[stations]]
+id = "LFLL_I_APP"
+parent_id = "LFLL_VW_APP"
+controlled_by = ["LFLL_I_APP"]
+
+[[stations]]
+id = "LFLL_GRE_APP"
+parent_id = "LFLL_VW_APP"
+controlled_by = ["LFLL_GRE_APP"]
+
+[[stations]]
+id = "LFLN_APP"
+parent_id = "LFLC_CY_APP"
+controlled_by = ["LFLN_APP"]
+
+[[stations]]
+id = "LFMC_APP"
+controlled_by = ["LFMC_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFMI_APP"
+parent_id = "LFMI_C_APP"
+controlled_by = ["LFMI_APP"]
+
+[[stations]]
+id = "LFMI_C_APP"
+controlled_by = ["LFMI_C_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFML_MB_APP"
+parent_id = "LFML_MAC_APP"
+controlled_by = ["LFML_MB_APP"]
+
+[[stations]]
+id = "LFML_ME_APP"
+parent_id = "LFML_MAC_APP"
+controlled_by = ["LFML_ME_APP"]
+
+[[stations]]
+id = "LFML_MAC_APP"
+parent_id = "LFMM_LE"
+controlled_by = ["LFML_MAC_APP"]
+
+[[stations]]
+id = "LFML_MZ_APP"
+parent_id = "LFMM_LE"
+controlled_by = ["LFML_MZ_APP"]
+
+[[stations]]
+id = "LFMN_F_APP"
+parent_id = "LFMN_NO_APP"
+controlled_by = ["LFMN_F_APP"]
+
+[[stations]]
+id = "LFMN_MD_APP"
+parent_id = "LFMN_F_APP"
+controlled_by = ["LFMN_MD_APP"]
+
+[[stations]]
+id = "LFMN_IN_APP"
+parent_id = "LFMN_NO_APP"
+controlled_by = ["LFMN_IN_APP"]
+
+[[stations]]
+id = "LFMN_IS_APP"
+parent_id = "LFMN_IN_APP"
+controlled_by = ["LFMN_IS_APP"]
+
+[[stations]]
+id = "LFMN_IW_APP"
+parent_id = "LFMN_IN_APP"
+controlled_by = ["LFMN_IW_APP"]
+
+[[stations]]
+id = "LFMN_NO_APP"
+parent_id = "LFMM_AJ"
+controlled_by = ["LFMN_NO_APP"]
+
+[[stations]]
+id = "LFMN_NE_APP"
+parent_id = "LFMN_NO_APP"
+controlled_by = ["LFMN_NE_APP"]
+
+[[stations]]
+id = "LFMN_ND_DEP"
+parent_id = "LFMN_NO_APP"
+controlled_by = ["LFMN_ND_DEP"]
+
+[[stations]]
+id = "LFMO_APP"
+controlled_by = ["LFMO_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFMT_I1_APP"
+parent_id = "LFMT_FE_APP"
+controlled_by = ["LFMT_I1_APP"]
+
+[[stations]]
+id = "LFMT_I2_APP"
+parent_id = "LFMT_I1_APP"
+controlled_by = ["LFMT_I2_APP"]
+
+[[stations]]
+id = "LFMT_I3_APP"
+parent_id = "LFMT_I1_APP"
+controlled_by = ["LFMT_I3_APP"]
+
+[[stations]]
+id = "LFMT_FB_APP"
+parent_id = "LFMT_FE_APP"
+controlled_by = ["LFMT_FB_APP"]
+
+[[stations]]
+id = "LFMT_FA_APP"
+parent_id = "LFMT_FE_APP"
+controlled_by = ["LFMT_FA_APP"]
+
+[[stations]]
+id = "LFMT_FE_APP"
+parent_id = "LFMM_LE"
+controlled_by = ["LFMT_FE_APP"]
+
+[[stations]]
+id = "LFMY_APP"
+controlled_by = ["LFMY_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFTH_APP"
+controlled_by = ["LFTH_APP", "LFFM_CTR"]
+
+[[stations]]
+id = "LFCC_I_TWR"
+parent_id = "LFLC_CN_APP"
+controlled_by = ["LFCC_I_TWR"]
+
+[[stations]]
+id = "LFCR_TWR"
+parent_id = "LFLC_CN_APP"
+controlled_by = ["LFCR_TWR"]
+
+[[stations]]
+id = "LFHP_I_TWR"
+parent_id = "LFLC_CL_APP"
+controlled_by = ["LFHP_I_TWR"]
+
+[[stations]]
+id = "LFHY_I_TWR"
+parent_id = "LFLC_CY_APP"
+controlled_by = ["LFHY_I_TWR"]
+
+[[stations]]
+id = "LFKB_TWR"
+parent_id = "LFKB_KB_APP"
+controlled_by = ["LFKB_TWR"]
+
+[[stations]]
+id = "LFKC_TWR"
+parent_id = "LFKB_KC_APP"
+controlled_by = ["LFKC_TWR"]
+
+[[stations]]
+id = "LFKF_TWR"
+parent_id = "LFKJ_APP"
+controlled_by = ["LFKF_TWR"]
+
+[[stations]]
+id = "LFKJ_TWR"
+parent_id = "LFKJ_APP"
+controlled_by = ["LFKJ_TWR"]
+
+[[stations]]
+id = "LFKS_TWR"
+parent_id = "LFKS_APP"
+controlled_by = ["LFKS_TWR"]
+
+[[stations]]
+id = "LFLB_TWR"
+parent_id = "LFLB_APP"
+controlled_by = ["LFLB_TWR"]
+
+[[stations]]
+id = "LFLC_TWR"
+parent_id = "LFLC_CF_APP"
+controlled_by = ["LFLC_TWR"]
+
+[[stations]]
+id = "LFLG_TWR"
+parent_id = "LFLL_VE_APP"
+controlled_by = ["LFLG_TWR"]
+
+[[stations]]
+id = "LFLL_TWR"
+parent_id = "LFLL_VW_APP"
+controlled_by = ["LFLL_TWR"]
+
+[[stations]]
+id = "LFLN_TWR"
+parent_id = "LFLC_CY_APP"
+controlled_by = ["LFLN_TWR"]
+
+[[stations]]
+id = "LFLO_I_TWR"
+parent_id = "LFLC_CY_APP"
+controlled_by = ["LFLO_I_TWR"]
+
+[[stations]]
+id = "LFLP_TWR"
+parent_id = "LFLB_APP"
+controlled_by = ["LFLP_TWR"]
+
+[[stations]]
+id = "LFLS_TWR"
+parent_id = "LFLL_VE_APP"
+controlled_by = ["LFLS_TWR"]
+
+[[stations]]
+id = "LFLU_I_TWR"
+parent_id = "LFLL_VW_APP"
+controlled_by = ["LFLU_I_TWR"]
+
+[[stations]]
+id = "LFLV_I_TWR"
+parent_id = "LFLC_CF_APP"
+controlled_by = ["LFLV_I_TWR"]
+
+[[stations]]
+id = "LFLW_I_TWR"
+parent_id = "LFLC_CN_APP"
+controlled_by = ["LFLW_I_TWR"]
+
+[[stations]]
+id = "LFLY_TWR"
+parent_id = "LFLL_VW_APP"
+controlled_by = ["LFLY_TWR"]
+
+[[stations]]
+id = "LFMA_TWR"
+parent_id = "LFML_ME_APP"
+controlled_by = ["LFMA_TWR"]
+
+[[stations]]
+id = "LFMC_TWR"
+parent_id = "LFMC_APP"
+controlled_by = ["LFMC_TWR"]
+
+[[stations]]
+id = "LFMD_TWR"
+parent_id = "LFMN_NO_APP"
+controlled_by = ["LFMD_TWR"]
+
+[[stations]]
+id = "LFMH_TWR"
+parent_id = "LFLC_CK_APP"
+controlled_by = ["LFMH_TWR"]
+
+[[stations]]
+id = "LFMI_TWR"
+parent_id = "LFMI_APP"
+controlled_by = ["LFMI_TWR"]
+
+[[stations]]
+id = "LFML_TWR"
+parent_id = "LFML_MAC_APP"
+controlled_by = ["LFML_TWR"]
+
+[[stations]]
+id = "LFMN_TWR"
+parent_id = "LFMN_NO_APP"
+controlled_by = ["LFMN_TWR"]
+
+[[stations]]
+id = "LFMO_TWR"
+parent_id = "LFMO_APP"
+controlled_by = ["LFMO_TWR"]
+
+[[stations]]
+id = "LFMP_TWR"
+parent_id = "LFMT_FA_APP"
+controlled_by = ["LFMP_TWR"]
+
+[[stations]]
+id = "LFMQ_I_TWR"
+parent_id = "LFML_ME_APP"
+controlled_by = ["LFMQ_I_TWR"]
+
+[[stations]]
+id = "LFMT_TWR"
+parent_id = "LFMT_FE_APP"
+controlled_by = ["LFMT_TWR"]
+
+[[stations]]
+id = "LFMU_TWR"
+parent_id = "LFMT_FE_APP"
+controlled_by = ["LFMU_TWR"]
+
+[[stations]]
+id = "LFMV_TWR"
+parent_id = "LFML_MB_APP"
+controlled_by = ["LFMV_TWR"]
+
+[[stations]]
+id = "LFMY_TWR"
+parent_id = "LFMY_APP"
+controlled_by = ["LFMY_TWR"]
+
+[[stations]]
+id = "LFMZ_I_TWR"
+parent_id = "LFMT_FE_APP"
+controlled_by = ["LFMZ_I_TWR"]
+
+[[stations]]
+id = "LFNB_I_TWR"
+parent_id = "LFMT_FB_APP"
+controlled_by = ["LFNB_I_TWR"]
+
+[[stations]]
+id = "LFTH_TWR"
+parent_id = "LFTH_APP"
+controlled_by = ["LFTH_TWR"]
+
+[[stations]]
+id = "LFTW_TWR"
+parent_id = "LFMT_FE_APP"
+controlled_by = ["LFTW_TWR"]
+
+[[stations]]
+id = "LFTZ_I_TWR"
+parent_id = "LFMN_NO_APP"
+controlled_by = ["LFTZ_I_TWR"]
+
+[[stations]]
+id = "LNMC_TWR"
+parent_id = "LFMN_NO_APP"
+controlled_by = ["LNMC_TWR"]
+
+[[stations]]
+id = "LFKB_GND"
+parent_id = "LFKB_TWR"
+controlled_by = ["LFKB_GND"]
+
+[[stations]]
+id = "LFKC_GND"
+parent_id = "LFKC_TWR"
+controlled_by = ["LFKC_GND"]
+
+[[stations]]
+id = "LFKF_GND"
+parent_id = "LFKF_TWR"
+controlled_by = ["LFKF_GND"]
+
+[[stations]]
+id = "LFKJ_GND"
+parent_id = "LFKJ_TWR"
+controlled_by = ["LFKJ_GND"]
+
+[[stations]]
+id = "LFKS_GND"
+parent_id = "LFKS_TWR"
+controlled_by = ["LFKS_GND"]
+
+[[stations]]
+id = "LFLC_GND"
+parent_id = "LFLC_TWR"
+controlled_by = ["LFLC_GND"]
+
+[[stations]]
+id = "LFLG_GND"
+parent_id = "LFLG_TWR"
+controlled_by = ["LFLG_GND"]
+
+[[stations]]
+id = "LFLL_GND"
+parent_id = "LFLL_TWR"
+controlled_by = ["LFLL_GND"]
+
+[[stations]]
+id = "LFLN_GND"
+parent_id = "LFLN_TWR"
+controlled_by = ["LFLN_GND"]
+
+[[stations]]
+id = "LFLS_GND"
+parent_id = "LFLS_TWR"
+controlled_by = ["LFLS_GND"]
+
+[[stations]]
+id = "LFLY_GND"
+parent_id = "LFLY_TWR"
+controlled_by = ["LFLY_GND"]
+
+[[stations]]
+id = "LFMC_GND"
+parent_id = "LFMC_TWR"
+controlled_by = ["LFMC_GND"]
+
+[[stations]]
+id = "LFMD_GND"
+parent_id = "LFMD_TWR"
+controlled_by = ["LFMD_GND"]
+
+[[stations]]
+id = "LFMI_GND"
+parent_id = "LFMI_TWR"
+controlled_by = ["LFMI_GND"]
+
+[[stations]]
+id = "LFML_GND"
+parent_id = "LFML_TWR"
+controlled_by = ["LFML_GND"]
+
+[[stations]]
+id = "LFMN_GND"
+parent_id = "LFMN_TWR"
+controlled_by = ["LFMN_GND"]
+
+[[stations]]
+id = "LFMO_GND"
+parent_id = "LFMO_TWR"
+controlled_by = ["LFMO_GND"]
+
+[[stations]]
+id = "LFMP_GND"
+parent_id = "LFMP_TWR"
+controlled_by = ["LFMP_GND"]
+
+[[stations]]
+id = "LFMT_GND"
+parent_id = "LFMT_TWR"
+controlled_by = ["LFMT_GND"]
+
+[[stations]]
+id = "LFMY_GND"
+parent_id = "LFMY_TWR"
+controlled_by = ["LFMY_GND"]
+
+[[stations]]
+id = "LFTH_GND"
+parent_id = "LFTH_TWR"
+controlled_by = ["LFTH_GND"]
+
+[[stations]]
+id = "LFTW_GND"
+parent_id = "LFTW_TWR"
+controlled_by = ["LFTW_GND"]
+
+[[stations]]
+id = "LFLL_DEL"
+parent_id = "LFLL_GND"
+controlled_by = ["LFLL_DEL"]
+
+[[stations]]
+id = "LFML_DEL"
+parent_id = "LFML_GND"
+controlled_by = ["LFML_DEL"]
+
+[[stations]]
+id = "LFMN_DEL"
+parent_id = "LFMN_GND"
+controlled_by = ["LFMN_DEL"]

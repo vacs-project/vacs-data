@@ -1,0 +1,28 @@
+{
+  "stations": [
+    {
+      "id": "ADRIA",
+      "controlled_by": ["ADR_CTR"]
+    },
+    {
+      "id": "ADRIA-WEST",
+      "controlled_by": ["ADR_W_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "ADRIA-EAST",
+      "controlled_by": ["ADR_E_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "ADRIA-UPPER",
+      "controlled_by": ["ADR_U_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "ADRIA-EAST-UPPER",
+      "controlled_by": ["ADR_UE_CTR", "ADR_E_CTR", "ADR_CTR"]
+    },
+    {
+      "id": "ADRIA-WEST-UPPER",
+      "controlled_by": ["ADR_UW_CTR", "ADR_W_CTR", "ADR_CTR"]
+    }
+  ]
+}

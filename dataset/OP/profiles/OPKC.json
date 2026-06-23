@@ -1,0 +1,62 @@
+{
+  "id": "OPKC",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["OPKC"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["GND"],
+            "color": "mint",
+            "station_id": "OPKC_GND"
+          },
+          {
+            "label": ["AIR"],
+            "color": "blush",
+            "station_id": "OPKC_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OPKR", "CENTRAL"],
+            "color": "cadet",
+            "station_id": "OPKR-E_CTR"
+          },
+          {
+            "label": ["APP"],
+            "color": "steel",
+            "station_id": "OPKC_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OPNH", "TWR"],
+            "color": "cadet",
+            "station_id": "OPNH_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OPKD", "TWR"],
+            "color": "cadet",
+            "station_id": "OPKD_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}
