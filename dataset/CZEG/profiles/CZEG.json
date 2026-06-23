@@ -1,0 +1,12 @@
+{
+  "id": "CZEG",
+  "type": "Geo",
+  "direction": "col",
+  "children": [
+    {
+      "label": ["EDMONTON", "CENTRE"],
+      "size": 4.0,
+      "station_id": "CZEG-FSS"
+    }
+  ]
+}
