@@ -88,7 +88,15 @@ controlled_by = ["LFEE_YR_CTR"]
 
 [[stations]]
 id = "LFSB_APP"
-controlled_by = ["LFSB_APP", "LFSB_C_APP", "LFEE_CTR"]
+controlled_by = [
+  "LFSB_APP",
+  "LFSB_C_APP",
+  "LFEE_CTR",
+  "LSAZ_W_CTR",
+  "LSAZ_S_CTR",
+  "LSAZ_CTR",
+  "LSAS_CTR",
+]
 
 [[stations]]
 id = "LFSB_C_APP"

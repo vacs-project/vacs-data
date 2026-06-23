@@ -1385,13 +1385,6 @@
       "frequency": "131.675",
       "facility_type": "DEL",
       "profile_id": "LIRR-NORTH"
-    },
-    {
-      "id": "LSZA_TWR",
-      "prefixes": ["LSZA"],
-      "frequency": "120.250",
-      "facility_type": "TWR",
-      "profile_id": "LIMM"
     }
   ]
 }

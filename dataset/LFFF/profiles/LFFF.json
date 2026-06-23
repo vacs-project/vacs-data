@@ -299,7 +299,7 @@
           {
             "label": ["LON", "S18"],
             "color": "clay",
-            "station_id": "LON_SF_CTR"
+            "station_id": "EG-Sector-18"
           },
           {
             "label": []
@@ -316,7 +316,7 @@
           {
             "label": ["LON", "S01"],
             "color": "blush",
-            "station_id": "LON_SU_CTR"
+            "station_id": "EG-Sector-01"
           },
           {
             "label": ["LON", "S16/S17"],
@@ -344,7 +344,7 @@
           {
             "label": ["LON", "S15"],
             "color": "clay",
-            "station_id": "LON_DK_CTR"
+            "station_id": "EG-Sector-15"
           },
           {
             "label": ["BBU", "WLS"],
