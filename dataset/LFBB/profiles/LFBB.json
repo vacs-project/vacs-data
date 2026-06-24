@@ -1,0 +1,2094 @@
+{
+  "id": "LFBB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["SECT", "FIR"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SECT", "FIR/NORD"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["R5"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": ["R4"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": ["R3"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": ["R2"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": ["R1"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["L5"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": ["L4"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": ["L3"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": ["L2"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": ["L1"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["P4"],
+                  "color": "mint",
+                  "station_id": "LFBB_P1"
+                },
+                {
+                  "label": ["P4"],
+                  "color": "mint",
+                  "station_id": "LFBB_P1"
+                },
+                {
+                  "label": ["P1"],
+                  "color": "mint",
+                  "station_id": "LFBB_P1"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["T4"],
+                  "color": "mint",
+                  "station_id": "LFBB_T1"
+                },
+                {
+                  "label": ["T3"],
+                  "color": "mint",
+                  "station_id": "LFBB_T1"
+                },
+                {
+                  "label": ["T1"],
+                  "color": "mint",
+                  "station_id": "LFBB_T1"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ACC", "ESP"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["PL", "PAL"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LR", "DDN"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["ZA", "ZGZ"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["NW4", "T4"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["B", "T1"],
+                  "color": "blush",
+                  "station_id": "LFBB_T1"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SECT", "FIR/SUD"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["Z5"],
+                  "color": "mint",
+                  "station_id": "LFBB_Z1"
+                },
+                {
+                  "label": ["Z4"],
+                  "color": "mint",
+                  "station_id": "LFBB_Z1"
+                },
+                {
+                  "label": ["Z3"],
+                  "color": "mint",
+                  "station_id": "LFBB_Z1"
+                },
+                {
+                  "label": ["Z2"],
+                  "color": "mint",
+                  "station_id": "LFBB_Z1"
+                },
+                {
+                  "label": ["Z1"],
+                  "color": "mint",
+                  "station_id": "LFBB_Z1"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["X5"],
+                  "color": "mint",
+                  "station_id": "LFBB_X1"
+                },
+                {
+                  "label": ["X4"],
+                  "color": "mint",
+                  "station_id": "LFBB_X1"
+                },
+                {
+                  "label": ["X3"],
+                  "color": "mint",
+                  "station_id": "LFBB_X1"
+                },
+                {
+                  "label": ["X2"],
+                  "color": "mint",
+                  "station_id": "LFBB_X1"
+                },
+                {
+                  "label": ["X1"],
+                  "color": "mint",
+                  "station_id": "LFBB_X1"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["N5"],
+                  "color": "mint",
+                  "station_id": "LFBB_N1"
+                },
+                {
+                  "label": ["N4"],
+                  "color": "mint",
+                  "station_id": "LFBB_N1"
+                },
+                {
+                  "label": ["N3"],
+                  "color": "mint",
+                  "station_id": "LFBB_N1"
+                },
+                {
+                  "label": ["N2"],
+                  "color": "mint",
+                  "station_id": "LFBB_N1"
+                },
+                {
+                  "label": ["N1"],
+                  "color": "mint",
+                  "station_id": "LFBB_N1"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["H5"],
+                  "color": "mint",
+                  "station_id": "LFBB_H1"
+                },
+                {
+                  "label": ["H4"],
+                  "color": "mint",
+                  "station_id": "LFBB_H1"
+                },
+                {
+                  "label": ["H3"],
+                  "color": "mint",
+                  "station_id": "LFBB_H1"
+                },
+                {
+                  "label": ["H2"],
+                  "color": "mint",
+                  "station_id": "LFBB_H1"
+                },
+                {
+                  "label": ["H1"],
+                  "color": "mint",
+                  "station_id": "LFBB_H1"
+                },
+                {
+                  "label": [""],
+                  "station_id": "LFBB_T1"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["MIL"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["PLDR01", "CAG"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["MARINA", "DRONE"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["LFBC"],
+                  "color": "azure",
+                  "station_id": "LFBC_APP"
+                },
+                {
+                  "label": ["CCMAR"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MGO 1"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MARSAN", "DCC"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["PLDR02", "CAG"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["RAKI", "DRONE"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["LFBM"],
+                  "color": "azure",
+                  "station_id": "LFBM_APP"
+                },
+                {
+                  "label": ["CCRAK"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MGO 2"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["TOURS", "DCC"],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["RAMBER", "DRONE"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["LFBG", "R49H"],
+                  "color": "azure",
+                  "station_id": "LFBG_APP"
+                },
+                {
+                  "label": ["CCRAM"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MGO 3"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["LYON", "DCC"],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["MGO", "PSA"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["LFBG", "R49N"],
+                  "color": "mint",
+                  "station_id": "LFBG_APP"
+                },
+                {
+                  "label": ["CEL", "ESSAIS"],
+                  "color": "mint"
+                },
+                {
+                  "label": ["MGO 4"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["ISTRES", "DCE"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": ["MGO", "CSCAM"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["LFOA"],
+                  "color": "azure",
+                  "station_id": "LFOA_APP"
+                },
+                {
+                  "label": ["LFOA", "CDQ"],
+                  "color": "azure",
+                  "station_id": "LFOA_APP"
+                },
+                {
+                  "label": ["MGO 5"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["LACOUR"],
+                  "color": "azure"
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["CER"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "FIR/FR"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["NS"],
+                  "color": "blush",
+                  "station_id": "LFRR_NS"
+                },
+                {
+                  "label": ["LU", "LFRS"],
+                  "color": "azure",
+                  "station_id": "LFRS_LU_APP"
+                },
+                {
+                  "label": ["GS"],
+                  "color": "blush",
+                  "station_id": "LFRR_GS"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["RT"],
+                  "color": "blush",
+                  "station_id": "PAR_RT"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["OT"],
+                  "color": "blush",
+                  "station_id": "PAR_OT"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["S"],
+                  "color": "blush",
+                  "station_id": "PAR_S"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LO"],
+                  "color": "blush",
+                  "station_id": "LFMM_LO"
+                },
+                {
+                  "label": ["LS"],
+                  "color": "blush",
+                  "station_id": "LFMM_LS"
+                },
+                {
+                  "label": ["ML"],
+                  "color": "blush",
+                  "station_id": "LFMM_ML"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["DIVERS", "FBDX"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["FMP"],
+                  "color": "mint",
+                  "station_id": "LFXX_FMP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["STIP"],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["BNIA"],
+                  "color": "azure"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["CDS"],
+            "color": "taupe"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["APP", "AD"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["LU", "LFRS", ""],
+                  "color": "azure",
+                  "station_id": "LFRS_LU_APP"
+                },
+                {
+                  "label": ["NB", "LFRS", ""],
+                  "color": "azure",
+                  "station_id": "LFRS_NB_APP"
+                },
+                {
+                  "label": ["LFBH"],
+                  "color": "azure",
+                  "station_id": "LFBH_APP"
+                },
+                {
+                  "label": ["BW", "LFBD"],
+                  "color": "blush",
+                  "station_id": "LFBD_BW_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LFBZ", "APP"],
+                  "color": "azure",
+                  "station_id": "LFBZ_APP"
+                },
+                {
+                  "label": ["LFOT", "TOURS"],
+                  "color": "azure",
+                  "station_id": "LFOT_TWR"
+                },
+                {
+                  "label": ["LFBI"],
+                  "color": "azure",
+                  "station_id": "LFBI_APP"
+                },
+                {
+                  "label": ["LFBU", "ANGOUL"],
+                  "color": "azure",
+                  "station_id": "LFBU_I_TWR"
+                },
+                {
+                  "label": ["BE", "LFBD"],
+                  "color": "blush",
+                  "station_id": "LFBD_BE_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SK", "SEINE"],
+                  "color": "azure",
+                  "station_id": "LFPM_SK_APP"
+                },
+                {
+                  "label": ["BL", "LFBL"],
+                  "color": "azure",
+                  "station_id": "LFBL_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["AW", "LFBO"],
+                  "color": "blush",
+                  "station_id": "LFBO_AW_APP"
+                },
+                {
+                  "label": ["PY", "LFBP"],
+                  "color": "azure",
+                  "station_id": "LFBP_APP"
+                },
+                {
+                  "label": ["LFLX"],
+                  "color": "azure",
+                  "station_id": "LFLX_TWR"
+                },
+                {
+                  "label": ["LFBK", "MONTLU"],
+                  "color": "azure",
+                  "station_id": "LFBK_I_TWR"
+                },
+                {
+                  "label": ["LFSL", "BRIVE"],
+                  "color": "azure",
+                  "station_id": "LFSL_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["AE", "LFBO"],
+                  "color": "blush",
+                  "station_id": "LFBO_AE_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": ["CF", "LFLC"],
+                  "color": "azure",
+                  "station_id": "LFLC_CF_APP"
+                },
+                {
+                  "label": ["CL", "LFLC"],
+                  "color": "azure",
+                  "station_id": "LFLC_CL_APP"
+                },
+                {
+                  "label": ["CN", "LFLC"],
+                  "color": "azure",
+                  "station_id": "LFLC_CN_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LFMT"],
+                  "color": "azure",
+                  "station_id": "LFMT_FE_APP"
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SECT", "ACC"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": [],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["R5"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": ["R4"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": ["R3"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": ["R2"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": ["R1"],
+                  "color": "mint",
+                  "station_id": "LFBB_R1"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["L5"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": ["L4"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": ["L3"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": ["L2"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": ["L1"],
+                  "color": "mint",
+                  "station_id": "LFBB_L1"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["P4"],
+                  "color": "mint",
+                  "station_id": "LFBB_P1"
+                },
+                {
+                  "label": ["P4"],
+                  "color": "mint",
+                  "station_id": "LFBB_P1"
+                },
+                {
+                  "label": ["P1"],
+                  "color": "mint",
+                  "station_id": "LFBB_P1"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["T4"],
+                  "color": "mint",
+                  "station_id": "LFBB_T1"
+                },
+                {
+                  "label": ["T3"],
+                  "color": "mint",
+                  "station_id": "LFBB_T1"
+                },
+                {
+                  "label": ["T1"],
+                  "color": "mint",
+                  "station_id": "LFBB_T1"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["MIL1", ""],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["MARINA", "URG"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["MGO", "PSA"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["CCMAR"],
+                  "color": "lavender"
+                },
+                {
+                  "label": ["MARSAN", "DCC"],
+                  "color": "lavender"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["RAKI", "URG"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["MGO", "CSCAM"],
+                  "color": "lavender"
+                },
+                {
+                  "label": ["CCRAK"],
+                  "color": "lavender"
+                },
+                {
+                  "label": ["TOURS", "DCC"],
+                  "color": "lavender"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["RAMBER", "URG"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CCRAM"],
+                  "color": "lavender"
+                },
+                {
+                  "label": ["LYON", "DCC"],
+                  "color": "lavender"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["MENHIR", "CSCAM"],
+                  "color": "lavender"
+                },
+                {
+                  "label": ["R169", "LARZAC"],
+                  "color": "lavender"
+                },
+                {
+                  "label": ["ISTRES", "DCE"],
+                  "color": "lavender"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": ["CEL", "ESSAIS"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["BOURGE", "URG"],
+                  "color": "lavender"
+                },
+                {
+                  "label": ["LFBC"],
+                  "color": "azure",
+                  "station_id": "LFBC_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC1", "UIR/FR"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LU", "LFRS"],
+                  "color": "azure",
+                  "station_id": "LFRS_LU_APP"
+                },
+                {
+                  "label": ["GU"],
+                  "color": "blush",
+                  "station_id": "LFRR_GU"
+                },
+                {
+                  "label": ["GI"],
+                  "color": "blush",
+                  "station_id": "LFRR_GI"
+                },
+                {
+                  "label": ["GS"],
+                  "color": "blush",
+                  "station_id": "LFRR_G"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["NU"],
+                  "color": "blush",
+                  "station_id": "LFRR_NU"
+                },
+                {
+                  "label": ["NI"],
+                  "color": "blush",
+                  "station_id": "LFRR_NI"
+                },
+                {
+                  "label": ["NF"],
+                  "color": "blush",
+                  "station_id": "LFRR_NF"
+                },
+                {
+                  "label": ["NS"],
+                  "color": "blush",
+                  "station_id": "LFRR_NS"
+                },
+                {
+                  "label": ["RT"],
+                  "color": "blush",
+                  "station_id": "PAR_RT"
+                },
+                {
+                  "label": ["XU"],
+                  "color": "blush",
+                  "station_id": "LFRR_XU"
+                },
+                {
+                  "label": ["XI"],
+                  "color": "blush",
+                  "station_id": "LFRR_XI"
+                },
+                {
+                  "label": ["XS"],
+                  "color": "blush",
+                  "station_id": "LFRR_XS"
+                },
+                {
+                  "label": ["OG"],
+                  "color": "blush",
+                  "station_id": "PAR_OG"
+                },
+                {
+                  "label": ["OY"],
+                  "color": "blush",
+                  "station_id": "PAR_OY"
+                },
+                {
+                  "label": ["OT"],
+                  "color": "blush",
+                  "station_id": "PAR_OT"
+                },
+                {
+                  "label": ["ZU"],
+                  "color": "blush",
+                  "station_id": "LFRR_ZU"
+                },
+                {
+                  "label": ["ZI"],
+                  "color": "blush",
+                  "station_id": "LFRR_ZI"
+                },
+                {
+                  "label": ["ZA"],
+                  "color": "blush",
+                  "station_id": "LFRR_ZA"
+                },
+                {
+                  "label": ["UZ"],
+                  "color": "blush",
+                  "station_id": "PAR_UZ"
+                },
+                {
+                  "label": ["DG"],
+                  "color": "blush",
+                  "station_id": "PAR_DG"
+                },
+                {
+                  "label": ["DO"],
+                  "color": "blush",
+                  "station_id": "PAR_DO"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["MIL2"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["MGO 1"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MENHIR", "1"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MARIUS", "0"],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["MGO 2"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MENHIR", "2"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MARIUS", "1"],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["MGO 3"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MENHIR", "3"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["MARIUS", "2"],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["MGO 4"],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["MARIUS", "3"],
+                  "color": "azure"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["MGO 5"],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC2", "UIR/FR"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["HP"],
+                  "color": "blush",
+                  "station_id": "PAR_HP"
+                },
+                {
+                  "label": ["PW"],
+                  "color": "blush",
+                  "station_id": "PAR_PW"
+                },
+                {
+                  "label": ["PU"],
+                  "color": "blush",
+                  "station_id": "PAR_PU"
+                },
+                {
+                  "label": ["UP"],
+                  "color": "blush",
+                  "station_id": "PAR_UP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["G4"],
+                  "color": "blush",
+                  "station_id": "LFMM_G"
+                },
+                {
+                  "label": ["G3"],
+                  "color": "blush",
+                  "station_id": "LFMM_G"
+                },
+                {
+                  "label": ["G2"],
+                  "color": "blush",
+                  "station_id": "LFMM_G"
+                },
+                {
+                  "label": ["G1"],
+                  "color": "blush",
+                  "station_id": "LFMM_G"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["W3"],
+                  "color": "blush",
+                  "station_id": "LFMM_W"
+                },
+                {
+                  "label": ["W3"],
+                  "color": "blush",
+                  "station_id": "LFMM_W"
+                },
+                {
+                  "label": ["W1"],
+                  "color": "blush",
+                  "station_id": "LFMM_W"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["M4"],
+                  "color": "blush",
+                  "station_id": "LFMM_M"
+                },
+                {
+                  "label": ["M3"],
+                  "color": "blush",
+                  "station_id": "LFMM_M"
+                },
+                {
+                  "label": ["M2"],
+                  "color": "blush",
+                  "station_id": "LFMM_M"
+                },
+                {
+                  "label": ["M1"],
+                  "color": "blush",
+                  "station_id": "LFMM_M"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": ["AO"],
+                  "color": "blush",
+                  "station_id": "PAR_AO"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["CER"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["LFBB", "CER"],
+                  "color": "lilac"
+                },
+                {
+                  "label": ["LFBM", "CER"],
+                  "color": "lilac"
+                },
+                {
+                  "label": ["CERBB1"],
+                  "color": "lilac"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LFBO", "CER"],
+                  "color": "lilac"
+                },
+                {
+                  "label": ["LFRR", "CER"],
+                  "color": "lilac"
+                },
+                {
+                  "label": ["CERBB2"],
+                  "color": "lilac"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LFMM", "CER"],
+                  "color": "lilac"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CERBB3"],
+                  "color": "lilac"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["ISTRES", "CER"],
+                  "color": "lilac"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CERBB4"],
+                  "color": "lilac"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CERBB5"],
+                  "color": "lilac"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "FIR/FR"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LU", "LFRS"],
+                  "color": "azure",
+                  "station_id": "LFRS_LU_APP"
+                },
+                {
+                  "label": ["GS"],
+                  "color": "blush",
+                  "station_id": "LFRR_GS"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["S"],
+                  "color": "blush",
+                  "station_id": "PAR_S"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LO"],
+                  "color": "blush",
+                  "station_id": "LFMM_LO"
+                },
+                {
+                  "label": ["LS"],
+                  "color": "blush",
+                  "station_id": "LFMM_LS"
+                },
+                {
+                  "label": ["ML"],
+                  "color": "blush",
+                  "station_id": "LFMM_ML"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["LO"],
+                  "color": "blush",
+                  "station_id": "LFMM_LO"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["DIVERS", "FBDX"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["FMP"],
+                  "color": "mint",
+                  "station_id": "LFXX_FMP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["STIP"],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["BNIA"],
+                  "color": "azure"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["CDS"],
+            "color": "taupe"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "ESP"],
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": []
+                },
+                {
+                  "label": ["PP", "PAU"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["PL", "PAL"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["ZA", "ZGZ"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["WA", "P2R"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["LR", "DDN"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["OU", "GO3"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["OM", "GO2"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["OL", "GO1"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CC", "CCL"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["XA", "XAL"],
+                  "color": "blush"
+                },
+                {
+                  "label": ["B", "T1"],
+                  "color": "blush",
+                  "station_id": "LFBB_T1"
+                },
+                {
+                  "label": ["CDS"],
+                  "color": "taupe"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["CT", "CCU"],
+                  "color": "blush"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

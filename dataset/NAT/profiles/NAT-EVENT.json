@@ -412,37 +412,25 @@
           "justify_content": "center",
           "children": [
             {
-              "label": ["Santa", "Maria", "(INOP)"],
+              "label": ["Santa", "Maria"],
               "size": 7,
               "page": {
-                "rows": 3,
+                "rows": 2,
                 "keys": [
                   {
-                    "label": ["Oceanic", "clearance"]
-                  },
-                  {
-                    "label": ["Oceanic", "clearance", "2"]
-                  },
-                  {
-                    "label": []
-                  },
-                  {
-                    "label": ["Radio", "1"]
-                  },
-                  {
-                    "label": ["Radio", "2"]
-                  },
-                  {
-                    "label": ["Radio", "3"]
+                    "label": ["Clearance"],
+                    "station_id": "LPPO_OC_DEL"
                   },
                   {
                     "label": []
                   },
                   {
-                    "label": ["Radio"]
+                    "label": ["Oceanic"],
+                    "station_id": "LPPO_FSS"
                   },
                   {
-                    "label": []
+                    "label": ["Oceanic", "285+"],
+                    "station_id": "LPPO_OC_CTR"
                   }
                 ]
               }

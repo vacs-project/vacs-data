@@ -161,7 +161,7 @@
               },
               {
                 "label": ["ZUR", "ARFA"],
-                "station_id": "LSFA-ARFA"
+                "station_id": "LSFA_APP"
               }
             ],
             "rows": 6

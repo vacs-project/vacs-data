@@ -1,0 +1,238 @@
+{
+  "id": "CYXE-TMU",
+  "type": "Geo",
+  "direction": "row",
+  "padding": 0.77,
+  "gap": 0.1,
+  "justify_content": "space-around",
+  "children": [
+    {
+      "direction": "col",
+      "height": "100%",
+      "gap": 1.1,
+      "justify_content": "start",
+      "children": [
+        {
+          "label": ["MONTREAL", "CENTRE", "INOP"],
+          "size": 6.5,
+          "color": "cadet"
+        },
+        {
+          "label": ["TORONTO", "CENTRE", "INOP"],
+          "size": 6.5,
+          "color": "cadet"
+        },
+        { "orientation": "horizontal", "thickness": 1, "color": "#4a5568" },
+        {
+          "label": ["MSP", "CENTRE", "INOP"],
+          "size": 6.5,
+          "color": "taupe"
+        },
+        {
+          "label": ["SLC", "CENTRE", "INOP"],
+          "size": 6.5,
+          "color": "taupe"
+        }
+      ]
+    },
+
+    { "orientation": "vertical", "thickness": 5, "color": "#364153" },
+
+    {
+      "direction": "col",
+      "height": "50%",
+      "width": "20%",
+      "gap": 1.3,
+      "justify_content": "space-between",
+      "children": [
+        {
+          "direction": "row",
+          "gap": 0.3,
+          "children": [
+            {
+              "label": ["WPG", "CTR", "124.000"],
+              "size": 8,
+              "color": "steel",
+              "station_id": "WPG-CTR"
+            },
+            {
+              "label": ["CYQR", "TMU", "120.100"],
+              "size": 8,
+              "color": "steel",
+              "station_id": "CYQR-TMU"
+            },
+            {
+              "label": ["CYWG", "APP", "119.500"],
+              "size": 8,
+              "color": "steel",
+              "station_id": "CYWG-APP"
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "gap": 0.3,
+          "children": [
+            {
+              "label": ["TOWER", "118.300"],
+              "size": 8,
+              "color": "steel",
+              "station_id": "CYXE-TWR"
+            },
+            {
+              "label": ["GROUND", "121.900"],
+              "size": 8,
+              "color": "steel",
+              "station_id": "CYXE-GND"
+            },
+            {
+              "label": ["CL/DEL", "NOT AVAIL"],
+              "size": 8,
+              "color": "steel"
+            }
+          ]
+        },
+        { "orientation": "horizontal", "thickness": 5, "color": "#364153" },
+        {
+          "direction": "row",
+          "gap": 0.3,
+          "justify_content": "space-evenly",
+          "children": [
+            {
+              "label": ["CYQR", "TOWER", "118.600"],
+              "size": 8,
+              "color": "lavender",
+              "station_id": "CYQR-TWR"
+            },
+            {
+              "label": ["CYMJ", "TOWER", "126.200"],
+              "size": 8,
+              "color": "lavender",
+              "station_id": "CYMJ-TWR"
+            },
+            {
+              "label": ["SHIFT SUP", "HOTLINE", "NOT AVAIL"],
+              "size": 8,
+              "color": "lavender"
+            }
+          ]
+        }
+      ]
+    },
+
+    { "orientation": "vertical", "thickness": 5, "color": "#364153" },
+
+    {
+      "direction": "col",
+      "height": "100%",
+      "gap": 1.1,
+      "justify_content": "space-evenly",
+      "children": [
+        {
+          "label": ["YMJ", "LOCAL", "..."],
+          "size": 6,
+          "color": "blush",
+          "page": {
+            "rows": 2,
+            "keys": [
+              {
+                "label": ["CYMJ-TWR"],
+                "color": "mint",
+                "station_id": "CYMJ-TWR"
+              },
+              {
+                "label": ["CYMJ-GND"],
+                "color": "lagoon",
+                "station_id": "CYMJ-GND"
+              },
+              {
+                "label": ["CYMJ-DEL"],
+                "color": "lagoon",
+                "station_id": "CYMJ-DEL"
+              }
+            ]
+          }
+        },
+        { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
+        {
+          "label": ["YQT", "LOCAL", "..."],
+          "size": 6,
+          "color": "blush",
+          "page": {
+            "rows": 1,
+            "keys": [
+              {
+                "label": ["CYQT-TWR"],
+                "color": "mint",
+                "station_id": "CYQT-TWR"
+              },
+              {
+                "label": ["CYQT-GND"],
+                "color": "lagoon",
+                "station_id": "CYQT-GND"
+              }
+            ]
+          }
+        },
+        { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
+        {
+          "label": ["YQR", "LOCAL", "..."],
+          "size": 6,
+          "color": "blush",
+          "page": {
+            "rows": 1,
+            "keys": [
+              {
+                "label": ["CYQR-TWR"],
+                "color": "mint",
+                "station_id": "CYQR-TWR"
+              },
+              {
+                "label": ["CYQR-GND"],
+                "color": "lagoon",
+                "station_id": "CYQR-GND"
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    { "orientation": "vertical", "thickness": 5, "color": "#364153" },
+
+    {
+      "direction": "col",
+      "height": "100%",
+      "gap": 1.1,
+      "justify_content": "space-evenly",
+      "children": [
+        {
+          "label": ["EDMONTON", "CENTRE", "INOP"],
+          "size": 8,
+          "color": "snow",
+          "page": {
+            "rows": 1,
+            "keys": [
+              { "label": ["CZEG", "FSS", "INOP"] },
+              { "label": ["CZEG", "CTR", "INOP"] },
+              { "label": ["CZEG", "Q-CTR", "INOP"] }
+            ]
+          }
+        },
+        { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
+        {
+          "label": ["EDMONTON", "FSS", "INOP"],
+          "size": 6,
+          "color": "snow"
+        },
+        { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
+        {
+          "label": ["HOTLINE", "INOP", "..."],
+          "size": 6,
+          "color": "snow"
+        },
+        { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" }
+      ]
+    }
+  ]
+}
