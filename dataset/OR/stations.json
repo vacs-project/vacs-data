@@ -12,7 +12,7 @@
     },
     {
       "id": "ORBB_NU_CTR",
-      "parent_id": "ORBB_NU_CTR",
+      "parent_id": "ORBB_N_CTR",
       "controlled_by": ["ORBB_NU_CTR"]
     },
     {

@@ -36,13 +36,6 @@
       "default_call_sources": ["ORBB_S_CTR"]
     },
     {
-      "id": "ORBI_DEP",
-      "prefixes": ["ORBI"],
-      "frequency": "199.998",
-      "facility_type": "DEP",
-      "default_call_sources": ["ORBI_DEP"]
-    },
-    {
       "id": "ALI_APP",
       "prefixes": ["ALI"],
       "frequency": "120.200",
