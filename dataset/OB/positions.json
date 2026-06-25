@@ -1,0 +1,148 @@
+{
+  "positions": [
+    {
+      "id": "OBBB_FM_CTR",
+      "prefixes": ["OBBB"],
+      "frequency": "127.525",
+      "facility_type": "CTR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBB_FM_CTR"]
+    },
+    {
+      "id": "OBBB_1_CTR",
+      "prefixes": ["OBBB"],
+      "frequency": "127.525",
+      "facility_type": "CTR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBB_1_CTR"]
+    },
+    {
+      "id": "OBBB_2_CTR",
+      "prefixes": ["OBBB"],
+      "frequency": "132.125",
+      "facility_type": "CTR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBB_2_CTR"]
+    },
+    {
+      "id": "OBBB_3_CTR",
+      "prefixes": ["OBBB"],
+      "frequency": "127.575",
+      "facility_type": "CTR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBB_3_CTR"]
+    },
+    {
+      "id": "OBBB_CH_CTR",
+      "prefixes": ["OBBB"],
+      "frequency": "124.300",
+      "facility_type": "CTR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBB_CH_CTR"]
+    },
+    {
+      "id": "OBBB_CL_CTR",
+      "prefixes": ["OBBB"],
+      "frequency": "122.300",
+      "facility_type": "CTR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBB_CL_CTR"]
+    },
+    {
+      "id": "OBBB_N_CTR",
+      "prefixes": ["OBBB"],
+      "frequency": "126.700",
+      "facility_type": "CTR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBB_N_CTR"]
+    },
+    {
+      "id": "OBBB_E_CTR",
+      "prefixes": ["OBBB"],
+      "frequency": "132.850",
+      "facility_type": "CTR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBB_E_CTR"]
+    },
+    {
+      "id": "OBBI_APP",
+      "prefixes": ["OBBI"],
+      "frequency": "127.850",
+      "facility_type": "APP",
+      "profile_id": "BAH",
+      "default_call_sources": ["OBBI_APP"]
+    },
+    {
+      "id": "OBBI_F_APP",
+      "prefixes": ["OBBI"],
+      "frequency": "119.100",
+      "facility_type": "APP",
+      "profile_id": "BAH",
+      "default_call_sources": ["OBBI_F_APP"]
+    },
+    {
+      "id": "OBBI_TWR",
+      "prefixes": ["OBBI"],
+      "frequency": "118.500",
+      "facility_type": "TWR",
+      "profile_id": "BAH",
+      "default_call_sources": ["OBBI_TWR"]
+    },
+    {
+      "id": "OBBI_GND",
+      "prefixes": ["OBBI"],
+      "frequency": "121.850",
+      "facility_type": "GND",
+      "profile_id": "BAH",
+      "default_call_sources": ["OBBI_GND"]
+    },
+    {
+      "id": "OBBI_DEL",
+      "prefixes": ["OBBI"],
+      "frequency": "121.900",
+      "facility_type": "DEL",
+      "profile_id": "BAH",
+      "default_call_sources": ["OBBI_DEL"]
+    },
+    {
+      "id": "OBBI_P_DEL",
+      "prefixes": ["OBBI"],
+      "frequency": "121.900",
+      "facility_type": "DEL",
+      "profile_id": "BAH",
+      "default_call_sources": ["OBBI_P_DEL"]
+    },
+    {
+      "id": "OBBS_APP",
+      "prefixes": ["OBBS"],
+      "frequency": "124.950",
+      "facility_type": "APP",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBS_APP"]
+    },
+    {
+      "id": "OBBS_TWR",
+      "prefixes": ["OBBS"],
+      "frequency": "125.450",
+      "facility_type": "TWR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBBS_TWR"]
+    },
+    {
+      "id": "OBKH_TWR",
+      "prefixes": ["OBKH"],
+      "frequency": "118.150",
+      "facility_type": "TWR",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBKH_TWR"]
+    },
+    {
+      "id": "OBKH_GND",
+      "prefixes": ["OBKH"],
+      "frequency": "121.850",
+      "facility_type": "GND",
+      "profile_id": "OBBB",
+      "default_call_sources": ["OBKH_GND"]
+    }
+  ]
+}
