@@ -51,6 +51,9 @@
             "label": []
           },
           {
+            "label": []
+          },
+          {
             "label": ["PARIS", "TB"],
             "station_id": "PAR_TB"
           },
@@ -61,9 +64,6 @@
           {
             "label": ["PARIS", "TM"],
             "station_id": "PAR_TM"
-          },
-          {
-            "label": ["LFQQ (tbd)"]
           },
           {
             "label": ["LFST"],
