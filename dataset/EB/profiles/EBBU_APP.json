@@ -51,19 +51,23 @@
             "label": []
           },
           {
-            "label": ["PARIS", "TB"]
+            "label": ["PARIS", "TB"],
+            "station_id": "PAR_TB"
           },
           {
-            "label": ["PARIS", "TE"]
+            "label": ["PARIS", "TE"],
+            "station_id": "PAR_TE"
           },
           {
-            "label": ["PARIS", "TM"]
+            "label": ["PARIS", "TM"],
+            "station_id": "PAR_TM"
           },
           {
-            "label": ["LFQQ"]
+            "label": ["LFQQ (tbd)"]
           },
           {
-            "label": ["LFST"]
+            "label": ["LFST"],
+            "station_id": "LFST_SU_APP"
           },
           {
             "label": ["AMS", "W"],
