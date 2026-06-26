@@ -297,11 +297,14 @@
             "station_id": "PAR_TB"
           },
           {
-            "label": ["LFQQ", "APP", "(TBD)"],
-            "color": "blush"
+            "label": ["LFQQ", "W", ""],
+            "color": "blush",
+            "station_id": "LFQQ_QW_APP"
           },
           {
-            "label": []
+            "label": ["LFQQ", "E"],
+            "color": "blush",
+            "station_id": "LFQQ_QE_APP"
           },
           {
             "label": []
