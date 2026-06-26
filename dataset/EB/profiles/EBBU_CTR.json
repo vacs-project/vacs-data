@@ -307,7 +307,9 @@
             "station_id": "LFQQ_QE_APP"
           },
           {
-            "label": []
+            "label": ["AMS", "W"],
+            "color": "clay",
+            "station_id": "EHAA_W"
           },
           {
             "label": []
@@ -336,9 +338,9 @@
             "label": []
           },
           {
-            "label": ["AMS", "W", ""],
+            "label": ["AMS", "S", ""],
             "color": "clay",
-            "station_id": "EHAA_W"
+            "station_id": "EHAA_S"
           },
           {
             "label": ["BEEK", "APP"],
@@ -373,9 +375,9 @@
             "label": []
           },
           {
-            "label": ["AMS", "S"],
+            "label": ["AMS", "E"],
             "color": "clay",
-            "station_id": "EHAA_S"
+            "station_id": "EHAA_E"
           },
           {
             "label": ["NEW", "MIL"],
