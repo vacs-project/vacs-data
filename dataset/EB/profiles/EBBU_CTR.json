@@ -670,9 +670,8 @@
             "color": "blush"
           },
           {
-            "label": ["DEC", "245+", "(ALL)"],
-            "color": "blush",
-            "station_id": "EHAA_ALL"
+            "label": ["DEC", "245+", ""],
+            "color": "blush"
           },
           {
             "label": [],
