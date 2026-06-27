@@ -52,7 +52,8 @@
             "station_id": "OMAE_S_CTR"
           },
           {
-            "label": [""]
+            "label": ["OEDF", "AIR 1"],
+            "station_id": "OEDF_1_TWR"
           },
           {
             "label": ["OBBB", "NH", "345+"],
@@ -67,7 +68,8 @@
             "station_id": "OBBI_APP"
           },
           {
-            "label": [""]
+            "label": ["OEDF", "AIR 2"],
+            "station_id": "OEDF_2_TWR"
           },
           {
             "label": ["OBBB", "CS", "345+"],
@@ -82,7 +84,8 @@
             "station_id": "OBBB_CL_CTR"
           },
           {
-            "label": [""]
+            "label": ["OEDF", "GMC 1"],
+            "station_id": "OEDF_1_GND"
           },
           {
             "label": ["OTDF", "SOUTH", "245+"],
@@ -96,7 +99,8 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["OEDF", "GMC 2"],
+            "station_id": "OEDF_2_GND"
           }
         ]
       }

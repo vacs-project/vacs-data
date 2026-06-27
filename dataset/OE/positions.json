@@ -24,6 +24,13 @@
       "default_call_sources": ["OEJD_W_CTR"]
     },
     {
+      "id": "OEJD_W1_CTR",
+      "prefixes": ["OEJD"],
+      "frequency": "132.300",
+      "facility_type": "CTR",
+      "default_call_sources": ["OEJD_W1_CTR"]
+    },
+    {
       "id": "OEJD_C_CTR",
       "prefixes": ["OEJD"],
       "frequency": "126.550",
@@ -64,6 +71,7 @@
       "prefixes": ["OEJD"],
       "frequency": "134.400",
       "facility_type": "CTR",
+      "profile_id": "OE-E",
       "default_call_sources": ["OEJD_E_CTR"]
     },
     {
@@ -94,6 +102,7 @@
       "prefixes": ["OERD"],
       "frequency": "132.950",
       "facility_type": "CTR",
+      "profile_id": "OE-E",
       "default_call_sources": ["OERD_E_CTR"]
     },
     {
