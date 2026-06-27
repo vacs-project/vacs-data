@@ -52,8 +52,8 @@
             "station_id": "OMAE_S_CTR"
           },
           {
-            "label": ["OEDF", "AIR 1"],
-            "station_id": "OEDF_1_TWR"
+            "label": ["OEDF", "AIR W"],
+            "station_id": "OEDF_W_TWR"
           },
           {
             "label": ["OBBB", "NH", "345+"],
@@ -68,8 +68,8 @@
             "station_id": "OBBI_APP"
           },
           {
-            "label": ["OEDF", "AIR 2"],
-            "station_id": "OEDF_2_TWR"
+            "label": ["OEDF", "AIR E"],
+            "station_id": "OEDF_E_TWR"
           },
           {
             "label": ["OBBB", "CS", "345+"],
