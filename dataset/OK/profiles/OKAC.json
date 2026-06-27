@@ -185,7 +185,7 @@
                   "station_id": "OERD_NE_CTR"
                 },
                 {
-                  "label": ["JD NE", "245-345"],
+                  "label": ["JD NE", "345-"],
                   "color": "mint",
                   "station_id": "OEJD_NE_CTR"
                 }
