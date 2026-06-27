@@ -7,11 +7,11 @@
       "page": {
         "rows": 3,
         "keys": [
-          { "label": ["1_GND"], "station_id": "OEDF_1_GND", "color": "mint" },
-          { "label": ["2_GND"], "station_id": "OEDF_2_GND", "color": "mint" },
+          { "label": ["W_GND"], "station_id": "OEDF_W_GND", "color": "mint" },
+          { "label": ["E_GND"], "station_id": "OEDF_E_GND", "color": "mint" },
           { "label": [], "color": "snow" },
-          { "label": ["1_TWR"], "station_id": "OEDF_1_TWR", "color": "lagoon" },
-          { "label": ["2_TWR"], "station_id": "OEDF_2_TWR", "color": "lagoon" },
+          { "label": ["W_TWR"], "station_id": "OEDF_W_TWR", "color": "lagoon" },
+          { "label": ["E_TWR"], "station_id": "OEDF_E_TWR", "color": "lagoon" },
           { "label": [], "color": "snow" }
         ]
       }

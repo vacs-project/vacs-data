@@ -333,7 +333,7 @@
       "prefixes": ["OEDF"],
       "frequency": "121.750",
       "facility_type": "GND",
-      "default_call_sources": ["OEDF_2_GND"]
+      "default_call_sources": ["OEDF_W_GND"]
     },
     {
       "id": "OEDF_E_GND",
