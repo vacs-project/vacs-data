@@ -111,7 +111,7 @@
             {
               "label": ["LUGANO", "TWR"],
               "size": 5,
-              "station_id": "LSZA-TWR"
+              "station_id": "LSZA_TWR"
             }
           ]
         },

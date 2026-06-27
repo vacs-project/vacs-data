@@ -1194,16 +1194,6 @@
       "id": "LIRN-P-DEL",
       "controlled_by": ["LIRN_P_DEL"],
       "parent_id": "LIRN-GND"
-    },
-    {
-      "id": "LSZA-TWR",
-      "controlled_by": [
-        "LSZA_TWR",
-        "LIMM_ANW_APP",
-        "LIMM_ANE_APP",
-        "LIMM_EN2_CTR",
-        "LIMM_WS2_CTR"
-      ]
     }
   ]
 }

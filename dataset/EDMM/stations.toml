@@ -380,14 +380,6 @@ controlled_by = [
   "EDMM_RDG_CTR",
 ]
 
-[[stations]]
-id = "LSFA-ARFA"
-controlled_by = [
-  # LSZH_APP, LSAS_CTR sadly not on vacs
-  "EDMM_ZUG_CTR",
-  "EDMM_RDG_CTR",
-]
-
 # TWR/GND EDDM
 [[stations]]
 id = "EDDM-TWR-N"
@@ -531,9 +523,4 @@ parent_id = "EDMM-FRK"
 [[stations]]
 id = "EDNY-TWR"
 controlled_by = ["EDNY_TWR"]
-parent_id = "LSFA-ARFA"
-
-[[stations]]
-id = "LSZR-TWR"
-controlled_by = ["LSZR_TWR"]
-parent_id = "LSFA-ARFA"
+parent_id = "LSFA_APP"

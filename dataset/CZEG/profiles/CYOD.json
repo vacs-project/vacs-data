@@ -1,0 +1,12 @@
+{
+  "id": "CYOD",
+  "type": "Geo",
+  "direction": "col",
+  "children": [
+    {
+      "label": ["COLD", "LAKE"],
+      "size": 4.0,
+      "station_id": "CYOD-TWR"
+    }
+  ]
+}

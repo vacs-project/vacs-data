@@ -1,0 +1,192 @@
+{
+  "positions": [
+    {
+      "id": "WPG_CTR",
+      "prefixes": ["WPG"],
+      "frequency": "124.000",
+      "facility_type": "CTR",
+      "profile_id": "WPG",
+      "default_call_sources": ["WPG-CTR"]
+    },
+    {
+      "id": "CYWG_APP",
+      "prefixes": ["CYWG"],
+      "frequency": "119.500",
+      "facility_type": "APP",
+      "profile_id": "CYWG-AC1",
+      "default_call_sources": ["CYWG-APP"]
+    },
+    {
+      "id": "CYWG_DEP",
+      "prefixes": ["CYWG"],
+      "frequency": "121.000",
+      "facility_type": "DEP",
+      "profile_id": "CYWG-DC1",
+      "default_call_sources": ["CYWG-WEST"]
+    },
+    {
+      "id": "CYWG_E_DEP",
+      "prefixes": ["CYWG"],
+      "frequency": "119.900",
+      "facility_type": "DEP",
+      "profile_id": "CYWG-DC2",
+      "default_call_sources": ["CYWG-EAST"]
+    },
+    {
+      "id": "CYXE_APP",
+      "prefixes": ["CYXE"],
+      "frequency": "119.900",
+      "facility_type": "APP",
+      "profile_id": "CYXE-TMU",
+      "default_call_sources": ["CYXE-TMU"]
+    },
+    {
+      "id": "CYQR_APP",
+      "prefixes": ["CYQR"],
+      "frequency": "120.100",
+      "facility_type": "APP",
+      "profile_id": "CYQR-TMU",
+      "default_call_sources": ["CYQR-TMU"]
+    },
+    {
+      "id": "CYQT_APP",
+      "prefixes": ["CYQT"],
+      "frequency": "119.200",
+      "facility_type": "APP",
+      "default_call_sources": ["CYQT-TMU"]
+    },
+    {
+      "id": "CYMJ_APP",
+      "prefixes": ["CYMJ"],
+      "frequency": "119.000",
+      "facility_type": "APP",
+      "default_call_sources": ["CYMJ-TMU"]
+    },
+    {
+      "id": "CYFO_APP",
+      "prefixes": ["CYFO"],
+      "frequency": "123.850",
+      "facility_type": "APP",
+      "default_call_sources": ["CYFO-TMU"]
+    },
+    {
+      "id": "CYWG_TWR",
+      "prefixes": ["CYWG"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "profile_id": "CYWG-LC1",
+      "default_call_sources": ["CYWG-TWR"]
+    },
+    {
+      "id": "CYXE_TWR",
+      "prefixes": ["CYXE"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "profile_id": "CYXE-LC",
+      "default_call_sources": ["CYXE-TWR"]
+    },
+    {
+      "id": "CYQR_TWR",
+      "prefixes": ["CYQR"],
+      "frequency": "118.600",
+      "facility_type": "TWR",
+      "profile_id": "CYQR-LC",
+      "default_call_sources": ["CYQR-TWR"]
+    },
+    {
+      "id": "CYAV_TWR",
+      "prefixes": ["CYAV"],
+      "frequency": "118.500",
+      "facility_type": "TWR",
+      "default_call_sources": ["CYAV-TWR"]
+    },
+    {
+      "id": "CYMJ_TWR",
+      "prefixes": ["CYMJ"],
+      "frequency": "126.200",
+      "facility_type": "TWR",
+      "default_call_sources": ["CYMJ-TWR"]
+    },
+    {
+      "id": "CYPG_TWR",
+      "prefixes": ["CYPG"],
+      "frequency": "126.200",
+      "facility_type": "TWR",
+      "default_call_sources": ["CYPG-TWR"]
+    },
+    {
+      "id": "CYQT_TWR",
+      "prefixes": ["CYQT"],
+      "frequency": "118.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["CYQT-TWR"]
+    },
+    {
+      "id": "CYWG_GND",
+      "prefixes": ["CYWG"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "CYWG-LC1",
+      "default_call_sources": ["CYWG-GND"]
+    },
+    {
+      "id": "CYXE_GND",
+      "prefixes": ["CYXE"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "CYXE-LC",
+      "default_call_sources": ["CYXE-GND"]
+    },
+    {
+      "id": "CYQR_GND",
+      "prefixes": ["CYQR"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "profile_id": "CYQR-LC",
+      "default_call_sources": ["CYQR-GND"]
+    },
+    {
+      "id": "CYQT_GND",
+      "prefixes": ["CYQT"],
+      "frequency": "121.900",
+      "facility_type": "GND",
+      "default_call_sources": ["CYQT-GND"]
+    },
+    {
+      "id": "CYMJ_GND",
+      "prefixes": ["CYMJ"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "default_call_sources": ["CYMJ-GND"]
+    },
+    {
+      "id": "CYAV_GND",
+      "prefixes": ["CYAV"],
+      "frequency": "121.800",
+      "facility_type": "GND",
+      "default_call_sources": ["CYAV-GND"]
+    },
+    {
+      "id": "CYPG_GND",
+      "prefixes": ["CYPG"],
+      "frequency": "121.700",
+      "facility_type": "GND",
+      "default_call_sources": ["CYPG-GND"]
+    },
+    {
+      "id": "CYWG_DEL",
+      "prefixes": ["CYWG"],
+      "frequency": "121.300",
+      "facility_type": "DEL",
+      "profile_id": "CYWG-LC1",
+      "default_call_sources": ["CYWG-DEL"]
+    },
+    {
+      "id": "CYMJ_DEL",
+      "prefixes": ["CYMJ"],
+      "frequency": "135.300",
+      "facility_type": "DEL",
+      "default_call_sources": ["CYMJ-DEL"]
+    }
+  ]
+}

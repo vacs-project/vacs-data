@@ -1,0 +1,105 @@
+{
+  "id": "OE-NE",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC", "NE"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["RD", "EAST", "345+"],
+            "station_id": "OERD_E_CTR"
+          },
+          {
+            "label": ["JD", "EAST", "245-345"],
+            "station_id": "OEJD_E_CTR"
+          },
+          {
+            "label": ["RUH CTA", "NORTH"],
+            "station_id": "OERK_N_CTR"
+          },
+          {
+            "label": ["RUH CTA", "SOUTH"],
+            "station_id": "OERK_S_CTR"
+          },
+          {
+            "label": ["RD", "NE", "345+"],
+            "station_id": "OERD_NE_CTR"
+          },
+          {
+            "label": ["JD", "NE", "245-345"],
+            "station_id": "OEJD_NE_CTR"
+          },
+          {
+            "label": ["DMM", "CTA", "155-245"],
+            "station_id": "OEDF_APP"
+          },
+          {
+            "label": ["DMM", "TMA", "155-"],
+            "station_id": "OEDF_L_APP"
+          },
+          {
+            "label": ["KWI", "TMA", "150-"],
+            "station_id": "OKKK_APP"
+          },
+          {
+            "label": ["OKAC", "ACCH", "350+"],
+            "station_id": "OKKK_APP"
+          },
+          {
+            "label": ["OKAC", "ACCL", "350-"],
+            "station_id": "OMAE_S_CTR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["OBBB", "NH", "345+"],
+            "station_id": "OBBB_3_CTR"
+          },
+          {
+            "label": ["OBBB", "NL", "345-"],
+            "station_id": "OBBB_3_CTR"
+          },
+          {
+            "label": ["BAH", "TMA", "170-"],
+            "station_id": "OBBI_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["OBBB", "CS", "345+"],
+            "station_id": "OBBB_1_CTR"
+          },
+          {
+            "label": ["OBBB", "CH", "295-345"],
+            "station_id": "OBBB_1_CTR"
+          },
+          {
+            "label": ["OBBB", "CL", "295-"],
+            "station_id": "OBBB_CL_CTR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["OTDF", "SOUTH", "245+"],
+            "station_id": "OTDF_2_CTR"
+          },
+          {
+            "label": ["DOH", "R2", "245-"],
+            "station_id": "DOH_R2_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    }
+  ]
+}

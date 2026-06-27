@@ -1,0 +1,98 @@
+{
+  "stations": [
+    {
+      "id": "LPCR_I_TWR",
+      "controlled_by": ["LPCR_I_TWR"],
+      "parent_id": "LPFL_APP"
+    },
+    {
+      "id": "LPPI_I_TWR",
+      "controlled_by": ["LPPI_I_TWR"],
+      "parent_id": "LPHR_APP"
+    },
+    {
+      "id": "LPSJ_I_TWR",
+      "controlled_by": ["LPSJ_I_TWR"],
+      "parent_id": "LPHR_APP"
+    },
+    {
+      "id": "LPGR_I_TWR",
+      "controlled_by": ["LPGR_I_TWR"],
+      "parent_id": "LPLA_APP"
+    },
+    {
+      "id": "LPLA_DEL",
+      "controlled_by": ["LPLA_DEL"],
+      "parent_id": "LPLA_GND"
+    },
+    {
+      "id": "LPLA_GND",
+      "controlled_by": ["LPLA_GND"],
+      "parent_id": "LPLA_TWR"
+    },
+    {
+      "id": "LPLA_TWR",
+      "controlled_by": ["LPLA_TWR"],
+      "parent_id": "LPLA_APP"
+    },
+    {
+      "id": "LPLA_APP",
+      "controlled_by": ["LPLA_APP", "LPHR_APP", "LPPD_APP"],
+      "parent_id": "LPPO_TMA_CTR"
+    },
+    {
+      "id": "LPAZ_TWR",
+      "controlled_by": ["LPAZ_TWR"],
+      "parent_id": "LPPD_APP"
+    },
+    {
+      "id": "LPPD_TWR",
+      "controlled_by": ["LPPD_TWR"],
+      "parent_id": "LPPD_APP"
+    },
+    {
+      "id": "LPPD_APP",
+      "controlled_by": ["LPPD_APP"],
+      "parent_id": "LPPO_TMA_CTR"
+    },
+    {
+      "id": "LPHR_TWR",
+      "controlled_by": ["LPHR_TWR"],
+      "parent_id": "LPHR_APP"
+    },
+    {
+      "id": "LPHR_APP",
+      "controlled_by": ["LPHR_APP"],
+      "parent_id": "LPPO_TMA_CTR"
+    },
+    {
+      "id": "LPFL_APP",
+      "controlled_by": ["LPFL_APP"],
+      "parent_id": "LPHR_APP"
+    },
+    {
+      "id": "LPPO_TMA_CTR",
+      "controlled_by": ["LPPO_TMA_CTR"],
+      "parent_id": "LPPO_CTR"
+    },
+    {
+      "id": "LPPO_CTR",
+      "controlled_by": ["LPPO_CTR"],
+      "parent_id": "LPPO_FSS"
+    },
+    {
+      "id": "LPPO_OC_DEL",
+      "controlled_by": ["LPPO_OC_DEL"],
+      "parent_id": "LPPO_FSS"
+    },
+    {
+      "id": "LPPO_OC_CTR",
+      "controlled_by": ["LPPO_OC_CTR"],
+      "parent_id": "LPPO_FSS"
+    },
+    {
+      "id": "LPPO_FSS",
+      "controlled_by": ["LPPO_FSS"]
+    }
+  ]
+}

@@ -5,14 +5,40 @@
     {
       "label": ["OEDF"],
       "page": {
-        "rows": 6,
+        "rows": 3,
         "keys": [
-          { "label": ["1_GND"], "station_id": "OEDF_1_GND" },
-          { "label": ["2_GND"], "station_id": "OEDF_2_GND" },
-          { "label": ["1_TWR"], "station_id": "OEDF_1_TWR" },
-          { "label": ["2_TWR"], "station_id": "OEDF_2_TWR" },
-          { "label": ["APP LOWER", "FL155-"], "station_id": "OEDF_L_APP" },
-          { "label": ["APP UPPER", "FL155-FL245"], "station_id": "OEDF_APP" }
+          { "label": ["1_GND"], "station_id": "OEDF_1_GND", "color": "mint" },
+          { "label": ["2_GND"], "station_id": "OEDF_2_GND", "color": "mint" },
+          { "label": [], "color": "snow" },
+          { "label": ["1_TWR"], "station_id": "OEDF_1_TWR", "color": "lagoon" },
+          { "label": ["2_TWR"], "station_id": "OEDF_2_TWR", "color": "lagoon" },
+          { "label": [], "color": "snow" }
+        ]
+      }
+    },
+    {
+      "label": ["ACC+"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["APP LOWER", "FL155-"],
+            "station_id": "OEDF_L_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["APP UPPER", "FL155-FL245"],
+            "station_id": "OEDF_APP",
+            "color": "azure"
+          },
+          { "label": [], "color": "snow" },
+          {
+            "label": ["JED NE", "FL245+"],
+            "station_id": "OERD_NE_CTR",
+            "color": "azure"
+          },
+          { "label": ["BAH APP"], "station_id": "OBBI_APP", "color": "lilac" },
+          { "label": [], "color": "snow" }
         ]
       }
     }

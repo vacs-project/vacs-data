@@ -29,14 +29,14 @@ profile_id = "EG-Scottish"
 [[positions]]
 id = "EGAC_APP"
 prefixes = ["EGAC"]
-frequency = "130.850"
+frequency = "130.855"
 facility_type = "APP"
 profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAC_F_APP"
 prefixes = ["EGAC"]
-frequency = "134.800"
+frequency = "134.805"
 facility_type = "APP"
 profile_id = "EG-Scottish"
 

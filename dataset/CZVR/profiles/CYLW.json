@@ -124,9 +124,26 @@
           "page": {
             "rows": 1,
             "keys": [
-              { "label": ["CZEG", "FSS", "INOP"] },
-              { "label": ["CZEG", "CTR", "INOP"] },
-              { "label": ["CZEG", "Q-CTR", "INOP"] }
+              {
+                "label": ["CZEG", "FSS"],
+                "color": "snow",
+                "station_id": "CZEG-FSS"
+              },
+              {
+                "label": ["CZEG", "CTR"],
+                "color": "snow",
+                "station_id": "CZEG-CTR"
+              },
+              {
+                "label": ["CZEG", "Q-CTR"],
+                "color": "snow",
+                "station_id": "CZEG-Q-CTR"
+              },
+              {
+                "label": ["CYYC", "APP"],
+                "color": "snow",
+                "station_id": "CYYC-APP"
+              }
             ]
           }
         }

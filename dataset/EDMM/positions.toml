@@ -472,10 +472,3 @@ prefixes = ["EDNY"]
 frequency = "120.080"
 facility_type = "TWR"
 profile_id = "EDMM-WEST-SOUTH"
-
-[[positions]]
-id = "LSZR_TWR"
-prefixes = ["LSZR"]
-frequency = "135.430"
-facility_type = "TWR"
-profile_id = "EDMM-WEST-SOUTH"

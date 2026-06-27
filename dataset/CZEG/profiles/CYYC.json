@@ -1,0 +1,12 @@
+{
+  "id": "CYYC",
+  "type": "Geo",
+  "direction": "col",
+  "children": [
+    {
+      "label": ["CALGARY"],
+      "size": 4.0,
+      "station_id": "CYYC-TWR"
+    }
+  ]
+}
