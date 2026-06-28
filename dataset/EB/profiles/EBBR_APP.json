@@ -74,7 +74,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["BEEK", "APP"],
+            "station_id": "EHBK_APP"
           },
           {
             "label": ["AMS", "S"],
