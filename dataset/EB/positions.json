@@ -334,7 +334,7 @@
       "frequency": "118.105",
       "facility_type": "TWR",
       "profile_id": "EBBU_TWR",
-      "default_call_sources": ["ELLX-TWR-ASS"]
+      "default_call_sources": ["ELLX-M-TWR"]
     },
     {
       "id": "ELLX_APP",
