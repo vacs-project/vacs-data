@@ -223,7 +223,7 @@
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
-          "label": ["HOTLINE", "INOP", "..."],
+          "label": ["SUPERVISOR", "HOTLINE", "INOP"],
           "size": 6,
           "color": "snow"
         },
