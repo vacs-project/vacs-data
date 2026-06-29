@@ -199,7 +199,7 @@
       "id": "WPG_FMP",
       "prefixes": ["WPG"],
       "frequency": "199.998",
-      "facility_type": "TWR",
+      "facility_type": "FMP",
       "profile_id": "WPG-FC",
       "default_call_sources": ["WPG-FMP"]
     },
