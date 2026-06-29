@@ -23,7 +23,7 @@
           "direction": "col",
           "width": "19%",
           "height": "100%",
-          "children": [{ "label": ["TWR","ASS"], "size": 5, "station_id": "ELLX-TWR" }]
+          "children": [{ "label": ["TWR","ASS"], "size": 5, "station_id": "ELLX-M-TWR" }]
         },
         {
           "direction": "col",
