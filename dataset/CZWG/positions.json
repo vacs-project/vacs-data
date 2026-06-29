@@ -9,20 +9,6 @@
       "default_call_sources": ["WPG-CTR"]
     },
     {
-      "id": "CZEG_CTR",
-      "prefixes": ["CZEG"],
-      "frequency": "132.775",
-      "facility_type": "CTR",
-      "default_call_sources": ["CZEG-CTR"]
-    },
-    {
-      "id": "CZEG_FSS",
-      "prefixes": ["CZEG"],
-      "frequency": "134.900",
-      "facility_type": "FSS",
-      "default_call_sources": ["CZEG-FSS"]
-    },
-    {
       "id": "CYWG_APP",
       "prefixes": ["CYWG"],
       "frequency": "119.500",
