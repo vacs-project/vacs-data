@@ -277,21 +277,21 @@
           "label": ["EDMONTON", "CENTRE", "HOTLINE"],
           "size": 8,
           "color": "snow",
-	  "station_id": "CZEG-CTR"
+	        "station_id": "CZEG-CTR"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
           "label": ["EDMONTON", "FSS", "HOTLINE"],
           "size": 6,
           "color": "snow",
-	  "station_id": "CZEG-FSS"
+	        "station_id": "CZEG-FSS"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
           "label": ["EDMONTON", "Q CTR", "HOTLINE"],
           "size": 6,
           "color": "snow",
-	  "station_id": "CZEG-Q-CTR"
+	        "station_id": "CZEG-Q-CTR"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" }
       ]
