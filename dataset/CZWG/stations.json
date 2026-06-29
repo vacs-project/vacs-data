@@ -5,6 +5,16 @@
       "controlled_by": ["WPG_CTR"]
     },
     {
+      "id": "CZEG-CTR",
+      "parent_id": "CZEG-FSS",
+      "controlled_by": ["CZEG_CTR"]
+    },
+    {
+      "id": "CZEG-FSS",
+      "parent_id": "CZEG-CTR",
+      "controlled_by": ["CZEG_FSS"]
+    },
+    {
       "id": "WPG-FMP",
       "controlled_by": ["WPG_FMP"]
     },
