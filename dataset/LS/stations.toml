@@ -1,0 +1,390 @@
+#####
+### Radar stations
+#####
+
+[[stations]]
+id = "LSAS_CTR"
+controlled_by = ["LSAS_CTR"]
+
+[[stations]]
+id = "LSAS_I_CTR"
+controlled_by = ["LSAS_I_CTR"]
+parent_id = "LSAS_CTR"
+
+# LSAG
+
+[[stations]]
+id = "LSAG_CTR"
+controlled_by = ["LSAG_CTR"]
+parent_id = "LSAS_CTR"
+
+[[stations]]
+id = "LSAG_E_CTR"
+controlled_by = ["LSAG_E_CTR"]
+parent_id = "LSAG_CTR"
+
+[[stations]]
+id = "LSAG_S_CTR"
+controlled_by = ["LSAG_S_CTR"]
+parent_id = "LSAG_E_CTR"
+
+[[stations]]
+id = "LSAG_N_CTR"
+controlled_by = ["LSAG_N_CTR"]
+parent_id = "LSAG_E_CTR"
+
+# LSAZ
+
+[[stations]]
+id = "LSAZ_CTR"
+controlled_by = ["LSAZ_CTR"]
+parent_id = "LSAS_CTR"
+
+[[stations]]
+id = "LSAZ_S_CTR"
+controlled_by = ["LSAZ_S_CTR"]
+parent_id = "LSAZ_CTR"
+
+[[stations]]
+id = "LSAZ_W_CTR"
+controlled_by = ["LSAZ_W_CTR"]
+parent_id = "LSAZ_S_CTR"
+
+[[stations]]
+id = "LSAZ_E_CTR"
+controlled_by = ["LSAZ_E_CTR"]
+parent_id = "LSAZ_S_CTR"
+
+[[stations]]
+id = "LSAZ_N_CTR"
+controlled_by = ["LSAZ_N_CTR"]
+parent_id = "LSAZ_E_CTR"
+
+#####
+### Majors
+#####
+
+# LSZH
+
+[[stations]]
+id = "LSZH_APP"
+controlled_by = ["LSZH_APP"]
+parent_id = "LSAZ_E_CTR"
+
+[[stations]]
+id = "LSZH_W_APP"
+controlled_by = ["LSZH_W_APP"]
+parent_id = "LSZH_APP"
+
+[[stations]]
+id = "LSZH_F_APP"
+controlled_by = ["LSZH_F_APP"]
+parent_id = "LSZH_W_APP"
+
+[[stations]]
+id = "LSZH_DEP"
+controlled_by = ["LSZH_DEP"]
+parent_id = "LSZH_W_APP"
+
+[[stations]]
+id = "LSZH_TWR"
+controlled_by = ["LSZH_TWR"]
+parent_id = "LSZH_DEP"
+
+[[stations]]
+id = "LSZH_2_TWR"
+controlled_by = ["LSZH_2_TWR"]
+parent_id = "LSZH_TWR"
+
+[[stations]]
+id = "LSZH_S_GND"
+controlled_by = ["LSZH_S_GND"]
+parent_id = "LSZH_TWR"
+
+[[stations]]
+id = "LSZH_N_GND"
+controlled_by = ["LSZH_N_GND"]
+parent_id = "LSZH_S_GND"
+
+[[stations]]
+id = "LSZH_GND"
+controlled_by = ["LSZH_GND"]
+parent_id = "LSZH_TWR"
+
+[[stations]]
+id = "LSZH_DEL"
+controlled_by = ["LSZH_DEL"]
+parent_id = "LSZH_N_GND"
+
+# LSGG
+
+[[stations]]
+id = "LSGG_APP"
+controlled_by = ["LSGG_APP"]
+parent_id = "LSAG_E_CTR"
+
+[[stations]]
+id = "LSGG_F_APP"
+controlled_by = ["LSGG_F_APP"]
+parent_id = "LSGG_APP"
+
+[[stations]]
+id = "LSGG_DEP"
+controlled_by = ["LSGG_DEP"]
+parent_id = "LSGG_APP"
+
+[[stations]]
+id = "LSGG_TWR"
+controlled_by = ["LSGG_TWR"]
+parent_id = "LSGG_DEP"
+
+[[stations]]
+id = "LSGG_A_GND"
+controlled_by = ["LSGG_A_GND"]
+parent_id = "LSGG_TWR"
+
+[[stations]]
+id = "LSGG_GND"
+controlled_by = ["LSGG_GND"]
+parent_id = "LSGG_A_GND"
+
+#####
+### Minors
+#####
+
+# ARFA & LSZR
+
+[[stations]]
+id = "LSFA_APP"
+controlled_by = [
+  "LSFA_APP",
+  "LSZH_APP",
+  "LSAZ_E_CTR",
+  "LSAZ_S_CTR",
+  "LSAZ_CTR",
+  "LSAS_CTR",
+  "EDMM_ZUG_CTR",
+  "EDMM_TRU_CTR",
+  "EDMM_RDG_CTR",
+]
+
+[[stations]]
+id = "LSZR_TWR"
+controlled_by = ["LSZR_TWR"]
+parent_id = "LSFA_APP"
+
+# LSGC
+
+[[stations]]
+id = "LSGC_TWR"
+controlled_by = ["LSGC_TWR"]
+parent_id = "LSAG_E_CTR"
+
+# LSGS
+
+[[stations]]
+id = "LSGS_APP"
+controlled_by = ["LSGS_APP"]
+parent_id = "LSAG_E_CTR"
+
+[[stations]]
+id = "LSGS_TWR"
+controlled_by = ["LSGS_TWR"]
+parent_id = "LSGS_APP"
+
+[[stations]]
+id = "LSGS_GND"
+controlled_by = ["LSGS_GND"]
+parent_id = "LSGS_TWR"
+
+# LSMA
+
+[[stations]]
+id = "LSMA_TWR"
+controlled_by = ["LSMA_TWR"]
+parent_id = "LSAZ_S_CTR"
+
+# LSMD
+
+[[stations]]
+id = "LSMD_APP"
+controlled_by = ["LSMD_APP"]
+parent_id = "LSZH_APP"
+
+[[stations]]
+id = "LSMD_TWR"
+controlled_by = ["LSMD_APP"]
+parent_id = "LSMD_APP"
+
+# LSME
+
+[[stations]]
+id = "LSME_APP"
+controlled_by = ["LSME_APP"]
+parent_id = "LSAZ_S_CTR"
+
+[[stations]]
+id = "LSME_TWR"
+controlled_by = ["LSME_TWR"]
+parent_id = "LSME_APP"
+
+# LSMM
+
+[[stations]]
+id = "LSMM_TWR"
+controlled_by = ["LSMM_TWR"]
+parent_id = "LSAZ_W_CTR"
+
+# LSMP
+
+[[stations]]
+id = "LSMP_APP"
+controlled_by = ["LSMP_APP"]
+parent_id = "LSAG_E_CTR"
+
+[[stations]]
+id = "LSMP_TWR"
+controlled_by = ["LSMP_TWR"]
+parent_id = "LSMP_APP"
+
+# LSZA
+
+[[stations]]
+id = "LSZA_TWR"
+controlled_by = [
+  "LSZA_TWR",
+  "LIMM_ANW_APP",
+  "LIMM_ANE_APP",
+  "LIMM_EN2_CTR",
+  "LIMM_WS2_CTR",
+  "LSAZ_S_CTR",
+  "LSAZ_CTR",
+  "LSAS_CTR",
+]
+
+[[stations]]
+id = "LSZA_DEL"
+controlled_by = ["LSZA_DEL"]
+parent_id = "LSZA_TWR"
+
+# LSZB & LSZG
+
+[[stations]]
+id = "LSZB_APP"
+controlled_by = ["LSZB_APP"]
+parent_id = "LSAZ_W_CTR"
+
+[[stations]]
+id = "LSZB_TWR"
+controlled_by = ["LSZB_TWR"]
+parent_id = "LSZB_APP"
+
+[[stations]]
+id = "LSZB_DEL"
+controlled_by = ["LSZB_DEL"]
+parent_id = "LSZB_TWR"
+
+[[stations]]
+id = "LSZG_TWR"
+controlled_by = ["LSZG_TWR"]
+parent_id = "LSZB_APP"
+
+# LSZC
+
+[[stations]]
+id = "LSZC_TWR"
+controlled_by = ["LSZC_TWR"]
+parent_id = "LSAZ_S_CTR"
+
+# LSZL
+
+[[stations]]
+id = "LSZL_TWR"
+controlled_by = ["LSZL_TWR"]
+parent_id = "LSAZ_S_CTR"
+
+[[stations]]
+id = "LSZL_GND"
+controlled_by = ["LSZL_GND"]
+parent_id = "LSZL_TWR"
+
+#####
+### Radio stations
+#####
+
+[[stations]]
+id = "LSGB_I_TWR"
+controlled_by = ["LSGB_I_TWR"]
+
+[[stations]]
+id = "LSGE_I_TWR"
+controlled_by = ["LSGE_I_TWR"]
+
+[[stations]]
+id = "LSGK_I_TWR"
+controlled_by = ["LSGK_I_TWR"]
+
+[[stations]]
+id = "LSGL_I_TWR"
+controlled_by = ["LSGL_I_TWR"]
+
+[[stations]]
+id = "LSGN_I_TWR"
+controlled_by = ["LSGN_I_TWR"]
+
+[[stations]]
+id = "LSPM_I_TWR"
+controlled_by = ["LSPM_I_TWR"]
+
+[[stations]]
+id = "LSPV_I_TWR"
+controlled_by = ["LSPV_I_TWR"]
+
+[[stations]]
+id = "LSTA_I_TWR"
+controlled_by = ["LSTA_I_TWR"]
+
+[[stations]]
+id = "LSTZ_I_TWR"
+controlled_by = ["LSTZ_I_TWR"]
+
+[[stations]]
+id = "LSZE_I_TWR"
+controlled_by = ["LSZE_I_TWR"]
+
+[[stations]]
+id = "LSZF_I_TWR"
+controlled_by = ["LSZF_I_TWR"]
+
+[[stations]]
+id = "LSZI_I_TWR"
+controlled_by = ["LSZI_I_TWR"]
+
+[[stations]]
+id = "LSZM_I_TWR"
+controlled_by = ["LSZM_I_TWR"]
+
+[[stations]]
+id = "LSZO_I_TWR"
+controlled_by = ["LSZO_I_TWR"]
+
+[[stations]]
+id = "LSZP_I_TWR"
+controlled_by = ["LSZP_I_TWR"]
+
+[[stations]]
+id = "LSZS_I_TWR"
+controlled_by = ["LSZS_I_TWR"]
+parent_id = "LSAZ_S_CTR"
+
+[[stations]]
+id = "LSZT_I_TWR"
+controlled_by = ["LSZT_I_TWR"]
+
+[[stations]]
+id = "LSZV_I_TWR"
+controlled_by = ["LSZV_I_TWR"]
+
+[[stations]]
+id = "LSZW_I_TWR"
+controlled_by = ["LSZW_I_TWR"]

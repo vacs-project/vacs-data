@@ -3,15 +3,16 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["ENBO ALL"],
+      "label": ["1", ""],
       "page": {
-        "rows": 4,
+        "rows": 7,
         "keys": [
           {
-            "label": ["BO", "APP"]
+            "label": ["TWR"],
+            "station_id": "ENBO_TWR"
           },
           {
-            "label": ["BO", "TWR"]
+            "label": []
           },
           {
             "label": []
@@ -20,28 +21,80 @@
             "label": []
           },
           {
-            "label": ["RS", "AFIS"]
+            "label": []
           },
           {
-            "label": ["LK", "AFIS"]
+            "label": []
           },
           {
-            "label": ["SH", "AFIS"]
+            "label": ["TMA", "HLGLND"],
+            "station_id": "ENBD-HELGELAND"
           },
           {
-            "label": ["SK", "AFIS"]
+            "label": ["TMA"],
+            "station_id": "ENBO_APP"
           },
           {
-            "label": ["EV", "APP"]
+            "label": []
           },
           {
-            "label": ["BD HELGELAND"]
+            "label": []
           },
           {
-            "label": ["BD 24"]
+            "label": []
           },
           {
-            "label": ["BD 25"]
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S24", "Central"],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S25", "North"],
+            "station_id": "ENBD-25"
           }
         ]
       }

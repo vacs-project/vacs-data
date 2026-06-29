@@ -1,0 +1,99 @@
+{
+  "stations": [
+    {
+      "id": "OKAC_ACC_FMP",
+      "parent_id": "OKAC_CTR",
+      "controlled_by": ["OKAC_ACC_FMP"]
+    },
+    {
+      "id": "OKAC_CTR",
+      "parent_id": "GULF_E_FSS",
+      "controlled_by": ["OKAC_CTR"]
+    },
+    {
+      "id": "OKAC_U_CTR",
+      "parent_id": "OKAC_CTR",
+      "controlled_by": ["OKAC_U_CTR"]
+    },
+    {
+      "id": "OKKK_APP",
+      "parent_id": "OKAC_CTR",
+      "controlled_by": ["OKKK_APP"]
+    },
+    {
+      "id": "OKKK_F_APP",
+      "parent_id": "OKKK_APP",
+      "controlled_by": ["OKKK_F_APP"]
+    },
+    {
+      "id": "OKKK_FX_APP",
+      "parent_id": "OKKK_F_APP",
+      "controlled_by": ["OKKK_FX_APP"]
+    },
+    {
+      "id": "OKKK_TMA_FMP",
+      "parent_id": "OKKK_APP",
+      "controlled_by": ["OKKK_TMA_FMP"]
+    },
+    {
+      "id": "OKKK_TWR",
+      "parent_id": "OKKK_APP",
+      "controlled_by": ["OKKK_TWR"]
+    },
+    {
+      "id": "OKKK_AIR_FMP",
+      "parent_id": "OKKK_TWR",
+      "controlled_by": ["OKKK_AIR_FMP"]
+    },
+    {
+      "id": "OKKK_1_GND",
+      "parent_id": "OKKK_TWR",
+      "controlled_by": ["OKKK_1_GND"]
+    },
+    {
+      "id": "OKKK_2_GND",
+      "parent_id": "OKKK_1_GND",
+      "controlled_by": ["OKKK_2_GND"]
+    },
+    {
+      "id": "OKKK_GMC_FMP",
+      "parent_id": "OKKK_2_GND",
+      "controlled_by": ["OKKK_GMC_FMP"]
+    },
+    {
+      "id": "OKKK_DEL",
+      "parent_id": "OKKK_2_GND",
+      "controlled_by": ["OKKK_DEL"]
+    },
+    {
+      "id": "OKKK_GMP_FMP",
+      "parent_id": "OKKK_DEL",
+      "controlled_by": ["OKKK_GMP_FMP"]
+    },
+    {
+      "id": "OKAJ_APP",
+      "parent_id": "OKKK_APP",
+      "controlled_by": ["OKAJ_APP"]
+    },
+    {
+      "id": "OKAJ_TWR",
+      "parent_id": "OKAJ_APP",
+      "controlled_by": ["OKAJ_TWR"]
+    },
+    {
+      "id": "OKAJ_GND",
+      "parent_id": "OKAJ_TWR",
+      "controlled_by": ["OKAJ_GND"]
+    },
+    {
+      "id": "OKAS_TWR",
+      "parent_id": "OKKK_APP",
+      "controlled_by": ["OKAS_TWR"]
+    },
+    {
+      "id": "OKAS_GND",
+      "parent_id": "OKAS_TWR",
+      "controlled_by": ["OKAS_GND"]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "ENBR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", ""],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["PLN", "GND", ""],
+            "station_id": "ENBR_P_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["APP W"],
+            "station_id": "ENBR_W_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DIR"],
+            "station_id": "ENBR_D_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DE-ICE", "LDR"],
+            "station_id": "ENBR_ICE_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["APP E"],
+            "station_id": "ENBR_E_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["2", ""],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["DEL"],
+            "station_id": "ENBR_DEL"
+          },
+          {
+            "label": ["", "S20"],
+            "station_id": "ENSV-20"
+          },
+          {
+            "label": ["", "S15"],
+            "color": "azure",
+            "station_id": "ENSV-15"
+          },
+          {
+            "label": ["", "S21"],
+            "station_id": "ENSV-21"
+          },
+          {
+            "label": ["ZV", "ARR"],
+            "color": "azure",
+            "station_id": "ENZV_A_APP"
+          },
+          {
+            "label": ["ZV", "TMA"],
+            "color": "azure",
+            "station_id": "ENZV_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GND"],
+            "station_id": "ENBR_GND"
+          },
+          {
+            "label": ["", "S17"],
+            "color": "azure",
+            "station_id": "ENSV-17"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", "S12"],
+            "color": "azure",
+            "station_id": "ENSV-12"
+          },
+          {
+            "label": ["ENZV", "GND"],
+            "station_id": "ENZV_GND"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "ENBR_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["", "S13"],
+            "color": "azure",
+            "station_id": "ENSV-13"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ENZV", "TWR"],
+            "station_id": "ENZV_TWR"
+          },
+          {
+            "label": ["ENHD"],
+            "station_id": "ENHD_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ENSO", ""],
+            "color": "azure",
+            "station_id": "ENSO_I_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

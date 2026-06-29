@@ -1,6 +1,11 @@
 {
   "stations": [
     {
+      "id": "OTDF_FMP",
+      "parent_id": "OTDF_1_CTR",
+      "controlled_by": ["OTDF_FMP"]
+    },
+    {
       "id": "OTDF_1_CTR",
       "parent_id": "GULF_E_FSS",
       "controlled_by": ["OTDF_1_CTR"]

@@ -12,6 +12,7 @@ CONTRIBUTING.md @vacs-project/maintainers
 /dataset/ADR/ @vacs-project/dataset-maintainers-adr
 /dataset/AFRX/ @vacs-project/dataset-maintainers-afrx
 /dataset/CARX/ @vacs-project/dataset-maintainers-vcmc @vacs-project/dataset-maintainers-tncf
+/dataset/CZEG/ @vacs-project/dataset-maintainers-czeg
 /dataset/CZQM/ @vacs-project/dataset-maintainers-czqm
 /dataset/CZVR/ @vacs-project/dataset-maintainers-czvr
 /dataset/CZWG/ @vacs-project/dataset-maintainers-czwg
@@ -46,11 +47,15 @@ CONTRIBUTING.md @vacs-project/maintainers
 /dataset/GM/ @vacs-project/dataset-maintainers-mag
 /dataset/GULF/ @vacs-project/dataset-maintainers-mena
 /dataset/GV/ @vacs-project/dataset-maintainers-vatssa
-/dataset/KHLJ/ @vacs-project/dataset-maintainers-khlj
 /dataset/KZWY/ @vacs-project/dataset-maintainers-kzwy
 /dataset/LA/ @vacs-project/dataset-maintainers-adr
 /dataset/LB/ @vacs-project/dataset-maintainers-lb
 /dataset/LD/ @vacs-project/dataset-maintainers-adr
+/dataset/LFBB/ @vacs-project/dataset-maintainers-lf
+/dataset/LFEE/ @vacs-project/dataset-maintainers-lf
+/dataset/LFFF/ @vacs-project/dataset-maintainers-lf
+/dataset/LFMM/ @vacs-project/dataset-maintainers-lf
+/dataset/LFRR/ @vacs-project/dataset-maintainers-lf
 /dataset/LH/ @vacs-project/dataset-maintainers-lh
 /dataset/LI/ @vacs-project/dataset-maintainers-li
 /dataset/LJ/ @vacs-project/dataset-maintainers-adr
@@ -61,6 +66,7 @@ CONTRIBUTING.md @vacs-project/maintainers
 /dataset/LPPO/ @vacs-project/dataset-maintainers-lppo
 /dataset/LQ/ @vacs-project/dataset-maintainers-adr
 /dataset/LR/ @vacs-project/dataset-maintainers-lr
+/dataset/LS/ @vacs-project/dataset-maintainers-ls
 /dataset/LU/ @vacs-project/dataset-maintainers-lr
 /dataset/LW/ @vacs-project/dataset-maintainers-adr
 /dataset/LY/ @vacs-project/dataset-maintainers-adr
@@ -68,11 +74,14 @@ CONTRIBUTING.md @vacs-project/maintainers
 /dataset/MD/ @vacs-project/dataset-maintainers-vcmc
 /dataset/MT/ @vacs-project/dataset-maintainers-vcmc
 /dataset/NAT/ @vacs-project/dataset-maintainers-nat
+/dataset/OB/ @vacs-project/dataset-maintainers-khlj
 /dataset/OE/ @vacs-project/dataset-maintainers-oe
+/dataset/OK/ @vacs-project/dataset-maintainers-kwiq
 /dataset/OM/ @vacs-project/dataset-maintainers-arb
 /dataset/OO/ @vacs-project/dataset-maintainers-arb
 /dataset/OP/ @vacs-project/dataset-maintainers-pak
-/dataset/OT/ @vacs-project/dataset-maintainers-arb
+/dataset/OR/ @vacs-project/dataset-maintainers-kwiq
+/dataset/OT/ @vacs-project/dataset-maintainers-khlj
 /dataset/RCAA/ @vacs-project/dataset-maintainers-rcaa
 /dataset/RJ/ @vacs-project/dataset-maintainers-rjjj
 /dataset/RP/ @vacs-project/dataset-maintainers-rp

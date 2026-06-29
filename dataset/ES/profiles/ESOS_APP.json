@@ -12,7 +12,7 @@
             "station_id": "ESSB_TWR"
           },
           {
-            "label": ["SA", "TWR W"],
+            "label": ["SA", "TWR-W"],
             "station_id": "ESSA_TWR-W"
           },
           {
@@ -36,7 +36,7 @@
             "station_id": "ESSB_GND"
           },
           {
-            "label": ["SA", "TWR E"],
+            "label": ["SA", "TWR-E"],
             "station_id": "ESSA_TWR-E"
           },
           {
@@ -60,7 +60,7 @@
             "station_id": "ESCM_TWR"
           },
           {
-            "label": ["SA", "GND W"],
+            "label": ["SA", "GND-W"],
             "station_id": "ESSA_GND-W"
           },
           {
@@ -92,8 +92,7 @@
             "station_id": "ESOS_APP-S"
           },
           {
-            "label": ["MM", "W"],
-            "station_id": "ESMM_W"
+            "label": []
           },
           {
             "label": ["OS", "4"],
@@ -104,28 +103,49 @@
             "station_id": "ESAA_FMP"
           },
           {
-            "label": ["OW", "APP"],
-            "station_id": "ESOW_APP"
-          },
-          {
             "label": ["SU", "AFIS"],
             "station_id": "ESSU_AFIS"
           },
           {
-            "label": ["ÖKC", "TC"],
-            "station_id": "ESSP_APP"
+            "label": ["OW", "APP"],
+            "station_id": "ESOW_APP"
           },
           {
             "label": ["KN", "TWR"],
             "station_id": "ESKN_TWR"
           },
           {
-            "label": ["EFMA", "TWR"],
-            "station_id": "EFMA_TWR"
+            "label": ["ÖKC", "TC"],
+            "station_id": "ESSP_APP"
+          },
+          {
+            "label": ["MM", "W"],
+            "station_id": "ESMM_W"
+          },
+          {
+            "label": ["MM", "Y"],
+            "station_id": "ESMM_Y"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFIN", "F"],
+            "station_id": "EFIN_F"
           },
           {
             "label": ["EFIN", "D"],
             "station_id": "EFIN_D"
+          },
+          {
+            "label": ["EFMA", "TWR"],
+            "station_id": "EFMA_TWR"
           }
         ]
       }

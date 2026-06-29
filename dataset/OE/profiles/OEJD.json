@@ -48,6 +48,7 @@
             "station_id": "OERD_1_CTR",
             "color": "azure"
           },
+          { "label": [] },
           { "label": [] }
         ]
       }

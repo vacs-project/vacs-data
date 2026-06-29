@@ -51,28 +51,35 @@
             "label": []
           },
           {
-            "label": ["PARIS", "TB"]
+            "label": []
           },
           {
-            "label": ["PARIS", "TE"]
+            "label": ["PARIS", "TB"],
+            "station_id": "PAR_TB"
           },
           {
-            "label": ["PARIS", "TM"]
+            "label": ["PARIS", "TE"],
+            "station_id": "PAR_TE"
           },
           {
-            "label": ["LFQQ"]
+            "label": ["PARIS", "TM"],
+            "station_id": "PAR_TM"
           },
           {
-            "label": ["LFST"]
+            "label": ["LFST"],
+            "station_id": "LFST_SU_APP"
           },
           {
-            "label": ["AMS", "W"]
+            "label": ["AMS", "W"],
+            "station_id": "EHAA_W"
           },
           {
-            "label": ["AMS", "S"]
+            "label": ["AMS", "S"],
+            "station_id": "EHAA_S"
           },
           {
-            "label": ["BEEK", "APP"]
+            "label": ["BEEK", "APP"],
+            "station_id": "EHBK_APP"
           },
           {
             "label": ["EBKT"],

@@ -1,0 +1,12 @@
+{
+  "id": "CYXY",
+  "type": "Geo",
+  "direction": "col",
+  "children": [
+    {
+      "label": ["WHITEHORSE"],
+      "size": 4.0,
+      "station_id": "CYXY-TWR"
+    }
+  ]
+}

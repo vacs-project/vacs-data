@@ -1,0 +1,181 @@
+# CZEG FIR stations — CZQM/CZVR-style (FIR-prefixed station ids, CZEG_* positions).
+# Station ids: underscores -> hyphens. Root callable centre seat: CZEG-CTR.
+
+[[stations]]
+id = "CZEG-CTR"
+controlled_by = ["CZEG_CTR", "CZEG_FSS", "CZEG_E_FSS"]
+
+[[stations]]
+id = "CZEG-FSS"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_FSS", "CZEG_CTR", "CZEG_E_FSS"]
+
+[[stations]]
+id = "CZEG-E-FSS"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_E_FSS", "CZEG_CTR", "CZEG_FSS"]
+
+[[stations]]
+id = "CZEG-1-FSS"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_1_FSS", "CZEG_FSS", "CZEG_E_FSS", "CZEG_CTR"]
+
+[[stations]]
+id = "CZEG-2-FSS"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_2_FSS", "CZEG_FSS", "CZEG_E_FSS", "CZEG_CTR"]
+
+[[stations]]
+id = "CZEG-3-FSS"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_3_FSS", "CZEG_FSS", "CZEG_E_FSS", "CZEG_CTR"]
+
+[[stations]]
+id = "CZEG-4-FSS"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_4_FSS", "CZEG_FSS", "CZEG_E_FSS", "CZEG_CTR"]
+
+[[stations]]
+id = "CZEG-H-CTR"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_H_CTR", "CZEG_CTR", "CZEG_FSS", "CZEG_E_FSS"]
+
+[[stations]]
+id = "CZEG-L-CTR"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_L_CTR", "CZEG_CTR", "CZEG_FSS", "CZEG_E_FSS"]
+
+[[stations]]
+id = "CZEG-N-CTR"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_N_CTR", "CZEG_CTR", "CZEG_FSS", "CZEG_E_FSS"]
+
+[[stations]]
+id = "CZEG-P-CTR"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_P_CTR", "CZEG_CTR", "CZEG_FSS", "CZEG_E_FSS"]
+
+[[stations]]
+id = "CZEG-Q-CTR"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_Q_CTR", "CZEG_CTR", "CZEG_FSS", "CZEG_E_FSS"]
+
+[[stations]]
+id = "CZEG-APP"
+parent_id = "CZEG-CTR"
+controlled_by = ["CZEG_APP", "CZEG_CTR"]
+
+[[stations]]
+id = "CYEG-APP"
+parent_id = "CZEG-CTR"
+controlled_by = ["CYEG_APP"]
+
+[[stations]]
+id = "CYEG-DEP"
+parent_id = "CYEG-APP"
+controlled_by = ["CYEG_DEP"]
+
+[[stations]]
+id = "CYEG-TWR"
+parent_id = "CYEG-APP"
+controlled_by = ["CYEG_TWR"]
+
+[[stations]]
+id = "CYEG-GND"
+parent_id = "CYEG-TWR"
+controlled_by = ["CYEG_GND"]
+
+[[stations]]
+id = "CYEG-DEL"
+parent_id = "CYEG-GND"
+controlled_by = ["CYEG_DEL"]
+
+[[stations]]
+id = "CYMM-APP"
+parent_id = "CZEG-CTR"
+controlled_by = ["CYMM_APP"]
+
+[[stations]]
+id = "CYMM-TWR"
+parent_id = "CYMM-APP"
+controlled_by = ["CYMM_TWR"]
+
+[[stations]]
+id = "CYMM-GND"
+parent_id = "CYMM-TWR"
+controlled_by = ["CYMM_GND"]
+
+[[stations]]
+id = "CYOD-APP"
+parent_id = "CZEG-CTR"
+controlled_by = ["CYOD_APP", "CYOD_P_APP"]
+
+[[stations]]
+id = "CYOD-TWR"
+parent_id = "CYOD-APP"
+controlled_by = ["CYOD_TWR"]
+
+[[stations]]
+id = "CYOD-GND"
+parent_id = "CYOD-TWR"
+controlled_by = ["CYOD_GND"]
+
+[[stations]]
+id = "CYQF-TWR"
+parent_id = "CZEG-CTR"
+controlled_by = ["CYQF_TWR"]
+
+[[stations]]
+id = "CYXY-APP"
+parent_id = "CZEG-CTR"
+controlled_by = ["CYXY_APP"]
+
+[[stations]]
+id = "CYXY-TWR"
+parent_id = "CYXY-APP"
+controlled_by = ["CYXY_TWR"]
+
+[[stations]]
+id = "CYYC-APP"
+parent_id = "CZEG-CTR"
+controlled_by = ["CYYC_APP", "CYYC_E_APP", "CYYC_W_APP"]
+
+[[stations]]
+id = "CYYC-DEP"
+parent_id = "CYYC-APP"
+controlled_by = ["CYYC_DEP", "CYYC_E_DEP", "CYYC_T_DEP", "CYYC_W_DEP"]
+
+[[stations]]
+id = "CYYC-TWR"
+parent_id = "CYYC-APP"
+controlled_by = ["CYYC_E_TWR", "CYYC_TWR", "CYYC_W_TWR"]
+
+[[stations]]
+id = "CYYC-GND"
+parent_id = "CYYC-TWR"
+controlled_by = ["CYYC_A_GND", "CYYC_E_GND", "CYYC_GND", "CYYC_W_GND"]
+
+[[stations]]
+id = "CYYC-DEL"
+parent_id = "CYYC-GND"
+controlled_by = ["CYYC_DEL"]
+
+[[stations]]
+id = "CYYC-P-DEL"
+parent_id = "CYYC-GND"
+controlled_by = ["CYYC_P_DEL"]
+
+[[stations]]
+id = "CYZF-APP"
+parent_id = "CZEG-CTR"
+controlled_by = ["CYZF_APP"]
+
+[[stations]]
+id = "CYZF-TWR"
+parent_id = "CYZF-APP"
+controlled_by = ["CYZF_TWR"]
+
+[[stations]]
+id = "CYZF-GND"
+parent_id = "CYZF-TWR"
+controlled_by = ["CYZF_GND"]

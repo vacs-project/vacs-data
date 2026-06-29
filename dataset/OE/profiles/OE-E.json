@@ -1,0 +1,107 @@
+{
+  "id": "OE-E",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC", "E"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["RD", "NORTH", "345+"],
+            "station_id": "OERD_N_CTR"
+          },
+          {
+            "label": ["JD", "NORTH", "245-345"],
+            "station_id": "OEJD_N_CTR"
+          },
+          {
+            "label": ["HAS", "TMA", "155-"],
+            "station_id": "OEHL_APP"
+          },
+          {
+            "label": ["JD", "WEST", "345+"],
+            "station_id": "OEJD_W_CTR"
+          },
+          {
+            "label": ["RD", "EAST", "345+"],
+            "station_id": "OERD_E_CTR"
+          },
+          {
+            "label": ["JD", "EAST", "245-345"],
+            "station_id": "OEJD_E_CTR"
+          },
+          {
+            "label": ["GAS", "TMA", "165-"],
+            "station_id": "OEGS_APP"
+          },
+          {
+            "label": ["JD", "WEST", "345-"],
+            "station_id": "OEJD_W1_CTR"
+          },
+          {
+            "label": ["RD", "NE", "345+"],
+            "station_id": "OERD_NE_CTR"
+          },
+          {
+            "label": ["JD", "NE", "245-345"],
+            "station_id": "OEJD_NE_CTR"
+          },
+          {
+            "label": ["MED", "CTA", "245-"],
+            "station_id": "OEMA_APP"
+          },
+          {
+            "label": ["JD", "CENT"],
+            "station_id": "OEJD_C_CTR"
+          },
+          {
+            "label": ["ORBB", "SOUTH HI", "345+"],
+            "station_id": "ORBB_SU_CTR"
+          },
+          {
+            "label": ["ORBB", "SOUTH LO", "345-"],
+            "station_id": "ORBB_S_CTR"
+          },
+          {
+            "label": ["RUH CTA", "NORTH"],
+            "station_id": "OERK_N_CTR"
+          },
+          {
+            "label": ["RUH CTA", "SOUTH"],
+            "station_id": "OERK_S_CTR"
+          },
+          {
+            "label": ["OKAC", "ACCH", "350+"],
+            "station_id": "OKKK_APP"
+          },
+          {
+            "label": ["OKAC", "ACCL", "350-"],
+            "station_id": "OMAE_S_CTR"
+          },
+          {
+            "label": ["KWI", "TMA", "150-"],
+            "station_id": "OKKK_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["OEGS", "TWR"],
+            "station_id": "OEGS_TWR"
+          },
+          {
+            "label": ["OEGS", "GND"],
+            "station_id": "OEGS_GND"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    }
+  ]
+}
