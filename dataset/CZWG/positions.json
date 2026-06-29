@@ -19,7 +19,7 @@
       "id": "CZEG_FSS",
       "prefixes": ["CZEG"],
       "frequency": "134.900",
-      "facility_type": "CTR",
+      "facility_type": "FSS",
       "default_call_sources": ["CZEG-FSS"]
     },
     {
