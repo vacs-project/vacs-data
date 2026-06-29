@@ -6,7 +6,6 @@
     },
     {
       "id": "CZEG-CTR",
-      "parent_id": "CZEG-FSS",
       "controlled_by": ["CZEG_CTR"]
     },
     {
