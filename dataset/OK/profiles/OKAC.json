@@ -51,7 +51,7 @@
             "station_id": "OKKK_APP"
           },
           {
-            "label": ["[OKKK]", "GMC 1"],
+            "label": ["[OKKK]", "GMC-E"],
             "color": "mint",
             "station_id": "OKKK_1_GND"
           },
@@ -74,7 +74,7 @@
             "station_id": "OKKK_F_APP"
           },
           {
-            "label": ["[OKKK]", "GMC 2"],
+            "label": ["[OKKK]", "GMC-W"],
             "color": "mint",
             "station_id": "OKKK_2_GND"
           },
