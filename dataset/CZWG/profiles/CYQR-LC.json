@@ -212,7 +212,7 @@
           "label": ["EDMONTON", "CENTRE", "HOTLINE"],
           "size": 8,
           "color": "snow",
-          "station_id": "CZEG-CTR" 
+          "station_id": "CZEG-CTR"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
