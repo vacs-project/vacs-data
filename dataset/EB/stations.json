@@ -257,7 +257,7 @@
       "parent_id": "ELLX-APP"
     },
     {
-      "id": "ELLX-TWR-ASS",
+      "id": "ELLX-M-TWR",
       "controlled_by": ["ELLX_M_TWR"]
     },
     {
