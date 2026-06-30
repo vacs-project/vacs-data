@@ -51,9 +51,6 @@
             "label": []
           },
           {
-            "label": []
-          },
-          {
             "label": ["PARIS", "TB"],
             "station_id": "PAR_TB"
           },
@@ -66,8 +63,12 @@
             "station_id": "PAR_TM"
           },
           {
-            "label": ["LFST"],
+            "label": ["LFST", "SU"],
             "station_id": "LFST_SU_APP"
+          },
+          {
+            "label": ["LFST", "SC"],
+            "station_id": "LFST_SC_APP"
           },
           {
             "label": ["AMS", "W"],
@@ -203,20 +204,16 @@
             "station_id": "EBBR-FMP"
           },
           {
-            "label": ["ELLX", "DCL"],
-            "station_id": "ELLX-DEL"
+            "label": []
           },
           {
-            "label": ["ELLX", "AIR"],
-            "station_id": "ELLX-TWR"
+            "label": []
           },
           {
-            "label": ["ELLX", "APP"],
-            "station_id": "ELLX-APP"
+            "label": []
           },
           {
-            "label": ["ELLX", "FIN"],
-            "station_id": "ELLX-F-APP"
+            "label": []
           },
           {
             "label": ["WLS"],
