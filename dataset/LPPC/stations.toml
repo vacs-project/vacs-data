@@ -221,12 +221,3 @@ controlled_by = ["LPVR_I_TWR"]
 [[stations]]
 id = "LPCH_I_TWR"
 controlled_by = ["LPCH_I_TWR"]
-
-[[stations]]
-id = "LPPO_CTR"
-controlled_by = ["LPPO_CTR"]
-parent_id = "LPPO_FSS"
-
-[[stations]]
-id = "LPPO_FSS"
-controlled_by = ["LPPO_FSS"]

@@ -83,20 +83,6 @@ facility_type = "CTR"
 profile_id = "LPPC_Generic"
 
 [[positions]]
-id = "LPPO_CTR"
-prefixes = ["LPPO"]
-frequency = "132.150"
-facility_type = "CTR"
-profile_id = "LPPC_Generic"
-
-[[positions]]
-id = "LPPO_FSS"
-prefixes = ["LPPO"]
-frequency = "133.060"
-facility_type = "FSS"
-profile_id = "LPPC_Generic"
-
-[[positions]]
 id = "LPBJ_APP"
 prefixes = ["LPBJ"]
 frequency = "130.090"
