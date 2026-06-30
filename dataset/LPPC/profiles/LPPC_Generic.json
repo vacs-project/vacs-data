@@ -139,6 +139,14 @@
           {
             "label": ["ARR", "EXE"],
             "station_id": "LPPT_F_APP"
+          },
+          {
+            "label": ["SMA", "OCA"],
+            "station_id": "LPPO_FSS"
+          },
+          {
+            "label": ["SMA", "RDR"],
+            "station_id": "LPPO_CTR"
           }
         ]
       }
