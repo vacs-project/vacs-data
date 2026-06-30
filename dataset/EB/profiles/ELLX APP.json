@@ -17,31 +17,41 @@
           "direction": "col",
           "width": "19%",
           "height": "100%",
-          "children": [{ "label": ["TWR","EXE"], "size": 5, "station_id": "ELLX-TWR" }]
+          "children": [
+            { "label": ["TWR", "EXE"], "size": 5, "station_id": "ELLX-TWR" }
+          ]
         },
         {
           "direction": "col",
           "width": "19%",
           "height": "100%",
-          "children": [{ "label": ["TWR","ASS"], "size": 5, "station_id": "ELLX-M-TWR" }]
+          "children": [
+            { "label": ["TWR", "ASS"], "size": 5, "station_id": "ELLX-M-TWR" }
+          ]
         },
         {
           "direction": "col",
           "width": "19%",
           "height": "100%",
-          "children": [{ "label": ["TWR","DEL"], "size": 5, "station_id": "ELLX-DEL" }]
+          "children": [
+            { "label": ["TWR", "DEL"], "size": 5, "station_id": "ELLX-DEL" }
+          ]
         },
         {
           "direction": "col",
           "width": "19%",
           "height": "100%",
-          "children": [{ "label": ["APP","EXE"], "size": 5, "station_id": "ELLX-APP" }]
+          "children": [
+            { "label": ["APP", "EXE"], "size": 5, "station_id": "ELLX-APP" }
+          ]
         },
         {
           "direction": "col",
           "width": "19%",
           "height": "100%",
-          "children": [{ "label": ["FIN","EXE"], "size": 5, "station_id": "ELLX-F-APP" }]
+          "children": [
+            { "label": ["FIN", "EXE"], "size": 5, "station_id": "ELLX-F-APP" }
+          ]
         }
       ]
     },
@@ -60,34 +70,60 @@
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Brussels","Contr"], "size": 5, "station_id": "EBBU-LUS" }]
-            },
-            {
-              "direction": "col",
-              "width": "19%",
-              "height": "100%",
-              "children": [{ "label": ["Brussels","Assist"], "size": 5, "station_id": "EBBU-LUS" }]
-            },
-            {
-              "direction": "col",
-              "width": "09%",
-              "height": "100%",
               "children": [
-                { "orientation": "horizontal", "thickness": 1, "color": "transparent" }
+                {
+                  "label": ["Brussels", "Contr"],
+                  "size": 5,
+                  "station_id": "EBBU-LUS"
+                }
               ]
             },
             {
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Spang","GCA"], "size": 5, "station_id": "EDGG-TADA" }]
+              "children": [
+                {
+                  "label": ["Brussels", "Assist"],
+                  "size": 5,
+                  "station_id": "EBBU-LUS"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "09%",
+              "height": "100%",
+              "children": [
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Spang", "GCA"],
+                  "size": 5,
+                  "station_id": "EDGG-TADA"
+                }
+              ]
             },
             {
               "direction": "col",
               "width": "29%",
               "height": "100%",
               "children": [
-                { "orientation": "horizontal", "thickness": 1, "color": "transparent" }
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
               ]
             }
           ]
@@ -101,34 +137,56 @@
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Paris","TE"], "size": 5, "station_id": "PAR_TE" }]
+              "children": [
+                { "label": ["Paris", "TE"], "size": 5, "station_id": "PAR_TE" }
+              ]
             },
             {
               "direction": "col",
               "width": "24%",
               "height": "100%",
               "children": [
-                { "orientation": "horizontal", "thickness": 1, "color": "transparent" }
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
               ]
             },
             {
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Eifel","Contr"], "size": 5, "station_id": "EDFH_EIF_APP" }]
+              "children": [
+                {
+                  "label": ["Eifel", "Contr"],
+                  "size": 5,
+                  "station_id": "EDFH_EIF_APP"
+                }
+              ]
             },
             {
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Eifel","Assist"], "size": 5, "station_id": "EDFH_EIF_APP" }]
+              "children": [
+                {
+                  "label": ["Eifel", "Assist"],
+                  "size": 5,
+                  "station_id": "EDFH_EIF_APP"
+                }
+              ]
             },
             {
               "direction": "col",
               "width": "14%",
               "height": "100%",
               "children": [
-                { "orientation": "horizontal", "thickness": 1, "color": "transparent" }
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
               ]
             }
           ]
@@ -142,34 +200,56 @@
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Paris","TM"], "size": 5, "station_id": "PAR_TM" }]
+              "children": [
+                { "label": ["Paris", "TM"], "size": 5, "station_id": "PAR_TM" }
+              ]
             },
             {
               "direction": "col",
               "width": "24%",
               "height": "100%",
               "children": [
-                { "orientation": "horizontal", "thickness": 1, "color": "transparent" }
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
               ]
             },
             {
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Pfalz","Contr"], "size": 5, "station_id": "EDDR_PFA_APP" }]
+              "children": [
+                {
+                  "label": ["Pfalz", "Contr"],
+                  "size": 5,
+                  "station_id": "EDDR_PFA_APP"
+                }
+              ]
             },
             {
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Pfalz","Assist"], "size": 5, "station_id": "EDDR_PFA_APP" }]
+              "children": [
+                {
+                  "label": ["Pfalz", "Assist"],
+                  "size": 5,
+                  "station_id": "EDDR_PFA_APP"
+                }
+              ]
             },
             {
               "direction": "col",
               "width": "14%",
               "height": "100%",
               "children": [
-                { "orientation": "horizontal", "thickness": 1, "color": "transparent" }
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
               ]
             }
           ]
@@ -183,40 +263,64 @@
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Strasbourg","SC"], "size": 5, "station_id": "LFST_SC_APP" }]
+              "children": [
+                {
+                  "label": ["Strasbourg", "SC"],
+                  "size": 5,
+                  "station_id": "LFST_SC_APP"
+                }
+              ]
             },
             {
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Strasbourg","SU"], "size": 5, "station_id": "LFST_SU_APP" }]
+              "children": [
+                {
+                  "label": ["Strasbourg", "SU"],
+                  "size": 5,
+                  "station_id": "LFST_SU_APP"
+                }
+              ]
             },
             {
               "direction": "col",
               "width": "10%",
               "height": "100%",
               "children": [
-                { "orientation": "horizontal", "thickness": 1, "color": "transparent" }
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
               ]
             },
             {
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["REIMS"], "size": 5, "station_id": "LFEE_UE" }]
+              "children": [
+                { "label": ["REIMS"], "size": 5, "station_id": "LFEE_UE" }
+              ]
             },
             {
               "direction": "col",
               "width": "19%",
               "height": "100%",
-              "children": [{ "label": ["Lorraine"], "size": 5, "station_id": "LFJL_TWR" }]
+              "children": [
+                { "label": ["Lorraine"], "size": 5, "station_id": "LFJL_TWR" }
+              ]
             },
             {
               "direction": "col",
               "width": "09%",
               "height": "100%",
               "children": [
-                { "orientation": "horizontal", "thickness": 1, "color": "transparent" }
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
               ]
             }
           ]
