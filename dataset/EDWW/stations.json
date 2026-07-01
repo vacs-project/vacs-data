@@ -262,12 +262,12 @@
     {
       "id": "EDWW-DBDN",
       "controlled_by": ["EDDB_N_DEP", "EDDB_S_DEP"],
-      "parent_id": "EDWW-DBAS"
+      "parent_id": "EDWW-DBAN"
     },
     {
       "id": "EDWW-DBDS",
       "controlled_by": ["EDDB_S_DEP", "EDDB_N_DEP"],
-      "parent_id": "EDWW-DBAS"
+      "parent_id": "EDWW-DBAN"
     },
     {
       "id": "EDWW-HAM",
