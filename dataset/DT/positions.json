@@ -71,6 +71,14 @@
       "default_call_sources": ["DTNH_APP"]
     },
     {
+      "id": "DTNH_L_APP",
+      "prefixes": ["DTNH"],
+      "frequency": "122.225",
+      "facility_type": "APP",
+      "profile_id": "DTNH",
+      "default_call_sources": ["DTNH_L_APP"]
+    },
+    {
       "id": "DTNH_TWR",
       "prefixes": ["DTNH"],
       "frequency": "118.550",

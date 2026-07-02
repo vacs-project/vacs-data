@@ -5,14 +5,93 @@
     {
       "label": ["Enfida", "Brgiba"],
       "page": {
-        "rows": 3,
+        "rows": 6,
         "keys": [
           {
-            "label": ["GND"],
-            "station_id": "DTNH_GND"
+            "label": ["CCR", "NORD-FH", "‎"],
+            "color": "clay",
+            "station_id": "DTTC_N_CTR"
           },
           {
-            "label": ["TWR"],
+            "label": ["CCR", "NORD-TL", "‎"],
+            "color": "lilac",
+            "station_id": "DTTC_N_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ASS-AD", "DTMB TL", "‎"],
+            "color": "mint",
+            "station_id": "DTMB_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ASS-APP", "DTMBTL", "‎"],
+            "color": "mint",
+            "station_id": "DTMB_TWR"
+          },
+          {
+            "label": ["CCR", "SUD-FH", "‎"],
+            "color": "clay",
+            "station_id": "DTTC_S_CTR"
+          },
+          {
+            "label": ["CCR", "SUD-TL", "‎"],
+            "color": "clay",
+            "station_id": "DTTC_S_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ASS-AD", "DTMBFH", "‎"],
+            "color": "mint",
+            "station_id": "DTMB_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ASS-AP", "DTMB FH", "‎"],
+            "color": "mint",
+            "station_id": "DTMB_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["CCR", "FMP-FH", "‎"],
+            "color": "clay",
+            "station_id": "DTTC_FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ASS-AD", "DTTA", "‎"],
+            "color": "azure",
+            "station_id": "DTTA_TWR"
+          },
+          {
+            "label": ["ASS-APP", "DTTA", "‎"],
+            "color": "azure",
+            "station_id": "DTTA_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ATC-AD", "DTNH", "‎"],
+            "color": "blush",
             "station_id": "DTNH_TWR"
           },
           {
@@ -22,59 +101,79 @@
             "label": []
           },
           {
-            "label": ["APP"],
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ASS-AD", "DTNH", "‎"],
+            "color": "blush",
+            "station_id": "DTNH_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ATC-APP", "LOWER", "‎"],
+            "color": "taupe",
+            "station_id": "DTNH_L_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ASS-SOL", "DTNH", "‎"],
+            "color": "blush",
+            "station_id": "DTNH_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ASS-APP", "UPPER", "‎"],
+            "color": "taupe",
             "station_id": "DTNH_APP"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["Carthage", "Upper"],
-            "station_id": "DTTA_U_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["MB", "TWR"],
-            "color": "lagoon",
-            "station_id": "DTMB_TWR"
-          },
-          {
-            "label": ["DTTA", "APP"],
-            "station_id": "DTTA_APP"
-          },
-          {
-            "label": ["DTTC", "NORTH"],
+            "label": ["ASS-APP", "LOWER", "‎"],
             "color": "taupe",
-            "station_id": "DTTC_N_CTR"
+            "station_id": "DTNH_L_APP"
           },
           {
-            "label": ["DTTC", "SOUTH"],
-            "color": "taupe",
-            "station_id": "DTTC_S_CTR"
-          },
-          {
-            "label": ["DTTC", "INFO"],
-            "color": "umber",
+            "label": ["CCR", "INFO-TL", "‎"],
+            "color": "clay",
             "station_id": "DTTC_I_CTR"
           },
           {
             "label": []
           },
           {
+            "label": ["ASS-SOL", "DTHZ", "‎"],
+            "color": "blush",
+            "station_id": "DTNH_GND"
+          },
+          {
             "label": []
           },
           {
-            "label": ["DTTC", "FLOW"],
-            "color": "blush",
-            "station_id": "DTTC_FMP"
+            "label": ["FSW-APP", "UPPER", "‎"],
+            "color": "taupe",
+            "station_id": "DTNH_APP"
+          },
+          {
+            "label": ["FSW-APP", "LOWER", "‎"],
+            "color": "taupe",
+            "station_id": "DTNH_L_APP"
           }
         ]
       }

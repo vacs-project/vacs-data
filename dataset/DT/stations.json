@@ -46,6 +46,11 @@
       "controlled_by": ["DTNH_APP"]
     },
     {
+      "id": "DTNH_L_APP",
+      "parent_id": "DTNH_APP",
+      "controlled_by": ["DTNH_L_APP"]
+    },
+    {
       "id": "DTNH_TWR",
       "parent_id": "DTNH_APP",
       "controlled_by": ["DTNH_TWR"]
