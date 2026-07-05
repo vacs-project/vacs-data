@@ -169,7 +169,7 @@
           {
             "label": ["OE"],
             "page": {
-              "rows": 3,
+              "rows": 4,
               "keys": [
                 {
                   "label": ["RD NE", "345+"],
@@ -182,8 +182,14 @@
                   "station_id": "OEJD_NE_CTR"
                 },
                 {
-                  "label": ["DMM CTA", "245-", "[INOP]"],
-                  "color": "cadet"
+                  "label": ["DMM CTA", "155-245"],
+                  "color": "cadet",
+                  "station_id": "OEDF_APP"
+                },
+                {
+                  "label": ["DMM TMA", "155-"],
+                  "color": "cadet",
+                  "station_id": "OEDF_L_APP"
                 }
               ]
             }
@@ -191,12 +197,17 @@
           {
             "label": ["OTDF"],
             "page": {
-              "rows": 2,
+              "rows": 3,
               "keys": [
                 {
-                  "label": ["DOH", "ACC"],
+                  "label": ["OTDF", "ACC 1"],
                   "color": "lavender",
                   "station_id": "OTDF_1_CTR"
+                },
+                {
+                  "label": ["OTDF", "ACC 2"],
+                  "color": "lavender",
+                  "station_id": "OTDF_2_CTR"
                 },
                 {
                   "label": ["DOH", "R1"],

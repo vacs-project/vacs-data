@@ -329,11 +329,19 @@
       "default_call_sources": ["ELLX-TWR"]
     },
     {
+      "id": "ELLX_M_TWR",
+      "prefixes": ["ELLX"],
+      "frequency": "118.105",
+      "facility_type": "TWR",
+      "profile_id": "EBBU_TWR",
+      "default_call_sources": ["ELLX-M-TWR"]
+    },
+    {
       "id": "ELLX_APP",
       "prefixes": ["ELLX"],
       "frequency": "120.885",
       "facility_type": "APP",
-      "profile_id": "EBBU_APP",
+      "profile_id": "ELLX_APP",
       "default_call_sources": ["ELLX-APP", "ELLX-F-APP"]
     },
     {
@@ -341,7 +349,7 @@
       "prefixes": ["ELLX"],
       "frequency": "118.905",
       "facility_type": "APP",
-      "profile_id": "EBBU_APP",
+      "profile_id": "ELLX_APP",
       "default_call_sources": ["ELLX-F-APP", "ELLX-APP"]
     }
   ]

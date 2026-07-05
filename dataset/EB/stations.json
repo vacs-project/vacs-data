@@ -257,6 +257,10 @@
       "parent_id": "ELLX-APP"
     },
     {
+      "id": "ELLX-M-TWR",
+      "controlled_by": ["ELLX_M_TWR"]
+    },
+    {
       "id": "ELLX-F-APP",
       "controlled_by": ["ELLX_F_APP"]
     },

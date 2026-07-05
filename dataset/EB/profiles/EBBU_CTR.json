@@ -293,14 +293,18 @@
           },
           {
             "label": ["PARIS", "TB"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "PAR_TB"
           },
           {
-            "label": ["LFQQ", "APP"],
-            "color": "blush"
+            "label": ["LFQQ", "W"],
+            "color": "blush",
+            "station_id": "LFQQ_QW_APP"
           },
           {
-            "label": []
+            "label": ["LFQQ", "E"],
+            "color": "blush",
+            "station_id": "LFQQ_QE_APP"
           },
           {
             "label": []
@@ -320,22 +324,26 @@
           },
           {
             "label": ["PARIS", "TE"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "PAR_TE"
           },
           {
             "label": ["REIMS", "UE"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_UE"
           },
           {
             "label": []
           },
           {
             "label": ["AMS", "W"],
-            "color": "clay"
+            "color": "clay",
+            "station_id": "EHAA_W"
           },
           {
             "label": ["BEEK", "APP"],
-            "color": "clay"
+            "color": "clay",
+            "station_id": "EHBK_APP"
           },
           {
             "label": ["UAC", "K"],
@@ -353,22 +361,26 @@
           },
           {
             "label": ["PARIS", "TM"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "PAR_TM"
           },
           {
             "label": ["LFST", "SU"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFST_SU_APP"
           },
           {
             "label": []
           },
           {
             "label": ["AMS", "S"],
-            "color": "clay"
+            "color": "clay",
+            "station_id": "EHAA_S"
           },
           {
             "label": ["NEW", "MIL"],
-            "color": "clay"
+            "color": "clay",
+            "station_id": "EHMC"
           },
           {
             "label": ["UAC", "O"],
@@ -521,7 +533,8 @@
           },
           {
             "label": ["REIMS", "HN", "345+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_HN"
           },
           {
             "label": [],
@@ -533,11 +546,13 @@
           },
           {
             "label": ["REIMS", "UB", "265+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_UB"
           },
           {
             "label": ["PARIS", "TB", "-265"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "PAR_TB"
           },
           {
             "label": ["AC", "S13", "295+"],
@@ -555,23 +570,28 @@
           },
           {
             "label": ["REIMS", "HR", "365+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_HR"
           },
           {
             "label": ["REIMS", "KR", "345+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_KR"
           },
           {
             "label": ["REIMS", "XR", "315+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_XR"
           },
           {
             "label": ["REIMS", "UR", "265+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_UR"
           },
           {
             "label": ["PARIS", "TE", "-265"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "PAR_TE"
           },
           {
             "label": ["BRU", "NLS"],
@@ -602,11 +622,13 @@
           },
           {
             "label": ["PARIS", "AP", "265+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "PAR_AP"
           },
           {
             "label": ["PARIS", "TM", "-265"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "PAR_TM"
           },
           {
             "label": ["BRU", "EHS"],
@@ -625,19 +647,23 @@
           },
           {
             "label": ["REIMS", "HE", "365+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_HE"
           },
           {
             "label": ["REIMS", "KE", "345+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_KE"
           },
           {
             "label": ["REIMS", "XE", "315+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_XE"
           },
           {
             "label": ["REIMS", "UE", "-315"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "LFEE_UE"
           },
           {
             "label": [],

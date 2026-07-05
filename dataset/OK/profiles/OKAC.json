@@ -51,7 +51,7 @@
             "station_id": "OKKK_APP"
           },
           {
-            "label": ["[OKKK]", "GMC 1"],
+            "label": ["[OKKK]", "GMC-E"],
             "color": "mint",
             "station_id": "OKKK_1_GND"
           },
@@ -74,7 +74,7 @@
             "station_id": "OKKK_F_APP"
           },
           {
-            "label": ["[OKKK]", "GMC 2"],
+            "label": ["[OKKK]", "GMC-W"],
             "color": "mint",
             "station_id": "OKKK_2_GND"
           },
@@ -147,15 +147,18 @@
               "rows": 3,
               "keys": [
                 {
-                  "label": ["ORBB", "345+", "[INOP]"],
+                  "label": ["ORBB", "345+"],
+                  "station_id": "ORBB_SU_CTR",
                   "color": "umber"
                 },
                 {
-                  "label": ["ORBB", "235-345", "[INOP]"],
+                  "label": ["ORBB", "235-345"],
+                  "station_id": "ORBB_S_CTR",
                   "color": "umber"
                 },
                 {
-                  "label": ["ALI TMA", "235-", "[INOP]"],
+                  "label": ["ALI TMA", "235-"],
+                  "station_id": "ALI_APP",
                   "color": "taupe"
                 }
               ]
@@ -167,22 +170,22 @@
               "rows": 2,
               "keys": [
                 {
-                  "label": ["RD EAST", "345+", "[INOP]"],
+                  "label": ["RD EAST", "345+"],
                   "color": "lagoon",
                   "station_id": "OERD_E_CTR"
                 },
                 {
-                  "label": ["JD EAST", "345-", "[INOP]"],
+                  "label": ["JD EAST", "345-"],
                   "color": "mint",
-                  "station_id": "OERD_1_CTR"
+                  "station_id": "OEJD_E_CTR"
                 },
                 {
-                  "label": ["RD NE", "345+", "[INOP]"],
+                  "label": ["RD NE", "345+"],
                   "color": "lagoon",
                   "station_id": "OERD_NE_CTR"
                 },
                 {
-                  "label": ["JD NE", "245-345", "[INOP]"],
+                  "label": ["JD NE", "345-"],
                   "color": "mint",
                   "station_id": "OEJD_NE_CTR"
                 }

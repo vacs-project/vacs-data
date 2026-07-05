@@ -1,0 +1,331 @@
+{
+  "id": "ELLX_APP",
+  "type": "Geo",
+  "direction": "col",
+  "height": "100%",
+  "width": "100%",
+  "padding": 1,
+  "gap": 0.8,
+  "justify_content": "start",
+  "children": [
+    {
+      "direction": "row",
+      "height": "4rem",
+      "gap": 0.3,
+      "children": [
+        {
+          "direction": "col",
+          "width": "19%",
+          "height": "100%",
+          "children": [
+            { "label": ["TWR", "EXE"], "size": 5, "station_id": "ELLX-TWR" }
+          ]
+        },
+        {
+          "direction": "col",
+          "width": "19%",
+          "height": "100%",
+          "children": [
+            { "label": ["TWR", "ASS"], "size": 5, "station_id": "ELLX-M-TWR" }
+          ]
+        },
+        {
+          "direction": "col",
+          "width": "19%",
+          "height": "100%",
+          "children": [
+            { "label": ["TWR", "DEL"], "size": 5, "station_id": "ELLX-DEL" }
+          ]
+        },
+        {
+          "direction": "col",
+          "width": "19%",
+          "height": "100%",
+          "children": [
+            { "label": ["APP", "EXE"], "size": 5, "station_id": "ELLX-APP" }
+          ]
+        },
+        {
+          "direction": "col",
+          "width": "19%",
+          "height": "100%",
+          "children": [
+            { "label": ["FIN", "EXE"], "size": 5, "station_id": "ELLX-F-APP" }
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "width": "100%",
+      "gap": 0.2,
+      "padding_left": 2,
+      "children": [
+        {
+          "direction": "row",
+          "height": "4rem",
+          "gap": 0.3,
+          "children": [
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Brussels", "Contr"],
+                  "size": 5,
+                  "station_id": "EBBU-LUS"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Brussels", "Assist"],
+                  "size": 5,
+                  "station_id": "EBBU-LUS"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "09%",
+              "height": "100%",
+              "children": [
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Spang", "GCA"],
+                  "size": 5,
+                  "station_id": "EDGG-TADA"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "29%",
+              "height": "100%",
+              "children": [
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "height": "4rem",
+          "gap": 0.3,
+          "children": [
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                { "label": ["Paris", "TE"], "size": 5, "station_id": "PAR_TE" }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "24%",
+              "height": "100%",
+              "children": [
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Eifel", "Contr"],
+                  "size": 5,
+                  "station_id": "EDGG-EIF"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Eifel", "Assist"],
+                  "size": 5,
+                  "station_id": "EDGG-EIF"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "14%",
+              "height": "100%",
+              "children": [
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "height": "4rem",
+          "gap": 0.3,
+          "children": [
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                { "label": ["Paris", "TM"], "size": 5, "station_id": "PAR_TM" }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "24%",
+              "height": "100%",
+              "children": [
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Pfalz", "Contr"],
+                  "size": 5,
+                  "station_id": "EDGG-PFA"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Pfalz", "Assist"],
+                  "size": 5,
+                  "station_id": "EDGG-PFA"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "14%",
+              "height": "100%",
+              "children": [
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "height": "4rem",
+          "gap": 0.3,
+          "children": [
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Strasbourg", "SC"],
+                  "size": 5,
+                  "station_id": "LFST_SC_APP"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                {
+                  "label": ["Strasbourg", "SU"],
+                  "size": 5,
+                  "station_id": "LFST_SU_APP"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "10%",
+              "height": "100%",
+              "children": [
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                { "label": ["REIMS"], "size": 5, "station_id": "LFEE_UE" }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "19%",
+              "height": "100%",
+              "children": [
+                { "label": ["Lorraine"], "size": 5, "station_id": "LFJL_TWR" }
+              ]
+            },
+            {
+              "direction": "col",
+              "width": "09%",
+              "height": "100%",
+              "children": [
+                {
+                  "orientation": "horizontal",
+                  "thickness": 1,
+                  "color": "transparent"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

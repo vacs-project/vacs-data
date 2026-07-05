@@ -3,17 +3,57 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["ENOL ALL"],
+      "label": ["1", ""],
       "page": {
-        "rows": 4,
+        "rows": 7,
         "keys": [
           {
-            "label": ["OL", "APP"],
+            "label": ["OL", "TMA"],
             "station_id": "ENOL_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["MØRE", "TMA"],
+            "station_id": "ENKB_APP"
+          },
+          {
+            "label": ["S18", "South"],
+            "station_id": "ENBD-18"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": ["OL", "ARR"],
             "station_id": "ENOL_A_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["VA", "TMA"],
+            "station_id": "ENVA_APP"
+          },
+          {
+            "label": ["S24", "Central"],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": ["OL", "TWR"],
@@ -23,47 +63,39 @@
             "label": []
           },
           {
-            "label": ["VA", "APP"],
-            "station_id": "ENVA_APP"
-          },
-          {
             "label": ["VA", "DIR"],
             "station_id": "ENVA_D_APP"
           },
           {
-            "label": ["VA", "TWR"],
-            "station_id": "ENVA_TWR"
+            "label": ["S23", "Offshore"],
+            "station_id": "ENBD-23"
           },
           {
             "label": []
           },
           {
-            "label": ["MØRE APP", "NORTH"],
-            "station_id": "ENKB_APP"
+            "label": []
           },
           {
-            "label": ["KB", "TWR"],
-            "station_id": "ENKB_TWR"
+            "label": []
           },
           {
-            "label": ["NM", "AFIS"],
-            "station_id": "ENNM_I_TWR"
+            "label": []
           },
           {
-            "label": ["RM", "AFIS"],
-            "station_id": "ENRM_I_TWR"
+            "label": []
           },
           {
-            "label": ["BD 18"],
-            "station_id": "ENBD-18"
+            "label": []
           },
           {
-            "label": ["BD 24"],
-            "station_id": "ENBD-24/27"
+            "label": [""]
           },
           {
-            "label": ["BD 23", "Offshore"],
-            "station_id": "ENBD-23"
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": []

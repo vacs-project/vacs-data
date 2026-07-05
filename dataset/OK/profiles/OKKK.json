@@ -31,12 +31,12 @@
             "station_id": "OKKK_DEL"
           },
           {
-            "label": ["GMC", "1"],
+            "label": ["GMC-E"],
             "color": "mint",
             "station_id": "OKKK_1_GND"
           },
           {
-            "label": ["GMC", "2"],
+            "label": ["GMC-W"],
             "color": "mint",
             "station_id": "OKKK_2_GND"
           },

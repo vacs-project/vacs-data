@@ -78,7 +78,8 @@
             "station_id": "DOH_R1_APP"
           },
           {
-            "label": ["DMM", "TMA", "(INOP)"]
+            "label": ["DMM", "TMA", "155-"],
+            "station_id": "OEDF_L_APP"
           },
           {
             "label": ["[OBBS]", "Isa", "Approach"],

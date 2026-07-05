@@ -151,10 +151,10 @@
               "station_id": "CYMJ-TMU"
             },
             {
-              "label": ["CYFO-TMU", "123.850"],
+              "label": ["WINNIPEG", "FLOW", "CONTROL"],
               "size": 8,
               "color": "lavender",
-              "station_id": "CYFO-TMU"
+              "station_id": "WPG-FMP"
             },
             {
               "label": ["SHIFT SUP", "HOTLINE", "NOT AVAIL"],
@@ -274,27 +274,21 @@
       "justify_content": "space-evenly",
       "children": [
         {
-          "label": ["EDMONTON", "CENTRE", "INOP"],
+          "label": ["EDMONTON", "CENTRE", "HOTLINE"],
           "size": 8,
           "color": "snow",
-          "page": {
-            "rows": 1,
-            "keys": [
-              { "label": ["CZEG", "FSS", "INOP"] },
-              { "label": ["CZEG", "CTR", "INOP"] },
-              { "label": ["CZEG", "Q-CTR", "INOP"] }
-            ]
-          }
+          "station_id": "CZEG-CTR"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
-          "label": ["EDMONTON", "FSS", "INOP"],
+          "label": ["EDMONTON", "FSS", "HOTLINE"],
           "size": 6,
-          "color": "snow"
+          "color": "snow",
+          "station_id": "CZEG-FSS"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
-          "label": ["HOTLINE", "INOP", "..."],
+          "label": ["SUPERVISOR", "HOTLINE", "INOP"],
           "size": 6,
           "color": "snow"
         },

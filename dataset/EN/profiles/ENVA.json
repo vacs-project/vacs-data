@@ -1,0 +1,108 @@
+{
+  "id": "ENVA",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", ""],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": ["APP"],
+            "station_id": "ENVA_APP"
+          },
+          {
+            "label": ["OL", "APP"],
+            "station_id": "ENOL_APP"
+          },
+          {
+            "label": ["OL", "ARR"],
+            "station_id": "ENOL_A_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "ENVA_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S18"],
+            "station_id": "ENBD-18"
+          },
+          {
+            "label": ["S24", ""],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GND"],
+            "station_id": "ENVA_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S19"],
+            "station_id": "ENBD-19"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DIR"],
+            "station_id": "ENVA_D_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ESOS", "N"],
+            "station_id": "ESOS_N"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

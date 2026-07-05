@@ -3,62 +3,101 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["ENOB"],
+      "label": ["1", ""],
       "page": {
-        "rows": 5,
+        "rows": 7,
         "keys": [
           {
-            "label": ["BD 26"],
-            "station_id": "ENBD-26"
-          },
-          {
-            "label": ["BD 25"],
-            "station_id": "ENBD-25"
-          },
-          {
-            "label": ["BD 24/27"],
-            "station_id": "ENBD-24/27"
-          },
-          {
-            "label": ["BD 18"],
-            "station_id": "ENBD-18"
-          },
-          {
-            "label": ["SV 16"],
-            "station_id": "ENSV-16"
-          },
-          {
-            "label": ["BGGL"]
-          },
-          {
-            "label": ["BIRD N"]
-          },
-          {
-            "label": ["BIRD E3"]
-          },
-          {
-            "label": ["BIRD E2"]
-          },
-          {
-            "label": ["BIRD E1"]
-          },
-          {
-            "label": ["SB", "AFIS"],
+            "label": ["ENSB"],
             "station_id": "ENSB_I_TWR"
           },
           {
-            "label": ["AS", "AFIS"],
+            "label": []
+          },
+          {
+            "label": ["BIRD", "E"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S16"],
+            "station_id": "ENSV-16"
+          },
+          {
+            "label": ["S18", "South"],
+            "station_id": "ENBD-18"
+          },
+          {
+            "label": ["ENAS"],
             "station_id": "ENAS_I_TWR"
           },
           {
             "label": []
           },
           {
+            "label": ["BICC"]
+          },
+          {
             "label": []
           },
           {
-            "label": ["ENOB"],
-            "station_id": "ENOB"
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S24", "Central"],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BGGL"]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S25", "North"],
+            "station_id": "ENBD-25"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S23", "Offshore"],
+            "station_id": "ENBD-23"
+          },
+          {
+            "label": ["S26", "East"],
+            "station_id": "ENBD-26"
           }
         ]
       }
