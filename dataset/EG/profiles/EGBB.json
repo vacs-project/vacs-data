@@ -185,17 +185,14 @@
             "label": []
           },
           {
-            "label": ["SCL", "FMP"],
-            "station_id": "SCL_FMP"
+            "label": []
           },
           {
-            "label": ["ScAC", "GS"],
-            "station_id": "SCO_GS_CTR"
+            "label": []
           },
           {
-            "label": ["SCL", "GS"],
-            "station_id": "SCL_GS_CTR"
-          }
+            "label": []
+          },
         ]
       }
     }
