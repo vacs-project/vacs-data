@@ -67,7 +67,7 @@
           {
             "label": ["INT"],
             "station_id": "EGSS_APP"
-          },          
+          },
           {
             "label": []
           },
@@ -91,7 +91,7 @@
             "station_id": ""
           },
           {
-            "label": ["TC","NW"],
+            "label": ["TC", "NW"],
             "station_id": "LTC_NW_CTR"
           },
           {
@@ -102,15 +102,15 @@
             "label": []
           },
           {
-            "label": ["GW","INT"],
+            "label": ["GW", "INT"],
             "station_id": "EGGW_APP"
           },
           {
-            "label": ["LL","INT"],
+            "label": ["LL", "INT"],
             "station_id": "EGLL_N_APP"
           },
           {
-            "label": ["TC","NE"],
+            "label": ["TC", "NE"],
             "station_id": "LTC_NE_CTR"
           },
           {
@@ -121,7 +121,7 @@
             "label": []
           },
           {
-            "label": ["SC","RAD"],
+            "label": ["SC", "RAD"],
             "station_id": "EGSC_APP"
           },
           {
@@ -132,10 +132,10 @@
       }
     },
     {
-      "label":["EGGW"],
-      "page":{
-        "rows":5,
-        "keys":[
+      "label": ["EGGW"],
+      "page": {
+        "rows": 5,
+        "keys": [
           {
             "label": ["GMP"],
             "station_id": "EGGW_DEL"
@@ -196,7 +196,7 @@
           {
             "label": ["INT"],
             "station_id": "EGGW_APP"
-          },          
+          },
           {
             "label": []
           },
@@ -220,7 +220,7 @@
             "station_id": ""
           },
           {
-            "label": ["TC","NW"],
+            "label": ["TC", "NW"],
             "station_id": "LTC_NW_CTR"
           },
           {
@@ -229,17 +229,17 @@
           },
           {
             "label": []
-          },          
+          },
           {
-            "label": ["UL","RAD"],
+            "label": ["UL", "RAD"],
             "station_id": "EGUL_APP"
           },
           {
-            "label": ["SS","INT"],
+            "label": ["SS", "INT"],
             "station_id": "EGSS_APP"
           },
           {
-            "label": ["TC","NE"],
+            "label": ["TC", "NE"],
             "station_id": "LTC_NE_CTR"
           },
           {
@@ -250,7 +250,7 @@
             "label": []
           },
           {
-            "label": ["TK","RAD"],
+            "label": ["TK", "RAD"],
             "station_id": "EGTK_APP"
           },
           {

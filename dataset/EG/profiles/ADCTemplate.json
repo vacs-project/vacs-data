@@ -67,7 +67,7 @@
           {
             "label": ["INT"],
             "station_id": ""
-          },          
+          },
           {
             "label": []
           },
@@ -102,11 +102,11 @@
             "label": []
           },
           {
-            "label": ["ADJ","APP1"],
+            "label": ["ADJ", "APP1"],
             "station_id": ""
           },
           {
-            "label": ["ADJ","APP3"],
+            "label": ["ADJ", "APP3"],
             "station_id": ""
           },
           {
@@ -121,7 +121,7 @@
             "label": []
           },
           {
-            "label": ["ADJ","APP2"],
+            "label": ["ADJ", "APP2"],
             "station_id": ""
           },
           {

@@ -1,136 +1,134 @@
 {
-    "id":"EGPH",
-    "type":"Tabbed",
-    "tabs": [
-        {
-            "label":"ADC",
-            "page":{
-                "rows":5,
-                "keys":[
-                    {
-                        "label":["GMP"],
-                        "station_id": "EGPH_DEL"
-                    },
-                    {
-                        "label":[]
-                    },
+  "id": "EGPH",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "ADC",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["GMP"],
+            "station_id": "EGPH_DEL"
+          },
+          {
+            "label": []
+          },
 
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":["GMP","AST"],
-                        "station_id": "EGPH_A_DEL"
-                    },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMP", "AST"],
+            "station_id": "EGPH_A_DEL"
+          },
 
-                    {
-                        "label":["PLN"],
-                        "station_id": "EGPH_P_GND"
-                    },
-                    {
-                        "label":["GMC"],
-                        "station_id": "EGPH_GND"
-                    },
-                    {
-                        "label":[]
-                    },                    
-                    {
-                        "label":"AIR",
-                        "station_id": "EGPH_TWR"
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },                    
-                    {
-                        "label":"FIN",
-                        "station_id": "EGPH_F_APP"
-                    },
-                    {
-                        "label":"INT",
-                        "station_id": "EGPH_APP"
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },                                         
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":"GAL",
-                        "station_id": "SCL_GAL_CTR"
-                    },                    
-                    {
-                        "label":[]
-                    }, 
-                    {
-                        "label":[]
-                    },                    
-                    {
-                        "label":["PF ","RAD"],
-                        "station_id": "EGPF_APP"
-                    },
-                    {
-                        "label":"TAY",
-                        "station_id": "SCL_TAY_CTR"
-                    },                    
-                    {
-                        "label":"TLA",
-                        "station_id":"SCL_TLA_CTR"
-                    },                    
-                    {
-                        "label":[]
-                    },
-                    {
-                        "label":[]
-                    },                                        
-                    {
-                        "label":["SCOT", "FISO"],
-                        "station_id": "EGPX_I_CTR"
-                    }
-
-                ]
-            }
-
-        },
+          {
+            "label": ["PLN"],
+            "station_id": "EGPH_P_GND"
+          },
+          {
+            "label": ["GMC"],
+            "station_id": "EGPH_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": "AIR",
+            "station_id": "EGPH_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": "FIN",
+            "station_id": "EGPH_F_APP"
+          },
+          {
+            "label": "INT",
+            "station_id": "EGPH_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": "GAL",
+            "station_id": "SCL_GAL_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PF ", "RAD"],
+            "station_id": "EGPF_APP"
+          },
+          {
+            "label": "TAY",
+            "station_id": "SCL_TAY_CTR"
+          },
+          {
+            "label": "TLA",
+            "station_id": "SCL_TLA_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SCOT", "FISO"],
+            "station_id": "EGPX_I_CTR"
+          }
+        ]
+      }
+    },
     {
       "label": ["SUP", "Flow"],
       "page": {
@@ -198,5 +196,5 @@
         ]
       }
     }
-    ]
+  ]
 }
