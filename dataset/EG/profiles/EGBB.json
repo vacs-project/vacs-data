@@ -1,9 +1,9 @@
 {
-  "id": "EGNX",
+  "id": "EGBB",
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "EGNX",
+      "label": "EGBB",
       "page": {
         "rows": 5,
         "keys": [
