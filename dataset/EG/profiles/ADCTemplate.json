@@ -1,15 +1,15 @@
 {
-  "id": "EGCC",
+  "id": "ADCTemplate",
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "EGCC",
+      "label": "ICAO",
       "page": {
         "rows": 5,
         "keys": [
           {
             "label": ["GMP"],
-            "station_id": "EGCC_DEL"
+            "station_id": ""
           },
           {
             "label": []
@@ -18,27 +18,26 @@
             "label": []
           },
           {
-            "label": ["GMP","AST"],
-            "station_id": "EGCC_A_DEL"
+            "label": ["GMP", "AST"],
+            "station_id": ""
           },
           {
             "label": ["PLN"],
-            "station_id": "EGCC_P_GND"
+            "station_id": ""
           },
           {
             "label": ["GMC"],
-            "station_id": "EGCC_GND"
+            "station_id": ""
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["AIR"],
+            "station_id": ""
           },
           {
             "label": []
-          },
-          {
-            "label": ["AIR", "1"],
-            "station_id": "EGCC_N_TWR"
-          },
-          {
-            "label": ["AIR", "2"],
-            "station_id": "EGCC_S_TWR"
           },
           {
             "label": []
@@ -63,16 +62,12 @@
           },
           {
             "label": ["FIN"],
-            "station_id": "EGCC_F_APP"
+            "station_id": ""
           },
           {
-            "label": ["INT", "N"],
-            "station_id": "EGCC_N_APP"
-          },
-          {
-            "label": ["INT", "S"],
-            "station_id": "EGCC_S_APP"
-          },
+            "label": ["INT"],
+            "station_id": ""
+          },          
           {
             "label": []
           },
@@ -89,47 +84,49 @@
             "label": []
           },
           {
-            "label": ["NR","RAD"],
-            "station_id": "EGNR_APP"
+            "label": []
           },
           {
-            "label": ["PC", "WAL"],
-            "station_id": "MAN_W_CTR"
+            "label": [],
+            "station_id": ""
+          },
+          {
+            "label": ["Area1"],
+            "station_id": ""
+          },
+          {
+            "label": ["Area2"],
+            "station_id": ""
           },
           {
             "label": []
           },
           {
-            "label": ["NO", "RAD"],
-            "station_id": "EGNO_APP"
+            "label": ["ADJ","APP1"],
+            "station_id": ""
           },
           {
-            "label": ["GP", "RAD"],
-            "station_id": "EGGP_APP"
+            "label": ["ADJ","APP3"],
+            "station_id": ""
           },
           {
-            "label": ["BB", "RAD"],
-            "station_id": "EGBB_APP"
+            "label": ["Area3"],
+            "station_id": ""
           },
           {
-            "label": ["PC", "NOR"],
-            "station_id": "MAN_NE_CTR"
+            "label": ["Area4"],
+            "station_id": ""
           },
           {
-            "label": ["PC", "SE"],
-            "station_id": "MAN_SE_CTR"
+            "label": []
           },
           {
-            "label": ["NH", "APP"],
-            "station_id": "EGNH_A_APP"
+            "label": ["ADJ","APP2"],
+            "station_id": ""
           },
           {
-            "label": ["NM", "RAD"],
-            "station_id": "EGNM_APP"
-          },
-          {
-            "label": ["NX", "RAD"],
-            "station_id": "EGNX_APP"
+            "label": ["ADJ", "APP4"],
+            "station_id": ""
           }
         ]
       }
@@ -144,8 +141,8 @@
             "station_id": "UK_FMP"
           },
           {
-            "label": ["MAN", "FMP"],
-            "station_id": "MAN_FMP"
+            "label": ["LTC", "FMP"],
+            "station_id": "LTC_FMP"
           },
           {
             "label": ["UK", "FMP", "2"],
@@ -162,13 +159,6 @@
             "label": []
           },
           {
-            "label": ["MAN", "GS"],
-            "station_id": "MAN_GS_CTR"
-          },
-          {
-            "label": []
-          },
-          {
             "label": ["LAC", "GS"],
             "station_id": "LON_GS_CTR"
           },
@@ -177,14 +167,21 @@
             "station_id": "LTC_GS_CTR"
           },
           {
-            "label": []
+            "label": ["MAN", "GS"],
+            "station_id": "MAN_GS_CTR"
+          },
+          {
+            "label": ["MAN", "FMP"],
+            "station_id": "MAN_FMP"
           },
           {
             "label": []
           },
           {
-            "label": ["LTC", "FMP"],
-            "station_id": "LTC_FMP"
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": ["SCL", "FMP"],

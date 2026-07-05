@@ -346,35 +346,35 @@ id = "EGGW_APP"
 prefixes = ["EGGW"]
 frequency = "129.550"
 facility_type = "APP"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGGW_F_APP"
 prefixes = ["EGGW"]
 frequency = "128.750"
 facility_type = "APP"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGGW_TWR"
 prefixes = ["EGGW"]
 frequency = "132.555"
 facility_type = "TWR"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGGW_GND"
 prefixes = ["EGGW"]
 frequency = "121.755"
 facility_type = "GND"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGGW_DEL"
 prefixes = ["EGGW"]
 frequency = "121.885"
 facility_type = "DEL"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGHC_TWR"
@@ -1032,28 +1032,28 @@ id = "EGNX_APP"
 prefixes = ["EGNX"]
 frequency = "126.180"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_F_APP"
 prefixes = ["EGNX"]
 frequency = "120.130"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_TWR"
 prefixes = ["EGNX"]
 frequency = "124.005"
 facility_type = "TWR"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_GND"
 prefixes = ["EGNX"]
 frequency = "121.905"
 facility_type = "GND"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGOE_TWR"
@@ -1242,35 +1242,35 @@ id = "EGPH_APP"
 prefixes = ["EGPH"]
 frequency = "121.205"
 facility_type = "APP"
-profile_id = "EG-Scottish"
+profile_id = "EGPH"
 
 [[positions]]
 id = "EGPH_F_APP"
 prefixes = ["EGPH"]
 frequency = "128.980"
 facility_type = "APP"
-profile_id = "EG-Scottish"
+profile_id = "EGPH"
 
 [[positions]]
 id = "EGPH_TWR"
 prefixes = ["EGPH"]
 frequency = "118.705"
 facility_type = "TWR"
-profile_id = "EG-Scottish"
+profile_id = "EGPH"
 
 [[positions]]
 id = "EGPH_GND"
 prefixes = ["EGPH"]
 frequency = "121.755"
 facility_type = "GND"
-profile_id = "EG-Scottish"
+profile_id = "EGPH"
 
 [[positions]]
 id = "EGPH_DEL"
 prefixes = ["EGPH"]
 frequency = "121.980"
 facility_type = "DEL"
-profile_id = "EG-Scottish"
+profile_id = "EGPH"
 
 [[positions]]
 id = "EGPK_APP"
@@ -1438,42 +1438,42 @@ id = "ESSEX_APP"
 prefixes = ["ESSEX"]
 frequency = "120.625"
 facility_type = "APP"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGSS_APP"
 prefixes = ["EGSS"]
 frequency = "120.625"
 facility_type = "APP"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGSS_F_APP"
 prefixes = ["EGSS"]
 frequency = "136.200"
 facility_type = "APP"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGSS_TWR"
 prefixes = ["EGSS"]
 frequency = "123.805"
 facility_type = "TWR"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGSS_GND"
 prefixes = ["EGSS"]
 frequency = "121.730"
 facility_type = "GND"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGSS_DEL"
 prefixes = ["EGSS"]
 frequency = "121.955"
 facility_type = "DEL"
-profile_id = "ESSEX"
+profile_id = "ESX"
 
 [[positions]]
 id = "EGSY_TWR"
