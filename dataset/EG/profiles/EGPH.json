@@ -123,7 +123,7 @@
                         "label":[]
                     },                                        
                     {
-                        "label":["SC", "FISO"],
+                        "label":["SCOT", "FISO"],
                         "station_id": "EGPX_I_CTR"
                     }
 
