@@ -20,7 +20,7 @@
     },
     {
       "id": "CYWG-EAST",
-      "parent_id": "CYWG-APP",
+      "parent_id": "CYWG-WEST",
       "controlled_by": ["CYWG_E_DEP"]
     },
     {
