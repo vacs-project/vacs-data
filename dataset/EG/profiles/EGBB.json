@@ -135,7 +135,7 @@
     {
       "label": ["SUP", "Flow"],
       "page": {
-        "rows": 2,
+        "rows": 4,
         "keys": [
           {
             "label": ["UK", "FMP"],
@@ -152,21 +152,7 @@
           {
             "label": ["UK", "FMP", "3"],
             "station_id": "UK_B_FMP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["LAC", "GS"],
-            "station_id": "LON_GS_CTR"
-          },
-          {
-            "label": ["LTC", "GS"],
-            "station_id": "LTC_GS_CTR"
-          },
+          },          
           {
             "label": ["MAN", "GS"],
             "station_id": "MAN_GS_CTR"
@@ -176,23 +162,13 @@
             "station_id": "MAN_FMP"
           },
           {
-            "label": []
+            "label": ["LAC", "GS"],
+            "station_id": "LON_GS_CTR"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
+            "label": ["LTC", "GS"],
+            "station_id": "LTC_GS_CTR"
+          }
         ]
       }
     }
