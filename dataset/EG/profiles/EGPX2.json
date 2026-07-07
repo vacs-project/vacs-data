@@ -14,7 +14,7 @@
           },
           {
             "label": ["ScAC", "SWB"],
-            "station_id": "SCO_SWB_CTR",
+            "station_id": "SCO_WB_CTR",
             "color": "azure"
           },
           {
