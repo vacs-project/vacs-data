@@ -82,7 +82,8 @@
             "station_id": "EISN_E_CTR"
           },
           {
-            "label": [],
+            "label": ["EIDW", "F245-"],
+            "station_id": "EIDW_LN_CTR",
             "color": "azure"
           },
           {
@@ -100,9 +101,9 @@
             "color": "azure"
           },
           {
-            "label": ["EIDW", "F245-"],
-            "station_id": "EIDW_LN_CTR",
-            "color": "azure"
+            "label": ["PC", "WAL"],
+            "color": "azure",
+            "station_id": "MAN_W_CTR"
           },
           {
             "label": ["BIRD", "LO", "F355-"],
@@ -119,9 +120,9 @@
             "station_id": "LON_NW_CTR"
           },
           {
-            "label": ["PC", "WAL"],
+            "label": ["PC", "S29"],
             "color": "azure",
-            "station_id": "MAN_W_CTR"
+            "station_id": "EG-Sector-29"
           },
           {
             "label": ["ENSV"],
