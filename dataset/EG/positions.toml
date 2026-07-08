@@ -1812,6 +1812,13 @@ facility_type = "TWR"
 profile_id = "EG-Swanwick_Military"
 
 [[positions]]
+id = "EGWC_GND"
+prefixes = ["EGWC"]
+frequency = "128.655"
+facility_type = "GND"
+profile_id = "EG-Swanwick_Military"
+
+[[positions]]
 id = "EGWU_APP"
 prefixes = ["EGWU"]
 frequency = "126.450"
