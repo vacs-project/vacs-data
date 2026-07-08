@@ -5,7 +5,7 @@
       "controlled_by": [
         "EDYY_L_CTR",
         "EDYY_O_CTR",
-        "EBBU_U_CTR",
+        "EDYY_BRU_CTR",
         "EBBU_E_CTR",
         "EBBU_H_CTR",
         "EBBU_L_CTR",
@@ -18,7 +18,7 @@
       "id": "EDYY-LNH",
       "controlled_by": [
         "EDYY_O_CTR",
-        "EBBU_U_CTR",
+        "EDYY_BRU_CTR",
         "EBBU_E_CTR",
         "EBBU_H_CTR",
         "EBBU_L_CTR",
@@ -31,7 +31,7 @@
       "id": "EDYY-NIH",
       "controlled_by": [
         "EDYY_N_CTR",
-        "EBBU_U_CTR",
+        "EDYY_BRU_CTR",
         "EBBU_W_CTR",
         "EBBU_C_CTR",
         "EBBU_N_CTR",
@@ -45,7 +45,7 @@
       "controlled_by": [
         "EDYY_K_CTR",
         "EDYY_N_CTR",
-        "EBBU_U_CTR",
+        "EDYY_BRU_CTR",
         "EBBU_W_CTR",
         "EBBU_C_CTR",
         "EBBU_N_CTR",
