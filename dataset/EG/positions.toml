@@ -2678,13 +2678,6 @@ facility_type = "TWR"
 profile_id = "EG-AFIS_AGCS"
 
 [[positions]]
-id = "EGBE_I_TWR"
-prefixes = ["EGBE"]
-frequency = "123.830"
-facility_type = "TWR"
-profile_id = "EG-AFIS_AGCS"
-
-[[positions]]
 id = "EGBF_R_TWR"
 prefixes = ["EGBF"]
 frequency = "119.030"
