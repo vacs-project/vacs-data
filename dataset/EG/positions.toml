@@ -1343,16 +1343,9 @@ facility_type = "CTR"
 profile_id = "EG-UK_ALL"
 
 [[positions]]
-id = "EGQL_APP"
+id = "EGQL_A_APP"
 prefixes = ["EGQL"]
 frequency = "126.505"
-facility_type = "APP"
-profile_id = "EG-Swanwick_Military"
-
-[[positions]]
-id = "EGQL_P_APP"
-prefixes = ["EGQL"]
-frequency = "123.300"
 facility_type = "APP"
 profile_id = "EG-Swanwick_Military"
 

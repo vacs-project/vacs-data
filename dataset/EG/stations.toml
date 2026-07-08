@@ -1428,18 +1428,13 @@ parent_id = "EGPO_A_APP"
 controlled_by = ["EGPO_TWR"]
 
 [[stations]]
-id = "EGQL_APP"
+id = "EGQL_A_APP"
 parent_id = "EGVV_N_CTR"
-controlled_by = ["EGQL_APP", "EGQL_P_APP"]
-
-[[stations]]
-id = "EGQL_P_APP"
-parent_id = "EGQL_APP"
-controlled_by = ["EGQL_P_APP"]
+controlled_by = ["EGQL_A_APP"]
 
 [[stations]]
 id = "EGQL_TWR"
-parent_id = "EGQL_APP"
+parent_id = "EGQL_A_APP"
 controlled_by = ["EGQL_TWR"]
 
 [[stations]]
