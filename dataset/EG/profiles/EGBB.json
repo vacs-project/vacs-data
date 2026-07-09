@@ -85,8 +85,7 @@
             "label": []
           },
           {
-            "label": [],
-            "station_id": ""
+            "label": []
           },
           {
             "label": ["PC", "SE"],
@@ -109,24 +108,20 @@
             "station_id": "EGNX_APP"
           },
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           },
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           },
 
           {
             "label": []
           },
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           },
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           }
         ]
       }
