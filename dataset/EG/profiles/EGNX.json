@@ -67,7 +67,7 @@
           {
             "label": ["INT"],
             "station_id": "EGNX_APP"
-          },          
+          },
           {
             "label": []
           },
@@ -89,7 +89,7 @@
           {
             "label": [],
             "station_id": ""
-          },          
+          },
           {
             "label": ["PC", "SE"],
             "station_id": "MAN_SE_CTR"
@@ -103,15 +103,15 @@
             "label": []
           },
           {
-            "label": ["CC","INT"],
+            "label": ["CC", "INT"],
             "station_id": "EGCC_S_APP"
           },
           {
-            "label": ["BB","RAD"],
+            "label": ["BB", "RAD"],
             "station_id": "EGBB_APP"
-          },          
+          },
           {
-            "label": ["PC","NE"],
+            "label": ["PC", "NE"],
             "station_id": "MAN_E_CTR"
           },
           {
@@ -134,7 +134,7 @@
       }
     },
     {
-"label": ["SUP", "Flow"],
+      "label": ["SUP", "Flow"],
       "page": {
         "rows": 4,
         "keys": [
@@ -153,7 +153,7 @@
           {
             "label": ["UK", "FMP", "3"],
             "station_id": "UK_B_FMP"
-          },          
+          },
           {
             "label": ["MAN", "GS"],
             "station_id": "MAN_GS_CTR"
