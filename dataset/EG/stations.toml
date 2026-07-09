@@ -958,7 +958,6 @@ controlled_by = ["EGBB_APP", "EGBB_F_APP"]
 id = "EGBB_F_APP"
 parent_id = "EGBB_APP"
 
-
 [[stations]]
 id = "EGCC_DEL"
 parent_id = "EGCC_GND"
