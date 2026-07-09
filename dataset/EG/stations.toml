@@ -946,7 +946,7 @@ controlled_by = ["EGBB_GND"]
 
 [[stations]]
 id = "EGBB_TWR"
-parent_id = ["EGBB_APP"]
+parent_id = "EGBB_APP"
 controlled_by = ["EGBB_TWR"]
 
 [[stations]]
