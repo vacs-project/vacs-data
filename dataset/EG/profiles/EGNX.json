@@ -8,8 +8,7 @@
         "rows": 5,
         "keys": [
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           },
           {
             "label": []
@@ -18,12 +17,10 @@
             "label": []
           },
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           },
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           },
           {
             "label": ["GMC"],
@@ -87,8 +84,7 @@
             "label": []
           },
           {
-            "label": [],
-            "station_id": ""
+            "label": []
           },
           {
             "label": ["PC", "SE"],
@@ -115,20 +111,17 @@
             "station_id": "MAN_E_CTR"
           },
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           },
 
           {
             "label": []
           },
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           },
           {
-            "label": [""],
-            "station_id": ""
+            "label": [""]
           }
         ]
       }
