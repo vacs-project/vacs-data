@@ -44,7 +44,7 @@
       "prefixes": ["EDUU"],
       "frequency": "134.690",
       "facility_type": "CTR",
-      "profile_id": "EDGG_UPR",
+      "profile_id": "EDGG_UCW",
       "default_call_sources": ["EDUU-UCW"]
     },
     {
@@ -52,7 +52,7 @@
       "prefixes": ["EDUU"],
       "frequency": "136.560",
       "facility_type": "CTR",
-      "profile_id": "EDGG_UPR",
+      "profile_id": "EDGG_UCW",
       "default_call_sources": ["EDUU-UW"]
     },
     {
@@ -60,7 +60,7 @@
       "prefixes": ["EDUU"],
       "frequency": "130.260",
       "facility_type": "CTR",
-      "profile_id": "EDGG_UPR",
+      "profile_id": "EDGG_UCW",
       "default_call_sources": ["EDUU-UC"]
     },
     {
