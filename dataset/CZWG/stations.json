@@ -15,12 +15,12 @@
     },
     {
       "id": "CYWG-WEST",
-      "parent_id": "WPG-CTR",
+      "parent_id": "CYWG-APP",
       "controlled_by": ["CYWG_DEP"]
     },
     {
       "id": "CYWG-EAST",
-      "parent_id": "WPG-CTR",
+      "parent_id": "CYWG-WEST",
       "controlled_by": ["CYWG_E_DEP"]
     },
     {

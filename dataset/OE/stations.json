@@ -226,24 +226,24 @@
       "controlled_by": ["OEDF_L_APP"]
     },
     {
-      "id": "OEDF_1_TWR",
+      "id": "OEDF_W_TWR",
       "parent_id": "OEDF_APP",
-      "controlled_by": ["OEDF_1_TWR"]
+      "controlled_by": ["OEDF_W_TWR"]
     },
     {
-      "id": "OEDF_2_TWR",
-      "parent_id": "OEDF_1_TWR",
-      "controlled_by": ["OEDF_2_TWR"]
+      "id": "OEDF_E_TWR",
+      "parent_id": "OEDF_W_TWR",
+      "controlled_by": ["OEDF_E_TWR"]
     },
     {
-      "id": "OEDF_1_GND",
-      "parent_id": "OEDF_1_TWR",
-      "controlled_by": ["OEDF_1_GND"]
+      "id": "OEDF_W_GND",
+      "parent_id": "OEDF_W_TWR",
+      "controlled_by": ["OEDF_W_GND"]
     },
     {
-      "id": "OEDF_2_GND",
-      "parent_id": "OEDF_1_GND",
-      "controlled_by": ["OEDF_2_GND"]
+      "id": "OEDF_E_GND",
+      "parent_id": "OEDF_W_GND",
+      "controlled_by": ["OEDF_E_GND"]
     },
     {
       "id": "OEMA_APP",

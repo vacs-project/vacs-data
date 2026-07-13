@@ -67,7 +67,7 @@
     {
       "id": "DOH_F2_APP",
       "prefixes": ["DOH"],
-      "frequency": "124.050",
+      "frequency": "123.875",
       "facility_type": "APP",
       "profile_id": "OTHH",
       "default_call_sources": ["DOH_F2_APP"]
@@ -75,7 +75,7 @@
     {
       "id": "DOH_F3_APP",
       "prefixes": ["DOH"],
-      "frequency": "123.875",
+      "frequency": "124.050",
       "facility_type": "APP",
       "profile_id": "OTHH",
       "default_call_sources": ["DOH_F3_APP"]

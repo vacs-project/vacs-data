@@ -314,6 +314,7 @@
       "prefixes": ["OEDF"],
       "frequency": "126.300",
       "facility_type": "APP",
+      "profile_id": "OEDF",
       "default_call_sources": ["OEDF_APP"]
     },
     {
@@ -321,35 +322,40 @@
       "prefixes": ["OEDF"],
       "frequency": "126.100",
       "facility_type": "APP",
+      "profile_id": "OEDF",
       "default_call_sources": ["OEDF_L_APP"]
     },
     {
-      "id": "OEDF_1_TWR",
+      "id": "OEDF_W_TWR",
       "prefixes": ["OEDF"],
       "frequency": "124.350",
       "facility_type": "TWR",
-      "default_call_sources": ["OEDF_1_TWR"]
+      "profile_id": "OEDF",
+      "default_call_sources": ["OEDF_W_TWR"]
     },
     {
-      "id": "OEDF_2_TWR",
+      "id": "OEDF_E_TWR",
       "prefixes": ["OEDF"],
       "frequency": "118.200",
       "facility_type": "TWR",
-      "default_call_sources": ["OEDF_2_TWR"]
+      "profile_id": "OEDF",
+      "default_call_sources": ["OEDF_E_TWR"]
     },
     {
-      "id": "OEDF_1_GND",
+      "id": "OEDF_W_GND",
       "prefixes": ["OEDF"],
       "frequency": "121.750",
       "facility_type": "GND",
-      "default_call_sources": ["OEDF_1_GND"]
+      "profile_id": "OEDF",
+      "default_call_sources": ["OEDF_W_GND"]
     },
     {
-      "id": "OEDF_2_GND",
+      "id": "OEDF_E_GND",
       "prefixes": ["OEDF"],
       "frequency": "121.850",
       "facility_type": "GND",
-      "default_call_sources": ["OEDF_2_GND"]
+      "profile_id": "OEDF",
+      "default_call_sources": ["OEDF_E_GND"]
     },
     {
       "id": "OEMA_APP",

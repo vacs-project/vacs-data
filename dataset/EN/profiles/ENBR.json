@@ -27,7 +27,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["DEL"],
+            "station_id": "ENBR_DEL"
           },
           {
             "label": ["APP W"],
@@ -49,7 +50,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["GND"],
+            "station_id": "ENBR_GND"
           },
           {
             "label": ["DIR"],
@@ -72,7 +74,8 @@
             "station_id": "ENBR_ICE_GND"
           },
           {
-            "label": []
+            "label": ["TWR"],
+            "station_id": "ENBR_TWR"
           },
           {
             "label": ["APP E"],
@@ -159,7 +162,8 @@
             "label": [""]
           },
           {
-            "label": []
+            "label": ["APP W"],
+            "station_id": "ENBR_W_APP"
           },
           {
             "label": ["TWR"],
@@ -185,7 +189,8 @@
             "station_id": "ENHD_TWR"
           },
           {
-            "label": []
+            "label": ["DIR"],
+            "station_id": "ENBR_D_APP"
           },
           {
             "label": []
@@ -208,7 +213,8 @@
             "station_id": "ENSO_I_TWR"
           },
           {
-            "label": []
+            "label": ["APP E"],
+            "station_id": "ENBR_E_APP"
           }
         ]
       }

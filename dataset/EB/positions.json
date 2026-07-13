@@ -281,9 +281,9 @@
       "default_call_sources": ["EDYY-LXH"]
     },
     {
-      "id": "EBBU_U_CTR",
-      "prefixes": ["EBBU"],
-      "frequency": "125.980",
+      "id": "EDYY_BRU_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "134.330",
       "facility_type": "CTR",
       "profile_id": "EBBU_CTR",
       "default_call_sources": ["EDYY-NIH", "EDYY-LNH"]
