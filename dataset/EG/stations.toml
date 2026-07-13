@@ -1444,7 +1444,7 @@ id = "EGPU_I_TWR"
 controlled_by = ["EGPU_I_TWR"]
 
 [[stations]]
-id = "EGQL_APP"
+id = "EGQL_A_APP"
 parent_id = "EGVV_N_CTR"
 controlled_by = ["EGQL_A_APP"]
 
