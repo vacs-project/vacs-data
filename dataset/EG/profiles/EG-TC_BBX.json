@@ -80,7 +80,7 @@
           {
             "label": ["KA", "APC"],
             "color": "azure",
-            "station_id": "EGKA_A_APP"
+            "station_id": "EGKA_APP"
           },
           {
             "label": ["TC", "GW"],

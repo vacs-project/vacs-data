@@ -1025,6 +1025,16 @@ parent_id = "EGGW_APP"
 controlled_by = ["EGGW_F_APP"]
 
 [[stations]]
+id = "EGKA_TWR"
+parent_id = "EGKA_APP"
+controlled_by = ["EGKA_TWR"]
+
+[[stations]]
+id = "EGKA_APP"
+parent_id = "LTC_SW_CTR"
+controlled_by = ["EGKA_APP"]
+
+[[stations]]
 id = "EGKK_DEL"
 parent_id = "EGKK_N_GND"
 controlled_by = ["EGKK_DEL"]
