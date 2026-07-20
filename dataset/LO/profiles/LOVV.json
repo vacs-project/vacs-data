@@ -127,22 +127,28 @@
           "page": {
             "keys": [
               {
-                "label": ["ZUR", "M6", "380+"]
+                "label": ["ZUR", "M6", "380+"],
+                "station_id": "LSAS_CTR"
               },
               {
-                "label": ["ZUR", "M5", "360-370"]
+                "label": ["ZUR", "M5", "360-370"],
+                "station_id": "LSAS_CTR"
               },
               {
-                "label": ["ZUR", "M4", "330-350"]
+                "label": ["ZUR", "M4", "330-350"],
+                "station_id": "LSAS_CTR"
               },
               {
-                "label": ["ZUR", "M3", "290-320"]
+                "label": ["ZUR", "M3", "290-320"],
+                "station_id": "LSAS_CTR"
               },
               {
-                "label": ["ZUR", "M2", "250-280"]
+                "label": ["ZUR", "M2", "250-280"],
+                "station_id": "LSAS_CTR"
               },
               {
-                "label": ["ZUR", "M1", "250-320"]
+                "label": ["ZUR", "M1", "250-320"],
+                "station_id": "LSAS_CTR"
               },
               {
                 "label": ["FMP", "ZUR"]
@@ -151,13 +157,16 @@
                 "label": []
               },
               {
-                "label": ["ZUR", "EAST", "240-"]
+                "label": ["ZUR", "EAST", "240-"],
+                "station_id": "LSAZ_E_CTR"
               },
               {
-                "label": ["ZUR", "SOUTH", "240-"]
+                "label": ["ZUR", "SOUTH", "240-"],
+                "station_id": "LSAZ_S_CTR"
               },
               {
-                "label": ["ZUR", "Delta", "190-"]
+                "label": ["ZUR", "Delta", "190-"],
+                "station_id": "LSAZ_S_CTR"
               },
               {
                 "label": ["ZUR", "ARFA"],
@@ -199,7 +208,8 @@
                     "label": ["LANGEN", "FIC DM", "126.9"]
                   },
                   {
-                    "label": ["ZUR", "FIC"]
+                    "label": ["ZUR", "FIC"],
+                    "station_id": "LSAS_I_CTR"
                   },
                   {
                     "label": ["PAD", "FIC NW", "PLC"],
