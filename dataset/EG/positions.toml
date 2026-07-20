@@ -2092,21 +2092,21 @@ id = "LON_EN_CTR"
 prefixes = ["LON"]
 frequency = "133.940"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LON_ES_CTR"
 prefixes = ["LON"]
 frequency = "128.160"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LON_E_CTR"
 prefixes = ["LON"]
 frequency = "118.480"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LON_HW_CTR"
@@ -2270,35 +2270,35 @@ id = "LTC_ED_CTR"
 prefixes = ["LTC"]
 frequency = "124.930"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_EJ_CTR"
 prefixes = ["LTC"]
 frequency = "135.425"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_ER_CTR"
 prefixes = ["LTC"]
 frequency = "133.525"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_ES_CTR"
 prefixes = ["LTC"]
 frequency = "129.605"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_E_CTR"
 prefixes = ["LTC"]
 frequency = "121.230"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_MC_CTR"
