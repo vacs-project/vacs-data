@@ -165,9 +165,8 @@
         "rows": 5,
         "keys": [
           {
-            "label": ["UN", "APC"],
-            "color": "azure",
-            "station_id": "EGUN_APP"
+            "label": [],
+            "color": "azure"
           },
           {
             "label": ["VV", "WEST"],
