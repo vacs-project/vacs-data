@@ -139,22 +139,22 @@
           {
             "label": ["EBOS", "APC"],
             "color": "azure",
-            "station_id": "EBOS_APP"
+            "station_id": "EBOS-APP"
           },
           {
             "label": ["BRU", "W"],
             "color": "azure",
-            "station_id": "EBBU_W_CTR"
+            "station_id": "EBBU-WLS"
           },
           {
             "label": ["PAR", "TN"],
             "color": "azure",
-            "station_id": "PAR_TN_CTR"
+            "station_id": "PAR_TN"
           },
           {
             "label": ["PAR", "TB"],
             "color": "azure",
-            "station_id": "PAR_TB_CTR"
+            "station_id": "PAR_TB"
           }
         ]
       }
