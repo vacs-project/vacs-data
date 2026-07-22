@@ -1545,6 +1545,11 @@ parent_id = "EGUL_APP"
 controlled_by = ["EGUL_P_APP"]
 
 [[stations]]
+id = "EGVN_APP"
+parent_id = "EGVV_W_CTR"
+controlled_by = ["EGVN_APP", "EGVN_Z_APP", "EGVN_F_APP", "EGVN_P_APP"]
+
+[[stations]]
 id = "EGWU_GND"
 parent_id = "EGWU_TWR"
 controlled_by = ["EGWU_GND"]
