@@ -93,7 +93,7 @@
             "station_id": "THAMES_APP"
           },
           {
-            "label": ["TMS", "SVFR"],
+            "label": ["SVFR"],
             "color": "azure",
             "station_id": "EGLL-CTR-TC_SVFR"
           },
