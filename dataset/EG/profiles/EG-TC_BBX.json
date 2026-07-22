@@ -28,12 +28,12 @@
             "station_id": "LON_H_CTR"
           },
           {
-            "label": ["AC", "WEST"],
+            "label": ["AC", "W"],
             "color": "azure",
             "station_id": "LON_W_CTR"
           },
           {
-            "label": ["TC", "EAST"],
+            "label": ["TC", "E"],
             "color": "azure",
             "station_id": "LTC_E_CTR"
           },
@@ -58,47 +58,47 @@
             "station_id": "SOLENT_APP"
           },
           {
-            "label": ["TC", "APC"],
+            "label": ["EGTC", "APC"],
             "color": "azure",
             "station_id": "EGTC_A_APP"
           },
           {
-            "label": ["TC", "LL"],
+            "label": ["LL", "INT"],
             "color": "azure",
             "station_id": "EGLL_N_APP"
           },
           {
-            "label": ["TC", "KK"],
+            "label": ["KK", "INT"],
             "color": "azure",
             "station_id": "EGKK_APP"
           },
           {
-            "label": ["LF", "APC"],
+            "label": ["EGLF", "APC"],
             "color": "azure",
             "station_id": "EGLF_APP"
           },
           {
-            "label": ["KA", "APC"],
+            "label": ["EGKA", "APC"],
             "color": "azure",
             "station_id": "EGKA_APP"
           },
           {
-            "label": ["TC", "GW"],
+            "label": ["GW", "INT"],
             "color": "azure",
             "station_id": "EGGW_APP"
           },
           {
-            "label": ["TC", "TMS"],
+            "label": ["TMS", "RDR"],
             "color": "azure",
             "station_id": "THAMES_APP"
           },
           {
-            "label": ["TC", "SVFR"],
+            "label": ["TMS", "SVFR"],
             "color": "azure",
             "station_id": "EGLL-CTR-TC_SVFR"
           },
           {
-            "label": ["KB", "APC"],
+            "label": ["EGKB", "APC"],
             "color": "azure",
             "station_id": "EGKB_A_APP"
           },
@@ -108,22 +108,22 @@
             "station_id": "EGTT_I_CTR"
           },
           {
-            "label": ["SC", "APC"],
+            "label": ["EGSC", "APC"],
             "color": "azure",
             "station_id": "EGSC_APP"
           },
           {
-            "label": ["TC", "SS"],
+            "label": ["SS", "INT"],
             "color": "azure",
             "station_id": "EGSS_APP"
           },
           {
-            "label": ["MC", "APC"],
+            "label": ["EGMC", "APC"],
             "color": "azure",
             "station_id": "EGMC_APP"
           },
           {
-            "label": ["MD", "APC"],
+            "label": ["EGMD", "APC"],
             "color": "azure",
             "station_id": "EGMD_A_APP"
           },
@@ -169,27 +169,27 @@
             "color": "azure"
           },
           {
-            "label": ["VV", "WEST"],
+            "label": ["MIL", "W"],
             "color": "azure",
             "station_id": "EGVV_W_CTR"
           },
           {
-            "label": ["VN", "APC"],
+            "label": ["EGVN", "APC"],
             "color": "azure",
             "station_id": "EGVN_APP"
           },
           {
-            "label": ["UB", "APC"],
+            "label": ["EGUB", "APC"],
             "color": "azure",
             "station_id": "EGUB_APP"
           },
           {
-            "label": ["DM", "APC"],
+            "label": ["EGDM", "APC"],
             "color": "azure",
             "station_id": "EGDM_APP"
           },
           {
-            "label": ["UL", "APC"],
+            "label": ["EGUL", "APC"],
             "color": "azure",
             "station_id": "EGUL_APP"
           },
@@ -209,12 +209,12 @@
             "station_id": "EGKK_TWR"
           },
           {
-            "label": ["VP", "APC"],
+            "label": ["EGVP", "APC"],
             "color": "azure",
             "station_id": "EGVP_APP"
           },
           {
-            "label": ["UW", "APC"],
+            "label": ["EGUW", "APC"],
             "color": "azure",
             "station_id": "EGUW_APP"
           },
@@ -234,7 +234,7 @@
             "station_id": "EGKK_DEL"
           },
           {
-            "label": ["LF", "AIR"],
+            "label": ["EGLF", "AIR"],
             "color": "azure",
             "station_id": "EGLF_TWR"
           },
@@ -248,7 +248,7 @@
             "station_id": "EGLC_TWR"
           },
           {
-            "label": ["MC", "AIR"],
+            "label": ["EGMC", "AIR"],
             "color": "azure",
             "station_id": "EGMC_TWR"
           },
@@ -257,7 +257,7 @@
             "color": "azure"
           },
           {
-            "label": ["VO", "APC"],
+            "label": ["EGVO", "APC"],
             "color": "azure",
             "station_id": "EGVO_APP"
           }
