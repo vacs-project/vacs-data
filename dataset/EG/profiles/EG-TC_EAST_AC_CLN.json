@@ -28,7 +28,7 @@
             "station_id": "EGLL_N_APP"
           },
           {
-            "label": ["TMS", "SVFR"],
+            "label": ["SVFR"],
             "color": "azure",
             "station_id": "EGLL-CTR-TC_SVFR"
           },
@@ -48,7 +48,7 @@
             "station_id": "EGSS_APP"
           },
           {
-            "label": ["TC", "TMS"],
+            "label": ["TMS", "RDR"],
             "color": "azure",
             "station_id": "THAMES_APP"
           },
