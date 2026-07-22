@@ -1035,6 +1035,21 @@ parent_id = "LTC_SW_CTR"
 controlled_by = ["EGKA_APP"]
 
 [[stations]]
+id = "EGKB_GND"
+parent_id = "EGKB_TWR"
+controlled_by = ["EGKB_GND"]
+
+[[stations]]
+id = "EGKB_TWR"
+parent_id = "EGKB_A_APP"
+controlled_by = ["EGKB_TWR"]
+
+[[stations]]
+id = "EGKB_A_APP"
+parent_id = "EGLC_APP"
+controlled_by = ["EGKB_A_APP"]
+
+[[stations]]
 id = "EGKK_DEL"
 parent_id = "EGKK_N_GND"
 controlled_by = ["EGKK_DEL"]
