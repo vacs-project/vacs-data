@@ -18,22 +18,22 @@
             "station_id": "LTC_NW_CTR"
           },
           {
-            "label": ["TC", "GW"],
+            "label": ["GW", "INT"],
             "color": "azure",
             "station_id": "EGGW_APP"
           },
           {
-            "label": ["TC", "LL"],
+            "label": ["LL", "INT"],
             "color": "azure",
             "station_id": "EGLL_N_APP"
           },
           {
-            "label": ["TC", "SVFR"],
+            "label": ["TMS", "SVFR"],
             "color": "azure",
             "station_id": "EGLL-CTR-TC_SVFR"
           },
           {
-            "label": ["TC", "EAST"],
+            "label": ["TC", "E"],
             "color": "azure",
             "station_id": "LTC_E_CTR"
           },
@@ -58,7 +58,7 @@
             "station_id": "LTC_SE_CTR"
           },
           {
-            "label": ["SC", "APC"],
+            "label": ["EGSC", "APC"],
             "color": "azure",
             "station_id": "EGSC_APP"
           },
@@ -77,12 +77,12 @@
             "color": "azure"
           },
           {
-            "label": ["MC", "APC"],
+            "label": ["EGMC", "APC"],
             "color": "azure",
             "station_id": "EGMC_APP"
           },
           {
-            "label": ["SH", "APC"],
+            "label": ["EGSH", "APC"],
             "color": "azure",
             "station_id": "EGSH_APP"
           },
@@ -105,12 +105,12 @@
             "color": "azure"
           },
           {
-            "label": ["NORTH", "SEA"],
+            "label": ["NSEA"],
             "color": "azure",
             "station_id": "LON_NE_CTR"
           },
           {
-            "label": ["MUAC", "DELTA"],
+            "label": ["MAAS", "DELTA"],
             "color": "azure",
             "station_id": "EHAA_ALL"
           },
@@ -120,7 +120,7 @@
             "station_id": "EHAA_W"
           },
           {
-            "label": ["MUAC", "KOK"],
+            "label": ["MAAS", "KOK"],
             "color": "azure",
             "station_id": "EDYY-KOH"
           },
@@ -138,12 +138,11 @@
         "rows": 4,
         "keys": [
           {
-            "label": ["UN", "APC"],
-            "color": "azure",
-            "station_id": "EGUN_APP"
+            "label": [""],
+            "color": "azure"
           },
           {
-            "label": ["VV", "WEST"],
+            "label": ["MIL", "W"],
             "color": "azure",
             "station_id": "EGVV_W_CTR"
           },
@@ -158,17 +157,17 @@
             "station_id": "EGLL_DEL"
           },
           {
-            "label": ["UL", "APC"],
+            "label": ["EGUL", "APC"],
             "color": "azure",
             "station_id": "EGUL_APP"
           },
           {
-            "label": ["VV", "EAST"],
+            "label": ["MIL", "E"],
             "color": "azure",
             "station_id": "EGVV_E_CTR"
           },
           {
-            "label": ["MC", "AIR"],
+            "label": ["EGMC", "AIR"],
             "color": "azure",
             "station_id": "EGMC_TWR"
           },
@@ -177,7 +176,7 @@
             "color": "azure"
           },
           {
-            "label": ["YM", "APC"],
+            "label": ["EGYM", "APC"],
             "color": "azure",
             "station_id": "EGYM_APP"
           },
@@ -196,7 +195,7 @@
             "color": "azure"
           },
           {
-            "label": ["UW", "APC"],
+            "label": ["EGUW", "APC"],
             "color": "azure",
             "station_id": "EGUW_APP"
           },
