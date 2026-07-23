@@ -1,0 +1,408 @@
+# --- GND/DEL ---
+[[stations]]
+id = "SABE_DEL"
+controlled_by = ["SABE_DEL"]
+
+[[stations]]
+id = "SABE_GND"
+controlled_by = ["SABE_GND"]
+
+[[stations]]
+id = "SAEZ_DEL"
+controlled_by = ["SAEZ_DEL"]
+
+[[stations]]
+id = "SAEZ_GND"
+controlled_by = ["SAEZ_GND"]
+
+[[stations]]
+id = "SADF_DEL"
+controlled_by = ["SADF_DEL"]
+
+[[stations]]
+id = "SADF_GND"
+controlled_by = ["SADF_GND"]
+
+[[stations]]
+id = "SAAR_GND"
+controlled_by = ["SAAR_GND"]
+
+[[stations]]
+id = "SAAP_GND"
+controlled_by = ["SAAP_GND"]
+
+[[stations]]
+id = "SADM_GND"
+controlled_by = ["SADM_GND"]
+
+[[stations]]
+id = "SADP_GND"
+controlled_by = ["SADP_GND"]
+
+[[stations]]
+id = "SAZB_GND"
+controlled_by = ["SAZB_GND"]
+
+[[stations]]
+id = "SAZM_GND"
+controlled_by = ["SAZM_GND"]
+
+[[stations]]
+id = "SAZN_GND"
+controlled_by = ["SAZN_GND"]
+
+[[stations]]
+id = "SAZS_GND"
+controlled_by = ["SAZS_GND"]
+
+[[stations]]
+id = "SACO_DEL"
+controlled_by = ["SACO_DEL"]
+
+[[stations]]
+id = "SACO_GND"
+controlled_by = ["SACO_GND"]
+
+[[stations]]
+id = "SANT_GND"
+controlled_by = ["SANT_GND"]
+
+[[stations]]
+id = "SAME_GND"
+controlled_by = ["SAME_GND"]
+
+[[stations]]
+id = "SAWH_GND"
+controlled_by = ["SAWH_GND"]
+
+[[stations]]
+id = "SAWC_GND"
+controlled_by = ["SAWC_GND"]
+
+[[stations]]
+id = "EGYP_GND"
+controlled_by = ["EGYP_GND"]
+
+[[stations]]
+id = "SARE_GND"
+controlled_by = ["SARE_GND"]
+
+[[stations]]
+id = "SARI_GND"
+controlled_by = ["SARI_GND"]
+
+# --- TWR ---
+[[stations]]
+id = "SABE_TWR"
+controlled_by = ["SABE_TWR"]
+
+[[stations]]
+id = "SAEZ_TWR"
+controlled_by = ["SAEZ_TWR"]
+
+[[stations]]
+id = "SADF_TWR"
+controlled_by = ["SADF_TWR"]
+
+[[stations]]
+id = "SADP_TWR"
+controlled_by = ["SADP_TWR"]
+
+[[stations]]
+id = "SADM_TWR"
+controlled_by = ["SADM_TWR"]
+
+[[stations]]
+id = "SAAR_TWR"
+controlled_by = ["SAAR_TWR"]
+
+[[stations]]
+id = "SAAV_TWR"
+controlled_by = ["SAAV_TWR"]
+
+[[stations]]
+id = "SAAI_TWR"
+controlled_by = ["SAAI_TWR"]
+
+[[stations]]
+id = "SAZB_TWR"
+controlled_by = ["SAZB_TWR"]
+
+[[stations]]
+id = "SAZV_TWR"
+controlled_by = ["SAZV_TWR"]
+
+[[stations]]
+id = "SADJ_TWR"
+controlled_by = ["SADJ_TWR"]
+
+[[stations]]
+id = "SACO_TWR"
+controlled_by = ["SACO_TWR"]
+
+[[stations]]
+id = "SANT_TWR"
+controlled_by = ["SANT_TWR"]
+
+[[stations]]
+id = "SASA_TWR"
+controlled_by = ["SASA_TWR"]
+
+[[stations]]
+id = "SASJ_TWR"
+controlled_by = ["SASJ_TWR"]
+
+[[stations]]
+id = "SANR_TWR"
+controlled_by = ["SANR_TWR"]
+
+[[stations]]
+id = "SACE_TWR"
+controlled_by = ["SACE_TWR"]
+
+[[stations]]
+id = "SAME_TWR"
+controlled_by = ["SAME_TWR"]
+
+[[stations]]
+id = "SAVC_TWR"
+controlled_by = ["SAVC_TWR"]
+
+[[stations]]
+id = "SAWG_TWR"
+controlled_by = ["SAWG_TWR"]
+
+[[stations]]
+id = "SAVY_TWR"
+controlled_by = ["SAVY_TWR"]
+
+[[stations]]
+id = "EGYP_TWR"
+controlled_by = ["EGYP_TWR"]
+
+[[stations]]
+id = "SARE_TWR"
+controlled_by = ["SARE_TWR"]
+
+[[stations]]
+id = "SARI_TWR"
+controlled_by = ["SARI_TWR"]
+
+[[stations]]
+id = "SARC_TWR"
+controlled_by = ["SARC_TWR"]
+
+[[stations]]
+id = "SARF_TWR"
+controlled_by = ["SARF_TWR"]
+
+[[stations]]
+id = "SATG_TWR"
+controlled_by = ["SATG_TWR"]
+
+# --- APP.1 ---
+[[stations]]
+id = "SAAR_APP"
+controlled_by = ["SAAR_APP"]
+
+[[stations]]
+id = "SAZM_APP"
+controlled_by = ["SAZM_APP"]
+
+[[stations]]
+id = "SAZN_APP"
+controlled_by = ["SAZN_APP"]
+
+[[stations]]
+id = "SAZS_APP"
+controlled_by = ["SAZS_APP"]
+
+[[stations]]
+id = "SAZB_APP"
+controlled_by = ["SAZB_APP"]
+
+[[stations]]
+id = "SAZY_APP"
+controlled_by = ["SAZY_APP"]
+
+[[stations]]
+id = "SAZT_APP"
+controlled_by = ["SAZT_APP"]
+
+[[stations]]
+id = "SAAP_APP"
+controlled_by = ["SAAP_APP"]
+
+[[stations]]
+id = "SAAC_APP"
+controlled_by = ["SAAC_APP"]
+
+[[stations]]
+id = "SAZR_APP"
+controlled_by = ["SAZR_APP"]
+
+[[stations]]
+id = "SAAG_APP"
+controlled_by = ["SAAG_APP"]
+
+[[stations]]
+id = "SACO_APP"
+controlled_by = ["SACO_APP"]
+
+[[stations]]
+id = "SANT_APP"
+controlled_by = ["SANT_APP"]
+
+[[stations]]
+id = "SASA_APP"
+controlled_by = ["SASA_APP"]
+
+[[stations]]
+id = "SANC_APP"
+controlled_by = ["SANC_APP"]
+
+[[stations]]
+id = "SANE_APP"
+controlled_by = ["SANE_APP"]
+
+[[stations]]
+id = "SANL_APP"
+controlled_by = ["SANL_APP"]
+
+[[stations]]
+id = "SAOC_APP"
+controlled_by = ["SAOC_APP"]
+
+[[stations]]
+id = "SAOS_APP"
+controlled_by = ["SAOS_APP"]
+
+[[stations]]
+id = "SAME_APP"
+controlled_by = ["SAME_APP"]
+
+[[stations]]
+id = "SANU_APP"
+controlled_by = ["SANU_APP"]
+
+[[stations]]
+id = "SAOU_APP"
+controlled_by = ["SAOU_APP"]
+
+[[stations]]
+id = "SAOR_APP"
+controlled_by = ["SAOR_APP"]
+
+[[stations]]
+id = "SAMM_APP"
+controlled_by = ["SAMM_APP"]
+
+[[stations]]
+id = "SAMR_APP"
+controlled_by = ["SAMR_APP"]
+
+# --- APP.2 ---
+[[stations]]
+id = "SAVC_APP"
+controlled_by = ["SAVC_APP"]
+
+[[stations]]
+id = "SAWE_APP"
+controlled_by = ["SAWE_APP"]
+
+[[stations]]
+id = "SAWH_APP"
+controlled_by = ["SAWH_APP"]
+
+[[stations]]
+id = "SAVE_APP"
+controlled_by = ["SAVE_APP"]
+
+[[stations]]
+id = "SAVT_APP"
+controlled_by = ["SAVT_APP"]
+
+[[stations]]
+id = "SAVV_APP"
+controlled_by = ["SAVV_APP"]
+
+[[stations]]
+id = "SAWB_APP"
+controlled_by = ["SAWB_APP"]
+
+[[stations]]
+id = "SAWC_APP"
+controlled_by = ["SAWC_APP"]
+
+[[stations]]
+id = "EGYP_APP"
+controlled_by = ["EGYP_APP"]
+
+[[stations]]
+id = "SARE_APP"
+controlled_by = ["SARE_APP"]
+
+[[stations]]
+id = "SARP_APP"
+controlled_by = ["SARP_APP"]
+
+[[stations]]
+id = "SATR_APP"
+controlled_by = ["SATR_APP"]
+
+[[stations]]
+id = "SARL_APP"
+controlled_by = ["SARL_APP"]
+
+# --- CTR ---
+[[stations]]
+id = "BAIRES_CTR"
+controlled_by = ["BAIRES_CTR"]
+
+[[stations]]
+id = "SAEF_CTR"
+controlled_by = ["SAEF_CTR"]
+
+[[stations]]
+id = "SACF_CTR"
+controlled_by = ["SACF_CTR"]
+
+[[stations]]
+id = "SAMF_CTR"
+controlled_by = ["SAMF_CTR"]
+
+[[stations]]
+id = "SAVF_CTR"
+controlled_by = ["SAVF_CTR"]
+
+[[stations]]
+id = "SARR_CTR"
+controlled_by = ["SARR_CTR"]
+
+[[stations]]
+id = "ISLAND_CTR"
+controlled_by = ["ISLAND_CTR"]
+
+[[stations]]
+id = "SAEF_N_CTR"
+controlled_by = ["SAEF_N_CTR"]
+
+[[stations]]
+id = "SACF_N_CTR"
+controlled_by = ["SACF_N_CTR"]
+
+[[stations]]
+id = "SAVF_N_CTR"
+controlled_by = ["SAVF_N_CTR"]
+
+[[stations]]
+id = "SAEF_S_CTR"
+controlled_by = ["SAEF_S_CTR"]
+
+[[stations]]
+id = "SACF_S_CTR"
+controlled_by = ["SACF_S_CTR"]
+
+[[stations]]
+id = "SAVF_S_CTR"
+controlled_by = ["SAVF_S_CTR"]
