@@ -1129,6 +1129,11 @@ id = "EGLD_I_TWR"
 controlled_by = ["EGLD_I_TWR"]
 
 [[stations]]
+id = "EGLF_TWR"
+parent_id = "LTC_SW_CTR"
+controlled_by = ["EGLF_APP"]
+
+[[stations]]
 id = "EGLF_APP"
 parent_id = "LTC_SW_CTR"
 controlled_by = ["EGLF_APP", "EGLF_F_APP", "EGLF_L_APP"]
@@ -1593,11 +1598,6 @@ controlled_by = ["EGUB_APP", "EGUB_P_APP"]
 id = "EGUB_P_APP"
 parent_id = "EGUB_APP"
 controlled_by = ["EGUB_P_APP"]
-
-[[stations]]
-id = "EGUL_APP"
-parent_id = "EGVV_E_CTR"
-controlled_by = ["EGUL_APP", "EGUL_P_APP"]
 
 [[stations]]
 id = "EGUL_APP"
