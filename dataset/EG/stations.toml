@@ -1130,8 +1130,8 @@ controlled_by = ["EGLD_I_TWR"]
 
 [[stations]]
 id = "EGLF_TWR"
-parent_id = "LTC_SW_CTR"
-controlled_by = ["EGLF_APP"]
+parent_id = "EGLF_APP"
+controlled_by = ["EGLF_TWR"]
 
 [[stations]]
 id = "EGLF_APP"
