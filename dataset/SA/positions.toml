@@ -3,543 +3,634 @@ id = "SAEF_FSS"
 prefixes = ["SAEF"]
 frequency = "133.950"
 facility_type = "FSS"
+profile_id = "SA"
 
 [[positions]]
 id = "BAIRES_CTR"
 prefixes = ["BAIRES"]
 frequency = "125.900"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SACF_CTR"
 prefixes = ["SACF"]
 frequency = "128.800"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SACF_N_CTR"
 prefixes = ["SACFN"]
 frequency = "125.100"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SACF_S_CTR"
 prefixes = ["SACFS"]
 frequency = "126.500"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAEF_CTR"
 prefixes = ["SAEF"]
 frequency = "134.500"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAEF_N_CTR"
 prefixes = ["SAEFN"]
 frequency = "135.500"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAEF_S_CTR"
 prefixes = ["SAEFS"]
 frequency = "125.200"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAMF_CTR"
 prefixes = ["SAMF"]
 frequency = "126.600"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SARR_CTR"
 prefixes = ["SARR"]
 frequency = "124.300"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAVF_CTR"
 prefixes = ["SAVF"]
 frequency = "126.750"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAVF_N_CTR"
 prefixes = ["SAVFN"]
 frequency = "125.500"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAVF_S_CTR"
 prefixes = ["SAVFS"]
 frequency = "125.700"
 facility_type = "CTR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAAC_APP"
 prefixes = ["SAAC"]
 frequency = "118.300"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAAG_APP"
 prefixes = ["SAAG"]
 frequency = "118.400"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAAP_APP"
 prefixes = ["SAAP"]
 frequency = "119.600"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAAR_APP"
 prefixes = ["SAAR"]
 frequency = "118.700"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SACO_APP"
 prefixes = ["SACO"]
 frequency = "119.100"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAME_APP"
 prefixes = ["SAME"]
 frequency = "124.200"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAMM_APP"
 prefixes = ["SAMM"]
 frequency = "118.250"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAMR_APP"
 prefixes = ["SAMR"]
 frequency = "118.100"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SANC_APP"
 prefixes = ["SANC"]
 frequency = "118.150"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SANE_APP"
 prefixes = ["SANE"]
 frequency = "118.700"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SANL_APP"
 prefixes = ["SANL"]
 frequency = "118.450"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SANT_APP"
 prefixes = ["SANT"]
 frequency = "123.850"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SANU_APP"
 prefixes = ["SANU"]
 frequency = "119.350"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAOC_APP"
 prefixes = ["SAOC"]
 frequency = "118.750"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAOR_APP"
 prefixes = ["SAOR"]
 frequency = "119.300"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAOS_APP"
 prefixes = ["SAOS"]
 frequency = "119.950"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAOU_APP"
 prefixes = ["SAOU"]
 frequency = "118.400"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SARE_APP"
 prefixes = ["SARE"]
 frequency = "119.400"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SARL_APP"
 prefixes = ["SARL"]
 frequency = "120.300"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SARP_APP"
 prefixes = ["SARP"]
 frequency = "120.100"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SASA_APP"
 prefixes = ["SASA"]
 frequency = "124.600"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SATR_APP"
 prefixes = ["SATR"]
 frequency = "119.000"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAVC_APP"
 prefixes = ["SAVC"]
 frequency = "124.300"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAVE_APP"
 prefixes = ["SAVE"]
 frequency = "118.800"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAVT_APP"
 prefixes = ["SAVT"]
 frequency = "118.700"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAVV_APP"
 prefixes = ["SAVV"]
 frequency = "118.300"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAWB_APP"
 prefixes = ["SAWB"]
 frequency = "118.100"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAWC_APP"
 prefixes = ["SAWC"]
 frequency = "119.950"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAWE_APP"
 prefixes = ["SAWE"]
 frequency = "118.300"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAWG_APP"
 prefixes = ["SAWG"]
 frequency = "124.700"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAWH_APP"
 prefixes = ["SAWH"]
 frequency = "118.100"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZB_APP"
 prefixes = ["SAZB"]
 frequency = "124.800"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZM_APP"
 prefixes = ["SAZM"]
 frequency = "118.750"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZN_APP"
 prefixes = ["SAZN"]
 frequency = "119.800"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZR_APP"
 prefixes = ["SAZR"]
 frequency = "118.300"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZS_APP"
 prefixes = ["SAZS"]
 frequency = "119.100"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZT_APP"
 prefixes = ["SAZT"]
 frequency = "120.900"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZY_APP"
 prefixes = ["SAZY"]
 frequency = "119.600"
 facility_type = "APP"
+profile_id = "SA"
 
 [[positions]]
 id = "SAAI_TWR"
 prefixes = ["SAAI"]
 frequency = "130.800"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAAV_TWR"
 prefixes = ["SAAV"]
 frequency = "118.950"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SABE_TWR"
 prefixes = ["SABE"]
 frequency = "118.850"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SACE_TWR"
 prefixes = ["SACE"]
 frequency = "120.600"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SACO_TWR"
 prefixes = ["SACO"]
 frequency = "118.300"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SADF_TWR"
 prefixes = ["SADF"]
 frequency = "119.000"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SADJ_TWR"
 prefixes = ["SADJ"]
 frequency = "119.700"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SADM_TWR"
 prefixes = ["SADM"]
 frequency = "118.500"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SADP_TWR"
 prefixes = ["SADP"]
 frequency = "120.300"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAEZ_TWR"
 prefixes = ["SAEZ"]
 frequency = "118.600"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAME_TWR"
 prefixes = ["SAME"]
 frequency = "119.900"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SANR_TWR"
 prefixes = ["SANR"]
 frequency = "119.850"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SANT_TWR"
 prefixes = ["SANT"]
 frequency = "119.500"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SARC_TWR"
 prefixes = ["SARC"]
 frequency = "118.300"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SARE_TWR"
 prefixes = ["SARE"]
 frequency = "118.700"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SARF_TWR"
 prefixes = ["SARF"]
 frequency = "119.100"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SARI_TWR"
 prefixes = ["SARI"]
 frequency = "120.700"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SASA_TWR"
 prefixes = ["SASA"]
 frequency = "128.850"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SASJ_TWR"
 prefixes = ["SASJ"]
 frequency = "118.700"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SATG_TWR"
 prefixes = ["SATG"]
 frequency = "118.100"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAVC_TWR"
 prefixes = ["SAVC"]
 frequency = "119.900"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAVY_TWR"
 prefixes = ["SAVY"]
 frequency = "119.500"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAWG_TWR"
 prefixes = ["SAWG"]
 frequency = "119.400"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZB_TWR"
 prefixes = ["SAZB"]
 frequency = "119.150"
 facility_type = "TWR"
+profile_id = "SA"
 
 [[positions]]
 id = "SAAR_GND"
 prefixes = ["SAAR"]
 frequency = "121.850"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SABE_GND"
 prefixes = ["SABE"]
 frequency = "121.900"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SACO_GND"
 prefixes = ["SACO"]
 frequency = "121.750"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SADF_GND"
 prefixes = ["SADF"]
 frequency = "121.850"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SADM_GND"
 prefixes = ["SADM"]
 frequency = "121.800"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SADP_GND"
 prefixes = ["SADP"]
 frequency = "121.950"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SAEZ_GND"
 prefixes = ["SAEZ"]
 frequency = "121.750"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SAME_GND"
 prefixes = ["SAME"]
 frequency = "121.950"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SANT_GND"
 prefixes = ["SANT"]
 frequency = "121.750"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SARE_GND"
 prefixes = ["SARE"]
 frequency = "121.950"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZM_GND"
 prefixes = ["SAZM"]
 frequency = "121.700"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZN_GND"
 prefixes = ["SAZN"]
 frequency = "121.800"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SAZS_GND"
 prefixes = ["SAZS"]
 frequency = "121.800"
 facility_type = "GND"
+profile_id = "SA"
 
 [[positions]]
 id = "SABE_DEL"
 prefixes = ["SABE"]
 frequency = "129.300"
 facility_type = "DEL"
+profile_id = "SA"
 
 [[positions]]
 id = "SADF_DEL"
 prefixes = ["SADF"]
 frequency = "129.500"
 facility_type = "DEL"
+profile_id = "SA"
 
 [[positions]]
 id = "SAEZ_DEL"
 prefixes = ["SAEZ"]
 frequency = "127.100"
 facility_type = "DEL"
+profile_id = "SA"

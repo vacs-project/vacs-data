@@ -420,30 +420,24 @@ controlled_by = ["SARR_CTR"]
 
 [[stations]]
 id = "SAEF_N_CTR"
-parent_id = "SAEF_CTR"
 controlled_by = ["SAEF_N_CTR"]
 
 [[stations]]
 id = "SACF_N_CTR"
-parent_id = "SACF_CTR"
 controlled_by = ["SACF_N_CTR"]
 
 [[stations]]
 id = "SAVF_N_CTR"
-parent_id = "SAVF_CTR"
 controlled_by = ["SAVF_N_CTR"]
 
 [[stations]]
 id = "SAEF_S_CTR"
-parent_id = "SAEF_CTR"
 controlled_by = ["SAEF_S_CTR"]
 
 [[stations]]
 id = "SACF_S_CTR"
-parent_id = "SACF_CTR"
 controlled_by = ["SACF_S_CTR"]
 
 [[stations]]
 id = "SAVF_S_CTR"
-parent_id = "SAVF_CTR"
 controlled_by = ["SAVF_S_CTR"]
