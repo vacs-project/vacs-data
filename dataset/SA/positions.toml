@@ -97,7 +97,7 @@ facility_type = "APP"
 [[positions]]
 id = "SAAR_APP"
 prefixes = ["SAAR"]
-frequency = "125.400"
+frequency = "118.700"
 facility_type = "APP"
 
 [[positions]]
@@ -311,12 +311,6 @@ frequency = "130.800"
 facility_type = "TWR"
 
 [[positions]]
-id = "SAAR_TWR"
-prefixes = ["SAAR"]
-frequency = "118.700"
-facility_type = "TWR"
-
-[[positions]]
 id = "SAAV_TWR"
 prefixes = ["SAAV"]
 frequency = "118.950"
@@ -452,12 +446,6 @@ facility_type = "TWR"
 id = "SAZB_TWR"
 prefixes = ["SAZB"]
 frequency = "119.150"
-facility_type = "TWR"
-
-[[positions]]
-id = "SAZV_TWR"
-prefixes = ["SAZV"]
-frequency = "119.000"
 facility_type = "TWR"
 
 [[positions]]

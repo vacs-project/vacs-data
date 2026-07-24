@@ -179,10 +179,6 @@
             "station_id": "SADM_TWR"
           },
           {
-            "label": ["SAAR", "TWR"],
-            "station_id": "SAAR_TWR"
-          },
-          {
             "label": ["SAAV", "TWR"],
             "station_id": "SAAV_TWR"
           },
@@ -193,10 +189,6 @@
           {
             "label": ["SAZB", "TWR"],
             "station_id": "SAZB_TWR"
-          },
-          {
-            "label": ["SAZV", "TWR"],
-            "station_id": "SAZV_TWR"
           },
           {
             "label": ["SADJ", "TWR"],
