@@ -1543,6 +1543,21 @@ parent_id = "EGSS_APP"
 controlled_by = ["EGSC_A_APP"]
 
 [[stations]]
+id = "EGSH_TWR"
+parent_id = "EGSH_APP"
+controlled_by = ["EGSH_TWR"]
+
+[[stations]]
+id = "EGSH_APP"
+parent_id = "LON_NE_CTR"
+controlled_by = ["EGSH_APP", "EGSH_F_APP"]
+
+[[stations]]
+id = "EGSH_F_APP"
+parent_id = "EGSH_APP"
+controlled_by = ["EGSH_F_APP"]
+
+[[stations]]
 id = "EGSS_DEL"
 parent_id = "EGSS_GND"
 controlled_by = ["EGSS_DEL"]
