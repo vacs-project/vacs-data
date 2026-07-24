@@ -28,20 +28,12 @@ id = "SAAR_GND"
 controlled_by = ["SAAR_GND"]
 
 [[stations]]
-id = "SAAP_GND"
-controlled_by = ["SAAP_GND"]
-
-[[stations]]
 id = "SADM_GND"
 controlled_by = ["SADM_GND"]
 
 [[stations]]
 id = "SADP_GND"
 controlled_by = ["SADP_GND"]
-
-[[stations]]
-id = "SAZB_GND"
-controlled_by = ["SAZB_GND"]
 
 [[stations]]
 id = "SAZM_GND"
@@ -56,10 +48,6 @@ id = "SAZS_GND"
 controlled_by = ["SAZS_GND"]
 
 [[stations]]
-id = "SACO_DEL"
-controlled_by = ["SACO_DEL"]
-
-[[stations]]
 id = "SACO_GND"
 controlled_by = ["SACO_GND"]
 
@@ -72,24 +60,8 @@ id = "SAME_GND"
 controlled_by = ["SAME_GND"]
 
 [[stations]]
-id = "SAWH_GND"
-controlled_by = ["SAWH_GND"]
-
-[[stations]]
-id = "SAWC_GND"
-controlled_by = ["SAWC_GND"]
-
-[[stations]]
-id = "EGYP_GND"
-controlled_by = ["EGYP_GND"]
-
-[[stations]]
 id = "SARE_GND"
 controlled_by = ["SARE_GND"]
-
-[[stations]]
-id = "SARI_GND"
-controlled_by = ["SARI_GND"]
 
 # --- TWR ---
 [[stations]]
@@ -175,10 +147,6 @@ controlled_by = ["SAWG_TWR"]
 [[stations]]
 id = "SAVY_TWR"
 controlled_by = ["SAVY_TWR"]
-
-[[stations]]
-id = "EGYP_TWR"
-controlled_by = ["EGYP_TWR"]
 
 [[stations]]
 id = "SARE_TWR"
@@ -335,10 +303,6 @@ id = "SAWC_APP"
 controlled_by = ["SAWC_APP"]
 
 [[stations]]
-id = "EGYP_APP"
-controlled_by = ["EGYP_APP"]
-
-[[stations]]
 id = "SARE_APP"
 controlled_by = ["SARE_APP"]
 
@@ -378,10 +342,6 @@ controlled_by = ["SAVF_CTR"]
 [[stations]]
 id = "SARR_CTR"
 controlled_by = ["SARR_CTR"]
-
-[[stations]]
-id = "ISLAND_CTR"
-controlled_by = ["ISLAND_CTR"]
 
 [[stations]]
 id = "SAEF_N_CTR"

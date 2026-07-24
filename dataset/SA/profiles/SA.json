@@ -36,20 +36,12 @@
             "station_id": "SAAR_GND"
           },
           {
-            "label": ["SAAP", "GND"],
-            "station_id": "SAAP_GND"
-          },
-          {
             "label": ["SADM", "GND"],
             "station_id": "SADM_GND"
           },
           {
             "label": ["SADP", "GND"],
             "station_id": "SADP_GND"
-          },
-          {
-            "label": ["SAZB", "GND"],
-            "station_id": "SAZB_GND"
           },
           {
             "label": ["SAZM", "GND"],
@@ -94,10 +86,6 @@
             "label": []
           },
           {
-            "label": ["SACO", "DEL"],
-            "station_id": "SACO_DEL"
-          },
-          {
             "label": ["SACO", "GND"],
             "station_id": "SACO_GND"
           },
@@ -134,14 +122,6 @@
             "label": []
           },
           {
-            "label": ["SAWH", "GND"],
-            "station_id": "SAWH_GND"
-          },
-          {
-            "label": ["SAWC", "GND"],
-            "station_id": "SAWC_GND"
-          },
-          {
             "label": ["EGYP", "GND"],
             "station_id": "EGYP_GND"
           },
@@ -151,10 +131,6 @@
           {
             "label": ["SARE", "GND"],
             "station_id": "SARE_GND"
-          },
-          {
-            "label": ["SARI", "GND"],
-            "station_id": "SARI_GND"
           },
           {
             "label": []
