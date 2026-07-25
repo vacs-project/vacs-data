@@ -935,6 +935,11 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "EGBB_TWR"
+parent_id = "EGBB_APP"
+controlled_by = ["EGBB_TWR"]
+
+[[stations]]
 id = "EGBB_APP"
 parent_id = "LTC_MC_CTR"
 controlled_by = ["EGBB_APP", "EGBB_F_APP"]
@@ -1328,6 +1333,11 @@ parent_id = "EGNV_APP"
 controlled_by = ["EGNV_F_APP"]
 
 [[stations]]
+id = "EGNX_TWR"
+parent_id = "EGNX_APP"
+controlled_by = ["EGNX_TWR"]
+
+[[stations]]
 id = "EGNX_APP"
 parent_id = "LTC_MW_CTR"
 controlled_by = ["EGNX_APP", "EGNX_F_APP"]
@@ -1580,6 +1590,16 @@ id = "EGTF_R_TWR"
 controlled_by = ["EGTF_R_TWR"]
 
 [[stations]]
+id = "EGTK_TWR"
+parent_id = "EGTK_APP"
+controlled_by = ["EGTK_TWR"]
+
+[[stations]]
+id = "EGTK_APP"
+parent_id = "LTC_M_CTR"
+controlled_by = ["EGTK_APP"]
+
+[[stations]]
 id = "EGUB_GND"
 parent_id = "EGUB_TWR"
 controlled_by = ["EGUB_GND"]
@@ -1714,6 +1734,26 @@ controlled_by = ["EGWU_F_APP"]
 id = "EGWU_P_APP"
 parent_id = "EGWU_F_APP"
 controlled_by = ["EGWU_P_APP"]
+
+[[stations]]
+id = "EGXT_GND"
+parent_id = "EGXT_TWR"
+controlled_by = ["EGXT_GND"]
+
+[[stations]]
+id = "EGXT_TWR"
+parent_id = "EGXT_APP"
+controlled_by = ["EGXT_TWR"]
+
+[[stations]]
+id = "EGXT_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGXT_APP", "EGXT_P_APP"]
+
+[[stations]]
+id = "EGXT_P_APP"
+parent_id = "EGXT_APP"
+controlled_by = ["EGXT_P_APP"]
 
 [[stations]]
 id = "EGYP_APP"
