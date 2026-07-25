@@ -181,7 +181,7 @@
     },
     {
       "id": "VHHK_E_CTR",
-      "parent_id": "VHHK_W_CTR",
+      "parent_id": "VHHK_S_CTR",
       "controlled_by": ["VHHK_E_CTR"]
     },
     {
