@@ -161,6 +161,9 @@
             "label": []
           },
           {
+            "label": []
+          },
+          {
             "label": ["SADF", "TWR"],
             "color": "lagoon",
             "station_id": "SADF_TWR"
@@ -174,9 +177,6 @@
             "label": ["SADP", "TWR"],
             "color": "lagoon",
             "station_id": "SADP_TWR"
-          },
-          {
-            "label": []
           },
           {
             "label": ["SADM", "TWR"],
@@ -203,12 +203,15 @@
             "label": []
           },
           {
-            "label": ["SAZY", "APP"],
-            "color": "steel",
-            "station_id": "SAZY_APP"
+            "label": []
           },
           {
             "label": []
+          },
+          {
+            "label": ["SAZY", "APP"],
+            "color": "steel",
+            "station_id": "SAZY_APP"
           },
           {
             "label": []
