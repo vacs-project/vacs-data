@@ -172,15 +172,15 @@
             "station_id": "VHHX_TWR"
           },
           {
-            "label": ["VMMC_DEL"],
+            "label": ["VMMC-DEL"],
             "station_id": "VMMC_DEL"
           },
           {
-            "label": ["VMMC_GND"],
+            "label": ["VMMC-GND"],
             "station_id": "VMMC_GND"
           },
           {
-            "label": ["VMMC_TWR"],
+            "label": ["VMMC-TWR"],
             "station_id": "VMMC_TWR"
           }
         ]
@@ -192,39 +192,39 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["PEW"],
+            "label": ["RCTP-W"],
             "station_id": "AWR"
           },
           {
-            "label": ["PEL"],
+            "label": ["RCTP-L"],
             "station_id": "ALR"
           },
           {
-            "label": ["PEE"],
+            "label": ["RCTP-E"],
             "station_id": "AER"
           },
           {
-            "label": ["PEN"],
+            "label": ["RCTP-N"],
             "station_id": "ANR"
           },
           {
-            "label": ["PES"],
+            "label": ["RCTP-S"],
             "station_id": "ASR"
           },
           {
-            "label": ["SEA"],
+            "label": ["ASEA"],
             "station_id": "ASEA_FSS"
           },
           {
-            "label": ["MNW"],
+            "label": ["RPHI-NW"],
             "station_id": "MNL_NW_CTR"
           },
           {
-            "label": ["MNN"],
+            "label": ["RPHI-N"],
             "station_id": "MNL_N_CTR"
           },
           {
-            "label": ["MNL"],
+            "label": ["RPHI"],
             "station_id": "MNL_CTR"
           },
           {
@@ -232,60 +232,56 @@
             "station_id": "ZBBB_FSS"
           },
           {
-            "label": ["SSS"],
+            "label": ["ZSSS-S"],
             "station_id": "ZSSS_S_CTR"
           },
           {
-            "label": ["SHS"],
+            "label": ["ZSSS"],
             "station_id": "ZSSS_CTR"
           },
           {
-            "label": ["SHA"],
+            "label": ["ZSHA"],
             "station_id": "ZSHA_CTR"
           },
           {
-            "label": ["SAM"],
+            "label": ["ZSAM"],
             "station_id": "ZSAM_CTR"
           },
           {
-            "label": ["JSA"],
+            "label": ["ZJSA"],
             "station_id": "ZJSA_CTR"
           },
           {
-            "label": ["SYL"],
+            "label": ["ZJSY-L"],
             "station_id": "ZJSY_L_CTR"
           },
           {
-            "label": ["SYO"],
+            "label": ["ZJSY-O"],
             "station_id": "ZJSY_O_CTR"
           },
           {
-            "label": ["GZU"],
+            "label": ["ZGZU"],
             "station_id": "ZGZU_CTR"
           },
           {
-            "label": ["GNN"],
+            "label": ["ZGNN"],
             "station_id": "ZGNN_CTR"
           },
           {
-            "label": ["GZJ"],
+            "label": ["ZGZJ"],
             "station_id": "ZGZJ_APP"
           },
           {
-            "label": ["SWA"],
+            "label": ["ZGOW"],
             "station_id": "ZGOW_APP"
           },
           {
-            "label": ["ZUH"],
+            "label": ["ZGJD"],
             "station_id": "ZGJD_APP"
           },
           {
-            "label": ["GGG"],
+            "label": ["ZGGG"],
             "station_id": "ZGGG_CTR"
-          },
-          {
-            "label": ["GAP"],
-            "station_id": "ZGGG_APP"
           }
         ]
       }
