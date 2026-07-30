@@ -153,11 +153,6 @@
             "station_id": "SADP_GND"
           },
           {
-            "label": ["SAZY", "GND"],
-            "color": "lilac",
-            "station_id": "SAZY_GND"
-          },
-          {
             "label": ["SADM", "GND"],
             "color": "lilac",
             "station_id": "SADM_GND"
