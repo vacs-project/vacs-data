@@ -395,14 +395,14 @@ id = "SADF_TWR"
 prefixes = ["SADF"]
 frequency = "119.000"
 facility_type = "TWR"
-profile_id = "SAEZ"
+profile_id = "SAEF"
 
 [[positions]]
 id = "SADJ_TWR"
 prefixes = ["SADJ"]
 frequency = "119.700"
 facility_type = "TWR"
-profile_id = "SAEZ"
+profile_id = "SAEF"
 
 [[positions]]
 id = "SADM_TWR"
@@ -594,6 +594,13 @@ facility_type = "GND"
 profile_id = "SARR"
 
 [[positions]]
+id = "SAZB_GND"
+prefixes = ["SAZB"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SAEF"
+
+[[positions]]
 id = "SAZM_GND"
 prefixes = ["SAZM"]
 frequency = "121.700"
@@ -634,3 +641,10 @@ prefixes = ["SAEZ"]
 frequency = "127.100"
 facility_type = "DEL"
 profile_id = "SAEF"
+
+[[positions]]
+id = "SACO_DEL"
+prefixes = ["SACO"]
+frequency = "129.300"
+facility_type = "DEL"
+profile_id = "SACF"
