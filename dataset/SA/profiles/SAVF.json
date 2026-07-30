@@ -61,7 +61,7 @@
           {
             "label": ["SAWG", "APP"],
             "color": "steel",
-            "station_id":"SAWG_APP"
+            "station_id": "SAWG_APP"
           },
           {
             "label": []
