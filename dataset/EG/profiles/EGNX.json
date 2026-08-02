@@ -7,21 +7,7 @@
       "page": {
         "rows": 5,
         "keys": [
-          {
-            "label": [""]
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": [""]
-          },
-          {
-            "label": [""]
-          },
+
           {
             "label": ["GMC"],
             "station_id": "EGNX_GND"
