@@ -55,10 +55,10 @@ facility_type = "CTR"
 profile_id = "EKDK-ACC"
 
 [[positions]]
-id = "EKDK_F_FFS"
+id = "EKDK_F_FSS"
 prefixes = ["EKDK"]
 frequency = "129.475"
-facility_type = "FFS"
+facility_type = "FSS"
 profile_id = "EKDK-ACC"
 
 [[positions]]
