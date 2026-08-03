@@ -58,15 +58,11 @@ controlled_by = [
 
 [[stations]]
 id = "EKBIARR"
-controlled_by = [
-  "EKBI_F_APP",
-]
+controlled_by = ["EKBI_F_APP"]
 
 [[stations]]
 id = "EKBISUP"
-controlled_by = [
-  "EKBI_M_APP",
-]
+controlled_by = ["EKBI_M_APP"]
 
 [[stations]]
 id = "EKBI_TWR"
@@ -82,9 +78,7 @@ controlled_by = [
 
 [[stations]]
 id = "EKBI_DEL"
-controlled_by = [
-  "EKBI_DEL",
-]
+controlled_by = ["EKBI_DEL"]
 
 [[stations]]
 id = "EKCHFIN"
@@ -200,10 +194,7 @@ controlled_by = [
 
 [[stations]]
 id = "EKCH_GE_TWR"
-controlled_by = [
-  "EKCH_GW_TWR",
-  "EKCH_A_TWR",
-]
+controlled_by = ["EKCH_GW_TWR", "EKCH_A_TWR"]
 
 [[stations]]
 id = "EKCH_D_TWR"
@@ -496,7 +487,6 @@ controlled_by = [
 ]
 
 [[stations]]
-id = "EKRKALL"
 controlled_by = [
   "EKRK_APP",
   "EKCH_R_DEP",
@@ -510,7 +500,7 @@ controlled_by = [
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
   "EKDK_CTR",
-]
+]id = "EKRKALL"
 
 [[stations]]
 id = "EKRKAPP"
@@ -590,9 +580,7 @@ controlled_by = [
 
 [[stations]]
 id = "EKSPARR"
-controlled_by = [
-  "EKSP_F_APP",
-]
+controlled_by = ["EKSP_F_APP"]
 
 [[stations]]
 id = "EKSPTWR"
