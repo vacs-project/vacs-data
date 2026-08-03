@@ -149,7 +149,6 @@
           {
             "label": ["COBRI", ""],
             "color": "taupe",
-            "station_id": "EKCH_BRI"
           },
           {
             "label": ["APP", "W"],
@@ -184,7 +183,6 @@
           {
             "label": ["DE-ICE", "A"],
             "color": "mint",
-            "station_id": "EKCH_IA"
           },
           {
             "label": ["DEP", "K"],
@@ -202,7 +200,6 @@
           {
             "label": ["DE-ICE", "B"],
             "color": "mint",
-            "station_id": "EKCH_IB"
           },
           {
             "label": ["APP", "P"],
@@ -222,7 +219,6 @@
           {
             "label": ["DE-ICE", "V"],
             "color": "mint",
-            "station_id": "EKCH_IV"
           },
           {
             "label": ["APPCO"],
