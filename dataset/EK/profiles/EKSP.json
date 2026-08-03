@@ -1,0 +1,157 @@
+{
+  "id": "EKSP",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["MAIN"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ACC", "N"],
+            "color": "lilac",
+            "station_id": "EKDKN"
+          },
+          {
+            "label": ["FLOW", "FMP"],
+            "color": "lilac",
+            "station_id": "EKDKFMP"
+          },
+          {
+            "label": ["EKEB", "AFIS"],
+            "color": "azure",
+            "station_id": "EKEBTIZ"
+          },
+          {
+            "label": ["SP", "ARR"],
+            "color": "lavender",
+            "station_id": "EKBIARR"
+          },
+          {
+            "label": ["ACC", "D"],
+            "color": "lilac",
+            "station_id": "EKDKD"
+          },
+          {
+            "label": ["COIF", "F"],
+            "color": "lilac",
+            "station_id": "EKDKF"
+          },
+          {
+            "label": ["EKBI", "APP"],
+            "color": "azure",
+            "station_id": "EKBIAPP"
+          },
+          {
+            "label": ["SP", "APP"],
+            "color": "lavender",
+            "station_id": "EKSPAPP"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["COIF", "Y"],
+            "color": "lilac",
+            "station_id": "EKDKY"
+          },
+          {
+            "label": ["EKVD", "AFIS"],
+            "color": "azure",
+            "station_id": "EKVDTIZ"
+          },
+          {
+            "label": ["SP", "TWR"],
+            "color": "lavender",
+            "station_id": "EKSPTWR"
+          },
+          {
+            "label": ["EDWW", "EID"],
+            "color": "lagoon",
+            "station_id": "EDWW-EID"
+          },
+          {
+            "label": ["EDXW", "TWR"],
+            "color": "lagoon",
+            "station_id": "EDXW-TWR"
+          },
+          {
+            "label": ["EKSB", "AFIS"],
+            "color": "azure",
+            "station_id": "EKSB"
+          },
+          {
+            "label": ["", ""]
+          }
+        ]
+      }
+    },
+    {
+      "label": ["MISC"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["DENMIL", ""]
+          },
+          {
+            "label": ["JRCC"],
+            "color": "blush"
+          },
+          {
+            "label": ["ETNS", "APP", ""],
+            "station_id": "ETNS-APP"
+          },
+          {
+            "label": ["EDWW", "EID"],
+            "station_id": "EDWW-EID"
+          },
+          {
+            "label": ["WO", "1"]
+          },
+          {
+            "label": ["EKBI", "ARR"],
+            "station_id": "EKBIARR"
+          },
+          {
+            "label": ["EKBI", "TWR"],
+            "station_id": "EKBI_TWR"
+          },
+          {
+            "label": ["EDWW", "HEI"],
+            "station_id": "EDWW-HEI"
+          },
+          {
+            "label": ["WO", "2"]
+          },
+          {
+            "label": ["ACC", "I"],
+            "station_id": "EKDKI"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["EKRK", "APP"],
+            "station_id": "EKRKAPP"
+          },
+          {
+            "label": ["EKCH", "APPCO"],
+            "station_id": "EKCHAPPCO"
+          },
+          {
+            "label": ["EKCH", "R"],
+            "station_id": "EKCHDEPR"
+          },
+          {
+            "label": ["EKCH", "W"],
+            "station_id": "EKCHAPPW"
+          }
+        ]
+      }
+    }
+  ]
+}
