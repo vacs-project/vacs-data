@@ -148,7 +148,7 @@
           },
           {
             "label": ["COBRI", ""],
-            "color": "taupe",
+            "color": "taupe"
           },
           {
             "label": ["APP", "W"],
@@ -182,7 +182,7 @@
           },
           {
             "label": ["DE-ICE", "A"],
-            "color": "mint",
+            "color": "mint"
           },
           {
             "label": ["DEP", "K"],
@@ -199,7 +199,7 @@
           },
           {
             "label": ["DE-ICE", "B"],
-            "color": "mint",
+            "color": "mint"
           },
           {
             "label": ["APP", "P"],
@@ -218,7 +218,7 @@
           },
           {
             "label": ["DE-ICE", "V"],
-            "color": "mint",
+            "color": "mint"
           },
           {
             "label": ["APPCO"],
