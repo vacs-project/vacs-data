@@ -110,7 +110,7 @@ controlled_by = ["EKCH_FMP"]
 
 [[stations]]
 id = "EKCHTSUP"
-controlled_by = ["EKCH_M_TWR", "EKCH_M_APP","EKCH_P_APP"]
+controlled_by = ["EKCH_M_TWR", "EKCH_M_APP", "EKCH_P_APP"]
 
 [[stations]]
 id = "EKCHASUP"
