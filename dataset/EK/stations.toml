@@ -493,7 +493,7 @@ controlled_by = [
   "EKCH_K_DEP",
   "EKCH_W_APP",
   "EKCH_O_APP",
-  "EKRK_TWR"
+  "EKRK_TWR",
   "EKDK_I_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
