@@ -348,6 +348,15 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "EKDKF"
+controlled_by = [
+  "EKDK_F_CTR",
+  "EKDK_F_FFS",
+  "EKDK_Y_CTR",
+  "EKDK_Y_FFS",
+]
+
+[[stations]]
 id = "EKDKI"
 controlled_by = [
   "EKDK_I_CTR",
@@ -424,6 +433,15 @@ controlled_by = ["EKDK_UV_CTR", "EKDK_V_CTR", "EKDK_N_CTR", "EKDK_CTR"]
 [[stations]]
 id = "EKDKV"
 controlled_by = ["EKDK_V_CTR", "EKDK_N_CTR", "EKDK_CTR", "EKDK_UV_CTR"]
+
+[[stations]]
+id = "EKDKY"
+controlled_by = [
+  "EKDK_Y_CTR",
+  "EKDK_Y_FFS",
+  "EKDK_F_CTR",
+  "EKDK_F_FFS",
+]
 
 [[stations]]
 id = "EKEBTIZ"
@@ -598,6 +616,16 @@ controlled_by = [
 id = "EKVDTIZ"
 controlled_by = [
   "EKVD_I_TWR",
+  "EKSP_APP",
+  "EKDK_N_CTR",
+  "EKDK_CTR",
+  "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKVJTIZ"
+controlled_by = [
+  "EKVJ_I_TWR",
   "EKBI_APP",
   "EKDK_L_CTR",
   "EKDK_V_CTR",

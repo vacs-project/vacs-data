@@ -48,6 +48,27 @@ facility_type = "CTR"
 profile_id = "EKDK-ACC"
 
 [[positions]]
+id = "EKDK_F_CTR"
+prefixes = ["EKDK"]
+frequency = "129.475"
+facility_type = "CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKDK_F_FFS"
+prefixes = ["EKDK"]
+frequency = "129.475"
+facility_type = "FFS"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKCH_FW_CTR"
+prefixes = ["EKDK"]
+frequency = "127.080"
+facility_type = "CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
 id = "EKDK_I_CTR"
 prefixes = ["EKDK"]
 frequency = "121.380"
@@ -108,6 +129,20 @@ id = "EKDK_V_CTR"
 prefixes = ["EKDK"]
 frequency = "135.565"
 facility_type = "CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKDK_Y_CTR"
+prefixes = ["EKDK"]
+frequency = "124.000"
+facility_type = "CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKDK_Y_FSS"
+prefixes = ["EKDK"]
+frequency = "124.000"
+facility_type = "FSS"
 profile_id = "EKDK-ACC"
 
 [[positions]]
