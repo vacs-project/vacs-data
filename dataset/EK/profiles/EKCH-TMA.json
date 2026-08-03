@@ -341,7 +341,7 @@
           {
             "label": ["TWR", "SUP"],
             "color": "blush",
-            "station_id": "EKCH_M_TWR"
+            "station_id": "EKCHTSUP"
           }
         ]
       }
