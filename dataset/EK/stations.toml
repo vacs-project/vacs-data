@@ -58,7 +58,10 @@ controlled_by = [
 
 [[stations]]
 id = "EKBIARR"
-controlled_by = ["EKBI_F_APP"]
+controlled_by = [
+  "EKBI_F_APP",
+  "EKBI_APP",
+]
 
 [[stations]]
 id = "EKBISUP"
@@ -102,6 +105,14 @@ controlled_by = [
   "EKCH_R_DEP",
   "EKCH_W_APP",
   "EKCH_O_APP",
+]
+
+
+[[stations]]
+id = "EKCHFMP"
+controlled_by = [
+  "EKCH_M_TWR",
+  "EKCH_P_APP",
 ]
 
 [[stations]]
@@ -589,7 +600,10 @@ controlled_by = [
 
 [[stations]]
 id = "EKSPARR"
-controlled_by = ["EKSP_F_APP"]
+controlled_by = [
+  "EKSP_F_APP",
+  "EKSP_APP",
+]
 
 [[stations]]
 id = "EKSPTWR"
@@ -645,6 +659,13 @@ controlled_by = [
   "EKDK_N_CTR",
   "EKDK_CTR",
   "EKDK_UV_CTR",
+]
+
+[[stations]]
+id = "EKYTARR"
+controlled_by = [
+  "EKYT_F_APP",
+  "EKYT_APP",
 ]
 
 [[stations]]

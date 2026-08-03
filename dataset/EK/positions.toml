@@ -363,6 +363,13 @@ facility_type = "TWR"
 profile_id = "EKSP"
 
 [[positions]]
+id = "EKVJ_I_TWR"
+prefixes = ["EKVD"]
+frequency = "121.405"
+facility_type = "TWR"
+profile_id = "EKBI"
+
+[[positions]]
 id = "EKVD_I_TWR"
 prefixes = ["EKVD"]
 frequency = "118.655"
