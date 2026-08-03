@@ -336,7 +336,7 @@
           {
             "label": ["APP", "SUP"],
             "color": "blush",
-            "station_id": "EKCH_M_APP"
+            "station_id": "EKCHASUP"
           },
           {
             "label": ["TWR", "SUP"],
