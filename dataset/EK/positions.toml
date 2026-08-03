@@ -1,14 +1,14 @@
 [[positions]]
 id = "EKDK_FMP"
 prefixes = ["EKDK"]
-frequency = "131.785"
+frequency = "131.040"
 facility_type = "FMP"
 profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKCH_FMP"
 prefixes = ["EKCH"]
-frequency = "131.040"
+frequency = "131.785"
 facility_type = "FMP"
 profile_id = "EKDK-ACC"
 
