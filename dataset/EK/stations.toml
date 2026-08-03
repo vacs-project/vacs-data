@@ -487,6 +487,7 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "EKRKALL"
 controlled_by = [
   "EKRK_APP",
   "EKCH_R_DEP",
@@ -500,7 +501,7 @@ controlled_by = [
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
   "EKDK_CTR",
-]id = "EKRKALL"
+]
 
 [[stations]]
 id = "EKRKAPP"
