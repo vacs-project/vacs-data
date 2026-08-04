@@ -408,12 +408,11 @@
             "station_id": "EHMC"
           },
           {
-            "label": ["SV", "10"],
-            "station_id": "ENSV-10"
-          },
-          {
             "label": ["SV", "22"],
             "station_id": "ENSV-22"
+          },
+          {
+            "label": []
           },
           {
             "label": ["YY", "JEV", "365+"],
@@ -428,8 +427,8 @@
             "station_id": "EDWW-EID"
           },
           {
-            "label": ["OS", "8"],
-            "station_id": "ENOS-8"
+            "label": ["SV", "10"],
+            "station_id": "ENSV-10"
           },
           {
             "label": []
@@ -447,8 +446,8 @@
             "station_id": "EDWW-HEI"
           },
           {
-            "label": ["OS", "4"],
-            "station_id": "ENOS-4"
+            "label": ["OS", "8"],
+            "station_id": "ENOS-8"
           },
           {
             "label": []
@@ -466,6 +465,19 @@
             "station_id": "EDWW-MRZ"
           },
           {
+            "label": ["OS", "4"],
+            "station_id": "ENOS-4"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
             "label": []
           },
           {
@@ -474,18 +486,6 @@
           {
             "label": ["MM", "4"],
             "station_id": "ESMM_4"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
           },
           {
             "label": ["MM", "3"],
@@ -500,12 +500,10 @@
             "station_id": "ESMM_L"
           },
           {
-            "label": ["WA", "B", "365+"],
-            "station_id": "EPWWB_HIGH"
+            "label": []
           },
           {
-            "label": ["WA", "B", "-365"],
-            "station_id": "EPWWB_LOW"
+            "label": []
           },
           {
             "label": ["MM", "9"],
@@ -520,21 +518,22 @@
             "station_id": "ESMM_K"
           },
           {
-            "label": ["WA", "F", "365+"],
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["WA", "FH", ""],
             "station_id": "EPWWF_HIGH"
           },
           {
-            "label": ["WA", "F", "-365"],
+            "label": ["WA", "F", ""],
             "station_id": "EPWWF_LOW"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
+            "label": ["WA", "B", ""],
+            "station_id": "EPWWB_LOW"
           }
         ]
       }
@@ -697,17 +696,15 @@
             "color": "blush"
           },
           {
+            "label": []
+          },
+          {
             "label": ["RK", "APP"],
             "station_id": "EKRKAPP"
           },
           {
             "label": ["RK", "TWR"],
             "station_id": "EKRKTWR"
-          },
-          {
-            "label": ["CH", "GE"],
-            "color": "cadet",
-            "station_id": "EKCH_GE_TWR"
           },
           {
             "label": ["RN", "TWR"],
