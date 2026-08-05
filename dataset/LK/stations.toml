@@ -54,7 +54,7 @@ controlled_by = ["LKAA_U_CTR", "LKAA_S_CTR", "LKAA_CTR"]
 
 [[stations]]
 id = "LKAA FIC"
-controlled_by = ["LKAA_I_CTR"]
+controlled_by = ["LKAA_FIC_FSS"]
 
 [[stations]]
 id = "LKPR ARR"
