@@ -319,7 +319,7 @@ default_call_sources = ["LFRS_LU_APP"]
 [[positions]]
 id = "LFRS_NA_APP"
 prefixes = ["LFRS"]
-frequency = "120.125"
+frequency = "120.130"
 facility_type = "APP"
 default_call_sources = ["LFRS_NA_APP"]
 
@@ -480,7 +480,7 @@ default_call_sources = ["LFRQ_TWR"]
 [[positions]]
 id = "LFRS_TWR"
 prefixes = ["LFRS"]
-frequency = "118.650"
+frequency = "118.655"
 facility_type = "TWR"
 default_call_sources = ["LFRS_TWR", "LFRS_GND"]
 
