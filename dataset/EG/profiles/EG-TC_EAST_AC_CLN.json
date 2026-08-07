@@ -111,8 +111,7 @@
           },
           {
             "label": ["MAAS", "DELTA"],
-            "color": "azure",
-            "station_id": "EHAA_ALL"
+            "color": "azure"
           },
           {
             "label": ["AMS", "W"],
