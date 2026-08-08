@@ -441,34 +441,6 @@
             "station_id": "MNL_CTR"
           },
           {
-            "label": ["ZGZU"],
-            "station_id": "ZGZU_CTR"
-          },
-          {
-            "label": ["ZJSA"],
-            "station_id": "ZJSA_CTR"
-          },
-          {
-            "label": ["ZSHA"],
-            "station_id": "ZSHA_CTR"
-          },
-          {
-            "label": ["ASEA"],
-            "station_id": "ASEA_FSS"
-          },
-          {
-            "label": ["PRC"],
-            "station_id": "ZBBB_FSS"
-          },
-          {
-            "label": ["RCTP-L"],
-            "station_id": "ALR"
-          },
-          {
-            "label": ["RPHI-N"],
-            "station_id": "MNL_N_CTR"
-          },
-          {
             "label": ["ZGGG"],
             "station_id": "ZGGG_CTR"
           },
@@ -481,18 +453,19 @@
             "station_id": "ZSSS_CTR"
           },
           {
-            "label": []
+            "label": ["ASEA"],
+            "station_id": "ASEA_FSS"
           },
           {
             "label": []
           },
           {
-            "label": ["RCTP-E"],
-            "station_id": "AER"
+            "label": ["RCTP-L"],
+            "station_id": "ALR"
           },
           {
-            "label": ["RPHI-NW"],
-            "station_id": "MNL_NW_CTR"
+            "label": ["RPHI-N"],
+            "station_id": "MNL_N_CTR"
           },
           {
             "label": ["ZGNN"],
@@ -513,11 +486,12 @@
             "label": []
           },
           {
-            "label": ["RCTP-N"],
-            "station_id": "ANR"
+            "label": ["RCTP-E"],
+            "station_id": "AER"
           },
           {
-            "label": []
+            "label": ["RPHI-NW"],
+            "station_id": "MNL_NW_CTR"
           },
           {
             "label": ["ZGJD"],
@@ -537,8 +511,8 @@
             "label": []
           },
           {
-            "label": ["RCTP-S"],
-            "station_id": "ASR"
+            "label": ["RCTP-N"],
+            "station_id": "ANR"
           },
           {
             "label": []
@@ -560,7 +534,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["RCTP-S"],
+            "station_id": "ASR"
           },
           {
             "label": []
@@ -568,6 +543,27 @@
           {
             "label": ["ZGZJ"],
             "station_id": "ZGZJ_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": []

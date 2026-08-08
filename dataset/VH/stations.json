@@ -204,10 +204,6 @@
       "controlled_by": ["ASEA_FSS"]
     },
     {
-      "id": "ZBBB_FSS",
-      "controlled_by": ["ZBBB_FSS"]
-    },
-    {
       "id": "ZSSS_S_CTR",
       "parent_id": "ZSSS_CTR",
       "controlled_by": ["ZSSS_S_CTR"]
@@ -218,17 +214,9 @@
       "controlled_by": ["ZSSS_CTR"]
     },
     {
-      "id": "ZSHA_CTR",
-      "controlled_by": ["ZSHA_CTR"]
-    },
-    {
       "id": "ZSAM_CTR",
       "parent_id": "ZSHA_CTR",
       "controlled_by": ["ZSAM_CTR"]
-    },
-    {
-      "id": "ZJSA_CTR",
-      "controlled_by": ["ZJSA_CTR"]
     },
     {
       "id": "ZJSY_L_CTR",
@@ -239,10 +227,6 @@
       "id": "ZJSY_O_CTR",
       "parent_id": "ZJSA_CTR",
       "controlled_by": ["ZJSY_O_CTR"]
-    },
-    {
-      "id": "ZGZU_CTR",
-      "controlled_by": ["ZGZU_CTR"]
     },
     {
       "id": "ZGNN_CTR",
@@ -273,11 +257,6 @@
       "id": "ZGGG_CTR",
       "parent_id": "ZGZU_CTR",
       "controlled_by": ["ZGGG_CTR"]
-    },
-    {
-      "id": "ZGGG_APP",
-      "parent_id": "ZGGG_CTR",
-      "controlled_by": ["ZGGG_APP"]
     }
   ]
 }
