@@ -210,27 +210,22 @@
     },
     {
       "id": "ZSSS_CTR",
-      "parent_id": "ZSHA_CTR",
       "controlled_by": ["ZSSS_CTR"]
     },
     {
       "id": "ZSAM_CTR",
-      "parent_id": "ZSHA_CTR",
       "controlled_by": ["ZSAM_CTR"]
     },
     {
       "id": "ZJSY_L_CTR",
-      "parent_id": "ZJSA_CTR",
       "controlled_by": ["ZJSY_L_CTR"]
     },
     {
       "id": "ZJSY_O_CTR",
-      "parent_id": "ZJSA_CTR",
       "controlled_by": ["ZJSY_O_CTR"]
     },
     {
       "id": "ZGNN_CTR",
-      "parent_id": "ZGZU_CTR",
       "controlled_by": ["ZGNN_CTR"]
     },
     {
@@ -243,9 +238,7 @@
       "controlled_by": [
         "ZGOW_APP",
         "ZGGG_CTR",
-        "ZGZU_CTR",
-        "ZSAM_CTR",
-        "ZSHA_CTR"
+        "ZSAM_CTR"
       ]
     },
     {
@@ -255,7 +248,6 @@
     },
     {
       "id": "ZGGG_CTR",
-      "parent_id": "ZGZU_CTR",
       "controlled_by": ["ZGGG_CTR"]
     }
   ]

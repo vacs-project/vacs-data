@@ -375,10 +375,6 @@
             "station_id": "MNL_N_CTR"
           },
           {
-            "label": ["ZSHA", "CTR"],
-            "station_id": "ZSHA_CTR"
-          },
-          {
             "label": ["ZSSS", "S_CTR"],
             "station_id": "ZSSS_S_CTR"
           },
@@ -393,6 +389,9 @@
           {
             "label": ["ZGGG", "CTR"],
             "station_id": "ZGGG_CTR"
+          },
+          {
+            "label": []
           },
           {
             "label": []
