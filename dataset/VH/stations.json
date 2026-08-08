@@ -235,11 +235,7 @@
     },
     {
       "id": "ZGOW_APP",
-      "controlled_by": [
-        "ZGOW_APP",
-        "ZGGG_CTR",
-        "ZSAM_CTR"
-      ]
+      "controlled_by": ["ZGOW_APP", "ZGGG_CTR", "ZSAM_CTR"]
     },
     {
       "id": "ZGJD_APP",
