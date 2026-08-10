@@ -1,0 +1,109 @@
+{
+  "stations": [
+    {
+      "id": "ORBB_CTR",
+      "parent_id": "GULF_E_FSS",
+      "controlled_by": ["ORBB_CTR"]
+    },
+    {
+      "id": "ORBB_N_CTR",
+      "parent_id": "ORBB_CTR",
+      "controlled_by": ["ORBB_N_CTR"]
+    },
+    {
+      "id": "ORBB_NU_CTR",
+      "parent_id": "ORBB_N_CTR",
+      "controlled_by": ["ORBB_NU_CTR"]
+    },
+    {
+      "id": "ORBB_S_CTR",
+      "parent_id": "ORBB_CTR",
+      "controlled_by": ["ORBB_S_CTR"]
+    },
+    {
+      "id": "ORBB_SU_CTR",
+      "parent_id": "ORBB_S_CTR",
+      "controlled_by": ["ORBB_SU_CTR"]
+    },
+    {
+      "id": "ALI_APP",
+      "parent_id": "ORBB_S_CTR",
+      "controlled_by": ["ALI_APP"]
+    },
+    {
+      "id": "ORMM_TWR",
+      "parent_id": "ALI_APP",
+      "controlled_by": ["ORMM_TWR"]
+    },
+    {
+      "id": "ORMM_GND",
+      "parent_id": "ORMM_TWR",
+      "controlled_by": ["ORMM_GND"]
+    },
+    {
+      "id": "ORNI_TWR",
+      "parent_id": "ALI_APP",
+      "controlled_by": ["ORNI_TWR"]
+    },
+    {
+      "id": "ORNI_GND",
+      "parent_id": "ORNI_TWR",
+      "controlled_by": ["ORNI_GND"]
+    },
+    {
+      "id": "BGD_APP",
+      "parent_id": "ORBB_N_CTR",
+      "controlled_by": ["BGD_APP"]
+    },
+    {
+      "id": "ORBI_F_APP",
+      "parent_id": "BGD_APP",
+      "controlled_by": ["ORBI_F_APP"]
+    },
+    {
+      "id": "ORBI_TWR",
+      "parent_id": "BGD_APP",
+      "controlled_by": ["ORBI_TWR"]
+    },
+    {
+      "id": "ORBI_GND",
+      "parent_id": "ORBI_TWR",
+      "controlled_by": ["ORBI_GND"]
+    },
+    {
+      "id": "KIR_APP",
+      "parent_id": "ORBB_N_CTR",
+      "controlled_by": ["KIR_APP"]
+    },
+    {
+      "id": "ORBM_TWR",
+      "parent_id": "KIR_APP",
+      "controlled_by": ["ORBM_TWR"]
+    },
+    {
+      "id": "ORBM_GND",
+      "parent_id": "ORBM_TWR",
+      "controlled_by": ["ORBM_GND"]
+    },
+    {
+      "id": "ORER_TWR",
+      "parent_id": "KIR_APP",
+      "controlled_by": ["ORER_TWR"]
+    },
+    {
+      "id": "ORKK_TWR",
+      "parent_id": "KIR_APP",
+      "controlled_by": ["ORKK_TWR"]
+    },
+    {
+      "id": "ORKK_GND",
+      "parent_id": "ORKK_TWR",
+      "controlled_by": ["ORKK_GND"]
+    },
+    {
+      "id": "ORSJ_TWR",
+      "parent_id": "KIR_APP",
+      "controlled_by": ["ORSJ_TWR"]
+    }
+  ]
+}

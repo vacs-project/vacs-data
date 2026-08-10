@@ -112,9 +112,10 @@
               "station_id": "CYPG-TWR"
             },
             {
-              "label": ["SHIFT SUP", "HOTLINE", "NOT AVAIL"],
+              "label": ["WINNIPEG", "FLOW", "CONTROL"],
               "size": 8,
-              "color": "lavender"
+              "color": "cadet",
+              "station_id": "WPG-FMP"
             }
           ]
         }
@@ -208,27 +209,21 @@
       "justify_content": "space-evenly",
       "children": [
         {
-          "label": ["EDMONTON", "CENTRE", "INOP"],
+          "label": ["EDMONTON", "CENTRE", "HOTLINE"],
           "size": 8,
           "color": "snow",
-          "page": {
-            "rows": 1,
-            "keys": [
-              { "label": ["CZEG", "FSS", "INOP"] },
-              { "label": ["CZEG", "CTR", "INOP"] },
-              { "label": ["CZEG", "Q-CTR", "INOP"] }
-            ]
-          }
+          "station_id": "CZEG-CTR"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
-          "label": ["EDMONTON", "FSS", "INOP"],
+          "label": ["EDMONTON", "FSS", "HOTLINE"],
           "size": 6,
-          "color": "snow"
+          "color": "snow",
+          "station_id": "CZEG-FSS"
         },
         { "orientation": "horizontal", "thickness": 5, "color": "#4a5568" },
         {
-          "label": ["HOTLINE", "INOP", "..."],
+          "label": ["SUP", "HOTLINE", "INOP"],
           "size": 6,
           "color": "snow"
         },

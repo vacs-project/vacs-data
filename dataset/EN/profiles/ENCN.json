@@ -3,56 +3,77 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["ENCN ALL"],
+      "label": ["1", ""],
       "page": {
-        "rows": 4,
+        "rows": 7,
         "keys": [
           {
-            "label": ["CN", "APP"],
-            "station_id": "ENCN_APP"
-          },
-          {
-            "label": ["CN", "TWR"],
+            "label": ["TWR"],
             "station_id": "ENCN_TWR"
           },
           {
+            "label": [""]
+          },
+          {
             "label": []
           },
           {
-            "label": ["NO", "AFIS"],
-            "station_id": "ENNO_I_TWR"
+            "label": []
           },
           {
-            "label": ["FARRIS", "APP"],
+            "label": ["FR", "TMA"],
             "station_id": "ENTO_APP"
           },
           {
-            "label": ["FARRIS", "DIR"],
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TMA"],
+            "station_id": "ENCN_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FR", "DIR"],
             "station_id": "ENTO_D_APP"
           },
           {
-            "label": ["TO", "TWR"],
-            "station_id": "ENTO_TWR"
+            "label": []
           },
           {
-            "label": ["RY", "TWR"],
-            "station_id": "ENRY_TWR"
+            "label": []
           },
           {
-            "label": ["SV 9"],
-            "station_id": "ENSV-9"
+            "label": []
           },
           {
-            "label": ["OS 8"],
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S8", "L"],
             "station_id": "ENOS-8"
           },
           {
-            "label": ["OS 5"],
-            "station_id": "ENOS-5"
+            "label": []
           },
           {
-            "label": ["OS 4"],
-            "station_id": "ENOS-4"
+            "label": []
           },
           {
             "label": []
@@ -61,12 +82,20 @@
             "label": []
           },
           {
-            "label": ["DK V", "FL285-FL365"],
-            "station_id": "EKDKV"
+            "label": []
           },
           {
-            "label": ["DK L", "FL285-"],
-            "station_id": "EKDKL"
+            "label": []
+          },
+          {
+            "label": ["S9"],
+            "station_id": "ENSV-9"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           }
         ]
       }

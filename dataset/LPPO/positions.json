@@ -4,115 +4,134 @@
       "id": "LPCR_I_TWR",
       "prefixes": ["LPCR"],
       "frequency": "122.300",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPPI_I_TWR",
       "prefixes": ["LPPI"],
       "frequency": "122.700",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPSJ_I_TWR",
       "prefixes": ["LPSJ"],
       "frequency": "119.800",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPGR_I_TWR",
       "prefixes": ["LPGR"],
       "frequency": "122.900",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPLA_DEL",
       "prefixes": ["LPLA"],
       "frequency": "134.100",
-      "facility_type": "DEL"
+      "facility_type": "DEL",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPLA_GND",
       "prefixes": ["LPLA"],
       "frequency": "121.900",
-      "facility_type": "GND"
+      "facility_type": "GND",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPLA_TWR",
       "prefixes": ["LPLA"],
       "frequency": "122.100",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPLA_APP",
       "prefixes": ["LPLA"],
       "frequency": "135.000",
-      "facility_type": "APP"
+      "facility_type": "APP",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPAZ_TWR",
       "prefixes": ["LPAZ"],
       "frequency": "118.100",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPPD_TWR",
       "prefixes": ["LPPD"],
       "frequency": "118.300",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPPD_APP",
       "prefixes": ["LPPD"],
       "frequency": "119.400",
-      "facility_type": "APP"
+      "facility_type": "APP",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPHR_TWR",
       "prefixes": ["LPHR"],
       "frequency": "118.000",
-      "facility_type": "TWR"
+      "facility_type": "TWR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPHR_APP",
       "prefixes": ["LPHR"],
       "frequency": "120.600",
-      "facility_type": "APP"
+      "facility_type": "APP",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPFL_APP",
       "prefixes": ["LPFL"],
       "frequency": "118.800",
-      "facility_type": "APP"
+      "facility_type": "APP",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPPO_TMA_CTR",
       "prefixes": ["LPPO"],
       "frequency": "129.400",
-      "facility_type": "CTR"
+      "facility_type": "CTR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPPO_CTR",
       "prefixes": ["LPPO"],
       "frequency": "132.150",
-      "facility_type": "CTR"
+      "facility_type": "CTR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPPO_OC_DEL",
       "prefixes": ["LPPO"],
       "frequency": "127.900",
-      "facility_type": "DEL"
+      "facility_type": "DEL",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPPO_OC_CTR",
       "prefixes": ["LPPO"],
       "frequency": "131.130",
-      "facility_type": "CTR"
+      "facility_type": "CTR",
+      "profile_id": "LPPO"
     },
     {
       "id": "LPPO_FSS",
       "prefixes": ["LPPO"],
       "frequency": "133.060",
-      "facility_type": "FSS"
+      "facility_type": "FSS",
+      "profile_id": "LPPO"
     }
   ]
 }

@@ -373,6 +373,11 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "LOWS_F_APP"
+parent_id = "LOWS_APP"
+controlled_by = ["LOWS_F_APP"]
+
+[[stations]]
 id = "LOWS_TWR"
 parent_id = "LOWS_APP"
 controlled_by = ["LOWS_TWR"]

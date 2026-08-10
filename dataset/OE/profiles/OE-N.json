@@ -1,0 +1,17 @@
+{
+  "id": "OE-N",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ACC", "N"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["THIS TAB", "IS INOP"]
+          }
+        ]
+      }
+    }
+  ]
+}

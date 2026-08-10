@@ -3,53 +3,16 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["ENEV-ALL"],
+      "label": ["1", ""],
       "page": {
-        "rows": 5,
+        "rows": 7,
         "keys": [
           {
-            "label": ["DU", "APP"],
-            "station_id": "ENDU_APP"
-          },
-          {
-            "label": ["DU", "TWR"],
-            "station_id": "ENDU_TWR"
-          },
-          {
-            "label": ["DU", "DEL"],
-            "station_id": "ENDU_DEL"
-          },
-          {
-            "label": ["AN", "APP"],
-            "station_id": "ENAN_APP"
-          },
-          {
-            "label": ["AN", "TWR"],
-            "station_id": "ENAN_TWR"
-          },
-          {
-            "label": ["EV", "APP"],
-            "station_id": "ENEV_APP"
-          },
-          {
-            "label": ["EV", "TWR"],
+            "label": ["TWR"],
             "station_id": "ENEV_TWR"
           },
           {
-            "label": ["BO", "APP"],
-            "station_id": "ENBO_APP"
-          },
-          {
-            "label": ["SH", "AFIS"],
-            "station_id": "ENSH_I_TWR"
-          },
-          {
-            "label": ["SK", "AFIS"],
-            "station_id": "ENSK_I_TWR"
-          },
-          {
-            "label": ["BD 26"],
-            "station_id": "ENBD-26"
+            "label": []
           },
           {
             "label": []
@@ -62,6 +25,76 @@
           },
           {
             "label": []
+          },
+          {
+            "label": ["AN", "TMA"],
+            "station_id": "ENAN_APP"
+          },
+          {
+            "label": ["TMA"],
+            "station_id": "ENEV_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["DU", "TMA"],
+            "station_id": "ENDU_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S25", "North"],
+            "station_id": "ENBD-25"
           }
         ]
       }

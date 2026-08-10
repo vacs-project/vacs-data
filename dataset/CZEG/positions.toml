@@ -1,0 +1,333 @@
+# CZEG FIR — vacs position mappings (dataset/CZEG/positions.toml for vacs-data PR)
+# Extracted from CZEG.positions (POSITION:NAME:FREQUENCY only).
+# CZEG_E_FSS is not in the sector file; mirrored SuperCenter handoff pair with CZEG_FSS.
+
+[[positions]]
+id = "CYEG_APP"
+prefixes = ["CYEG"]
+frequency = "120.500"
+facility_type = "APP"
+profile_id = "CYEG"
+
+[[positions]]
+id = "CYEG_DEL"
+prefixes = ["CYEG"]
+frequency = "124.100"
+facility_type = "DEL"
+profile_id = "CYEG"
+
+[[positions]]
+id = "CYEG_DEP"
+prefixes = ["CYEG"]
+frequency = "133.650"
+facility_type = "DEP"
+profile_id = "CYEG"
+
+[[positions]]
+id = "CYEG_GND"
+prefixes = ["CYEG"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "CYEG"
+
+[[positions]]
+id = "CYEG_TWR"
+prefixes = ["CYEG"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "CYEG"
+
+[[positions]]
+id = "CYMM_APP"
+prefixes = ["CYMM"]
+frequency = "120.100"
+facility_type = "APP"
+profile_id = "CYMM"
+
+[[positions]]
+id = "CYMM_GND"
+prefixes = ["CYMM"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "CYMM"
+
+[[positions]]
+id = "CYMM_TWR"
+prefixes = ["CYMM"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "CYMM"
+
+[[positions]]
+id = "CYOD_APP"
+prefixes = ["CYOD"]
+frequency = "124.500"
+facility_type = "APP"
+profile_id = "CYOD"
+
+[[positions]]
+id = "CYOD_GND"
+prefixes = ["CYOD"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "CYOD"
+
+[[positions]]
+id = "CYOD_P_APP"
+prefixes = ["CYOD"]
+frequency = "119.400"
+facility_type = "APP"
+profile_id = "CYOD"
+
+[[positions]]
+id = "CYOD_TWR"
+prefixes = ["CYOD"]
+frequency = "126.200"
+facility_type = "TWR"
+profile_id = "CYOD"
+
+[[positions]]
+id = "CYQF_TWR"
+prefixes = ["CYQF"]
+frequency = "118.500"
+facility_type = "TWR"
+profile_id = "CYQF"
+
+[[positions]]
+id = "CYXY_APP"
+prefixes = ["CYXY"]
+frequency = "121.100"
+facility_type = "APP"
+profile_id = "CYXY"
+
+[[positions]]
+id = "CYXY_TWR"
+prefixes = ["CYXY"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "CYXY"
+
+[[positions]]
+id = "CYYC_A_GND"
+prefixes = ["CYYC"]
+frequency = "121.300"
+facility_type = "GND"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_APP"
+prefixes = ["CYYC"]
+frequency = "125.900"
+facility_type = "APP"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_DEL"
+prefixes = ["CYYC"]
+frequency = "120.825"
+facility_type = "DEL"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_DEP"
+prefixes = ["CYYC"]
+frequency = "124.525"
+facility_type = "DEP"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_E_APP"
+prefixes = ["CYYC"]
+frequency = "125.900"
+facility_type = "APP"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_E_DEP"
+prefixes = ["CYYC"]
+frequency = "119.800"
+facility_type = "DEP"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_E_GND"
+prefixes = ["CYYC"]
+frequency = "125.350"
+facility_type = "GND"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_E_TWR"
+prefixes = ["CYYC"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_GND"
+prefixes = ["CYYC"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_P_DEL"
+prefixes = ["CYYC"]
+frequency = "120.725"
+facility_type = "DEL"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_T_DEP"
+prefixes = ["CYYC"]
+frequency = "119.400"
+facility_type = "DEP"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_TWR"
+prefixes = ["CYYC"]
+frequency = "118.400"
+facility_type = "TWR"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_W_APP"
+prefixes = ["CYYC"]
+frequency = "123.850"
+facility_type = "APP"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_W_DEP"
+prefixes = ["CYYC"]
+frequency = "124.525"
+facility_type = "DEP"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_W_GND"
+prefixes = ["CYYC"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYYC_W_TWR"
+prefixes = ["CYYC"]
+frequency = "118.400"
+facility_type = "TWR"
+profile_id = "CYYC"
+
+[[positions]]
+id = "CYZF_APP"
+prefixes = ["CYZF"]
+frequency = "124.700"
+facility_type = "APP"
+profile_id = "CYZF"
+
+[[positions]]
+id = "CYZF_GND"
+prefixes = ["CYZF"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "CYZF"
+
+[[positions]]
+id = "CYZF_TWR"
+prefixes = ["CYZF"]
+frequency = "118.500"
+facility_type = "TWR"
+profile_id = "CYZF"
+
+[[positions]]
+id = "CZEG_1_FSS"
+prefixes = ["CZEG"]
+frequency = "135.700"
+facility_type = "FSS"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_2_FSS"
+prefixes = ["CZEG"]
+frequency = "135.900"
+facility_type = "FSS"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_3_FSS"
+prefixes = ["CZEG"]
+frequency = "135.800"
+facility_type = "FSS"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_4_FSS"
+prefixes = ["CZEG"]
+frequency = "135.125"
+facility_type = "FSS"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_APP"
+prefixes = ["CZEG"]
+frequency = "124.450"
+facility_type = "APP"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_CTR"
+prefixes = ["CZEG"]
+frequency = "135.750"
+facility_type = "CTR"
+profile_id = "CZEG"
+
+# Mirrored SuperCenter handoff pair (may run together ~1h, then solo top-down).
+[[positions]]
+id = "CZEG_E_FSS"
+prefixes = ["CZEG"]
+frequency = "135.025"
+facility_type = "FSS"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_FSS"
+prefixes = ["CZEG"]
+frequency = "135.025"
+facility_type = "FSS"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_H_CTR"
+prefixes = ["CZEG"]
+frequency = "132.900"
+facility_type = "CTR"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_L_CTR"
+prefixes = ["CZEG"]
+frequency = "132.850"
+facility_type = "CTR"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_N_CTR"
+prefixes = ["CZEG"]
+frequency = "134.675"
+facility_type = "CTR"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_P_CTR"
+prefixes = ["CZEG"]
+frequency = "135.025"
+facility_type = "CTR"
+profile_id = "CZEG"
+
+[[positions]]
+id = "CZEG_Q_CTR"
+prefixes = ["CZEG"]
+frequency = "132.150"
+facility_type = "CTR"
+profile_id = "CZEG"

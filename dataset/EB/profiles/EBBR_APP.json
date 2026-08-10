@@ -74,10 +74,12 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["BEEK", "APP"],
+            "station_id": "EHBK_APP"
           },
           {
-            "label": ["AMS", "S"]
+            "label": ["AMS", "S"],
+            "station_id": "EHAA_S"
           },
           {
             "label": ["EBKT"],
@@ -85,7 +87,8 @@
             "station_id": "EBKT-INFO"
           },
           {
-            "label": ["LFQQ"]
+            "label": ["LFQQ", "E"],
+            "station_id": "LFQQ_QE_APP"
           },
           {
             "label": []

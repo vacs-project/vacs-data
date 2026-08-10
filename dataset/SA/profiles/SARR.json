@@ -1,0 +1,192 @@
+{
+  "id": "SARR",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SARE", "GND"],
+            "color": "lilac",
+            "station_id": "SARE_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SARE", "TWR"],
+            "color": "lagoon",
+            "station_id": "SARE_TWR"
+          },
+          {
+            "label": ["SARI", "TWR"],
+            "color": "lagoon",
+            "station_id": "SARI_TWR"
+          },
+          {
+            "label": ["SARC", "TWR"],
+            "color": "lagoon",
+            "station_id": "SARC_TWR"
+          },
+          {
+            "label": ["SARF", "TWR"],
+            "color": "lagoon",
+            "station_id": "SARF_TWR"
+          },
+          {
+            "label": ["SATG", "TWR"],
+            "color": "lagoon",
+            "station_id": "SATG_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SARE", "APP"],
+            "color": "steel",
+            "station_id": "SARE_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SARP", "APP"],
+            "color": "steel",
+            "station_id": "SARP_APP"
+          },
+          {
+            "label": ["SATR", "APP"],
+            "color": "steel",
+            "station_id": "SATR_APP"
+          },
+          {
+            "label": ["SARL", "APP"],
+            "color": "steel",
+            "station_id": "SARL_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "CTR",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SARR", "CTR"],
+            "station_id": "SARR_CTR"
+          },
+          {
+            "label": ["SAEF", "CTR"],
+            "station_id": "SAEF_CTR"
+          },
+          {
+            "label": ["SACF", "CTR"],
+            "station_id": "SACF_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAEF N", "CTR"],
+            "station_id": "SAEF_N_CTR"
+          },
+          {
+            "label": ["SACF N", "CTR"],
+            "station_id": "SACF_N_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SACF S", "CTR"],
+            "station_id": "SACF_S_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

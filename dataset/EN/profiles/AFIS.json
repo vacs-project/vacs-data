@@ -1,0 +1,104 @@
+{
+  "id": "AFIS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", ""],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S25", "North"],
+            "station_id": "ENBD-25"
+          },
+          {
+            "label": ["S19"],
+            "station_id": "ENBD-19"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S26", "East"],
+            "station_id": "ENBD-26"
+          },
+          {
+            "label": ["S24"],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TMA", "HLGLND"],
+            "station_id": "ENBD-HELGELAND"
+          },
+          {
+            "label": ["TMA", "MØRE"],
+            "station_id": "ENAL_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

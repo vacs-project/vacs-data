@@ -935,6 +935,21 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "EGBB_DEL"
+parent_id = "EGBB_GND"
+controlled_by = ["EGBB_DEL"]
+
+[[stations]]
+id = "EGBB_GND"
+parent_id = "EGBB_TWR"
+controlled_by = ["EGBB_GND"]
+
+[[stations]]
+id = "EGBB_TWR"
+parent_id = "EGBB_APP"
+controlled_by = ["EGBB_TWR"]
+
+[[stations]]
 id = "EGBB_APP"
 parent_id = "LTC_MC_CTR"
 controlled_by = ["EGBB_APP", "EGBB_F_APP"]
@@ -1333,6 +1348,16 @@ parent_id = "EGNV_APP"
 controlled_by = ["EGNV_F_APP"]
 
 [[stations]]
+id = "EGNX_GND"
+parent_id = "EGNX_TWR"
+controlled_by = ["EGNX_GND"]
+
+[[stations]]
+id = "EGNX_TWR"
+parent_id = "EGNX_APP"
+controlled_by = ["EGNX_TWR"]
+
+[[stations]]
 id = "EGNX_APP"
 parent_id = "LTC_MW_CTR"
 controlled_by = ["EGNX_APP", "EGNX_F_APP"]
@@ -1503,18 +1528,13 @@ parent_id = "EGPO_A_APP"
 controlled_by = ["EGPO_TWR"]
 
 [[stations]]
-id = "EGQL_APP"
+id = "EGQL_A_APP"
 parent_id = "EGVV_N_CTR"
-controlled_by = ["EGQL_APP", "EGQL_P_APP"]
-
-[[stations]]
-id = "EGQL_P_APP"
-parent_id = "EGQL_APP"
-controlled_by = ["EGQL_P_APP"]
+controlled_by = ["EGQL_A_APP"]
 
 [[stations]]
 id = "EGQL_TWR"
-parent_id = "EGQL_APP"
+parent_id = "EGQL_A_APP"
 controlled_by = ["EGQL_TWR"]
 
 [[stations]]

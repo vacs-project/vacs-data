@@ -5,18 +5,22 @@
       "controlled_by": ["WPG_CTR"]
     },
     {
+      "id": "WPG-FMP",
+      "controlled_by": ["WPG_FMP"]
+    },
+    {
       "id": "CYWG-APP",
       "parent_id": "WPG-CTR",
       "controlled_by": ["CYWG_APP"]
     },
     {
       "id": "CYWG-WEST",
-      "parent_id": "WPG-CTR",
+      "parent_id": "CYWG-APP",
       "controlled_by": ["CYWG_DEP"]
     },
     {
       "id": "CYWG-EAST",
-      "parent_id": "WPG-CTR",
+      "parent_id": "CYWG-WEST",
       "controlled_by": ["CYWG_E_DEP"]
     },
     {

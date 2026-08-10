@@ -12,6 +12,10 @@
             "station_id": "OMDB_DEL"
           },
           {
+            "label": ["PLN"],
+            "station_id": "OMDB_P_DEL"
+          },
+          {
             "label": ["GMC 1"],
             "station_id": "OMDB_1_GND"
           },

@@ -958,12 +958,10 @@
                   {
                     "label": ["QL", "Approach"],
                     "color": "azure",
-                    "station_id": "EGQL_APP"
+                    "station_id": "EGQL_A_APP"
                   },
                   {
-                    "label": ["QL", "Talkdown"],
-                    "color": "azure",
-                    "station_id": "EGQL_P_APP"
+                    "label": [""]
                   },
                   {
                     "label": ["QL", "Tower"],

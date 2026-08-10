@@ -253,6 +253,13 @@
       "profile_id": "OMDB"
     },
     {
+      "id": "OMDB_P_DEL",
+      "prefixes": ["OMDB"],
+      "frequency": "118.850",
+      "facility_type": "DEL",
+      "profile_id": "OMDB"
+    },
+    {
       "id": "OMDB_I_TWR",
       "prefixes": ["OMDB"],
       "frequency": "126.775",

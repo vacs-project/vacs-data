@@ -24,16 +24,13 @@
             "station_id": "EBBU-HUS"
           },
           {
-            "label": ["EHS"],
-            "station_id": "EBBU-EHS"
+            "label": []
           },
           {
-            "label": ["WHS"],
-            "station_id": "EBBU-WHS"
+            "label": []
           },
           {
-            "label": ["LUS"],
-            "station_id": "EBBU-LUS"
+            "label": []
           },
           {
             "label": ["FIC"],
@@ -51,28 +48,37 @@
             "label": []
           },
           {
-            "label": ["PARIS", "TB"]
+            "label": []
           },
           {
-            "label": ["PARIS", "TE"]
+            "label": []
           },
           {
-            "label": ["PARIS", "TM"]
+            "label": []
           },
           {
-            "label": ["LFQQ"]
+            "label": []
           },
           {
-            "label": ["LFST"]
+            "label": []
           },
           {
-            "label": ["AMS", "W"]
+            "label": ["AMS", "W"],
+            "station_id": "EHAA_W"
           },
           {
-            "label": ["AMS", "S"]
+            "label": ["AMS", "S"],
+            "station_id": "EHAA_S"
           },
           {
-            "label": ["BEEK", "APP"]
+            "label": ["BEEK", "APP"],
+            "station_id": "EHBK_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": ["EBKT"],
@@ -82,24 +88,14 @@
             "label": []
           },
           {
+            "label": []
+          },
+          {
             "label": ["DKAW"],
             "station_id": "EDGG-DKA"
           },
           {
-            "label": ["EIF"],
-            "station_id": "EDGG-EIF"
-          },
-          {
-            "label": ["PFA"],
-            "station_id": "EDGG-PFA"
-          },
-          {
-            "label": ["EBAW", "GND"],
-            "station_id": "EBAW-GND"
-          },
-          {
-            "label": ["EBAW", "AIR"],
-            "station_id": "EBAW-TWR"
+            "label": []
           },
           {
             "label": []
@@ -158,8 +154,8 @@
             "station_id": "EBBR-APP"
           },
           {
-            "label": ["FIN"],
-            "station_id": "EBBR-F-APP"
+            "label": ["EBBR", "SUP"],
+            "station_id": "EBBR-FMP"
           },
           {
             "label": []
@@ -180,36 +176,28 @@
             "label": []
           },
           {
-            "label": ["EBBR", "AIR 25R"],
-            "station_id": "EBBR-NTWR"
+            "label": []
           },
           {
-            "label": ["EBBR", "AIR 25L"],
-            "station_id": "EBBR-TWR"
+            "label": []
           },
           {
-            "label": ["EBBR", "AIR 01"],
-            "station_id": "EBBR-TWR"
+            "label": []
           },
           {
-            "label": ["EBBR", "SUP"],
-            "station_id": "EBBR-FMP"
+            "label": []
           },
           {
-            "label": ["ELLX", "DCL"],
-            "station_id": "ELLX-DEL"
+            "label": []
           },
           {
-            "label": ["ELLX", "AIR"],
-            "station_id": "ELLX-TWR"
+            "label": []
           },
           {
-            "label": ["ELLX", "APP"],
-            "station_id": "ELLX-APP"
+            "label": []
           },
           {
-            "label": ["ELLX", "FIN"],
-            "station_id": "ELLX-F-APP"
+            "label": []
           },
           {
             "label": ["WLS"],
@@ -222,14 +210,13 @@
             "station_id": "EBBU-ELS"
           },
           {
-            "label": ["LUS"],
-            "color": "lagoon",
-            "station_id": "EBBU-LUS"
-          },
-          {
             "label": ["DEP"],
             "color": "lagoon",
             "station_id": "EBBR-DEP"
+          },
+          {
+            "label": [],
+            "color": "lagoon"
           },
           {
             "label": [],

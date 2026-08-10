@@ -1,0 +1,12 @@
+{
+  "id": "CYEG",
+  "type": "Geo",
+  "direction": "col",
+  "children": [
+    {
+      "label": ["EDMONTON"],
+      "size": 4.0,
+      "station_id": "CYEG-TWR"
+    }
+  ]
+}

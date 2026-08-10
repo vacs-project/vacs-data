@@ -3,135 +3,292 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["ENOS", ""],
+      "label": ["1", ""],
       "page": {
-        "rows": 6,
+        "rows": 7,
         "keys": [
           {
-            "label": ["OS 1"],
-            "station_id": "ENOS-1"
+            "label": ["EKDK", "UN", "365+"],
+            "station_id": "EKDKUN"
           },
           {
-            "label": ["OS 2"],
-            "station_id": "ENOS-2"
-          },
-          {
-            "label": ["OS 3"],
-            "station_id": "ENOS-3"
-          },
-          {
-            "label": ["OS 4"],
-            "station_id": "ENOS-4"
-          },
-          {
-            "label": ["OS 5"],
-            "station_id": "ENOS-5"
-          },
-          {
-            "label": ["OS 6"],
-            "station_id": "ENOS-6"
-          },
-          {
-            "label": ["OS 7"],
-            "station_id": "ENOS-7"
-          },
-          {
-            "label": ["OS 8"],
-            "station_id": "ENOS-8"
-          },
-          {
-            "label": ["ESKS", "TWR/APP"],
-            "station_id": "ESKS_TWR"
-          },
-          {
-            "label": ["SV 13"],
-            "station_id": "ENSV-13"
-          },
-          {
-            "label": ["SV 14"],
-            "station_id": "ENSV-14"
-          },
-          {
-            "label": ["SV 15"],
-            "station_id": "ENSV-15"
-          },
-          {
-            "label": ["BD 18"],
-            "station_id": "ENBD-18"
-          },
-          {
-            "label": ["BD 19"],
-            "station_id": "ENBD-19"
-          },
-          {
-            "label": ["SV 9"],
-            "station_id": "ENSV-9"
+            "label": ["EKDK", "N", "365-"],
+            "station_id": "EKDKN"
           },
           {
             "label": []
           },
           {
-            "label": ["DK UN ", "FL365+"],
-            "station_id": "EKDKUN"
+            "label": []
           },
           {
-            "label": ["DK N", "FL365-"],
-            "station_id": "EKDKN"
+            "label": ["S1"],
+            "station_id": "ENOS-1"
           },
           {
-            "label": ["ESOS N"],
-            "station_id": "ESOS_K"
+            "label": ["S5"],
+            "station_id": "ENOS-5"
           },
           {
-            "label": ["ESOS 3"],
-            "station_id": "ESOS_3"
+            "label": []
           },
           {
-            "label": ["ESMM 4"],
-            "station_id": "ESMM_4"
-          },
-          {
-            "label": ["DK UV", "FL365+"],
+            "label": ["EKDK", "UV", "365+"],
             "station_id": "EKDKUV"
           },
           {
-            "label": ["DK V", "FL285 - FL365", ""],
+            "label": ["EKDK", "V", "285-365"],
             "station_id": "EKDKV"
           },
           {
-            "label": ["DK L", "FL285-"],
+            "label": ["EKDK", "L", "285-"],
             "station_id": "EKDKL"
           },
           {
-            "label": ["CN", "APP"],
-            "station_id": "ENCN_APP"
+            "label": []
           },
           {
-            "label": ["FARRIS", "APP"],
+            "label": ["S2"],
+            "station_id": "ENOS-2"
+          },
+          {
+            "label": ["S6"],
+            "station_id": "ENOS-6"
+          },
+          {
+            "label": ["TMA W"],
+            "station_id": "ENGM_W_APP"
+          },
+          {
+            "label": ["ESOS", "N"],
+            "station_id": "ESOS_N"
+          },
+          {
+            "label": ["ESOS", "3"],
+            "station_id": "ESOS_3"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S3"],
+            "station_id": "ENOS-3"
+          },
+          {
+            "label": ["S7"],
+            "station_id": "ENOS-7"
+          },
+          {
+            "label": ["TMA E"],
+            "station_id": "ENGM_E_APP"
+          },
+          {
+            "label": ["ESMM", "4"],
+            "station_id": "ESMM_4"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ESKS"],
+            "station_id": "ESKS_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S4"],
+            "station_id": "ENOS-4"
+          },
+          {
+            "label": ["S8"],
+            "station_id": "ENOS-8"
+          },
+          {
+            "label": ["DIR"],
+            "station_id": "ENGM_D_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["2", ""],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["SV", "S9"],
+            "station_id": "ENSV-9"
+          },
+          {
+            "label": ["SV", "S17"],
+            "station_id": "ENSV-17"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["FR", "TMA"],
             "station_id": "ENTO_APP"
           },
           {
-            "label": ["FARRIS", "DIR"],
+            "label": ["S1"],
+            "station_id": "ENOS-1"
+          },
+          {
+            "label": ["S5"],
+            "station_id": "ENOS-5"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SV", "S10"],
+            "station_id": "ENSV-10"
+          },
+          {
+            "label": ["BD", "S18"],
+            "station_id": "ENBD-18"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FR", "DIR"],
             "station_id": "ENTO_D_APP"
+          },
+          {
+            "label": ["S2"],
+            "station_id": "ENOS-2"
+          },
+          {
+            "label": ["S6"],
+            "station_id": "ENOS-6"
+          },
+          {
+            "label": ["TMA W"],
+            "station_id": "ENGM_W_APP"
+          },
+          {
+            "label": ["SV", "S13"],
+            "station_id": "ENSV-13"
+          },
+          {
+            "label": ["BD", "S19"],
+            "station_id": "ENBD-19"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S3"],
+            "station_id": "ENOS-3"
+          },
+          {
+            "label": ["S7"],
+            "station_id": "ENOS-7"
+          },
+          {
+            "label": ["TMA E"],
+            "station_id": "ENGM_E_APP"
+          },
+          {
+            "label": ["SV", "S14"],
+            "station_id": "ENSV-14"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["CN", "TMA"],
+            "station_id": "ENCN_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["S4"],
+            "station_id": "ENOS-4"
+          },
+          {
+            "label": ["S8"],
+            "station_id": "ENOS-8"
+          },
+          {
+            "label": ["DIR"],
+            "station_id": "ENGM_D_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["3", ""],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["GM", "TWR W"],
+            "station_id": "ENGM_W_TWR"
+          },
+          {
+            "label": ["GM", "DEL W"],
+            "station_id": "ENGM_W_DEL"
+          },
+          {
+            "label": []
           },
           {
             "label": ["TO", "TWR"],
             "station_id": "ENTO_TWR"
           },
           {
-            "label": ["TO", "GND"],
-            "station_id": "ENTO_GND"
-          },
-          {
             "label": ["NO", "AFIS"],
             "station_id": "ENNO_I_TWR"
+          },
+          {
+            "label": []
           },
           {
             "label": ["CN", "TWR"],
             "station_id": "ENCN_TWR"
           },
           {
+            "label": ["GM", "TWR E"],
+            "station_id": "ENGM_E_TWR"
+          },
+          {
+            "label": ["GM", "DEL E"],
+            "station_id": "ENGM_E_DEL"
+          },
+          {
             "label": []
+          },
+          {
+            "label": ["TO", "GND"],
+            "station_id": "ENTO_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GM", "GND W"],
+            "station_id": "ENGM_W_GND"
+          },
+          {
+            "label": ["GM", "APRON"],
+            "station_id": "ENGM_ICE_GND"
           },
           {
             "label": []
@@ -141,6 +298,26 @@
             "station_id": "ENRY_TWR"
           },
           {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GM", "GND E"],
+            "station_id": "ENGM_E_GND"
+          },
+          {
+            "label": ["GM", "PLN"],
+            "station_id": "ENGM_P_GND"
+          },
+          {
+            "label": []
+          },
+          {
             "label": ["RY", "GND"],
             "station_id": "ENRY_GND"
           },
@@ -148,52 +325,10 @@
             "label": []
           },
           {
-            "label": ["GM W", "APP"],
-            "station_id": "ENGM_W_APP"
+            "label": []
           },
           {
-            "label": ["GM", "FIN"],
-            "station_id": "ENGM_F_APP"
-          },
-          {
-            "label": ["GM W", "TWR"],
-            "station_id": "ENGM_W_TWR"
-          },
-          {
-            "label": ["GM W", "GND"],
-            "station_id": "ENGM_W_GND"
-          },
-          {
-            "label": ["GM W", "DEL"],
-            "station_id": "ENGM_W_DEL"
-          },
-          {
-            "label": ["GM", "PLN"],
-            "station_id": "ENGM_P_GND"
-          },
-          {
-            "label": ["GM E", "APP"],
-            "station_id": "ENGM_E_APP"
-          },
-          {
-            "label": ["GM", "DIR"],
-            "station_id": "ENGM_D_APP"
-          },
-          {
-            "label": ["GM E", "TWR"],
-            "station_id": "ENGM_E_TWR"
-          },
-          {
-            "label": ["GM E", "GND"],
-            "station_id": "ENGM_E_GND"
-          },
-          {
-            "label": ["GM E", "DEL"],
-            "station_id": "ENGM_E_DEL"
-          },
-          {
-            "label": ["GM", "DEICE"],
-            "station_id": "ENGM_ICE_GND"
+            "label": []
           }
         ]
       }

@@ -3,42 +3,106 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["OEDF"],
+      "label": ["ADC"],
       "page": {
-        "rows": 3,
+        "rows": 2,
         "keys": [
-          { "label": ["1_GND"], "station_id": "OEDF_1_GND", "color": "mint" },
-          { "label": ["2_GND"], "station_id": "OEDF_2_GND", "color": "mint" },
-          { "label": [], "color": "snow" },
-          { "label": ["1_TWR"], "station_id": "OEDF_1_TWR", "color": "lagoon" },
-          { "label": ["2_TWR"], "station_id": "OEDF_2_TWR", "color": "lagoon" },
-          { "label": [], "color": "snow" }
+          {
+            "label": ["AIR W"],
+            "station_id": "OEDF_W_GND",
+            "color": "lagoon"
+          },
+          {
+            "label": ["GMC W"],
+            "station_id": "OEDF_W_TWR",
+            "color": "mint"
+          },
+          {
+            "label": ["AIR E"],
+            "station_id": "OEDF_W_TWR",
+            "color": "lagoon"
+          },
+          {
+            "label": ["GMC E"],
+            "station_id": "OEDF_E_GND",
+            "color": "mint"
+          },
+          {
+            "label": [""],
+            "color": "snow"
+          },
+          {
+            "label": [""],
+            "color": "snow"
+          },
+          {
+            "label": ["CTA"],
+            "station_id": "OEDF_APP",
+            "color": "cadet"
+          },
+          {
+            "label": ["TMA"],
+            "station_id": "OEDF_L_APP",
+            "color": "cadet"
+          },
+          {
+            "label": [""],
+            "color": "snow"
+          },
+          {
+            "label": ["JD NE"],
+            "station_id": "OEDF_L_APP",
+            "color": "cadet"
+          }
         ]
       }
     },
     {
-      "label": ["ACC+"],
+      "label": ["TMA+"],
       "page": {
         "rows": 3,
         "keys": [
           {
-            "label": ["APP LOWER", "FL155-"],
-            "station_id": "OEDF_L_APP",
-            "color": "azure"
+            "label": ["JD", "NE", "245+"],
+            "station_id": "OEJD_NE_CTR",
+            "color": "lagoon"
           },
           {
-            "label": ["APP UPPER", "FL155-FL245"],
+            "label": ["DMM", "CTA", "155-245"],
             "station_id": "OEDF_APP",
-            "color": "azure"
+            "color": "mint"
           },
-          { "label": [], "color": "snow" },
           {
-            "label": ["JED NE", "FL245+"],
-            "station_id": "OERD_NE_CTR",
+            "label": ["DMM", "TMA", "155-"],
+            "station_id": "OEDF_L_APP",
+            "color": "mint"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["BAH", "TMA", "170-"],
+            "station_id": "OBBI_APP",
             "color": "azure"
           },
-          { "label": ["BAH APP"], "station_id": "OBBI_APP", "color": "lilac" },
-          { "label": [], "color": "snow" }
+          {
+            "label": ["OBBB", "CS", "345+"],
+            "station_id": "OBBB_1_CTR",
+            "color": "cadet"
+          },
+          {
+            "label": ["OBBB", "CH", "295-345"],
+            "station_id": "OBBB_1_CTR",
+            "color": "cadet"
+          },
+          {
+            "label": ["OBBB", "CL", "295-"],
+            "station_id": "OBBB_CL_CTR",
+            "color": "cadet"
+          }
         ]
       }
     }

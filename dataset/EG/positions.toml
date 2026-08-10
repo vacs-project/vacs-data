@@ -66,35 +66,35 @@ id = "EGBB_APP"
 prefixes = ["EGBB"]
 frequency = "123.980"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_F_APP"
 prefixes = ["EGBB"]
 frequency = "131.005"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_TWR"
 prefixes = ["EGBB"]
 frequency = "118.305"
 facility_type = "TWR"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_GND"
 prefixes = ["EGBB"]
 frequency = "121.805"
 facility_type = "GND"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_DEL"
 prefixes = ["EGBB"]
 frequency = "121.930"
 facility_type = "DEL"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBJ_A_APP"
@@ -1032,28 +1032,28 @@ id = "EGNX_APP"
 prefixes = ["EGNX"]
 frequency = "126.180"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_F_APP"
 prefixes = ["EGNX"]
 frequency = "120.130"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_TWR"
 prefixes = ["EGNX"]
 frequency = "124.005"
 facility_type = "TWR"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_GND"
 prefixes = ["EGNX"]
 frequency = "121.905"
 facility_type = "GND"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGOE_TWR"
@@ -1343,16 +1343,9 @@ facility_type = "CTR"
 profile_id = "EG-UK_ALL"
 
 [[positions]]
-id = "EGQL_APP"
+id = "EGQL_A_APP"
 prefixes = ["EGQL"]
 frequency = "126.505"
-facility_type = "APP"
-profile_id = "EG-Swanwick_Military"
-
-[[positions]]
-id = "EGQL_P_APP"
-prefixes = ["EGQL"]
-frequency = "123.300"
 facility_type = "APP"
 profile_id = "EG-Swanwick_Military"
 
@@ -1809,6 +1802,13 @@ id = "EGWC_TWR"
 prefixes = ["EGWC"]
 frequency = "128.655"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
+
+[[positions]]
+id = "EGWC_GND"
+prefixes = ["EGWC"]
+frequency = "128.655"
+facility_type = "GND"
 profile_id = "EG-Swanwick_Military"
 
 [[positions]]
@@ -2674,13 +2674,6 @@ profile_id = "EG-AFIS_AGCS"
 id = "EGBD_R_TWR"
 prefixes = ["EGBD"]
 frequency = "118.355"
-facility_type = "TWR"
-profile_id = "EG-AFIS_AGCS"
-
-[[positions]]
-id = "EGBE_I_TWR"
-prefixes = ["EGBE"]
-frequency = "123.830"
 facility_type = "TWR"
 profile_id = "EG-AFIS_AGCS"
 

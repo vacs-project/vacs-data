@@ -1,0 +1,453 @@
+# --- GND/DEL ---
+[[stations]]
+id = "SABE_DEL"
+parent_id = "SABE_GND"
+controlled_by = ["SABE_DEL"]
+
+[[stations]]
+id = "SABE_GND"
+parent_id = "SABE_TWR"
+controlled_by = ["SABE_GND"]
+
+[[stations]]
+id = "SAEZ_DEL"
+parent_id = "SAEZ_GND"
+controlled_by = ["SAEZ_DEL"]
+
+[[stations]]
+id = "SAEZ_GND"
+parent_id = "SAEZ_TWR"
+controlled_by = ["SAEZ_GND"]
+
+[[stations]]
+id = "SADF_DEL"
+parent_id = "SADF_GND"
+controlled_by = ["SADF_DEL"]
+
+[[stations]]
+id = "SADF_GND"
+parent_id = "SADF_TWR"
+controlled_by = ["SADF_GND"]
+
+[[stations]]
+id = "SAAR_GND"
+parent_id = "SAAR_APP"
+controlled_by = ["SAAR_GND"]
+
+[[stations]]
+id = "SADM_GND"
+parent_id = "SADM_TWR"
+controlled_by = ["SADM_GND"]
+
+[[stations]]
+id = "SADP_GND"
+parent_id = "SADP_TWR"
+controlled_by = ["SADP_GND"]
+
+[[stations]]
+id = "SAZB_GND"
+parent_id = "SAZB_TWR"
+controlled_by = ["SAZB_GND"]
+
+[[stations]]
+id = "SAZM_GND"
+parent_id = "SAZM_APP"
+controlled_by = ["SAZM_GND"]
+
+[[stations]]
+id = "SAZN_GND"
+parent_id = "SAZN_APP"
+controlled_by = ["SAZN_GND"]
+
+[[stations]]
+id = "SAZS_GND"
+parent_id = "SAZS_APP"
+controlled_by = ["SAZS_GND"]
+
+[[stations]]
+id = "SACO_DEL"
+parent_id = "SACO_GND"
+controlled_by = ["SACO_DEL"]
+
+[[stations]]
+id = "SACO_GND"
+parent_id = "SACO_TWR"
+controlled_by = ["SACO_GND"]
+
+[[stations]]
+id = "SANT_GND"
+parent_id = "SANT_TWR"
+controlled_by = ["SANT_GND"]
+
+[[stations]]
+id = "SAME_GND"
+parent_id = "SAME_TWR"
+controlled_by = ["SAME_GND"]
+
+[[stations]]
+id = "SARE_GND"
+parent_id = "SARE_TWR"
+controlled_by = ["SARE_GND"]
+
+# --- TWR ---
+[[stations]]
+id = "SABE_TWR"
+parent_id = "BAIRES_CTR"
+controlled_by = ["SABE_TWR"]
+
+[[stations]]
+id = "SAEZ_TWR"
+parent_id = "BAIRES_CTR"
+controlled_by = ["SAEZ_TWR"]
+
+[[stations]]
+id = "SADF_TWR"
+parent_id = "SABE_TWR"
+controlled_by = ["SADF_TWR"]
+
+[[stations]]
+id = "SADP_TWR"
+parent_id = "SABE_TWR"
+controlled_by = ["SADP_TWR"]
+
+[[stations]]
+id = "SADM_TWR"
+parent_id = "SABE_TWR"
+controlled_by = ["SADM_TWR"]
+
+[[stations]]
+id = "SAAV_TWR"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAAV_TWR"]
+
+[[stations]]
+id = "SAAI_TWR"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAAI_TWR"]
+
+[[stations]]
+id = "SAZB_TWR"
+parent_id = "SAZB_APP"
+controlled_by = ["SAZB_TWR"]
+
+[[stations]]
+id = "SADJ_TWR"
+parent_id = "BAIRES_CTR"
+controlled_by = ["SADJ_TWR"]
+
+[[stations]]
+id = "SACO_TWR"
+parent_id = "SACO_APP"
+controlled_by = ["SACO_TWR"]
+
+[[stations]]
+id = "SANT_TWR"
+parent_id = "SANT_APP"
+controlled_by = ["SANT_TWR"]
+
+[[stations]]
+id = "SASA_TWR"
+parent_id = "SASA_APP"
+controlled_by = ["SASA_TWR"]
+
+[[stations]]
+id = "SASJ_TWR"
+parent_id = "SASA_APP"
+controlled_by = ["SASJ_TWR"]
+
+[[stations]]
+id = "SANR_TWR"
+parent_id = "SACF_CTR"
+controlled_by = ["SANR_TWR"]
+
+[[stations]]
+id = "SACE_TWR"
+parent_id = "SACO_APP"
+controlled_by = ["SACE_TWR"]
+
+[[stations]]
+id = "SAME_TWR"
+parent_id = "SAME_APP"
+controlled_by = ["SAME_TWR"]
+
+[[stations]]
+id = "SAVC_TWR"
+parent_id = "SAVC_APP"
+controlled_by = ["SAVC_TWR"]
+
+[[stations]]
+id = "SAWG_TWR"
+parent_id = "SAWG_APP"
+controlled_by = ["SAWG_TWR"]
+
+[[stations]]
+id = "SAVY_TWR"
+parent_id = "SAVT_APP"
+controlled_by = ["SAVY_TWR"]
+
+[[stations]]
+id = "SARE_TWR"
+parent_id = "SARE_APP"
+controlled_by = ["SARE_TWR"]
+
+[[stations]]
+id = "SARI_TWR"
+parent_id = "SARR_CTR"
+controlled_by = ["SARI_TWR"]
+
+[[stations]]
+id = "SARC_TWR"
+parent_id = "SARE_APP"
+controlled_by = ["SARC_TWR"]
+
+[[stations]]
+id = "SARF_TWR"
+parent_id = "SARE_APP"
+controlled_by = ["SARF_TWR"]
+
+[[stations]]
+id = "SATG_TWR"
+parent_id = "SATR_APP"
+controlled_by = ["SATG_TWR"]
+
+# --- APP.1 ---
+[[stations]]
+id = "SAAR_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAAR_APP"]
+
+[[stations]]
+id = "SAZM_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAZM_APP"]
+
+[[stations]]
+id = "SAZN_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAZN_APP"]
+
+[[stations]]
+id = "SAZS_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAZS_APP"]
+
+[[stations]]
+id = "SAZB_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAZB_APP"]
+
+[[stations]]
+id = "SAZY_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAZY_APP"]
+
+[[stations]]
+id = "SAZT_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAZT_APP"]
+
+[[stations]]
+id = "SAAP_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAAP_APP"]
+
+[[stations]]
+id = "SAAC_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAAC_APP"]
+
+[[stations]]
+id = "SAZR_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAZR_APP"]
+
+[[stations]]
+id = "SAAG_APP"
+parent_id = "SAEF_CTR"
+controlled_by = ["SAAG_APP"]
+
+[[stations]]
+id = "SACO_APP"
+parent_id = "SACF_CTR"
+controlled_by = ["SACO_APP"]
+
+[[stations]]
+id = "SANT_APP"
+parent_id = "SACF_CTR"
+controlled_by = ["SANT_APP"]
+
+[[stations]]
+id = "SASA_APP"
+parent_id = "SACF_CTR"
+controlled_by = ["SASA_APP"]
+
+[[stations]]
+id = "SANC_APP"
+parent_id = "SACF_CTR"
+controlled_by = ["SANC_APP"]
+
+[[stations]]
+id = "SANE_APP"
+parent_id = "SACF_CTR"
+controlled_by = ["SANE_APP"]
+
+[[stations]]
+id = "SANL_APP"
+parent_id = "SACF_CTR"
+controlled_by = ["SANL_APP"]
+
+[[stations]]
+id = "SAOC_APP"
+parent_id = "SACF_CTR"
+controlled_by = ["SAOC_APP"]
+
+[[stations]]
+id = "SAOS_APP"
+parent_id = "SACF_CTR"
+controlled_by = ["SAOS_APP"]
+
+[[stations]]
+id = "SAME_APP"
+parent_id = "SAMF_CTR"
+controlled_by = ["SAME_APP"]
+
+[[stations]]
+id = "SANU_APP"
+parent_id = "SAMF_CTR"
+controlled_by = ["SANU_APP"]
+
+[[stations]]
+id = "SAOU_APP"
+parent_id = "SAMF_CTR"
+controlled_by = ["SAOU_APP"]
+
+[[stations]]
+id = "SAOR_APP"
+parent_id = "SAMF_CTR"
+controlled_by = ["SAOR_APP"]
+
+[[stations]]
+id = "SAMM_APP"
+parent_id = "SAMF_CTR"
+controlled_by = ["SAMM_APP"]
+
+[[stations]]
+id = "SAMR_APP"
+parent_id = "SAMF_CTR"
+controlled_by = ["SAMR_APP"]
+
+# --- APP.2 ---
+[[stations]]
+id = "SAVC_APP"
+parent_id = "SAVF_CTR"
+controlled_by = ["SAVC_APP"]
+
+[[stations]]
+id = "SAWG_APP"
+parent_id = "SAVF_CTR"
+controlled_by = ["SAWG_APP"]
+
+[[stations]]
+id = "SAWE_APP"
+parent_id = "SAVF_CTR"
+controlled_by = ["SAWE_APP"]
+
+[[stations]]
+id = "SAWH_APP"
+parent_id = "SAVF_CTR"
+controlled_by = ["SAWH_APP"]
+
+[[stations]]
+id = "SAVE_APP"
+parent_id = "SAVF_CTR"
+controlled_by = ["SAVE_APP"]
+
+[[stations]]
+id = "SAVT_APP"
+parent_id = "SAVF_CTR"
+controlled_by = ["SAVT_APP"]
+
+[[stations]]
+id = "SAVV_APP"
+parent_id = "SAVF_CTR"
+controlled_by = ["SAVV_APP"]
+
+[[stations]]
+id = "SAWB_APP"
+parent_id = "SAVF_CTR"
+controlled_by = ["SAWB_APP"]
+
+[[stations]]
+id = "SAWC_APP"
+parent_id = "SAVF_CTR"
+controlled_by = ["SAWC_APP"]
+
+[[stations]]
+id = "SARE_APP"
+parent_id = "SARR_CTR"
+controlled_by = ["SARE_APP"]
+
+[[stations]]
+id = "SARP_APP"
+parent_id = "SARR_CTR"
+controlled_by = ["SARP_APP"]
+
+[[stations]]
+id = "SATR_APP"
+parent_id = "SARR_CTR"
+controlled_by = ["SATR_APP"]
+
+[[stations]]
+id = "SARL_APP"
+parent_id = "SARR_CTR"
+controlled_by = ["SARL_APP"]
+
+# --- CTR ---
+[[stations]]
+id = "BAIRES_CTR"
+parent_id = "SAEF_CTR"
+controlled_by = ["BAIRES_CTR"]
+
+[[stations]]
+id = "SAEF_CTR"
+controlled_by = ["SAEF_CTR"]
+
+[[stations]]
+id = "SACF_CTR"
+controlled_by = ["SACF_CTR"]
+
+[[stations]]
+id = "SAMF_CTR"
+controlled_by = ["SAMF_CTR"]
+
+[[stations]]
+id = "SAVF_CTR"
+controlled_by = ["SAVF_CTR"]
+
+[[stations]]
+id = "SARR_CTR"
+controlled_by = ["SARR_CTR"]
+
+[[stations]]
+id = "SAEF_N_CTR"
+controlled_by = ["SAEF_N_CTR"]
+
+[[stations]]
+id = "SACF_N_CTR"
+controlled_by = ["SACF_N_CTR"]
+
+[[stations]]
+id = "SAVF_N_CTR"
+controlled_by = ["SAVF_N_CTR"]
+
+[[stations]]
+id = "SAEF_S_CTR"
+controlled_by = ["SAEF_S_CTR"]
+
+[[stations]]
+id = "SACF_S_CTR"
+controlled_by = ["SACF_S_CTR"]
+
+[[stations]]
+id = "SAVF_S_CTR"
+controlled_by = ["SAVF_S_CTR"]
