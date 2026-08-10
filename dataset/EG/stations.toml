@@ -1061,7 +1061,7 @@ controlled_by = ["EGJB_TWR"]
 
 [[stations]]
 id = "EGJB_APP"
-parent_id = "FIXME"
+parent_id = "EGJJ_C_APP"
 controlled_by = ["EGJB_APP", "EGJB_F_APP"]
 
 [[stations]]
@@ -1081,7 +1081,7 @@ controlled_by = ["EGJJ_TWR"]
 
 [[stations]]
 id = "EGJJ_APP"
-parent_id = "FIXME"
+parent_id = "EGJJ_C_APP"
 controlled_by = ["EGJJ_APP", "EGJJ_F_APP"]
 
 [[stations]]
