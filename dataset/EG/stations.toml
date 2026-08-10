@@ -1656,7 +1656,7 @@ controlled_by = ["EGVN_TWR"]
 
 [[stations]]
 id = "EGVN_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "EGVV_C_CTR"
 controlled_by = [
   "EGVN_APP",
   "EGVN_F_APP",
