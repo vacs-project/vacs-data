@@ -7,35 +7,20 @@
       "page": {
         "rows": 4,
         "keys": [
-          {
-            "label": ["GMP", "Assist"],
-            "station_id": "EGCC_A_DEL"
-          },
-          {
-            "label": ["PLN"],
-            "station_id": "EGCC_P_GND"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
+
           {
             "label": ["GMP"],
-            "station_id": "EGCC_DEL"
+            "station_id": "EGNM_DEL"
           },
           {
-            "label": ["GMC"],
-            "station_id": "EGCC_GND"
+            "label": []
           },
           {
-            "label": ["AIR", "1"],
-            "station_id": "EGCC_N_TWR"
+            "label": ["AIR"],
+            "station_id": "EGNM_TWR"
           },
           {
-            "label": ["AIR", "2"],
-            "station_id": "EGCC_S_TWR"
+            "label": []
           },
           {
             "label": []
@@ -54,15 +39,14 @@
           },
           {
             "label": ["FIN"],
-            "station_id": "EGCC_F_APP"
+            "station_id": "EGNM_F_APP"
           },
           {
-            "label": ["INT", "North"],
-            "station_id": "EGCC_N_APP"
+            "label": ["RAD"],
+            "station_id": "EGNM_APP"
           },
           {
-            "label": ["INT", "South"],
-            "station_id": "EGCC_S_APP"
+            "label": []
           },
           {
             "label": []
@@ -100,27 +84,28 @@
             "station_id": "EGNO_APP"
           },
           {
-            "label": ["GP", "RAD 1"],
-            "station_id": "EGGP_APP"
+            "label": ["CC", "INT N"],
+            "station_id": "EGCC_N_APP"
+          },          
+          {
+            "label": ["CC", "INT S"],
+            "station_id": "EGCC_S_APP"
           },
           {
-            "label": ["NR", "RAD"],
-            "station_id": "EGNR_APP"
+            "label": ["NJ", "RAD"],
+            "station_id": "EGNJ_APP"
           },
-          {
-            "label": ["NM", "RAD"],
-            "station_id": "EGNM_APP"
-          },
+
           {
             "label": []
           },
           {
-            "label": ["NX", "RAD"],
-            "station_id": "EGNX_APP"
+            "label": ["NT", "RAD"],
+            "station_id": "EGNT_APP"
           },
           {
-            "label": ["BB", "RAD"],
-            "station_id": "EGBB_APP"
+            "label": ["NV", "RAD"],
+            "station_id": "EGNV_APP"
           }
         ]
       }
