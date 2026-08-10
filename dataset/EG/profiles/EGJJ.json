@@ -8,7 +8,9 @@
         "rows": 6,
         "keys": [
           {
-            "label": [""]
+            "label": ["EGJJ", "GROUND"],
+            "color": "mint",
+            "station_id": "EGJJ_GND"
           },
           {
             "label": ["Western", "Radar"],
@@ -29,9 +31,9 @@
             "label": [""]
           },
           {
-            "label": ["EGJJ", "GROUND"],
+            "label": ["EGJJ", "TOWER"],
             "color": "mint",
-            "station_id": "EGJJ_GND"
+            "station_id": "EGJJ_TWR"
           },
           {
             "label": [""]
@@ -51,9 +53,9 @@
             "label": [""]
           },
           {
-            "label": ["EGJJ", "TOWER"],
+            "label": ["EGJB", "GROUND"],
             "color": "mint",
-            "station_id": "EGJJ_TWR"
+            "station_id": "EGJB_GND"
           },
           {
             "label": ["WEST BHD", "S06"],
@@ -75,7 +77,9 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["EGJB", "TOWER"],
+            "color": "mint",
+            "station_id": "EGJB_TWR"
           },
           {
             "label": ["WOR HURN", "S20/21"],
@@ -100,9 +104,9 @@
             "station_id": "LFRB_APP"
           },
           {
-            "label": ["EGJB", "GROUND"],
+            "label": ["EGJA", "GROUND"],
             "color": "mint",
-            "station_id": "EGJB_GND"
+            "station_id": "EGJA_GND"
           },
           {
             "label": ["Brest VS"],
@@ -130,9 +134,9 @@
             "station_id": "LFRN_DD_APP"
           },
           {
-            "label": ["EGJB", "TOWER"],
+            "label": ["EGJA", "TOWER"],
             "color": "mint",
-            "station_id": "EGJB_TWR"
+            "station_id": "EGJA_TWR"
           },
           {
             "label": ["Brest JS"],
@@ -154,11 +158,6 @@
           },
           {
             "label": [""]
-          },
-          {
-            "label": ["EGJA", "TOWER"],
-            "color": "mint",
-            "station_id": "EGJA_TWR"
           }
         ]
       }
@@ -225,7 +224,9 @@
             "station_id": "EGJB_GND"
           },
           {
-            "label": [""]
+            "label": ["EGJA", "GROUND"],
+            "color": "snow",
+            "station_id": "EGJA_GND"
           },
           {
             "label": ["EGJJ", "INT"],
