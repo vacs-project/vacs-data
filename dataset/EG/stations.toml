@@ -1025,6 +1025,16 @@ parent_id = "EGGW_APP"
 controlled_by = ["EGGW_F_APP"]
 
 [[stations]]
+id = "EGHH_APP"
+parent_id = "SOLENT_APP"
+controlled_by = ["EGHH_APP", "EGHH_F_APP"]
+
+[[stations]]
+id = "EGHH_F_APP"
+parent_id = "EGHH_APP"
+controlled_by = ["EGHH_F_APP"]
+
+[[stations]]
 id = "EGJA_GND"
 parent_id = "EGJA_TWR"
 controlled_by = ["EGJA_GND"]
