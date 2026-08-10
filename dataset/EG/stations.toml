@@ -1583,6 +1583,7 @@ controlled_by = ["EGSU_I_TWR"]
 
 [[stations]]
 id = "EGTC_A_APP"
+parent_id = "LTC_MW_CTR"
 controlled_by = ["EGTC_A_APP"]
 
 [[stations]]
