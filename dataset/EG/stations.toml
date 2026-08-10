@@ -996,7 +996,7 @@ controlled_by = ["EGDM_TWR"]
 
 [[stations]]
 id = "EGDM_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "EGVV_A_CTR"
 controlled_by = ["EGDM_APP", "EGDM_P_APP"]
 
 [[stations]]
