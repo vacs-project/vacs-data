@@ -20,45 +20,45 @@
             "station_id": "RPLL_P_GND"
           },
           {
+            "label": [""]
+          },
+          {
             "label": ["TWR"],
             "station_id": "RPLL_TWR"
           },
           {
-            "label": [""]
-          },
-          {
-            "label": ["APP"],
+            "label": ["FMO"],
             "station_id": "RPLL_APP"
           },
           {
-            "label": ["F_APP"],
+            "label": ["FMI"],
             "station_id": "RPLL_F_APP"
           },
           {
-            "label": ["N_APP"],
+            "label": ["FMN"],
             "station_id": "RPLL_N_APP"
           },
           {
-            "label": ["S_APP"],
+            "label": ["FMS"],
             "station_id": "RPLL_S_APP"
           },
           {
             "label": [""]
           },
           {
-            "label": ["RAMP 1"],
+            "label": ["APRON 1"],
             "station_id": "RPLL_1_RMP"
           },
           {
-            "label": ["RAMP 2"],
+            "label": ["APRON 2"],
             "station_id": "RPLL_2_RMP"
           },
           {
-            "label": ["RAMP 3"],
+            "label": ["APRON 3"],
             "station_id": "RPLL_3_RMP"
           },
           {
-            "label": ["RAMP D"],
+            "label": ["APRON G"],
             "station_id": "RPLL_G_RMP"
           },
           {
@@ -211,11 +211,11 @@
             "station_id": "RPUN_RDO"
           },
           {
-            "label": ["LEGASPI", "APP"],
+            "label": ["BICOL", "APP"],
             "station_id": "RPLK_APP"
           },
           {
-            "label": ["LEGASPI", "TWR"],
+            "label": ["BICOL", "TWR"],
             "station_id": "RPLK_TWR"
           },
           {

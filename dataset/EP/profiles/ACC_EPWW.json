@@ -843,7 +843,8 @@
                   "label": []
                 },
                 {
-                  "label": ["PO S", "FIS"]
+                  "label": ["PO S", "FIS"],
+                  "station_id": "EPPO_FIS_S"
                 },
                 {
                   "label": []
@@ -859,7 +860,8 @@
                   "label": []
                 },
                 {
-                  "label": ["WA W", "FIS"]
+                  "label": ["WA W", "FIS"],
+                  "station_id": "EPWA_FIS_W"
                 },
                 {
                   "label": []
@@ -882,8 +884,8 @@
                   "label": []
                 },
                 {
-                  "label": ["WA S", "FIS"],
-                  "station_id": "EPWA_FIS_S"
+                  "label": ["WA C", "FIS"],
+                  "station_id": "EPWA_FIS_C"
                 },
                 {
                   "label": []
@@ -892,19 +894,22 @@
                   "label": []
                 },
                 {
-                  "label": ["GD E", "FIS"]
+                  "label": ["GD E", "FIS"],
+                  "station_id": "EPGD_FIS_E"
                 },
                 {
                   "label": []
                 },
                 {
-                  "label": ["WA E", "FIS"]
+                  "label": ["WA E", "FIS"],
+                  "station_id": "EPWA_FIS_E"
                 },
                 {
                   "label": []
                 },
                 {
-                  "label": ["KK E", "FIS"]
+                  "label": ["KK E", "FIS"],
+                  "station_id": "EPKK_FIS_E"
                 },
                 {
                   "label": []
@@ -1944,7 +1949,8 @@
                   "label": []
                 },
                 {
-                  "label": ["PO S", "FIS"]
+                  "label": ["PO S", "FIS"],
+                  "station_id": "EPPO_FIS_S"
                 },
                 {
                   "label": []
@@ -1960,7 +1966,8 @@
                   "label": []
                 },
                 {
-                  "label": ["WA W", "FIS"]
+                  "label": ["WA W", "FIS"],
+                  "station_id": "EPWA_FIS_W"
                 },
                 {
                   "label": []
@@ -1983,8 +1990,8 @@
                   "label": []
                 },
                 {
-                  "label": ["WA S", "FIS"],
-                  "station_id": "EPWA_FIS_S"
+                  "label": ["WA C", "FIS"],
+                  "station_id": "EPWA_FIS_C"
                 },
                 {
                   "label": []
@@ -1993,19 +2000,22 @@
                   "label": []
                 },
                 {
-                  "label": ["GD E", "FIS"]
+                  "label": ["GD E", "FIS"],
+                  "station_id": "EPGD_FIS_E"
                 },
                 {
                   "label": []
                 },
                 {
-                  "label": ["WA E", "FIS"]
+                  "label": ["WA E", "FIS"],
+                  "station_id": "EPWA_FIS_E"
                 },
                 {
                   "label": []
                 },
                 {
-                  "label": ["KK E", "FIS"]
+                  "label": ["KK E", "FIS"],
+                  "station_id": "EPKK_FIS_E"
                 },
                 {
                   "label": []

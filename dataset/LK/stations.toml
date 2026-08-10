@@ -5,16 +5,17 @@ controlled_by = [
   "LKAA_R_CTR",
   "LKAA_W_CTR",
   "LKAA_L_CTR",
+  "LKAA_WU_CTR",
   "LKAA_CTR",
 ]
 
 [[stations]]
 id = "LKAA WL"
-controlled_by = ["LKAA_W_CTR", "LKAA_L_CTR", "LKAA_CTR"]
+controlled_by = ["LKAA_W_CTR", "LKAA_L_CTR", "LKAA_WU_CTR", "LKAA_CTR"]
 
 [[stations]]
 id = "LKAA WU"
-controlled_by = ["LKAA_U_CTR", "LKAA_W_CTR", "LKAA_CTR"]
+controlled_by = ["LKAA_WU_CTR", "LKAA_U_CTR", "LKAA_W_CTR", "LKAA_CTR"]
 
 [[stations]]
 id = "LKAA MT"
@@ -22,17 +23,18 @@ controlled_by = [
   "LKMT_APP",
   "LKAA_R_CTR",
   "LKAA_N_CTR",
+  "LKAA_NS_CTR",
   "LKAA_L_CTR",
   "LKAA_CTR",
 ]
 
 [[stations]]
 id = "LKAA NL"
-controlled_by = ["LKAA_N_CTR", "LKAA_L_CTR", "LKAA_CTR"]
+controlled_by = ["LKAA_N_CTR", "LKAA_NS_CTR", "LKAA_L_CTR", "LKAA_CTR"]
 
 [[stations]]
 id = "LKAA NU"
-controlled_by = ["LKAA_U_CTR", "LKAA_N_CTR", "LKAA_CTR"]
+controlled_by = ["LKAA_U_CTR", "LKAA_N_CTR", "LKAA_NS_CTR", "LKAA_CTR"]
 
 [[stations]]
 id = "LKAA TB"
@@ -40,21 +42,22 @@ controlled_by = [
   "LKTB_APP",
   "LKAA_R_CTR",
   "LKAA_S_CTR",
+  "LKAA_NS_CTR",
   "LKAA_L_CTR",
   "LKAA_CTR",
 ]
 
 [[stations]]
 id = "LKAA SL"
-controlled_by = ["LKAA_S_CTR", "LKAA_L_CTR", "LKAA_CTR"]
+controlled_by = ["LKAA_S_CTR", "LKAA_NS_CTR", "LKAA_L_CTR", "LKAA_CTR"]
 
 [[stations]]
 id = "LKAA SU"
-controlled_by = ["LKAA_U_CTR", "LKAA_S_CTR", "LKAA_CTR"]
+controlled_by = ["LKAA_U_CTR", "LKAA_S_CTR", "LKAA_NS_CTR", "LKAA_CTR"]
 
 [[stations]]
 id = "LKAA FIC"
-controlled_by = ["LKAA_I_CTR"]
+controlled_by = ["LKAA_FIC_FSS"]
 
 [[stations]]
 id = "LKPR ARR"

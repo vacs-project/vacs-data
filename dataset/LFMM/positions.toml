@@ -224,7 +224,7 @@ default_call_sources = ["LFLB_APP", "LFLB_I_APP", "LFLB_TWR", "LFLP_TWR"]
 [[positions]]
 id = "LFLB_I_APP"
 prefixes = ["LFLB"]
-frequency = "123.700"
+frequency = "123.705"
 facility_type = "APP"
 default_call_sources = ["LFLB_I_APP"]
 
@@ -679,7 +679,7 @@ default_call_sources = ["LFKJ_TWR", "LFKJ_GND"]
 [[positions]]
 id = "LFLB_TWR"
 prefixes = ["LFLB"]
-frequency = "118.300"
+frequency = "118.305"
 facility_type = "TWR"
 default_call_sources = ["LFLB_TWR"]
 
@@ -721,14 +721,14 @@ default_call_sources = ["LFLO_I_TWR"]
 [[positions]]
 id = "LFLP_TWR"
 prefixes = ["LFLP"]
-frequency = "118.200"
+frequency = "118.205"
 facility_type = "TWR"
 default_call_sources = ["LFLP_TWR"]
 
 [[positions]]
 id = "LFLS_TWR"
 prefixes = ["LFLS"]
-frequency = "119.300"
+frequency = "119.305"
 facility_type = "TWR"
 default_call_sources = ["LFLS_TWR", "LFLS_GND"]
 

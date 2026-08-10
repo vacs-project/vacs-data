@@ -935,6 +935,21 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "EGBB_DEL"
+parent_id = "EGBB_GND"
+controlled_by = ["EGBB_DEL"]
+
+[[stations]]
+id = "EGBB_GND"
+parent_id = "EGBB_TWR"
+controlled_by = ["EGBB_GND"]
+
+[[stations]]
+id = "EGBB_TWR"
+parent_id = "EGBB_APP"
+controlled_by = ["EGBB_TWR"]
+
+[[stations]]
 id = "EGBB_APP"
 parent_id = "LTC_MC_CTR"
 controlled_by = ["EGBB_APP", "EGBB_F_APP"]

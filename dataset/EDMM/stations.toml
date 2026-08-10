@@ -142,10 +142,9 @@ controlled_by = [
   "EDUU_AMM_CTR",
   "EDUU_ALP_CTR",
   "EDMM_NDG_CTR",
-  "EDMM_WLD_CTR",
   "EDMM_TRU_CTR",
   "EDMM_STA_CTR",
-  "EDMM_TEG_CTR",
+  "EDMM_WLD_CTR",
   "EDMM_ZUG_CTR",
   "EDMM_RDG_CTR",
 ]
