@@ -1596,7 +1596,7 @@ controlled_by = ["EGTK_TWR"]
 
 [[stations]]
 id = "EGTK_APP"
-parent_id = "LTC_M_CTR"
+parent_id = "LTC_MC_CTR"
 controlled_by = ["EGTK_APP"]
 
 [[stations]]
