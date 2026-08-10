@@ -60,7 +60,7 @@
           {
             "label": ["PC", "NE"],
             "color": "azure",
-            "station_id": "LON_NW_CTR"
+            "station_id": "MAN_NE_CTR"
           },
           {
             "label": ["EGBB", "APC"],
