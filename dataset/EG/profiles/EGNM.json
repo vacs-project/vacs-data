@@ -3,7 +3,7 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "ADC",
+      "label": "EGNM",
       "page": {
         "rows": 4,
         "keys": [
