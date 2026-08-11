@@ -1173,10 +1173,10 @@ parent_id = "MAN_WI_CTR"
 controlled_by = ["EGNH_A_APP"]
 
 [[stations]]
-id = "EGNJ_APP"
-parent_id = "MAN_NE_CTR"
 controlled_by ["EGNJ_APP"]
 
+id = "EGNJ_APP"
+parent_id = "MAN_NE_CTR"
 [[stations]]
 id = "EGNM_DEL"
 parent_id = "EGNM_TWR"

@@ -7,7 +7,6 @@
       "page": {
         "rows": 4,
         "keys": [
-
           {
             "label": ["GMP"],
             "station_id": "EGNM_DEL"
@@ -22,7 +21,7 @@
           {
             "label": []
           },
-         
+
           {
             "label": []
           },
@@ -75,7 +74,7 @@
           {
             "label": ["CC", "INT"],
             "station_id": "EGCC_N_APP"
-          },          
+          },
           {
             "label": []
           },
@@ -98,7 +97,7 @@
         ]
       }
     },
-{
+    {
       "label": ["SUP", "Flow"],
       "page": {
         "rows": 4,
