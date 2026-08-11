@@ -129,11 +129,12 @@
             "station_id": "MAN_FMP"
           },
           {
-            "label": ["SCO", "GS"],
+            "label": ["LON", "GS"],
             "station_id": "LON_GS_CTR"
           },
           {
-            "label": []
+            "label": ["LON","FMP"],
+            "station_id": "LON_FMP"
           }
         ]
       }
