@@ -128,16 +128,13 @@
     {
       "label": ["SUP", "Flow"],
       "page": {
-        "rows": 2,
+        "rows": 4,
         "keys": [
           {
             "label": ["UK", "FMP"],
             "station_id": "UK_FMP"
           },
-          {
-            "label": ["MAN", "FMP"],
-            "station_id": "MAN_FMP"
-          },
+
           {
             "label": ["UK", "FMP", "2"],
             "station_id": "UK_A_FMP"
@@ -147,47 +144,24 @@
             "station_id": "UK_B_FMP"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["MAN", "Group", "Supvisr"],
-            "station_id": "MAN_GS_CTR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["LAC", "Group", "Supvisr"],
-            "station_id": "LON_GS_CTR"
-          },
-          {
-            "label": ["LTC", "Group", "Supvisr"],
-            "station_id": "LTC_GS_CTR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["LTC", "FMP"],
-            "station_id": "LTC_FMP"
-          },
-          {
             "label": ["SCL", "FMP"],
             "station_id": "SCL_FMP"
           },
           {
-            "label": ["ScAC", "Group", "Supvisr"],
-            "station_id": "SCO_GS_CTR"
+            "label": ["MAN", "GS"],
+            "station_id": "MAN_GS_CTR"
           },
           {
-            "label": ["SCL", "Group", "Supvisr"],
-            "station_id": "SCL_GS_CTR"
+            "label": ["MAN", "FMP"],
+            "station_id": "MAN_FMP"
+          },
+          {
+            "label": ["LON", "GS"],
+            "station_id": "LON_GS_CTR"
+          },
+          {
+            "label": ["LON", "FMP"],
+            "station_id": "LON_FMP"
           }
         ]
       }
