@@ -23,7 +23,7 @@
             "station_id": "LTC_SW_CTR"
           },
           {
-            "label": ["WOR"],
+            "label": ["AC", "WOR"],
             "color": "azure",
             "station_id": "LON_H_CTR"
           },
@@ -48,7 +48,7 @@
             "station_id": "LTC_SE_CTR"
           },
           {
-            "label": ["DVR"],
+            "label": ["AC", "DVR"],
             "color": "azure",
             "station_id": "LON_D_CTR"
           },
