@@ -84,7 +84,7 @@
             "label": []
           },
           {
-            "label": ["NH","APP"],
+            "label": ["NH", "APP"],
             "station_id": "EGNH_A_APP"
           },
           {
@@ -102,7 +102,7 @@
           {
             "label": ["NR", "RAD"],
             "station_id": "EGNR_APP"
-          },          
+          },
           {
             "label": ["NM", "RAD"],
             "station_id": "EGNM_APP"
@@ -110,9 +110,9 @@
           {
             "label": ["PC", "NE"],
             "station_id": "MAN_NE_CTR"
-          },          
+          },
           {
-            "label": ["PC","SE"],
+            "label": ["PC", "SE"],
             "station_id": "MAN_SE_CTR"
           },
           {
@@ -126,8 +126,8 @@
         ]
       }
     },
-              
-        {
+
+    {
       "label": ["SUP", "Flow"],
       "page": {
         "rows": 4,
