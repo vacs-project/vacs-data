@@ -74,7 +74,7 @@ parent_id = "EINN_APP"
 [[stations]]
 id = "EINN_APP"
 controlled_by = ["EINN_APP"]
-parent_id = "EISN_LS_CTR"
+parent_id = "MUNSTER_APP"
 
 ### EICK ###
 
@@ -91,6 +91,13 @@ parent_id = "EICK_APP"
 [[stations]]
 id = "EICK_APP"
 controlled_by = ["EICK_APP"]
+parent_id = "MUNSTER_APP"
+
+### MUNSTER ###
+
+[[stations]]
+id = "MUNSTER_APP"
+controlled_by = ["MUNSTER_APP"]
 parent_id = "EISN_LS_CTR"
 
 ### EIME ###
@@ -120,7 +127,7 @@ parent_id = "EISN_LN_CTR"
 [[stations]]
 id = "EIKY_TWR"
 controlled_by = ["EIKY_TWR"]
-parent_id = "EISN_LS_CTR"
+parent_id = "MUNSTER_APP"
 
 [[stations]]
 id = "EISG_TWR"

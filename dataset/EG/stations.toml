@@ -935,6 +935,16 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "EGBB_DEL"
+parent_id = "EGBB_GND"
+controlled_by = ["EGBB_DEL"]
+
+[[stations]]
+id = "EGBB_GND"
+parent_id = "EGBB_TWR"
+controlled_by = ["EGBB_GND"]
+
+[[stations]]
 id = "EGBB_TWR"
 parent_id = "EGBB_APP"
 controlled_by = ["EGBB_TWR"]
@@ -1331,6 +1341,11 @@ controlled_by = ["EGNV_APP", "EGNV_F_APP"]
 id = "EGNV_F_APP"
 parent_id = "EGNV_APP"
 controlled_by = ["EGNV_F_APP"]
+
+[[stations]]
+id = "EGNX_GND"
+parent_id = "EGNX_TWR"
+controlled_by = ["EGNX_GND"]
 
 [[stations]]
 id = "EGNX_TWR"

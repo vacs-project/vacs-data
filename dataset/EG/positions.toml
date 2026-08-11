@@ -66,35 +66,35 @@ id = "EGBB_APP"
 prefixes = ["EGBB"]
 frequency = "123.980"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_F_APP"
 prefixes = ["EGBB"]
 frequency = "131.005"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_TWR"
 prefixes = ["EGBB"]
 frequency = "118.305"
 facility_type = "TWR"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_GND"
 prefixes = ["EGBB"]
 frequency = "121.805"
 facility_type = "GND"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_DEL"
 prefixes = ["EGBB"]
 frequency = "121.930"
 facility_type = "DEL"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBJ_A_APP"
@@ -1032,28 +1032,28 @@ id = "EGNX_APP"
 prefixes = ["EGNX"]
 frequency = "126.180"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_F_APP"
 prefixes = ["EGNX"]
 frequency = "120.130"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_TWR"
 prefixes = ["EGNX"]
 frequency = "124.005"
 facility_type = "TWR"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_GND"
 prefixes = ["EGNX"]
 frequency = "121.905"
 facility_type = "GND"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGOE_TWR"

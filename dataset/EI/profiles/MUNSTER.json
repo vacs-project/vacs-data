@@ -1,0 +1,59 @@
+{
+  "id": "MUNSTER",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["MUNSTER"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["EINN", "APP"],
+            "color": "lilac",
+            "station_id": "EINN_APP"
+          },
+          {
+            "label": ["EICK", "APP", ""],
+            "color": "blush",
+            "station_id": "EICK_APP"
+          },
+          {
+            "label": ["EISN", "", ""],
+            "color": "mint",
+            "station_id": "EISN_LS_CTR"
+          },
+          {
+            "label": ["EINN", "TWR"],
+            "color": "lilac",
+            "station_id": "EINN_TWR"
+          },
+          {
+            "label": ["EICK", "TWR"],
+            "color": "blush",
+            "station_id": "EICK_TWR"
+          },
+          {
+            "label": ["FIS"],
+            "color": "mint",
+            "station_id": "EISN_I_CTR"
+          },
+          {
+            "label": ["EINN", "GND"],
+            "color": "lilac",
+            "station_id": "EINN_GND"
+          },
+          {
+            "label": ["EICK", "GND"],
+            "color": "blush",
+            "station_id": "EICK_GND"
+          },
+          {
+            "label": ["EIKY"],
+            "color": "snow",
+            "station_id": "EIKY_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

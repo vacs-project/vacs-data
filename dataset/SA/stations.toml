@@ -45,6 +45,11 @@ parent_id = "SADP_TWR"
 controlled_by = ["SADP_GND"]
 
 [[stations]]
+id = "SAZB_GND"
+parent_id = "SAZB_TWR"
+controlled_by = ["SAZB_GND"]
+
+[[stations]]
 id = "SAZM_GND"
 parent_id = "SAZM_APP"
 controlled_by = ["SAZM_GND"]
@@ -58,6 +63,11 @@ controlled_by = ["SAZN_GND"]
 id = "SAZS_GND"
 parent_id = "SAZS_APP"
 controlled_by = ["SAZS_GND"]
+
+[[stations]]
+id = "SACO_DEL"
+parent_id = "SACO_GND"
+controlled_by = ["SACO_DEL"]
 
 [[stations]]
 id = "SACO_GND"
