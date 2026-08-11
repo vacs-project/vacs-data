@@ -133,8 +133,7 @@
             "station_id": "LON_GS_CTR"
           },
           {
-            "label": ["LON","FMP"],
-            "station_id": "LON_FMP"
+            "label": []
           }
         ]
       }
