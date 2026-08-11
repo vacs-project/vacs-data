@@ -112,7 +112,8 @@
             "station_id": "EGNM_APP"
           },
           {
-            "label": []
+            "label": ["EGCB"],
+            "station_id": "EGCB_I_TWR"
           },
           {
             "label": ["NX", "RAD"],
