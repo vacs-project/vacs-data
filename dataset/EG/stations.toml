@@ -996,7 +996,7 @@ controlled_by = ["EGDM_TWR"]
 
 [[stations]]
 id = "EGDM_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "EGVV_A_CTR"
 controlled_by = ["EGDM_APP", "EGDM_P_APP"]
 
 [[stations]]
@@ -1583,6 +1583,7 @@ controlled_by = ["EGSU_I_TWR"]
 
 [[stations]]
 id = "EGTC_A_APP"
+parent_id = "LTC_MW_CTR"
 controlled_by = ["EGTC_A_APP"]
 
 [[stations]]
@@ -1596,7 +1597,7 @@ controlled_by = ["EGTK_TWR"]
 
 [[stations]]
 id = "EGTK_APP"
-parent_id = "LTC_M_CTR"
+parent_id = "LTC_MC_CTR"
 controlled_by = ["EGTK_APP"]
 
 [[stations]]
@@ -1611,8 +1612,8 @@ controlled_by = ["EGUB_TWR"]
 
 [[stations]]
 id = "EGUB_APP"
-parent_id = "EGVV_W_CTR"
-controlled_by = ["EGUB_APP", "EGUB_P_APP"]
+parent_id = "EGVV_C_CTR"
+controlled_by = ["EGUB_APP", "EGUB_P_APP","STHRN_APP"]
 
 [[stations]]
 id = "EGUB_P_APP"
@@ -1636,7 +1637,7 @@ controlled_by = ["EGUW_TWR"]
 
 [[stations]]
 id = "EGUW_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "EGVV_D_CTR"
 controlled_by = ["EGUW_APP", "EGUW_P_APP"]
 
 [[stations]]
@@ -1656,7 +1657,7 @@ controlled_by = ["EGVN_TWR"]
 
 [[stations]]
 id = "EGVN_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "EGVV_C_CTR"
 controlled_by = [
   "EGVN_APP",
   "EGVN_F_APP",
@@ -1692,8 +1693,8 @@ controlled_by = ["EGVO_TWR"]
 
 [[stations]]
 id = "EGVO_APP"
-parent_id = "EGVV_W_CTR"
-controlled_by = ["EGVO_APP", "EGVO_P_APP"]
+parent_id = "EGVV_D_CTR"
+controlled_by = ["EGVO_APP", "EGVO_P_APP","STHRN_APP"]
 
 [[stations]]
 id = "EGVO_P_APP"
@@ -1707,7 +1708,7 @@ controlled_by = ["EGVP_TWR"]
 
 [[stations]]
 id = "EGVP_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "EGVV_A_CTR"
 controlled_by = ["EGVP_APP"]
 
 [[stations]]
