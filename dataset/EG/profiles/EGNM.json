@@ -73,12 +73,11 @@
             "station_id": "EGNO_APP"
           },
           {
-            "label": ["CC", "INT N"],
+            "label": ["CC", "INT"],
             "station_id": "EGCC_N_APP"
           },          
           {
-            "label": ["CC", "INT S"],
-            "station_id": "EGCC_S_APP"
+            "label": []
           },
           {
             "label": ["NJ", "RAD"],
