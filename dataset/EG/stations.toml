@@ -1628,7 +1628,7 @@ controlled_by = ["EGUB_TWR"]
 [[stations]]
 id = "EGUB_APP"
 parent_id = "EGVV_C_CTR"
-controlled_by = ["EGUB_APP", "EGUB_P_APP","STHRN_APP"]
+controlled_by = ["EGUB_APP", "EGUB_P_APP", "STHRN_APP"]
 
 [[stations]]
 id = "EGUB_P_APP"
@@ -1709,7 +1709,7 @@ controlled_by = ["EGVO_TWR"]
 [[stations]]
 id = "EGVO_APP"
 parent_id = "EGVV_D_CTR"
-controlled_by = ["EGVO_APP", "EGVO_P_APP","STHRN_APP"]
+controlled_by = ["EGVO_APP", "EGVO_P_APP", "STHRN_APP"]
 
 [[stations]]
 id = "EGVO_P_APP"
