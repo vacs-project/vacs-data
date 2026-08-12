@@ -2,10 +2,7 @@
   "stations": [
     {
       "id": "EDYY_D",
-      "controlled_by": [
-      "EDYY_D_CTR",
-      "EHAA_ALL_CTR"
-    ]
+      "controlled_by": ["EDYY_D_CTR", "EHAA_ALL_CTR"]
     },
     {
       "id": "EHAA_ALL",
