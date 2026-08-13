@@ -42,7 +42,7 @@
             "label": [""]
           },
           {
-            "label": ["GUR SKERY"],
+            "label": ["GUR", "SKERY"],
             "color": "mint",
             "station_id": "EGJJ_S_APP"
           },
@@ -66,7 +66,7 @@
             "label": [""]
           },
           {
-            "label": ["GUR ORTAC"],
+            "label": ["GUR", "ORTAC"],
             "color": "mint",
             "station_id": "EGJJ_C_APP"
           },
