@@ -37,10 +37,12 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["EGCM"],
+            "station_id": "EGCM_R_TWR"
           },
           {
-            "label": []
+            "label": ["EGCJ"],
+            "station_id": "EGCJ_R_TWR"
           },
           {
             "label": []
