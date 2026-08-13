@@ -945,8 +945,6 @@ parent_id = "EGBB_APP"
 controlled_by = ["EGBB_F_APP"]
 
 [[stations]]
-id = "EGCB_I_TWR"
-parent_id = ""
 controlled_by =  ["EGCB_I_TWR]
 [[stations]]
 id = "EGCC_DEL"
@@ -1615,4 +1613,5 @@ controlled_by = [
 
 [[stations]]
 id = "SFAL_I_TWR"
-controlled_by = ["SFAL_I_TWR"]
+controlled_by = ["SFAL_I_TWR"]id = "EGCB_I_TWR"
+parent_id = ""
