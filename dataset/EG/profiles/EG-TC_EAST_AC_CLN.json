@@ -111,7 +111,8 @@
           },
           {
             "label": ["MAAS", "DELTA"],
-            "color": "azure"
+            "color": "azure",
+            "station_id": "EDYY_D"
           },
           {
             "label": ["AMS", "W"],
