@@ -261,18 +261,13 @@
       }
     },
     {
-      "label": ["SUP", "Flow"],
+      "label": ["SUP", "FMP"],
       "page": {
-        "rows": 2,
+        "rows": 3,
         "keys": [
           {
             "label": ["UK", "FMP"],
             "station_id": "UK_FMP",
-            "color": "snow"
-          },
-          {
-            "label": ["LTC", "FMP"],
-            "station_id": "LTC_FMP",
             "color": "snow"
           },
           {
@@ -286,12 +281,6 @@
             "color": "snow"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
             "label": ["LAC", "GS"],
             "station_id": "LON_GS_CTR",
             "color": "snow"
@@ -302,37 +291,8 @@
             "color": "snow"
           },
           {
-            "label": ["MAN", "GS"],
-            "station_id": "MAN_GS_CTR",
-            "color": "snow"
-          },
-          {
-            "label": ["MAN", "FMP"],
-            "station_id": "MAN_FMP",
-            "color": "snow"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["SCL", "FMP"],
-            "station_id": "SCL_FMP",
-            "color": "snow"
-          },
-          {
-            "label": ["ScAC", "GS"],
-            "station_id": "SCO_GS_CTR",
-            "color": "snow"
-          },
-          {
-            "label": ["SCL", "GS"],
-            "station_id": "SCL_GS_CTR",
+            "label": ["LTC", "FMP"],
+            "station_id": "LTC_FMP",
             "color": "snow"
           }
         ]
