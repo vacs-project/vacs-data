@@ -42,7 +42,7 @@
             "label": [""]
           },
           {
-            "label": ["GUR", "SKERY"],
+            "label": ["CTL", "SKERY"],
             "color": "mint",
             "station_id": "EGJJ_S_APP"
           },
@@ -66,7 +66,7 @@
             "label": [""]
           },
           {
-            "label": ["GUR", "ORTAC"],
+            "label": ["CTL", "ORTAC"],
             "color": "mint",
             "station_id": "EGJJ_C_APP"
           },
@@ -179,7 +179,7 @@
             "label": [""]
           },
           {
-            "label": ["GUR", "SKERY"],
+            "label": ["CTL", "SKERY"],
             "color": "mint",
             "station_id": "EGJJ_S_APP"
           },
@@ -195,7 +195,7 @@
             "label": [""]
           },
           {
-            "label": ["GUR", "ORTAC"],
+            "label": ["CTL", "ORTAC"],
             "color": "mint",
             "station_id": "EGJJ_C_APP"
           },
