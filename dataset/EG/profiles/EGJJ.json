@@ -39,7 +39,9 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["EGJJ", "INT"],
+            "color": "mint",
+            "station_id": "EGJJ_APP"
           },
           {
             "label": ["CTL", "SKERY"],
@@ -63,7 +65,9 @@
             "station_id": "EG-Sector-06"
           },
           {
-            "label": [""]
+            "label": ["EGJJ", "FIN"],
+            "color": "mint",
+            "station_id": "EGJJ_F_APP"
           },
           {
             "label": ["CTL", "ORTAC"],
