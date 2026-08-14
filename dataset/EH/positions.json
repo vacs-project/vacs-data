@@ -5,7 +5,7 @@
       "prefixes": ["EDYY"],
       "frequency": "135.960",
       "facility_type": "CTR",
-      "profile_id": "EDYY",
+      "profile_id": "EDYY-EH",
       "default_call_sources": ["EDYY_D"]
     },
     {

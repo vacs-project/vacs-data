@@ -3,7 +3,7 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["EDYY"],
+      "label": ["PRIM"],
       "page": {
         "rows": 5,
         "keys": [
@@ -106,6 +106,146 @@
             "label": ["OLNO"],
             "color": "lilac",
             "station_id": "EDYY-LNH"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SEC"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["FMP"],
+            "color": "lavender",
+            "station_id": "EHAA_FMP"
+          },
+          {
+            "label": ["MIL APP"],
+            "color": "steel",
+            "page": {
+              "rows": 5,
+              "keys": [
+                {
+                  "label": ["GR", "APP"],
+                  "color": "azure",
+                  "station_id": "EHGR_APP"
+                },
+                {
+                  "label": ["KD", "APP"],
+                  "color": "azure",
+                  "station_id": "EHKD_APP"
+                },
+                {
+                  "label": ["LW", "APP"],
+                  "color": "azure",
+                  "station_id": "EHLW_APP"
+                },
+                {
+                  "label": ["MZ", "TWR"],
+                  "color": "azure",
+                  "station_id": "EHMZ_TWR"
+                },
+                {
+                  "label": ["VK", "APP"],
+                  "color": "azure",
+                  "station_id": "EHVK_APP"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["LTC", "JACKO"],
+            "color": "cadet",
+            "station_id": "EG-TC-JACKO"
+          },
+          {
+            "label": ["LTC", "REDFA"],
+            "color": "cadet",
+            "station_id": "EG-TC-REDFA"
+          },
+          {
+            "label": ["BRU", "WEST", "-245"],
+            "color": "umber",
+            "station_id": "EBBU-WLS"
+          },
+          {
+            "label": ["BREMEN", "EID"],
+            "color": "lagoon",
+            "station_id": "EDWW-EID"
+          },
+          {
+            "label": ["APP"],
+            "page": {
+              "rows": 5,
+              "keys": [
+                {
+                  "label": ["RD", "APP"],
+                  "color": "azure",
+                  "station_id": "EHRD_APP"
+                },
+                {
+                  "label": ["EH", "APP"],
+                  "color": "azure",
+                  "station_id": "EHEH_APP"
+                },
+                {
+                  "label": ["LE", "APP"],
+                  "color": "azure",
+                  "station_id": "EHLE_APP"
+                },
+                {
+                  "label": ["BK", "APP"],
+                  "color": "azure",
+                  "station_id": "EHBK_APP"
+                },
+                {
+                  "label": ["GG", "APP"],
+                  "color": "azure",
+                  "station_id": "EHGG_APP"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["FD1"],
+            "color": "azure",
+            "station_id": "EHAM_W_APP"
+          },
+          {
+            "label": ["FD2"],
+            "color": "azure",
+            "station_id": "EHAM_E_APP"
+          },
+          {
+            "label": ["BRU", "NORTH", "-245"],
+            "color": "umber",
+            "station_id": "EBBU-NLS"
+          },
+          {
+            "label": ["BREMEN", "EMS"],
+            "color": "lagoon",
+            "station_id": "EDWW-EMS"
+          },
+          {
+            "label": ["LANGEN", "HMM"],
+            "color": "blush",
+            "station_id": "EDGG-HMM"
+          },
+          {
+            "label": ["LANGEN", "BOT"],
+            "color": "blush",
+            "station_id": "EDGG-BOT"
+          },
+          {
+            "label": ["LANGEN", "NOR"],
+            "color": "blush",
+            "station_id": "EDGG-NOR"
+          },
+          {
+            "label": ["BRU", "EAST", "-245"],
+            "color": "umber",
+            "station_id": "EBBU-ELS"
           }
         ]
       }
