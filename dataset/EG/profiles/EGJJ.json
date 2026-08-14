@@ -119,7 +119,7 @@
             "station_id": "EGHI_APP"
           },
           {
-            "label": ["EGJB", "INT"],
+            "label": ["EGJB", "RAD 1"],
             "color": "mint",
             "station_id": "EGJB_APP"
           },
@@ -147,7 +147,7 @@
             "label": [""]
           },
           {
-            "label": ["EGJB", "FIN"],
+            "label": ["EGJB", "RAD 2"],
             "color": "mint",
             "station_id": "EGJB_F_APP"
           },
@@ -248,12 +248,12 @@
             "station_id": "EGJJ_F_APP"
           },
           {
-            "label": ["EGJB", "INT"],
+            "label": ["EGJB", "RAD 1"],
             "color": "mint",
             "station_id": "EGJB_APP"
           },
           {
-            "label": ["EGJB", "FIN"],
+            "label": ["EGJB", "RAD 2"],
             "color": "mint",
             "station_id": "EGJB_F_APP"
           }
