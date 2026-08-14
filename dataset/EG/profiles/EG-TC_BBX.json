@@ -5,7 +5,7 @@
     {
       "label": "1",
       "page": {
-        "rows": 5,
+        "rows": 4,
         "keys": [
           {
             "label": ["TC", "MIDS"],
