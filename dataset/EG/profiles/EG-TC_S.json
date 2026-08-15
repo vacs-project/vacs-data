@@ -108,7 +108,7 @@
         ]
       }
     },
- {
+    {
       "label": ["2", "AD"],
       "page": {
         "rows": 5,
@@ -235,7 +235,7 @@
         ]
       }
     },
-     {
+    {
       "label": ["3", "Event"],
       "page": {
         "rows": 3,
@@ -301,8 +301,8 @@
             "station_id": "LON_SN_CTR"
           }
         ]
-    }
-},
+      }
+    },
     {
       "label": ["4", "SUP"],
       "page": {
