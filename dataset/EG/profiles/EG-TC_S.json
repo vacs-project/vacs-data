@@ -162,6 +162,29 @@
             "color": "azure"
           },
           {
+            "label": ["LL", "GMP"],
+            "color": "azure",
+            "station_id": "EGLL_DEL"
+          },
+          {
+            "label": ["KK", "GMP"],
+            "color": "azure",
+            "station_id": "SOLENT_APP"
+          },
+          {
+            "label": ["LC", "GMC"],
+            "color": "azure",
+            "station_id": "EGLC_GND"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
             "label": ["SOL", "APC"],
             "color": "azure",
             "station_id": "SOLENT_APP"
