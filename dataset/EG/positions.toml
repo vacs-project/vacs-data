@@ -1289,7 +1289,7 @@ profile_id = "EG-Scottish"
 [[positions]]
 id = "EGPK_TWR"
 prefixes = ["EGPK"]
-frequency = "118.150"
+frequency = "118.155"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
 
