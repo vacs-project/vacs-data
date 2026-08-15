@@ -209,7 +209,7 @@ default_call_sources = ["LFBG_GND"]
 [[positions]]
 id = "LFBH_APP"
 prefixes = ["LFBH"]
-frequency = "124.200"
+frequency = "124.205"
 facility_type = "APP"
 default_call_sources = ["LFBH_APP", "LFBH_TWR", "LFDN_I_TWR"]
 
@@ -463,21 +463,21 @@ default_call_sources = ["LFBE_TWR"]
 [[positions]]
 id = "LFBH_TWR"
 prefixes = ["LFBH"]
-frequency = "118.000"
+frequency = "118.005"
 facility_type = "TWR"
 default_call_sources = ["LFBH_TWR"]
 
 [[positions]]
 id = "LFBI_TWR"
 prefixes = ["LFBI"]
-frequency = "118.500"
+frequency = "118.505"
 facility_type = "TWR"
 default_call_sources = ["LFBI_TWR"]
 
 [[positions]]
 id = "LFBL_TWR"
 prefixes = ["LFBL"]
-frequency = "119.550"
+frequency = "119.555"
 facility_type = "TWR"
 default_call_sources = ["LFBL_TWR"]
 
@@ -534,7 +534,7 @@ default_call_sources = ["LFDN_I_TWR"]
 [[positions]]
 id = "LFLX_TWR"
 prefixes = ["LFLX"]
-frequency = "125.875"
+frequency = "125.880"
 facility_type = "TWR"
 default_call_sources = ["LFLX_TWR"]
 
@@ -548,7 +548,7 @@ default_call_sources = ["LFMK_TWR"]
 [[positions]]
 id = "LFSL_TWR"
 prefixes = ["LFSL"]
-frequency = "121.125"
+frequency = "121.130"
 facility_type = "TWR"
 default_call_sources = ["LFSL_TWR"]
 

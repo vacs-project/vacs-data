@@ -181,6 +181,11 @@
       "controlled_by": ["OMDB_DEL"]
     },
     {
+      "id": "OMDB_P_DEL",
+      "parent_id": "OMDB_DEL",
+      "controlled_by": ["OMDB_P_DEL"]
+    },
+    {
       "id": "OMDB_I_TWR",
       "parent_id": "OMDB_1_TWR",
       "controlled_by": ["OMDB_I_TWR"]

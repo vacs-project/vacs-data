@@ -355,6 +355,14 @@
       "default_call_sources": ["LOWS_APP"]
     },
     {
+      "id": "LOWS_F_APP",
+      "prefixes": ["LOWS"],
+      "frequency": "132.460",
+      "facility_type": "APP",
+      "profile_id": "LOVV",
+      "default_call_sources": ["LOWS_F_APP"]
+    },
+    {
       "id": "LOWW_APP",
       "prefixes": ["LOWW"],
       "frequency": "134.675",

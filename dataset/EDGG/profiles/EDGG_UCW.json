@@ -112,7 +112,8 @@
           },
           {
             "label": ["EDYY", "LXH"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "EDYY-LXH"
           },
           {
             "label": ["EDMM", "FUE"],
