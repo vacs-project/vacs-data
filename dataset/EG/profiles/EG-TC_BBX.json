@@ -3,7 +3,7 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "1",
+      "label": ["1", "Main"],
       "page": {
         "rows": 5,
         "keys": [
@@ -23,14 +23,14 @@
             "station_id": "LTC_SW_CTR"
           },
           {
-            "label": ["AC", "WOR"],
+            "label": ["GW", "INT"],
             "color": "azure",
-            "station_id": "LON_H_CTR"
+            "station_id": "EGGW_APP"
           },
           {
-            "label": ["AC", "W"],
+            "label": ["LL", "INT"],
             "color": "azure",
-            "station_id": "LON_W_CTR"
+            "station_id": "EGLL_N_APP"
           },
           {
             "label": ["TC", "E"],
@@ -48,19 +48,82 @@
             "station_id": "LTC_SE_CTR"
           },
           {
+            "label": ["SS", "INT"],
+            "color": "azure",
+            "station_id": "EGSS_APP"
+          },
+          {
+            "label": ["KK", "INT"],
+            "color": "azure",
+            "station_id": "EGKK_APP"
+          },
+          {
+            "label": ["AC", "WOR"],
+            "color": "azure",
+            "station_id": "LON_H_CTR"
+          },
+          {
+            "label": ["AC", "W"],
+            "color": "azure",
+            "station_id": "LON_W_CTR"
+          },
+          {
+            "label": ["FIS"],
+            "color": "azure",
+            "station_id": "EGTT_I_CTR"
+          },
+          {
+            "label": ["TMS", "RDR"],
+            "color": "azure",
+            "station_id": "THAMES_APP"
+          },
+          {
+            "label": ["TC", "GS"],
+            "color": "azure",
+            "station_id": "LTC_GS_CTR"
+          },
+          {
             "label": ["AC", "DVR"],
             "color": "azure",
             "station_id": "LON_D_CTR"
           },
           {
-            "label": ["SOL", "APC"],
-            "color": "azure",
-            "station_id": "SOLENT_APP"
+            "label": ["BRU", "W"],
+            "color": "cadet",
+            "station_id": "EBBU-WLS"
           },
           {
-            "label": ["EGTC", "APC"],
+            "label": ["PAR", "TN"],
+            "color": "cadet",
+            "station_id": "PAR_TN"
+          },
+          {
+            "label": ["PAR", "TB"],
+            "color": "cadet",
+            "station_id": "PAR_TB"
+          },
+          {
+            "label": ["LFQQ", "APC"],
+            "color": "cadet",
+            "station_id": "LFQQ_QE_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["2", "AD"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["SS", "INT"],
             "color": "azure",
-            "station_id": "EGTC_A_APP"
+            "station_id": "EGSS_APP"
+          },
+          {
+            "label": ["GW", "INT"],
+            "color": "azure",
+            "station_id": "EGGW_APP"
           },
           {
             "label": ["LL", "INT"],
@@ -73,155 +136,44 @@
             "station_id": "EGKK_APP"
           },
           {
-            "label": ["EGLF", "APC"],
-            "color": "azure",
-            "station_id": "EGLF_APP"
-          },
-          {
-            "label": ["EGKA", "APC"],
-            "color": "azure",
-            "station_id": "EGKA_APP"
-          },
-          {
-            "label": ["GW", "INT"],
-            "color": "azure",
-            "station_id": "EGGW_APP"
-          },
-          {
             "label": ["TMS", "RDR"],
             "color": "azure",
             "station_id": "THAMES_APP"
           },
           {
-            "label": ["SVFR"],
+            "label": ["SS", "TWR"],
             "color": "azure",
-            "station_id": "EGLL-CTR-TC_SVFR"
+            "station_id": "EGSS_TWR"
           },
           {
-            "label": ["EGKB", "APC"],
+            "label": ["GW", "TWR"],
             "color": "azure",
-            "station_id": "EGKB_A_APP"
+            "station_id": "EGGW_TWR"
           },
           {
-            "label": ["FIS"],
-            "color": "azure",
-            "station_id": "EGTT_I_CTR"
-          },
-          {
-            "label": ["EGSC", "APC"],
-            "color": "azure",
-            "station_id": "EGSC_APP"
-          },
-          {
-            "label": ["SS", "INT"],
-            "color": "azure",
-            "station_id": "EGSS_APP"
-          },
-          {
-            "label": ["EGMC", "APC"],
-            "color": "azure",
-            "station_id": "EGMC_APP"
-          },
-          {
-            "label": ["EGMD", "APC"],
-            "color": "azure",
-            "station_id": "EGMD_A_APP"
-          },
-          {
-            "label": ["LFQQ", "APC"],
-            "color": "azure",
-            "station_id": "LFQQ_QE_APP"
-          },
-          {
-            "label": [],
-            "color": "azure"
-          },
-          {
-            "label": ["EBOS", "APC"],
-            "color": "azure",
-            "station_id": "EBOS-APP"
-          },
-          {
-            "label": ["BRU", "W"],
-            "color": "azure",
-            "station_id": "EBBU-WLS"
-          },
-          {
-            "label": ["PAR", "TN"],
-            "color": "azure",
-            "station_id": "PAR_TN"
-          },
-          {
-            "label": ["PAR", "TB"],
-            "color": "azure",
-            "station_id": "PAR_TB"
-          }
-        ]
-      }
-    },
-    {
-      "label": "2",
-      "page": {
-        "rows": 5,
-        "keys": [
-          {
-            "label": [],
-            "color": "azure"
-          },
-          {
-            "label": ["MIL", "W"],
-            "color": "azure",
-            "station_id": "EGVV_W_CTR"
-          },
-          {
-            "label": ["EGVN", "APC"],
-            "color": "azure",
-            "station_id": "EGVN_APP"
-          },
-          {
-            "label": ["EGUB", "APC"],
-            "color": "azure",
-            "station_id": "EGUB_APP"
-          },
-          {
-            "label": ["EGDM", "APC"],
-            "color": "azure",
-            "station_id": "EGDM_APP"
-          },
-          {
-            "label": ["EGUL", "APC"],
-            "color": "azure",
-            "station_id": "EGUL_APP"
-          },
-          {
-            "label": ["GW", "AIR"],
-            "color": "azure",
-            "station_id": "EGDM_APP"
-          },
-          {
-            "label": ["LL", "AIR"],
+            "label": ["LL", "TWR"],
             "color": "azure",
             "station_id": "EGLL_S_TWR"
           },
           {
-            "label": ["KK", "AIR"],
+            "label": ["KK", "TWR"],
             "color": "azure",
             "station_id": "EGKK_TWR"
           },
           {
-            "label": ["EGVP", "APC"],
+            "label": ["LC", "TWR"],
             "color": "azure",
-            "station_id": "EGVP_APP"
+            "station_id": "EGLC_TWR"
           },
           {
-            "label": ["EGUW", "APC"],
+            "label": ["SS", "GMP"],
             "color": "azure",
-            "station_id": "EGUW_APP"
+            "station_id": "EGSS_DEL"
           },
           {
-            "label": ["SS", "AIR"],
+            "label": ["GW", "GMP"],
             "color": "azure",
-            "station_id": "EGSS_TWR"
+            "station_id": "EGGW_DEL"
           },
           {
             "label": ["LL", "GMP"],
@@ -234,91 +186,201 @@
             "station_id": "EGKK_DEL"
           },
           {
-            "label": ["EGLF", "AIR"],
+            "label": ["LC", "GMC"],
             "color": "azure",
-            "station_id": "EGLF_TWR"
+            "station_id": "EGLC_GND"
           },
           {
-            "label": [],
-            "color": "azure"
-          },
-          {
-            "label": ["LC", "AIR"],
+            "label": ["EGSC", "APC"],
             "color": "azure",
-            "station_id": "EGLC_TWR"
+            "station_id": "EGSC_APP"
           },
           {
-            "label": ["EGMC", "AIR"],
+            "label": ["EGTC", "APC"],
             "color": "azure",
-            "station_id": "EGMC_TWR"
+            "station_id": "EGTC_APP"
           },
           {
-            "label": [],
-            "color": "azure"
+            "label": ["EGTK", "APC"],
+            "color": "azure",
+            "station_id": "EGTK_APP"
+          },
+          {
+            "label": ["EGLF", "APC"],
+            "color": "azure",
+            "station_id": "EGLF_APP"
+          },
+          {
+            "label": ["SOL", "APC"],
+            "color": "azure",
+            "station_id": "SOLENT_APP"
+          },
+          {
+            "label": ["EGXT", "APC"],
+            "color": "azure",
+            "station_id": "EGXT_APP"
+          },
+          {
+            "label": ["EGVN", "APC"],
+            "color": "azure",
+            "station_id": "EGVN_APP"
+          },
+          {
+            "label": ["EGKA", "APC"],
+            "color": "azure",
+            "station_id": "EGKA_APP"
+          },
+          {
+            "label": ["EGMC", "APC"],
+            "color": "azure",
+            "station_id": "EGMC_APP"
+          },
+          {
+            "label": ["EGMD", "APC"],
+            "color": "azure",
+            "station_id": "EGMD_A_APP"
+          },
+          {
+            "label": ["EGUB", "APC"],
+            "color": "azure",
+            "station_id": "EGUB_APP"
+          },
+          {
+            "label": ["EGDM", "APC"],
+            "color": "azure",
+            "station_id": "EGDM_APP"
+          },
+          {
+            "label": ["EGVP", "APC"],
+            "color": "azure",
+            "station_id": "EGVP_APP"
           },
           {
             "label": ["EGVO", "APC"],
             "color": "azure",
             "station_id": "EGVO_APP"
+          },
+          {
+            "label": ["EGKB", "APC"],
+            "color": "azure",
+            "station_id": "EGKB_A_APP"
+          },
+          {
+            "label": ["MIL", "W"],
+            "color": "azure",
+            "station_id": "EGVV_W_CTR"
+          },
+          {
+            "label": ["MIL S", "APC"],
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["EBOS", "APC"],
+            "color": "cadet",
+            "station_id": "EBOS-APP"
+          },
+          {
+            "label": ["LFQQ", "APC"],
+            "color": "cadet",
+            "station_id": "LFQQ_QE_APP"
           }
         ]
       }
     },
     {
-      "label": "3",
+      "label": ["3", "Event"],
       "page": {
-        "rows": 5,
-        "client_page": {
-          "include": [
-            "EGSS_*",
-            "EGGW_*",
-            "EGSC_*",
-            "ESSEX*",
-            "EGTK_*",
-            "EGTC_*",
-            "EGLL_*",
-            "EGKK_*",
-            "THAMES*",
-            "EGLC_*",
-            "EGMC_*",
-            "EGKB_*",
-            "SOLENT*",
-            "EGHH_*",
-            "EGHI_*",
-            "EGKA_*",
-            "EGKR_*",
-            "EGLF_*",
-            "EGMD_*",
-            "LON_S*",
-            "LON_H*",
-            "LON_D*",
-            "LON_C*",
-            "LON_M*",
-            "LON_E*",
-            "LON_SC*",
-            "LON_W*",
-            "LON_23*",
-            "LON_CTR",
-            "LON__CTR",
-            "LTC_*",
-            "EGVV_*",
-            "EGTT_*",
-            "UK_*",
-            "EBBU_*",
-            "PAR_*",
-            "LFQQ_*APP"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["TC", "LOREL"],
+            "color": "azure",
+            "station_id": "LTC_NL_CTR"
+          },
+          {
+            "label": ["TC", "LAM"],
+            "color": "azure",
+            "station_id": "LTC_N2_CTR"
+          },
+          {
+            "label": ["TC", "DAGGA"],
+            "color": "azure",
+            "station_id": "LTC_ED_CTR"
+          },
+          {
+            "label": ["TC", "SABER"],
+            "color": "azure",
+            "station_id": "LTC_ES_CTR"
+          },
+          {
+            "label": ["TC", "COWLY"],
+            "color": "azure",
+            "station_id": "LTC_MC_CTR"
+          },
+          {
+            "label": ["TC", "WELIN"],
+            "color": "azure",
+            "station_id": "LTC_MW_CTR"
+          },
+          {
+            "label": ["TC", "REDFA"],
+            "color": "azure",
+            "station_id": "LTC_ER_CTR"
+          },
+          {
+            "label": ["TC", "JACKO"],
+            "color": "azure",
+            "station_id": "LTC_EJ_CTR"
+          },
+          {
+            "label": ["AC", "HURN"],
+            "color": "azure",
+            "station_id": "LON_HW_CTR"
+          },
+          {
+            "label": ["AC", "S16/17", "LYD"],
+            "color": "azure",
+            "station_id": "LON_DL_CTR"
+          },
+          {
+            "label": ["AC", "S23", "W"],
+            "color": "azure",
+            "station_id": "LON_23_CTR"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["AC", "S18", "SFD"],
+            "color": "azure",
+            "station_id": "LON_SF_CTR"
+          },
+          {
+            "label": ["AC", "S15", "DVR"],
+            "color": "azure",
+            "station_id": "LON_DK_CTR"
+          },
+          {
+            "label": ["AC", "LMS"],
+            "color": "azure",
+            "station_id": "LON_SN_CTR"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          }
+        ]
       }
     },
     {
-      "label": ["4"],
+      "label": ["4", "SUP"],
       "page": {
-        "rows": 4,
+        "rows": 3,
         "keys": [
           {
             "label": ["UK", "FMP"],
@@ -336,10 +398,6 @@
             "station_id": "LON_GS_CTR"
           },
           {
-            "label": [],
-            "color": "azure"
-          },
-          {
             "label": ["UK", "FMP", "2"],
             "color": "azure",
             "station_id": "UK_A_FMP"
@@ -353,10 +411,6 @@
             "label": ["LTC", "GS"],
             "color": "azure",
             "station_id": "LTC_GS_CTR"
-          },
-          {
-            "label": [],
-            "color": "azure"
           }
         ]
       }
