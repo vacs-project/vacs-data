@@ -1,0 +1,154 @@
+{
+  "id": "EKYT",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["MAIN"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["", ""],
+            "station_id": "EKDKN"
+          },
+          {
+            "label": ["FLOW", "FMP"],
+            "color": "lilac",
+            "station_id": "EKDKFMP"
+          },
+          {
+            "label": ["", ""],
+            "station_id": "EKEBTIZ"
+          },
+          {
+            "label": ["YT", "APP"],
+            "color": "lavender",
+            "station_id": "EKYTAPP"
+          },
+          {
+            "label": ["ACC", "L"],
+            "color": "lilac",
+            "station_id": "EKDKL"
+          },
+          {
+            "label": ["COIF", "F"],
+            "color": "lilac",
+            "station_id": "EKDKF"
+          },
+          {
+            "label": ["EKKA", "APP"],
+            "color": "azure",
+            "station_id": "EKKAAPP"
+          },
+          {
+            "label": ["YT", "ARR"],
+            "color": "lavender",
+            "station_id": "EKYTARR"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["COIF", "Y"],
+            "color": "lilac",
+            "station_id": "EKDKY"
+          },
+          {
+            "label": ["EKAH", "APP"],
+            "color": "azure",
+            "station_id": "EKAHAPP"
+          },
+          {
+            "label": ["YT", "TWR"],
+            "color": "lavender",
+            "station_id": "EKYTTWR"
+          },
+          {
+            "label": ["", ""],
+            "station_id": "EKBI_TWR"
+          },
+          {
+            "label": ["", ""],
+            "station_id": "EKAHAPP"
+          },
+          {
+            "label": ["", ""],
+            "station_id": "EKVDTIZ"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["MISC"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ACC", "N"],
+            "station_id": "EKDKN"
+          },
+          {
+            "label": ["EKBI", "APP"],
+            "station_id": "EKBIAPP"
+          },
+          {
+            "label": ["EKBI", "TWR"],
+            "station_id": "EKBI_TWR"
+          },
+          {
+            "label": ["WO", ""]
+          },
+          {
+            "label": ["ACC", "E"],
+            "station_id": "EKDKE"
+          },
+          {
+            "label": ["ESGG", "APP W"],
+            "station_id": "ESGG_APP-W"
+          },
+          {
+            "label": ["EKKA", "TWR"],
+            "station_id": "EKKATWR"
+          },
+          {
+            "label": ["RAMP", "SUP"]
+          },
+          {
+            "label": ["ENOS", "8"],
+            "station_id": "ENOS-8"
+          },
+          {
+            "label": ["ESMM", "4", ""],
+            "station_id": "ESMM_4"
+          },
+          {
+            "label": ["EKAH", "TWR"],
+            "station_id": "EKAH_TWR"
+          },
+          {
+            "label": ["", ""]
+          },
+          {
+            "label": ["ENOS", "4"],
+            "station_id": "ENOS-4"
+          },
+          {
+            "label": ["EKCH", "APPCO"],
+            "station_id": "EKCHAPPCO"
+          },
+          {
+            "label": ["EKCH", "R"],
+            "station_id": "EKCHDEPR"
+          },
+          {
+            "label": ["EKCH", "W"],
+            "station_id": "EKCHAPPW"
+          }
+        ]
+      }
+    }
+  ]
+}

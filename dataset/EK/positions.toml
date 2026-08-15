@@ -3,111 +3,154 @@ id = "EKDK_FMP"
 prefixes = ["EKDK"]
 frequency = "131.040"
 facility_type = "FMP"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKCH_FMP"
+prefixes = ["EKCH"]
+frequency = "131.785"
+facility_type = "FMP"
+profile_id = "EKDK-ACC"
+
 [[positions]]
 id = "EKDK_A_CTR"
 prefixes = ["EKDK"]
 frequency = "135.290"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_B_CTR"
 prefixes = ["EKDK"]
 frequency = "119.555"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_CTR"
 prefixes = ["EKDK"]
 frequency = "136.555"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_C_CTR"
 prefixes = ["EKDK"]
 frequency = "128.215"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_D_CTR"
 prefixes = ["EKDK"]
 frequency = "133.155"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_E_CTR"
 prefixes = ["EKDK"]
 frequency = "123.730"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKDK_F_CTR"
+prefixes = ["EKDK"]
+frequency = "129.475"
+facility_type = "CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKDK_F_FSS"
+prefixes = ["EKDK"]
+frequency = "129.475"
+facility_type = "FSS"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKCH_FW_CTR"
+prefixes = ["EKDK"]
+frequency = "127.080"
+facility_type = "CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_I_CTR"
 prefixes = ["EKDK"]
 frequency = "121.380"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_L_CTR"
 prefixes = ["EKDK"]
 frequency = "124.555"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_M_CTR"
 prefixes = ["EKDK"]
 frequency = "130.990"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_N_CTR"
 prefixes = ["EKDK"]
 frequency = "134.680"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_UA_CTR"
 prefixes = ["EKDK"]
 frequency = "136.485"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_UC_CTR"
 prefixes = ["EKDK"]
 frequency = "127.865"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_UN_CTR"
 prefixes = ["EKDK"]
 frequency = "136.555"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_UV_CTR"
 prefixes = ["EKDK"]
 frequency = "126.055"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKDK_V_CTR"
 prefixes = ["EKDK"]
 frequency = "135.565"
 facility_type = "CTR"
-profile_id = "EKDK-CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKDK_Y_CTR"
+prefixes = ["EKDK"]
+frequency = "124.000"
+facility_type = "CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKDK_Y_FSS"
+prefixes = ["EKDK"]
+frequency = "124.000"
+facility_type = "FSS"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKCH_K_DEP"
@@ -128,28 +171,28 @@ id = "EKAH_APP"
 prefixes = ["EKAH"]
 frequency = "119.280"
 facility_type = "APP"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKAH"
 
 [[positions]]
 id = "EKBI_APP"
 prefixes = ["EKBI"]
 frequency = "127.580"
 facility_type = "APP"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKBI"
 
 [[positions]]
 id = "EKBI_F_APP"
 prefixes = ["EKBI"]
 frequency = "119.255"
 facility_type = "APP"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKBI"
 
 [[positions]]
 id = "EKBI_M_APP"
 prefixes = ["EKBI"]
 frequency = "130.980"
 facility_type = "APP"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKBI"
 
 [[positions]]
 id = "EKCH_F_APP"
@@ -191,7 +234,7 @@ id = "EKKA_APP"
 prefixes = ["EKKA"]
 frequency = "120.430"
 facility_type = "APP"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKKA"
 
 [[positions]]
 id = "EKRK_APP"
@@ -205,35 +248,42 @@ id = "EKSP_APP"
 prefixes = ["EKSP"]
 frequency = "124.105"
 facility_type = "APP"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKSP"
+
+[[positions]]
+id = "EKSP_F_APP"
+prefixes = ["EKSP"]
+frequency = "122.205"
+facility_type = "APP"
+profile_id = "EKSP"
 
 [[positions]]
 id = "EKYT_APP"
 prefixes = ["EKYT"]
 frequency = "123.980"
 facility_type = "APP"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKYT"
 
 [[positions]]
 id = "EKYT_F_APP"
 prefixes = ["EKYT"]
 frequency = "120.705"
 facility_type = "APP"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKYT"
 
 [[positions]]
 id = "EKAH_TWR"
 prefixes = ["EKAH"]
 frequency = "118.530"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKAH"
 
 [[positions]]
 id = "EKBI_TWR"
 prefixes = ["EKBI"]
 frequency = "119.005"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKBI"
 
 [[positions]]
 id = "EKCH_A_TWR"
@@ -243,9 +293,16 @@ facility_type = "TWR"
 profile_id = "EKCH-TMA"
 
 [[positions]]
-id = "EKCH_C_TWR"
+id = "EKCH_GW_TWR"
 prefixes = ["EKCH"]
 frequency = "118.580"
+facility_type = "TWR"
+profile_id = "EKCH-TMA"
+
+[[positions]]
+id = "EKCH_GE_TWR"
+prefixes = ["EKCH"]
+frequency = "121.830"
 facility_type = "TWR"
 profile_id = "EKCH-TMA"
 
@@ -257,25 +314,32 @@ facility_type = "TWR"
 profile_id = "EKCH-TMA"
 
 [[positions]]
+id = "EKCH_M_TWR"
+prefixes = ["EKCH"]
+frequency = "118.705"
+facility_type = "TWR"
+profile_id = "EKCH-TMA"
+
+[[positions]]
 id = "EKEB_I_TWR"
 prefixes = ["EKEB"]
 frequency = "120.155"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKBI"
 
 [[positions]]
 id = "EKKA_TWR"
 prefixes = ["EKKA"]
 frequency = "119.580"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKKA"
 
 [[positions]]
 id = "EKOD_I_TWR"
 prefixes = ["EKOD"]
 frequency = "119.530"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKBI"
 
 [[positions]]
 id = "EKRK_TWR"
@@ -289,35 +353,42 @@ id = "EKRN_P_TWR"
 prefixes = ["EKRN"]
 frequency = "118.330"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKDK-ACC"
 
 [[positions]]
 id = "EKSB_I_TWR"
 prefixes = ["EKSB"]
 frequency = "126.405"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKSP"
 
 [[positions]]
 id = "EKSP_TWR"
 prefixes = ["EKSP"]
 frequency = "118.280"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKSP"
 
 [[positions]]
 id = "EKVJ_I_TWR"
-prefixes = ["EKVJ"]
+prefixes = ["EKVD"]
 frequency = "121.405"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKBI"
+
+[[positions]]
+id = "EKVD_I_TWR"
+prefixes = ["EKVD"]
+frequency = "118.655"
+facility_type = "TWR"
+profile_id = "EKSP"
 
 [[positions]]
 id = "EKYT_TWR"
 prefixes = ["EKYT"]
 frequency = "118.305"
 facility_type = "TWR"
-profile_id = "EKDK-REGIONALS"
+profile_id = "EKYT"
 
 [[positions]]
 id = "EKCH_A_GND"
@@ -345,3 +416,10 @@ prefixes = ["EKCH"]
 frequency = "119.905"
 facility_type = "DEL"
 profile_id = "EKCH-TMA"
+
+[[positions]]
+id = "EKBI_DEL"
+prefixes = ["EKBI"]
+frequency = "129.505"
+facility_type = "DEL"
+profile_id = "EKBI"

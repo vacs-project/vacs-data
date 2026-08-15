@@ -41,6 +41,13 @@ facility_type = "CTR"
 profile_id = "LKAA"
 
 [[positions]]
+id = "LKAA_NS_CTR"
+prefixes = ["LKAA"]
+frequency = "132.890"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
 id = "LKAA_W_CTR"
 prefixes = ["LKAA"]
 frequency = "120.275"
@@ -48,10 +55,17 @@ facility_type = "CTR"
 profile_id = "LKAA"
 
 [[positions]]
-id = "LKAA_I_CTR"
+id = "LKAA_WU_CTR"
+prefixes = ["LKAA"]
+frequency = "132.065"
+facility_type = "CTR"
+profile_id = "LKAA"
+
+[[positions]]
+id = "LKAA_FIC_FSS"
 prefixes = ["LKAA"]
 frequency = "126.100"
-facility_type = "CTR"
+facility_type = "FSS"
 profile_id = "LKAA"
 
 [[positions]]

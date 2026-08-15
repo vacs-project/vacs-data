@@ -538,7 +538,8 @@
             "label": []
           },
           {
-            "label": ["PO S"]
+            "label": ["PO S"],
+            "station_id": "EPPO_FIS_S"
           },
           {
             "label": []
@@ -786,7 +787,8 @@
             "label": []
           },
           {
-            "label": ["WA W"]
+            "label": ["WA W"],
+            "station_id": "EPWA_FIS_W"
           },
           {
             "label": []
@@ -1097,19 +1099,22 @@
             }
           },
           {
-            "label": ["GD E"]
+            "label": ["GD E"],
+            "station_id": "EPGD_FIS_E"
           },
           {
             "label": []
           },
           {
-            "label": ["WA E"]
+            "label": ["WA E"],
+            "station_id": "EPWA_FIS_E"
           },
           {
             "label": []
           },
           {
-            "label": ["KK E"]
+            "label": ["KK E"],
+            "station_id": "EPKK_FIS_E"
           },
           {
             "label": []
