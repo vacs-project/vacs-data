@@ -306,7 +306,7 @@
     {
       "label": ["4", "SUP"],
       "page": {
-        "rows": 4,
+        "rows": 3,
         "keys": [
           {
             "label": ["UK", "FMP"],
@@ -324,10 +324,6 @@
             "station_id": "LON_GS_CTR"
           },
           {
-            "label": [],
-            "color": "azure"
-          },
-          {
             "label": ["UK", "FMP", "2"],
             "color": "azure",
             "station_id": "UK_A_FMP"
@@ -341,10 +337,6 @@
             "label": ["LTC", "GS"],
             "color": "azure",
             "station_id": "LTC_GS_CTR"
-          },
-          {
-            "label": [],
-            "color": "azure"
           }
         ]
       }
