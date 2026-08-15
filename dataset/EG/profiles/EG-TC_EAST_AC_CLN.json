@@ -43,7 +43,7 @@
             "station_id": "LTC_NE_CTR"
           },
           {
-            "label": ["TC", "SS"],
+            "label": ["SS", "INT"],
             "color": "blush",
             "station_id": "EGSS_APP"
           },
