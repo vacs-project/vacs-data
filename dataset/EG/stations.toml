@@ -1078,6 +1078,8 @@ controlled_by = ["EGKB_TWR"]
 id = "EGKB_A_APP"
 parent_id = "EGLC_APP"
 controlled_by = ["EGKB_A_APP"]
+
+[[stations]]
 id = "EGHH_APP"
 parent_id = "SOLENT_APP"
 controlled_by = ["EGHH_APP", "EGHH_F_APP"]
