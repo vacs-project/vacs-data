@@ -25,7 +25,7 @@
           {
             "label": ["LL", "INT"],
             "color": "azure",
-            "station_id": "EGLL_N_APP"
+            "station_id": "EGLL_S_APP"
           },
           {
             "label": ["TMS", "RDR"],
@@ -116,7 +116,7 @@
           {
             "label": ["LL", "INT"],
             "color": "azure",
-            "station_id": "EGLL_N_APP"
+            "station_id": "EGLL_S_APP"
           },
           {
             "label": ["KK", "INT"],
