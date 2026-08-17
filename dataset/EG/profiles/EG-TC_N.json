@@ -216,7 +216,8 @@
           },
           {
             "label": ["MIL S", "APC"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "STHRN_APP"
           },
           {
             "label": [],

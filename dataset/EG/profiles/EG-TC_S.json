@@ -239,7 +239,8 @@
           },
           {
             "label": ["MIL S", "APC"],
-            "color": "azure"
+            "color": "azure",
+            "station_id": "STHRN_APP"
           },
           {
             "label": [],
