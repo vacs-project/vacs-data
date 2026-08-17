@@ -2028,13 +2028,6 @@ frequency = "118.330"
 facility_type = "TWR"
 profile_id = "EG-Swanwick_Military"
 
-[[positions]]
-id = "STHRN_APP"
-prefixes = ["STHRN"]
-frequency = "134.035"
-facility_type = "APP"
-profile_id = "EG-Swanwick_Military"
-
 #######################
 # London Area
 #######################
