@@ -290,17 +290,17 @@
             "station_id": "LON_SU_CTR"
           },
           {
-            "label": ["AC", "DTY", "E"],
+            "label": ["AC", "S34", "DTY"],
             "color": "blush",
             "station_id": "LON_ME_CTR"
           },
           {
-            "label": ["AC", "DTY", "W"],
+            "label": ["AC", "S27/32", "DTY"],
             "color": "blush",
             "station_id": "LON_MW_CTR"
           },
           {
-            "label": ["AC", "DTY", "LO"],
+            "label": ["AC", "S28", "DTY"],
             "color": "blush",
             "station_id": "LON_ML_CTR"
           },
