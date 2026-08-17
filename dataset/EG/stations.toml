@@ -1680,6 +1680,21 @@ id = "EGTF_R_TWR"
 controlled_by = ["EGTF_R_TWR"]
 
 [[stations]]
+id = "EGTK_GND"
+parent_id = "EGTK_TWR"
+controlled_by = ["EGTK_GND"]
+
+[[stations]]
+id = "EGTK_TWR"
+parent_id = "EGTK_APP"
+controlled_by = ["EGTK_TWR"]
+
+[[stations]]
+id = "EGTK_APP"
+parent_id = "LTC_MW_CTR"
+controlled_by = ["EGTK_APP"]
+
+[[stations]]
 id = "EGUB_GND"
 parent_id = "EGUB_TWR"
 controlled_by = ["EGUB_GND"]

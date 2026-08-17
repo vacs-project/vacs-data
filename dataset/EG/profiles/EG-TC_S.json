@@ -79,7 +79,7 @@
           {
             "label": ["LFQQ", "APC"],
             "color": "cadet",
-            "station_id": "LFQQ_APC"
+            "station_id": "LFQQ_QE_APP"
           },
           {
             "label": ["AC", "DVR"],
