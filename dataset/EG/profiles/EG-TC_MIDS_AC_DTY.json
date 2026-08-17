@@ -238,7 +238,7 @@
           {
             "label": ["MIL", "E"],
             "color": "azure",
-            "station_id": "EGXW_APP"
+            "station_id": "EGVV_E_CTR"
           },
           {
             "label": []
@@ -248,7 +248,8 @@
           },
           {
             "label": ["MIL S", "APC"],
-            "color": "azure"
+            "color": "azure",
+            "station_id": "STHRN_APP"
           },
           {
             "label": []
