@@ -1015,11 +1015,6 @@ parent_id = "EGDM_APP"
 controlled_by = ["EGDM_P_APP"]
 
 [[stations]]
-id = "EGDY_APP"
-parent_id = "EGVV_A_CTR"
-controlled_by = ["EGDY_APP"]
-
-[[stations]]
 id = "EGCC_F_APP"
 parent_id = "EGCC_S_APP"
 controlled_by = ["EGCC_F_APP"]
