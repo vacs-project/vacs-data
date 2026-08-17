@@ -157,7 +157,7 @@
           {
             "label": ["EGTC", "APC"],
             "color": "azure",
-            "station_id": "EGTC_APP"
+            "station_id": "EGTC_A_APP"
           },
           {
             "label": ["SS", "GMP"],
