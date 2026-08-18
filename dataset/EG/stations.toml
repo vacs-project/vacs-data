@@ -1883,6 +1883,11 @@ parent_id = "LON_HW_CTR"
 controlled_by = ["SOLENT_APP"]
 
 [[stations]]
+id = "STHRN_APP"
+parent_id = "EGVV_D_CTR"
+controlled_by = ["STHRN_APP"]
+
+[[stations]]
 id = "THAMES_APP"
 parent_id = "LTC_SE_CTR"
 controlled_by = ["THAMES_APP"]
