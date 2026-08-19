@@ -268,7 +268,7 @@
           {
             "label": ["AC", "S4", "LKS"],
             "color": "blush",
-            "station_id": "EG-Sector-4"
+            "station_id": "EG-Sector-04"
           },
           {
             "label": ["AC", "S35", "BCN HI"],
@@ -278,7 +278,7 @@
           {
             "label": ["AC", "S5", "BCN LO"],
             "color": "blush",
-            "station_id": "EG-Sector-5"
+            "station_id": "EG-Sector-05"
           },
           {
             "label": ["AC", "S23"],
