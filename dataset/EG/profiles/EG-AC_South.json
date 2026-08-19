@@ -83,7 +83,7 @@
             "station_id": "LON_GS_CTR"
           },
           {
-            "label": ["BREST", "W"],
+            "label": ["LFRR", "W"],
             "color": "lavender",
             "station_id": "LFRR_WS"
           },
