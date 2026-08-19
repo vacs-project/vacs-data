@@ -300,42 +300,42 @@
           {
             "label": ["TC", "LOREL"],
             "color": "azure",
-            "station_id": "LTC_NL_CTR"
+            "station_id": "EG-TC-LOREL"
           },
           {
             "label": ["TC", "LAM"],
             "color": "azure",
-            "station_id": "LTC_N2_CTR"
+            "station_id": "EG-TC-LAM"
           },
           {
             "label": ["TC", "DAGGA"],
             "color": "azure",
-            "station_id": "LTC_ED_CTR"
+            "station_id": "EG-TC-DAGGA"
           },
           {
             "label": ["TC", "SABER"],
             "color": "azure",
-            "station_id": "LTC_ES_CTR"
+            "station_id": "EG-TC-SABER"
           },
           {
             "label": ["TC", "COWLY"],
             "color": "azure",
-            "station_id": "LTC_MC_CTR"
+            "station_id": "EG-TC-COWLY"
           },
           {
             "label": ["TC", "WELIN"],
             "color": "azure",
-            "station_id": "LTC_MW_CTR"
+            "station_id": "EG-TC-WELIN"
           },
           {
             "label": ["TC", "REDFA"],
             "color": "azure",
-            "station_id": "LTC_ER_CTR"
+            "station_id": "EG-TC-REDFA"
           },
           {
             "label": ["TC", "JACKO"],
             "color": "azure",
-            "station_id": "LTC_EJ_CTR"
+            "station_id": "EG-TC-JACKO"
           },
           {
             "label": ["AC", "HURN"],
@@ -350,7 +350,7 @@
           {
             "label": ["AC", "S23", "W"],
             "color": "azure",
-            "station_id": "LON_23_CTR"
+            "station_id": "EG-Sector-23"
           },
           {
             "label": [],
@@ -359,12 +359,12 @@
           {
             "label": ["AC", "S18", "SFD"],
             "color": "azure",
-            "station_id": "LON_SF_CTR"
+            "station_id": "EG-Sector-18"
           },
           {
             "label": ["AC", "S15", "DVR"],
             "color": "azure",
-            "station_id": "LON_DK_CTR"
+            "station_id": "EG-Sector-15"
           },
           {
             "label": ["AC", "LMS"],

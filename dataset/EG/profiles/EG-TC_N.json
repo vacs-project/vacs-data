@@ -242,12 +242,12 @@
           {
             "label": ["TC", "COWLY"],
             "color": "azure",
-            "station_id": "LTC_MC_CTR"
+            "station_id": "EG-TC-COWLY"
           },
           {
             "label": ["TC", "LOREL"],
             "color": "azure",
-            "station_id": "LTC_NL_CTR"
+            "station_id": "EG-TC-LOREL"
           },
           {
             "label": ["AC", "LMS"],
@@ -257,12 +257,12 @@
           {
             "label": ["TC", "WELIN"],
             "color": "azure",
-            "station_id": "LTC_MW_CTR"
+            "station_id": "EG-TC-WELIN"
           },
           {
             "label": ["TC", "LAM"],
             "color": "azure",
-            "station_id": "LTC_N2_CTR"
+            "station_id": "EG-TC-LAM"
           },
           {
             "label": [],
@@ -271,12 +271,12 @@
           {
             "label": ["TC", "DAGGA"],
             "color": "azure",
-            "station_id": "LTC_ED_CTR"
+            "station_id": "EG-TC-DAGGA"
           },
           {
             "label": ["TC", "SABER"],
             "color": "azure",
-            "station_id": "LTC_ES_CTR"
+            "station_id": "EG-TC-SABER"
           },
           {
             "label": [],
@@ -285,12 +285,12 @@
           {
             "label": ["TC", "REDFA"],
             "color": "azure",
-            "station_id": "LTC_ER_CTR"
+            "station_id": "EG-TC-REDFA"
           },
           {
             "label": ["TC", "JACKO"],
             "color": "azure",
-            "station_id": "LTC_EJ_CTR"
+            "station_id": "EG-TC-JACKO"
           },
           {
             "label": [],
