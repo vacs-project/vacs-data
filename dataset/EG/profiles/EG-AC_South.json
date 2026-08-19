@@ -451,7 +451,7 @@
             "station_id": "LFEE_UN"
           },
           {
-            "label": ["REIMS", "UB"],
+            "label": ["LFEE", "UB", "F265-345"],
             "color": "lavender",
             "station_id": "LFEE_UB"
           },
