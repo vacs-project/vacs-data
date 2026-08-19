@@ -271,17 +271,17 @@
             "station_id": "LON_NU_CTR"
           },
           {
-            "label": ["AC", "BCN", "HI"],
+            "label": ["AC", "S35", "BCN HI"],
             "color": "blush",
             "station_id": "LON_WB_CTR"
           },
           {
-            "label": ["AC", "BCN", "LO"],
+            "label": ["AC", "S5", "BCN LO"],
             "color": "blush",
             "station_id": "LON_WL_CTR"
           },
           {
-            "label": ["AC", "S23", "W"],
+            "label": ["AC", "S23"],
             "color": "blush",
             "station_id": "LON_23_CTR"
           },
@@ -331,7 +331,7 @@
             "station_id": "MAN_WU_CTR"
           },
           {
-            "label": ["PC", "TNT"],
+            "label": ["PC", "TRENT"],
             "color": "azure",
             "station_id": "MAN_TE_CTR"
           },
@@ -351,12 +351,12 @@
             "station_id": "LTC_ED_CTR"
           },
           {
-            "label": ["PC", "N"],
+            "label": ["PC", "NORTH"],
             "color": "azure",
             "station_id": "MAN-N_CTR"
           },
           {
-            "label": ["PC", "E"],
+            "label": ["PC", "EAST"],
             "color": "azure",
             "station_id": "MAN_E_CTR"
           },
