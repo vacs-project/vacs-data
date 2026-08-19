@@ -310,7 +310,7 @@
           {
             "label": ["AC", "S18", "SFD"],
             "color": "blush",
-            "station_id": "LON_SF_CTR"
+            "station_id": "EG-Sector-18"
           },
           {
             "label": ["AC", "S16/17", "LYD"],
@@ -320,47 +320,47 @@
           {
             "label": ["AC", "S15", "DVR"],
             "color": "blush",
-            "station_id": "LON_D_CTR"
+            "station_id": "EG-Sector-15"
           },
           {
             "label": ["AC", "S27/32", "DTY"],
             "color": "blush",
-            "station_id": "LON_MW_CTR"
+            "station_id": "EG-Sector-27-32"
           },
           {
             "label": ["AC", "S34", "DTY"],
             "color": "blush",
-            "station_id": "LON_ME_CTR"
+            "station_id": "EG-Sector-34"
           },
           {
             "label": ["AC", "S28", "DTY"],
             "color": "blush",
-            "station_id": "LON_ML_CTR"
+            "station_id": "EG-Sector-28"
           },
           {
             "label": ["AC", "S23"],
             "color": "blush",
-            "station_id": "LON_23_CTR"
+            "station_id": "EG-Sector-23"
           },
           {
             "label": ["AC", "S12", "CLN"],
             "color": "blush",
-            "station_id": "LON_EN_CTR"
+            "station_id": "EG-Sector-12"
           },
           {
             "label": ["AC", "S13", "CLN"],
             "color": "blush",
-            "station_id": "LON_ES_CTR"
+            "station_id": "EG-Sector-13"
           },
           {
             "label": ["AC", "S35", "BCN HI"],
             "color": "blush",
-            "station_id": "LON_WB_CTR"
+            "station_id": "EG-Sector-35"
           },
           {
             "label": ["AC", "S5", "BCN LO"],
             "color": "blush",
-            "station_id": "LON_WL_CTR"
+            "station_id": "EG-Sector-5"
           },
           {
             "label": ["AC", "S6/36", "EXMOOR"],
@@ -370,37 +370,37 @@
           {
             "label": ["TC", "COWLY"],
             "color": "blush",
-            "station_id": "LTC_MC_CTR"
+            "station_id": "EG-TC-COWLY"
           },
           {
             "label": ["TC", "WELIN"],
             "color": "blush",
-            "station_id": "LTC_MW_CTR"
+            "station_id": "EG-TC-WELIN"
           },
           {
             "label": ["TC", "JACKO"],
             "color": "blush",
-            "station_id": "LTC_EJ_CTR"
+            "station_id": "EG-TC-JACKO"
           },
           {
             "label": ["TC", "DAGGA"],
             "color": "blush",
-            "station_id": "LTC_ED_CTR"
+            "station_id": "EG-TC-DAGGA"
           },
           {
             "label": ["TC", "SABER"],
             "color": "blush",
-            "station_id": "LTC_ES_CTR"
+            "station_id": "EG-TC-SABER"
           },
           {
             "label": ["TC", "LOREL"],
             "color": "blush",
-            "station_id": "LTC_NL_CTR"
+            "station_id": "EG-TC-LOREL"
           },
           {
             "label": ["TC", "LAM"],
             "color": "blush",
-            "station_id": "LTC_N2_CTR"
+            "station_id": "EG-TC-LAM"
           },
           {
             "label": ["LFRR", "V"],
