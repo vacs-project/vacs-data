@@ -241,12 +241,12 @@
           {
             "label": ["TC", "WELIN"],
             "color": "blush",
-            "station_id": "LTC_MW_CTR"
+            "station_id": "EG-TC-WELIN"
           },
           {
             "label": ["TC", "LOREL"],
             "color": "blush",
-            "station_id": "LTC_NL_CTR"
+            "station_id": "EG-TC-LOREL"
           },
           {
             "label": ["AC", "LUS"],
@@ -261,32 +261,32 @@
           {
             "label": ["TC", "DAGGA"],
             "color": "blush",
-            "station_id": "LTC_ED_CTR"
+            "station_id": "EG-TC-DAGGA"
           },
           {
             "label": ["TC", "SABER"],
             "color": "blush",
-            "station_id": "LTC_ES_CTR"
+            "station_id": "EG-TC-SABER"
           },
           {
             "label": ["AC", "S34", "DTY"],
             "color": "blush",
-            "station_id": "LON_ME_CTR"
+            "station_id": "EG-Sector-34"
           },
           {
             "label": ["AC", "S28", "DTY"],
             "color": "blush",
-            "station_id": "LON_ML_CTR"
+            "station_id": "EG-Sector-28"
           },
           {
             "label": ["TC", "REDFA"],
             "color": "blush",
-            "station_id": "LTC_ER_CTR"
+            "station_id": "EG-TC-REDFA"
           },
           {
             "label": ["TC", "JACKO"],
             "color": "blush",
-            "station_id": "LTC_EJ_CTR"
+            "station_id": "EG-TC-JACKO"
           },
           {
             "label": ["AC", "S12", "CLN"],
@@ -296,7 +296,7 @@
           {
             "label": ["AC", "S13", "CLN"],
             "color": "blush",
-            "station_id": "LON_ES_CTR"
+            "station_id": "EG-Sector-13"
           },
           {
             "label": []
@@ -304,15 +304,17 @@
           {
             "label": ["TC", "LAM"],
             "color": "blush",
-            "station_id": "LTC_N2_CTR"
+            "station_id": "EG-TC-LAM"
           },
           {
             "label": ["AC", "S15", "DVR"],
             "color": "blush",
-            "station_id": "LON_DK_CTR"
+            "station_id": "EG-Sector-15"
           },
           {
-            "label": []
+            "label": ["AC", "S14", "CLN"],
+            "color": "blush",
+            "station_id": "EG-Sector-14"
           }
         ]
       }
