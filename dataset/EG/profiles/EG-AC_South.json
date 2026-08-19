@@ -98,7 +98,7 @@
             "station_id": "EGTT_I_CTR"
           },
           {
-            "label": ["SOL", "APC"],
+            "label": ["SOLENT", "RAD"],
             "color": "azure",
             "station_id": "SOLENT_APP"
           },
