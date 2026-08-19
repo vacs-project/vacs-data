@@ -418,7 +418,7 @@
             "station_id": "LFRR_QI"
           },
           {
-            "label": ["PAR", "TP"],
+            "label": ["LFFF", "TP"],
             "color": "lavender",
             "station_id": "PAR_TP"
           },
