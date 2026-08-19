@@ -48,7 +48,7 @@
             "station_id": "EGSS_APP"
           },
           {
-            "label": ["TMS", "RDR"],
+            "label": ["TMS", "RAD"],
             "color": "blush",
             "station_id": "THAMES_APP"
           },
@@ -114,7 +114,7 @@
             "station_id": "EDYY_D"
           },
           {
-            "label": ["AMS", "W"],
+            "label": ["EHAA", "W"],
             "color": "lavender",
             "station_id": "EHAA_W"
           },
@@ -124,7 +124,7 @@
             "station_id": "EDYY-KOH"
           },
           {
-            "label": ["BRU", "N"],
+            "label": ["EBBU", "N"],
             "color": "lavender",
             "station_id": "EBBU-NLS"
           }
@@ -147,7 +147,7 @@
             "station_id": "EGLL_N_APP"
           },
           {
-            "label": ["TMS", "RDR"],
+            "label": ["TMS", "RAD"],
             "color": "blush",
             "station_id": "THAMES_APP"
           },
@@ -291,7 +291,7 @@
           {
             "label": ["AC", "S12", "CLN"],
             "color": "blush",
-            "station_id": "LON_EN_CTR"
+            "station_id": "EG-Sector-12"
           },
           {
             "label": ["AC", "S13", "CLN"],
