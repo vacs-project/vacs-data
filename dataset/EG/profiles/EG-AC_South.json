@@ -68,7 +68,7 @@
             "station_id": "EGKK_APP"
           },
           {
-            "label": ["TMS", "RDR"],
+            "label": ["TMS", "RAD"],
             "color": "blush",
             "station_id": "THAMES_APP"
           },
@@ -118,17 +118,17 @@
             "station_id": "EDYY-KOH"
           },
           {
-            "label": ["BRU", "W"],
+            "label": ["EBBU", "W"],
             "color": "lavender",
             "station_id": "EBBU-WLS"
           },
           {
-            "label": ["PAR", "TP"],
+            "label": ["LFFF", "TP"],
             "color": "lavender",
             "station_id": "PAR_TP"
           },
           {
-            "label": ["PAR", "TN"],
+            "label": ["LFFF", "TN"],
             "color": "lavender",
             "station_id": "PAR_TN"
           }
@@ -151,7 +151,7 @@
             "station_id": "EGKK_APP"
           },
           {
-            "label": ["TMS", "RDR"],
+            "label": ["TMS", "RAD"],
             "color": "blush",
             "station_id": "THAMES_APP"
           },
@@ -161,7 +161,7 @@
             "station_id": "EGMC_APP"
           },
           {
-            "label": ["SOL", "APC"],
+            "label": ["SOLENT", "RAD"],
             "color": "azure",
             "station_id": "SOLENT_APP"
           },
@@ -186,7 +186,7 @@
             "station_id": "EGKB_A_APP"
           },
           {
-            "label": ["EGHH", "APC"],
+            "label": ["EGHH", "RAD"],
             "color": "azure",
             "station_id": "EGHH_APP"
           },
@@ -236,7 +236,7 @@
             "station_id": "EGVO_APP"
           },
           {
-            "label": ["LFRN", "APC"],
+            "label": ["LFRN"],
             "color": "lavender",
             "station_id": "LFRN_JC_APP"
           },
@@ -261,7 +261,7 @@
             "station_id": "EGDM_APP"
           },
           {
-            "label": ["LFQQ", "APC"],
+            "label": ["LFQQ"],
             "color": "lavender",
             "station_id": "LFQQ_QE_APP"
           },
@@ -280,7 +280,7 @@
             "station_id": "EGVP_APP"
           },
           {
-            "label": ["EBOS", "APC"],
+            "label": ["EBOS"],
             "color": "lavender",
             "station_id": "EBOS-APP"
           }
@@ -338,7 +338,7 @@
             "station_id": "LON_ML_CTR"
           },
           {
-            "label": ["AC", "S23", "W"],
+            "label": ["AC", "S23"],
             "color": "blush",
             "station_id": "LON_23_CTR"
           },
@@ -353,17 +353,17 @@
             "station_id": "LON_ES_CTR"
           },
           {
-            "label": ["AC", "BCN", "HI"],
+            "label": ["AC", "S35", "BCN HI"],
             "color": "blush",
             "station_id": "LON_WB_CTR"
           },
           {
-            "label": ["AC", "BCN", "LO"],
+            "label": ["AC", "S5", "BCN LO"],
             "color": "blush",
             "station_id": "LON_WL_CTR"
           },
           {
-            "label": ["AC", "EXMOR"],
+            "label": ["AC", "S6/36", "EXMOOR"],
             "color": "blush",
             "station_id": "LON_WX_CTR"
           },
@@ -403,17 +403,17 @@
             "station_id": "LTC_N2_CTR"
           },
           {
-            "label": ["BREST", "V"],
+            "label": ["LFRR", "V"],
             "color": "lavender",
             "station_id": "LFRR_VI"
           },
           {
-            "label": ["BREST", "J"],
+            "label": ["LFRR", "J"],
             "color": "lavender",
             "station_id": "LFRR_J"
           },
           {
-            "label": ["BREST", "E", "HI"],
+            "label": ["LFRR", "UE", "F345+"],
             "color": "lavender",
             "station_id": "LFRR_QI"
           },
@@ -428,12 +428,12 @@
             "station_id": "PAR_TN"
           },
           {
-            "label": ["PAR", "TB"],
+            "label": ["LFFF", "TB"],
             "color": "lavender",
             "station_id": "PAR_TB"
           },
           {
-            "label": ["BREST", "E", "LO"],
+            "label": ["LFRR", "E", "F295-345"],
             "color": "lavender",
             "station_id": "LFRR_QS"
           },
