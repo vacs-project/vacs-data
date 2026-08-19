@@ -423,7 +423,7 @@
             "station_id": "PAR_TP"
           },
           {
-            "label": ["PAR", "TN"],
+            "label": ["LFFF", "TN"],
             "color": "lavender",
             "station_id": "PAR_TN"
           },
