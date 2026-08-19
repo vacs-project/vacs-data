@@ -60,39 +60,47 @@ jobs:
       - name: Update deployed tag
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           # Create annotated tag object
-          TAG_SHA=$(gh api "repos/${{ github.repository }}/git/tags" \
+          TAG_SHA=$(gh api "repos/$GH_REPO/git/tags" \
             -X POST \
             -f tag=deployed/dev \
-            -f message="Deployed to dev from ${{ github.event_name }} (${GITHUB_SHA::7})" \
-            -f object=${{ github.sha }} \
+            -f message="Deployed to dev from $EVENT_NAME (${GITHUB_SHA::7})" \
+            -f object="$GITHUB_SHA" \
             -f type=commit \
             --jq '.sha')
 
           # Try to update existing ref, create if it doesn't exist
-          if ! gh api "repos/${{ github.repository }}/git/refs/tags/deployed/dev" \
+          if ! gh api "repos/$GH_REPO/git/refs/tags/deployed/dev" \
             -X PATCH -f sha="$TAG_SHA" --silent 2>/dev/null; then
-            gh api "repos/${{ github.repository }}/git/refs" \
+            gh api "repos/$GH_REPO/git/refs" \
               -X POST -f ref=refs/tags/deployed/dev -f sha="$TAG_SHA" --silent
           fi
-          echo "Updated deployed/dev tag to ${{ github.sha }}"
+          echo "Updated deployed/dev tag to $GITHUB_SHA"
 
       - name: Summary
+        env:
+          SERVER_URL: ${{ vars.VACS_SERVER_URL }}
         run: |
           echo "## ✅ Deployed to dev" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| | |" >> $GITHUB_STEP_SUMMARY
           echo "|---|---|" >> $GITHUB_STEP_SUMMARY
-          echo "| **Commit** | [\`${GITHUB_SHA::7}\`](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}) |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Trigger** | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Commit** | [\`${GITHUB_SHA::7}\`]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$GITHUB_SHA) |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Trigger** | $GITHUB_EVENT_NAME |" >> $GITHUB_STEP_SUMMARY
           echo "| **Tag** | \`deployed/dev\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Server** | ${{ vars.VACS_SERVER_URL }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Server** | $SERVER_URL |" >> $GITHUB_STEP_SUMMARY
 
   deploy-production:
     name: Deploy to production
     needs: validate
     timeout-minutes: 10
+    # Deliberate: pushes to main deploy straight to production. The AIRAC merge gate
+    # controls timing (cycle-bound PRs cannot merge before their effective date), so
+    # main is always deployable; the airac-* tag re-deploys when a cycle turns
+    # effective.
     if: >-
       (github.event_name == 'push')
       || (github.event_name == 'workflow_dispatch' && inputs.environment == 'production')
@@ -104,17 +112,22 @@ jobs:
       contents: write
       id-token: write
     steps:
+      # Branch pushes carry no cycle to validate; every tag-triggered production
+      # deploy must pass this check.
       - name: Validate AIRAC cycle
         if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/airac-')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
           CYCLE="${GITHUB_REF_NAME#airac-}"
           echo "Validating AIRAC cycle: $CYCLE"
 
           # Fetch the cycles file directly from the repo (no full checkout needed)
-          CYCLES=$(curl -sS -H "Authorization: Bearer ${{ github.token }}" \
-            "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/.github/airac-cycles.yml")
+          CYCLES=$(curl -sS -H "Authorization: Bearer $GH_TOKEN" \
+            "https://raw.githubusercontent.com/$GH_REPO/$GITHUB_SHA/.github/airac-cycles.yml")
 
-          if echo "$CYCLES" | grep -qE "\"${CYCLE}\""; then
+          if echo "$CYCLES" | grep -qF "\"${CYCLE}\""; then
             echo "AIRAC cycle $CYCLE is valid"
           else
             echo "::error::Tag '${GITHUB_REF_NAME}' does not match a known AIRAC cycle"
@@ -139,32 +152,36 @@ jobs:
       - name: Update deployed tag
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           # Create annotated tag object
-          TAG_SHA=$(gh api "repos/${{ github.repository }}/git/tags" \
+          TAG_SHA=$(gh api "repos/$GH_REPO/git/tags" \
             -X POST \
             -f tag=deployed/production \
-            -f message="Deployed to production from ${{ github.event_name }} (${{ github.ref_name }}, ${GITHUB_SHA::7})" \
-            -f object=${{ github.sha }} \
+            -f message="Deployed to production from $EVENT_NAME ($GITHUB_REF_NAME, ${GITHUB_SHA::7})" \
+            -f object="$GITHUB_SHA" \
             -f type=commit \
             --jq '.sha')
 
           # Try to update existing ref, create if it doesn't exist
-          if ! gh api "repos/${{ github.repository }}/git/refs/tags/deployed/production" \
+          if ! gh api "repos/$GH_REPO/git/refs/tags/deployed/production" \
             -X PATCH -f sha="$TAG_SHA" --silent 2>/dev/null; then
-            gh api "repos/${{ github.repository }}/git/refs" \
+            gh api "repos/$GH_REPO/git/refs" \
               -X POST -f ref=refs/tags/deployed/production -f sha="$TAG_SHA" --silent
           fi
-          echo "Updated deployed/production tag to ${{ github.sha }}"
+          echo "Updated deployed/production tag to $GITHUB_SHA"
 
       - name: Summary
+        env:
+          SERVER_URL: ${{ vars.VACS_SERVER_URL }}
         run: |
           echo "## ✅ Deployed to production" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| | |" >> $GITHUB_STEP_SUMMARY
           echo "|---|---|" >> $GITHUB_STEP_SUMMARY
-          echo "| **Commit** | [\`${GITHUB_SHA::7}\`](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}) |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Trigger** | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Ref** | \`${{ github.ref_name }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Commit** | [\`${GITHUB_SHA::7}\`]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$GITHUB_SHA) |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Trigger** | $GITHUB_EVENT_NAME |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Ref** | \`$GITHUB_REF_NAME\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Tag** | \`deployed/production\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Server** | ${{ vars.VACS_SERVER_URL }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Server** | $SERVER_URL |" >> $GITHUB_STEP_SUMMARY

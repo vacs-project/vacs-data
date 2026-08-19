@@ -21,6 +21,8 @@ runs:
     - name: Get OIDC token
       id: oidc
       shell: bash
+      env:
+        AUDIENCE: ${{ inputs.oidc-audience }}
       run: |
         if [[ -z "$ACTIONS_ID_TOKEN_REQUEST_TOKEN" || -z "$ACTIONS_ID_TOKEN_REQUEST_URL" ]]; then
           echo "::error::OIDC token request environment variables are not set. Ensure the job has 'id-token: write' permission."
@@ -29,7 +31,8 @@ runs:
 
         RESPONSE=$(curl -sSf \
           -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
-          "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=${{ inputs.oidc-audience }}")
+          --get --data-urlencode "audience=$AUDIENCE" \
+          "$ACTIONS_ID_TOKEN_REQUEST_URL")
 
         TOKEN=$(echo "$RESPONSE" | jq -r '.value')
 
@@ -43,13 +46,20 @@ runs:
 
     - name: Trigger dataset reload
       shell: bash
+      env:
+        TOKEN: ${{ steps.oidc.outputs.token }}
+        GIT_REF: ${{ inputs.git-ref }}
+        COMMIT_SHA: ${{ inputs.commit-sha }}
+        SERVER_URL: ${{ inputs.server-url }}
       run: |
+        payload=$(jq -n --arg ref "$GIT_REF" --arg sha "$COMMIT_SHA" '{ref: $ref, sha: $sha}')
+
         if ! response=$(curl -sS --fail-with-body \
           -X POST \
-          -H "Authorization: Bearer ${{ steps.oidc.outputs.token }}" \
+          -H "Authorization: Bearer $TOKEN" \
           -H "Content-Type: application/json" \
-          -d '{"ref": "${{ inputs.git-ref }}", "sha": "${{ inputs.commit-sha }}"}' \
-          "${{ inputs.server-url }}/admin/dataset/reload"); then
+          -d "$payload" \
+          "$SERVER_URL/admin/dataset/reload"); then
           echo "::error::Dataset reload failed: $response"
           exit 1
         fi
