@@ -1865,6 +1865,8 @@ controlled_by = ["EGYM_APP", "EGYM_P_APP"]
 id = "EGYM_P_APP"
 parent_id = "EGYM_APP"
 controlled_by = ["EGYM_P_APP"]
+
+[[stations]]
 id = "EGXC_APP"
 parent_id = "EGVV_E_CTR"
 controlled_by = ["EGXC_APP", "EGXC_P_APP"]
