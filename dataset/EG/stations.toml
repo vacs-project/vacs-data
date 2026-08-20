@@ -989,14 +989,12 @@ id = "EGCC_F_APP"
 parent_id = "EGCC_S_APP"
 controlled_by = ["EGCC_F_APP"]
 
-[[station]]
+[[stations]]
 id = "EGCM_R_TWR"
-parent_id = ""
 controlled_by = ["EGCM_R_TWR"]
 
-[[station]]
+[[stations]]
 id = "EGCJ_R_TWR"
-parent_id = ""
 controlled_by = ["EGCJ_R_TWR"]
 
 [[stations]]
