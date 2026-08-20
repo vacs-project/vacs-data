@@ -3,7 +3,7 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "1",
+      "label": ["1", "Main"],
       "page": {
         "rows": 4,
         "keys": [
