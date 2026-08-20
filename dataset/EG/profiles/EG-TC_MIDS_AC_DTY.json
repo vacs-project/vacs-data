@@ -301,7 +301,7 @@
             "station_id": "EG-Sector-27-32"
           },
           {
-            "label": ["AC", "S28", "DTY"],
+            "label": ["AC", "S28", "DTY N LO"],
             "color": "blush",
             "station_id": "EG-Sector-28"
           },
