@@ -76,10 +76,7 @@
           {
             "label": []
           },
-          {
-            "label": ["TC", "SVFR"],
-            "station_id": "EGLL-CTR-TC_SVFR"
-          },
+
           {
             "label": []
           },
@@ -87,8 +84,7 @@
             "label": []
           },
           {
-            "label": ["EGLW"],
-            "station_id": "EGLW_TWR"
+            "label":[]
           },
           {
             "label": ["WU", "APP"],
@@ -106,12 +102,17 @@
           },
           {
             "label": []
-          },
+          },          
           {
             "label": []
+          },          
+          {
+            "label": ["TC", "SVFR"],
+            "station_id": "EGLL-CTR-TC_SVFR"
           },
           {
-            "label": []
+            "label": ["EGLW"],
+            "station_id": "EGLW_TWR"
           },
           {
             "label": ["TC", "NW"],
