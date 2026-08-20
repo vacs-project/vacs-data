@@ -1028,6 +1028,14 @@ parent_id = "EGCC_S_APP"
 controlled_by = ["EGCC_F_APP"]
 
 [[stations]]
+id = "EGCM_R_TWR"
+controlled_by = ["EGCM_R_TWR"]
+
+[[stations]]
+id = "EGCJ_R_TWR"
+controlled_by = ["EGCJ_R_TWR"]
+
+[[stations]]
 id = "EGGP_APP"
 parent_id = "MAN_WL_CTR"
 controlled_by = ["EGGP_APP", "EGGP_F_APP"]
@@ -1339,6 +1347,21 @@ controlled_by = ["EGMD_A_APP"]
 id = "EGNH_A_APP"
 parent_id = "MAN_WI_CTR"
 controlled_by = ["EGNH_A_APP"]
+
+[[stations]]
+id = "EGNJ_APP"
+parent_id = "MAN_NE_CTR"
+controlled_by = ["EGNJ_APP"]
+
+[[stations]]
+id = "EGNM_DEL"
+parent_id = "EGNM_TWR"
+controlled_by = ["EGNM_DEL"]
+
+[[stations]]
+id = "EGNM_TWR"
+parent_id = "EGNM_APP"
+controlled_by = ["EGNM_APP"]
 
 [[stations]]
 id = "EGNM_APP"

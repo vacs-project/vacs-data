@@ -1,0 +1,143 @@
+{
+  "id": "EGCC",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "EGNM",
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["GMP"],
+            "station_id": "EGNM_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["AIR"],
+            "station_id": "EGNM_TWR"
+          },
+          {
+            "label": []
+          },
+
+          {
+            "label": []
+          },
+          {
+            "label": ["FIN"],
+            "station_id": "EGNM_F_APP"
+          },
+          {
+            "label": ["RAD"],
+            "station_id": "EGNM_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EGCM"],
+            "station_id": "EGCM_R_TWR"
+          },
+          {
+            "label": ["EGCJ"],
+            "station_id": "EGCJ_R_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PC", "NE"],
+            "station_id": "MAN_NE_CTR"
+          },
+          {
+            "label": ["PC", "W"],
+            "station_id": "MAN_W_CTR"
+          },
+          {
+            "label": ["PC", "SE"],
+            "station_id": "MAN_SE_CTR"
+          },
+          {
+            "label": ["NH", "APP"],
+            "station_id": "EGNH_A_APP"
+          },
+          {
+            "label": ["NO", "RAD"],
+            "station_id": "EGNO_APP"
+          },
+          {
+            "label": ["CC", "INT"],
+            "station_id": "EGCC_N_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["NJ", "RAD"],
+            "station_id": "EGNJ_APP"
+          },
+
+          {
+            "label": []
+          },
+          {
+            "label": ["NT", "RAD"],
+            "station_id": "EGNT_APP"
+          },
+          {
+            "label": ["NV", "RAD"],
+            "station_id": "EGNV_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SUP", "Flow"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["UK", "FMP"],
+            "station_id": "UK_FMP"
+          },
+
+          {
+            "label": ["UK", "FMP", "2"],
+            "station_id": "UK_A_FMP"
+          },
+          {
+            "label": ["UK", "FMP", "3"],
+            "station_id": "UK_B_FMP"
+          },
+          {
+            "label": ["SCL", "FMP"],
+            "station_id": "SCL_FMP"
+          },
+          {
+            "label": ["MAN", "GS"],
+            "station_id": "MAN_GS_CTR"
+          },
+          {
+            "label": ["MAN", "FMP"],
+            "station_id": "MAN_FMP"
+          },
+          {
+            "label": ["LON", "GS"],
+            "station_id": "LON_GS_CTR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}
