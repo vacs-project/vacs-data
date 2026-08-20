@@ -1585,6 +1585,10 @@ parent_id = "EGPH_APP"
 controlled_by = ["EGPH_F_APP"]
 
 [[stations]]
+id = "EGPI_I_TWR"
+controlled_by = ["EGPI_I_TWR"]
+
+[[stations]]
 id = "EGPK_TWR"
 parent_id = "EGPK_APP"
 controlled_by = ["EGPK_TWR"]
@@ -1628,6 +1632,18 @@ controlled_by = ["EGPO_A_APP"]
 id = "EGPO_TWR"
 parent_id = "EGPO_A_APP"
 controlled_by = ["EGPO_TWR"]
+
+[[stations]]
+id = "EGPR_I_TWR"
+controlled_by = ["EGPR_I_TWR"]
+
+[[stations]]
+id = "EGPT_R_TWR"
+controlled_by = ["EGPT_R_TWR"]
+
+[[stations]]
+id = "EGPU_I_TWR"
+controlled_by = ["EGPU_I_TWR"]
 
 [[stations]]
 id = "EGQL_A_APP"
