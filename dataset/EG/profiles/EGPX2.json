@@ -159,7 +159,7 @@
             "color": "azure"
           },
           {
-            "label": ["AMS"],
+            "label": ["AMS", "F245-"],
             "color": "azure",
             "station_id": "EHAA_W"
           }
