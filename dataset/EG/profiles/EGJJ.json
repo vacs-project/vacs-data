@@ -1,0 +1,306 @@
+{
+  "id": "EGJJ",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["RADAR"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["EGJJ", "GROUND"],
+            "color": "mint",
+            "station_id": "EGJJ_GND"
+          },
+          {
+            "label": ["Western", "Radar"],
+            "color": "snow",
+            "station_id": "EGTT_WR_CTR"
+          },
+          {
+            "label": ["Plym Mil"],
+            "color": "snow"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EGJJ", "TOWER"],
+            "color": "mint",
+            "station_id": "EGJJ_TWR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EGJJ", "INT"],
+            "color": "mint",
+            "station_id": "EGJJ_APP"
+          },
+          {
+            "label": ["CTL", "SKERY"],
+            "color": "mint",
+            "station_id": "EGJJ_S_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EGJB", "GROUND"],
+            "color": "mint",
+            "station_id": "EGJB_GND"
+          },
+          {
+            "label": ["WEST BHD", "S06"],
+            "color": "snow",
+            "station_id": "EG-Sector-06"
+          },
+          {
+            "label": ["EGJJ", "FIN"],
+            "color": "mint",
+            "station_id": "EGJJ_F_APP"
+          },
+          {
+            "label": ["CTL", "ORTAC"],
+            "color": "mint",
+            "station_id": "EGJJ_C_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EGJB", "TOWER"],
+            "color": "mint",
+            "station_id": "EGJB_TWR"
+          },
+          {
+            "label": ["WOR HURN", "S20/21"],
+            "color": "snow",
+            "station_id": "LON_HW_CTR"
+          },
+          {
+            "label": ["EGHH", "Radar"],
+            "color": "snow",
+            "station_id": "EGHH_APP"
+          },
+          {
+            "label": ["Armor", "Radar"],
+            "color": "snow"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["Iroise"],
+            "color": "snow",
+            "station_id": "LFRB_APP"
+          },
+          {
+            "label": ["EGJA", "GROUND"],
+            "color": "mint",
+            "station_id": "EGJA_GND"
+          },
+          {
+            "label": ["Brest VS"],
+            "color": "snow",
+            "station_id": "LFRR_VS"
+          },
+          {
+            "label": ["EGHI APP"],
+            "color": "snow",
+            "station_id": "EGHI_APP"
+          },
+          {
+            "label": ["EGJB", "RAD 1"],
+            "color": "mint",
+            "station_id": "EGJB_APP"
+          },
+          {
+            "label": ["Rennes", "Sud"],
+            "color": "snow",
+            "station_id": "LFRN_RN_APP"
+          },
+          {
+            "label": ["Rennes", "Nord"],
+            "color": "snow",
+            "station_id": "LFRN_DD_APP"
+          },
+          {
+            "label": ["EGJA", "TOWER"],
+            "color": "mint",
+            "station_id": "EGJA_TWR"
+          },
+          {
+            "label": ["Brest JS"],
+            "color": "snow",
+            "station_id": "LFRR_J"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EGJB", "RAD 2"],
+            "color": "mint",
+            "station_id": "EGJB_F_APP"
+          },
+          {
+            "label": ["Rennes", "Cote"],
+            "color": "snow",
+            "station_id": "LFRN_JC_APP"
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ADC"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["EGJJ", "GROUND"],
+            "color": "mint",
+            "station_id": "EGJJ_GND"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["CTL", "SKERY"],
+            "color": "mint",
+            "station_id": "EGJJ_S_APP"
+          },
+          {
+            "label": ["EGJJ", "TOWER"],
+            "color": "mint",
+            "station_id": "EGJJ_TWR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["CTL", "ORTAC"],
+            "color": "mint",
+            "station_id": "EGJJ_C_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EGJB", "TOWER"],
+            "color": "snow",
+            "station_id": "EGJB_TWR"
+          },
+          {
+            "label": ["EGJA", "TOWER"],
+            "color": "snow",
+            "station_id": "EGJA_TWR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EGJB", "GROUND"],
+            "color": "snow",
+            "station_id": "EGJB_GND"
+          },
+          {
+            "label": ["EGJA", "GROUND"],
+            "color": "snow",
+            "station_id": "EGJA_GND"
+          },
+          {
+            "label": ["EGJJ", "INT"],
+            "color": "mint",
+            "station_id": "EGJJ_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EGJJ", "FIN"],
+            "color": "mint",
+            "station_id": "EGJJ_F_APP"
+          },
+          {
+            "label": ["EGJB", "RAD 1"],
+            "color": "mint",
+            "station_id": "EGJB_APP"
+          },
+          {
+            "label": ["EGJB", "RAD 2"],
+            "color": "mint",
+            "station_id": "EGJB_F_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SUP", "FMP"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["UK", "FMP"],
+            "station_id": "UK_FMP",
+            "color": "snow"
+          },
+          {
+            "label": ["UK", "FMP", "2"],
+            "station_id": "UK_A_FMP",
+            "color": "snow"
+          },
+          {
+            "label": ["UK", "FMP", "3"],
+            "station_id": "UK_B_FMP",
+            "color": "snow"
+          },
+          {
+            "label": ["LAC", "GS"],
+            "station_id": "LON_GS_CTR",
+            "color": "snow"
+          },
+          {
+            "label": ["LTC", "GS"],
+            "station_id": "LTC_GS_CTR",
+            "color": "snow"
+          },
+          {
+            "label": ["LTC", "FMP"],
+            "station_id": "LTC_FMP",
+            "color": "snow"
+          }
+        ]
+      }
+    }
+  ]
+}

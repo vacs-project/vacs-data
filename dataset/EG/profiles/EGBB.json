@@ -1,0 +1,170 @@
+{
+  "id": "EGBB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "EGBB",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["GMP"],
+            "station_id": "EGBB_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["GMC"],
+            "station_id": "EGBB_GND"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["AIR"],
+            "station_id": "EGBB_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FIN"],
+            "station_id": "EGBB_F_APP"
+          },
+          {
+            "label": ["INT"],
+            "station_id": "EGBB_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["PC", "SE"],
+            "station_id": "MAN_SE_CTR"
+          },
+          {
+            "label": ["TC", "MIDS"],
+            "station_id": "LTC_M_CTR"
+          },
+
+          {
+            "label": []
+          },
+          {
+            "label": ["CC", "INT"],
+            "station_id": "EGCC_S_APP"
+          },
+          {
+            "label": ["NX", "RAD"],
+            "station_id": "EGNX_APP"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+
+          {
+            "label": []
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SUP", "Flow"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["UK", "FMP"],
+            "station_id": "UK_FMP"
+          },
+          {
+            "label": ["LTC", "FMP"],
+            "station_id": "LTC_FMP"
+          },
+          {
+            "label": ["UK", "FMP", "2"],
+            "station_id": "UK_A_FMP"
+          },
+          {
+            "label": ["UK", "FMP", "3"],
+            "station_id": "UK_B_FMP"
+          },
+          {
+            "label": ["MAN", "GS"],
+            "station_id": "MAN_GS_CTR"
+          },
+          {
+            "label": ["MAN", "FMP"],
+            "station_id": "MAN_FMP"
+          },
+          {
+            "label": ["LAC", "GS"],
+            "station_id": "LON_GS_CTR"
+          },
+          {
+            "label": ["LTC", "GS"],
+            "station_id": "LTC_GS_CTR"
+          }
+        ]
+      }
+    }
+  ]
+}

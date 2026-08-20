@@ -141,14 +141,14 @@ profile_id = "EISN"
 [[positions]]
 id = "MUNSTER_APP"
 prefixes = ["MUNSTER"]
-frequency = "120.200"
+frequency = "120.205"
 facility_type = "APP"
 profile_id = "MUNSTER"
 
 [[positions]]
 id = "EICK_APP"
 prefixes = ["EICK"]
-frequency = "119.900"
+frequency = "119.905"
 facility_type = "APP"
 profile_id = "EICK"
 
@@ -176,21 +176,21 @@ profile_id = "EIME"
 [[positions]]
 id = "EINN_APP"
 prefixes = ["EINN"]
-frequency = "121.400"
+frequency = "121.405"
 facility_type = "APP"
 profile_id = "EINN"
 
 [[positions]]
 id = "EICK_TWR"
 prefixes = ["EICK"]
-frequency = "119.300"
+frequency = "119.305"
 facility_type = "TWR"
 profile_id = "EICK"
 
 [[positions]]
 id = "EIDL_TWR"
 prefixes = ["EIDL"]
-frequency = "129.800"
+frequency = "129.805"
 facility_type = "TWR"
 profile_id = "EIDL"
 
@@ -218,7 +218,7 @@ profile_id = "EIKN"
 [[positions]]
 id = "EIKY_TWR"
 prefixes = ["EIKY"]
-frequency = "123.325"
+frequency = "123.330"
 facility_type = "TWR"
 profile_id = "EIKY"
 
@@ -232,14 +232,14 @@ profile_id = "EIME"
 [[positions]]
 id = "EINN_TWR"
 prefixes = ["EINN"]
-frequency = "118.700"
+frequency = "118.705"
 facility_type = "TWR"
 profile_id = "EINN"
 
 [[positions]]
 id = "EISG_TWR"
 prefixes = ["EISG"]
-frequency = "122.100"
+frequency = "122.105"
 facility_type = "TWR"
 profile_id = "EISG"
 
@@ -260,7 +260,7 @@ profile_id = "EIWT"
 [[positions]]
 id = "EICK_GND"
 prefixes = ["EICK"]
-frequency = "121.850"
+frequency = "121.855"
 facility_type = "GND"
 profile_id = "EICK"
 
@@ -295,7 +295,7 @@ profile_id = "EIWF"
 [[positions]]
 id = "EIKY_GND"
 prefixes = ["EIKY"]
-frequency = "121.600"
+frequency = "121.605"
 facility_type = "GND"
 profile_id = "EIKY"
 
@@ -309,7 +309,7 @@ profile_id = "EIME"
 [[positions]]
 id = "EINN_GND"
 prefixes = ["EINN"]
-frequency = "121.800"
+frequency = "121.805"
 facility_type = "GND"
 profile_id = "EINN"
 

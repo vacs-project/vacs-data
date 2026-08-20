@@ -328,13 +328,6 @@
       "profile_id": "VHHK"
     },
     {
-      "id": "ZBBB_FSS",
-      "prefixes": ["PRC"],
-      "frequency": "133.075",
-      "facility_type": "FSS",
-      "profile_id": "VHHK"
-    },
-    {
       "id": "ZSSS_S_CTR",
       "prefixes": ["ZSSS"],
       "frequency": "120.900",
@@ -349,23 +342,9 @@
       "profile_id": "VHHK"
     },
     {
-      "id": "ZSHA_CTR",
-      "prefixes": ["ZSHA"],
-      "frequency": "124.550",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
       "id": "ZSAM_CTR",
       "prefixes": ["ZSAM"],
       "frequency": "125.700",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "ZJSA_CTR",
-      "prefixes": ["ZJSA"],
-      "frequency": "120.500",
       "facility_type": "CTR",
       "profile_id": "VHHK"
     },
@@ -380,13 +359,6 @@
       "id": "ZJSY_O_CTR",
       "prefixes": ["ZJSY"],
       "frequency": "130.200",
-      "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "ZGZU_CTR",
-      "prefixes": ["ZGZU"],
-      "frequency": "132.750",
       "facility_type": "CTR",
       "profile_id": "VHHK"
     },
@@ -423,13 +395,6 @@
       "prefixes": ["ZGGG"],
       "frequency": "128.350",
       "facility_type": "CTR",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "ZGGG_APP",
-      "prefixes": ["ZGGG"],
-      "frequency": "126.550",
-      "facility_type": "APP",
       "profile_id": "VHHK"
     }
   ]
