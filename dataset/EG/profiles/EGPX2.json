@@ -388,12 +388,14 @@
             "color": "azure"
           },
           {
-            "label": [""],
+            "label": ["EGNT", "RAD"],
+            "station_id": "EGNT_APP",
             "color": "azure"
           },
 
           {
-            "label": [""],
+            "label": ["EGNT", "TWR"],
+            "station_id": "EGNT_TWR",
             "color": "azure"
           }
         ]
