@@ -2028,6 +2028,13 @@ frequency = "118.330"
 facility_type = "TWR"
 profile_id = "EG-Swanwick_Military"
 
+[[positions]]
+id = "STHRN_APP"
+prefixes = ["STHRN"]
+frequency = "134.035"
+facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
+
 #######################
 # London Area
 #######################
@@ -2071,21 +2078,21 @@ id = "LON_DK_CTR"
 prefixes = ["LON"]
 frequency = "128.430"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_DL_CTR"
 prefixes = ["LON"]
 frequency = "133.485"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_D_CTR"
 prefixes = ["LON"]
 frequency = "134.905"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_EN_CTR"
@@ -2113,14 +2120,14 @@ id = "LON_HW_CTR"
 prefixes = ["LON"]
 frequency = "127.830"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_H_CTR"
 prefixes = ["LON"]
 frequency = "134.440"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_ME_CTR"
@@ -2183,7 +2190,7 @@ id = "LON_O_CTR"
 prefixes = ["LON"]
 frequency = "129.080"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_SC_CTR"
@@ -2197,28 +2204,28 @@ id = "LON_SF_CTR"
 prefixes = ["LON"]
 frequency = "135.055"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_SN_CTR"
 prefixes = ["LON"]
 frequency = "132.165"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_SU_CTR"
 prefixes = ["LON"]
 frequency = "132.840"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_S_CTR"
 prefixes = ["LON"]
 frequency = "129.430"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_WB_CTR"

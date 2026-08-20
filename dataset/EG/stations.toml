@@ -1015,6 +1015,11 @@ parent_id = "EGDM_APP"
 controlled_by = ["EGDM_P_APP"]
 
 [[stations]]
+id = "EGDY_APP"
+parent_id = "EGVV_A_CTR"
+controlled_by = ["EGDY_APP"]
+
+[[stations]]
 id = "EGCC_F_APP"
 parent_id = "EGCC_S_APP"
 controlled_by = ["EGCC_F_APP"]
@@ -1706,7 +1711,7 @@ controlled_by = ["EGUB_TWR"]
 
 [[stations]]
 id = "EGUB_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "STHRN_APP"
 controlled_by = ["EGUB_APP", "EGUB_P_APP"]
 
 [[stations]]
@@ -1787,7 +1792,7 @@ controlled_by = ["EGVO_TWR"]
 
 [[stations]]
 id = "EGVO_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "STHRN_APP"
 controlled_by = ["EGVO_APP", "EGVO_P_APP"]
 
 [[stations]]
@@ -1891,6 +1896,11 @@ controlled_by = ["ISLAND_CTR"]
 id = "SOLENT_APP"
 parent_id = "LON_HW_CTR"
 controlled_by = ["SOLENT_APP"]
+
+[[stations]]
+id = "STHRN_APP"
+parent_id = "EGVV_D_CTR"
+controlled_by = ["STHRN_APP"]
 
 [[stations]]
 id = "THAMES_APP"
