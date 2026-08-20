@@ -86,17 +86,18 @@
           {
             "label":[]
           },
+                    {
+            "label":[]
+          },
           {
             "label": ["WU", "APP"],
             "station_id": "EGWU_APP"
           },
           {
-            "label": ["WU AIR"],
+            "label": ["WU", "AIR"],
             "station_id": "EGWU_TWR"
           },
-          {
-            "label": []
-          },
+
           {
             "label": []
           },
