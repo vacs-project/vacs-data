@@ -169,7 +169,7 @@
           {
             "label": ["KK", "GMP"],
             "color": "azure",
-            "station_id": "SOLENT_APP"
+            "station_id": "EGKK_DEL"
           },
           {
             "label": ["LC", "GMC"],
@@ -185,7 +185,7 @@
             "color": "azure"
           },
           {
-            "label": ["SOL", "APC"],
+            "label": ["SOLENT", "RAD"],
             "color": "azure",
             "station_id": "SOLENT_APP"
           },
@@ -247,12 +247,12 @@
             "color": "azure"
           },
           {
-            "label": ["EBOS", "APC"],
+            "label": ["EBOS"],
             "color": "cadet",
             "station_id": "EBOS-APP"
           },
           {
-            "label": ["LFQQ", "APC"],
+            "label": ["LFQQ"],
             "color": "cadet",
             "station_id": "LFQQ_QE_APP"
           }
