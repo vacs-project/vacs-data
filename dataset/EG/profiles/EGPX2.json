@@ -360,13 +360,13 @@
             "color": "azure"
           },
           {
-            "label": ["EGNT", "RAD"],
-            "station_id": "EGNT_APP",
+            "label": ["EGNS", "RAD"],
+            "station_id": "EGNS_APP",
             "color": "azure"
           },
           {
-            "label": ["EGNT", "TWR"],
-            "station_id": "EGNT_TWR",
+            "label": ["EGNS", "TWR"],
+            "station_id": "EGNS_TWR",
             "color": "azure"
           },
           {
