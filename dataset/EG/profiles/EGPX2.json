@@ -130,7 +130,7 @@
             "station_id": "ENSV-15"
           },
           {
-            "label": ["EDYY", "JEVER", "LO"],
+            "label": ["EDYY", "JEV LO", "245-365"],
             "color": "azure",
             "station_id": "EDYY-JL"
           },
