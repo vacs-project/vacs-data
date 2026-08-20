@@ -2019,4 +2019,5 @@ controlled_by = [
 ]
 
 [[stations]]
-controlled_by = ["SFAL_I_TWR"]id = "EGCB_I_TWR"id = "SFAL_I_TWR"
+id = "SFAL_I_TWR"
+controlled_by = ["SFAL_I_TWR"]
