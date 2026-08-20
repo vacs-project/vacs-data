@@ -2333,7 +2333,7 @@ id = "LTC_N2_CTR"
 prefixes = ["LTC"]
 frequency = "123.905"
 facility_type = "CTR"
-profile_id = "EG-TC_BBX"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_NE_CTR"
