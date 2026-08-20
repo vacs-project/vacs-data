@@ -1,0 +1,221 @@
+{
+  "id": "SAVF",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EGYP", "GND"],
+            "color": "lilac",
+            "station_id": "EGYP_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAVC", "TWR"],
+            "color": "lagoon",
+            "station_id": "SAVC_TWR"
+          },
+          {
+            "label": ["SAWG", "TWR"],
+            "color": "lagoon",
+            "station_id": "SAWG_TWR"
+          },
+          {
+            "label": ["SAVY", "TWR"],
+            "color": "lagoon",
+            "station_id": "SAVY_TWR"
+          },
+          {
+            "label": ["EGYP", "TWR"],
+            "color": "lagoon",
+            "station_id": "EGYP_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAVC", "APP"],
+            "color": "steel",
+            "station_id": "SAVC_APP"
+          },
+          {
+            "label": ["SAWG", "APP"],
+            "color": "steel",
+            "station_id": "SAWG_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EGYP", "APP"],
+            "color": "steel",
+            "station_id": "EGYP_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAWH", "APP"],
+            "color": "steel",
+            "station_id": "SAWH_APP"
+          },
+          {
+            "label": ["SAWC", "APP"],
+            "color": "steel",
+            "station_id": "SAWC_APP"
+          },
+          {
+            "label": ["SAWE", "APP"],
+            "color": "steel",
+            "station_id": "SAWE_APP"
+          },
+          {
+            "label": ["SAVE", "APP"],
+            "color": "steel",
+            "station_id": "SAVE_APP"
+          },
+          {
+            "label": ["SAVT", "APP"],
+            "color": "steel",
+            "station_id": "SAVT_APP"
+          },
+          {
+            "label": ["SAVV", "APP"],
+            "color": "steel",
+            "station_id": "SAVV_APP"
+          },
+          {
+            "label": ["SAWB", "APP"],
+            "color": "steel",
+            "station_id": "SAWB_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "CTR",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SAVF", "CTR"],
+            "station_id": "SAVF_CTR"
+          },
+          {
+            "label": ["SAEF", "CTR"],
+            "station_id": "SAEF_CTR"
+          },
+          {
+            "label": ["ISLAND", "CTR"],
+            "station_id": "ISLAND_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAVF N", "CTR"],
+            "station_id": "SAVF_N_CTR"
+          },
+          {
+            "label": ["SAEF N", "CTR"],
+            "station_id": "SAEF_N_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAVF S", "CTR"],
+            "station_id": "SAVF_S_CTR"
+          },
+          {
+            "label": ["SAEF S", "CTR"],
+            "station_id": "SAEF_S_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -66,35 +66,35 @@ id = "EGBB_APP"
 prefixes = ["EGBB"]
 frequency = "123.980"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_F_APP"
 prefixes = ["EGBB"]
 frequency = "131.005"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_TWR"
 prefixes = ["EGBB"]
 frequency = "118.305"
 facility_type = "TWR"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_GND"
 prefixes = ["EGBB"]
 frequency = "121.805"
 facility_type = "GND"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBB_DEL"
 prefixes = ["EGBB"]
 frequency = "121.930"
 facility_type = "DEL"
-profile_id = "EG-Central_LAG"
+profile_id = "EGBB"
 
 [[positions]]
 id = "EGBJ_A_APP"
@@ -493,84 +493,84 @@ id = "EGJA_TWR"
 prefixes = ["EGJA"]
 frequency = "125.355"
 facility_type = "TWR"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJA_GND"
 prefixes = ["EGJA"]
 frequency = "130.505"
 facility_type = "GND"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJB_APP"
 prefixes = ["EGJB"]
 frequency = "128.655"
 facility_type = "APP"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJB_F_APP"
 prefixes = ["EGJB"]
 frequency = "124.505"
 facility_type = "APP"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJB_TWR"
 prefixes = ["EGJB"]
 frequency = "119.955"
 facility_type = "TWR"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJB_GND"
 prefixes = ["EGJB"]
 frequency = "121.805"
 facility_type = "GND"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJJ_APP"
 prefixes = ["EGJJ"]
 frequency = "120.305"
 facility_type = "APP"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJJ_C_APP"
 prefixes = ["EGJJ"]
 frequency = "125.205"
 facility_type = "APP"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJJ_F_APP"
 prefixes = ["EGJJ"]
 frequency = "118.555"
 facility_type = "APP"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJJ_S_APP"
 prefixes = ["EGJJ"]
 frequency = "120.455"
 facility_type = "APP"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJJ_TWR"
 prefixes = ["EGJJ"]
 frequency = "119.455"
 facility_type = "TWR"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGJJ_GND"
 prefixes = ["EGJJ"]
 frequency = "121.905"
 facility_type = "GND"
-profile_id = "EG-West_LAG"
+profile_id = "EGJJ"
 
 [[positions]]
 id = "EGKA_APP"
@@ -1032,28 +1032,28 @@ id = "EGNX_APP"
 prefixes = ["EGNX"]
 frequency = "126.180"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_F_APP"
 prefixes = ["EGNX"]
 frequency = "120.130"
 facility_type = "APP"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_TWR"
 prefixes = ["EGNX"]
 frequency = "124.005"
 facility_type = "TWR"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGNX_GND"
 prefixes = ["EGNX"]
 frequency = "121.905"
 facility_type = "GND"
-profile_id = "EG-Central_LAG"
+profile_id = "EGNX"
 
 [[positions]]
 id = "EGOE_TWR"
@@ -1289,7 +1289,7 @@ profile_id = "EG-Scottish"
 [[positions]]
 id = "EGPK_TWR"
 prefixes = ["EGPK"]
-frequency = "118.150"
+frequency = "118.155"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
 
@@ -2028,6 +2028,13 @@ frequency = "118.330"
 facility_type = "TWR"
 profile_id = "EG-Swanwick_Military"
 
+[[positions]]
+id = "STHRN_APP"
+prefixes = ["STHRN"]
+frequency = "134.035"
+facility_type = "APP"
+profile_id = "EG-Swanwick_Military"
+
 #######################
 # London Area
 #######################
@@ -2071,84 +2078,84 @@ id = "LON_DK_CTR"
 prefixes = ["LON"]
 frequency = "128.430"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_DL_CTR"
 prefixes = ["LON"]
 frequency = "133.485"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_D_CTR"
 prefixes = ["LON"]
 frequency = "134.905"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_EN_CTR"
 prefixes = ["LON"]
 frequency = "133.940"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LON_ES_CTR"
 prefixes = ["LON"]
 frequency = "128.160"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LON_E_CTR"
 prefixes = ["LON"]
 frequency = "118.480"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LON_HW_CTR"
 prefixes = ["LON"]
 frequency = "127.830"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_H_CTR"
 prefixes = ["LON"]
 frequency = "134.440"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_ME_CTR"
 prefixes = ["LON"]
 frequency = "127.880"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_MIDS_AC_DTY"
 
 [[positions]]
 id = "LON_ML_CTR"
 prefixes = ["LON"]
 frequency = "133.975"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_MIDS_AC_DTY"
 
 [[positions]]
 id = "LON_MW_CTR"
 prefixes = ["LON"]
 frequency = "134.390"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_MIDS_AC_DTY"
 
 [[positions]]
 id = "LON_M_CTR"
 prefixes = ["LON"]
 frequency = "120.025"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_MIDS_AC_DTY"
 
 [[positions]]
 id = "LON_NE_CTR"
@@ -2183,7 +2190,7 @@ id = "LON_O_CTR"
 prefixes = ["LON"]
 frequency = "129.080"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_SC_CTR"
@@ -2197,28 +2204,28 @@ id = "LON_SF_CTR"
 prefixes = ["LON"]
 frequency = "135.055"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_SN_CTR"
 prefixes = ["LON"]
 frequency = "132.165"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_SU_CTR"
 prefixes = ["LON"]
 frequency = "132.840"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_S_CTR"
 prefixes = ["LON"]
 frequency = "129.430"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-AC_South"
 
 [[positions]]
 id = "LON_WB_CTR"
@@ -2263,119 +2270,119 @@ id = "LTC_CTR"
 prefixes = ["LTC"]
 frequency = "135.805"
 facility_type = "CTR"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-TC_BBX"
 
 [[positions]]
 id = "LTC_ED_CTR"
 prefixes = ["LTC"]
 frequency = "124.930"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_EJ_CTR"
 prefixes = ["LTC"]
 frequency = "135.425"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_ER_CTR"
 prefixes = ["LTC"]
 frequency = "133.525"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_ES_CTR"
 prefixes = ["LTC"]
 frequency = "129.605"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_E_CTR"
 prefixes = ["LTC"]
 frequency = "121.230"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_EAST_AC_CLN"
 
 [[positions]]
 id = "LTC_MC_CTR"
 prefixes = ["LTC"]
 frequency = "133.080"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_MIDS_AC_DTY"
 
 [[positions]]
 id = "LTC_MW_CTR"
 prefixes = ["LTC"]
 frequency = "130.925"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_MIDS_AC_DTY"
 
 [[positions]]
 id = "LTC_M_CTR"
 prefixes = ["LTC"]
 frequency = "121.030"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_MIDS_AC_DTY"
 
 [[positions]]
 id = "LTC_N2_CTR"
 prefixes = ["LTC"]
 frequency = "123.905"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_NE_CTR"
 prefixes = ["LTC"]
 frequency = "118.825"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_NL_CTR"
 prefixes = ["LTC"]
 frequency = "129.280"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_NW_CTR"
 prefixes = ["LTC"]
 frequency = "121.280"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_N_CTR"
 prefixes = ["LTC"]
 frequency = "119.780"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_SE_CTR"
 prefixes = ["LTC"]
 frequency = "120.530"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-TC_S"
 
 [[positions]]
 id = "LTC_SW_CTR"
 prefixes = ["LTC"]
 frequency = "133.180"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-TC_S"
 
 [[positions]]
 id = "LTC_S_CTR"
 prefixes = ["LTC"]
 frequency = "134.125"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-TC_S"
 
 #######################
 # Scottish Area

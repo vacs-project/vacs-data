@@ -1,0 +1,382 @@
+{
+  "id": "SAEF",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SABE", "DEL"],
+            "color": "clay",
+            "station_id": "SABE_DEL"
+          },
+          {
+            "label": ["SAEZ", "DEL"],
+            "color": "clay",
+            "station_id": "SAEZ_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SABE", "GND"],
+            "color": "lilac",
+            "station_id": "SABE_GND"
+          },
+          {
+            "label": ["SAEZ", "GND"],
+            "color": "lilac",
+            "station_id": "SAEZ_GND"
+          },
+          {
+            "label": ["SAAR", "GND"],
+            "color": "lilac",
+            "station_id": "SAAR_GND"
+          },
+          {
+            "label": ["SAZM", "GND"],
+            "color": "lilac",
+            "station_id": "SAZM_GND"
+          },
+          {
+            "label": ["SAZN", "GND"],
+            "color": "lilac",
+            "station_id": "SAZN_GND"
+          },
+          {
+            "label": ["SAZS", "GND"],
+            "color": "lilac",
+            "station_id": "SAZS_GND"
+          },
+          {
+            "label": ["SABE", "TWR"],
+            "color": "lagoon",
+            "station_id": "SABE_TWR"
+          },
+          {
+            "label": ["SAEZ", "TWR"],
+            "color": "lagoon",
+            "station_id": "SAEZ_TWR"
+          },
+          {
+            "label": ["SAAR", "TWR"],
+            "color": "lagoon",
+            "station_id": "SAAR_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAAR", "APP"],
+            "color": "steel",
+            "station_id": "SAAR_APP"
+          },
+          {
+            "label": ["SAZM", "APP"],
+            "color": "steel",
+            "station_id": "SAZM_GND"
+          },
+          {
+            "label": ["SAZN", "APP"],
+            "color": "steel",
+            "station_id": "SAZN_APP"
+          },
+          {
+            "label": ["SAZS", "APP"],
+            "color": "steel",
+            "station_id": "SAZS_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": "SEC",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SADF", "DEL"],
+            "color": "clay",
+            "station_id": "SADF_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SADF", "GND"],
+            "color": "lilac",
+            "station_id": "SADF_GND"
+          },
+          {
+            "label": ["SAZB", "GND"],
+            "color": "lilac",
+            "station_id": "SAZB_GND"
+          },
+          {
+            "label": ["SADP", "GND"],
+            "color": "lilac",
+            "station_id": "SADP_GND"
+          },
+          {
+            "label": ["SADM", "GND"],
+            "color": "lilac",
+            "station_id": "SADM_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SADF", "TWR"],
+            "color": "lagoon",
+            "station_id": "SADF_TWR"
+          },
+          {
+            "label": ["SAZB", "TWR"],
+            "color": "lagoon",
+            "station_id": "SAZB_TWR"
+          },
+          {
+            "label": ["SADP", "TWR"],
+            "color": "lagoon",
+            "station_id": "SADP_TWR"
+          },
+          {
+            "label": ["SADM", "TWR"],
+            "color": "lagoon",
+            "station_id": "SADM_TWR"
+          },
+          {
+            "label": ["SADJ", "TWR"],
+            "color": "lagoon",
+            "station_id": "SADJ_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAZB", "APP"],
+            "color": "steel",
+            "station_id": "SAZB_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAZY", "APP"],
+            "color": "steel",
+            "station_id": "SAZY_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAAV", "TWR"],
+            "color": "lagoon",
+            "station_id": "SAAV_TWR"
+          },
+          {
+            "label": ["SAAI", "TWR"],
+            "color": "lagoon",
+            "station_id": "SAAI_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAAG", "APP"],
+            "color": "steel",
+            "station_id": "SAAG_APP"
+          },
+          {
+            "label": ["SAZT", "APP"],
+            "color": "steel",
+            "station_id": "SAZT_APP"
+          },
+          {
+            "label": ["SAAP", "APP"],
+            "color": "steel",
+            "station_id": "SAAP_APP"
+          },
+          {
+            "label": ["SAAC", "APP"],
+            "color": "steel",
+            "station_id": "SAAC_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": "FIR",
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["BAIRES", "CTR"],
+            "station_id": "BAIRES_CTR"
+          },
+          {
+            "label": ["SACF", "CTR"],
+            "station_id": "SACF_CTR"
+          },
+          {
+            "label": ["SAMF", "CTR"],
+            "station_id": "SAMF_CTR"
+          },
+          {
+            "label": ["SAVF", "CTR"],
+            "station_id": "SAVF_CTR"
+          },
+          {
+            "label": ["SARR", "CTR"],
+            "station_id": "SARR_CTR"
+          },
+          {
+            "label": ["SAEF", "CTR"],
+            "station_id": "SAEF_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAEF N", "CTR"],
+            "station_id": "SAEF_N_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAVF N", "CTR"],
+            "station_id": "SAVF_N_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAEF S", "CTR"],
+            "station_id": "SAEF_S_CTR"
+          },
+          {
+            "label": ["SACF S", "CTR"],
+            "station_id": "SACF_S_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

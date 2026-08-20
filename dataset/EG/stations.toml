@@ -935,6 +935,21 @@ controlled_by = [
 ]
 
 [[stations]]
+id = "EGBB_DEL"
+parent_id = "EGBB_GND"
+controlled_by = ["EGBB_DEL"]
+
+[[stations]]
+id = "EGBB_GND"
+parent_id = "EGBB_TWR"
+controlled_by = ["EGBB_GND"]
+
+[[stations]]
+id = "EGBB_TWR"
+parent_id = "EGBB_APP"
+controlled_by = ["EGBB_TWR"]
+
+[[stations]]
 id = "EGBB_APP"
 parent_id = "LTC_MC_CTR"
 controlled_by = ["EGBB_APP", "EGBB_F_APP"]
@@ -985,9 +1000,37 @@ parent_id = "EGCC_S_APP"
 controlled_by = ["EGCC_N_APP"]
 
 [[stations]]
+id = "EGDM_TWR"
+parent_id = "EGDM_APP"
+controlled_by = ["EGDM_TWR"]
+
+[[stations]]
+id = "EGDM_APP"
+parent_id = "EGVV_W_CTR"
+controlled_by = ["EGDM_APP", "EGDM_P_APP"]
+
+[[stations]]
+id = "EGDM_P_APP"
+parent_id = "EGDM_APP"
+controlled_by = ["EGDM_P_APP"]
+
+[[stations]]
+id = "EGDY_APP"
+parent_id = "EGVV_A_CTR"
+controlled_by = ["EGDY_APP"]
+
+[[stations]]
 id = "EGCC_F_APP"
 parent_id = "EGCC_S_APP"
 controlled_by = ["EGCC_F_APP"]
+
+[[stations]]
+id = "EGCM_R_TWR"
+controlled_by = ["EGCM_R_TWR"]
+
+[[stations]]
+id = "EGCJ_R_TWR"
+controlled_by = ["EGCJ_R_TWR"]
 
 [[stations]]
 id = "EGGP_APP"
@@ -1023,6 +1066,106 @@ controlled_by = ["EGGW_APP", "EGGW_F_APP", "ESSEX_APP"]
 id = "EGGW_F_APP"
 parent_id = "EGGW_APP"
 controlled_by = ["EGGW_F_APP"]
+
+[[stations]]
+id = "EGKA_TWR"
+parent_id = "EGKA_APP"
+controlled_by = ["EGKA_TWR"]
+
+[[stations]]
+id = "EGKA_APP"
+parent_id = "LTC_SW_CTR"
+controlled_by = ["EGKA_APP"]
+
+[[stations]]
+id = "EGKB_GND"
+parent_id = "EGKB_TWR"
+controlled_by = ["EGKB_GND"]
+
+[[stations]]
+id = "EGKB_TWR"
+parent_id = "EGKB_A_APP"
+controlled_by = ["EGKB_TWR"]
+
+[[stations]]
+id = "EGKB_A_APP"
+parent_id = "EGLC_APP"
+controlled_by = ["EGKB_A_APP"]
+
+[[stations]]
+id = "EGHH_APP"
+parent_id = "SOLENT_APP"
+controlled_by = ["EGHH_APP", "EGHH_F_APP"]
+
+[[stations]]
+id = "EGHH_F_APP"
+parent_id = "EGHH_APP"
+controlled_by = ["EGHH_F_APP"]
+
+[[stations]]
+id = "EGHI_APP"
+parent_id = "SOLENT_APP"
+controlled_by = ["EGHI_APP"]
+
+[[stations]]
+id = "EGJA_GND"
+parent_id = "EGJA_TWR"
+controlled_by = ["EGJA_GND"]
+
+[[stations]]
+id = "EGJA_TWR"
+parent_id = "EGJB_APP"
+controlled_by = ["EGJA_TWR"]
+
+[[stations]]
+id = "EGJB_GND"
+parent_id = "EGJB_TWR"
+controlled_by = ["EGJB_GND"]
+
+[[stations]]
+id = "EGJB_TWR"
+parent_id = "EGJB_APP"
+controlled_by = ["EGJB_TWR"]
+
+[[stations]]
+id = "EGJB_APP"
+parent_id = "EGJJ_C_APP"
+controlled_by = ["EGJB_APP", "EGJB_F_APP"]
+
+[[stations]]
+id = "EGJB_F_APP"
+parent_id = "EGJB_APP"
+controlled_by = ["EGJB_F_APP"]
+
+[[stations]]
+id = "EGJJ_GND"
+parent_id = "EGJJ_TWR"
+controlled_by = ["EGJJ_GND"]
+
+[[stations]]
+id = "EGJJ_TWR"
+parent_id = "EGJJ_APP"
+controlled_by = ["EGJJ_TWR"]
+
+[[stations]]
+id = "EGJJ_APP"
+parent_id = "EGJJ_C_APP"
+controlled_by = ["EGJJ_APP", "EGJJ_F_APP"]
+
+[[stations]]
+id = "EGJJ_F_APP"
+parent_id = "EGJJ_APP"
+controlled_by = ["EGJJ_F_APP"]
+
+[[stations]]
+id = "EGJJ_C_APP"
+parent_id = "EG-Sector-06"
+controlled_by = ["EGJJ_C_APP", "EGJJ_S_APP"]
+
+[[stations]]
+id = "EGJJ_S_APP"
+parent_id = "EG-Sector-06"
+controlled_by = ["EGJJ_S_APP", "EGJJ_C_APP"]
 
 [[stations]]
 id = "EGKK_DEL"
@@ -1087,6 +1230,11 @@ controlled_by = ["EGLC_APP"]
 [[stations]]
 id = "EGLD_I_TWR"
 controlled_by = ["EGLD_I_TWR"]
+
+[[stations]]
+id = "EGLF_TWR"
+parent_id = "EGLF_APP"
+controlled_by = ["EGLF_TWR"]
 
 [[stations]]
 id = "EGLF_APP"
@@ -1168,9 +1316,49 @@ parent_id = "EGLL-CTR-TC_SVFR"
 controlled_by = ["EGLW_TWR"]
 
 [[stations]]
+id = "EGMC_TWR"
+parent_id = "EGMC_APP"
+controlled_by = ["EGMC_TWR"]
+
+[[stations]]
+id = "EGMC_APP"
+parent_id = "THAMES_APP"
+controlled_by = ["EGMC_APP", "EGMC_L_APP"]
+
+[[stations]]
+id = "EGMC_L_APP"
+parent_id = "EGMC_APP"
+controlled_by = ["EGMC_L_APP"]
+
+[[stations]]
+id = "EGMD_TWR"
+parent_id = "EGMD_A_APP"
+controlled_by = ["EGMD_TWR"]
+
+[[stations]]
+id = "EGMD_A_APP"
+parent_id = "LTC_SE_CTR"
+controlled_by = ["EGMD_A_APP"]
+
+[[stations]]
 id = "EGNH_A_APP"
 parent_id = "MAN_WI_CTR"
 controlled_by = ["EGNH_A_APP"]
+
+[[stations]]
+id = "EGNJ_APP"
+parent_id = "MAN_NE_CTR"
+controlled_by = ["EGNJ_APP"]
+
+[[stations]]
+id = "EGNM_DEL"
+parent_id = "EGNM_TWR"
+controlled_by = ["EGNM_DEL"]
+
+[[stations]]
+id = "EGNM_TWR"
+parent_id = "EGNM_APP"
+controlled_by = ["EGNM_APP"]
 
 [[stations]]
 id = "EGNM_APP"
@@ -1256,6 +1444,16 @@ controlled_by = ["EGNV_APP", "EGNV_F_APP"]
 id = "EGNV_F_APP"
 parent_id = "EGNV_APP"
 controlled_by = ["EGNV_F_APP"]
+
+[[stations]]
+id = "EGNX_GND"
+parent_id = "EGNX_TWR"
+controlled_by = ["EGNX_GND"]
+
+[[stations]]
+id = "EGNX_TWR"
+parent_id = "EGNX_APP"
+controlled_by = ["EGNX_TWR"]
 
 [[stations]]
 id = "EGNX_APP"
@@ -1489,6 +1687,21 @@ parent_id = "EGSS_APP"
 controlled_by = ["EGSC_A_APP"]
 
 [[stations]]
+id = "EGSH_TWR"
+parent_id = "EGSH_APP"
+controlled_by = ["EGSH_TWR"]
+
+[[stations]]
+id = "EGSH_APP"
+parent_id = "LON_NE_CTR"
+controlled_by = ["EGSH_APP", "EGSH_F_APP"]
+
+[[stations]]
+id = "EGSH_F_APP"
+parent_id = "EGSH_APP"
+controlled_by = ["EGSH_F_APP"]
+
+[[stations]]
 id = "EGSS_DEL"
 parent_id = "EGSS_GND"
 controlled_by = ["EGSS_DEL"]
@@ -1518,8 +1731,48 @@ id = "EGSU_I_TWR"
 controlled_by = ["EGSU_I_TWR"]
 
 [[stations]]
+id = "EGTC_A_APP"
+parent_id = "LTC_MW_CTR"
+controlled_by = ["EGTC_A_APP"]
+
+[[stations]]
 id = "EGTF_R_TWR"
 controlled_by = ["EGTF_R_TWR"]
+
+[[stations]]
+id = "EGTK_GND"
+parent_id = "EGTK_TWR"
+controlled_by = ["EGTK_GND"]
+
+[[stations]]
+id = "EGTK_TWR"
+parent_id = "EGTK_APP"
+controlled_by = ["EGTK_TWR"]
+
+[[stations]]
+id = "EGTK_APP"
+parent_id = "LTC_MC_CTR"
+controlled_by = ["EGTK_APP"]
+
+[[stations]]
+id = "EGUB_GND"
+parent_id = "EGUB_TWR"
+controlled_by = ["EGUB_GND"]
+
+[[stations]]
+id = "EGUB_TWR"
+parent_id = "EGUB_APP"
+controlled_by = ["EGUB_TWR"]
+
+[[stations]]
+id = "EGUB_APP"
+parent_id = "STHRN_APP"
+controlled_by = ["EGUB_APP", "EGUB_P_APP", "STHRN_APP"]
+
+[[stations]]
+id = "EGUB_P_APP"
+parent_id = "EGUB_APP"
+controlled_by = ["EGUB_P_APP"]
 
 [[stations]]
 id = "EGUL_APP"
@@ -1530,6 +1783,87 @@ controlled_by = ["EGUL_APP", "EGUL_P_APP"]
 id = "EGUL_P_APP"
 parent_id = "EGUL_APP"
 controlled_by = ["EGUL_P_APP"]
+
+[[stations]]
+id = "EGUW_TWR"
+parent_id = "EGUW_APP"
+controlled_by = ["EGUW_TWR"]
+
+[[stations]]
+id = "EGUW_APP"
+parent_id = "EGVV_D_CTR"
+controlled_by = ["EGUW_APP", "EGUW_P_APP"]
+
+[[stations]]
+id = "EGUW_P_APP"
+parent_id = "EGUW_APP"
+controlled_by = ["EGUW_P_APP"]
+
+[[stations]]
+id = "EGVN_GND"
+parent_id = "EGVN_TWR"
+controlled_by = ["EGVN_GND"]
+
+[[stations]]
+id = "EGVN_TWR"
+parent_id = "EGVN_APP"
+controlled_by = ["EGVN_TWR"]
+
+[[stations]]
+id = "EGVN_APP"
+parent_id = "EGVV_C_CTR"
+controlled_by = [
+  "EGVN_APP",
+  "EGVN_F_APP",
+  "EGVN_L_APP",
+  "EGVN_Z_APP",
+  "EGVN_P_APP",
+]
+
+[[stations]]
+id = "EGVN_F_APP"
+parent_id = "EGVN_APP"
+controlled_by = ["EGVN_F_APP"]
+
+[[stations]]
+id = "EGVN_L_APP"
+parent_id = "EGVN_APP"
+controlled_by = ["EGVN_L_APP"]
+
+[[stations]]
+id = "EGVN_Z_APP"
+parent_id = "EGVN_APP"
+controlled_by = ["EGVN_Z_APP"]
+
+[[stations]]
+id = "EGVN_P_APP"
+parent_id = "EGVN_APP"
+controlled_by = ["EGVN_P_APP"]
+
+[[stations]]
+id = "EGVO_TWR"
+parent_id = "EGVO_APP"
+controlled_by = ["EGVO_TWR"]
+
+[[stations]]
+id = "EGVO_APP"
+parent_id = "STHRN_APP"
+controlled_by = ["EGVO_APP", "EGVO_P_APP", "STHRN_APP"]
+
+[[stations]]
+id = "EGVO_P_APP"
+parent_id = "EGVO_APP"
+controlled_by = ["EGVO_P_APP"]
+
+[[stations]]
+id = "EGVP_TWR"
+parent_id = "EGVP_APP"
+controlled_by = ["EGVP_TWR"]
+
+[[stations]]
+id = "EGVP_APP"
+parent_id = "EGVV_A_CTR"
+controlled_by = ["EGVP_APP"]
 
 [[stations]]
 id = "EGWU_GND"
@@ -1555,6 +1889,56 @@ controlled_by = ["EGWU_F_APP"]
 id = "EGWU_P_APP"
 parent_id = "EGWU_F_APP"
 controlled_by = ["EGWU_P_APP"]
+
+[[stations]]
+id = "EGYM_TWR"
+parent_id = "EGYM_APP"
+controlled_by = ["EGYM_TWR"]
+
+[[stations]]
+id = "EGYM_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGYM_APP", "EGYM_P_APP"]
+
+[[stations]]
+id = "EGYM_P_APP"
+parent_id = "EGYM_APP"
+controlled_by = ["EGYM_P_APP"]
+
+[[stations]]
+id = "EGXC_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGXC_APP", "EGXC_P_APP"]
+
+[[stations]]
+id = "EGXT_GND"
+parent_id = "EGXT_TWR"
+controlled_by = ["EGXT_GND"]
+
+[[stations]]
+id = "EGXT_TWR"
+parent_id = "EGXT_APP"
+controlled_by = ["EGXT_TWR"]
+
+[[stations]]
+id = "EGXT_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGXT_APP", "EGXT_P_APP"]
+
+[[stations]]
+id = "EGXT_P_APP"
+parent_id = "EGXT_APP"
+controlled_by = ["EGXT_P_APP"]
+
+[[stations]]
+id = "EGXW_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGXW_APP", "EGXW_L_APP", "EGXW_P_APP"]
+
+[[stations]]
+id = "EGYD_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGYD_APP", "EGYD_P_APP"]
 
 [[stations]]
 id = "EGYP_APP"
@@ -1602,6 +1986,11 @@ controlled_by = ["ISLAND_CTR"]
 id = "SOLENT_APP"
 parent_id = "LON_HW_CTR"
 controlled_by = ["SOLENT_APP"]
+
+[[stations]]
+id = "STHRN_APP"
+parent_id = "EGVV_D_CTR"
+controlled_by = ["STHRN_APP"]
 
 [[stations]]
 id = "THAMES_APP"

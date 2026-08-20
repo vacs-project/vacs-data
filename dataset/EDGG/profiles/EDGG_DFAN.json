@@ -103,7 +103,9 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["PFA", "APP"],
+            "color": "clay",
+            "station_id": "EDGG-PFA"
           },
           {
             "label": ["ETOU", "TWR"],
@@ -117,14 +119,14 @@
             "label": [""]
           },
           {
-            "label": ["PFA", "APP"],
-            "color": "umber",
-            "station_id": "EDGG-PFA"
-          },
-          {
             "label": ["EDGG", "KIR"],
             "color": "lagoon",
             "station_id": "EDGG-KIR"
+          },
+          {
+            "label": ["EIF", "APP"],
+            "color": "clay",
+            "station_id": "EDGG-EIF"
           },
           {
             "label": [""]

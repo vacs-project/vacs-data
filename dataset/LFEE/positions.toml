@@ -448,7 +448,7 @@ default_call_sources = ["LFQM_I_TWR"]
 [[positions]]
 id = "LFSB_TWR"
 prefixes = ["LFSB"]
-frequency = "118.300"
+frequency = "118.305"
 facility_type = "TWR"
 default_call_sources = ["LFSB_TWR", "LFSB_GND", "LFSB_DEL"]
 

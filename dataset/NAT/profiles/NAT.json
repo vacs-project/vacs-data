@@ -13,16 +13,9 @@
       "gap": 0.75,
       "children": [
         {
-          "label": ["Edmonton", "(INOP)"],
+          "label": ["Edmonton"],
           "size": 7,
-          "page": {
-            "rows": 5,
-            "keys": [
-              {
-                "label": ["INOP"]
-              }
-            ]
-          }
+          "station_id": "CZEG-FSS"
         },
         {
           "label": ["Montreal", "(INOP)"],
