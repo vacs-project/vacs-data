@@ -183,13 +183,6 @@
           {
             "label": ["LAC", "GS"],
             "station_id": "LON_GS_CTR"
-          },
-          {
-            "label": []
-          },          
-   
-          {
-            "label": []
           }
         ]
       }
