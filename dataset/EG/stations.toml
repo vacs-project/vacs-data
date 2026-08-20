@@ -1686,6 +1686,11 @@ id = "EGTF_R_TWR"
 controlled_by = ["EGTF_R_TWR"]
 
 [[stations]]
+id = "EGTK_GND"
+parent_id = "EGTK_TWR"
+controlled_by = ["EGTK_GND"]
+
+[[stations]]
 id = "EGTK_TWR"
 parent_id = "EGTK_APP"
 controlled_by = ["EGTK_TWR"]
@@ -1870,6 +1875,11 @@ controlled_by = ["EGYD_APP", "EGYD_P_APP"]
 id = "EGYM_APP"
 parent_id = "EGVV_E_CTR"
 controlled_by = ["EGYM_APP", "EGYM_P_APP"]
+
+[[stations]]
+id = "EGXT_APP"
+parent_id = "EGVV_C_CTR"
+controlled_by = ["EGXT_APP", "EGXT_P_APP"]
 
 [[stations]]
 id = "EGYP_APP"

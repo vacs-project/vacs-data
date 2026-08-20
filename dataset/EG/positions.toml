@@ -2270,7 +2270,7 @@ id = "LTC_CTR"
 prefixes = ["LTC"]
 frequency = "135.805"
 facility_type = "CTR"
-profile_id = "EG-UK_ALL"
+profile_id = "EG-TC_BBX"
 
 [[positions]]
 id = "LTC_ED_CTR"
@@ -2333,56 +2333,56 @@ id = "LTC_N2_CTR"
 prefixes = ["LTC"]
 frequency = "123.905"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_NE_CTR"
 prefixes = ["LTC"]
 frequency = "118.825"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_NL_CTR"
 prefixes = ["LTC"]
 frequency = "129.280"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_NW_CTR"
 prefixes = ["LTC"]
 frequency = "121.280"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_N_CTR"
 prefixes = ["LTC"]
 frequency = "119.780"
 facility_type = "CTR"
-profile_id = "EG-Central_LAG"
+profile_id = "EG-TC_N"
 
 [[positions]]
 id = "LTC_SE_CTR"
 prefixes = ["LTC"]
 frequency = "120.530"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-TC_S"
 
 [[positions]]
 id = "LTC_SW_CTR"
 prefixes = ["LTC"]
 frequency = "133.180"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-TC_S"
 
 [[positions]]
 id = "LTC_S_CTR"
 prefixes = ["LTC"]
 frequency = "134.125"
 facility_type = "CTR"
-profile_id = "EG-South_LAG"
+profile_id = "EG-TC_S"
 
 #######################
 # Scottish Area
