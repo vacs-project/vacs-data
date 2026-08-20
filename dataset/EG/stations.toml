@@ -1902,11 +1902,6 @@ parent_id = "EGVV_E_CTR"
 controlled_by = ["EGYD_APP", "EGYD_P_APP"]
 
 [[stations]]
-id = "EGYM_APP"
-parent_id = "EGVV_E_CTR"
-controlled_by = ["EGYM_APP", "EGYM_P_APP"]
-
-[[stations]]
 id = "EGYP_APP"
 parent_id = "ISLAND_CTR"
 controlled_by = ["EGYP_APP", "EGYP_P_APP"]
