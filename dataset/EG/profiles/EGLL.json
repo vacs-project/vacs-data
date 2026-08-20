@@ -129,7 +129,7 @@
             "station_id": "SOLENT_APP"
           },
           {
-            "label": ["KK","INT"],
+            "label": ["KK", "INT"],
             "station_id": "EGKK_APP"
           },
           {
@@ -171,7 +171,7 @@
           {
             "label": ["UK", "FMP", "2"],
             "station_id": "UK_A_FMP"
-          },          
+          },
           {
             "label": ["LTC", "GS"],
             "station_id": "LTC_GS_CTR"
@@ -179,7 +179,7 @@
           {
             "label": ["UK", "FMP", "3"],
             "station_id": "UK_B_FMP"
-          },          
+          },
           {
             "label": ["LAC", "GS"],
             "station_id": "LON_GS_CTR"
