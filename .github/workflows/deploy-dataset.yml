@@ -86,7 +86,6 @@ jobs:
       name: production
       url: ${{ vars.VACS_SERVER_URL }}
     permissions:
-      contents: write
       id-token: write
     steps:
       # Branch pushes carry no cycle to validate; every tag-triggered production
