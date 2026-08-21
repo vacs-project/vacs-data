@@ -26,11 +26,11 @@
             "station_id": "EGKK_P_GND"
           },
           {
-            "label": ["GMC", "NOR"],
+            "label": ["GMC", "N"],
             "station_id": "EGKK_N_GND"
           },
           {
-            "label": ["GMC", "STH"],
+            "label": ["GMC", "S"],
             "station_id": "EGKK_S_GND"
           },
           {
