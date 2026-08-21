@@ -293,13 +293,31 @@ jobs:
           subject-checksums: dist/SHA256SUMS-${{ needs.prep.outputs.version }}.txt
 
       - name: Create/update GitHub release
-        uses: softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228 # v3.0.2
-        with:
-          tag_name: ${{ needs.prep.outputs.tag }}
-          name: ${{ needs.prep.outputs.release_name }}
-          draft: ${{ needs.prep.outputs.draft }}
-          prerelease: ${{ needs.prep.outputs.prerelease }}
-          make_latest: ${{ needs.prep.outputs.draft == 'false' && needs.prep.outputs.prerelease == 'false' }}
-          body: ${{ needs.generate-changelog.outputs.release_body }}
-          files: |
-            dist/**
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ needs.prep.outputs.tag }}
+          RELEASE_NAME: ${{ needs.prep.outputs.release_name }}
+          DRAFT: ${{ needs.prep.outputs.draft }}
+          PRERELEASE: ${{ needs.prep.outputs.prerelease }}
+          RELEASE_BODY: ${{ needs.generate-changelog.outputs.release_body }}
+        run: |
+          cat > /tmp/release-notes.md <<'BODY_EOF'
+          $RELEASE_BODY
+          BODY_EOF
+
+          args=(--title "$RELEASE_NAME" --notes-file /tmp/release-notes.md)
+          [[ "$DRAFT" == "true" ]] && args+=(--draft)
+          [[ "$PRERELEASE" == "true" ]] && args+=(--prerelease)
+          if [[ "$DRAFT" == "false" && "$PRERELEASE" == "false" ]]; then
+            args+=(--latest)
+          else
+            args+=(--latest=false)
+          fi
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" "${args[@]}"
+            gh release upload "$TAG" dist/** --clobber
+          else
+            gh release create "$TAG" dist/** "${args[@]}"
+          fi
