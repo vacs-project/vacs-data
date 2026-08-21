@@ -39,7 +39,6 @@ jobs:
       name: dev
       url: ${{ vars.VACS_SERVER_URL }}
     permissions:
-      contents: write
       id-token: write
     steps:
       - name: Checkout actions
@@ -56,29 +55,7 @@ jobs:
           server-url: ${{ vars.VACS_SERVER_URL }}
           git-ref: ${{ github.ref }}
           commit-sha: ${{ github.sha }}
-
-      - name: Update deployed tag
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          # Create annotated tag object
-          TAG_SHA=$(gh api "repos/$GH_REPO/git/tags" \
-            -X POST \
-            -f tag=deployed/dev \
-            -f message="Deployed to dev from $EVENT_NAME (${GITHUB_SHA::7})" \
-            -f object="$GITHUB_SHA" \
-            -f type=commit \
-            --jq '.sha')
-
-          # Try to update existing ref, create if it doesn't exist
-          if ! gh api "repos/$GH_REPO/git/refs/tags/deployed/dev" \
-            -X PATCH -f sha="$TAG_SHA" --silent 2>/dev/null; then
-            gh api "repos/$GH_REPO/git/refs" \
-              -X POST -f ref=refs/tags/deployed/dev -f sha="$TAG_SHA" --silent
-          fi
-          echo "Updated deployed/dev tag to $GITHUB_SHA"
+          deployed-tag: "deployed/dev"
 
       - name: Summary
         env:
@@ -148,29 +125,7 @@ jobs:
           server-url: ${{ vars.VACS_SERVER_URL }}
           git-ref: ${{ github.ref }}
           commit-sha: ${{ github.sha }}
-
-      - name: Update deployed tag
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          # Create annotated tag object
-          TAG_SHA=$(gh api "repos/$GH_REPO/git/tags" \
-            -X POST \
-            -f tag=deployed/production \
-            -f message="Deployed to production from $EVENT_NAME ($GITHUB_REF_NAME, ${GITHUB_SHA::7})" \
-            -f object="$GITHUB_SHA" \
-            -f type=commit \
-            --jq '.sha')
-
-          # Try to update existing ref, create if it doesn't exist
-          if ! gh api "repos/$GH_REPO/git/refs/tags/deployed/production" \
-            -X PATCH -f sha="$TAG_SHA" --silent 2>/dev/null; then
-            gh api "repos/$GH_REPO/git/refs" \
-              -X POST -f ref=refs/tags/deployed/production -f sha="$TAG_SHA" --silent
-          fi
-          echo "Updated deployed/production tag to $GITHUB_SHA"
+          deployed-tag: "deployed/production"
 
       - name: Summary
         env:
