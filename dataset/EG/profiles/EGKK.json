@@ -74,7 +74,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["EGKA"],
+            "station_id": "EGKA_APP"
           },
           {
             "label": []
