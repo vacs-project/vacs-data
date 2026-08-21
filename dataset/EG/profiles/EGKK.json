@@ -133,7 +133,7 @@
         ]
       }
     },
-    {
+        {
       "label": ["SUP", "Flow"],
       "page": {
         "rows": 2,
@@ -151,51 +151,16 @@
             "station_id": "UK_A_FMP"
           },
           {
-            "label": ["UK", "FMP", "3"],
-            "station_id": "UK_B_FMP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["LAC", "GS"],
-            "station_id": "LON_GS_CTR"
-          },
-          {
             "label": ["LTC", "GS"],
             "station_id": "LTC_GS_CTR"
           },
           {
-            "label": ["MAN", "GS"],
-            "station_id": "MAN_GS_CTR"
+            "label": ["UK", "FMP", "3"],
+            "station_id": "UK_B_FMP"
           },
           {
-            "label": ["MAN", "FMP"],
-            "station_id": "MAN_FMP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["SCL", "FMP"],
-            "station_id": "SCL_FMP"
-          },
-          {
-            "label": ["ScAC", "GS"],
-            "station_id": "SCO_GS_CTR"
-          },
-          {
-            "label": ["SCL", "GS"],
-            "station_id": "SCL_GS_CTR"
+            "label": ["LAC", "GS"],
+            "station_id": "LON_GS_CTR"
           }
         ]
       }
