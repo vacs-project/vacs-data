@@ -2162,28 +2162,28 @@ id = "LON_NE_CTR"
 prefixes = ["LON"]
 frequency = "128.130"
 facility_type = "CTR"
-profile_id = "EG-North_LAG"
+profile_id = "EG-AC_North"
 
 [[positions]]
 id = "LON_NU_CTR"
 prefixes = ["LON"]
 frequency = "132.860"
 facility_type = "CTR"
-profile_id = "EG-North_LAG"
+profile_id = "EG-AC_North"
 
 [[positions]]
 id = "LON_NW_CTR"
 prefixes = ["LON"]
 frequency = "135.580"
 facility_type = "CTR"
-profile_id = "EG-North_LAG"
+profile_id = "EG-AC_North"
 
 [[positions]]
 id = "LON_N_CTR"
 prefixes = ["LON"]
 frequency = "133.705"
 facility_type = "CTR"
-profile_id = "EG-North_LAG"
+profile_id = "EG-AC_North"
 
 [[positions]]
 id = "LON_O_CTR"
