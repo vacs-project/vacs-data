@@ -3,12 +3,12 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "ADC",
+      "label": "EGCC",
       "page": {
         "rows": 4,
         "keys": [
           {
-            "label": ["GMP", "Assist"],
+            "label": ["GMP", "AST"],
             "station_id": "EGCC_A_DEL"
           },
           {
@@ -47,7 +47,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["EGCB"],
+            "station_id": "EGCB_I_TWR"
           },
           {
             "label": []
@@ -57,11 +58,11 @@
             "station_id": "EGCC_F_APP"
           },
           {
-            "label": ["INT", "North"],
+            "label": ["INT", "N"],
             "station_id": "EGCC_N_APP"
           },
           {
-            "label": ["INT", "South"],
+            "label": ["INT", "S"],
             "station_id": "EGCC_S_APP"
           },
           {
@@ -80,16 +81,7 @@
             "label": []
           },
           {
-            "label": ["PC", "NE"],
-            "station_id": "MAN_NE_CTR"
-          },
-          {
-            "label": ["PC", "W"],
-            "station_id": "MAN_W_CTR"
-          },
-          {
-            "label": ["PC", "SE"],
-            "station_id": "MAN_SE_CTR"
+            "label": []
           },
           {
             "label": ["NH", "APP"],
@@ -98,6 +90,10 @@
           {
             "label": ["NO", "RAD"],
             "station_id": "EGNO_APP"
+          },
+          {
+            "label": ["PC", "W"],
+            "station_id": "MAN_W_CTR"
           },
           {
             "label": ["GP", "RAD 1"],
@@ -112,82 +108,6 @@
             "station_id": "EGNM_APP"
           },
           {
-            "label": []
-          },
-          {
-            "label": ["NX", "RAD"],
-            "station_id": "EGNX_APP"
-          },
-          {
-            "label": ["BB", "RAD"],
-            "station_id": "EGBB_APP"
-          }
-        ]
-      }
-    },
-    {
-      "label": "APC",
-      "page": {
-        "rows": 4,
-        "keys": [
-          {
-            "label": ["GMP"],
-            "station_id": "EGCC_DEL"
-          },
-          {
-            "label": ["AIR", "1"],
-            "station_id": "EGCC_N_TWR"
-          },
-          {
-            "label": ["AIR", "2"],
-            "station_id": "EGCC_S_TWR"
-          },
-          {
-            "label": ["GMC"],
-            "station_id": "EGCC_GND"
-          },
-          {
-            "label": ["GMP", "Assist"],
-            "station_id": "EGCC_A_DEL"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["PC", "W"],
-            "station_id": "MAN_W_CTR"
-          },
-          {
-            "label": ["FIN"],
-            "station_id": "EGCC_F_APP"
-          },
-          {
-            "label": ["INT", "North"],
-            "station_id": "EGCC_N_APP"
-          },
-          {
-            "label": ["INT", "South"],
-            "station_id": "EGCC_S_APP"
-          },
-          {
             "label": ["PC", "NE"],
             "station_id": "MAN_NE_CTR"
           },
@@ -196,48 +116,6 @@
             "station_id": "MAN_SE_CTR"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["NR", "RAD"],
-            "station_id": "EGNR_APP"
-          },
-          {
-            "label": ["NM", "RAD"],
-            "station_id": "EGNM_APP"
-          },
-          {
-            "label": ["GP", "RAD 1"],
-            "station_id": "EGGP_APP"
-          },
-          {
-            "label": ["GP", "RAD 2"],
-            "station_id": "EGGP_F_APP"
-          },
-          {
-            "label": ["NH", "APP"],
-            "station_id": "EGNH_A_APP"
-          },
-          {
-            "label": ["NO", "RAD"],
-            "station_id": "EGNO_APP"
-          },
-          {
             "label": ["NX", "RAD"],
             "station_id": "EGNX_APP"
           },
@@ -248,19 +126,17 @@
         ]
       }
     },
+
     {
       "label": ["SUP", "Flow"],
       "page": {
-        "rows": 2,
+        "rows": 4,
         "keys": [
           {
             "label": ["UK", "FMP"],
             "station_id": "UK_FMP"
           },
-          {
-            "label": ["MAN", "FMP"],
-            "station_id": "MAN_FMP"
-          },
+
           {
             "label": ["UK", "FMP", "2"],
             "station_id": "UK_A_FMP"
@@ -270,47 +146,23 @@
             "station_id": "UK_B_FMP"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["MAN", "Group", "Supvisr"],
-            "station_id": "MAN_GS_CTR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["LAC", "Group", "Supvisr"],
-            "station_id": "LON_GS_CTR"
-          },
-          {
-            "label": ["LTC", "Group", "Supvisr"],
-            "station_id": "LTC_GS_CTR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["LTC", "FMP"],
-            "station_id": "LTC_FMP"
-          },
-          {
             "label": ["SCL", "FMP"],
             "station_id": "SCL_FMP"
           },
           {
-            "label": ["ScAC", "Group", "Supvisr"],
-            "station_id": "SCO_GS_CTR"
+            "label": ["MAN", "GS"],
+            "station_id": "MAN_GS_CTR"
           },
           {
-            "label": ["SCL", "Group", "Supvisr"],
-            "station_id": "SCL_GS_CTR"
+            "label": ["MAN", "FMP"],
+            "station_id": "MAN_FMP"
+          },
+          {
+            "label": ["LON", "GS"],
+            "station_id": "LON_GS_CTR"
+          },
+          {
+            "label": []
           }
         ]
       }
