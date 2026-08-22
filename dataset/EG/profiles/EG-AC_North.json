@@ -119,7 +119,7 @@
                   "station_id": "EGVV_E_CTR"
                 },
                 {
-                  "label": ["MIL", "N"],
+                  "label": ["MIL", "W"],
                   "color": "azure",
                   "station_id": "EGVV_W_CTR"
                 },
