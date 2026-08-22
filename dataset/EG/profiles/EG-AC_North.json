@@ -771,9 +771,9 @@
             "station_id": "EG-TC-COWLY"
           },
           {
-            "label": ["PC", "NORTH"],
+            "label": ["PC", "STAFA"],
             "color": "blush",
-            "station_id": "EG-MPC-North"
+            "station_id": "EG-MPC-Stafa"
           },
           {
             "label": ["ScAC", "BDS", "F355+"],
@@ -796,9 +796,9 @@
             "station_id": "EG-Sector-28"
           },
           {
-            "label": ["PC", "EAST"],
+            "label": ["PC", "TRENT"],
             "color": "blush",
-            "station_id": "EG-MPC-East"
+            "station_id": "EG-MPC-Trent"
           },
           {
             "label": []
@@ -817,9 +817,9 @@
             "station_id": "EG-TC-WELIN"
           },
           {
-            "label": ["PC", "STAFA"],
+            "label": ["PC", "NORTH"],
             "color": "blush",
-            "station_id": "EG-MPC-Stafa"
+            "station_id": "EG-MPC-North"
           },
           {
             "label": ["MAAS", "DELTA"],
@@ -841,9 +841,9 @@
             "station_id": "EG-TC-REDFA"
           },
           {
-            "label": ["PC", "TRENT"],
+            "label": ["PC", "EAST"],
             "color": "blush",
-            "station_id": "EG-MPC-Trent"
+            "station_id": "EG-MPC-East"
           }
         ]
       }
