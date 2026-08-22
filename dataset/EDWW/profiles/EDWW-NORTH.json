@@ -244,11 +244,7 @@
             "station_id": "EHAA_E"
           },
           {
-            "label": [
-              "TRAMON",
-              "SUNRISE",
-              "LONESHIP"
-            ],
+            "label": ["TRAMON", "SUNRISE", "LONESHIP"],
             "color": "steel",
             "page": {
               "rows": 6,

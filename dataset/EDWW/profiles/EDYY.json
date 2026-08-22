@@ -269,11 +269,7 @@
             "station_id": "EDGG-GED"
           },
           {
-            "label": [
-              "TRAMON",
-              "LONESHIP",
-              "SUNRISE"
-            ],
+            "label": ["TRAMON", "LONESHIP", "SUNRISE"],
             "color": "steel",
             "page": {
               "rows": 6,
