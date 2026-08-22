@@ -217,11 +217,15 @@
             "station_id": "EDUU-OSE12"
           },
           {
-            "label": ["YY", "DELTA"],
+            "label": ["YY", "WST", ""],
             "color": "taupe"
           },
           {
-            "label": ["TRAMON", "SUNRISE", "LONESHIP"],
+            "label": [
+              "TRAMON",
+              "SUNRISE",
+              "LONESHIP"
+            ],
             "color": "steel",
             "page": {
               "rows": 6,
@@ -422,15 +426,18 @@
               "keys": [
                 {
                   "label": ["EHAA", "EAST"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_E"
                 },
                 {
                   "label": ["EHAA", "WEST"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_W"
                 },
                 {
                   "label": ["EHMC"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHMC"
                 }
               ]
             }
@@ -482,7 +489,8 @@
                 },
                 {
                   "label": ["EHAA", "FMP"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_FMP"
                 }
               ]
             }
@@ -580,7 +588,8 @@
             "station_id": "EDUU-SAL"
           },
           {
-            "label": ["EGPX", "HUMBER"]
+            "label": ["EGPX", "HUMBER"],
+            "station_id": "SCO_HUM_CTR"
           },
           {
             "label": ["GG", "HEF"],

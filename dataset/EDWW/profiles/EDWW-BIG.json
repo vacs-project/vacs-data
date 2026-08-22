@@ -298,15 +298,18 @@
               "keys": [
                 {
                   "label": ["EHAA", "EAST"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_E"
                 },
                 {
                   "label": ["EHAA", "WEST"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_W"
                 },
                 {
                   "label": ["EHMC"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHMC"
                 }
               ]
             }
@@ -664,7 +667,11 @@
                   "station_id": "ESMM_L"
                 },
                 {
-                  "label": ["ESMM", "8", "285-365"],
+                  "label": [
+                    "ESMM",
+                    "8",
+                    "285-365"
+                  ],
                   "color": "lilac",
                   "station_id": "ESMM_8"
                 },
@@ -688,7 +695,11 @@
                   "station_id": "EPWWB_LOW"
                 },
                 {
-                  "label": ["EPWW", "B", "335-365"],
+                  "label": [
+                    "EPWW",
+                    "B",
+                    "335-365"
+                  ],
                   "color": "lavender",
                   "station_id": "EPWWB_MID"
                 },
@@ -703,7 +714,11 @@
                   "station_id": "EPWWD_LOW"
                 },
                 {
-                  "label": ["EPWW", "D", "335-365"],
+                  "label": [
+                    "EPWW",
+                    "D",
+                    "335-365"
+                  ],
                   "color": "lavender",
                   "station_id": "EPWWD_MID"
                 },
@@ -806,7 +821,8 @@
                 },
                 {
                   "label": ["EHAA", "FMP"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_ALL"
                 }
               ]
             }
