@@ -8,7 +8,7 @@
         "rows": 5,
         "keys": [
           {
-            "label": ["EISN", "LIFFY", "SUPER"],
+            "label": ["EISN", "LIFFY", "F355+"],
             "color": "lavender",
             "station_id": "EISN_ES_CTR"
           },
@@ -676,12 +676,12 @@
         "rows": 5,
         "keys": [
           {
-            "label": ["EISN", "LIFFY", "SUPER"],
+            "label": ["EISN", "LIFFY", "F355+"],
             "color": "lavender",
             "station_id": "EISN_ES_CTR"
           },
           {
-            "label": ["EISN", "LIFFY"],
+            "label": ["EISN", "LIFFY", "F245-355"],
             "color": "lavender",
             "station_id": "EISN_E_CTR"
           },
@@ -766,9 +766,9 @@
             "station_id": "EG-Sector-27-32"
           },
           {
-            "label": ["AC", "S28", "DTY N LO"],
+            "label": ["TC", "COWLY"],
             "color": "blush",
-            "station_id": "EG-Sector-28"
+            "station_id": "EG-TC-COWLY"
           },
           {
             "label": ["PC", "NORTH"],
@@ -791,9 +791,9 @@
             "station_id": "EG-Sector-34"
           },
           {
-            "label": ["TC", "COWLY"],
+            "label": ["AC", "S28", "DTY N LO"],
             "color": "blush",
-            "station_id": "EG-TC-COWLY"
+            "station_id": "EG-Sector-28"
           },
           {
             "label": ["PC", "EAST"],
