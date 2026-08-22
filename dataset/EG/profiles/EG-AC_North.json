@@ -13,7 +13,7 @@
             "station_id": "EISN_ES_CTR"
           },
           {
-            "label": ["EISN", "LIFFY"],
+            "label": ["EISN", "LIFFY", "F245-355"],
             "color": "lavender",
             "station_id": "EISN_E_CTR"
           },
