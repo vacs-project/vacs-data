@@ -56,6 +56,8 @@ jobs:
           git-ref: ${{ github.ref }}
           commit-sha: ${{ github.sha }}
           deployed-tag: "deployed/dev"
+          app-client-id: ${{ secrets.APP_CLIENT_ID }}
+          app-private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
       - name: Summary
         env:
@@ -125,6 +127,8 @@ jobs:
           git-ref: ${{ github.ref }}
           commit-sha: ${{ github.sha }}
           deployed-tag: "deployed/production"
+          app-client-id: ${{ secrets.APP_CLIENT_ID }}
+          app-private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
       - name: Summary
         env:
