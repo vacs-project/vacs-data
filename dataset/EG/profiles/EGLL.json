@@ -122,11 +122,11 @@
           {
             "label": ["TC", "SW"],
             "station_id": "LTC_SW_CTR"
-          },      
+          },
           {
             "label": ["SS", "INT"],
             "station_id": "EGSS_APP"
-          },          
+          },
           {
             "label": ["KK", "INT"],
             "station_id": "EGKK_APP"
@@ -147,9 +147,9 @@
           {
             "label": ["TC", "TMS"],
             "station_id": "THAMES_APP"
-          },          
+          },
           {
-            "label":["LF","LARS"],
+            "label": ["LF", "LARS"],
             "station_id": "EGLF_L_APP"
           },
           {
