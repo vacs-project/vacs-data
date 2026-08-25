@@ -17,6 +17,12 @@ inputs:
   deployed-tag:
     description: Deployed tag to update
     required: true
+  app-client-id:
+    description: Client ID of the GitHub App used to update the deployed tag
+    required: true
+  app-private-key:
+    description: Private key of the GitHub App used to update the deployed tag
+    required: true
 
 runs:
   using: composite
@@ -73,8 +79,8 @@ runs:
       uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
       id: generate-token
       with:
-        client-id: ${{ secrets.APP_CLIENT_ID }}
-        private-key: ${{ secrets.APP_PRIVATE_KEY }}
+        client-id: ${{ inputs.app-client-id }}
+        private-key: ${{ inputs.app-private-key }}
         owner: ${{ github.repository_owner }}
         repositories: vacs-data
         permission-contents: write
