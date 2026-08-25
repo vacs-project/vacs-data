@@ -534,7 +534,7 @@
                 {
                   "label": ["BJ", "APC"],
                   "color": "azure",
-                  "station_id": "EGBJ_A_TWR"
+                  "station_id": "EGBJ_A_APP"
                 },
                 {
                   "label": []
