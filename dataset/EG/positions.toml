@@ -1518,6 +1518,13 @@ facility_type = "APP"
 profile_id = "EG-Central_LAG"
 
 [[positions]]
+id = "EGTK_A_APP"
+prefixes = ["EGTK"]
+frequency = "125.090"
+facility_type = "APP"
+profile_id = "EG-Central_LAG"
+
+[[positions]]
 id = "EGTK_F_APP"
 prefixes = ["EGTK"]
 frequency = "119.980"
@@ -1550,7 +1557,7 @@ id = "EGTT_WR_CTR"
 prefixes = ["EGTT"]
 frequency = "132.300"
 facility_type = "CTR"
-profile_id = "EG-West_LAG"
+profile_id = "EG-AC_West"
 
 [[positions]]
 id = "EGUB_APP"
@@ -2232,35 +2239,35 @@ id = "LON_WB_CTR"
 prefixes = ["LON"]
 frequency = "135.255"
 facility_type = "CTR"
-profile_id = "EG-West_LAG"
+profile_id = "EG-AC_West"
 
 [[positions]]
 id = "LON_WH_CTR"
 prefixes = ["LON"]
 frequency = "128.815"
 facility_type = "CTR"
-profile_id = "EG-West_LAG"
+profile_id = "EG-AC_West"
 
 [[positions]]
 id = "LON_WL_CTR"
 prefixes = ["LON"]
 frequency = "133.600"
 facility_type = "CTR"
-profile_id = "EG-West_LAG"
+profile_id = "EG-AC_West"
 
 [[positions]]
 id = "LON_WX_CTR"
 prefixes = ["LON"]
 frequency = "127.700"
 facility_type = "CTR"
-profile_id = "EG-West_LAG"
+profile_id = "EG-AC_West"
 
 [[positions]]
 id = "LON_W_CTR"
 prefixes = ["LON"]
 frequency = "126.080"
 facility_type = "CTR"
-profile_id = "EG-West_LAG"
+profile_id = "EG-AC_West"
 
 #######################
 # London Terminal
