@@ -11,6 +11,7 @@ jobs:
   tag:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    environment: airac-bot
     permissions:
       contents: read
     steps:
@@ -41,21 +42,26 @@ jobs:
         uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         id: generate-token
         with:
-          client-id: ${{ secrets.APP_ID }}
+          client-id: ${{ secrets.APP_CLIENT_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           repositories: vacs-data
+          # Label removal and comments go through the issues API.
+          permission-contents: write
+          permission-issues: write
+          permission-pull-requests: write
 
       - name: Create AIRAC Tag
         if: steps.check.outputs.cycle_name != ''
         env:
           CYCLE: ${{ steps.check.outputs.cycle_name }}
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
           TAG_NAME="airac-$CYCLE"
 
           # Check if tag already exists
-          if gh api "repos/${{ github.repository }}/git/refs/tags/$TAG_NAME" --silent 2>/dev/null; then
+          if gh api "repos/$GH_REPO/git/refs/tags/$TAG_NAME" --silent 2>/dev/null; then
             echo "Tag $TAG_NAME already exists on remote, skipping."
             exit 0
           fi
@@ -63,15 +69,15 @@ jobs:
           echo "Creating verified tag $TAG_NAME"
 
           # Create an annotated tag object via the API
-          TAG_SHA=$(gh api "repos/${{ github.repository }}/git/tags" \
+          TAG_SHA=$(gh api "repos/$GH_REPO/git/tags" \
             -f tag="$TAG_NAME" \
             -f message="AIRAC cycle $CYCLE" \
-            -f object="${{ github.sha }}" \
+            -f object="$GITHUB_SHA" \
             -f type="commit" \
             --jq '.sha')
 
           # Create the ref pointing to the annotated tag object
-          gh api "repos/${{ github.repository }}/git/refs" \
+          gh api "repos/$GH_REPO/git/refs" \
             -f ref="refs/tags/$TAG_NAME" \
             -f sha="$TAG_SHA"
 
@@ -82,6 +88,7 @@ jobs:
         env:
           CYCLE: ${{ steps.check.outputs.cycle_name }}
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          GH_REPO: ${{ github.repository }}
         shell: bash
         run: |
           LABEL="airac/$CYCLE"
@@ -108,14 +115,14 @@ jobs:
             gh pr edit "$pr" --remove-label "$LABEL"
 
             # Update or post the bot comment
-            COMMENT_ID=$(gh api "repos/${{ github.repository }}/issues/$pr/comments" \
+            COMMENT_ID=$(gh api "repos/$GH_REPO/issues/$pr/comments" \
               --jq ".[] | select(.body | startswith(\"$MARKER\")) | .id" | head -1)
 
             if [[ -n "$COMMENT_ID" ]]; then
-              gh api "repos/${{ github.repository }}/issues/comments/$COMMENT_ID" \
+              gh api "repos/$GH_REPO/issues/comments/$COMMENT_ID" \
                 -X PATCH -f body="$COMMENT" --silent
             else
-              gh api "repos/${{ github.repository }}/issues/$pr/comments" \
+              gh api "repos/$GH_REPO/issues/$pr/comments" \
                 -f body="$COMMENT" --silent
             fi
 

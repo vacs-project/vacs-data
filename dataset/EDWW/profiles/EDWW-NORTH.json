@@ -161,11 +161,13 @@
             "color": "taupe"
           },
           {
-            "label": ["EGPX", "HUMBER"]
+            "label": ["EGPX", "HUMBER"],
+            "station_id": "SCO_HUM_CTR"
           },
           {
             "label": ["EHAA", "WEST"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHAA_W"
           },
           {
             "label": ["MIL", "TWR/APP"],
@@ -233,11 +235,13 @@
           },
           {
             "label": ["EHMC"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHMC"
           },
           {
             "label": ["EHAA", "EAST"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHAA_E"
           },
           {
             "label": ["TRAMON", "SUNRISE", "LONESHIP"],
@@ -299,7 +303,8 @@
           },
           {
             "label": ["EHGG", "APP"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHGG_APP"
           },
           {
             "label": ["XW", "TWR"],
@@ -440,7 +445,8 @@
                 },
                 {
                   "label": ["EHAA", "FMP"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_FMP"
                 }
               ]
             }

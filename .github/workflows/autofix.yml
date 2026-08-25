@@ -1,8 +1,23 @@
 name: autofix.ci
+
+# SECURITY: this workflow runs code from fork PRs (npm lifecycle scripts, prettier
+# plugins from the PR's lockfile). It must NEVER be given secrets or write
+# permissions; the fix commit is applied by the trusted autofix.ci app, which only
+# accepts diffs produced by this workflow.
 on:
   pull_request:
+    paths:
+      - "dataset/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/autofix.yml"
   push:
     branches: ["main"]
+    paths:
+      - "dataset/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/autofix.yml"
 
 permissions:
   contents: read

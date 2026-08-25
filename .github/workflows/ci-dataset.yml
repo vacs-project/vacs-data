@@ -18,7 +18,7 @@ jobs:
           persist-credentials: false
 
       - name: Install check-jsonschema
-        run: pipx install check-jsonschema
+        run: pipx install check-jsonschema==0.38.0
 
       - name: Validate positions
         run: |

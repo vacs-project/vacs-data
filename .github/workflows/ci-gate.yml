@@ -61,9 +61,45 @@ jobs:
     permissions:
       contents: read
 
+  zizmor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # New zizmor releases add audits that can turn the gate red; bump deliberately.
+      - name: Install zizmor
+        run: pipx install zizmor==1.29.0
+
+      - name: Run zizmor
+        run: zizmor --no-online-audits --min-severity=low .github/
+
+  # Blocks known-vulnerable dependencies; cargo-deny's advisories check is advisory.
+  dependency-review:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Dependency review
+        uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294 # v5.0.0
+
   gate:
     name: "CI ✓"
-    needs: [dataset, rust]
+    # `changes` is listed so a failure there (which skips the sub-workflows) fails the
+    # gate instead of green-lighting a PR that ran no checks.
+    needs: [changes, dataset, rust, zizmor, dependency-review]
     if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -71,11 +107,22 @@ jobs:
     steps:
       - name: Evaluate results
         env:
+          CHANGES_RESULT: ${{ needs.changes.result }}
           DATASET_RESULT: ${{ needs.dataset.result }}
           RUST_RESULT: ${{ needs.rust.result }}
+          ZIZMOR_RESULT: ${{ needs.zizmor.result }}
+          DEPENDENCY_REVIEW_RESULT: ${{ needs.dependency-review.result }}
         run: |
           failed=false
-          for name in dataset rust; do
+
+          if [[ "$CHANGES_RESULT" != "success" ]]; then
+            echo "::error::changes: $CHANGES_RESULT (path detection must succeed)"
+            failed=true
+          else
+            echo "changes: $CHANGES_RESULT"
+          fi
+
+          for name in dataset rust zizmor dependency_review; do
             var="${name^^}_RESULT"
             result="${!var}"
             case "$result" in
@@ -98,6 +145,8 @@ jobs:
         env:
           DATASET_RESULT: ${{ needs.dataset.result }}
           RUST_RESULT: ${{ needs.rust.result }}
+          ZIZMOR_RESULT: ${{ needs.zizmor.result }}
+          DEPENDENCY_REVIEW_RESULT: ${{ needs.dependency-review.result }}
         run: |
           icon() { case "$1" in success) echo "✅";; skipped) echo "⏭️";; *) echo "❌";; esac }
 
@@ -107,3 +156,5 @@ jobs:
           echo "|----------|--------|" >> $GITHUB_STEP_SUMMARY
           echo "| Dataset | $(icon "$DATASET_RESULT") $DATASET_RESULT |" >> $GITHUB_STEP_SUMMARY
           echo "| Rust | $(icon "$RUST_RESULT") $RUST_RESULT |" >> $GITHUB_STEP_SUMMARY
+          echo "| zizmor | $(icon "$ZIZMOR_RESULT") $ZIZMOR_RESULT |" >> $GITHUB_STEP_SUMMARY
+          echo "| Dependency review | $(icon "$DEPENDENCY_REVIEW_RESULT") $DEPENDENCY_REVIEW_RESULT |" >> $GITHUB_STEP_SUMMARY
