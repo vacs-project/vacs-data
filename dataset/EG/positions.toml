@@ -2050,21 +2050,21 @@ id = "LON_23_CTR"
 prefixes = ["LON"]
 frequency = "134.755"
 facility_type = "CTR"
-profile_id = "EG-West_LAG"
+profile_id = "EG-AC_West"
 
 [[positions]]
 id = "LON_8_CTR"
 prefixes = ["LON"]
 frequency = "129.380"
 facility_type = "CTR"
-profile_id = "EG-West_LAG"
+profile_id = "EG-AC_West"
 
 [[positions]]
 id = "LON_9_CTR"
 prefixes = ["LON"]
 frequency = "132.950"
 facility_type = "CTR"
-profile_id = "EG-West_LAG"
+profile_id = "EG-AC_West"
 
 [[positions]]
 id = "LON_CTR"
