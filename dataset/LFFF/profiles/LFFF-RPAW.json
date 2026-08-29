@@ -281,13 +281,7 @@
             "LON_*_CTR"
           ],
           "exclude": [],
-          "priority": [
-            "*_FMP",
-            "*_CTR",
-            "*_APP",
-            "*_TWR",
-            "*_GND"
-          ]
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
         }
       }
     }

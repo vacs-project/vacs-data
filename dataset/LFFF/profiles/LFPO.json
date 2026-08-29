@@ -226,20 +226,9 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": [
-            "LFP*_APP",
-            "LFP*_DEP",
-            "LFEE_*",
-            "PAR_*"
-          ],
+          "include": ["LFP*_APP", "LFP*_DEP", "LFEE_*", "PAR_*"],
           "exclude": [],
-          "priority": [
-            "*_FMP",
-            "*_CTR",
-            "*_APP",
-            "*_TWR",
-            "*_GND"
-          ]
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
         }
       }
     }

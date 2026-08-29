@@ -293,19 +293,9 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": [
-            "LFB*_APP",
-            "LFC*_DEP",
-            "LFBB_*"
-          ],
+          "include": ["LFB*_APP", "LFC*_DEP", "LFBB_*"],
           "exclude": [],
-          "priority": [
-            "*_FMP",
-            "*_CTR",
-            "*_APP",
-            "*_TWR",
-            "*_GND"
-          ]
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
         }
       }
     }
