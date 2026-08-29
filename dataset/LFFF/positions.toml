@@ -419,6 +419,7 @@ id = "PAR_LOW_CTR"
 prefixes = ["PAR"]
 frequency = "135.410"
 facility_type = "CTR"
+profile_id = "LFFF"
 default_call_sources = [
   "LFPM_SJ_APP",
   "PAR_OG",
@@ -585,6 +586,7 @@ id = "PAR_RPAE_CTR"
 prefixes = ["PAR"]
 frequency = "133.560"
 facility_type = "CTR"
+profile_id = "LFFF-RPAE"
 default_call_sources = [
   "LFPM_SJ_APP",
   "LFPM_SI_APP",
@@ -658,6 +660,7 @@ id = "PAR_RPAW_CTR"
 prefixes = ["PAR"]
 frequency = "133.925"
 facility_type = "CTR"
+profile_id = "LFFF-RPAW"
 default_call_sources = [
   "PAR_OG",
   "PAR_AP",
