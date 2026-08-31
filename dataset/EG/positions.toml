@@ -2438,7 +2438,7 @@ prefixes = ["LTC"]
 frequency = "135.805"
 facility_type = "CTR"
 profile_id = "EG-TC_BBX"
-default_call_sources = [ "LTC_SE_CTR", "LTC_NE_CTR", "LTC_NW_CTR", "LTC_SW_CTR" ]
+default_call_sources = ["LTC_SE_CTR", "LTC_NE_CTR", "LTC_NW_CTR", "LTC_SW_CTR"]
 
 [[positions]]
 id = "LTC_ED_CTR"
