@@ -499,6 +499,7 @@ prefixes = ["EGJA"]
 frequency = "125.355"
 facility_type = "TWR"
 profile_id = "EGJJ"
+default_call_sources = ["EGJA_TWR"]
 
 [[positions]]
 id = "EGJA_GND"
@@ -506,6 +507,7 @@ prefixes = ["EGJA"]
 frequency = "130.505"
 facility_type = "GND"
 profile_id = "EGJJ"
+default_call_sources = ["EGJA_GND"]
 
 [[positions]]
 id = "EGJB_APP"
@@ -513,6 +515,7 @@ prefixes = ["EGJB"]
 frequency = "128.655"
 facility_type = "APP"
 profile_id = "EGJJ"
+default_call_sources = ["EGJB_APP"]
 
 [[positions]]
 id = "EGJB_F_APP"
@@ -520,6 +523,7 @@ prefixes = ["EGJB"]
 frequency = "124.505"
 facility_type = "APP"
 profile_id = "EGJJ"
+default_call_sources = ["EGJB_F_APP"]
 
 [[positions]]
 id = "EGJB_TWR"
@@ -527,6 +531,7 @@ prefixes = ["EGJB"]
 frequency = "119.955"
 facility_type = "TWR"
 profile_id = "EGJJ"
+default_call_sources = ["EGJB_TWR"]
 
 [[positions]]
 id = "EGJB_GND"
@@ -534,6 +539,7 @@ prefixes = ["EGJB"]
 frequency = "121.805"
 facility_type = "GND"
 profile_id = "EGJJ"
+default_call_sources = ["EGJB_GND"]
 
 [[positions]]
 id = "EGJJ_APP"
@@ -541,6 +547,7 @@ prefixes = ["EGJJ"]
 frequency = "120.305"
 facility_type = "APP"
 profile_id = "EGJJ"
+default_call_sources = ["EGJJ_APP"]
 
 [[positions]]
 id = "EGJJ_C_APP"
@@ -548,6 +555,7 @@ prefixes = ["EGJJ"]
 frequency = "125.205"
 facility_type = "APP"
 profile_id = "EGJJ"
+default_call_sources = ["EGJJ_C_APP"]
 
 [[positions]]
 id = "EGJJ_F_APP"
@@ -555,6 +563,7 @@ prefixes = ["EGJJ"]
 frequency = "118.555"
 facility_type = "APP"
 profile_id = "EGJJ"
+default_call_sources = ["EGJJ_F_APP"]
 
 [[positions]]
 id = "EGJJ_S_APP"
@@ -562,6 +571,7 @@ prefixes = ["EGJJ"]
 frequency = "120.455"
 facility_type = "APP"
 profile_id = "EGJJ"
+default_call_sources = ["EGJJ_S_APP"]
 
 [[positions]]
 id = "EGJJ_TWR"
@@ -569,6 +579,7 @@ prefixes = ["EGJJ"]
 frequency = "119.455"
 facility_type = "TWR"
 profile_id = "EGJJ"
+default_call_sources = ["EGJJ_TWR"]
 
 [[positions]]
 id = "EGJJ_GND"
@@ -576,6 +587,7 @@ prefixes = ["EGJJ"]
 frequency = "121.905"
 facility_type = "GND"
 profile_id = "EGJJ"
+default_call_sources = ["EGJJ_GND"]
 
 [[positions]]
 id = "EGKA_APP"
