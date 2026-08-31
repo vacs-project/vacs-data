@@ -2190,6 +2190,7 @@ prefixes = ["STHRN"]
 frequency = "134.035"
 facility_type = "APP"
 profile_id = "EG-Swanwick_Military"
+default_call_sources = ["STHRN_APP"]
 
 #######################
 # London Area
