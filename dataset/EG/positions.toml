@@ -2228,6 +2228,7 @@ prefixes = ["LON"]
 frequency = "127.105"
 facility_type = "CTR"
 profile_id = "EG-Central_LAG"
+default_call_sources = ["LON_E_CTR", "LON_D_CTR"]
 
 [[positions]]
 id = "LON_DK_CTR"
@@ -2249,6 +2250,7 @@ prefixes = ["LON"]
 frequency = "134.905"
 facility_type = "CTR"
 profile_id = "EG-AC_South"
+default_call_sources = ["LON_D_CTR"]
 
 [[positions]]
 id = "LON_EN_CTR"
@@ -2270,6 +2272,7 @@ prefixes = ["LON"]
 frequency = "118.480"
 facility_type = "CTR"
 profile_id = "EG-TC_EAST_AC_CLN"
+default_call_sources = ["LON_E_CTR"]
 
 [[positions]]
 id = "LON_HW_CTR"
@@ -2284,6 +2287,7 @@ prefixes = ["LON"]
 frequency = "134.440"
 facility_type = "CTR"
 profile_id = "EG-AC_South"
+default_call_sources = ["LON_H_CTR"]
 
 [[positions]]
 id = "LON_ME_CTR"
@@ -2312,6 +2316,7 @@ prefixes = ["LON"]
 frequency = "120.025"
 facility_type = "CTR"
 profile_id = "EG-TC_MIDS_AC_DTY"
+default_call_sources = ["LON_M_CTR"]
 
 [[positions]]
 id = "LON_NE_CTR"
@@ -2319,6 +2324,7 @@ prefixes = ["LON"]
 frequency = "128.130"
 facility_type = "CTR"
 profile_id = "EG-AC_North"
+default_call_sources = ["LON_NE_CTR"]
 
 [[positions]]
 id = "LON_NU_CTR"
@@ -2333,6 +2339,7 @@ prefixes = ["LON"]
 frequency = "135.580"
 facility_type = "CTR"
 profile_id = "EG-AC_North"
+default_call_sources = ["LON_NW_CTR"]
 
 [[positions]]
 id = "LON_N_CTR"
@@ -2340,6 +2347,7 @@ prefixes = ["LON"]
 frequency = "133.705"
 facility_type = "CTR"
 profile_id = "EG-AC_North"
+default_call_sources = ["LON_NW_CTR", "LON_NE_CTR"]
 
 [[positions]]
 id = "LON_O_CTR"
@@ -2382,6 +2390,7 @@ prefixes = ["LON"]
 frequency = "129.430"
 facility_type = "CTR"
 profile_id = "EG-AC_South"
+default_call_sources = ["LON_D_CTR", "LON_H_CTR"]
 
 [[positions]]
 id = "LON_WB_CTR"
@@ -2417,6 +2426,7 @@ prefixes = ["LON"]
 frequency = "126.080"
 facility_type = "CTR"
 profile_id = "EG-AC_West"
+default_call_sources = ["LON_W_CTR"]
 
 #######################
 # London Terminal
@@ -2427,6 +2437,7 @@ prefixes = ["LTC"]
 frequency = "135.805"
 facility_type = "CTR"
 profile_id = "EG-TC_BBX"
+default_call_sources = [ "LTC_SE_CTR", "LTC_NE_CTR", "LTC_NW_CTR", "LTC_SW_CTR" ]
 
 [[positions]]
 id = "LTC_ED_CTR"
@@ -2462,6 +2473,7 @@ prefixes = ["LTC"]
 frequency = "121.230"
 facility_type = "CTR"
 profile_id = "EG-TC_EAST_AC_CLN"
+default_call_sources = ["LTC_E_CTR"]
 
 [[positions]]
 id = "LTC_MC_CTR"
@@ -2483,6 +2495,7 @@ prefixes = ["LTC"]
 frequency = "121.030"
 facility_type = "CTR"
 profile_id = "EG-TC_MIDS_AC_DTY"
+default_call_sources = ["LTC_M_CTR"]
 
 [[positions]]
 id = "LTC_N2_CTR"
@@ -2497,6 +2510,7 @@ prefixes = ["LTC"]
 frequency = "118.825"
 facility_type = "CTR"
 profile_id = "EG-TC_N"
+default_call_sources = ["LTC_NE_CTR"]
 
 [[positions]]
 id = "LTC_NL_CTR"
@@ -2511,6 +2525,7 @@ prefixes = ["LTC"]
 frequency = "121.280"
 facility_type = "CTR"
 profile_id = "EG-TC_N"
+default_call_sources = ["LTC_NW_CTR"]
 
 [[positions]]
 id = "LTC_N_CTR"
@@ -2518,6 +2533,7 @@ prefixes = ["LTC"]
 frequency = "119.780"
 facility_type = "CTR"
 profile_id = "EG-TC_N"
+default_call_sources = ["LTC_NE_CTR", "LTC_NW_CTR"]
 
 [[positions]]
 id = "LTC_SE_CTR"
@@ -2525,6 +2541,7 @@ prefixes = ["LTC"]
 frequency = "120.530"
 facility_type = "CTR"
 profile_id = "EG-TC_S"
+default_call_sources = ["LTC_SE_CTR"]
 
 [[positions]]
 id = "LTC_SW_CTR"
@@ -2532,6 +2549,7 @@ prefixes = ["LTC"]
 frequency = "133.180"
 facility_type = "CTR"
 profile_id = "EG-TC_S"
+default_call_sources = ["LTC_SW_CTR"]
 
 [[positions]]
 id = "LTC_S_CTR"
@@ -2539,6 +2557,7 @@ prefixes = ["LTC"]
 frequency = "134.125"
 facility_type = "CTR"
 profile_id = "EG-TC_S"
+default_call_sources = ["LTC_SE_CTR", "LTC_SW_CTR"]
 
 #######################
 # Scottish Area
@@ -2694,7 +2713,7 @@ prefixes = ["SCL"]
 frequency = "124.930"
 facility_type = "CTR"
 profile_id = "EGPX2"
-default_call_sources = ["SCL_TMA_CTR", "SCL_ANT_CTR"]
+default_call_sources = ["SCL_GAL_CTR", "SCL_TLA_CTR", "SCL_ANT_CTR"]
 
 [[positions]]
 id = "SCL_ANT_CTR"
@@ -2710,7 +2729,7 @@ prefixes = ["SCL"]
 frequency = "126.300"
 facility_type = "CTR"
 profile_id = "EGPX2"
-default_call_sources = ["SCL_TMA_CTR"]
+default_call_sources = ["SCL_TLA_CTR", "SCL_GAL_CTR"]
 
 [[positions]]
 id = "SCL_TLA_CTR"
@@ -2744,6 +2763,7 @@ prefixes = ["MAN"]
 frequency = "133.200"
 facility_type = "CTR"
 profile_id = "EG-North_LAG"
+default_call_sources = ["MAN_SE_CTR", "MAN_W_CTR", "MAN_NE_CTR"]
 
 [[positions]]
 id = "MAN_E_CTR"
@@ -2751,6 +2771,7 @@ prefixes = ["MAN"]
 frequency = "133.800"
 facility_type = "CTR"
 profile_id = "EG-North_LAG"
+default_call_sources = ["MAN_SE_CTR", "MAN_NE_CTR"]
 
 [[positions]]
 id = "MAN_M_CTR"
@@ -2765,6 +2786,7 @@ prefixes = ["MAN"]
 frequency = "135.715"
 facility_type = "CTR"
 profile_id = "EG-North_LAG"
+default_call_sources = ["MAN_NE_CTR"]
 
 [[positions]]
 id = "MAN_SE_CTR"
@@ -2772,6 +2794,7 @@ prefixes = ["MAN"]
 frequency = "134.430"
 facility_type = "CTR"
 profile_id = "EG-North_LAG"
+default_call_sources = ["MAN_SE_CTR"]
 
 [[positions]]
 id = "MAN_TE_CTR"
