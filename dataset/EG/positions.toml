@@ -1350,6 +1350,7 @@ prefixes = ["EGPX"]
 frequency = "119.875"
 facility_type = "CTR"
 profile_id = "EG-UK_ALL"
+default_call_sources = ["EGPX_I_CTR"]
 
 [[positions]]
 id = "EGQL_A_APP"
@@ -1560,6 +1561,7 @@ prefixes = ["EGTT"]
 frequency = "124.600"
 facility_type = "CTR"
 profile_id = "EG-UK_ALL"
+default_call_sources = ["EGTT_I_CTR"]
 
 [[positions]]
 id = "EGTT_WR_CTR"
@@ -1567,6 +1569,7 @@ prefixes = ["EGTT"]
 frequency = "132.300"
 facility_type = "CTR"
 profile_id = "EG-AC_West"
+default_call_sources = ["EGTT_WR_CTR"]
 
 [[positions]]
 id = "EGUB_APP"
@@ -2778,6 +2781,7 @@ prefixes = ["EGCB"]
 frequency = "120.255"
 facility_type = "TWR"
 profile_id = "EG-AFIS_AGCS"
+default_call_sources = ["EGCB_I_TWR"]
 
 [[positions]]
 id = "EGCF_R_TWR"
