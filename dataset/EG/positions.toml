@@ -885,28 +885,28 @@ id = "EGNM_APP"
 prefixes = ["EGNM"]
 frequency = "134.580"
 facility_type = "APP"
-profile_id = "EG-North_LAG"
+profile_id = "EGNM"
 
 [[positions]]
 id = "EGNM_F_APP"
 prefixes = ["EGNM"]
 frequency = "125.380"
 facility_type = "APP"
-profile_id = "EG-North_LAG"
+profile_id = "EGNM"
 
 [[positions]]
 id = "EGNM_TWR"
 prefixes = ["EGNM"]
 frequency = "120.305"
 facility_type = "TWR"
-profile_id = "EG-North_LAG"
+profile_id = "EGNM"
 
 [[positions]]
 id = "EGNM_DEL"
 prefixes = ["EGNM"]
 frequency = "121.805"
 facility_type = "DEL"
-profile_id = "EG-North_LAG"
+profile_id = "EGNM"
 
 [[positions]]
 id = "EGNO_APP"
