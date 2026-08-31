@@ -59,6 +59,7 @@ prefixes = ["EGAE"]
 frequency = "123.630"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGAE_A_APP"]
 
 [[positions]]
 id = "EGAE_TWR"
@@ -66,6 +67,7 @@ prefixes = ["EGAE"]
 frequency = "134.155"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGAE_TWR"]
 
 [[positions]]
 id = "EGBB_APP"
@@ -1214,6 +1216,7 @@ prefixes = ["EGPA"]
 frequency = "118.305"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPA_A_APP"]
 
 [[positions]]
 id = "EGPA_TWR"
@@ -1221,6 +1224,7 @@ prefixes = ["EGPA"]
 frequency = "118.305"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPA_TWR"]
 
 [[positions]]
 id = "EGPB_APP"
@@ -1228,6 +1232,7 @@ prefixes = ["EGPB"]
 frequency = "131.300"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPB_APP"]
 
 [[positions]]
 id = "EGPB_TWR"
@@ -1235,6 +1240,7 @@ prefixes = ["EGPB"]
 frequency = "118.255"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPB_TWR"]
 
 [[positions]]
 id = "EGPC_A_APP"
@@ -1242,6 +1248,7 @@ prefixes = ["EGPC"]
 frequency = "119.705"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPC_A_APP"]
 
 [[positions]]
 id = "EGPC_TWR"
@@ -1249,6 +1256,7 @@ prefixes = ["EGPC"]
 frequency = "119.705"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPC_TWR"]
 
 [[positions]]
 id = "EGPD_APP"
@@ -1256,6 +1264,7 @@ prefixes = ["EGPD"]
 frequency = "119.055"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPD_APP"]
 
 [[positions]]
 id = "EGPD_F_APP"
@@ -1263,6 +1272,7 @@ prefixes = ["EGPD"]
 frequency = "128.305"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPD_F_APP"]
 
 [[positions]]
 id = "EGPD_H_APP"
@@ -1270,6 +1280,7 @@ prefixes = ["EGPD"]
 frequency = "134.100"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPD_H_APP"]
 
 [[positions]]
 id = "EGPD_TWR"
@@ -1277,6 +1288,7 @@ prefixes = ["EGPD"]
 frequency = "118.105"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPD_TWR"]
 
 [[positions]]
 id = "EGPD_GND"
@@ -1284,6 +1296,7 @@ prefixes = ["EGPD"]
 frequency = "121.705"
 facility_type = "GND"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPD_GND"]
 
 [[positions]]
 id = "EGPE_APP"
@@ -1291,6 +1304,7 @@ prefixes = ["EGPE"]
 frequency = "122.605"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPE_APP"]
 
 [[positions]]
 id = "EGPE_TWR"
@@ -1298,6 +1312,7 @@ prefixes = ["EGPE"]
 frequency = "118.405"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPE_TWR"]
 
 [[positions]]
 id = "EGPF_APP"
@@ -1401,6 +1416,7 @@ prefixes = ["EGPL"]
 frequency = "119.205"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPL_A_APP"]
 
 [[positions]]
 id = "EGPL_TWR"
@@ -1408,6 +1424,7 @@ prefixes = ["EGPL"]
 frequency = "119.205"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPL_TWR"]
 
 [[positions]]
 id = "EGPN_A_APP"
@@ -1415,6 +1432,7 @@ prefixes = ["EGPN"]
 frequency = "122.905"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPN_A_APP"]
 
 [[positions]]
 id = "EGPN_TWR"
@@ -1422,6 +1440,7 @@ prefixes = ["EGPN"]
 frequency = "122.905"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPN_TWR"]
 
 [[positions]]
 id = "EGPO_A_APP"
@@ -1429,6 +1448,7 @@ prefixes = ["EGPO"]
 frequency = "119.480"
 facility_type = "APP"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPO_A_APP"]
 
 [[positions]]
 id = "EGPO_TWR"
@@ -1436,6 +1456,7 @@ prefixes = ["EGPO"]
 frequency = "119.480"
 facility_type = "TWR"
 profile_id = "EG-Scottish"
+default_call_sources = ["EGPO_TWR"]
 
 [[positions]]
 id = "EGPX_I_CTR"
