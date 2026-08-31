@@ -438,6 +438,7 @@ prefixes = ["SOLENT"]
 frequency = "120.230"
 facility_type = "APP"
 profile_id = "EG-South_LAG"
+default_call_sources = ["SOLENT_APP"]
 
 [[positions]]
 id = "EGHH_APP"
@@ -445,6 +446,7 @@ prefixes = ["EGHH"]
 frequency = "119.480"
 facility_type = "APP"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGHH_APP"]
 
 [[positions]]
 id = "EGHH_F_APP"
@@ -452,6 +454,7 @@ prefixes = ["EGHH"]
 frequency = "118.655"
 facility_type = "APP"
 profile_id = "EG-South_LAG"
+default_call_sources = ["EGHH_F_APP"]
 
 [[positions]]
 id = "EGHH_TWR"
