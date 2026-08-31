@@ -8,10 +8,12 @@
         "rows": 3,
         "keys": [
           {
-            "label": ["Comodoro", "Centro", "(INOP)"]
+            "label": ["Comodoro", "Centro", "SAVF-S"],
+            "station_id": "SAVF_S_CTR"
           },
           {
-            "label": []
+            "label": ["Comodoro", "Centro", "SAVF-BBx"],
+            "station_id": "SAVF_CTR"
           },
           {
             "label": ["Stanley", "Info"],
