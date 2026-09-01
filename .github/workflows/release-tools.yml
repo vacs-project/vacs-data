@@ -18,6 +18,11 @@ on:
 
 permissions: {}
 
+# Never cancel a half-finished release.
+concurrency:
+  group: release-tools-${{ github.ref }}
+  cancel-in-progress: false
+
 defaults:
   run:
     shell: bash
@@ -99,6 +104,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
+          ref: ${{ inputs.ref }}
           persist-credentials: false
 
       - name: Generate a changelog
@@ -117,13 +123,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          ref: ${{ inputs.ref }}
           persist-credentials: false
 
       - name: Rust toolchain
         run: rustup toolchain install stable --profile minimal --no-self-update
 
+      # Keep the version pin in step with vacs' release-client.yml.
       - name: Install cargo-about
-        run: cargo install cargo-about --features=cli --locked
+        run: cargo install cargo-about --features=cli --locked --version 0.9.2
 
       - name: Generate third-party license file
         run: cargo about generate --workspace -o THIRD_PARTY_LICENSES.html about.hbs
@@ -164,18 +172,15 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
+          ref: ${{ inputs.ref }}
           persist-credentials: false
 
+      # No cargo cache restore in release builds: caches are writable by ordinary CI
+      # runs, and a poisoned cache would end up inside attested artifacts.
       - name: Rust toolchain
         run: |
           rustup toolchain install stable --profile minimal --no-self-update
           rustup target add ${{ matrix.target }}
-
-      - name: Cache cargo
-        uses: Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4 # v2.9.1
-        with:
-          shared-key: ${{ matrix.platform }}
-          workspaces: "tools -> target"
 
       - name: Set binary name
         id: vars
@@ -195,8 +200,12 @@ jobs:
         run: cargo build --release --locked --bin vacs-data --target ${{ matrix.target }}
 
       - name: Rename binary to include platform
+        env:
+          TARGET: ${{ matrix.target }}
+          BINARY_NAME: ${{ steps.vars.outputs.binary_name }}
+          RELEASE_BINARY_NAME: ${{ steps.vars.outputs.release_binary_name }}
         run: |
-          mv "target/${{ matrix.target }}/release/${{ steps.vars.outputs.binary_name }}" "target/${{ matrix.target }}/release/${{ steps.vars.outputs.release_binary_name }}"
+          mv "target/$TARGET/release/$BINARY_NAME" "target/$TARGET/release/$RELEASE_BINARY_NAME"
 
       - name: Upload binary artifact
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
@@ -217,24 +226,24 @@ jobs:
 
       - name: Attest build provenance
         if: ${{ !github.event.repository.private || github.event.repository.owner.type == 'Organization' }}
-        uses: actions/attest@508db95dd578ae2727ebd6217d5ba78e4fbda05d # v4.2.1
+        uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6 # v4.2.2
         with:
           subject-path: |
             tools/target/${{ matrix.target }}/release/${{ steps.vars.outputs.release_binary_name }}
 
       - name: Attest SBOM
         if: ${{ !github.event.repository.private || github.event.repository.owner.type == 'Organization' }}
-        uses: actions/attest@508db95dd578ae2727ebd6217d5ba78e4fbda05d # v4.2.1
+        uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6 # v4.2.2
         with:
           subject-path: |
             tools/target/${{ matrix.target }}/release/${{ steps.vars.outputs.release_binary_name }}
           sbom-path: sbom.spdx.json
 
   release:
+    # Dispatch runs create a draft release, matching release-client in the vacs repo.
     needs: [prep, generate-changelog, build, licenses]
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    if: startsWith(github.ref, 'refs/tags/')
     permissions:
       contents: write
       attestations: write
@@ -279,18 +288,36 @@ jobs:
             "SHA256SUMS-${VERSION}.txt"
 
       - name: Attest release artifacts
-        uses: actions/attest@508db95dd578ae2727ebd6217d5ba78e4fbda05d # v4.2.1
+        uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6 # v4.2.2
         with:
           subject-checksums: dist/SHA256SUMS-${{ needs.prep.outputs.version }}.txt
 
       - name: Create/update GitHub release
-        uses: softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228 # v3.0.2
-        with:
-          tag_name: ${{ needs.prep.outputs.tag }}
-          name: ${{ needs.prep.outputs.release_name }}
-          draft: ${{ needs.prep.outputs.draft }}
-          prerelease: ${{ needs.prep.outputs.prerelease }}
-          make_latest: ${{ needs.prep.outputs.draft == 'false' && needs.prep.outputs.prerelease == 'false' }}
-          body: ${{ needs.generate-changelog.outputs.release_body }}
-          files: |
-            dist/**
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ needs.prep.outputs.tag }}
+          RELEASE_NAME: ${{ needs.prep.outputs.release_name }}
+          DRAFT: ${{ needs.prep.outputs.draft }}
+          PRERELEASE: ${{ needs.prep.outputs.prerelease }}
+          RELEASE_BODY: ${{ needs.generate-changelog.outputs.release_body }}
+        run: |
+          cat > /tmp/release-notes.md <<'BODY_EOF'
+          $RELEASE_BODY
+          BODY_EOF
+
+          args=(--title "$RELEASE_NAME" --notes-file /tmp/release-notes.md)
+          [[ "$DRAFT" == "true" ]] && args+=(--draft)
+          [[ "$PRERELEASE" == "true" ]] && args+=(--prerelease)
+          if [[ "$DRAFT" == "false" && "$PRERELEASE" == "false" ]]; then
+            args+=(--latest)
+          else
+            args+=(--latest=false)
+          fi
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" "${args[@]}"
+            gh release upload "$TAG" dist/** --clobber
+          else
+            gh release create "$TAG" dist/** "${args[@]}"
+          fi

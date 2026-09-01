@@ -73,7 +73,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["AC", "W"],
+            "station_id": "EG-Sector-23"
           },
           {
             "label": []

@@ -1,0 +1,478 @@
+{
+  "id": "EGPX2",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", "Main"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ScAC", "WES"],
+            "station_id": "SCO_W_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["ScAC", "SWB"],
+            "station_id": "SCO_WB_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["ScAC", "RAT"],
+            "station_id": "SCO_RAT_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["ScL", "ANT"],
+            "station_id": "SCL_ANT_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["ScAC", "NOR"],
+            "station_id": "SCO_N_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["ScAC", "BDS"],
+            "station_id": "SCO_BDS_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["ScAC", "STH"],
+            "station_id": "SCO_S_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["ScL", "GAL"],
+            "station_id": "SCL_GAL_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["ScAC", "EAS"],
+            "station_id": "SCO_E_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["SCOT", "FISO"],
+            "color": "azure",
+            "station_id": "EGPX_I_CTR"
+          },
+          {
+            "label": ["ScL", "TAY"],
+            "station_id": "SCL_TAY_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["ScL", "TLA"],
+            "station_id": "SCL_TLA_CTR",
+            "color": "azure"
+          },
+          {
+            "label": [],
+            "color": "azure"
+          },
+          {
+            "label": ["MIL"],
+            "color": "azure",
+            "station_id": "EGVV_N_CTR"
+          },
+          {
+            "label": ["EISN", "UPPER", "245-355"],
+            "color": "azure",
+            "station_id": "EISN_E_CTR"
+          },
+          {
+            "label": ["EIDW", "F245-"],
+            "station_id": "EIDW_LN_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["BIRD", "HI", "F355+"],
+            "color": "azure"
+          },
+          {
+            "label": ["EGGX"],
+            "color": "azure",
+            "station_id": "Shanwick"
+          },
+          {
+            "label": ["EISN", "SUPER", "F355+"],
+            "station_id": "EISN_ES_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["PC", "WAL"],
+            "color": "azure",
+            "station_id": "MAN_W_CTR"
+          },
+          {
+            "label": ["BIRD", "LO", "F355-"],
+            "color": "azure"
+          },
+          {
+            "label": ["EDYY", "JEV HI", "F365+"],
+            "color": "azure",
+            "station_id": "EDYY-JH"
+          },
+          {
+            "label": ["LON", "LKS"],
+            "color": "azure",
+            "station_id": "LON_NW_CTR"
+          },
+          {
+            "label": ["PC", "S29"],
+            "color": "azure",
+            "station_id": "EG-Sector-29"
+          },
+          {
+            "label": ["ENSV"],
+            "color": "azure",
+            "station_id": "ENSV-15"
+          },
+          {
+            "label": ["EDYY", "JEV LO", "245-365"],
+            "color": "azure",
+            "station_id": "EDYY-JL"
+          },
+          {
+            "label": ["LON", "NSEA"],
+            "color": "azure",
+            "station_id": "LON_NE_CTR"
+          },
+          {
+            "label": ["PC", "NOR"],
+            "color": "azure",
+            "station_id": "MAN_NE_CTR"
+          },
+          {
+            "label": ["EKDK", "UN", "F365+"],
+            "color": "azure",
+            "station_id": "EKDKUN"
+          },
+          {
+            "label": ["EKDK", "N", "F365-"],
+            "color": "azure",
+            "station_id": "EKDKN"
+          },
+          {
+            "label": ["EDYY", "DELTA", "F245+"],
+            "color": "azure"
+          },
+          {
+            "label": ["AMS", "F245-"],
+            "color": "azure",
+            "station_id": "EHAA_W"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["2", "AD"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": ["EGAE", "RAD"],
+            "station_id": "EGAE_A_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGAE", "TWR"],
+            "station_id": "EGAE_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGAA", "RAD"],
+            "station_id": "EGAA_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGAA", "TWR"],
+            "station_id": "EGAA_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPO", "RAD"],
+            "station_id": "EGPO_A_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPO", "TWR"],
+            "station_id": "EGPO_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": ["EGAC", "RAD"],
+            "station_id": "EGAC_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGAC", "TWR"],
+            "station_id": "EGAC_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": ["EGPL", "RAD"],
+            "station_id": "EGPL_A_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPL", "TWR"],
+            "station_id": "EGPL_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPR"],
+            "station_id": "EGPR_I_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPI"],
+            "station_id": "EGPI_I_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": ["EGPE", "RAD"],
+            "station_id": "EGPE_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPE", "TWR"],
+            "station_id": "EGPE_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": ["EGPU"],
+            "station_id": "EGPU_I_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPT"],
+            "station_id": "EGPT_R_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPA", "RAD"],
+            "station_id": "EGPA_A_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPA", "TWR"],
+            "station_id": "EGPA_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPF", "RAD"],
+            "station_id": "EGPF_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPF", "TWR"],
+            "station_id": "EGPF_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPK", "RAD"],
+            "station_id": "EGPK_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPK", "TWR"],
+            "station_id": "EGPK_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPC", "RAD"],
+            "station_id": "EGPC_A_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPC", "TWR"],
+            "station_id": "EGPC_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPH", "RAD"],
+            "station_id": "EGPH_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPH", "TWR"],
+            "station_id": "EGPH_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": ["EGPD", "RAD"],
+            "station_id": "EGPD_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPD", "TWR"],
+            "station_id": "EGPD_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": ["EGNS", "RAD"],
+            "station_id": "EGNS_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGNS", "TWR"],
+            "station_id": "EGNS_TWR",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPB", "RAD"],
+            "station_id": "EGPB_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["EGPB", "TWR"],
+            "station_id": "EGPB_TWR",
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": [""],
+            "color": "azure"
+          },
+          {
+            "label": ["EGNT", "RAD"],
+            "station_id": "EGNT_APP",
+            "color": "azure"
+          },
+
+          {
+            "label": ["EGNT", "TWR"],
+            "station_id": "EGNT_TWR",
+            "color": "azure"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["3", "ALL UK"],
+      "page": {
+        "rows": 10,
+        "client_page": {
+          "include": [
+            "SOLENT*",
+            "THAMES*",
+            "ESSEX*",
+            "NAT_*",
+            "LON_*",
+            "LTC_*",
+            "SCO_*",
+            "SCL_*",
+            "MAN_*",
+            "EG*_*",
+            "UK_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    },
+    {
+      "label": ["4"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ScAC", "GS"],
+            "station_id": "SCO_GS_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["MAN", "GS"],
+            "station_id": "MAN_GS_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["UK", "FMP", "2"],
+            "station_id": "UK_B_FMP",
+            "color": "azure"
+          },
+          {
+            "label": ["SCL", "FMP"],
+            "station_id": "SCL_FMP",
+            "color": "azure"
+          },
+          {
+            "label": ["SCL", "GS"],
+            "station_id": "SCL_GS_CTR",
+            "color": "azure"
+          },
+          {
+            "label": ["UK", "FMP"],
+            "station_id": "UK_FMP",
+            "color": "azure"
+          },
+          {
+            "label": ["UK", "FMP", "3"],
+            "station_id": "UK_B_FMP",
+            "color": "azure"
+          },
+          {
+            "label": ["MAN", "FMP"],
+            "station_id": "MAN_FMP",
+            "color": "azure"
+          }
+        ]
+      }
+    }
+  ]
+}

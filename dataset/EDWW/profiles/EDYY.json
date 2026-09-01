@@ -93,7 +93,8 @@
           },
           {
             "label": ["EHAA", "WEST"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHAA_W"
           },
           {
             "label": ["YY", "HOL", "+365"],
@@ -122,7 +123,8 @@
           },
           {
             "label": ["EHAA", "EAST"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHAA_E"
           },
           {
             "label": ["UU", "OSE 1", "-365"],
@@ -234,11 +236,12 @@
           },
           {
             "label": ["EGPX", "HUMBER"],
-            "station_id": "EG-Humber"
+            "station_id": "SCO_HUM_CTR"
           },
           {
             "label": ["EHMC"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHMC"
           },
           {
             "label": ["UU", "HVL 1", "-365"],
@@ -351,7 +354,8 @@
                 },
                 {
                   "label": ["EHAA", "FMP"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_FMP"
                 }
               ]
             }

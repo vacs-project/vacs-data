@@ -16,6 +16,9 @@ jobs:
     name: "AIRAC ✓"
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    # airac-bot must have no deployment branch policy: pull_request runs would never
+    # satisfy one.
+    environment: airac-bot
     permissions:
       contents: read
     steps:
@@ -59,8 +62,9 @@ jobs:
         run: |
           TODAY=$(date -u +%Y-%m-%d)
 
-          # Look up the effective date for this cycle
-          EFFECTIVE_DATE=$(grep "\"$CYCLE\"" .github/airac-cycles.yml | cut -d: -f1 | tr -d ' ' || true)
+          # Look up the effective date for this cycle (-F: the label-derived cycle
+          # must never act as a regex pattern)
+          EFFECTIVE_DATE=$(grep -F "\"$CYCLE\"" .github/airac-cycles.yml | cut -d: -f1 | tr -d ' ' || true)
 
           if [[ -z "$EFFECTIVE_DATE" ]]; then
             echo "::error::Label '$LABEL' references unknown AIRAC cycle '$CYCLE'. Check .github/airac-cycles.yml."
@@ -82,10 +86,12 @@ jobs:
         uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         id: generate-token
         with:
-          client-id: ${{ secrets.APP_ID }}
+          client-id: ${{ secrets.APP_CLIENT_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           repositories: vacs-data
+          # PR comments go through the issues API.
+          permission-issues: write
 
       - name: Post or update comment
         if: steps.check.outputs.has_label == 'true' && github.event.pull_request.head.repo.full_name == github.repository
@@ -131,10 +137,13 @@ jobs:
 
       - name: Fail if blocked
         if: steps.gate.outputs.blocked == 'true'
+        env:
+          EFFECTIVE_DATE: ${{ steps.gate.outputs.effective_date }}
+          CYCLE: ${{ steps.check.outputs.cycle }}
         run: |
           echo "### ❌ AIRAC Gate - Blocked" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "Merge is blocked until **${{ steps.gate.outputs.effective_date }}** (AIRAC ${{ steps.check.outputs.cycle }}). Enable **auto-merge** to merge automatically when the gate opens." >> "$GITHUB_STEP_SUMMARY"
+          echo "Merge is blocked until **$EFFECTIVE_DATE** (AIRAC $CYCLE). Enable **auto-merge** to merge automatically when the gate opens." >> "$GITHUB_STEP_SUMMARY"
           exit 1
 
       - name: Pass
