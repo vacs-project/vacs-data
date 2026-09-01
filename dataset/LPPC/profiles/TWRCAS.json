@@ -15,7 +15,7 @@
             "station_id": "LPPT_APP"
           },
           {
-            "label": ["TWR", "Sintra"],
+            "label": ["TWR", "STR"],
             "station_id": "LPST_TWR"
           },
           {
@@ -29,11 +29,11 @@
             "station_id": "LPPT_F_APP"
           },
           {
-            "label": ["TWR", "Montijo"],
+            "label": ["TWR", "MTJ"],
             "station_id": "LPMT_TWR"
           },
           {
-            "label": ["MIL", "ACC"],
+            "label": ["MIL", "EXE"],
             "station_id": "LPAM_CTR"
           },
           {
@@ -44,7 +44,7 @@
             "station_id": "LPPT_W_APP"
           },
           {
-            "label": ["TWR", "Lisboa"],
+            "label": ["TWR", "LIS"],
             "station_id": "LPPT_TWR"
           },
           {
