@@ -1696,13 +1696,8 @@ id = "EGPU_I_TWR"
 controlled_by = ["EGPU_I_TWR"]
 
 [[stations]]
-id = "EGQL_A_APP"
-parent_id = "EGVV_N_CTR"
-controlled_by = ["EGQL_A_APP"]
-
-[[stations]]
 id = "EGQL_TWR"
-parent_id = "EGQL_A_APP"
+parent_id = "EGVV_N_CTR"
 controlled_by = ["EGQL_TWR"]
 
 [[stations]]

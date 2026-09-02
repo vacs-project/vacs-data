@@ -956,9 +956,7 @@
                     "label": []
                   },
                   {
-                    "label": ["QL", "Approach"],
-                    "color": "azure",
-                    "station_id": "EGQL_A_APP"
+                    "label": []
                   },
                   {
                     "label": [""]
