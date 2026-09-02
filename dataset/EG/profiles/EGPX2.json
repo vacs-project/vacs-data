@@ -156,7 +156,8 @@
           },
           {
             "label": ["EDYY", "DELTA", "F245+"],
-            "color": "azure"
+            "color": "azure",
+            "station_id": "EDYY_D"
           },
           {
             "label": ["AMS", "F245-"],
