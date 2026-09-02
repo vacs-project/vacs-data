@@ -1835,14 +1835,14 @@ profile_id = "EG-Swanwick_Military"
 [[positions]]
 id = "EGWU_TWR"
 prefixes = ["EGWU"]
-frequency = "120.675"
+frequency = "120.680"
 facility_type = "TWR"
 profile_id = "EG-Swanwick_Military"
 
 [[positions]]
 id = "EGWU_GND"
 prefixes = ["EGWU"]
-frequency = "121.575"
+frequency = "121.580"
 facility_type = "GND"
 profile_id = "EG-Swanwick_Military"
 
