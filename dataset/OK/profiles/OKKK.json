@@ -31,14 +31,14 @@
             "station_id": "OKKK_DEL"
           },
           {
-            "label": ["GMC-E"],
-            "color": "mint",
-            "station_id": "OKKK_1_GND"
-          },
-          {
             "label": ["GMC-W"],
             "color": "mint",
             "station_id": "OKKK_2_GND"
+          },
+          {
+            "label": ["GMC-E"],
+            "color": "mint",
+            "station_id": "OKKK_1_GND"
           },
           {
             "label": ["AIR"],
