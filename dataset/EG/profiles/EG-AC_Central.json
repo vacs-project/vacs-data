@@ -252,7 +252,7 @@
                   "station_id": "EGBB_TWR"
                 },
                 {
-                    "label": []
+                  "label": []
                 },
                 {
                   "label": ["BB", "RAD"],
@@ -265,10 +265,10 @@
                   "station_id": "EGBB_F_APP"
                 },
                 {
-                    "label": []
+                  "label": []
                 },
                 {
-                    "label": []
+                  "label": []
                 }
               ]
             }
