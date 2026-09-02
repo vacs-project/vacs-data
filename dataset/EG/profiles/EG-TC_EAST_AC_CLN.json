@@ -110,7 +110,8 @@
           },
           {
             "label": ["MAAS", "DELTA"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "EDYY_D"
           },
           {
             "label": ["EHAA", "W"],
