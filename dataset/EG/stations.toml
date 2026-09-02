@@ -1286,6 +1286,11 @@ id = "EGLD_I_TWR"
 controlled_by = ["EGLD_I_TWR"]
 
 [[stations]]
+id = "EGLF_GND"
+parent_id = "EGLF_TWR"
+controlled_by = ["EGLF_GND"]
+
+[[stations]]
 id = "EGLF_TWR"
 parent_id = "EGLF_APP"
 controlled_by = ["EGLF_TWR"]
@@ -1696,13 +1701,8 @@ id = "EGPU_I_TWR"
 controlled_by = ["EGPU_I_TWR"]
 
 [[stations]]
-id = "EGQL_A_APP"
-parent_id = "EGVV_N_CTR"
-controlled_by = ["EGQL_A_APP"]
-
-[[stations]]
 id = "EGQL_TWR"
-parent_id = "EGQL_A_APP"
+parent_id = "EGVV_N_CTR"
 controlled_by = ["EGQL_TWR"]
 
 [[stations]]

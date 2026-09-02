@@ -1,0 +1,254 @@
+{
+  "id": "EDYY-EH",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["PRIM"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["SCO", "HUM"],
+            "color": "steel",
+            "station_id": "EG-Humber"
+          },
+          {
+            "label": ["LON", "NE"],
+            "color": "taupe",
+            "station_id": "LON_NE_CTR"
+          },
+          {
+            "label": ["LON", "12"],
+            "color": "taupe",
+            "station_id": "EG-Sector-12"
+          },
+          {
+            "label": ["LON", "13"],
+            "color": "taupe",
+            "station_id": "EG-Sector-13"
+          },
+          {
+            "label": ["LON", "14"],
+            "color": "taupe",
+            "station_id": "EG-Sector-14"
+          },
+          {
+            "label": ["MIL"],
+            "color": "cadet",
+            "station_id": "EHMC"
+          },
+          {
+            "label": ["AMS1"],
+            "color": "azure",
+            "station_id": "EHAA_ALL"
+          },
+          {
+            "label": ["AMS5"],
+            "color": "azure",
+            "station_id": "EHAA_W"
+          },
+          {
+            "label": ["AMS4"],
+            "color": "azure",
+            "station_id": "EHAA_LOW"
+          },
+          {
+            "label": ["KOKSY"],
+            "color": "lilac",
+            "station_id": "EDYY-KOH"
+          },
+          {
+            "label": ["JEVER", "HIGH"],
+            "color": "umber",
+            "station_id": "EDYY-JH"
+          },
+          {
+            "label": ["JEVER", "LOW"],
+            "color": "umber",
+            "station_id": "EDYY-JL"
+          },
+          {
+            "label": ["AMS2"],
+            "color": "azure",
+            "station_id": "EHAA_E"
+          },
+          {
+            "label": ["AMS3"],
+            "color": "azure",
+            "station_id": "EHAA_S"
+          },
+          {
+            "label": ["NICKY"],
+            "color": "lilac",
+            "station_id": "EDYY-NIH"
+          },
+          {
+            "label": ["MÜNSTER", "HIGH"],
+            "color": "snow",
+            "station_id": "EDYY-MH"
+          },
+          {
+            "label": ["MÜNSTER", "LOW"],
+            "color": "snow",
+            "station_id": "EDYY-ML"
+          },
+          {
+            "label": ["RUHR", "HIGH"],
+            "color": "blush",
+            "station_id": "EDYY-RH"
+          },
+          {
+            "label": ["RUHR", "LOW"],
+            "color": "blush",
+            "station_id": "EDYY-RL"
+          },
+          {
+            "label": ["OLNO"],
+            "color": "lilac",
+            "station_id": "EDYY-LNH"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SEC"],
+      "page": {
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["FMP"],
+            "color": "lavender",
+            "station_id": "EHAA_FMP"
+          },
+          {
+            "label": ["MIL APP"],
+            "color": "steel",
+            "page": {
+              "rows": 5,
+              "keys": [
+                {
+                  "label": ["GR", "APP"],
+                  "color": "azure",
+                  "station_id": "EHGR_APP"
+                },
+                {
+                  "label": ["KD", "APP"],
+                  "color": "azure",
+                  "station_id": "EHKD_APP"
+                },
+                {
+                  "label": ["LW", "APP"],
+                  "color": "azure",
+                  "station_id": "EHLW_APP"
+                },
+                {
+                  "label": ["MZ", "TWR"],
+                  "color": "azure",
+                  "station_id": "EHMZ_TWR"
+                },
+                {
+                  "label": ["VK", "APP"],
+                  "color": "azure",
+                  "station_id": "EHVK_APP"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["LTC", "JACKO"],
+            "color": "cadet",
+            "station_id": "EG-TC-JACKO"
+          },
+          {
+            "label": ["LTC", "REDFA"],
+            "color": "cadet",
+            "station_id": "EG-TC-REDFA"
+          },
+          {
+            "label": ["BRU", "WEST", "-245"],
+            "color": "umber",
+            "station_id": "EBBU-WLS"
+          },
+          {
+            "label": ["BREMEN", "EID"],
+            "color": "lagoon",
+            "station_id": "EDWW-EID"
+          },
+          {
+            "label": ["APP"],
+            "page": {
+              "rows": 5,
+              "keys": [
+                {
+                  "label": ["RD", "APP"],
+                  "color": "azure",
+                  "station_id": "EHRD_APP"
+                },
+                {
+                  "label": ["EH", "APP"],
+                  "color": "azure",
+                  "station_id": "EHEH_APP"
+                },
+                {
+                  "label": ["LE", "APP"],
+                  "color": "azure",
+                  "station_id": "EHLE_APP"
+                },
+                {
+                  "label": ["BK", "APP"],
+                  "color": "azure",
+                  "station_id": "EHBK_APP"
+                },
+                {
+                  "label": ["GG", "APP"],
+                  "color": "azure",
+                  "station_id": "EHGG_APP"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["FD1"],
+            "color": "azure",
+            "station_id": "EHAM_W_APP"
+          },
+          {
+            "label": ["FD2"],
+            "color": "azure",
+            "station_id": "EHAM_E_APP"
+          },
+          {
+            "label": ["BRU", "NORTH", "-245"],
+            "color": "umber",
+            "station_id": "EBBU-NLS"
+          },
+          {
+            "label": ["BREMEN", "EMS"],
+            "color": "lagoon",
+            "station_id": "EDWW-EMS"
+          },
+          {
+            "label": ["LANGEN", "HMM"],
+            "color": "blush",
+            "station_id": "EDGG-HMM"
+          },
+          {
+            "label": ["LANGEN", "BOT"],
+            "color": "blush",
+            "station_id": "EDGG-BOT"
+          },
+          {
+            "label": ["LANGEN", "NOR"],
+            "color": "blush",
+            "station_id": "EDGG-NOR"
+          },
+          {
+            "label": ["BRU", "EAST", "-245"],
+            "color": "umber",
+            "station_id": "EBBU-ELS"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,6 +1,14 @@
 {
   "positions": [
     {
+      "id": "EDYY_D_CTR",
+      "prefixes": ["EDYY"],
+      "frequency": "135.960",
+      "facility_type": "CTR",
+      "profile_id": "EDYY-EH",
+      "default_call_sources": ["EDYY_D"]
+    },
+    {
       "id": "EHAA_ALL_CTR",
       "prefixes": ["EHAA"],
       "frequency": "134.375",
