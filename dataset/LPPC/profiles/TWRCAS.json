@@ -1,0 +1,57 @@
+{
+  "id": "TWRCAS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["I"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": []
+          },
+          {
+            "label": ["APP", "EXE"],
+            "station_id": "LPPT_APP"
+          },
+          {
+            "label": ["TWR", "STR"],
+            "station_id": "LPST_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ARR", "EXE"],
+            "station_id": "LPPT_F_APP"
+          },
+          {
+            "label": ["TWR", "MTJ"],
+            "station_id": "LPMT_TWR"
+          },
+          {
+            "label": ["MIL", "EXE"],
+            "station_id": "LPAM_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ATMO", "EXE"],
+            "station_id": "LPPT_W_APP"
+          },
+          {
+            "label": ["TWR", "LIS"],
+            "station_id": "LPPT_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}
