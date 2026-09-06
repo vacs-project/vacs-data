@@ -110,17 +110,17 @@
             "station_id": "LFPB_TWR"
           },
           {
-            "label": ["COOR", "INI N"],
+            "label": ["EGA APP", "N"],
             "color": "azure",
             "station_id": "LFPG_N_APP"
           },
           {
-            "label": ["COOR", "INI S"],
+            "label": ["EGA APP", "S"],
             "color": "azure",
             "station_id": "LFPG_S_APP"
           },
           {
-            "label": ["EACA"],
+            "label": [""],
             "color": "azure"
           },
           {
@@ -132,17 +132,17 @@
             "color": "azure"
           },
           {
-            "label": ["ASS", "LOC N"],
+            "label": ["CDG TWR", "N"],
             "color": "azure",
             "station_id": "LFPG_N_TWR"
           },
           {
-            "label": ["ASS", "LOC S"],
+            "label": ["CDG TWR", "S"],
             "color": "azure",
             "station_id": "LFPG_S_TWR"
           },
           {
-            "label": ["CT"],
+            "label": [""],
             "color": "azure"
           },
           {
@@ -150,11 +150,11 @@
             "color": "azure"
           },
           {
-            "label": ["ASS", "HIVER", "CT"],
+            "label": ["", "", ""],
             "color": "azure"
           },
           {
-            "label": ["C VS"],
+            "label": [""],
             "color": "azure"
           }
         ]
@@ -166,17 +166,12 @@
         "rows": 4,
         "keys": [
           {
-            "label": ["PVL 1"],
+            "label": ["", "DEL"],
             "color": "taupe",
             "station_id": "LFPG_DEL"
           },
           {
-            "label": ["PVL 2"],
-            "color": "taupe",
-            "station_id": "LFPG_DEL"
-          },
-          {
-            "label": [],
+            "label": [""],
             "color": "taupe"
           },
           {
@@ -184,17 +179,21 @@
             "color": "taupe"
           },
           {
-            "label": ["VTL", "J"],
+            "label": [],
+            "color": "taupe"
+          },
+          {
+            "label": ["RMP", "J"],
             "color": "taupe",
             "station_id": "LFPG_J_RMP"
           },
           {
-            "label": ["VTE", "AGEN"],
+            "label": ["RMP", "AGEN"],
             "color": "taupe",
             "station_id": "LFPG_FDX_RMP"
           },
           {
-            "label": ["VTF", "K L"],
+            "label": ["RMP", "K L"],
             "color": "taupe",
             "station_id": "LFPG_KL_RMP"
           },
@@ -203,17 +202,17 @@
             "color": "taupe"
           },
           {
-            "label": ["VTS", "B D"],
+            "label": ["RMP", "B D"],
             "color": "taupe",
             "station_id": "LFPG_BD_RMP"
           },
           {
-            "label": ["VTS", "F"],
+            "label": ["RMP", "F"],
             "color": "taupe",
             "station_id": "LFPG_F_RMP"
           },
           {
-            "label": ["VTS", "A C E"],
+            "label": ["RMP", "A C E"],
             "color": "taupe",
             "station_id": "LFPG_ACE_RMP"
           },
@@ -222,22 +221,22 @@
             "color": "taupe"
           },
           {
-            "label": ["SOL N", "PKG"],
+            "label": ["GND N", "PKG"],
             "color": "taupe",
             "station_id": "LFPG_NP_GND"
           },
           {
-            "label": ["SOL N", "TWY"],
+            "label": ["GND N", "TWY"],
             "color": "taupe",
             "station_id": "LFPG_N_GND"
           },
           {
-            "label": ["SOL SW"],
+            "label": ["GND SW"],
             "color": "taupe",
             "station_id": "LFPG_SW_GND"
           },
           {
-            "label": ["SOL SE"],
+            "label": ["GND SE"],
             "color": "taupe",
             "station_id": "LFPG_SE_GND"
           },
@@ -258,12 +257,12 @@
             "color": "taupe"
           },
           {
-            "label": ["ASS", "LOC N"],
+            "label": ["TWR", "N"],
             "color": "taupe",
             "station_id": "LFPG_N_TWR"
           },
           {
-            "label": ["ASS", "LOC S"],
+            "label": ["TWR", "S"],
             "color": "taupe",
             "station_id": "LFPG_S_TWR"
           },
@@ -292,7 +291,7 @@
             "color": "taupe"
           },
           {
-            "label": ["CT"],
+            "label": [""],
             "color": "taupe"
           },
           {
@@ -300,11 +299,11 @@
             "color": "taupe"
           },
           {
-            "label": ["ASS HIVER", "CT"],
+            "label": ["", ""],
             "color": "taupe"
           },
           {
-            "label": ["C VS"],
+            "label": [""],
             "color": "taupe"
           }
         ]
@@ -316,12 +315,28 @@
         "rows": 4,
         "keys": [
           {
-            "label": ["COOR", "INI N"],
+            "label": [],
+            "color": "blush"
+          },
+          {
+            "label": [],
+            "color": "blush"
+          },
+          {
+            "label": [],
+            "color": "blush"
+          },
+          {
+            "label": ["", ""],
+            "color": "blush"
+          },
+          {
+            "label": ["EGA APP", "N"],
             "color": "blush",
             "station_id": "LFPG_N_APP"
           },
           {
-            "label": ["COOR", "INI S"],
+            "label": ["EGA APP", "S"],
             "color": "blush",
             "station_id": "LFPG_S_APP"
           },
@@ -330,39 +345,21 @@
             "color": "blush"
           },
           {
-            "label": ["SEQ", ""],
-            "color": "blush"
-          },
-          {
-            "label": ["INI N"],
-            "color": "blush",
-            "station_id": "LFPG_N_APP"
-          },
-          {
-            "label": ["INI S"],
-            "color": "blush",
-            "station_id": "LFPG_S_APP"
-          },
-          {
             "label": [],
             "color": "blush"
           },
           {
-            "label": [],
-            "color": "blush"
-          },
-          {
-            "label": ["ITM N"],
+            "label": ["EGA FIN", "N"],
             "color": "blush",
             "station_id": "LFPG_FN_APP"
           },
           {
-            "label": ["ITM S"],
+            "label": ["EGA FIN", "S"],
             "color": "blush",
             "station_id": "LFPG_FS_APP"
           },
           {
-            "label": ["ITM", "BA"],
+            "label": ["", ""],
             "color": "blush"
           },
           {
@@ -382,16 +379,32 @@
             "color": "blush"
           },
           {
-            "label": ["CALIBR"],
+            "label": [""],
             "color": "blush"
           },
           {
-            "label": ["COOR", "DEP N"],
+            "label": ["", ""],
+            "color": "blush"
+          },
+          {
+            "label": ["", ""],
+            "color": "blush"
+          },
+          {
+            "label": [],
+            "color": "blush"
+          },
+          {
+            "label": [],
+            "color": "blush"
+          },
+          {
+            "label": ["EGA DEP", "N"],
             "color": "blush",
             "station_id": "LFPG_N_DEP"
           },
           {
-            "label": ["COOR", "DEP S"],
+            "label": ["EGA DEP", "S"],
             "color": "blush",
             "station_id": "LFPG_S_DEP"
           },
@@ -404,16 +417,6 @@
             "color": "blush"
           },
           {
-            "label": ["DEP N"],
-            "color": "blush",
-            "station_id": "LFPG_N_DEP"
-          },
-          {
-            "label": ["DEP S"],
-            "color": "blush",
-            "station_id": "LFPG_S_DEP"
-          },
-          {
             "label": [],
             "color": "blush"
           },
@@ -430,27 +433,19 @@
             "color": "blush"
           },
           {
-            "label": [],
+            "label": [""],
             "color": "blush"
           },
           {
-            "label": [],
+            "label": [""],
             "color": "blush"
           },
           {
-            "label": ["CA"],
+            "label": ["", "Port*"],
             "color": "blush"
           },
           {
-            "label": ["C IFR"],
-            "color": "blush"
-          },
-          {
-            "label": ["EACA", "Port*"],
-            "color": "blush"
-          },
-          {
-            "label": ["EASA", ""],
+            "label": ["", ""],
             "color": "blush"
           }
         ]
@@ -462,7 +457,7 @@
         "rows": 4,
         "keys": [
           {
-            "label": ["CDS", "PARIS"],
+            "label": ["", ""],
             "color": "mint"
           },
           {
@@ -471,7 +466,7 @@
             "station_id": "LFXX_FMP"
           },
           {
-            "label": ["ATHTS", "VFR"],
+            "label": ["", ""],
             "color": "mint"
           },
           {
@@ -530,7 +525,7 @@
             "station_id": "PAR_TL"
           },
           {
-            "label": ["Calibra", "ORLY"],
+            "label": ["", ""],
             "color": "mint"
           },
           {
@@ -574,7 +569,7 @@
             "station_id": "LFPO_DEP"
           },
           {
-            "label": ["OL", "CT"],
+            "label": ["", ""],
             "color": "mint"
           },
           {
@@ -607,14 +602,28 @@
             "station_id": "LFPT_I_APP"
           },
           {
-            "label": ["STIP", "Bdx*"],
+            "label": ["", "Bdx*"],
             "color": "mint"
           },
           {
-            "label": ["STPV", "Tech*"],
+            "label": ["", ""],
             "color": "mint"
+          },
+          {
+            "label": []
           }
         ]
+      }
+    },
+    {
+      "label": ["LF**"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": ["LFP*_APP", "LFP*_DEP", "LFEE_*", "PAR_*"],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
+        }
       }
     }
   ]
