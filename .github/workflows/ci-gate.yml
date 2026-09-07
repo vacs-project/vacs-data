@@ -50,14 +50,14 @@ jobs:
   dataset:
     needs: changes
     if: needs.changes.outputs.dataset == 'true'
-    uses: ./.github/workflows/ci-dataset.yml
+    uses: $/.github/workflows/ci-dataset.yml
     permissions:
       contents: read
 
   rust:
     needs: changes
     if: needs.changes.outputs.rust == 'true'
-    uses: ./.github/workflows/ci-rust.yml
+    uses: $/.github/workflows/ci-rust.yml
     permissions:
       contents: read
 
