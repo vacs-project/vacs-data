@@ -15,9 +15,7 @@ default_call_sources = ["LHBP_APP"]
 
 [[positions]]
 profile_id = "TEL"
-default_call_sources = [
-"LHBP_U_APP"
-]
+default_call_sources = ["LHBP_U_APP"]
 
 id = "LHBP_U_APP"
 prefixes = ["LHBP"]
