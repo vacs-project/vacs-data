@@ -13,20 +13,20 @@
             "station_id": "LFOE_APP"
           },
           {
-            "label": ["BOURGET", "SIV_ouest"],
+            "label": ["BOURGET", "FIS W"],
             "color": "steel",
             "station_id": "LFPT_I_APP"
           },
           {
-            "label": ["CIV"],
+            "label": [""],
             "color": "azure"
           },
           {
-            "label": ["Secteur", "Nord"],
+            "label": ["", ""],
             "color": "clay"
           },
           {
-            "label": ["OPS_CDC", "CAM_V"],
+            "label": ["", ""],
             "color": "lagoon"
           },
           {
@@ -35,23 +35,22 @@
             "station_id": "LFPT_APP"
           },
           {
-            "label": ["BTIV"],
+            "label": [""],
             "color": "azure"
           },
           {
-            "label": ["CDG", "CdS"],
-            "color": "clay",
-            "station_id": "LFPG_N_APP"
+            "label": ["", ""],
+            "color": "clay"
           },
           {
-            "label": ["PRISON", "BEAUVAIS"]
+            "label": ["", ""]
           },
           {
-            "label": ["RPO"],
+            "label": [""],
             "color": "umber"
           },
           {
-            "label": ["ATHIS", "CdS"],
+            "label": ["", ""],
             "color": "azure"
           },
           {
@@ -60,7 +59,7 @@
             "station_id": "LFPG_N_APP"
           },
           {
-            "label": ["BGTA"],
+            "label": [""],
             "color": "lavender"
           },
           {
@@ -94,7 +93,7 @@
             "station_id": "PAR_TP"
           },
           {
-            "label": ["OB6"],
+            "label": [""],
             "color": "clay"
           },
           {
@@ -113,39 +112,39 @@
             "station_id": "PAR_TN"
           },
           {
-            "label": ["OB67"],
+            "label": [""],
             "color": "clay"
           },
           {
-            "label": ["BNIA"],
+            "label": [""],
             "color": "taupe"
           },
           {
-            "label": ["OPS", "T2"],
+            "label": ["", ""],
             "color": "lavender"
           },
           {
-            "label": ["SPPA"],
+            "label": [""],
             "color": "taupe"
           },
           {
-            "label": ["SECOURS", "SSLIA"],
+            "label": ["", ""],
             "color": "blush"
           },
           {
-            "label": ["SSLIA"],
+            "label": [""],
             "color": "blush"
           },
           {
-            "label": ["CEP"],
+            "label": [""],
             "color": "lavender"
           },
           {
-            "label": ["MTCE"],
+            "label": [""],
             "color": "cadet"
           },
           {
-            "label": ["OPS"],
+            "label": [""],
             "color": "lavender"
           }
         ]
@@ -461,6 +460,17 @@
             "label": []
           }
         ]
+      }
+    },
+    {
+      "label": ["LF**"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": ["LFP*_APP", "LFP*_DEP", "LFEE_*", "PAR_*"],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
+        }
       }
     }
   ]

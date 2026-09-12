@@ -8,7 +8,7 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["TH"],
+            "label": ["PAR", "TH"],
             "color": "azure",
             "station_id": "PAR_TH"
           },
@@ -18,8 +18,7 @@
             "station_id": "LFPG_DEL"
           },
           {
-            "label": ["CDG", "SEQ"],
-            "color": "taupe"
+            "label": []
           },
           {
             "label": ["BANOX", "RT"],
@@ -37,11 +36,10 @@
             "station_id": "LFOJ_APP"
           },
           {
-            "label": ["CDT", "IFR"],
-            "color": "lilac"
+            "label": []
           },
           {
-            "label": ["DO"],
+            "label": ["PAR", "DO"],
             "color": "azure",
             "station_id": "PAR_DO"
           },
@@ -71,17 +69,15 @@
             "station_id": "LFXX_FMP"
           },
           {
-            "label": ["CRNA", "CDS"],
-            "color": "lilac"
+            "label": []
           },
           {
-            "label": ["DS"],
+            "label": ["PAR", "DS"],
             "color": "azure",
             "station_id": "PAR_DS"
           },
           {
-            "label": ["EACA", "MIL@CDG"],
-            "color": "clay"
+            "label": []
           },
           {
             "label": ["LFPB", "TWR"],
@@ -89,23 +85,20 @@
             "station_id": "LFPB_TWR"
           },
           {
-            "label": ["BTIV"],
-            "color": "azure"
+            "label": []
           },
           {
-            "label": ["CIV"],
-            "color": "azure"
+            "label": []
           },
           {
             "label": ["NMOC"],
             "color": "cadet"
           },
           {
-            "label": ["CDG", "CA"],
-            "color": "lilac"
+            "label": []
           },
           {
-            "label": ["TL"],
+            "label": ["PAR", "DL"],
             "color": "azure",
             "station_id": "PAR_TL"
           },
@@ -115,16 +108,13 @@
             "station_id": "LFPL_TWR"
           },
           {
-            "label": ["LFPI."],
-            "color": "clay"
+            "label": []
           },
           {
-            "label": ["SQR"],
-            "color": "mint"
+            "label": []
           },
           {
-            "label": ["COOR", "SPE"],
-            "color": "mint"
+            "label": []
           },
           {
             "label": ["STIP"],
@@ -150,12 +140,12 @@
             "station_id": "LFPM_SI_APP"
           },
           {
-            "label": ["INI"],
+            "label": ["ORY", "APP"],
             "color": "mint",
             "station_id": "LFPO_APP"
           },
           {
-            "label": ["LOC"],
+            "label": ["ORY", "TWR"],
             "color": "mint",
             "station_id": "LFPO_TWR"
           },
@@ -173,20 +163,18 @@
             "station_id": "PAR_TN"
           },
           {
-            "label": ["LFPN", "DEP"],
-            "color": "clay"
+            "label": []
           },
           {
-            "label": ["LFPN", "ARR"],
-            "color": "clay"
+            "label": []
           },
           {
-            "label": ["ITM"],
+            "label": ["ORY", "FIN"],
             "color": "mint",
             "station_id": "LFPO_F_APP"
           },
           {
-            "label": ["SOL"],
+            "label": ["ORY", "GND"],
             "color": "mint",
             "station_id": "LFPO_GND"
           },
@@ -210,12 +198,12 @@
             "label": []
           },
           {
-            "label": ["DEP"],
+            "label": ["ORY", "DEP"],
             "color": "mint",
             "station_id": "LFPO_DEP"
           },
           {
-            "label": ["PVL"],
+            "label": ["ORY", "DEL"],
             "color": "mint",
             "station_id": "LFPO_DEL"
           },
@@ -226,8 +214,22 @@
           {
             "label": ["CPA 1/2"],
             "color": "cadet"
+          },
+          {
+            "label": []
           }
         ]
+      }
+    },
+    {
+      "label": ["LF**"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": ["LFP*_APP", "LFP*_DEP", "LFEE_*", "PAR_*"],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
+        }
       }
     }
   ]

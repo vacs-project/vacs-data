@@ -8,15 +8,15 @@
         "rows": 6,
         "keys": [
           {
-            "label": ["CHER CER", "LFMM*"],
+            "label": ["", ""],
             "color": "clay"
           },
           {
-            "label": ["BNIA", "LFBD*"],
+            "label": ["", ""],
             "color": "azure"
           },
           {
-            "label": ["FLYCO", "SUP.PISTE*"]
+            "label": ["", ""]
           },
           {
             "label": ["LFBR*"],
@@ -28,7 +28,7 @@
             "station_id": "LFBO_I_GND"
           },
           {
-            "label": ["SSLIA"],
+            "label": [""],
             "color": "blush"
           },
           {
@@ -91,7 +91,8 @@
           },
           {
             "label": ["TZ*"],
-            "color": "lilac"
+            "color": "lilac",
+            "station_id": "LFBB_TZ"
           },
           {
             "label": ["LFCI*"],
@@ -113,7 +114,7 @@
             "station_id": "LFBO_I_APP"
           },
           {
-            "label": ["R39", "Villemaury*"],
+            "label": ["", ""],
             "color": "umber"
           },
           {
@@ -122,7 +123,7 @@
             "station_id": "LFBB_TG"
           },
           {
-            "label": ["LFMM", "ML*"],
+            "label": ["", ""],
             "color": "lilac",
             "station_id": "LFMM_ML"
           },
@@ -142,7 +143,7 @@
             "station_id": "LFBO_F_APP"
           },
           {
-            "label": ["CER"],
+            "label": [""],
             "color": "taupe"
           }
         ]
@@ -154,8 +155,9 @@
         "rows": 6,
         "keys": [
           {
-            "label": ["CDT"],
-            "color": "mint"
+            "label": ["LFBO", "TWR"],
+            "color": "mint",
+            "station_id": "LFBO_TWR"
           },
           {
             "label": ["PREVOL"],
@@ -163,11 +165,11 @@
             "station_id": "LFBO_DEL"
           },
           {
-            "label": ["EXPE"],
+            "label": [""],
             "color": "taupe"
           },
           {
-            "label": ["TMA V"],
+            "label": [""],
             "color": "taupe"
           },
           {
@@ -176,11 +178,12 @@
             "station_id": "LFBO_I_APP"
           },
           {
-            "label": ["SSISA*"]
+            "label": [""]
           },
           {
-            "label": ["CDS", "IFR"],
-            "color": "mint"
+            "label": ["LFBA", "TWR"],
+            "color": "mint",
+            "station_id": "LFBA_TWR"
           },
           {
             "label": ["SOL"],
@@ -188,7 +191,7 @@
             "station_id": "LFBO_GND"
           },
           {
-            "label": ["R327", "MONTECH*"],
+            "label": ["", ""],
             "color": "umber"
           },
           {
@@ -203,17 +206,18 @@
           },
           {
             "label": ["CC", "MARINA*"],
-            "color": "umber"
+            "color": "umber",
+            "station_id": "LFFM_CTR"
           },
           {
-            "label": ["BTIV SE*"],
+            "label": [""],
             "color": "lilac"
           },
           {
-            "label": ["Regulateur", "APOC"]
+            "label": ["", ""]
           },
           {
-            "label": ["DCC", "MARINA", "MDM*"],
+            "label": ["", "", ""],
             "color": "umber"
           },
           {
@@ -222,10 +226,10 @@
             "station_id": "LFBO_EB_APP"
           },
           {
-            "label": ["PREVI", "METEO"]
+            "label": ["", ""]
           },
           {
-            "label": ["R62B*"]
+            "label": [""]
           },
           {
             "label": ["LFBB", "LM*"],
@@ -234,21 +238,23 @@
           },
           {
             "label": ["RAKI*"],
-            "color": "umber"
+            "color": "umber",
+            "station_id": "LFFM_CTR"
           },
           {
-            "label": ["RAMBERT*"],
+            "label": [""],
             "color": "umber"
           },
           {
             "label": ["CCER", "MARSAN*"],
-            "color": "umber"
+            "color": "umber",
+            "station_id": "LFFM_CTR"
           },
           {
-            "label": ["METEO", "CVM*"]
+            "label": ["", ""]
           },
           {
-            "label": ["R202", "CAYLUS*"],
+            "label": ["", ""],
             "color": "umber"
           },
           {
@@ -257,26 +263,40 @@
             "station_id": "LFXX_FMP"
           },
           {
-            "label": ["DRONE", "FONSO"],
+            "label": ["", ""],
             "color": "mint"
           },
           {
-            "label": ["CAUTRA*"],
+            "label": [""],
             "color": "lilac"
           },
           {
-            "label": ["RIESLING*"],
+            "label": [""],
             "color": "umber"
           },
           {
-            "label": ["CCER", "LFBB*"],
+            "label": ["", ""],
             "color": "umber"
           },
           {
-            "label": ["PO", "ORG AE"],
+            "label": ["", ""],
             "color": "steel"
+          },
+          {
+            "label": []
           }
         ]
+      }
+    },
+    {
+      "label": ["LF**"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": ["LFB*_APP", "LFC*_DEP", "LFBB_*"],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
+        }
       }
     }
   ]
