@@ -444,9 +444,13 @@
             "label": ["ZGGG"],
             "station_id": "ZGGG_CTR"
           },
+           {
+            "label": ["ZGJD"],
+            "station_id": "ZGJD_APP"
+          },
           {
-            "label": ["ZJSY-L"],
-            "station_id": "ZJSY_L_CTR"
+            "label": ["ZJSY"],
+            "station_id": "ZJSY_CTR"
           },
           {
             "label": ["ZSSS"],
@@ -457,9 +461,6 @@
             "station_id": "ASEA_FSS"
           },
           {
-            "label": []
-          },
-          {
             "label": ["RCTP-L"],
             "station_id": "ALR"
           },
@@ -468,19 +469,20 @@
             "station_id": "MNL_N_CTR"
           },
           {
-            "label": ["ZGNN"],
-            "station_id": "ZGNN_CTR"
+            "label": ["ZGGG-S"],
+            "station_id": "ZGGG_S_CTR"
           },
           {
-            "label": ["ZJSY-O"],
-            "station_id": "ZJSY_O_CTR"
+            "label": ["ZGOW"],
+            "station_id": "ZGOW_APP"
+          },
+          {
+            "label": ["ZJSY-N"],
+            "station_id": "ZJSY_N_CTR"
           },
           {
             "label": ["ZSSS-S"],
             "station_id": "ZSSS_S_CTR"
-          },
-          {
-            "label": []
           },
           {
             "label": []
@@ -494,18 +496,20 @@
             "station_id": "MNL_NW_CTR"
           },
           {
-            "label": ["ZGJD"],
-            "station_id": "ZGJD_APP"
+            "label": ["ZGGG-S1"],
+            "station_id": "ZGGG_S1_CTR"
+          },
+           {
+            "label": ["ZGZJ"],
+            "station_id": "ZGZJ_APP"
           },
           {
-            "label": []
+            "label": ["ZJSY-L"],
+            "station_id": "ZJSY_L_CTR"
           },
           {
             "label": ["ZSAM"],
             "station_id": "ZSAM_CTR"
-          },
-          {
-            "label": []
           },
           {
             "label": []
@@ -517,15 +521,16 @@
           {
             "label": []
           },
-          {
-            "label": ["ZGOW"],
-            "station_id": "ZGOW_APP"
+           {
+            "label": ["ZGGG-E"],
+            "station_id": "ZGGG_E_CTR"
           },
           {
             "label": []
           },
-          {
-            "label": []
+           {
+            "label": ["ZJSY-O"],
+            "station_id": "ZJSY_O_CTR"
           },
           {
             "label": []
@@ -537,18 +542,12 @@
             "label": ["RCTP-S"],
             "station_id": "ASR"
           },
-          {
+           {
             "label": []
           },
           {
-            "label": ["ZGZJ"],
-            "station_id": "ZGZJ_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
+            "label": ["ZGGG-E1"],
+            "station_id": "ZGGG_E1_CTR"
           },
           {
             "label": []
@@ -569,7 +568,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["ZGNN"],
+            "station_id": "ZGNN_CTR"
           },
           {
             "label": []
@@ -590,7 +590,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["ZGNN-S"],
+            "station_id": "ZGNN_S_CTR"
           },
           {
             "label": []
@@ -605,6 +606,12 @@
             "label": []
           },
           {
+            "label": []
+          },
+          {
+            "label": []
+          },
+           {
             "label": []
           },
           {
