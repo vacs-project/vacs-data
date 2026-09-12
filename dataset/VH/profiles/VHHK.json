@@ -444,7 +444,7 @@
             "label": ["ZGGG"],
             "station_id": "ZGGG_CTR"
           },
-           {
+          {
             "label": ["ZGJD"],
             "station_id": "ZGJD_APP"
           },
@@ -499,7 +499,7 @@
             "label": ["ZGGG-S1"],
             "station_id": "ZGGG_S1_CTR"
           },
-           {
+          {
             "label": ["ZGZJ"],
             "station_id": "ZGZJ_APP"
           },
@@ -521,14 +521,14 @@
           {
             "label": []
           },
-           {
+          {
             "label": ["ZGGG-E"],
             "station_id": "ZGGG_E_CTR"
           },
           {
             "label": []
           },
-           {
+          {
             "label": ["ZJSY-O"],
             "station_id": "ZJSY_O_CTR"
           },
@@ -542,7 +542,7 @@
             "label": ["RCTP-S"],
             "station_id": "ASR"
           },
-           {
+          {
             "label": []
           },
           {
@@ -611,7 +611,7 @@
           {
             "label": []
           },
-           {
+          {
             "label": []
           },
           {
