@@ -356,6 +356,13 @@
       "profile_id": "VHHK"
     },
     {
+      "id": "ZJSY_N_CTR",
+      "prefixes": ["ZJSY"],
+      "frequency": "134.450",
+      "facility_type": "CTR",
+      "profile_id": "VHHK"
+    },
+    {
       "id": "ZJSY_O_CTR",
       "prefixes": ["ZJSY"],
       "frequency": "130.200",
@@ -363,9 +370,58 @@
       "profile_id": "VHHK"
     },
     {
+      "id": "ZJSY_CTR",
+      "prefixes": ["ZJSY"],
+      "frequency": "120.500",
+      "facility_type": "CTR",
+      "profile_id": "VHHK"
+    },
+    {
+      "id": "ZGNN_S_CTR",
+      "prefixes": ["ZGNN"],
+      "frequency": "133.950",
+      "facility_type": "CTR",
+      "profile_id": "VHHK"
+    },
+    {
       "id": "ZGNN_CTR",
       "prefixes": ["ZGNN"],
-      "frequency": "132.700",
+      "frequency": "133.600",
+      "facility_type": "CTR",
+      "profile_id": "VHHK"
+    },
+    {
+      "id": "ZGGG_S_CTR",
+      "prefixes": ["ZGGG"],
+      "frequency": "124.450",
+      "facility_type": "CTR",
+      "profile_id": "VHHK"
+    },
+    {
+      "id": "ZGGG_S1_CTR",
+      "prefixes": ["ZGGG"],
+      "frequency": "125.350",
+      "facility_type": "CTR",
+      "profile_id": "VHHK"
+    },
+    {
+      "id": "ZGGG_E_CTR",
+      "prefixes": ["ZGGG"],
+      "frequency": "133.475",
+      "facility_type": "CTR",
+      "profile_id": "VHHK"
+    },
+    {
+      "id": "ZGGG_E1_CTR",
+      "prefixes": ["ZGGG"],
+      "frequency": "133.975",
+      "facility_type": "CTR",
+      "profile_id": "VHHK"
+    },
+    {
+      "id": "ZGGG_CTR",
+      "prefixes": ["ZGGG"],
+      "frequency": "118.950",
       "facility_type": "CTR",
       "profile_id": "VHHK"
     },
@@ -388,13 +444,6 @@
       "prefixes": ["ZGJD"],
       "frequency": "120.350",
       "facility_type": "APP",
-      "profile_id": "VHHK"
-    },
-    {
-      "id": "ZGGG_CTR",
-      "prefixes": ["ZGGG"],
-      "frequency": "128.350",
-      "facility_type": "CTR",
       "profile_id": "VHHK"
     }
   ]
