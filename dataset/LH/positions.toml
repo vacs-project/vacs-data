@@ -11,28 +11,24 @@ prefixes = ["LHBP"]
 frequency = "122.980"
 facility_type = "APP"
 profile_id = "TEL"
-default_call_sources = [
-  "LHBP_APP"
-]
+default_call_sources = ["LHBP_APP"]
 
 [[positions]]
+profile_id = "TEL"default_call_sources = [
+"LHBP_U_APP"
+]
+
 id = "LHBP_U_APP"
 prefixes = ["LHBP"]
 frequency = "123.860"
 facility_type = "APP"
-profile_id = "TEL"default_call_sources = [
-  "LHBP_U_APP"
-]
-
 [[positions]]
 id = "LHBP_D_APP"
 prefixes = ["LHBP"]
 frequency = "119.510"
 facility_type = "APP"
 profile_id = "TEL"
-default_call_sources = [
-  "LHBP_D_APP"
-]
+default_call_sources = ["LHBP_D_APP"]
 
 [[positions]]
 id = "LHBP_TWR"
@@ -40,10 +36,7 @@ prefixes = ["LHBP"]
 frequency = "118.715"
 facility_type = "TWR"
 profile_id = "TWR"
-default_call_sources = [
-  "LHBP_TWR"
-]
-
+default_call_sources = ["LHBP_TWR"]
 
 [[positions]]
 id = "LHBP_GND"
@@ -51,10 +44,7 @@ prefixes = ["LHBP"]
 frequency = "121.905"
 facility_type = "GND"
 profile_id = "TWR"
-default_call_sources = [
-  "LHBP_GND"
-]
-
+default_call_sources = ["LHBP_GND"]
 
 [[positions]]
 id = "LHBP_DEL"
@@ -62,10 +52,7 @@ prefixes = ["LHBP"]
 frequency = "134.540"
 facility_type = "DEL"
 profile_id = "TWR"
-default_call_sources = [
-  "LHBP_DEL"
-]
-
+default_call_sources = ["LHBP_DEL"]
 
 [[positions]]
 id = "LHBP_FMP"
@@ -80,10 +67,7 @@ prefixes = ["LHBP"]
 frequency = "122.980"
 facility_type = "APP"
 profile_id = "TEL"
-default_call_sources = [
-  "LHBP_P_APP"
-]
-
+default_call_sources = ["LHBP_P_APP"]
 
 [[positions]]
 id = "LHBP_S_TWR"
@@ -91,10 +75,7 @@ prefixes = ["LHBP"]
 frequency = "119.980"
 facility_type = "TWR"
 profile_id = "TWR"
-default_call_sources = [
-  "LHBP_S_TWR"
-]
-
+default_call_sources = ["LHBP_S_TWR"]
 
 [[positions]]
 id = "LHBP_W_DEP"
@@ -102,10 +83,7 @@ prefixes = ["LHBP"]
 frequency = "123.860"
 facility_type = "DEP"
 profile_id = "TEL"
-default_call_sources = [
-  "LHBP_W_DEP"
-]
-
+default_call_sources = ["LHBP_W_DEP"]
 
 [[positions]]
 id = "LHBS_I_TWR"
@@ -204,10 +182,7 @@ prefixes = ["LHDC"]
 frequency = "125.910"
 facility_type = "TWR"
 profile_id = "ACC"
-default_call_sources = [
-  "LHDC_I_TWR"
-]
-
+default_call_sources = ["LHDC_I_TWR"]
 
 [[positions]]
 id = "LHDK_I_TWR"
@@ -229,9 +204,7 @@ prefixes = ["LHKE"]
 frequency = "121.750"
 facility_type = "GND"
 profile_id = "ACC"
-default_call_sources = [
-  "LHKE_GND"
-]
+default_call_sources = ["LHKE_GND"]
 
 [[positions]]
 id = "LHKE_TWR"
@@ -239,9 +212,7 @@ prefixes = ["LHKE"]
 frequency = "135.750"
 facility_type = "TWR"
 profile_id = "ACC"
-default_call_sources = [
-  "LHKE_TWR"
-]
+default_call_sources = ["LHKE_TWR"]
 
 [[positions]]
 id = "LHKE_APP"
@@ -249,9 +220,7 @@ prefixes = ["LHKE"]
 frequency = "120.250"
 facility_type = "APP"
 profile_id = "ACC"
-default_call_sources = [
-  "LHKE_APP"
-]
+default_call_sources = ["LHKE_APP"]
 
 [[positions]]
 id = "LHNY_I_TWR"
@@ -266,9 +235,7 @@ prefixes = ["LHPA"]
 frequency = "133.250"
 facility_type = "GND"
 profile_id = "ACC"
-default_call_sources = [
-  "LHPA_APP"
-]
+default_call_sources = ["LHPA_APP"]
 
 [[positions]]
 id = "LHPA_TWR"
@@ -276,9 +243,7 @@ prefixes = ["LHPA"]
 frequency = "129.500"
 facility_type = "TWR"
 profile_id = "ACC"
-default_call_sources = [
-  "LHPA_TWR"
-]
+default_call_sources = ["LHPA_TWR"]
 
 [[positions]]
 id = "LHPA_APP"
@@ -286,9 +251,7 @@ prefixes = ["LHPA"]
 frequency = "131.250"
 facility_type = "APP"
 profile_id = "ACC"
-default_call_sources = [
-  "LHPA_APP"
-]
+default_call_sources = ["LHPA_APP"]
 
 [[positions]]
 id = "LHPP_I_TWR"
@@ -296,9 +259,7 @@ prefixes = ["LHPP"]
 frequency = "126.915"
 facility_type = "TWR"
 profile_id = "ACC"
-default_call_sources = [
-  "LHPP_I_TWR"
-]
+default_call_sources = ["LHPP_I_TWR"]
 
 [[positions]]
 id = "LHPR_I_TWR"
@@ -306,9 +267,7 @@ prefixes = ["LHPR"]
 frequency = "129.910"
 facility_type = "TWR"
 profile_id = "ACC"
-default_call_sources = [
-  "LHPR_I_TWR"
-]
+default_call_sources = ["LHPR_I_TWR"]
 
 [[positions]]
 id = "LHSM_I_TWR"
@@ -316,9 +275,7 @@ prefixes = ["LHSM"]
 frequency = "134.585"
 facility_type = "TWR"
 profile_id = "ACC"
-default_call_sources = [
-  "LHSM_I_TWR"
-]
+default_call_sources = ["LHSM_I_TWR"]
 
 [[positions]]
 id = "LHSN_GND"
@@ -326,9 +283,7 @@ prefixes = ["LHSN"]
 frequency = "130.250"
 facility_type = "GND"
 profile_id = "ACC"
-default_call_sources = [
-  "LHSN_GND"
-]
+default_call_sources = ["LHSN_GND"]
 
 [[positions]]
 id = "LHSN_TWR"
@@ -336,9 +291,7 @@ prefixes = ["LHSN"]
 frequency = "132.500"
 facility_type = "TWR"
 profile_id = "ACC"
-default_call_sources = [
-  "LHSN_TWR"
-]
+default_call_sources = ["LHSN_TWR"]
 
 [[positions]]
 id = "LHSN_APP"
@@ -346,9 +299,7 @@ prefixes = ["LHSN"]
 frequency = "127.750"
 facility_type = "APP"
 profile_id = "ACC"
-default_call_sources = [
-  "LHSN_APP"
-]
+default_call_sources = ["LHSN_APP"]
 
 [[positions]]
 id = "LHTL_I_TWR"
