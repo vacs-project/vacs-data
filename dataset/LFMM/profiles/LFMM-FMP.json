@@ -1,0 +1,114 @@
+{
+    "id": "LFMM-FMP",
+    "type": "Tabbed",
+    "tabs": [
+        {
+            "label": [
+                "SUP",
+                "FMP"
+            ],
+            "page": {
+                "rows": 6,
+                "client_page": {
+                    "include": [
+                        "*FMP"
+                    ],
+                    "exclude": [],
+                    "priority": [
+                        "*_FMP"
+                    ],
+                    "frequencies": "HideAll",
+                    "grouping": "None"
+                }
+            }
+        },
+        {
+            "label": "LFMM",
+            "page": {
+                "rows": 10,
+                "client_page": {
+                    "include": [
+                        "LFMM_*",
+                        "LFK*_*",
+                        "LFL*_*",
+                        "LFM*_*",
+                        "LFT*_*"
+                    ],
+                    "exclude": [
+                        "*FMP"
+                    ],
+                    "priority": [
+                        "*_CTR",
+                        "*_APP",
+                        "*_TWR",
+                        "*_GND",
+                        "*_DEL"
+                    ],
+                    "frequencies": "HideAll",
+                    "grouping": "None"
+                }
+            }
+        },
+        {
+            "label": [
+                "LFBB",
+                "LFFF",
+                "LFEE"
+            ],
+            "page": {
+                "rows": 10,
+                "client_page": {
+                    "include": [
+                        "LFBB_*",
+                        "PAR_*",
+                        "LFEE_*",
+                        "LFS*_*",
+                        "LFO*_*",
+                        "LFP*_*",
+                        "LFB*_*"
+                    ],
+                    "exclude": [
+                        "*FMP"
+                    ],
+                    "priority": [
+                        "*_CTR",
+                        "*_APP",
+                        "*_TWR",
+                        "*_GND",
+                        "*_DEL"
+                    ],
+                    "frequencies": "HideAll",
+                    "grouping": "None"
+                }
+            }
+        },
+        {
+            "label": "EXT",
+            "page": {
+                "rows": 10,
+                "client_page": {
+                    "include": [
+                        "LI*",
+                        "LS*",
+                        "DT*",
+                        "DA*",
+                        "LE*"
+                    ],
+                    "exclude": [
+                        "*FMP"
+                    ],
+                    "priority": [
+                        "*_FSS",
+                        "*_CTR",
+                        "*_APP",
+                        "*_TWR",
+                        "*_GND",
+                        "*_DEL"
+                    ],
+                    "frequencies": "HideAll",
+                    "grouping": "FirAndIcao"
+                }
+            }
+        }
+    ]
+}
