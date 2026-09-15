@@ -3,17 +3,17 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["ORY", "LFPO"],
+      "label": ["BVA", "LFOB"],
       "page": {
         "rows": 5,
         "keys": [
           {
-            "label": ["PAR", "TP", ""],
-            "color": "lagoon",
-            "station_id": "PAR_TP"
+            "label": []
           },
           {
-            "label": []
+            "label": ["LFQQ", "QR", "APP"],
+            "color": "mint",
+            "station_id": "LFQQ_QR_APP"
           },
           {
             "label": ["LFOE", "APP"],
@@ -29,14 +29,12 @@
             "label": []
           },
           {
-            "label": ["PAR", "TN", ""],
-            "color": "lagoon",
-            "station_id": "PAR_TN"
+            "label": []
           },
           {
-            "label": ["LFQQ", "QR", "APP"],
+            "label": ["LFQQ", "QD", "APP"],
             "color": "mint",
-            "station_id": "LFQQ_QR_APP"
+            "station_id": "LFQQ_QD_APP"
           },
           {
             "label": ["LFOB", "TWR", ""],
@@ -55,9 +53,9 @@
             "label": []
           },
           {
-            "label": ["LFQQ", "QD", "APP"],
+            "label": ["LFQQ", "QA", "APP"],
             "color": "mint",
-            "station_id": "LFQQ_QD_APP"
+            "station_id": "LFQQ_QA_APP"
           },
           {
             "label": ["LFOB", "", "INI"],
@@ -75,12 +73,12 @@
             "station_id": "LFPT_TWR"
           },
           {
-            "label": []
+            "label": ["PAR", "TP", ""],
+            "color": "lagoon",
+            "station_id": "PAR_TP"
           },
           {
-            "label": ["LFQQ", "QA", "APP"],
-            "color": "mint",
-            "station_id": "LFQQ_QA_APP"
+            "label": []
           },
           {
             "label": ["LFOB", "SIV", ""],
@@ -94,8 +92,49 @@
           },
           {
             "label": []
+          },
+          {
+            "label": ["PAR", "TN", ""],
+            "color": "lagoon",
+            "station_id": "PAR_TN"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           }
         ]
+      }
+    },
+    {
+      "label": ["CWP"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": [
+            "PAR*",
+            "LFO*",
+            "LFP*",
+            "LFQ*"
+          ],
+          "exclude": [],
+          "priority": [
+            "*_FMP",
+            "*_CTR",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_RMP",
+            "*_DEL"
+          ]
+        }
       }
     }
   ]

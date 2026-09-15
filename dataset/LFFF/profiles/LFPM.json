@@ -1,0 +1,270 @@
+{
+    "id": "LFPM                    \"*_GND\",",
+    "type": "Tabbed",
+    "tabs": [
+        {
+            "label": [
+                "",
+                "LFPM"
+            ],
+            "page": {
+                "rows": 5,
+                "keys": [
+                    {
+                        "label": [
+                            "PAR",
+                            "TH"
+                        ],
+                        "color": "lagoon",
+                        "station_id": "PAR_TH"
+                    },
+                    {
+                        "label": [
+                            "LFQQ",
+                            "QR",
+                            "APP"
+                        ],
+                        "color": "mint",
+                        "station_id": "LFQQ_QR_APP"
+                    },
+                    {
+                        "label": [
+                            "LFRN",
+                            "RN",
+                            "APP"
+                        ],
+                        "color": "mint",
+                        "station_id": "LFRN_RN_APP"
+                    },
+                    {
+                        "label": [
+                            "LFRS",
+                            "NB",
+                            "APP"
+                        ],
+                        "color": "mint",
+                        "station_id": "LFRS_NB_APP"
+                    },
+                    {
+                        "label": []
+                    },
+                    {
+                        "label": [
+                            "PAR",
+                            "RT",
+                            ""
+                        ],
+                        "color": "lagoon",
+                        "station_id": "PAR_RT"
+                    },
+                    {
+                        "label": [
+                            "LFPG",
+                            "S",
+                            "INI"
+                        ],
+                        "color": "mint",
+                        "station_id": "LFPG_FS_APP"
+                    },
+                    {
+                        "label": [
+                            "LFPM",
+                            "SK",
+                            "APP"
+                        ],
+                        "color": "umber",
+                        "station_id": "LFPM_SK_APP"
+                    },
+                    {
+                        "label": [
+                            "LFOQ",
+                            "AFIS"
+                        ],
+                        "color": "azure",
+                        "station_id": "LFOQ_I_TWR"
+                    },
+                    {
+                        "label": [
+                            "LFOT",
+                            "TWR",
+                            ""
+                        ],
+                        "color": "azure",
+                        "station_id": "LFOT_TWR"
+                    },
+                    {
+                        "label": [
+                            "PAR",
+                            "OT"
+                        ],
+                        "color": "lagoon",
+                        "station_id": "PAR_OT"
+                    },
+                    {
+                        "label": [
+                            "LFPO",
+                            "DEP"
+                        ],
+                        "color": "mint",
+                        "station_id": "LFPO_DEP"
+                    },
+                    {
+                        "label": [
+                            "LFPM",
+                            "SJ",
+                            "APP"
+                        ],
+                        "color": "umber",
+                        "station_id": "LFPM_SJ_APP"
+                    },
+                    {
+                        "label": [
+                            "LFPM",
+                            "TWR"
+                        ],
+                        "color": "azure",
+                        "station_id": "LFPM_TWR"
+                    },
+                    {
+                        "label": [
+                            "LFOZ",
+                            "AFIS"
+                        ],
+                        "color": "azure",
+                        "station_id": "LFOZ_I_TWR"
+                    },
+                    {
+                        "label": [
+                            "PAR",
+                            "DS",
+                            ""
+                        ],
+                        "color": "lagoon",
+                        "station_id": "PAR_DS"
+                    },
+                    {
+                        "label": [
+                            "LFPO",
+                            "APP"
+                        ],
+                        "color": "mint",
+                        "station_id": "LFPO_APP"
+                    },
+                    {
+                        "label": [
+                            "LFPM",
+                            "SJ",
+                            "APP"
+                        ],
+                        "color": "umber",
+                        "station_id": "LFPM_SJ_APP"
+                    },
+                    {
+                        "label": [
+                            "LFOK",
+                            "TWR",
+                            ""
+                        ],
+                        "color": "azure",
+                        "station_id": "LFOK_TWR"
+                    },
+                    {
+                        "label": [
+                            "LFLA",
+                            "AFIS"
+                        ],
+                        "color": "azure",
+                        "station_id": "LFLA_I_TWR"
+                    },
+                    {
+                        "label": [
+                            "PAR",
+                            "AO",
+                            ""
+                        ],
+                        "color": "lagoon",
+                        "station_id": "PAR_AO"
+                    },
+                    {
+                        "label": []
+                    },
+                    {
+                        "label": [
+                            "LFQA",
+                            "AFIS"
+                        ],
+                        "color": "azure",
+                        "station_id": "LFQA_I_TWR"
+                    },
+                    {
+                        "label": [
+                            "LFQB",
+                            "AFIS"
+                        ],
+                        "color": "azure",
+                        "station_id": "LFQB_I_TWR"
+                    },
+                    {
+                        "label": []
+                    },
+                    {
+                        "label": [
+                            "PAR",
+                            "AR"
+                        ],
+                        "color": "lagoon",
+                        "station_id": "PAR_AR"
+                    },
+                    {
+                        "label": [
+                            "PAR",
+                            "TL"
+                        ],
+                        "color": "lagoon",
+                        "station_id": "PAR_TL"
+                    },
+                    {
+                        "label": [
+                            "PAR",
+                            "TM"
+                        ],
+                        "color": "lagoon",
+                        "station_id": "PAR_TM"
+                    },
+                    {
+                        "label": []
+                    },
+                    {
+                        "label": []
+                    }
+                ]
+            }
+        },
+        {
+            "label": [
+                "CWP"
+            ],
+            "page": {
+                "rows": 6,
+                "client_page": {
+                    "include": [
+                        "PAR*",
+                        "LFO*",
+                        "LFP*",
+                        "LFQ*"
+                    ],
+                    "exclude": [],
+                    "priority": [
+                        "*_FMP",
+                        "*_CTR",
+                        "*_APP",
+                        "*_TWR",
+                        "*_GND",
+                        "*_RMP",
+                        "*_DEL"
+                    ]
+                }
+            }
+        }
+    ]
+}
