@@ -13,6 +13,11 @@
       "minLength": 1,
       "description": "Profile identifier, used to reference profile in positions configuration. Must start with your FIR's two-letter country code and be globally unique, e.g. LOVV, LOWW."
     },
+    "ProfileView": {
+      "type": "string",
+      "enum": ["page", "split", "cycle"],
+      "description": "Profile view that defines how the client arranges the radio and phone pages in its main area. Defaults to 'page' if omitted and must be 'page' for Geo profiles."
+    },
     "StationId": {
       "type": "string",
       "minLength": 1,
@@ -254,6 +259,7 @@
           "required": ["id", "type"],
           "properties": {
             "id": { "$ref": "#/$defs/ProfileId" },
+            "view": { "const":  "page" },
             "type": { "const": "Geo" }
           }
         }
@@ -265,6 +271,7 @@
       "required": ["id", "type", "tabs"],
       "properties": {
         "id": { "$ref": "#/$defs/ProfileId" },
+        "view": { "$ref": "#/$defs/ProfileView" },
         "type": { "const": "Tabbed" },
         "tabs": {
           "type": "array",
