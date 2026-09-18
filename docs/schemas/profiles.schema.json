@@ -260,7 +260,10 @@
           "required": ["id", "type"],
           "properties": {
             "id": { "$ref": "#/$defs/ProfileId" },
-            "view": { "const": "page" },
+            "view": {
+              "const": "page",
+              "description": "Geo profiles only support the page view."
+            },
             "type": { "const": "Geo" }
           }
         }

@@ -81,6 +81,8 @@ A geo profile uses a flexible container-based layout system, allowing for custom
 - `direction` (string): Flex direction (`"row"` or `"col"`)
 - `children` (array): One or more [geo nodes](#geonode) (containers, buttons, or dividers)
 
+Geo profiles only support the `"page"` [view mode](#view-modes), so `view` is left out.
+
 **Structure:**
 
 ```jsonc
@@ -118,10 +120,11 @@ the profile. `view` decides how the client offers the two:
   cells that cycles through the radio page, the phone page and the mixed view. The highlighted
   cell marks the current one.
 
-With `"split"` and `"cycle"`, the client opens the mixed view when the profile loads. The mixed
-view shows three columns of frequency objects on the radio page and four key columns on the phone
-page. A tab with more than four key columns scrolls horizontally, so it is recommended to keep tabs
-at four columns or fewer for profiles that use these views.
+With `"split"` and `"cycle"`, the client opens the mixed view when the profile loads. In the mixed
+view the phone page is sized for four key columns by default; the controller can drag the divider
+between the two pages to make it wider or narrower (a double-click resets it), and the radio page
+takes the remaining width. A tab with more key columns than fit scrolls horizontally, so it is
+recommended to keep tabs at four columns or fewer for profiles that use these views.
 
 The mixed view is currently only available with the TrackAudio radio integration. With other
 integrations the profile behaves like `"page"`.
