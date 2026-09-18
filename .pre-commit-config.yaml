@@ -47,4 +47,5 @@ repos:
       - id: prettier
         files: '^dataset/.*\.(json|toml)$'
         additional_dependencies:
+          - "prettier@3.8.1"
           - "prettier-plugin-toml@2.0.6"
