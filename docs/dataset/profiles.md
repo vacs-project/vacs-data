@@ -43,12 +43,17 @@ A tabbed profile organizes keys into multiple tabs, each containing a grid of di
 - `type` (string): Must be `"Tabbed"`
 - `tabs` (array): One or more tabs, each with a label and page
 
+**Optional fields:**
+
+- `view` (string): How the client arranges the radio and phone pages, see [View Modes](#view-modes)
+
 **Structure:**
 
 ```jsonc
 {
   "id": "LOWW",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": "Tab Name",
@@ -93,10 +98,33 @@ A geo profile uses a flexible container-based layout system, allowing for custom
 
 ### Common Profile Fields
 
-| Field  | Type   | Required | Description                                                                               |
-| :----- | :----- | :------- | :---------------------------------------------------------------------------------------- |
-| `id`   | String | Yes      | Unique profile identifier. Must start with the FIR's country code (e.g., `LOWW`, `LOVV`). |
-| `type` | String | Yes      | Profile type. Must be either `"Tabbed"` or `"Geo"`.                                       |
+| Field  | Type   | Required | Description                                                                                                                                                              |
+| :----- | :----- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`   | String | Yes      | Unique profile identifier. Must start with the FIR's country code (e.g., `LOWW`, `LOVV`).                                                                                |
+| `type` | String | Yes      | Profile type. Must be either `"Tabbed"` or `"Geo"`.                                                                                                                      |
+| `view` | String | No       | How the client arranges the radio and phone pages. One of `"page"` (default), `"split"` or `"cycle"`. Geo profiles only support `"page"`. See [View Modes](#view-modes). |
+
+### View Modes
+
+The radio page shows the controller's radio stack, the phone page shows the direct access keys of
+the profile. `view` decides how the client offers the two:
+
+- `"page"`: the Radio and Phone buttons switch between two full-size pages. This is the behavior
+  of clients that predate the field and the default when `view` is omitted.
+- `"split"`: the Radio and Phone buttons are replaced by a Phone and a Radio tab. The Phone tab
+  shows the phone page across the whole main area, the Radio tab shows the radio page with the
+  phone page to its right.
+- `"cycle"`: the Radio and Phone buttons are replaced by a single Page button with R, P and M
+  cells that cycles through the radio page, the phone page and the mixed view. The highlighted
+  cell marks the current one.
+
+With `"split"` and `"cycle"`, the client opens the mixed view when the profile loads. The mixed
+view shows three columns of frequency objects on the radio page and four key columns on the phone
+page. A tab with more than four key columns scrolls horizontally, so it is recommended to keep tabs
+at four columns or fewer for profiles that use these views.
+
+The mixed view is currently only available with the TrackAudio radio integration. With other
+integrations the profile behaves like `"page"`.
 
 ## Shared Profile Components
 

@@ -16,7 +16,8 @@
     "ProfileView": {
       "type": "string",
       "enum": ["page", "split", "cycle"],
-      "description": "Profile view that defines how the client arranges the radio and phone pages in its main area. Defaults to 'page' if omitted and must be 'page' for Geo profiles."
+      "default": "page",
+      "description": "How the client arranges the radio and phone pages in its main area. `page`: the Radio and Phone buttons switch between full-size pages. `split`: a Phone and a Radio tab, the Radio tab shows the radio page next to the phone page. `cycle`: a single Page button cycles through radio, phone and the mixed view. Geo profiles only support `page`."
     },
     "StationId": {
       "type": "string",
@@ -259,7 +260,7 @@
           "required": ["id", "type"],
           "properties": {
             "id": { "$ref": "#/$defs/ProfileId" },
-            "view": { "const":  "page" },
+            "view": { "const": "page" },
             "type": { "const": "Geo" }
           }
         }
