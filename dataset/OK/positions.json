@@ -1,12 +1,20 @@
 {
   "positions": [
     {
-      "id": "OKAC_ACC_FMP",
+      "id": "OKAC_FMP",
       "prefixes": ["OKAC"],
-      "frequency": "125.300",
+      "frequency": "119.998",
       "facility_type": "FMP",
-      "profile_id": "OKAC",
-      "default_call_sources": ["OKAC_ACC_FMP"]
+      "profile_id": "OK-FMP",
+      "default_call_sources": ["OKAC_FMP"]
+    },
+    {
+      "id": "OKKK_FMP",
+      "prefixes": ["OKKK"],
+      "frequency": "119.998",
+      "facility_type": "FMP",
+      "profile_id": "OK-FMP",
+      "default_call_sources": ["OKKK_FMP"]
     },
     {
       "id": "OKAC_CTR",
@@ -49,28 +57,12 @@
       "default_call_sources": ["OKKK_FX_APP"]
     },
     {
-      "id": "OKKK_TMA_FMP",
-      "prefixes": ["OKKK"],
-      "frequency": "124.800",
-      "facility_type": "FMP",
-      "profile_id": "OKKK",
-      "default_call_sources": ["OKKK_TMA_FMP"]
-    },
-    {
       "id": "OKKK_TWR",
       "prefixes": ["OKKK"],
       "frequency": "118.300",
       "facility_type": "TWR",
       "profile_id": "OKKK",
       "default_call_sources": ["OKKK_TWR"]
-    },
-    {
-      "id": "OKKK_AIR_FMP",
-      "prefixes": ["OKKK"],
-      "frequency": "118.300",
-      "facility_type": "FMP",
-      "profile_id": "OKKK",
-      "default_call_sources": ["OKKK_AIR_FMP"]
     },
     {
       "id": "OKKK_1_GND",
@@ -89,14 +81,6 @@
       "default_call_sources": ["OKKK_2_GND"]
     },
     {
-      "id": "OKKK_GMC_FMP",
-      "prefixes": ["OKKK"],
-      "frequency": "121.700",
-      "facility_type": "FMP",
-      "profile_id": "OKKK",
-      "default_call_sources": ["OKKK_GMC_FMP"]
-    },
-    {
       "id": "OKKK_DEL",
       "prefixes": ["OKKK"],
       "frequency": "126.775",
@@ -105,12 +89,12 @@
       "default_call_sources": ["OKKK_DEL"]
     },
     {
-      "id": "OKKK_GMP_FMP",
+      "id": "OKKK_P_DEL",
       "prefixes": ["OKKK"],
       "frequency": "126.775",
-      "facility_type": "FMP",
+      "facility_type": "DEL",
       "profile_id": "OKKK",
-      "default_call_sources": ["OKKK_GMP_FMP"]
+      "default_call_sources": ["OKKK_P_DEL"]
     },
     {
       "id": "OKAJ_APP",

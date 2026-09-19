@@ -1,6 +1,27 @@
 {
   "positions": [
     {
+      "id": "ORBB_FMP",
+      "prefixes": ["ORBB"],
+      "frequency": "199.998",
+      "facility_type": "FMP",
+      "default_call_sources": ["ORBB_FMP"]
+    },
+    {
+      "id": "ORBB_TMA_FMP",
+      "prefixes": ["ORBB"],
+      "frequency": "199.998",
+      "facility_type": "FMP",
+      "default_call_sources": ["ORBB_TMA_FMP"]
+    },
+    {
+      "id": "ORBI_FMP",
+      "prefixes": ["ORBI"],
+      "frequency": "199.998",
+      "facility_type": "FMP",
+      "default_call_sources": ["ORBI_FMP"]
+    },
+    {
       "id": "ORBB_CTR",
       "prefixes": ["ORBB"],
       "frequency": "124.400",

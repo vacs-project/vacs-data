@@ -1,6 +1,10 @@
 {
   "stations": [
     {
+      "id": "ORBB_FMP",
+      "controlled_by": ["ORBB_CTR"]
+    },
+    {
       "id": "ORBB_CTR",
       "parent_id": "GULF_E_FSS",
       "controlled_by": ["ORBB_CTR"]
