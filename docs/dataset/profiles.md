@@ -111,8 +111,8 @@ Geo profiles only support the `"page"` [view mode](#view-modes), so `view` is le
 The radio page shows the controller's radio stack, the phone page shows the direct access keys of
 the profile. `view` decides how the client offers the two:
 
-- `"page"`: the Radio and Phone buttons switch between two full-size pages. This is the behavior
-  of clients that predate the field and the default when `view` is omitted.
+- `"page"`: the Radio and Phone buttons switch between two full-size pages. This is the default
+  when `view` is omitted, and the behavior of clients before vacs 2.8.0, which ignore the field.
 - `"split"`: the Radio and Phone buttons are replaced by a Phone and a Radio tab. The Phone tab
   shows the phone page across the whole main area, the Radio tab shows the radio page with the
   phone page to its right.
