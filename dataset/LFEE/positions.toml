@@ -57,6 +57,103 @@ default_call_sources = [
 ]
 
 [[positions]]
+id = "LFEE_4EH_CTR"
+prefixes = ["LFEE"]
+frequency = "136.330"
+facility_type = "CTR"
+default_call_sources = [
+  "LFEE_HE",
+  "LFEE_HH",
+  "LFEE_KE",
+  "LFEE_KH",
+  "LFEE_UE",
+  "LFEE_UH",
+  "LFEE_XE",
+  "LFEE_XH",
+  "LFSB_APP",
+  "LFSB_C_APP",
+  "LFJL_APP",
+  "LFST_SU_APP",
+  "LFST_SC_APP",
+  "LFST_RE_APP",
+  "LFST_RW_APP",
+  "LFGA_TWR",
+  "LFGJ_TWR",
+  "LFJL_TWR",
+  "LFLH_I_TWR",
+  "LFQM_I_TWR",
+  "LFSB_TWR",
+  "LFSD_I_TWR",
+  "LFSG_I_TWR",
+  "LFSN_I_TWR",
+  "LFST_TWR",
+  "LFGA_GND",
+  "LFJL_GND",
+  "LFSB_GND",
+  "LFST_GND",
+  "LFSB_DEL",
+]
+
+[[positions]]
+id = "LFEE_RME_CTR"
+prefixes = ["LFEE"]
+frequency = "135.105"
+facility_type = "CTR"
+default_call_sources = [
+  "LFEE_HE",
+  "LFEE_HH",
+  "LFEE_KD",
+  "LFEE_KE",
+  "LFEE_KF",
+  "LFEE_KH",
+  "LFEE_UE",
+  "LFEE_UF",
+  "LFEE_UH",
+  "LFEE_XE",
+  "LFEE_XH",
+  "LFSB_APP",
+  "LFSB_C_APP",
+  "LFJL_APP",
+  "LFST_SU_APP",
+  "LFST_SC_APP",
+  "LFST_RE_APP",
+  "LFST_RW_APP",
+  "LFGA_TWR",
+  "LFGJ_TWR",
+  "LFJL_TWR",
+  "LFLH_I_TWR",
+  "LFQM_I_TWR",
+  "LFSB_TWR",
+  "LFSD_I_TWR",
+  "LFSG_I_TWR",
+  "LFSN_I_TWR",
+  "LFST_TWR",
+  "LFGA_GND",
+  "LFJL_GND",
+  "LFSB_GND",
+  "LFST_GND",
+  "LFSB_DEL",
+]
+
+[[positions]]
+id = "LFEE_RMN_CTR"
+prefixes = ["LFEE"]
+frequency = "132.410"
+facility_type = "CTR"
+default_call_sources = [
+  "LFEE_HN",
+  "LFEE_HR",
+  "LFEE_KN",
+  "LFEE_KR",
+  "LFEE_UB",
+  "LFEE_UN",
+  "LFEE_UR",
+  "LFEE_XR",
+  "LFEE_YB",
+  "LFEE_YR"
+]
+
+[[positions]]
 id = "LFEE_HE_CTR"
 prefixes = ["LFEE"]
 frequency = "131.085"
@@ -75,14 +172,14 @@ id = "LFEE_HN_CTR"
 prefixes = ["LFEE"]
 frequency = "132.505"
 facility_type = "CTR"
-default_call_sources = ["LFEE_HN", "LFEE_UB", "LFEE_UN", "LFEE_YB"]
+default_call_sources = ["LFEE_HN"]
 
 [[positions]]
 id = "LFEE_HR_CTR"
 prefixes = ["LFEE"]
 frequency = "125.975"
 facility_type = "CTR"
-default_call_sources = ["LFEE_HR", "LFEE_YR"]
+default_call_sources = ["LFEE_HR"]
 
 [[positions]]
 id = "LFEE_KD_CTR"
@@ -127,28 +224,11 @@ facility_type = "CTR"
 default_call_sources = ["LFEE_KR"]
 
 [[positions]]
-id = "LFEE_N_CTR"
+id = "LFEE_UE_CTR"
 prefixes = ["LFEE"]
 frequency = "127.555"
 facility_type = "CTR"
-default_call_sources = [
-  "LFEE_HN",
-  "LFEE_HR",
-  "LFEE_KR",
-  "LFEE_UB",
-  "LFEE_UN",
-  "LFEE_UR",
-  "LFEE_XR",
-  "LFEE_YB",
-  "LFEE_YR",
-]
-
-[[positions]]
-id = "LFEE_S_CTR"
-prefixes = ["LFEE"]
-frequency = "135.105"
-facility_type = "CTR"
-default_call_sources = []
+default_call_sources = ["LFEE_UE"]
 
 [[positions]]
 id = "LFEE_UB_CTR"
@@ -156,25 +236,6 @@ prefixes = ["LFEE"]
 frequency = "133.010"
 facility_type = "CTR"
 default_call_sources = ["LFEE_UB"]
-
-[[positions]]
-id = "LFEE_UE_CTR"
-prefixes = ["LFEE"]
-frequency = "127.570"
-facility_type = "CTR"
-default_call_sources = [
-  "LFEE_UE",
-  "LFJL_APP",
-  "LFST_SU_APP",
-  "LFST_SC_APP",
-  "LFST_RE_APP",
-  "LFST_RW_APP",
-  "LFJL_TWR",
-  "LFSN_I_TWR",
-  "LFST_TWR",
-  "LFJL_GND",
-  "LFST_GND",
-]
 
 [[positions]]
 id = "LFEE_UF_CTR"
@@ -188,15 +249,7 @@ id = "LFEE_UH_CTR"
 prefixes = ["LFEE"]
 frequency = "134.405"
 facility_type = "CTR"
-default_call_sources = [
-  "LFEE_UH",
-  "LFSB_C_APP",
-  "LFGJ_TWR",
-  "LFLH_I_TWR",
-  "LFQM_I_TWR",
-  "LFSD_I_TWR",
-  "LFSG_I_TWR",
-]
+default_call_sources = ["LFEE_UH"]
 
 [[positions]]
 id = "LFEE_UN_CTR"
@@ -281,13 +334,6 @@ prefixes = ["LFQP"]
 frequency = "129.800"
 facility_type = "TWR"
 default_call_sources = ["LFQP_TWR"]
-
-[[positions]]
-id = "LFRH_APP"
-prefixes = ["LFRH"]
-frequency = "120.125"
-facility_type = "APP"
-default_call_sources = ["LFRH_APP"]
 
 [[positions]]
 id = "LFSB_APP"
