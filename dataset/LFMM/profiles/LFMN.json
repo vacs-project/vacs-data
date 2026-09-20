@@ -158,7 +158,8 @@
             "LFK*",
             "LFM*",
             "LFMM*",
-            "LFT*"
+            "LFT*",
+            "LIMM*"
           ],
           "exclude": [],
           "priority": [
