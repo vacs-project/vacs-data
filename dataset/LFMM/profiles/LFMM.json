@@ -24,7 +24,7 @@
                             "T"
                         ],
                         "color": "snow",
-                        "station_id": "LFBB_T1"
+                        "station_id": "LFBB_T"
                     },
                     {
                         "label": [
@@ -40,7 +40,7 @@
                             "H"
                         ],
                         "color": "snow",
-                        "station_id": "LFBB_H1"
+                        "station_id": "LFBB_H"
                     },
                     {
                         "label": [
