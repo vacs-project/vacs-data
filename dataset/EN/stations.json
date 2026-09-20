@@ -88,7 +88,7 @@
     },
     {
       "id": "ENBL_I_TWR",
-      "parent_id":"ENSV-17"
+      "parent_id":"ENSV-17",
       "controlled_by": [
         "ENBL_I_TWR",
         "ENRC_S_CTR"
@@ -123,7 +123,7 @@
     },
     {
       "id": "ENBR_D_APP",
-      "parent_id": "ENSV-13"
+      "parent_id": "ENSV-13",
       "controlled_by": [
         "ENBR_D_APP",
         "ENBR_W_APP",
@@ -132,7 +132,7 @@
     },
     {
       "id": "ENBR_E_APP",
-      "parent_id": "ENSV-13"
+      "parent_id": "ENSV-13",
       "controlled_by": [
         "ENBR_E_APP",
         "ENBR_W_APP"
@@ -140,7 +140,7 @@
     },
     {
       "id": "ENBR_W_APP",
-      "parent_id":"ENSV-13"
+      "parent_id":"ENSV-13",
       "controlled_by": [
         "ENBR_W_APP",
         "ENBR_E_APP"
@@ -185,7 +185,7 @@
     },
     {
       "id": "ENBS_I_TWR",
-      "parent_id":"ENBD-26"
+      "parent_id":"ENBD-26",
       "controlled_by": [
         "ENBS_I_TWR",
         "ENRC_N_CTR"
@@ -905,7 +905,7 @@
     },
     {
       "id": "ENTO_APP",
-	  "parent_id": "ENOS-4"
+    "parent_id": "ENOS-4",
       "controlled_by": [
         "ENTO_APP",
         "ENTO_D_APP",
@@ -914,7 +914,7 @@
     },
     {
       "id": "ENTO_D_APP",
-	  "parent_id": "ENOS-4"
+    "parent_id": "ENOS-4",
       "controlled_by": [
         "ENTO_D_APP",
         "ENTO_APP",
@@ -923,14 +923,14 @@
     },
     {
       "id": "ENTO_TWR",
-	  "parent_id": "ENTO_APP"
+    "parent_id": "ENTO_APP",
       "controlled_by": [
         "ENTO_TWR"
       ]
     },
     {
       "id": "ENTO_GND",
-	  "parent_id": "ENTO TWR"
+    "parent_id": "ENTO TWR",
       "controlled_by": [
         "ENTO_GND"
       ]
