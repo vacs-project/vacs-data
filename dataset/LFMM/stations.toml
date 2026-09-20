@@ -1,4 +1,8 @@
 [[stations]]
+id = "LFMM_FMP"
+controlled_by = ["LFMM_FMP", "LFXX_FMP"]
+
+[[stations]]
 id = "LFMM_A1"
 controlled_by = ["LFMM_A_CTR", "LFMM_EU_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 

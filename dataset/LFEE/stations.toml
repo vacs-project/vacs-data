@@ -1,4 +1,8 @@
 [[stations]]
+id = "LFEE_FMP"
+controlled_by = ["LFEE_FMP", "LFXX_FMP"]
+
+[[stations]]
 id = "LFEE_HE"
 controlled_by = ["LFEE_HE_CTR", "LFEE_CTR", "PAR_CTR"]
 

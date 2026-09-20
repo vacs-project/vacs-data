@@ -7,6 +7,13 @@ profile_id = "LFFF"
 default_call_sources = ["LFXX_FMP"]
 
 [[positions]]
+id = "LFFF_FMP"
+prefixes = ["LFFF"]
+frequency = "199.998"
+facility_type = "FMP"
+default_call_sources = ["LFFF_FMP", "LFXX_FMP"]
+
+[[positions]]
 id = "LFFM_CTR"
 prefixes = ["LFFM"]
 frequency = "128.375"

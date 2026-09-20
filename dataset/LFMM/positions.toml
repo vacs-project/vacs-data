@@ -1,4 +1,11 @@
 [[positions]]
+id = "LFMM_FMP"
+prefixes = ["LFMM"]
+frequency = "199.998"
+facility_type = "FMP"
+default_call_sources = ["LFMM_FMP", "LFXX_FMP"]
+
+[[positions]]
 id = "LFMM_A_CTR"
 prefixes = ["LFMM"]
 frequency = "134.260"
