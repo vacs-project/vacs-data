@@ -6,17 +6,17 @@ facility_type = "CTR"
 profile_id = "LFBB"
 default_call_sources = [
   "LFBB_BN",
-  "LFBB_H1",
-  "LFBB_L1",
+  "LFBB_H",
+  "LFBB_L",
   "LFBB_LM",
-  "LFBB_N1",
-  "LFBB_P1",
-  "LFBB_R1",
-  "LFBB_T1",
+  "LFBB_N",
+  "LFBB_P",
+  "LFBB_R",
+  "LFBB_T",
   "LFBB_TG",
   "LFBB_TZ",
-  "LFBB_X1",
-  "LFBB_Z1",
+  "LFBB_X",
+  "LFBB_Z",
   "LFBD_BW_APP",
   "LFBD_BE_APP",
   "LFBD_I_APP",
@@ -64,52 +64,52 @@ default_call_sources = [
 ]
 
 [[positions]]
-id = "LFBB_H1_CTR"
+id = "LFBB_H_CTR"
 prefixes = ["LFBB"]
 frequency = "124.830"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_H1"]
+default_call_sources = ["LFBB_H"]
 
 [[positions]]
-id = "LFBB_L1_CTR"
+id = "LFBB_L_CTR"
 prefixes = ["LFBB"]
 frequency = "132.990"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_L1"]
+default_call_sources = ["LFBB_L"]
 
 [[positions]]
-id = "LFBB_N1_CTR"
+id = "LFBB_N_CTR"
 prefixes = ["LFBB"]
 frequency = "135.665"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_N1"]
+default_call_sources = ["LFBB_N"]
 
 [[positions]]
-id = "LFBB_P1_CTR"
+id = "LFBB_P_CTR"
 prefixes = ["LFBB"]
 frequency = "133.960"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_P1"]
+default_call_sources = ["LFBB_P"]
 
 [[positions]]
-id = "LFBB_R1_CTR"
+id = "LFBB_R_CTR"
 prefixes = ["LFBB"]
 frequency = "132.430"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_R1"]
+default_call_sources = ["LFBB_R"]
 
 [[positions]]
-id = "LFBB_T1_CTR"
+id = "LFBB_T_CTR"
 prefixes = ["LFBB"]
 frequency = "123.630"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_T1"]
+default_call_sources = ["LFBB_T"]
 
 [[positions]]
 id = "LFBB_UN_CTR"
@@ -117,7 +117,7 @@ prefixes = ["LFBB"]
 frequency = "118.430"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_L1", "LFBB_P1", "LFBB_R1", "LFBB_T1"]
+default_call_sources = ["LFBB_L", "LFBB_P", "LFBB_R", "LFBB_T"]
 
 [[positions]]
 id = "LFBB_US_CTR"
@@ -125,23 +125,23 @@ prefixes = ["LFBB"]
 frequency = "136.040"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_H1", "LFBB_N1", "LFBB_X1", "LFBB_Z1"]
+default_call_sources = ["LFBB_H", "LFBB_N", "LFBB_X", "LFBB_Z"]
 
 [[positions]]
-id = "LFBB_X1_CTR"
+id = "LFBB_X_CTR"
 prefixes = ["LFBB"]
 frequency = "126.130"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_X1"]
+default_call_sources = ["LFBB_X"]
 
 [[positions]]
-id = "LFBB_Z1_CTR"
+id = "LFBB_Z_CTR"
 prefixes = ["LFBB"]
 frequency = "128.765"
 facility_type = "CTR"
 profile_id = "LFBB"
-default_call_sources = ["LFBB_Z1"]
+default_call_sources = ["LFBB_Z"]
 
 [[positions]]
 id = "LFBC_APP"
