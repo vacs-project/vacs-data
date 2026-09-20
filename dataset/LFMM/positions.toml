@@ -150,12 +150,12 @@ facility_type = "APP"
 default_call_sources = ["LFKB_IS_APP"]
 
 [[positions]]
-id = "LFKB_KB_APP"
+id = "LFKB_APP"
 prefixes = ["LFKB"]
 frequency = "123.825"
 facility_type = "APP"
 default_call_sources = [
-  "LFKB_KB_APP",
+  "LFKB_APP",
   "LFKB_IN_APP",
   "LFKB_KC_APP",
   "LFKB_TWR",
