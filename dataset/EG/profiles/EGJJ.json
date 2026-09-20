@@ -130,7 +130,7 @@
           {
             "label": ["Rennes", "Sud"],
             "color": "snow",
-            "station_id": "LFRN_RN_APP"
+            "station_id": "LFRN_APP"
           },
           {
             "label": ["Rennes", "Nord"],

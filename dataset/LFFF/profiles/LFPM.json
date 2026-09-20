@@ -78,7 +78,7 @@
           {
             "label": ["LFRN", "RN", "APP"],
             "color": "mint",
-            "station_id": "LFRN_RN_APP"
+            "station_id": "LFRN_APP"
           },
           {
             "label": ["LFRS", "NB", "APP"],
