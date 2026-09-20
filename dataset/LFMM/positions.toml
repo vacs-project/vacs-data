@@ -133,6 +133,7 @@ id = "LFMN_ND_DEP"
 prefixes = ["LFMN"]
 frequency = "130.830"
 facility_type = "DEP"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_ND_DEP"]
 
 [[positions]]
@@ -460,6 +461,7 @@ id = "LFMN_F_APP"
 prefixes = ["LFMN"]
 frequency = "128.205"
 facility_type = "APP"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_F_APP", "LFMN_MD_APP"]
 
 [[positions]]
@@ -467,6 +469,7 @@ id = "LFMN_IN_APP"
 prefixes = ["LFMN"]
 frequency = "120.850"
 facility_type = "APP"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_IN_APP", "LFMN_IS_APP", "LFMN_IW_APP"]
 
 [[positions]]
@@ -474,6 +477,7 @@ id = "LFMN_IS_APP"
 prefixes = ["LFMN"]
 frequency = "122.925"
 facility_type = "APP"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_IS_APP"]
 
 [[positions]]
@@ -481,6 +485,7 @@ id = "LFMN_IW_APP"
 prefixes = ["LFMN"]
 frequency = "124.425"
 facility_type = "APP"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_IW_APP"]
 
 [[positions]]
@@ -488,6 +493,7 @@ id = "LFMN_MD_APP"
 prefixes = ["LFMN"]
 frequency = "120.655"
 facility_type = "APP"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_MD_APP"]
 
 [[positions]]
@@ -495,6 +501,7 @@ id = "LFMN_NE_APP"
 prefixes = ["LFMN"]
 frequency = "124.180"
 facility_type = "APP"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_NE_APP"]
 
 [[positions]]
@@ -502,6 +509,7 @@ id = "LFMN_NO_APP"
 prefixes = ["LFMN"]
 frequency = "134.475"
 facility_type = "APP"
+profile_id = "LFMN"
 default_call_sources = [
   "LFMN_NO_APP",
   "LFMN_F_APP",
@@ -793,6 +801,7 @@ id = "LFMN_TWR"
 prefixes = ["LFMN"]
 frequency = "118.700"
 facility_type = "TWR"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_TWR", "LFMN_GND", "LFMN_DEL"]
 
 [[positions]]
@@ -975,6 +984,7 @@ id = "LFMN_GND"
 prefixes = ["LFMN"]
 frequency = "121.705"
 facility_type = "GND"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_GND", "LFMN_DEL"]
 
 [[positions]]
@@ -1017,4 +1027,5 @@ id = "LFMN_DEL"
 prefixes = ["LFMN"]
 frequency = "121.780"
 facility_type = "DEL"
+profile_id = "LFMN"
 default_call_sources = ["LFMN_DEL"]
