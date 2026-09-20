@@ -97,7 +97,7 @@
           {
             "label": ["LFKB", "KB"],
             "color": "azure",
-            "station_id": "LFKB_KB_APP"
+            "station_id": "LFKB_APP"
           },
           {
             "label": []

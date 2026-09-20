@@ -141,7 +141,7 @@
           {
             "label": ["LFKB", "APP"],
             "color": "snow",
-            "station_id": "LFKB_GND"
+            "station_id": "LFKB_APP"
           },
           {
             "label": []
