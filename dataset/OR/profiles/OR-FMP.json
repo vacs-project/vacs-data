@@ -31,7 +31,9 @@
           "exclude": [],
           "priority": [
             "ORBB*",
+            "OR*",
             "OKAC*",
+            "OK*",
             "*_FMP"
           ],
           "frequencies": "HideAll",
