@@ -3,33 +3,22 @@
     {
       "id": "ENAL_APP",
       "parent_id": "ENBD-18",
-      "controlled_by": [
-        "ENAL_APP",
-        "ENKB_APP",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENAL_APP", "ENKB_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENAL_TWR",
       "parent_id": "ENAL_APP",
-      "controlled_by": [
-        "ENAL_TWR"
-      ]
+      "controlled_by": ["ENAL_TWR"]
     },
     {
       "id": "ENAN_APP",
       "parent_id": "ENBD-25",
-      "controlled_by": [
-        "ENAN_APP",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENAN_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENAN_TWR",
       "parent_id": "ENAN_APP",
-      "controlled_by": [
-        "ENAN_TWR"
-      ]
+      "controlled_by": ["ENAN_TWR"]
     },
     {
       "id": "ENAS_I_TWR",
@@ -38,11 +27,8 @@
     },
     {
       "id": "ENAT_APP",
-      "parent_id":"ENBD-26",
-      "controlled_by": [
-        "ENAT_APP",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-26",
+      "controlled_by": ["ENAT_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENBD-18",
@@ -88,20 +74,13 @@
     },
     {
       "id": "ENBL_I_TWR",
-      "parent_id":"ENSV-17",
-      "controlled_by": [
-        "ENBL_I_TWR",
-        "ENRC_S_CTR"
-      ]
+      "parent_id": "ENSV-17",
+      "controlled_by": ["ENBL_I_TWR", "ENRC_S_CTR"]
     },
     {
       "id": "ENBN_I_TWR",
-      "parent_id":"ENBD-24/27",
-      "controlled_by": [
-        "ENBN_I_TWR",
-        "ENBN_APP",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-24/27",
+      "controlled_by": ["ENBN_I_TWR", "ENBN_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENBO_APP",
@@ -116,80 +95,52 @@
     {
       "id": "ENBO_TWR",
       "parent_id": "ENBO_APP",
-      "controlled_by": [
-        "ENBO_TWR",
-        "ENBO_APP"
-      ]
+      "controlled_by": ["ENBO_TWR", "ENBO_APP"]
     },
     {
       "id": "ENBR_D_APP",
       "parent_id": "ENSV-13",
-      "controlled_by": [
-        "ENBR_D_APP",
-        "ENBR_W_APP",
-        "ENBR_E_APP"
-      ]
+      "controlled_by": ["ENBR_D_APP", "ENBR_W_APP", "ENBR_E_APP"]
     },
     {
       "id": "ENBR_E_APP",
       "parent_id": "ENSV-13",
-      "controlled_by": [
-        "ENBR_E_APP",
-        "ENBR_W_APP"
-      ]
+      "controlled_by": ["ENBR_E_APP", "ENBR_W_APP"]
     },
     {
       "id": "ENBR_W_APP",
-      "parent_id":"ENSV-13",
-      "controlled_by": [
-        "ENBR_W_APP",
-        "ENBR_E_APP"
-      ]
+      "parent_id": "ENSV-13",
+      "controlled_by": ["ENBR_W_APP", "ENBR_E_APP"]
     },
     {
       "id": "ENBR_TWR",
       "parent_id": "ENBR_D_APP",
-      "controlled_by": [
-        "ENBR_TWR"
-      ]
+      "controlled_by": ["ENBR_TWR"]
     },
     {
       "id": "ENBR_GND",
       "parent_id": "ENBR_TWR",
-      "controlled_by": [
-        "ENBR_GND"
-      ]
+      "controlled_by": ["ENBR_GND"]
     },
     {
       "id": "ENBR_ICE_GND",
       "parent_id": "ENBR_GND",
-      "controlled_by": [
-        "ENBR_ICE_GND"
-      ]
+      "controlled_by": ["ENBR_ICE_GND"]
     },
     {
       "id": "ENBR_P_GND",
       "parent_id": "ENBR_GND",
-      "controlled_by": [
-        "ENBR_P_GND",
-        "ENBR_DEL"
-      ]
+      "controlled_by": ["ENBR_P_GND", "ENBR_DEL"]
     },
     {
       "id": "ENBR_DEL",
       "parent_id": "ENBR_GND",
-      "controlled_by": [
-        "ENBR_DEL",
-        "ENBR_P_GND"
-      ]
+      "controlled_by": ["ENBR_DEL", "ENBR_P_GND"]
     },
     {
       "id": "ENBS_I_TWR",
-      "parent_id":"ENBD-26",
-      "controlled_by": [
-        "ENBS_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-26",
+      "controlled_by": ["ENBS_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENBV_I_TWR",
@@ -204,307 +155,193 @@
     },
     {
       "id": "ENCN_APP",
-	  "parent_id": "ENOS-8",
-      "controlled_by": [
-        "ENCN_APP",
-        "ENRC_S_CTR"
-      ]
+      "parent_id": "ENOS-8",
+      "controlled_by": ["ENCN_APP", "ENRC_S_CTR"]
     },
     {
       "id": "ENCN_TWR",
-	  "parent_id": "ENCN_APP",
-      "controlled_by": [
-        "ENCN_TWR"
-      ]
+      "parent_id": "ENCN_APP",
+      "controlled_by": ["ENCN_TWR"]
     },
     {
       "id": "ENDU_APP",
       "parent_id": "ENBD-25",
-      "controlled_by": [
-        "ENDU_APP",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENDU_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENDU_TWR",
       "parent_id": "ENDU_APP",
-      "controlled_by": [
-        "ENDU_TWR"
-      ]
+      "controlled_by": ["ENDU_TWR"]
     },
     {
       "id": "ENDU_DEL",
       "parent_id": "ENDU_TWR",
-      "controlled_by": [
-        "ENDU_DEL"
-      ]
+      "controlled_by": ["ENDU_DEL"]
     },
     {
       "id": "ENEV_APP",
-      "parent_id":"ENBD-25",
-      "controlled_by": [
-        "ENEV_APP",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-25",
+      "controlled_by": ["ENEV_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENEV_TWR",
       "parent_id": "ENEV_APP",
-      "controlled_by": [
-        "ENEV_TWR"
-      ]
+      "controlled_by": ["ENEV_TWR"]
     },
     {
       "id": "ENEV_GND",
       "parent_id": "ENEV_TWR",
-      "controlled_by": [
-        "ENEV_GND"
-      ]
+      "controlled_by": ["ENEV_GND"]
     },
     {
       "id": "ENFL_I_TWR",
-      "parent_id":"ENSV-17",
-      "controlled_by": [
-        "ENFL_I_TWR",
-        "ENRC_S_CTR"
-      ]
+      "parent_id": "ENSV-17",
+      "controlled_by": ["ENFL_I_TWR", "ENRC_S_CTR"]
     },
     {
       "id": "ENGC_H_TWR",
-      "parent_id":"ENSV-16",
-      "controlled_by": [
-        "ENGC_H_TWR",
-        "ENSV_O_CTR"
-      ]
+      "parent_id": "ENSV-16",
+      "controlled_by": ["ENGC_H_TWR", "ENSV_O_CTR"]
     },
     {
       "id": "ENGM_D_APP",
       "parent_id": "ENOS-6",
-      "controlled_by": [
-        "ENGM_D_APP",
-        "ENGM_W_APP",
-        "ENGM_E_APP"
-      ]
+      "controlled_by": ["ENGM_D_APP", "ENGM_W_APP", "ENGM_E_APP"]
     },
     {
       "id": "ENGM_E_APP",
       "parent_id": "ENOS-6",
-      "controlled_by": [
-        "ENGM_E_APP",
-        "ENGM_W_APP",
-        "ENGM_D_APP"
-      ]
+      "controlled_by": ["ENGM_E_APP", "ENGM_W_APP", "ENGM_D_APP"]
     },
     {
       "id": "ENGM_F_APP",
       "parent_id": "ENOS-6",
-      "controlled_by": [
-        "ENGM_F_APP",
-        "ENGM_D_APP",
-        "ENGM_W_APP",
-        "ENGM_E_APP"
-      ]
+      "controlled_by": ["ENGM_F_APP", "ENGM_D_APP", "ENGM_W_APP", "ENGM_E_APP"]
     },
     {
       "id": "ENGM_W_APP",
       "parent_id": "ENOS-6",
-      "controlled_by": [
-        "ENGM_W_APP",
-        "ENGM_E_APP",
-        "ENGM_D_APP"
-      ]
+      "controlled_by": ["ENGM_W_APP", "ENGM_E_APP", "ENGM_D_APP"]
     },
     {
       "id": "ENGM_E_TWR",
       "parent_id": "ENGM_F_APP",
-      "controlled_by": [
-        "ENGM_E_TWR",
-        "ENGM_W_TWR"
-      ]
+      "controlled_by": ["ENGM_E_TWR", "ENGM_W_TWR"]
     },
     {
       "id": "ENGM_W_TWR",
       "parent_id": "ENGM_F_APP",
-      "controlled_by": [
-        "ENGM_W_TWR",
-        "ENGM_E_TWR",
-        "ENGM_F_APP"
-      ]
+      "controlled_by": ["ENGM_W_TWR", "ENGM_E_TWR", "ENGM_F_APP"]
     },
     {
       "id": "ENGM_E_GND",
       "parent_id": "ENGM_E_TWR",
-      "controlled_by": [
-        "ENGM_E_GND",
-        "ENGM_W_GND"
-      ]
+      "controlled_by": ["ENGM_E_GND", "ENGM_W_GND"]
     },
     {
       "id": "ENGM_ICE_GND",
-       "parent_id": "ENGM_W_GND",     
-      "controlled_by": [
-        "ENGM_ICE_GND"
-      ]
+      "parent_id": "ENGM_W_GND",
+      "controlled_by": ["ENGM_ICE_GND"]
     },
     {
       "id": "ENGM_P_GND",
       "parent_id": "ENGM_W_GND",
-      "controlled_by": [
-        "ENGM_P_GND",
-        "ENGM_W_DEL",
-        "ENGM_E_DEL"
-      ]
+      "controlled_by": ["ENGM_P_GND", "ENGM_W_DEL", "ENGM_E_DEL"]
     },
     {
       "id": "ENGM_W_GND",
       "parent_id": "ENGM_W_TWR",
-      "controlled_by": [
-        "ENGM_W_GND",
-        "ENGM_E_GND"
-      ]
+      "controlled_by": ["ENGM_W_GND", "ENGM_E_GND"]
     },
     {
       "id": "ENGM_E_DEL",
       "parent_id": "ENGM_E_GND",
-      "controlled_by": [
-        "ENGM_E_DEL",
-        "ENGM_W_DEL",
-        "ENGM_P_GND"
-      ]
+      "controlled_by": ["ENGM_E_DEL", "ENGM_W_DEL", "ENGM_P_GND"]
     },
     {
       "id": "ENGM_W_DEL",
       "parent_id": "ENGM_W_GND",
-      "controlled_by": [
-        "ENGM_W_DEL",
-        "ENGM_E_DEL",
-        "ENGM_P_GND"
-      ]
+      "controlled_by": ["ENGM_W_DEL", "ENGM_E_DEL", "ENGM_P_GND"]
     },
     {
       "id": "ENHD_TWR",
       "parent_id": "ENZV_APP",
-      "controlled_by": [
-        "ENHD_TWR"
-      ]
+      "controlled_by": ["ENHD_TWR"]
     },
     {
       "id": "ENHF_I_TWR",
-      "parent_id":"ENBD-26",
-      "controlled_by": [
-        "ENHF_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-26",
+      "controlled_by": ["ENHF_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENHK_I_TWR",
-      "parent_id":"ENBD-26",
-      "controlled_by": [
-        "ENHK_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-26",
+      "controlled_by": ["ENHK_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENHV_I_TWR",
-      "parent_id":"ENBD-26",
-      "controlled_by": [
-        "ENHV_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-26",
+      "controlled_by": ["ENHV_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENKB_APP",
-      "parent_id":"ENBD-18",
-      "controlled_by": [
-        "ENKB_APP",
-        "ENAL_APP",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-18",
+      "controlled_by": ["ENKB_APP", "ENAL_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENKB_TWR",
-      "parent_id":"ENKB_APP",
-      "controlled_by": [
-        "ENKB_TWR"
-      ]
+      "parent_id": "ENKB_APP",
+      "controlled_by": ["ENKB_TWR"]
     },
     {
       "id": "ENKR_APP",
-      "parent_id":"ENBD-26",
-      "controlled_by": [
-        "ENKR_APP",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-26",
+      "controlled_by": ["ENKR_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENKR_TWR",
-      "parent_id":"ENKR_APP",
-      "controlled_by": [
-        "ENKR_TWR"
-      ]
+      "parent_id": "ENKR_APP",
+      "controlled_by": ["ENKR_TWR"]
     },
     {
       "id": "ENLE_H_TWR",
-      "parent_id":"ENSV-10",
-      "controlled_by": [
-        "ENLE_H_TWR",
-        "ENSV_O_CTR"
-      ]
+      "parent_id": "ENSV-10",
+      "controlled_by": ["ENLE_H_TWR", "ENSV_O_CTR"]
     },
     {
       "id": "ENLK_I_TWR",
-      "parent_id":"ENBD-25",
-      "controlled_by": [
-        "ENLK_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-25",
+      "controlled_by": ["ENLK_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENMH_I_TWR",
-      "parent_id":"ENBD-26",
-      "controlled_by": [
-        "ENMH_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-26",
+      "controlled_by": ["ENMH_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENML_I_TWR",
-      "parent_id":"ENKB_APP",
-      "controlled_by": [
-        "ENML_I_TWR"
-      ]
+      "parent_id": "ENKB_APP",
+      "controlled_by": ["ENML_I_TWR"]
     },
     {
       "id": "ENMS_I_TWR",
-      "parent_id":"ENBD-24/27",
-      "controlled_by": [
-        "ENMS_I_TWR",
-        "ENBN_APP",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-24/27",
+      "controlled_by": ["ENMS_I_TWR", "ENBN_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENNA_APP",
-      "parent_id":"ENBD-26",
-      "controlled_by": [
-        "ENNA_APP",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-26",
+      "controlled_by": ["ENNA_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENNM_I_TWR",
-      "parent_id":"ENBD-24/27",
-      "controlled_by": [
-        "ENNM_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-24/27",
+      "controlled_by": ["ENNM_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENNO_I_TWR",
       "parent_id": "ENTO_APP",
-      "controlled_by": [
-        "ENNO_I_TWR"
-      ]
+      "controlled_by": ["ENNO_I_TWR"]
     },
     {
       "id": "ENOB",
@@ -513,33 +350,23 @@
     {
       "id": "ENOL_APP",
       "parent_id": "ENBD-18",
-      "controlled_by": [
-        "ENOL_APP",
-        "ENOL_A_APP",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENOL_APP", "ENOL_A_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENOL_A_APP",
       "parent_id": "ENBD-18",
-      "controlled_by": [
-        "ENOL_A_APP",
-        "ENOL_APP",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENOL_A_APP", "ENOL_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENOL_TWR",
       "parent_id": "ENOL_APP",
-      "controlled_by": [
-        "ENOL_TWR"
-      ]
+      "controlled_by": ["ENOL_TWR"]
     },
     {
       "id": "ENOS-1",
       "controlled_by": [
         "ENOS_1_CTR",
-		    "ENOS_7_CTR",
+        "ENOS_7_CTR",
         "ENOS_N_CTR",
         "ENOS_CTR",
         "ENOR_S_CTR",
@@ -626,57 +453,38 @@
     },
     {
       "id": "ENOV_I_TWR",
-      "parent_id":"ENAL_APP",
-      "controlled_by": [
-        "ENOV_I_TWR"
-      ]
+      "parent_id": "ENAL_APP",
+      "controlled_by": ["ENOV_I_TWR"]
     },
     {
       "id": "ENRA_I_TWR",
       "parent_id": "ENBD-24/27",
-      "controlled_by": [
-        "ENRA_I_TWR",
-        "ENBN_APP",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENRA_I_TWR", "ENBN_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENRM_I_TWR",
       "parent_id": "ENBD-24/27",
-      "controlled_by": [
-        "ENRM_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENRM_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENRO_I_TWR",
       "parent_id": "ENBD-19",
-      "controlled_by": [
-        "ENRO_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENRO_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENRS_I_TWR",
       "parent_id": "ENBD-25",
-      "controlled_by": [
-        "ENRS_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENRS_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENRY_TWR",
       "parent_id": "ENTO_APP",
-      "controlled_by": [
-        "ENRY_TWR"
-      ]
+      "controlled_by": ["ENRY_TWR"]
     },
     {
       "id": "ENRY_GND",
       "parent_id": "ENRY_TWR",
-      "controlled_by": [
-        "ENRY_GND"
-      ]
+      "controlled_by": ["ENRY_GND"]
     },
     {
       "id": "ENSB_I_TWR",
@@ -685,67 +493,43 @@
     },
     {
       "id": "ENSD_I_TWR",
-      "parent_id":"ENSV-17",
-      "controlled_by": [
-        "ENSD_I_TWR",
-        "ENRC_S_CTR"
-      ]
+      "parent_id": "ENSV-17",
+      "controlled_by": ["ENSD_I_TWR", "ENRC_S_CTR"]
     },
     {
       "id": "ENSG_I_TWR",
       "parent_id": "ENSV-17",
-      "controlled_by": [
-        "ENSG_I_TWR",
-        "ENRC_S_CTR"
-      ]
+      "controlled_by": ["ENSG_I_TWR", "ENRC_S_CTR"]
     },
     {
       "id": "ENSH_I_TWR",
-      "parent_id":"ENBD-25",
-      "controlled_by": [
-        "ENSH_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-25",
+      "controlled_by": ["ENSH_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENSK_I_TWR",
       "parent_id": "ENBD-25",
-      "controlled_by": [
-        "ENSK_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENSK_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENSO_I_TWR",
-      "parent_id":"ENBR_W_APP",
-      "controlled_by": [
-        "ENSO_I_TWR"
-      ]
+      "parent_id": "ENBR_W_APP",
+      "controlled_by": ["ENSO_I_TWR"]
     },
     {
       "id": "ENSR_I_TWR",
       "parent_id": "ENBD-26",
-      "controlled_by": [
-        "ENSR_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENSR_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENSS_I_TWR",
-      "parent_id": "ENBD-26", 
-      "controlled_by": [
-        "ENSS_I_TWR",
-        "ENRC_N_CTR"
-      ]
+      "parent_id": "ENBD-26",
+      "controlled_by": ["ENSS_I_TWR", "ENRC_N_CTR"]
     },
     {
       "id": "ENST_I_TWR",
       "parent_id": "ENBD-24/27",
-      "controlled_by": [
-        "ENST_I_TWR",
-        "ENBN_APP",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENST_I_TWR", "ENBN_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENSV-10",
@@ -890,115 +674,77 @@
     {
       "id": "ENTC_TWR",
       "parent_id": "ENBD-25",
-      "controlled_by": [
-        "ENTC_TWR",
-        "ENTC_APP",
-        "ENRC_N_CTR"
-      ]
+      "controlled_by": ["ENTC_TWR", "ENTC_APP", "ENRC_N_CTR"]
     },
     {
       "id": "ENTC_DEL",
       "parent_id": "ENTC_TWR",
-      "controlled_by": [
-        "ENTC_DEL"
-      ]
+      "controlled_by": ["ENTC_DEL"]
     },
     {
       "id": "ENTO_APP",
-    "parent_id": "ENOS-4",
-      "controlled_by": [
-        "ENTO_APP",
-        "ENTO_D_APP",
-        "ENRC_S_CTR"
-      ]
+      "parent_id": "ENOS-4",
+      "controlled_by": ["ENTO_APP", "ENTO_D_APP", "ENRC_S_CTR"]
     },
     {
       "id": "ENTO_D_APP",
-    "parent_id": "ENOS-4",
-      "controlled_by": [
-        "ENTO_D_APP",
-        "ENTO_APP",
-        "ENRC_S_CTR"
-      ]
+      "parent_id": "ENOS-4",
+      "controlled_by": ["ENTO_D_APP", "ENTO_APP", "ENRC_S_CTR"]
     },
     {
       "id": "ENTO_TWR",
-    "parent_id": "ENTO_APP",
-      "controlled_by": [
-        "ENTO_TWR"
-      ]
+      "parent_id": "ENTO_APP",
+      "controlled_by": ["ENTO_TWR"]
     },
     {
       "id": "ENTO_GND",
-    "parent_id": "ENTO TWR",
-      "controlled_by": [
-        "ENTO_GND"
-      ]
+      "parent_id": "ENTO TWR",
+      "controlled_by": ["ENTO_GND"]
     },
     {
       "id": "ENVA_APP",
       "parent_id": "ENBD-19",
-      "controlled_by": [
-        "ENVA_APP"
-      ]
+      "controlled_by": ["ENVA_APP"]
     },
     {
       "id": "ENVA_D_APP",
       "parent_id": "ENVA_APP",
-      "controlled_by": [
-        "ENVA_D_APP"
-      ]
+      "controlled_by": ["ENVA_D_APP"]
     },
     {
       "id": "ENVA_TWR",
       "parent_id": "ENVA_APP",
-      "controlled_by": [
-        "ENVA_TWR"
-      ]
+      "controlled_by": ["ENVA_TWR"]
     },
     {
       "id": "ENVA_GND",
       "parent_id": "ENVA_TWR",
-      "controlled_by": [
-        "ENVA_GND"
-      ]
+      "controlled_by": ["ENVA_GND"]
     },
     {
       "id": "ENVD_I_TWR",
       "parent_id": "ENKR_APP",
-      "controlled_by": [
-        "ENVD_I_TWR"
-      ]
+      "controlled_by": ["ENVD_I_TWR"]
     },
     {
       "id": "ENZV_APP",
       "parent_id": "ENSV-12",
-      "controlled_by": [
-        "ENZV_APP",
-        "ENZV_A_APP"
-      ]
+      "controlled_by": ["ENZV_APP", "ENZV_A_APP"]
     },
     {
       "id": "ENZV_A_APP",
       "parent_id": "ENSV-12",
-      "controlled_by": [
-        "ENZV_A_APP",
-        "ENZV_APP"
-      ]
+      "controlled_by": ["ENZV_A_APP", "ENZV_APP"]
     },
     {
       "id": "ENZV_TWR",
       "parent_id": "ENZV_APP",
-      "controlled_by": [
-        "ENZV_TWR"
-      ]
+      "controlled_by": ["ENZV_TWR"]
     },
     {
       "id": "ENZV_GND",
       "parent_id": "ENZV_TWR",
-      "controlled_by": [
-        "ENZV_GND"
-      ]
+      "controlled_by": ["ENZV_GND"]
     }
   ]
 }
