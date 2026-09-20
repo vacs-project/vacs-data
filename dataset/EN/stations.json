@@ -404,7 +404,7 @@
         "ENOS_4_CTR",
         "ENOS_S_CTR",
         "ENOS_N_CTR",
-        "ENOR_CTR",
+        "ENOR_S_CTR",
         "ENOR_SC_CTR",
         "ENOR_CTR"
       ]
@@ -698,7 +698,7 @@
     },
     {
       "id": "ENTO_GND",
-      "parent_id": "ENTO TWR",
+      "parent_id": "ENTO_TWR",
       "controlled_by": ["ENTO_GND"]
     },
     {
