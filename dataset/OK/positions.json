@@ -3,7 +3,7 @@
     {
       "id": "OKAC_FMP",
       "prefixes": ["OKAC"],
-      "frequency": "119.998",
+      "frequency": "199.998",
       "facility_type": "FMP",
       "profile_id": "OK-FMP",
       "default_call_sources": ["OKAC_FMP"]
@@ -11,7 +11,7 @@
     {
       "id": "OKKK_FMP",
       "prefixes": ["OKKK"],
-      "frequency": "119.998",
+      "frequency": "199.998",
       "facility_type": "FMP",
       "profile_id": "OK-FMP",
       "default_call_sources": ["OKKK_FMP"]
