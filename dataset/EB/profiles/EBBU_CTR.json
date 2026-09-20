@@ -671,7 +671,8 @@
           },
           {
             "label": ["DEC", "245+"],
-            "color": "blush"
+            "color": "blush",
+            "station_id": "EDYY_D"
           },
           {
             "label": [],

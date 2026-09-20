@@ -206,13 +206,14 @@
             "station_id": "EBBU-FMP"
           },
           {
+            "label": ["WLS"],
+            "color": "lagoon",
+            "station_id": "EBBU-WLS"
+          },
+          {
             "label": ["ELS"],
             "color": "lagoon",
             "station_id": "EBBU-ELS"
-          },
-          {
-            "label": [],
-            "color": "lagoon"
           },
           {
             "label": [],

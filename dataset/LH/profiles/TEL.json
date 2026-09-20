@@ -31,7 +31,7 @@
           },
           {
             "label": ["APP", "E/L PC"],
-            "station_id": "LHBP_APP"
+            "station_id": "LHBP_P_APP"
           },
           {
             "label": ["PIHENO", "SV"]
