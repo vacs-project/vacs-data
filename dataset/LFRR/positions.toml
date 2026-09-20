@@ -25,37 +25,63 @@ prefixes = ["LFRR"]
 frequency = "125.500"
 facility_type = "CTR"
 default_call_sources = [
-  "LFRR_AI",
   "LFRR_A",
-  "LFRR_AU",
-  "LFRR_GI",
   "LFRR_G",
-  "LFRR_GU",
   "LFRR_J",
-  "LFRR_KI",
-  "LFRR_KS",
-  "LFRR_KU",
-  "LFRR_MI",
-  "LFRR_MS",
-  "LFRR_MU",
-  "LFRR_NF",
-  "LFRR_NI",
-  "LFRR_NS",
-  "LFRR_NU",
-  "LFRR_QI",
-  "LFRR_QS",
-  "LFRR_QE",
-  "LFRR_VI",
-  "LFRR_VS",
-  "LFRR_VU",
-  "LFRR_WI",
-  "LFRR_WS",
-  "LFRR_XI",
-  "LFRR_XS",
-  "LFRR_XU",
-  "LFRR_ZI",
-  "LFRR_ZS",
-  "LFRR_ZU",
+  "LFRR_K",
+  "LFRR_M",
+  "LFRR_N",
+  "LFRR_Q",
+  "LFRR_V",
+  "LFRR_W",
+  "LFRR_X",
+  "LFRR_Z",
+  "LFRB_APP",
+  "LFRB_IN_APP",
+  "LFRB_IS_APP",
+  "LFRH_APP",
+  "LFRJ_APP",
+  "LFRL_APP",
+  "LFRN_APP",
+  "LFRN_DD_APP",
+  "LFRN_JD_APP",
+  "LFRN_JC_APP",
+  "LFRS_LU_APP",
+  "LFRS_NA_APP",
+  "LFRS_NB_APP",
+  "LFRS_APP",
+  "LFRS_IE_APP",
+  "LFRS_IW_APP",
+  "LFEA_I_TWR",
+  "LFEQ_I_TWR",
+  "LFEY_I_TWR",
+  "LFJR_I_TWR",
+  "LFOH_I_TWR",
+  "LFOU_I_TWR",
+  "LFOV_I_TWR",
+  "LFRB_TWR",
+  "LFRC_I_TWR",
+  "LFRD_TWR",
+  "LFRE_I_TWR",
+  "LFRG_TWR",
+  "LFRH_TWR",
+  "LFRI_I_TWR",
+  "LFRJ_TWR",
+  "LFRK_TWR",
+  "LFRL_TWR",
+  "LFRM_I_TWR",
+  "LFRN_TWR",
+  "LFRO_I_TWR",
+  "LFRQ_TWR",
+  "LFRS_TWR",
+  "LFRU_I_TWR",
+  "LFRV_I_TWR",
+  "LFRZ_TWR",
+  "LFRH_GND",
+  "LFRK_GND",
+  "LFRL_GND",
+  "LFRN_GND",
+  "LFRS_GND"
 ]
 
 [[positions]]
@@ -126,7 +152,22 @@ id = "LFRR_NOR_CTR"
 prefixes = ["LFRR"]
 frequency = "133.480"
 facility_type = "CTR"
-default_call_sources = ["LFRR_J", "LFRR_K", "LFRR_V", "LFRR_W"]
+default_call_sources = [
+  "LFRR_J",
+  "LFRR_K",
+  "LFRR_V",
+  "LFRR_W",
+  "LFRB_APP",
+  "LFRB_IN_APP",
+  "LFRB_IS_APP",
+  "LFRH_APP",
+  "LFRJ_APP",
+  "LFRL_APP",
+  "LFRN_APP",
+  "LFRN_DD_APP",
+  "LFRN_JD_APP",
+  "LFRN_JC_APP"
+]
 
 [[positions]]
 id = "LFRR_Q_CTR"
@@ -175,7 +216,21 @@ id = "LFRR_WST_CTR"
 prefixes = ["LFRR"]
 frequency = "136.000"
 facility_type = "CTR"
-default_call_sources = ["LFRR_J", "LFRR_K", "LFRR_V", "LFRR_W", "LFRR_A", "LFRR_G", "LFRR_N"]
+default_call_sources = [
+  "LFRR_J",
+  "LFRR_K",
+  "LFRR_V",
+  "LFRR_W",
+  "LFRR_A",
+  "LFRR_G",
+  "LFRR_N",
+  "LFRS_APP",
+  "LFRS_LU_APP",
+  "LFRS_NA_APP",
+  "LFRS_NB_APP",
+  "LFRS_IE_APP",
+  "LFRS_IW_APP"
+]
 
 [[positions]]
 id = "LFRR_X_CTR"
