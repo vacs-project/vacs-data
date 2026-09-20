@@ -128,8 +128,7 @@
           "include": [
             "LFK*",
             "LFM*",
-            "LFMM*",
-            "LFT*"
+            "LFMM*"
           ],
           "exclude": [],
           "priority": [
