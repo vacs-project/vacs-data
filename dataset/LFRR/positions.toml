@@ -288,12 +288,7 @@ id = "LFRN_APP"
 prefixes = ["LFRN"]
 frequency = "134.000"
 facility_type = "APP"
-default_call_sources = [
-  "LFRN_APP",
-  "LFRN_DD_APP",
-  "LFRN_JC_APP",
-  "LFRN_JD_APP",
-]
+default_call_sources = ["LFRN_APP", "LFRN_DD_APP", "LFRN_JC_APP", "LFRN_JD_APP"]
 
 [[positions]]
 id = "LFRS_IE_APP"
