@@ -25,13 +25,7 @@
             "OM*_FMP"
           ],
           "exclude": [],
-          "priority": [
-            "OKAC*",
-            "OK*",
-            "ORBB*",
-            "OR*",
-            "*_FMP"
-          ],
+          "priority": ["OKAC*", "OK*", "ORBB*", "OR*", "*_FMP"],
           "frequencies": "HideAll",
           "grouping": "None"
         }
@@ -42,13 +36,7 @@
       "page": {
         "rows": 10,
         "client_page": {
-          "include": [
-            "OKAC_*",
-            "OKKK_*",
-            "OKAJ_*",
-            "OKAS_*",
-            "OR*"
-          ],
+          "include": ["OKAC_*", "OKKK_*", "OKAJ_*", "OKAS_*", "OR*"],
           "exclude": ["*FMP", "OK*_P_*"],
           "priority": ["*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
           "frequencies": "HideAll",
@@ -61,14 +49,7 @@
       "page": {
         "rows": 10,
         "client_page": {
-          "include": [
-            "GULF",
-            "OE*",
-            "OR*",
-            "TEH*",
-            "OI*",
-            "OB*"
-          ],
+          "include": ["GULF", "OE*", "OR*", "TEH*", "OI*", "OB*"],
           "exclude": ["*FMP"],
           "priority": ["*_FSS", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
           "frequencies": "HideAll",

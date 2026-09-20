@@ -29,13 +29,7 @@
             "OM*_FMP"
           ],
           "exclude": [],
-          "priority": [
-            "ORBB*",
-            "OR*",
-            "OKAC*",
-            "OK*",
-            "*_FMP"
-          ],
+          "priority": ["ORBB*", "OR*", "OKAC*", "OK*", "*_FMP"],
           "frequencies": "HideAll",
           "grouping": "None"
         }
@@ -46,14 +40,7 @@
       "page": {
         "rows": 10,
         "client_page": {
-          "include": [
-            "ORBB_*",
-            "BGD_*",
-            "ALI_*",
-            "KIR_*",
-            "KRK_*",
-            "OR*"
-          ],
+          "include": ["ORBB_*", "BGD_*", "ALI_*", "KIR_*", "KRK_*", "OR*"],
           "exclude": ["*FMP", "OR*_P_*"],
           "priority": ["*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
           "frequencies": "HideAll",
