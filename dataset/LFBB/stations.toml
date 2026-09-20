@@ -8,12 +8,10 @@ controlled_by = ["LFBB_CTR"]
 
 [[stations]]
 id = "LFBB_H"
-parent_id = "LFBB_BN"
 controlled_by = ["LFBB_H_CTR", "LFBB_US_CTR"]
 
 [[stations]]
 id = "LFBB_L"
-parent_id = "LFBB_BN"
 controlled_by = ["LFBB_L_CTR", "LFBB_UN_CTR"]
 
 [[stations]]
@@ -22,22 +20,18 @@ controlled_by = ["LFBB_CTR"]
 
 [[stations]]
 id = "LFBB_N"
-parent_id = "LFBB_BN"
 controlled_by = ["LFBB_N_CTR", "LFBB_US_CTR"]
 
 [[stations]]
 id = "LFBB_P"
-parent_id = "LFBB_BN"
 controlled_by = ["LFBB_P_CTR", "LFBB_UN_CTR"]
 
 [[stations]]
 id = "LFBB_R"
-parent_id = "LFBB_BN"
 controlled_by = ["LFBB_R_CTR", "LFBB_UN_CTR"]
 
 [[stations]]
 id = "LFBB_T"
-parent_id = "LFBB_BN"
 controlled_by = ["LFBB_T_CTR", "LFBB_UN_CTR"]
 
 [[stations]]
@@ -50,12 +44,10 @@ controlled_by = ["LFBB_CTR"]
 
 [[stations]]
 id = "LFBB_X"
-parent_id = "LFBB_BN"
 controlled_by = ["LFBB_X_CTR", "LFBB_US_CTR"]
 
 [[stations]]
 id = "LFBB_Z"
-parent_id = "LFBB_BN"
 controlled_by = ["LFBB_Z_CTR", "LFBB_US_CTR"]
 
 [[stations]]
