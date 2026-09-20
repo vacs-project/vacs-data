@@ -85,18 +85,18 @@ controlled_by = ["LFKB_IS_APP"]
 
 [[stations]]
 id = "LFKB_IN_APP"
-parent_id = "LFKB_KB_APP"
+parent_id = "LFKB_APP"
 controlled_by = ["LFKB_IN_APP"]
 
 [[stations]]
 id = "LFKB_KC_APP"
-parent_id = "LFKB_KB_APP"
+parent_id = "LFKB_APP"
 controlled_by = ["LFKB_KC_APP"]
 
 [[stations]]
-id = "LFKB_KB_APP"
+id = "LFKB_APP"
 parent_id = "LFMM_AJ"
-controlled_by = ["LFKB_KB_APP"]
+controlled_by = ["LFKB_APP"]
 
 [[stations]]
 id = "LFKJ_APP"
@@ -314,7 +314,7 @@ controlled_by = ["LFHY_I_TWR"]
 
 [[stations]]
 id = "LFKB_TWR"
-parent_id = "LFKB_KB_APP"
+parent_id = "LFKB_APP"
 controlled_by = ["LFKB_TWR"]
 
 [[stations]]

@@ -210,59 +210,59 @@ id = "LFRL_APP"
 controlled_by = ["LFRL_APP", "LFFM_CTR"]
 
 [[stations]]
-id = "LFRN_RN_APP"
-controlled_by = ["LFRN_RN_APP", "LFRR_W_CTR", "LFRR_CTR"]
+id = "LFRN_APP"
+controlled_by = ["LFRN_APP", "LFRR_W_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRN_DD_APP"
-controlled_by = ["LFRN_DD_APP", "LFRN_RN_APP", "LFRR_W_CTR", "LFRR_CTR"]
+controlled_by = ["LFRN_DD_APP", "LFRN_APP", "LFRR_W_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRN_JD_APP"
-controlled_by = ["LFRN_JD_APP", "LFRN_RN_APP", "LFRR_W_CTR", "LFRR_CTR"]
+controlled_by = ["LFRN_JD_APP", "LFRN_APP", "LFRR_W_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRN_JC_APP"
 controlled_by = [
   "LFRN_JC_APP",
   "LFRN_JD_APP",
-  "LFRN_RN_APP",
+  "LFRN_APP",
   "LFRR_W_CTR",
   "LFRR_CTR",
 ]
 
 [[stations]]
 id = "LFRS_LU_APP"
-controlled_by = ["LFRS_LU_APP", "LFRS_RS_APP", "LFRR_S_CTR", "LFRR_CTR"]
+controlled_by = ["LFRS_LU_APP", "LFRS_APP", "LFRR_S_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRS_NA_APP"
-controlled_by = ["LFRS_NA_APP", "LFRS_RS_APP", "LFRR_S_CTR", "LFRR_CTR"]
+controlled_by = ["LFRS_NA_APP", "LFRS_APP", "LFRR_S_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRS_NB_APP"
 controlled_by = [
   "LFRS_NB_APP",
   "LFRS_NA_APP",
-  "LFRS_RS_APP",
+  "LFRS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
 
 [[stations]]
-id = "LFRS_RS_APP"
-controlled_by = ["LFRS_RS_APP", "LFRR_S_CTR", "LFRR_CTR"]
+id = "LFRS_APP"
+controlled_by = ["LFRS_APP", "LFRR_S_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRS_IE_APP"
-controlled_by = ["LFRS_IE_APP", "LFRS_RS_APP", "LFRR_S_CTR", "LFRR_CTR"]
+controlled_by = ["LFRS_IE_APP", "LFRS_APP", "LFRR_S_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRS_IW_APP"
 controlled_by = [
   "LFRS_IW_APP",
   "LFRS_IE_APP",
-  "LFRS_RS_APP",
+  "LFRS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
@@ -318,7 +318,7 @@ id = "LFOH_I_TWR"
 controlled_by = [
   "LFOH_I_TWR",
   "LFRN_JD_APP",
-  "LFRN_RN_APP",
+  "LFRN_APP",
   "LFRR_W_CTR",
   "LFRR_CTR",
 ]
@@ -329,7 +329,7 @@ controlled_by = ["LFOU_I_TWR"]
 
 [[stations]]
 id = "LFOV_I_TWR"
-controlled_by = ["LFOV_I_TWR", "LFRN_RN_APP", "LFRR_W_CTR", "LFRR_CTR"]
+controlled_by = ["LFOV_I_TWR", "LFRN_APP", "LFRR_W_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRB_TWR"
@@ -341,7 +341,7 @@ controlled_by = [
   "LFRC_I_TWR",
   "LFRN_JC_APP",
   "LFRN_JD_APP",
-  "LFRN_RN_APP",
+  "LFRN_APP",
   "LFRR_W_CTR",
   "LFRR_CTR",
 ]
@@ -351,7 +351,7 @@ id = "LFRD_TWR"
 controlled_by = [
   "LFRD_TWR",
   "LFRN_DD_APP",
-  "LFRN_RN_APP",
+  "LFRN_APP",
   "LFRR_W_CTR",
   "LFRR_CTR",
 ]
@@ -364,7 +364,7 @@ controlled_by = [
   "LFRS_IE_APP",
   "LFRS_NB_APP",
   "LFRS_NA_APP",
-  "LFRS_RS_APP",
+  "LFRS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
@@ -374,7 +374,7 @@ id = "LFRG_TWR"
 controlled_by = [
   "LFRG_TWR",
   "LFRN_JD_APP",
-  "LFRN_RN_APP",
+  "LFRN_APP",
   "LFRR_W_CTR",
   "LFRR_CTR",
 ]
@@ -393,7 +393,7 @@ id = "LFRI_I_TWR"
 controlled_by = [
   "LFRI_I_TWR",
   "LFRS_NB_APP",
-  "LFRS_RS_APP",
+  "LFRS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
@@ -407,7 +407,7 @@ id = "LFRK_TWR"
 controlled_by = [
   "LFRK_TWR",
   "LFRN_JD_APP",
-  "LFRN_RN_APP",
+  "LFRN_APP",
   "LFRR_W_CTR",
   "LFRR_CTR",
 ]
@@ -421,14 +421,14 @@ id = "LFRM_I_TWR"
 controlled_by = [
   "LFRM_I_TWR",
   "LFRS_NB_APP",
-  "LFRS_RS_APP",
+  "LFRS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
 
 [[stations]]
 id = "LFRN_TWR"
-controlled_by = ["LFRN_TWR", "LFRN_RN_APP", "LFRR_W_CTR", "LFRR_CTR"]
+controlled_by = ["LFRN_TWR", "LFRN_APP", "LFRR_W_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRO_I_TWR"
@@ -443,7 +443,7 @@ id = "LFRS_TWR"
 controlled_by = [
   "LFRS_TWR",
   "LFRS_NB_APP",
-  "LFRS_RS_APP",
+  "LFRS_APP",
   "LFRR_S_CTR",
   "LFRR_CTR",
 ]
@@ -453,18 +453,18 @@ id = "LFRU_I_TWR"
 controlled_by = [
   "LFRU_I_TWR",
   "LFRN_DD_APP",
-  "LFRN_RN_APP",
+  "LFRN_APP",
   "LFRR_W_CTR",
   "LFRR_CTR",
 ]
 
 [[stations]]
 id = "LFRV_I_TWR"
-controlled_by = ["LFRV_I_TWR", "LFRN_RN_APP", "LFRR_W_CTR", "LFRR_CTR"]
+controlled_by = ["LFRV_I_TWR", "LFRN_APP", "LFRR_W_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRZ_TWR"
-controlled_by = ["LFRZ_TWR", "LFRS_RS_APP", "LFRR_S_CTR", "LFRR_CTR"]
+controlled_by = ["LFRZ_TWR", "LFRS_APP", "LFRR_S_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRH_GND"
