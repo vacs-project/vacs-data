@@ -10,7 +10,7 @@
           {
             "label": ["FMP"],
             "color": "lilac",
-            "station_id": "LFXX_FMP"
+            "station_id": "LFEE_FMP"
           },
           {
             "label": ["LON", "S17"],
@@ -37,7 +37,7 @@
                 {
                   "label": ["FMP"],
                   "color": "lilac",
-                  "station_id": "LFXX_FMP"
+                  "station_id": "LFEE_FMP"
                 },
                 {
                   "label": []
@@ -400,7 +400,7 @@
           {
             "label": ["FMP"],
             "color": "lilac",
-            "station_id": "LFXX_FMP"
+            "station_id": "LFEE_FMP"
           },
           {
             "label": ["LFJL", "APP"],
@@ -564,7 +564,7 @@
           {
             "label": ["FMP"],
             "color": "lilac",
-            "station_id": "LFXX_FMP"
+            "station_id": "LFEE_FMP"
           },
           {
             "label": ["LFQE", "TWR"],
