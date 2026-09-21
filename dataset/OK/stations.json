@@ -56,19 +56,14 @@
       "controlled_by": ["OKKK_2_GND"]
     },
     {
-      "id": "OKKK_GMC_FMP",
-      "parent_id": "OKKK_2_GND",
-      "controlled_by": ["OKKK_GMC_FMP"]
+      "id": "OKKK_P_DEL",
+      "parent_id": "OKKK_DEL",
+      "controlled_by": ["OKKK_P_DEL"]
     },
     {
       "id": "OKKK_DEL",
       "parent_id": "OKKK_2_GND",
       "controlled_by": ["OKKK_DEL"]
-    },
-    {
-      "id": "OKKK_GMP_FMP",
-      "parent_id": "OKKK_DEL",
-      "controlled_by": ["OKKK_GMP_FMP"]
     },
     {
       "id": "OKAJ_APP",

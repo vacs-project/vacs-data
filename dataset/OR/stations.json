@@ -2,7 +2,18 @@
   "stations": [
     {
       "id": "ORBB_FMP",
-      "controlled_by": ["ORBB_CTR"]
+      "parent_id": "ORBB_N_CTR",
+      "controlled_by": ["ORBB_FMP"]
+    },
+    {
+      "id": "ORBB_TMA_FMP",
+      "parent_id": "ORBB_FMP",
+      "controlled_by": ["ORBB_TMA_FMP"]
+    },
+    {
+      "id": "ORBI_FMP",
+      "parent_id": "ORBB_TMA_FMP",
+      "controlled_by": ["ORBI_FMP"]
     },
     {
       "id": "ORBB_CTR",
