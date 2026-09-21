@@ -1,6 +1,7 @@
 {
   "id": "APP_EPWW",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["GDN"],

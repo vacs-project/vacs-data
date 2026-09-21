@@ -1,6 +1,7 @@
 {
   "id": "ACC_EPWW",
   "type": "Tabbed",
+  "view": "page",
   "tabs": [
     {
       "label": ["EPWW 1", ""],
