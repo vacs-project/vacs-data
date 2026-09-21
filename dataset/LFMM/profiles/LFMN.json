@@ -159,11 +159,10 @@
         "rows": 6,
         "client_page": {
           "include": [
-            "LFK*",
-            "LFM*",
             "LFMM*",
-            "LFT*",
-            "LIMM*"
+            "LIMM*",
+            "LFK*",
+            "LFM*"
           ],
           "exclude": [],
           "priority": [

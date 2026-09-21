@@ -125,7 +125,15 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": ["LFK*", "LFM*", "LFMM*", "LIRR*", "LIE*"],
+          "include": [
+            "LFMM*",
+            "LIMM*",
+            "LIRR*",
+            "LFK*",
+            "LFM*",
+            "LIE*",
+            "LIM*"
+          ],
           "exclude": [],
           "priority": [
             "*_FMP",
