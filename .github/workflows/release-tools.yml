@@ -157,7 +157,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - os: ubuntu-latest
+          # The build host sets the glibc floor of the published binary; keep it on the oldest
+          # supported LTS rather than ubuntu-latest.
+          - os: ubuntu-24.04
             platform: linux-x86_64
             target: x86_64-unknown-linux-gnu
           - os: windows-latest
