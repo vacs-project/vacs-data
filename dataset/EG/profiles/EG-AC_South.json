@@ -85,7 +85,7 @@
           {
             "label": ["LFRR", "W"],
             "color": "lavender",
-            "station_id": "LFRR_WS"
+            "station_id": "LFRR_WU"
           },
           {
             "label": ["LFRR", "E"],
@@ -410,7 +410,7 @@
           {
             "label": ["LFRR", "J"],
             "color": "lavender",
-            "station_id": "LFRR_J"
+            "station_id": "LFRR_JU"
           },
           {
             "label": ["LFRR", "UE", "F345+"],

@@ -473,7 +473,7 @@ controlled_by = ["LFMZ_I_TWR"]
 
 [[stations]]
 id = "LFNB_I_TWR"
-parent_id = "LFMT_FB_APP"
+parent_id = "LFLC_CL_APP"
 controlled_by = ["LFNB_I_TWR"]
 
 [[stations]]
