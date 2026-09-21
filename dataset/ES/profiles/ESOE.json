@@ -1,6 +1,7 @@
 {
   "id": "ESOE",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESOE"],

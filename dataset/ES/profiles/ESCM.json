@@ -1,6 +1,7 @@
 {
   "id": "ESCM",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESCM"],

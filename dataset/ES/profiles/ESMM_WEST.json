@@ -1,6 +1,7 @@
 {
   "id": "ESMM_WEST",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESMM"],

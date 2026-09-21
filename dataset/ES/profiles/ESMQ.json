@@ -1,6 +1,7 @@
 {
   "id": "ESMQ",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESMQ"],
