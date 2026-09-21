@@ -13,7 +13,9 @@
             "station_id": "LFXX_FMP"
           },
           {
-            "label": []
+            "label": ["INFO", "WEST"],
+            "color": "azure",
+            "station_id": "LFMN_IW_APP"
           },
           {
             "label": ["LFMM", "ML"],
@@ -36,12 +38,14 @@
             "station_id": "LFML_MAC_APP"
           },
           {
-            "label": []
+            "label": ["INFO", "NORTH"],
+            "color": "azure",
+            "station_id": "LFMN_IN_APP"
           },
           {
-            "label": ["INFO", "WEST"],
+            "label": ["INFO", "SOUTH"],
             "color": "azure",
-            "station_id": "LFMN_IW_APP"
+            "station_id": "LFMN_IS_APP"
           },
           {
             "label": ["LFMM", "MN"],
@@ -68,9 +72,9 @@
             "station_id": "LFMN_DEL"
           },
           {
-            "label": ["INFO", "NORTH"],
+            "label": ["APP", "NO"],
             "color": "azure",
-            "station_id": "LFMN_IN_APP"
+            "station_id": "LFMN_NO_APP"
           },
           {
             "label": []
@@ -96,9 +100,9 @@
             "station_id": "LFMN_GND"
           },
           {
-            "label": ["INFO", "SOUTH"],
+            "label": ["APP", "NE"],
             "color": "azure",
-            "station_id": "LFMN_IS_APP"
+            "station_id": "LFMN_NE_APP"
           },
           {
             "label": ["LIMM", "WN1", "195-205"],

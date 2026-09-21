@@ -1,0 +1,195 @@
+{
+  "id": "LFSB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", "AD", ""],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["FMP"],
+            "color": "lilac",
+            "station_id": "LFXX_FMP"
+          },
+          {
+            "label": ["LFFF", "AR"],
+            "color": "taupe",
+            "station_id": "PAR_AR"
+          },
+          {
+            "label": ["LFFF", "UJ"],
+            "color": "taupe",
+            "station_id": "PAR_UJ"
+          },
+          {
+            "label": ["LFPM", "SK"],
+            "color": "snow",
+            "station_id": "LFPM_SK_APP"
+          },
+          {
+            "label": ["LFLL", "VW"],
+            "color": "snow",
+            "station_id": "LFLL_VW_APP"
+          },
+          {
+            "label": ["LFLC", "CY"],
+            "color": "snow",
+            "station_id": "LFLC_CY_APP"
+          },
+          {
+            "label": ["LFSI", "APP"],
+            "color": "clay",
+            "station_id": "LFSI_APP"
+          },
+          {
+            "label": ["LFFF", "TL"],
+            "color": "taupe",
+            "station_id": "PAR_TL"
+          },
+          {
+            "label": ["LFEE", "UF"],
+            "color": "taupe",
+            "station_id": "LFEE_UF"
+          },
+          {
+            "label": ["LFLL", "VE"],
+            "color": "snow",
+            "station_id": "LFLL_VE_APP"
+          },
+          {
+            "label": ["LFSD"],
+            "color": "lavender",
+            "station_id": "LFSD_I_TWR"
+          },
+          {
+            "label": ["LFLH"],
+            "color": "lavender",
+            "station_id": "LFLH_I_TWR"
+          },
+          {
+            "label": ["DEL"],
+            "color": "lagoon",
+            "station_id": "LFSB_DEL"
+          },
+          {
+            "label": ["LFEE", "UE"],
+            "color": "taupe",
+            "station_id": "LFEE_UE"
+          },
+          {
+            "label": ["LFEE", "UH"],
+            "color": "taupe",
+            "station_id": "LFEE_UH"
+          },
+          {
+            "label": ["LFSX", "APP"],
+            "color": "snow",
+            "station_id": "LFSX_APP"
+          },
+          {
+            "label": ["LFSX"],
+            "color": "clay",
+            "station_id": "LFSX_TWR"
+          },
+          {
+            "label": ["LFGJ"],
+            "color": "lavender",
+            "station_id": "LFGJ_TWR"
+          },
+          {
+            "label": ["GND"],
+            "color": "lagoon",
+            "station_id": "LFSB_GND"
+          },
+          {
+            "label": ["CTL"],
+            "color": "azure",
+            "station_id": "LFSB_C_APP"
+          },
+          {
+            "label": ["LFST", "SC"],
+            "color": "snow",
+            "station_id": "LFST_SC_APP"
+          },
+          {
+            "label": ["LFST", "RW"],
+            "color": "snow",
+            "station_id": "LFST_RW_APP"
+          },
+          {
+            "label": ["LFGA"],
+            "color": "lavender",
+            "station_id": "LFGA_TWR"
+          },
+          {
+            "label": ["LFQM"],
+            "color": "lavender",
+            "station_id": "LFQM_I_TWR"
+          },
+          {
+            "label": ["TWR"],
+            "color": "lagoon",
+            "station_id": "LFSB_TWR"
+          },
+          {
+            "label": ["APP"],
+            "color": "azure",
+            "station_id": "LFSB_APP"
+          },
+          {
+            "label": ["LFST", "SU"],
+            "color": "snow",
+            "station_id": "LFST_SU_APP"
+          },
+          {
+            "label": ["LFST", "RE"],
+            "color": "snow",
+            "station_id": "LFST_RE_APP"
+          },
+          {
+            "label": ["LSZH", "W"],
+            "color": "snow",
+            "station_id": "LSZH_W_APP"
+          },
+          {
+            "label": ["LSGG", "APP"],
+            "color": "snow",
+            "station_id": "LSGG_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["2", "ALL"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": [
+            "EDGG*",
+            "LFEE*",
+            "LFMM*",
+            "LSAG*",
+            "PAR*",
+            "LFJ*",
+            "LFL*",
+            "LFP*",
+            "LFS*",
+            "LSG*",
+            "LSZ*"
+          ],
+          "exclude": [],
+          "priority": [
+            "*_FMP",
+            "*_CTR",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_RMP",
+            "*_DEL"
+          ]
+        }
+      }
+    }
+  ]
+}
