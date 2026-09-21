@@ -403,7 +403,7 @@
       "controlled_by": [
         "ENOS_4_CTR",
         "ENOS_S_CTR",
-"ENOS_CTR",
+        "ENOS_CTR",
         "ENOR_S_CTR",
         "ENOR_SC_CTR",
         "ENOR_CTR"
