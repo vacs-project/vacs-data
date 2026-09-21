@@ -603,7 +603,6 @@ profile_id = "LFMT"
 default_call_sources = [
   "LFMT_FE_APP",
   "LFMT_I1_APP",
-  "LFMT_FB_APP",
   "LFMT_FA_APP",
   "LFMT_TWR",
   "LFMU_TWR",
@@ -717,7 +716,7 @@ id = "LFKJ_TWR"
 prefixes = ["LFKJ"]
 frequency = "118.075"
 facility_type = "TWR"
-profile_id = "LFMJ"
+profile_id = "LFKJ"
 default_call_sources = ["LFKJ_TWR", "LFKJ_GND"]
 
 [[positions]]

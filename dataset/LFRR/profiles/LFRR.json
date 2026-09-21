@@ -1,5 +1,5 @@
 {
-  "id": "LFMM",
+  "id": "LFRR",
   "type": "Tabbed",
   "tabs": [
     {
@@ -350,7 +350,7 @@
           {
             "label": ["LFKB", "APP"],
             "color": "azure",
-            "station_id": "LFKB_APP"
+            "station_id": "LFKB_KB_APP"
           },
           {
             "label": ["LFKJ", "APP"],

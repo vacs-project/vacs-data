@@ -28,7 +28,7 @@ controlled_by = ["LFEE_KE_CTR", "LFEE_4EH_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR
 
 [[stations]]
 id = "LFEE_KF"
-controlled_by = ["LFEE_Kf_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
+controlled_by = ["LFEE_KF_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
 
 [[stations]]
 id = "LFEE_KH"

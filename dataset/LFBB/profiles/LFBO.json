@@ -100,7 +100,7 @@
           {
             "label": ["T4*"],
             "color": "lilac",
-            "station_id": "LFBB_T1"
+            "station_id": "LFBB_T"
           },
           {
             "label": ["AW"],
@@ -129,7 +129,7 @@
           {
             "label": ["T1*"],
             "color": "lilac",
-            "station_id": "LFBB_T1"
+            "station_id": "LFBB_T"
           },
           {
             "label": ["AE"],

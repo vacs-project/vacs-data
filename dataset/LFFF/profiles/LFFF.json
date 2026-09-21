@@ -177,7 +177,7 @@
           {
             "label": ["LFBB", "R"],
             "color": "lilac",
-            "station_id": "LFBB_R1"
+            "station_id": "LFBB_R"
           },
           {
             "label": ["LFQQ", "QD", "APP"],
