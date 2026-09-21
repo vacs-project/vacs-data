@@ -16,9 +16,9 @@
             "label": []
           },
           {
-            "label": ["LFMM", "MN"],
+            "label": ["LFMM", "ML"],
             "color": "taupe",
-            "station_id": "LFMM_MN"
+            "station_id": "LFMM_ML"
           },
           {
             "label": ["LFMM", "ST"],
@@ -44,9 +44,9 @@
             "station_id": "LFMN_IW_APP"
           },
           {
-            "label": ["LFMM", "ML"],
+            "label": ["LFMM", "MN"],
             "color": "taupe",
-            "station_id": "LFMM_ML"
+            "station_id": "LFMM_MN"
           },
           {
             "label": ["LFMM", "AJ"],
@@ -154,7 +154,13 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": ["LFK*", "LFM*", "LFMM*", "LFT*", "LIMM*"],
+          "include": [
+            "LFK*",
+            "LFM*",
+            "LFMM*",
+            "LFT*",
+            "LIMM*"
+          ],
           "exclude": [],
           "priority": [
             "*_FMP",
