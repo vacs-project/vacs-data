@@ -294,7 +294,10 @@ jobs:
         with:
           subject-checksums: dist/SHA256SUMS-${{ needs.prep.outputs.version }}.txt
 
+      # This job never checks out the repository, so the workflow-level
+      # working-directory (tools) does not exist here.
       - name: Create/update GitHub release
+        working-directory: ${{ github.workspace }}
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -304,9 +307,7 @@ jobs:
           PRERELEASE: ${{ needs.prep.outputs.prerelease }}
           RELEASE_BODY: ${{ needs.generate-changelog.outputs.release_body }}
         run: |
-          cat > /tmp/release-notes.md <<'BODY_EOF'
-          $RELEASE_BODY
-          BODY_EOF
+          printf '%s\n' "$RELEASE_BODY" > /tmp/release-notes.md
 
           args=(--title "$RELEASE_NAME" --notes-file /tmp/release-notes.md)
           [[ "$DRAFT" == "true" ]] && args+=(--draft)
@@ -319,7 +320,7 @@ jobs:
 
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release edit "$TAG" "${args[@]}"
-            gh release upload "$TAG" dist/** --clobber
+            gh release upload "$TAG" dist/* --clobber
           else
-            gh release create "$TAG" dist/** "${args[@]}"
+            gh release create "$TAG" dist/* "${args[@]}"
           fi
