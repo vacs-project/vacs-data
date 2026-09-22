@@ -1,6 +1,7 @@
 {
   "id": "TWRCAS",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["I"],
