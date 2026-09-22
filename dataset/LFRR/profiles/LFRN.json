@@ -1,0 +1,180 @@
+{
+  "id": "LFRN",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", "AD"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["FMP"],
+            "color": "lilac",
+            "station_id": "LFXX_FMP"
+          },
+          {
+            "label": ["LFRR", "V"],
+            "color": "taupe",
+            "station_id": "LFRR_VU"
+          },
+          {
+            "label": ["LFRR", "K"],
+            "color": "taupe",
+            "station_id": "LFRR_KI"
+          },
+          {
+            "label": ["EGJJ"],
+            "color": "snow",
+            "station_id": "EGJJ_C_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LFRC"],
+            "color": "lavender",
+            "station_id": "LFRC_I_TWR"
+          },
+          {
+            "label": ["GND"],
+            "color": "lagoon",
+            "station_id": "LFRN_GND"
+          },
+          {
+            "label": ["LFRR", "J"],
+            "color": "taupe",
+            "station_id": "LFRR_J"
+          },
+          {
+            "label": ["LFRR", "N"],
+            "color": "taupe",
+            "station_id": "LFRR_NS"
+          },
+          {
+            "label": ["LFRB", "APP"],
+            "color": "snow",
+            "station_id": "LFRB_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LFOH", ""],
+            "color": "lavender",
+            "station_id": "LFOH_I_TWR"
+          },
+          {
+            "label": ["TWR"],
+            "color": "lagoon",
+            "station_id": "LFRN_TWR"
+          },
+          {
+            "label": ["LFFF", "TM"],
+            "color": "taupe",
+            "station_id": "PAR_TM"
+          },
+          {
+            "label": ["LFFF", "TH"],
+            "color": "taupe",
+            "station_id": "PAR_TH"
+          },
+          {
+            "label": ["LFRS", "NA"],
+            "color": "snow",
+            "station_id": "LFRS_NA_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LFRK"],
+            "color": "lavender",
+            "station_id": "LFRK_TWR"
+          },
+          {
+            "label": ["LFRN", "JC"],
+            "color": "azure",
+            "station_id": "LFRN_JC_APP"
+          },
+          {
+            "label": ["LFRN", "DD"],
+            "color": "azure",
+            "station_id": "LFRH_APP"
+          },
+          {
+            "label": ["LFRS", "LU"],
+            "color": "snow",
+            "station_id": "LFRS_LU_APP"
+          },
+          {
+            "label": ["LFRS", "NB"],
+            "color": "snow",
+            "station_id": "LFRS_NB_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LFRG"],
+            "color": "lavender",
+            "station_id": "LFRG_TWR"
+          },
+          {
+            "label": ["LFRN", "JD"],
+            "color": "azure",
+            "station_id": "LFRN_JD_APP"
+          },
+          {
+            "label": ["LFRN", "RN"],
+            "color": "azure",
+            "station_id": "LFRB_APP"
+          },
+          {
+            "label": ["LFQQ", "QD"],
+            "color": "snow",
+            "station_id": "LFQQ_QD_APP"
+          },
+          {
+            "label": ["LFQQ", "QR"],
+            "color": "snow",
+            "station_id": "LFQQ_QR_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LFRD"],
+            "color": "lavender",
+            "station_id": "LFRD_TWR"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["2", "ALL"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": [
+            "LFRR*",
+            "LON*",
+            "LFJ*",
+            "LFO*",
+            "LFQ*",
+            "LFR*"
+          ],
+          "exclude": [],
+          "priority": [
+            "*_FMP",
+            "*_CTR",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_RMP",
+            "*_DEL"
+          ]
+        }
+      }
+    }
+  ]
+}
