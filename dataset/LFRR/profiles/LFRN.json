@@ -158,6 +158,7 @@
           "include": [
             "LFRR*",
             "LON*",
+            "PAR*",
             "LFJ*",
             "LFO*",
             "LFQ*",
