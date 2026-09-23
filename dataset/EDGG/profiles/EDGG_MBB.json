@@ -189,7 +189,8 @@
           },
           {
             "label": ["EDYY", "YYD"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "EDYY_D"
           },
           {
             "label": ["EDGG", "TAU"],
