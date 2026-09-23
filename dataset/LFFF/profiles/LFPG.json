@@ -19,7 +19,7 @@
           },
           {
             "label": ["LFPG", "SW", "GND"],
-            "color": "mint",
+            "color": "lagoon",
             "station_id": "LFPG_SW_GND"
           },
           {
