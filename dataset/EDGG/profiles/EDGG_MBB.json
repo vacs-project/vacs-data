@@ -1,5 +1,6 @@
 {
   "id": "EDGG_MBB",
+  "view": "cycle",
   "type": "Tabbed",
   "tabs": [
     {
@@ -283,7 +284,8 @@
           },
           {
             "label": ["EHMC", "MIL"],
-            "color": "steel"
+            "color": "steel",
+            "station_id": "EHMC"
           },
           {
             "label": [""]
@@ -306,7 +308,8 @@
           },
           {
             "label": ["EHVK", "CRS"],
-            "color": "mint"
+            "color": "clay",
+            "station_id": "EHVK_APP"
           },
           {
             "label": [""]
@@ -500,7 +503,9 @@
             "station_id": "EDUU-FUL"
           },
           {
-            "label": [""]
+            "label": ["SIG"],
+            "color": "lagoon",
+            "station_id": "EDGG-SIG"
           },
           {
             "label": ["TAU"],
@@ -531,9 +536,9 @@
             "label": [""]
           },
           {
-            "label": ["SIG"],
-            "color": "lagoon",
-            "station_id": "EDGG-SIG"
+            "label": ["ELLX", "APP"],
+            "color": "clay",
+            "station_id": "ELLX-APP"
           },
           {
             "label": ["EDGG", "STG"],
@@ -638,7 +643,8 @@
           },
           {
             "label": ["LFEE", "UE"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_UE"
           },
           {
             "label": ["GED"],
@@ -882,7 +888,8 @@
           },
           {
             "label": ["LFEE", "XE"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_XE"
           },
           {
             "label": ["NKRH"],
@@ -932,7 +939,7 @@
           },
           {
             "label": ["DFTC"],
-            "color": "cadet",
+            "color": "azure",
             "station_id": "EDGG-DFTC"
           },
           {
@@ -1038,7 +1045,8 @@
           },
           {
             "label": ["LSAS", "SZU"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LSAS_CTR"
           },
           {
             "label": ["EDGG", "TAU"],
@@ -1062,7 +1070,8 @@
           },
           {
             "label": ["LFEE", "UE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LFEE_UE"
           },
           {
             "label": ["EDUU", "ALP"],
@@ -1093,8 +1102,9 @@
             "station_id": "EDMM-FUE"
           },
           {
-            "label": ["LFST", "STA"],
-            "color": "mint"
+            "label": ["LFST", "APP"],
+            "color": "clay",
+            "station_id": "LFST_SU_APP"
           },
           {
             "label": [""]
@@ -1117,11 +1127,13 @@
           },
           {
             "label": ["LSAZ", "SZN"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LSAZ_N_CTR"
           },
           {
             "label": ["LSAZ", "SZE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LSAZ_E_CTR"
           }
         ]
       }

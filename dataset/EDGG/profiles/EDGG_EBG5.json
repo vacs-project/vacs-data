@@ -1,5 +1,6 @@
 {
   "id": "EDGG_EBG5",
+  "view": "cycle",
   "type": "Tabbed",
   "tabs": [
     {
@@ -242,14 +243,16 @@
           },
           {
             "label": ["LFST", "APP"],
-            "color": "clay"
+            "color": "clay",
+            "station_id": "LFST_SU_APP"
           },
           {
             "label": [""]
           },
           {
             "label": ["LFEE", "UE"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_UE"
           },
           {
             "label": [""]
