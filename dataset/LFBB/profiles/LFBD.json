@@ -152,13 +152,7 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": [
-            "LFBB*",
-            "LFMM*",
-            "LFC*_*",
-            "LFB*_*",
-            "LFL*_*"
-          ],
+          "include": ["LFBB*", "LFMM*", "LFC*_*", "LFB*_*", "LFL*_*"],
           "exclude": [],
           "priority": [
             "*_FMP",

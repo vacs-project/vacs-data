@@ -40,7 +40,13 @@ controlled_by = ["LFRR_G_CTR", "LFRR_GA_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRR_JF"
-controlled_by = ["LFRR_J_CTR", "LFRR_JVK_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_J_CTR",
+  "LFRR_JVK_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_JI"
@@ -48,35 +54,90 @@ controlled_by = ["LFRR_J_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRR_JS"
-controlled_by = ["LFRR_J_CTR", "LFRR_JVK_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_J_CTR",
+  "LFRR_JVK_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_JU"
-controlled_by = ["LFRR_J_CTR", "LFRR_JVK_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_J_CTR",
+  "LFRR_JVK_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_KI"
-controlled_by = ["LFRR_K_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_K_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_KS"
-controlled_by = ["LFRR_K_CTR", "LFRR_VK_CTR", "LFRR_JVK_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_K_CTR",
+  "LFRR_VK_CTR",
+  "LFRR_JVK_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_KU"
-controlled_by = ["LFRR_K_CTR", "LFRR_VK_CTR", "LFRR_JVK_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_K_CTR",
+  "LFRR_VK_CTR",
+  "LFRR_JVK_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_MI"
-controlled_by = ["LFRR_M_CTR", "LFRR_MQ_CTR", "LFRR_MZ_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_M_CTR",
+  "LFRR_MQ_CTR",
+  "LFRR_MZ_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_MS"
-controlled_by = ["LFRR_M_CTR", "LFRR_MQ_CTR", "LFRR_MZ_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_M_CTR",
+  "LFRR_MQ_CTR",
+  "LFRR_MZ_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_MU"
-controlled_by = ["LFRR_M_CTR", "LFRR_MQ_CTR", "LFRR_MZ_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_M_CTR",
+  "LFRR_MQ_CTR",
+  "LFRR_MZ_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_NF"
@@ -96,79 +157,207 @@ controlled_by = ["LFRR_N_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRR_QI"
-controlled_by = ["LFRR_Q_CTR", "LFRR_MQ_CTR", "LFRR_QX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_Q_CTR",
+  "LFRR_MQ_CTR",
+  "LFRR_QX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_QS"
-controlled_by = ["LFRR_Q_CTR", "LFRR_MQ_CTR", "LFRR_QX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_Q_CTR",
+  "LFRR_MQ_CTR",
+  "LFRR_QX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_QU"
-controlled_by = ["LFRR_Q_CTR", "LFRR_MQ_CTR", "LFRR_QX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_Q_CTR",
+  "LFRR_MQ_CTR",
+  "LFRR_QX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_VI"
-controlled_by = ["LFRR_V_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_V_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_VS"
-controlled_by = ["LFRR_V_CTR", "LFRR_VK_CTR", "LFRR_JVK_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_V_CTR",
+  "LFRR_VK_CTR",
+  "LFRR_JVK_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_VU"
-controlled_by = ["LFRR_V_CTR", "LFRR_VK_CTR", "LFRR_JVK_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_V_CTR",
+  "LFRR_VK_CTR",
+  "LFRR_JVK_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_WI"
-controlled_by = ["LFRR_W_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_W_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_WS1"
-controlled_by = ["LFRR_W_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_W_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_WS2"
-controlled_by = ["LFRR_W_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_W_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_WS3"
-controlled_by = ["LFRR_W_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_W_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_WS4"
-controlled_by = ["LFRR_W_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_W_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_WU"
-controlled_by = ["LFRR_W_CTR", "LFRR_VKW_CTR", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRR_W_CTR",
+  "LFRR_VKW_CTR",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRR_XI"
-controlled_by = ["LFRR_X_CTR", "LFRR_QX_CTR", "LFRR_ZX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_X_CTR",
+  "LFRR_QX_CTR",
+  "LFRR_ZX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_XS1"
-controlled_by = ["LFRR_X_CTR", "LFRR_QX_CTR", "LFRR_ZX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_X_CTR",
+  "LFRR_QX_CTR",
+  "LFRR_ZX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_XS2"
-controlled_by = ["LFRR_X_CTR", "LFRR_QX_CTR", "LFRR_ZX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_X_CTR",
+  "LFRR_QX_CTR",
+  "LFRR_ZX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_XU"
-controlled_by = ["LFRR_X_CTR", "LFRR_QX_CTR", "LFRR_ZX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_X_CTR",
+  "LFRR_QX_CTR",
+  "LFRR_ZX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_ZI"
-controlled_by = ["LFRR_Z_CTR", "LFRR_MZ_CTR", "LFRR_ZX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_Z_CTR",
+  "LFRR_MZ_CTR",
+  "LFRR_ZX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_ZS"
-controlled_by = ["LFRR_Z_CTR", "LFRR_MZ_CTR", "LFRR_ZX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_Z_CTR",
+  "LFRR_MZ_CTR",
+  "LFRR_ZX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRR_ZU"
-controlled_by = ["LFRR_Z_CTR", "LFRR_MZ_CTR", "LFRR_ZX_CTR", "LFRR_EST_CTR", "LFRR_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFRR_Z_CTR",
+  "LFRR_MZ_CTR",
+  "LFRR_ZX_CTR",
+  "LFRR_EST_CTR",
+  "LFRR_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFRB_APP"
@@ -176,11 +365,24 @@ controlled_by = ["LFRB_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRB_IN_APP"
-controlled_by = ["LFRB_IN_APP", "LFRB_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRB_IN_APP",
+  "LFRB_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRB_IS_APP"
-controlled_by = ["LFRB_IS_APP", "LFRB_IN_APP", "LFRB_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRB_IS_APP",
+  "LFRB_IN_APP",
+  "LFRB_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRJ_APP"
@@ -196,15 +398,34 @@ controlled_by = ["LFRN_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRN_DD_APP"
-controlled_by = ["LFRN_DD_APP", "LFRN_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRN_DD_APP",
+  "LFRN_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRN_JD_APP"
-controlled_by = ["LFRN_JD_APP", "LFRN_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRN_JD_APP",
+  "LFRN_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRN_JC_APP"
-controlled_by = ["LFRN_JC_APP", "LFRN_JD_APP", "LFRN_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRN_JC_APP",
+  "LFRN_JD_APP",
+  "LFRN_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRS_LU_APP"
@@ -216,7 +437,13 @@ controlled_by = ["LFRS_NA_APP", "LFRS_APP", "LFRR_WST_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRS_NB_APP"
-controlled_by = ["LFRS_NB_APP", "LFRS_NA_APP", "LFRS_APP", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRS_NB_APP",
+  "LFRS_NA_APP",
+  "LFRS_APP",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRS_APP"
@@ -224,11 +451,24 @@ controlled_by = ["LFRS_APP", "LFRR_WST_CTR", "LFRR_CTR"]
 
 [[stations]]
 id = "LFRS_IE_APP"
-controlled_by = ["LFRS_IE_APP", "LFRS_NA_APP", "LFRS_APP", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRS_IE_APP",
+  "LFRS_NA_APP",
+  "LFRS_APP",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRS_IW_APP"
-controlled_by = ["LFRS_IW_APP", "LFRS_IE_APP", "LFRS_NA_APP", "LFRS_APP", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRS_IW_APP",
+  "LFRS_IE_APP",
+  "LFRS_NA_APP",
+  "LFRS_APP",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFEA_I_TWR"
@@ -293,11 +533,23 @@ controlled_by = ["LFOU_I_TWR"]
 
 [[stations]]
 id = "LFOV_I_TWR"
-controlled_by = ["LFOV_I_TWR", "LFRN_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFOV_I_TWR",
+  "LFRN_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRB_TWR"
-controlled_by = ["LFRB_TWR", "LFRB_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRB_TWR",
+  "LFRB_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRC_I_TWR"
@@ -348,7 +600,13 @@ controlled_by = [
 
 [[stations]]
 id = "LFRH_APP"
-controlled_by = ["LFRH_APP", "LFRB_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRH_APP",
+  "LFRB_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRH_TWR"
@@ -396,15 +654,33 @@ controlled_by = [
 
 [[stations]]
 id = "LFRN_TWR"
-controlled_by = ["LFRN_TWR", "LFRN_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRN_TWR",
+  "LFRN_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRO_I_TWR"
-controlled_by = ["LFRO_I_TWR", "LFRB_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRO_I_TWR",
+  "LFRB_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRQ_TWR"
-controlled_by = ["LFRQ_TWR", "LFRB_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRQ_TWR",
+  "LFRB_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRS_TWR"
@@ -429,7 +705,13 @@ controlled_by = [
 
 [[stations]]
 id = "LFRV_I_TWR"
-controlled_by = ["LFRV_I_TWR", "LFRN_APP", "LFRR_NOR_CTR", "LFRR_WST_CTR", "LFRR_CTR"]
+controlled_by = [
+  "LFRV_I_TWR",
+  "LFRN_APP",
+  "LFRR_NOR_CTR",
+  "LFRR_WST_CTR",
+  "LFRR_CTR",
+]
 
 [[stations]]
 id = "LFRZ_TWR"
