@@ -1,0 +1,25 @@
+{
+  "id": "LFMM-ALL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", "ALL"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": [
+            "LFMM*",
+            "LF*_*",
+            "LFK*_*",
+            "LFL*_*",
+            "LFM*_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}
