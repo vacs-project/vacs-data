@@ -1,0 +1,26 @@
+{
+  "id": "LFXX-ALL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", "ALL"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": [
+            "LFBB*",
+            "LFEE*",
+            "LFMM*",
+            "LFRR*",
+            "PAR*",
+            "LF*_*"
+          ],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}
