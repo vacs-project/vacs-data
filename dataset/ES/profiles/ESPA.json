@@ -1,6 +1,7 @@
 {
   "id": "ESPA",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESPA"],

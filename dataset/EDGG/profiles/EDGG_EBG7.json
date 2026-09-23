@@ -1,5 +1,6 @@
 {
   "id": "EDGG_EBG7",
+  "view": "cycle",
   "type": "Tabbed",
   "tabs": [
     {
@@ -124,7 +125,8 @@
           },
           {
             "label": ["EHAA", "ACE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "EHAA_E"
           },
           {
             "label": ["BOT"],

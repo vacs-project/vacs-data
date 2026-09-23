@@ -1,6 +1,7 @@
 {
   "id": "RCAA",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": "ACC",

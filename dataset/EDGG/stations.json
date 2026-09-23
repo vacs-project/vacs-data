@@ -723,7 +723,7 @@
     },
     {
       "id": "EDGG-DFTN",
-      "controlled_by": ["EDDF_N_TWR", "EDDF_C_TWR", "EDDF_W_TWR", "EDDF_S_TWR"],
+      "controlled_by": ["EDDF_N_TWR", "EDDF_W_TWR", "EDDF_C_TWR", "EDDF_S_TWR"],
       "parent_id": "EDGG-DFAN"
     },
     {

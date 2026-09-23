@@ -1,6 +1,7 @@
 {
   "id": "ESIB",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESIB"],

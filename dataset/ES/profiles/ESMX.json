@@ -1,6 +1,7 @@
 {
   "id": "ESMX",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESMX"],

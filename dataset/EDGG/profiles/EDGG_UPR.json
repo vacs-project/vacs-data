@@ -1,5 +1,6 @@
 {
   "id": "EDGG_UPR",
+  "view": "cycle",
   "type": "Tabbed",
   "tabs": [
     {
@@ -151,7 +152,8 @@
           },
           {
             "label": ["EDYY", "YYD"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "EDYY_D"
           },
           {
             "label": [""]
@@ -181,11 +183,13 @@
           },
           {
             "label": ["EHAA", "ACE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "EHAA_E"
           },
           {
             "label": ["EHMC", "MIL"],
-            "color": "steel"
+            "color": "steel",
+            "station_id": "EHMC"
           },
           {
             "label": ["EDWW", "HRZ"],
@@ -387,15 +391,18 @@
           },
           {
             "label": ["LFEE", "HE"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_HE"
           },
           {
             "label": ["LFEE", "KE"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_KE"
           },
           {
             "label": ["LFEE", "UE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LFEE_UE"
           }
         ]
       }
@@ -511,7 +518,9 @@
             "station_id": "EDGG-BAD"
           },
           {
-            "label": [""]
+            "label": ["NKRH"],
+            "color": "lagoon",
+            "station_id": "EDGG-NKRH"
           },
           {
             "label": ["EDGG", "GED"],
@@ -592,28 +601,34 @@
             "label": [""]
           },
           {
-            "label": ["LSAS", "SC"],
-            "color": "lavender"
+            "label": ["LSAS", "SZU"],
+            "color": "lavender",
+            "station_id": "LSAS_CTR"
           },
           {
             "label": ["LSAZ", "SZN"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LSAZ_N_CTR"
           },
           {
             "label": ["LSAZ", "SZE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LSAZ_E_CTR"
           },
           {
             "label": ["LFEE", "HE"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_HE"
           },
           {
             "label": ["LFEE", "KE"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_KE"
           },
           {
             "label": ["LFEE", "UE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LFEE_UE"
           }
         ]
       }
