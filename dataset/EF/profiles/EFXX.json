@@ -1,6 +1,7 @@
 {
   "id": "EFXX",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["ACC", "EFHK"],
@@ -104,11 +105,11 @@
             "label": []
           },
           {
-            "label": ["HK TWR-E"],
+            "label": ["EFHK", "TWR-E"],
             "station_id": "EFHK_TWE"
           },
           {
-            "label": ["HK RAD-E"],
+            "label": ["EFHK", "RAD-E"],
             "station_id": "EFHK_RE"
           },
           {
@@ -120,11 +121,11 @@
             "station_id": "ENBD-26"
           },
           {
-            "label": ["EETT W11"],
+            "label": ["EETT", "W11"],
             "station_id": "EETT_W11"
           },
           {
-            "label": ["EETT W12"],
+            "label": ["EETT", "W12"],
             "station_id": "EETT_W12"
           },
           {
@@ -362,10 +363,12 @@
             "label": []
           },
           {
-            "label": ["TSA", "MIL"]
+            "label": ["TSA", "MIL"],
+            "station_id": "EFIN_MIL"
           },
           {
-            "label": ["AMC", "MIL"]
+            "label": ["AMC", "MIL"],
+            "station_id": "EFIN_MIL_FMP"
           }
         ]
       }
@@ -524,7 +527,8 @@
             "label": []
           },
           {
-            "label": ["TSA", "MIL"]
+            "label": ["TSA", "MIL"],
+            "station_id": "EFIN_MIL"
           },
           {
             "label": ["EFTU", "TWR"],
@@ -549,7 +553,8 @@
             "label": []
           },
           {
-            "label": ["AMC", "MIL"]
+            "label": ["AMC", "MIL"],
+            "station_id": "EFIN_MIL_FMP"
           }
         ]
       }

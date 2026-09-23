@@ -1,6 +1,7 @@
 {
   "id": "EFHK",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["ETU", "SIVU"],
@@ -105,7 +106,7 @@
             "station_id": "EFHK_GND"
           },
           {
-            "label": ["DEICE"],
+            "label": ["DEICE", "SUP"],
             "station_id": "EFHK_DEICE_CO"
           },
           {
@@ -131,7 +132,7 @@
             "station_id": "EFHK_CLD"
           },
           {
-            "label": ["DEICE OP"],
+            "label": ["DEICE", "OP"],
             "station_id": "EFHK_DEICE_OP"
           },
           {
