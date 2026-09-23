@@ -13,45 +13,17 @@
             "station_id": "LFBB_FMP"
           },
           {
-            "label": ["LFFF", "RT"],
-            "color": "taupe",
-            "station_id": "PAR_RT"
-          },
-          {
-            "label": ["LFBB", "R"],
-            "color": "taupe",
-            "station_id": "LFBB_R"
-          },
-          {
             "label": []
           },
           {
-            "label": ["LFBH", "APP"],
-            "color": "snow",
-            "station_id": "LFBH_APP"
-          },
-          {
-            "label": ["LFBG", "APP"],
-            "color": "clay",
-            "station_id": "LFBG_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["LFFF", "OT"],
+            "label": ["LFBB", "Z"],
             "color": "taupe",
-            "station_id": "PAR_OT"
+            "station_id": "LFBB_Z1"
           },
           {
-            "label": ["LFBB", "L"],
+            "label": ["LFBB", "TZ"],
             "color": "taupe",
-            "station_id": "LFBB_L"
-          },
-          {
-            "label": ["LFBB", "LM"],
-            "color": "taupe",
-            "station_id": "LFBB_LM"
+            "station_id": "LFBB_TZ"
           },
           {
             "label": ["LFBD", "BE"],
@@ -59,21 +31,26 @@
             "station_id": "LFBD_BE_APP"
           },
           {
-            "label": ["LFOA", "APP"],
-            "color": "clay",
-            "station_id": "LFOA_APP"
+            "label": ["LESO"],
+            "color": "snow"
           },
           {
             "label": []
           },
           {
-            "label": []
+            "label": ["LFBZ", "INFO"],
+            "color": "azure",
+            "station_id": "LFBZ_I_APP"
           },
           {
-            "label": []
+            "label": ["LFBB", "X"],
+            "color": "taupe",
+            "station_id": "LFBB_X1"
           },
           {
-            "label": []
+            "label": ["LFBB", "TG"],
+            "color": "taupe",
+            "station_id": "LFBB_TG"
           },
           {
             "label": ["LFBD", "BW"],
@@ -81,33 +58,61 @@
             "station_id": "LFBD_BW_APP"
           },
           {
-            "label": ["LFBN"],
+            "label": ["LFBZ"],
             "color": "lavender",
-            "station_id": "LFBN_I_TWR"
+            "station_id": "LFBZ_APP"
           },
           {
             "label": []
           },
           {
-            "label": ["INFO"],
+            "label": ["LFBP", "INFO"],
             "color": "azure",
-            "station_id": "LFBI_APP"
+            "station_id": "LFBP_I_APP"
+          },
+          {
+            "label": ["LFBB", "N"],
+            "color": "taupe",
+            "station_id": "LFBB_N1"
           },
           {
             "label": []
           },
           {
-            "label": []
+            "label": ["LFBM", "APP"],
+            "color": "clay",
+            "station_id": "LFBM_APP"
           },
           {
-            "label": ["LFPM", "SK"],
-            "color": "snow",
-            "station_id": "LFPM_SK_APP"
-          },
-          {
-            "label": ["LFLX"],
+            "label": ["LFBY"],
             "color": "lavender",
-            "station_id": "LFLX_TWR"
+            "station_id": "LFBY_TWR"
+          },
+          {
+            "label": ["GND"],
+            "color": "lagoon",
+            "station_id": "LFBP_GND"
+          },
+          {
+            "label": ["LFBZ", "APP"],
+            "color": "azure",
+            "station_id": "LFBZ_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LFBO", "AW"],
+            "color": "snow",
+            "station_id": "LFBO_AW_APP"
+          },
+          {
+            "label": ["LFBT"],
+            "color": "lavender",
+            "station_id": "LFBT_TWR"
           },
           {
             "label": ["TWR"],
@@ -115,9 +120,9 @@
             "station_id": "LFBI_TWR"
           },
           {
-            "label": ["LFBI", "APP"],
+            "label": ["LFBP", "APP"],
             "color": "azure",
-            "station_id": "LFBI_APP"
+            "station_id": "LFBP_APP"
           },
           {
             "label": []
@@ -126,20 +131,19 @@
             "label": []
           },
           {
-            "label": ["LFBL", "APP"],
+            "label": ["LFBO", "WB"],
             "color": "snow",
-            "station_id": "LFBL_APP"
+            "station_id": "LFBO_WB_APP"
           },
           {
-            "label": ["LFLX"],
-            "color": "lavender",
-            "station_id": "LFLX_TWR"
+            "label": ["LFDH"],
+            "color": "lavender"
           }
         ]
       }
     },
     {
-      "label": ["4", "ALL"],
+      "label": ["2", "ALL"],
       "page": {
         "rows": 6,
         "client_page": {
