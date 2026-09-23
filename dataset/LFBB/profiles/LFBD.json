@@ -23,7 +23,9 @@
             "station_id": "LFBB_TZ"
           },
           {
-            "label": []
+            "label": ["LFBC", "APP"],
+            "color": "clay",
+            "station_id": "LFBC_APP"
           },
           {
             "label": ["LFBZ", "APP"],
@@ -48,14 +50,14 @@
             "station_id": "LFBB_Z"
           },
           {
-            "label": ["LFBC", "APP"],
-            "color": "clay",
-            "station_id": "LFBC_APP"
-          },
-          {
             "label": ["LFBM", "APP"],
             "color": "clay",
             "station_id": "LFBM_APP"
+          },
+          {
+            "label": ["LFBI", "APP"],
+            "color": "snow",
+            "station_id": "LFBI_APP"
           },
           {
             "label": ["LFBS"],
@@ -80,9 +82,7 @@
             "station_id": "LFBG_APP"
           },
           {
-            "label": ["LFBO", "AW"],
-            "color": "snow",
-            "station_id": "LFBO_AW_APP"
+            "label": []
           },
           {
             "label": ["LFCY"],
@@ -102,9 +102,9 @@
             "label": []
           },
           {
-            "label": ["LFBI", "APP"],
+            "label": ["LFBO", "AW"],
             "color": "snow",
-            "station_id": "LFBI_APP"
+            "station_id": "LFBO_AW_APP"
           },
           {
             "label": ["LFBO", "WB"],
