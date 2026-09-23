@@ -131,11 +131,13 @@
           },
           {
             "label": ["LSAZ", "SZN"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LSAZ_N_CTR"
           },
           {
-            "label": ["LFST", "STA"],
-            "color": "mint"
+            "label": ["LFST", "APP"],
+            "color": "mint",
+            "station_id": "LFST_SU_APP"
           },
           {
             "label": ["EDMM", "NDG"],
@@ -150,7 +152,8 @@
           },
           {
             "label": ["LSAZ", "SZE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LSAZ_E_CTR"
           },
           {
             "label": [""]
