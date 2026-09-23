@@ -162,10 +162,10 @@
           "include": [
             "LFBB*",
             "LFMM*",
-            "LEC**",
-            "LFB*",
-            "LFL*",
-            "LFM*"
+            "LEC*_*",
+            "LFB*_*",
+            "LFL*_*",
+            "LFM*_*"
           ],
           "exclude": [],
           "priority": [

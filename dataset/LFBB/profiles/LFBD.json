@@ -155,9 +155,9 @@
           "include": [
             "LFBB*",
             "LFMM*",
-            "LFC*",
-            "LFB*",
-            "LFL*"
+            "LFC*_*",
+            "LFB*_*",
+            "LFL*_*"
           ],
           "exclude": [],
           "priority": [

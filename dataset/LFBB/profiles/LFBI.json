@@ -147,9 +147,9 @@
             "LFBB*",
             "LFRR*",
             "PAR*",
-            "LFB*",
-            "LFO*",
-            "LFR*"
+            "LFB*_*",
+            "LFO*_*",
+            "LFR*_*"
           ],
           "exclude": [],
           "priority": [

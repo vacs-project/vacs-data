@@ -142,10 +142,10 @@
             "LECB*",
             "LECM*",
             "LFBB*",
-            "LES*",
-            "LEC*",
-            "LFB*",
-            "LFD*"
+            "LES*_*",
+            "LEC*_*",
+            "LFB*_*",
+            "LFD*_*"
           ],
           "exclude": [],
           "priority": [

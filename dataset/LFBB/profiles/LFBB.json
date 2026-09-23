@@ -431,14 +431,14 @@
             "LFMM*",
             "LFRR*",
             "PAR*",
-            "LEC**",
-            "LES*",
-            "LFB*",
-            "LFL*",
-            "LFM*",
-            "LFO*",
-            "LFP*",
-            "LFR*"
+            "LEC*_*",
+            "LES*_*",
+            "LFB*_*",
+            "LFL*_*",
+            "LFM*_*",
+            "LFO*_*",
+            "LFP*_*",
+            "LFR*_*"
           ],
           "exclude": [],
           "priority": [
