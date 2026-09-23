@@ -13,9 +13,9 @@
             "station_id": "LFBB_FMP"
           },
           {
-            "label": ["LFBB", "R"],
+            "label": ["LFRR", "N"],
             "color": "taupe",
-            "station_id": "LFBB_R"
+            "station_id": "LFRR_NS"
           },
           {
             "label": ["LFBB", "BN"],
@@ -23,12 +23,14 @@
             "station_id": "LFBB_BN"
           },
           {
-            "label": ["LFBB", "TZ"],
-            "color": "taupe",
-            "station_id": "LFBB_TZ"
+            "label": ["LFRS", "LU"],
+            "color": "snow",
+            "station_id": "LFRS_LU_APP"
           },
           {
-            "label": []
+            "label": ["LFRS", "NA"],
+            "color": "snow",
+            "station_id": "LFRS_NA_APP"
           },
           {
             "label": ["LFDN"],
@@ -39,20 +41,22 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["LFBB", "R"],
+            "color": "taupe",
+            "station_id": "LFBB_R"
           },
           {
-            "label": ["LFRS", "NA"],
-            "color": "snow",
-            "station_id": "LFRS_NA_APP"
-          },
-          {
-            "label": ["LFBD", "BW"],
-            "color": "snow",
-            "station_id": "LFBD_BW_APP"
+            "label": ["LFBB", "TZ"],
+            "color": "taupe",
+            "station_id": "LFBB_TZ"
           },
           {
             "label": []
+          },
+          {
+            "label": ["LFRS", "NB"],
+            "color": "snow",
+            "station_id": "LFRS_NB_APP"
           },
           {
             "label": ["LFBN"],
@@ -68,15 +72,15 @@
             "station_id": "LFBH_APP"
           },
           {
-            "label": ["LFRS", "LU"],
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LFBD", "BW"],
             "color": "snow",
-            "station_id": "LFRS_LU_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
+            "station_id": "LFBD_BW_APP"
           },
           {
             "label": ["LFCY"],
@@ -93,17 +97,15 @@
             "station_id": "LFBH_APP"
           },
           {
-            "label": ["LFRS", "NB"],
-            "color": "snow",
-            "station_id": "LFRS_NB_APP"
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": ["LFBI", "APP"],
             "color": "snow",
             "station_id": "LFBI_APP"
-          },
-          {
-            "label": []
           },
           {
             "label": ["LFRI"],
