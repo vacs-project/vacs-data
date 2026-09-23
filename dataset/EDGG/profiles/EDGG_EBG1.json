@@ -141,6 +141,32 @@
           },
           {
             "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["EHAA", "ACE"],
+            "color": "mint",
+            "station_id": "EHAA_E"
+          },
+          {
+            "label": ["EHBK", "APP"],
+            "color": "clay",
+            "station_id": "EHBK_APP"
+          },
+          {
+            "label": ["EHVK", "APP"],
+            "color": "clay",
+            "station_id": "EHVK_APP"
+          },
+          {
+            "label": ["EBBU", "ELS"],
+            "color": "mint",
+            "station_id": "EBBU-ELS"
+          },
+          {
+            "label": [""]
           }
         ]
       }
