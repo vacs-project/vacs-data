@@ -281,7 +281,8 @@
           },
           {
             "label": ["EHAA", "ACE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "EHAA_E"
           },
           {
             "label": ["EHMC", "MIL"],
@@ -324,7 +325,9 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["EDWW", "ALR"],
+            "color": "mint",
+            "station_id": "EDWW-ALR"
           },
           {
             "label": ["EBUU", "EHS"],
