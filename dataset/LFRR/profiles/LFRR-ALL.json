@@ -7,12 +7,7 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": [
-            "LFRR*",
-            "LF*_*",
-            "LFO*_*",
-            "LFR*_*"
-          ],
+          "include": ["LFRR*", "LF*_*", "LFO*_*", "LFR*_*"],
           "exclude": [],
           "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
           "frequencies": "HideAll",

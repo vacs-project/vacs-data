@@ -6,7 +6,6 @@ accepted = ["MIT", "Apache-2.0"]
 ignore-build-dependencies = false
 ignore-dev-dependencies = false
 ignore-transitive-dependencies = false
-filter-noassertion = true
 
 private = { ignore = true }
 

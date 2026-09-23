@@ -1,6 +1,7 @@
 {
   "id": "ESSA",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESSA"],

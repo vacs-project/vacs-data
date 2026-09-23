@@ -2,11 +2,11 @@
   "stations": [
     {
       "id": "LBSR-SOF",
-      "controlled_by": ["LBSR_CTR"]
+      "controlled_by": ["LBSR_S_CTR", "LBSR_CTR"]
     },
     {
       "id": "LBSR-SES",
-      "controlled_by": ["LBSR_E_CTR", "LBSR_CTR"]
+      "controlled_by": ["LBSR_E_CTR", "LBSR_S_CTR", "LBSR_CTR"]
     },
     {
       "id": "LBSR-VAR",

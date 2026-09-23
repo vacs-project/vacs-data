@@ -1,6 +1,7 @@
 {
   "id": "EIDW_VCT",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["DUB", "VCT"],

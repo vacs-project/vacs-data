@@ -27,7 +27,7 @@
             "station_id": "LBSF_DEL"
           },
           {
-            "label": ["SOFIA", "CTR", ""],
+            "label": ["SOF", "CTR"],
             "station_id": "LBSR-SOF"
           },
           {
@@ -61,7 +61,7 @@
             "label": []
           },
           {
-            "label": ["VARNA", "CTR"],
+            "label": ["VAR", "CTR"],
             "station_id": "LBSR-VAR"
           },
           {

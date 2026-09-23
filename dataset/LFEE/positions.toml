@@ -155,7 +155,7 @@ default_call_sources = [
   "LFEE_UR",
   "LFEE_XR",
   "LFEE_YB",
-  "LFEE_YR"
+  "LFEE_YR",
 ]
 
 [[positions]]

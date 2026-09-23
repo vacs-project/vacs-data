@@ -4,11 +4,23 @@ controlled_by = ["LFEE_FMP", "LFXX_FMP"]
 
 [[stations]]
 id = "LFEE_HE"
-controlled_by = ["LFEE_HE_CTR", "LFEE_4EH_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFEE_HE_CTR",
+  "LFEE_4EH_CTR",
+  "LFEE_RME_CTR",
+  "LFEE_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFEE_HH"
-controlled_by = ["LFEE_HH_CTR", "LFEE_4EH_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFEE_HH_CTR",
+  "LFEE_4EH_CTR",
+  "LFEE_RME_CTR",
+  "LFEE_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFEE_HN"
@@ -24,7 +36,13 @@ controlled_by = ["LFEE_KD_CTR", "LFEE_RMN_CTR", "LFEE_CTR", "PAR_CTR"]
 
 [[stations]]
 id = "LFEE_KE"
-controlled_by = ["LFEE_KE_CTR", "LFEE_4EH_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFEE_KE_CTR",
+  "LFEE_4EH_CTR",
+  "LFEE_RME_CTR",
+  "LFEE_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFEE_KF"
@@ -32,7 +50,13 @@ controlled_by = ["LFEE_KF_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
 
 [[stations]]
 id = "LFEE_KH"
-controlled_by = ["LFEE_KH_CTR", "LFEE_4EH_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFEE_KH_CTR",
+  "LFEE_4EH_CTR",
+  "LFEE_RME_CTR",
+  "LFEE_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFEE_KN"
@@ -48,7 +72,13 @@ controlled_by = ["LFEE_UB_CTR", "LFEE_RMN_CTR", "LFEE_CTR", "PAR_CTR"]
 
 [[stations]]
 id = "LFEE_UE"
-controlled_by = ["LFEE_UE_CTR", "LFEE_4EH_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFEE_UE_CTR",
+  "LFEE_4EH_CTR",
+  "LFEE_RME_CTR",
+  "LFEE_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFEE_UF"
@@ -56,7 +86,13 @@ controlled_by = ["LFEE_UF_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
 
 [[stations]]
 id = "LFEE_UH"
-controlled_by = ["LFEE_UH_CTR", "LFEE_4EH_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFEE_UH_CTR",
+  "LFEE_4EH_CTR",
+  "LFEE_RME_CTR",
+  "LFEE_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFEE_UN"
@@ -68,11 +104,23 @@ controlled_by = ["LFEE_UR_CTR", "LFEE_RMN_CTR", "LFEE_CTR", "PAR_CTR"]
 
 [[stations]]
 id = "LFEE_XE"
-controlled_by = ["LFEE_XE_CTR", "LFEE_4EH_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFEE_XE_CTR",
+  "LFEE_4EH_CTR",
+  "LFEE_RME_CTR",
+  "LFEE_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFEE_XH"
-controlled_by = ["LFEE_XH_CTR", "LFEE_4EH_CTR", "LFEE_RME_CTR", "LFEE_CTR", "PAR_CTR"]
+controlled_by = [
+  "LFEE_XH_CTR",
+  "LFEE_4EH_CTR",
+  "LFEE_RME_CTR",
+  "LFEE_CTR",
+  "PAR_CTR",
+]
 
 [[stations]]
 id = "LFEE_XR"

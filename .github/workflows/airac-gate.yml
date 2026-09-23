@@ -90,8 +90,10 @@ jobs:
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           repositories: vacs-data
-          # PR comments go through the issues API.
+          # PR comments go through the issues API, but GitHub checks the pull
+          # requests permission when the issue is a PR.
           permission-issues: write
+          permission-pull-requests: write
 
       - name: Post or update comment
         if: steps.check.outputs.has_label == 'true' && github.event.pull_request.head.repo.full_name == github.repository

@@ -220,12 +220,7 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": [
-            "PAR*",
-            "LFO*",
-            "LFP*",
-            "LFQ*"
-          ],
+          "include": ["PAR*", "LFO*", "LFP*", "LFQ*"],
           "exclude": [],
           "priority": [
             "*_FMP",

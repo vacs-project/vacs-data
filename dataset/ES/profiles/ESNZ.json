@@ -1,6 +1,7 @@
 {
   "id": "ESNZ",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESNZ"],

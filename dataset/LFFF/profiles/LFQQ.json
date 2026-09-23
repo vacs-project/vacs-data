@@ -177,14 +177,7 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": [
-            "EBBU*",
-            "PAR*",
-            "EBB*",
-            "LFO*",
-            "LFP*",
-            "LFQ*"
-          ],
+          "include": ["EBBU*", "PAR*", "EBB*", "LFO*", "LFP*", "LFQ*"],
           "exclude": [],
           "priority": [
             "*_FMP",
