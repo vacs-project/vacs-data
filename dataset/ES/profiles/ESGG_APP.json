@@ -1,6 +1,7 @@
 {
   "id": "ESGG_APP",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESGG"],

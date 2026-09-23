@@ -1,6 +1,7 @@
 {
   "id": "ESDF",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESDF"],

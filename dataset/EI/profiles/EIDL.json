@@ -1,6 +1,7 @@
 {
   "id": "EIDL",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["EIDL"],

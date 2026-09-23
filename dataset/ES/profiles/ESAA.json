@@ -1,6 +1,7 @@
 {
   "id": "ESAA",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESOS", ""],

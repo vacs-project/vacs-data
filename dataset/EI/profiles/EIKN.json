@@ -1,6 +1,7 @@
 {
   "id": "EIKN",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["EIKN"],
