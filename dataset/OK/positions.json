@@ -49,14 +49,6 @@
       "default_call_sources": ["OKKK_F_APP"]
     },
     {
-      "id": "OKKK_FX_APP",
-      "prefixes": ["OKKK"],
-      "frequency": "119.625",
-      "facility_type": "APP",
-      "profile_id": "OKKK",
-      "default_call_sources": ["OKKK_FX_APP"]
-    },
-    {
       "id": "OKKK_TWR",
       "prefixes": ["OKKK"],
       "frequency": "118.300",
