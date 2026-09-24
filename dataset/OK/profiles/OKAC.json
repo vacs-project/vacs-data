@@ -1,53 +1,21 @@
 {
   "id": "OKAC",
   "type": "Tabbed",
-  "view": "split",
   "tabs": [
     {
       "label": ["OKAC"],
       "page": {
-        "rows": 4,
+        "rows": 3,
         "keys": [
           {
             "label": ["ACCU", "F350+"],
+            "color": "mint",
             "station_id": "OKAC_U_CTR"
           },
           {
             "label": ["OKKK", "APP"],
-            "station_id": "OKKK_APP"
-          },
-          {
-            "label": ["[OKKK]", "GMP", "PLN"],
-            "color": "blush",
-            "station_id": "OKKK_FMP"
-          },
-          {
-            "label": ["[OKKK]", "GMP"],
-            "color": "mint",
-            "station_id": "OKKK_DEL"
-          },
-          {
-            "label": ["ACCL", "F150-350"],
-            "station_id": "OKAC_CTR"
-          },
-          {
-            "label": ["OKKK", "FIN"],
-            "station_id": "OKKK_F_APP"
-          },
-          {
-            "label": ["[OKKK]", "APP"],
             "color": "mint",
             "station_id": "OKKK_APP"
-          },
-          {
-            "label": ["[OKKK]", "GMC-E"],
-            "color": "mint",
-            "station_id": "OKKK_1_GND"
-          },
-          {
-            "label": ["OKAC", "FMP"],
-            "color": "blush",
-            "station_id": "OKAC_FMP"
           },
           {
             "label": ["OKKK", "FMP"],
@@ -55,21 +23,153 @@
             "station_id": "OKKK_FMP"
           },
           {
-            "label": ["[OKAJ]", "CTL"],
-            "color": "steel",
-            "station_id": "OKAJ_APP"
+            "label": ["ACCL", "F150-350"],
+            "color": "mint",
+            "station_id": "OKAC_CTR"
           },
           {
-            "label": ["[OKKK]", "FIN"],
+            "label": ["OKKK", "AD"],
             "color": "mint",
-            "station_id": "OKKK_F_APP"
+            "page": {
+              "rows": 2,
+              "keys": [
+                {
+                  "label": ["DEL"],
+                  "station_id": "OKKK_DEL"
+                },
+                {
+                  "label": ["GMC-W"],
+                  "station_id": "OKKK_2_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["GMC-E"],
+                  "station_id": "OKKK_1_GND"
+                },
+                {
+                  "label": ["TWR"],
+                  "station_id": "OKKK_TWR"
+                },
+                {
+                  "label": ["PLN"],
+                  "color": "blush",
+                  "station_id": "OKKK_P_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["FMP"],
+                  "color": "blush",
+                  "station_id": "OKKK_FMP"
+                }
+              ]
+            }
           },
           {
-            "label": ["[OKKK]", "GMC-W"],
-            "color": "mint",
-            "station_id": "OKKK_2_GND"
+            "label": ["OKAC", "FMP"],
+            "color": "blush",
+            "station_id": "OKAC_FMP"
+          },
+          {
+            "label": ["ORBB", "SU", "F345+"],
+            "color": "lavender",
+            "station_id": "ORBB_SU_CTR"
+          },
+          {
+            "label": ["ORBB", "S", "F235-345"],
+            "color": "lavender",
+            "station_id": "ORBB_S_CTR"
+          },
+          {
+            "label": ["ALI", "TMA", "F235-"],
+            "color": "lavender",
+            "station_id": "ALI_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OERD E", "F345+"],
+            "color": "lavender",
+            "station_id": "OERD_E_CTR"
+          },
+          {
+            "label": ["OEJD E", "F345-"],
+            "color": "lavender",
+            "station_id": "OEJD_E_CTR"
+          },
+          {
+            "label": ["OERD NE", "F345+"],
+            "color": "lavender",
+            "station_id": "OERD_NE_CTR"
+          },
+          {
+            "label": ["OEJD NE", "F345-"],
+            "color": "lavender",
+            "station_id": "OEJD_NE_CTR"
+          },
+          {
+            "label": ["DMM", "CTA"],
+            "color": "lavender",
+            "station_id": "OEDF_APP"
+          },
+          {
+            "label": "OIIX",
+            "color": "lavender",
+            "page": {
+              "rows": 5,
+              "client_page": {
+                "include": ["TEH_*, OIIX_*", "OI*"],
+                "exclude": ["*_APP", "*_TWR", "*_GND", "*_DEL"],
+                "priority": ["*_CTR"],
+                "frequencies": "ShowAll",
+                "grouping": "Icao"
+              }
+            }
+          },
+          {
+            "label": ["OBBB NH", "F345+"],
+            "color": "lavender",
+            "station_id": "OBBB_3_CTR"
+          },
+          {
+            "label": ["OBBB NL", "F345-"],
+            "color": "lavender",
+            "station_id": "OBBB_N_CTR"
           }
         ]
+      }
+    },
+    {
+      "label": ["FMP"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": [
+            "OKAC*FMP",
+            "ORBB*FMP",
+            "ORBI*FMP",
+            "OKKK*FMP",
+            "OR*FMP",
+            "OK*FMP",
+            "OK*_P_*",
+            "OR*_P_*",
+
+            "OE*_FMP",
+            "OB*_FMP",
+            "TEH*_FMP",
+            "OI*_FMP",
+            "OT*_FMP",
+            "OM*_FMP"
+          ],
+          "exclude": [],
+          "priority": ["OKAC*", "OK*", "ORBB*", "OR*", "*_FMP"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
       }
     }
   ]
