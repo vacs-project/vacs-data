@@ -120,7 +120,7 @@
           {
             "label": ["OKAC", "FMP"],
             "color": "blush",
-            "station_id": "OKAC_ACC_FMP"
+            "station_id": "OKAC_FMP"
           },
           {
             "label": ["FMP"],
