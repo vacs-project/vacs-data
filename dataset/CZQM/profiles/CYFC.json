@@ -26,9 +26,55 @@
           {
             "label": ["YG", "MF"],
             "station_id": "CYYG-MF"
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
+          },
+          {
+            "label": ""
           }
         ]
       }
     }
-  ]
+  ],
+  "view": "split"
 }
