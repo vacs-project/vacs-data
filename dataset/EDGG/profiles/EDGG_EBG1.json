@@ -98,7 +98,9 @@
             "station_id": "EDYY-MH"
           },
           {
-            "label": [""]
+            "label": ["HMM"],
+            "color": "umber",
+            "station_id": "EDGG-HMM"
           },
           {
             "label": ["BOT"],
@@ -132,9 +134,9 @@
             "station_id": "EDGG-PADL"
           },
           {
-            "label": ["HMM"],
-            "color": "umber",
-            "station_id": "EDGG-HMM"
+            "label": ["EDLN", "TWR"],
+            "color": "azure",
+            "station_id": "EDGG-LNT"
           },
           {
             "label": [""]
