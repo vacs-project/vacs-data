@@ -474,11 +474,25 @@
     },
     {
       "id": "EDGG-DLD",
-      "controlled_by": ["EDDL_DEP"]
+      "controlled_by": [
+        "EDDL_DEP",
+        "EDDL_APP",
+        "EDDL_BOT_APP",
+        "EDGG_KL_APP",
+        "EDGG_N_CTR",
+        "EDGG_NH_CTR"
+      ]
     },
     {
       "id": "EDGG-DLAT",
-      "controlled_by": ["EDDL_F_APP"]
+      "controlled_by": [
+        "EDDL_F_APP",
+        "EDDL_APP",
+        "EDDL_BOT_APP",
+        "EDGG_KL_APP",
+        "EDGG_N_CTR",
+        "EDGG_NH_CTR"
+      ]
     },
     {
       "id": "EDGG-NOR",
