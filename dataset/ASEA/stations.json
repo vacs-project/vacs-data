@@ -1,0 +1,24 @@
+{
+  "stations": [
+    {
+      "id": "ASEA_FSS",
+      "controlled_by": ["ASEA_FSS"]
+    },
+    {
+      "id": "ASEA_N_FSS",
+      "controlled_by": ["ASEA_N_FSS", "ASEA_FSS"]
+    },
+    {
+      "id": "ASEA_S_FSS",
+      "controlled_by": ["ASEA_S_FSS", "ASEA_FSS"]
+    },
+    {
+      "id": "ASEA_E_FSS",
+      "controlled_by": ["ASEA_E_FSS", "ASEA_FSS"]
+    },
+    {
+      "id": "ASEA_W_FSS",
+      "controlled_by": ["ASEA_W_FSS", "ASEA_FSS"]
+    }
+  ]
+}

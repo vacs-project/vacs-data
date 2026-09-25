@@ -1,0 +1,39 @@
+{
+  "positions": [
+    {
+      "id": "ASEA_FSS",
+      "prefixes": ["ASEA"],
+      "frequency": "135.350",
+      "facility_type": "FSS",
+      "profile_id": "ASEA_FSS"
+    },
+    {
+      "id": "ASEA_N_FSS",
+      "prefixes": ["ASEA"],
+      "frequency": "135.360",
+      "facility_type": "FSS",
+      "profile_id": "ASEA_N_FSS"
+    },
+    {
+      "id": "ASEA_S_FSS",
+      "prefixes": ["ASEA"],
+      "frequency": "136.225",
+      "facility_type": "FSS",
+      "profile_id": "ASEA_S_FSS"
+    },
+    {
+      "id": "ASEA_E_FSS",
+      "prefixes": ["ASEA"],
+      "frequency": "135.800",
+      "facility_type": "FSS",
+      "profile_id": "ASEA_E_FSS"
+    },
+    {
+      "id": "ASEA_W_FSS",
+      "prefixes": ["ASEA"],
+      "frequency": "134.255",
+      "facility_type": "FSS",
+      "profile_id": "ASEA_W_FSS"
+    }
+  ]
+}
