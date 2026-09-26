@@ -554,9 +554,16 @@
       "profile_id": "ENOS"
     },
     {
-      "id": "ENOS_CTR",
+      "id": "ENOS_S_CTR",
       "prefixes": ["ENOS"],
       "frequency": "127.255",
+      "facility_type": "CTR",
+      "profile_id": "ENOS"
+    },
+    {
+      "id": "ENOS_CTR",
+      "prefixes": ["ENOS"],
+      "frequency": "127.380",
       "facility_type": "CTR",
       "profile_id": "ENOS"
     },

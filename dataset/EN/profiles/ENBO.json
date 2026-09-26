@@ -1,6 +1,7 @@
 {
   "id": "ENBO",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["1", ""],
