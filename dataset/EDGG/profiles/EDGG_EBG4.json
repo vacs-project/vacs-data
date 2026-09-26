@@ -1,5 +1,6 @@
 {
   "id": "EDGG_EBG4",
+  "view": "cycle",
   "type": "Tabbed",
   "tabs": [
     {
@@ -160,8 +161,9 @@
             "station_id": "EDMM-BBG"
           },
           {
-            "label": ["LSAS", "SZE"],
-            "color": "mint"
+            "label": ["LSAZ", "SZE"],
+            "color": "mint",
+            "station_id": "LSAZ_E_CTR"
           },
           {
             "label": ["EDUU", "AMM"],
@@ -183,7 +185,8 @@
           },
           {
             "label": ["LSAS", "SZU"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LSAS_CTR"
           }
         ]
       }

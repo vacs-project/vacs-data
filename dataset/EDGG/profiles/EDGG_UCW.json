@@ -1,5 +1,6 @@
 {
   "id": "EDGG_UCW",
+  "view": "cycle",
   "type": "Tabbed",
   "tabs": [
     {
@@ -127,11 +128,13 @@
           },
           {
             "label": ["LFEE", "XE", "315-345"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_XE"
           },
           {
             "label": ["LFEE", "UE", "195-315"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LFEE_UE"
           },
           {
             "label": ["EDDK", "NOR"],
@@ -145,11 +148,13 @@
           },
           {
             "label": ["LFEE", "HE", "365+"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_HE"
           },
           {
             "label": ["LFEE", "KE", "345-365"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LFEE_KE"
           },
           {
             "label": ["EBBU", "EHS"],
@@ -163,15 +168,18 @@
           },
           {
             "label": ["LSAS", "SZU"],
-            "color": "lavender"
+            "color": "lavender",
+            "station_id": "LSAS_CTR"
           },
           {
             "label": ["LSAZ", "SZN"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LSAZ_N_CTR"
           },
           {
             "label": ["LSAZ", "SZE"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "LSAZ_E_CTR"
           },
           {
             "label": [""]
