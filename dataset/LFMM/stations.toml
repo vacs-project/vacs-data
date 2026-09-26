@@ -1,4 +1,8 @@
 [[stations]]
+id = "LFMM_FMP"
+controlled_by = ["LFMM_FMP", "LFXX_FMP"]
+
+[[stations]]
 id = "LFMM_A1"
 controlled_by = ["LFMM_A_CTR", "LFMM_EU_CTR", "LFMM_RAE_CTR", "LFMM_CTR"]
 
@@ -270,11 +274,6 @@ parent_id = "LFMT_I1_APP"
 controlled_by = ["LFMT_I3_APP"]
 
 [[stations]]
-id = "LFMT_FB_APP"
-parent_id = "LFMT_FE_APP"
-controlled_by = ["LFMT_FB_APP"]
-
-[[stations]]
 id = "LFMT_FA_APP"
 parent_id = "LFMT_FE_APP"
 controlled_by = ["LFMT_FA_APP"]
@@ -474,7 +473,7 @@ controlled_by = ["LFMZ_I_TWR"]
 
 [[stations]]
 id = "LFNB_I_TWR"
-parent_id = "LFMT_FB_APP"
+parent_id = "LFLC_CL_APP"
 controlled_by = ["LFNB_I_TWR"]
 
 [[stations]]

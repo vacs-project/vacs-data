@@ -25,7 +25,7 @@
           {
             "label": ["LFRR", "W"],
             "color": "lavender",
-            "station_id": "LFRR_WS"
+            "station_id": "LFRR_WU"
           },
           {
             "label": ["AC", "LKS"],
@@ -636,7 +636,7 @@
           {
             "label": ["LFRR", "W"],
             "color": "lavender",
-            "station_id": "LFRR_WS"
+            "station_id": "LFRR_WU"
           },
           {
             "label": ["AC", "S4", "LKS"],

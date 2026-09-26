@@ -3,153 +3,132 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["LIL", "LFQQ"],
+      "label": ["1", "AD"],
       "page": {
-        "rows": 5,
+        "rows": 6,
         "keys": [
+          {
+            "label": ["FMP"],
+            "color": "lilac",
+            "station_id": "LFFF_FMP"
+          },
+          {
+            "label": ["LFRN", "RN", "APP"],
+            "color": "snow",
+            "station_id": "LFRN_APP"
+          },
+          {
+            "label": ["LFRN", "JD", "APP"],
+            "color": "snow",
+            "station_id": "LFRN_JD_APP"
+          },
+          {
+            "label": ["LFOE", "APP"],
+            "color": "blush",
+            "station_id": "LFOE_APP"
+          },
           {
             "label": []
           },
           {
-            "label": ["LFQQ", "QR", "APP"],
-            "color": "umber",
-            "station_id": "LFQQ_QR_APP"
-          },
-          {
-            "label": ["LFAT", "TWR", ""],
-            "color": "azure",
-            "station_id": "LFAT_TWR"
-          },
-          {
-            "label": ["LFOP", "TWR", ""],
-            "color": "azure",
+            "label": ["LFOP", "", ""],
+            "color": "lavender",
             "station_id": "LFOP_TWR"
           },
           {
             "label": []
           },
           {
-            "label": ["LFQQ", "QW", "APP"],
-            "color": "umber",
-            "station_id": "LFQQ_QW_APP"
-          },
-          {
-            "label": ["LFQQ", "QD", "APP"],
-            "color": "umber",
+            "label": ["LFQQ", "QD", ""],
+            "color": "azure",
             "station_id": "LFQQ_QD_APP"
           },
           {
-            "label": ["LFQT", "TWR", ""],
+            "label": ["LFQQ", "QR", ""],
             "color": "azure",
-            "station_id": "LFQT_TWR"
+            "station_id": "LFQQ_QR_APP"
           },
           {
-            "label": ["LFQQ", "GND"],
-            "color": "lilac",
-            "station_id": "LFQQ_GND"
+            "label": ["LFOB", "APP"],
+            "color": "snow",
+            "station_id": "LFOB_APP"
           },
           {
             "label": []
           },
           {
-            "label": ["LFQQ", "QE", "APP"],
-            "color": "umber",
-            "station_id": "LFQQ_QE_APP"
-          },
-          {
-            "label": ["LFQQ", "QA", "APP"],
-            "color": "umber",
-            "station_id": "LFQQ_QA_APP"
-          },
-          {
-            "label": ["LFAQ", "TWR"],
-            "color": "azure",
+            "label": ["LFAQ", ""],
+            "color": "lavender",
             "station_id": "LFAT_TWR"
           },
           {
-            "label": ["LFQQ", "TWR", ""],
+            "label": ["GND", ""],
+            "color": "lagoon",
+            "station_id": "LFQQ_GND"
+          },
+          {
+            "label": ["LFQQ", "QW", ""],
             "color": "azure",
-            "station_id": "LFQQ_TWR"
+            "station_id": "LFQQ_QW_APP"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["LFRN", "JD", "APP"],
-            "color": "mint",
-            "station_id": "LFRN_JD_APP"
-          },
-          {
-            "label": ["LFRN", "RN", "APP"],
-            "color": "mint",
-            "station_id": "LFRN_APP"
-          },
-          {
-            "label": ["LFOE", "APP"],
-            "color": "mint",
-            "station_id": "LFOE_APP"
+            "label": ["LFQQ", "QA", ""],
+            "color": "azure",
+            "station_id": "LFQQ_QA_APP"
           },
           {
             "label": ["LFPG", "N", "DEP"],
-            "color": "mint",
+            "color": "snow",
             "station_id": "LFPG_N_DEP"
           },
           {
             "label": []
           },
           {
-            "label": []
+            "label": ["LFAT", "", ""],
+            "color": "lavender",
+            "station_id": "LFAT_TWR"
+          },
+          {
+            "label": ["TWR", "", ""],
+            "color": "lagoon",
+            "station_id": "LFQQ_TWR"
+          },
+          {
+            "label": ["LFQQ", "QE", ""],
+            "color": "azure",
+            "station_id": "LFQQ_QE_APP"
           },
           {
             "label": []
           },
           {
-            "label": ["LFOB", "APP"],
-            "color": "mint",
-            "station_id": "LFOB_APP"
-          },
-          {
-            "label": ["LFPG", "N", "INI"],
-            "color": "mint",
+            "label": ["LFPG", "N", "APP"],
+            "color": "snow",
             "station_id": "LFPG_FN_APP"
           },
           {
+            "label": []
+          },
+          {
+            "label": ["LFQT", "", ""],
+            "color": "lavender",
+            "station_id": "LFQT_TWR"
+          },
+          {
             "label": ["PAR", "TP", ""],
-            "color": "lagoon",
+            "color": "taupe",
             "station_id": "PAR_TP"
           },
           {
-            "label": ["PAR", "TB", ""],
-            "color": "lagoon",
-            "station_id": "PAR_TB"
-          },
-          {
-            "label": ["PAR", "TH"],
-            "color": "lagoon",
-            "station_id": "PAR_TH"
-          },
-          {
-            "label": ["FMP"],
-            "color": "snow",
-            "station_id": "LFXX_FMP"
-          },
-          {
-            "label": ["LFPT", "TWR"],
-            "color": "mint",
-            "station_id": "LFPT_TWR"
-          },
-          {
             "label": ["PAR", "TN", ""],
-            "color": "lagoon",
+            "color": "taupe",
             "station_id": "PAR_TN"
           },
           {
-            "label": ["PAR", "TE"],
-            "color": "lagoon",
-            "station_id": "PAR_TE"
+            "label": ["PAR", "TH"],
+            "color": "taupe",
+            "station_id": "PAR_TH"
           },
           {
             "label": []
@@ -159,39 +138,46 @@
           },
           {
             "label": []
-          },
-          {
-            "label": ["EBBU", "WLS"],
-            "color": "blush",
-            "station_id": "EBBU-WLS"
           },
           {
             "label": ["EBBU", "FIC"],
-            "color": "blush",
+            "color": "snow",
             "station_id": "EBBU-FIC"
           },
           {
+            "label": ["PAR", "TB", ""],
+            "color": "taupe",
+            "station_id": "PAR_TB"
+          },
+          {
+            "label": ["PAR", "TE"],
+            "color": "taupe",
+            "station_id": "PAR_TE"
+          },
+          {
             "label": ["EBOS", "", "APP"],
-            "color": "blush",
+            "color": "snow",
             "station_id": "EBOS-APP"
           },
           {
             "label": ["EBKT", "AFIS"],
-            "color": "blush",
+            "color": "snow",
             "station_id": "EBKT-INFO"
           },
           {
-            "label": []
+            "label": ["EBBU", "WLS"],
+            "color": "taupe",
+            "station_id": "EBBU-WLS"
           }
         ]
       }
     },
     {
-      "label": ["CWP"],
+      "label": ["2", "ALL"],
       "page": {
         "rows": 6,
         "client_page": {
-          "include": ["PAR*", "LFO*", "LFP*", "LFQ*"],
+          "include": ["EBBU*", "PAR*", "EBB*", "LFO*", "LFP*", "LFQ*"],
           "exclude": [],
           "priority": [
             "*_FMP",

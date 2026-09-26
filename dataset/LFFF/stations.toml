@@ -3,6 +3,10 @@ id = "LFXX_FMP"
 controlled_by = ["LFXX_FMP"]
 
 [[stations]]
+id = "LFFF_FMP"
+controlled_by = ["LFFF_FMP", "LFXX_FMP"]
+
+[[stations]]
 id = "LFFM_CTR"
 controlled_by = ["LFFM_CTR"]
 

@@ -1,0 +1,19 @@
+{
+  "id": "LFFF-ALL",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", "ALL"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": ["PAR*", "LF*_*", "LFJ*_*", "LFO*_*", "LFP*_*", "LFQ*_*"],
+          "exclude": [],
+          "priority": ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}
