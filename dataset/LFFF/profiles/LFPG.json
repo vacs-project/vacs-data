@@ -163,6 +163,11 @@
             "station_id": "PAR_RT"
           },
           {
+            "label": ["PAR", "TB", "NORTH"],
+            "color": "taupe",
+            "station_id": "PAR_TB"
+          },
+          {
             "label": ["PAR", "TN", "N-WEST"],
             "color": "taupe",
             "station_id": "PAR_TN"
@@ -173,24 +178,19 @@
             "station_id": "PAR_DO"
           },
           {
-            "label": ["PAR", "TE", "LORNI"],
-            "color": "taupe",
-            "station_id": "PAR_TE"
-          },
-          {
             "label": ["LFPM", "SJ"],
             "color": "snow",
             "station_id": "LFPM_SJ_APP"
           },
           {
+            "label": ["PAR", "TE", "LORNI"],
+            "color": "taupe",
+            "station_id": "PAR_TE"
+          },
+          {
             "label": ["PAR", "AR", "OKIPA"],
             "color": "taupe",
             "station_id": "PAR_AR"
-          },
-          {
-            "label": ["PAR", "TB", "NORTH"],
-            "color": "taupe",
-            "station_id": "PAR_TB"
           },
           {
             "label": ["PAR", "TM", "EAST"],
@@ -220,7 +220,12 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": ["PAR*", "LFO*", "LFP*", "LFQ*"],
+          "include": [
+            "PAR*",
+            "LFO*",
+            "LFP*",
+            "LFQ*"
+          ],
           "exclude": [],
           "priority": [
             "*_FMP",
