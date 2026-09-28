@@ -15,12 +15,12 @@ default_call_sources = ["LHBP_APP"]
 
 [[positions]]
 profile_id = "TEL"
-default_call_sources = ["LHBP_U_APP"]
-
 id = "LHBP_U_APP"
 prefixes = ["LHBP"]
 frequency = "123.860"
 facility_type = "APP"
+default_call_sources = ["LHBP_U_APP"]
+
 [[positions]]
 id = "LHBP_D_APP"
 prefixes = ["LHBP"]
@@ -108,12 +108,12 @@ profile_id = "ACC"
 default_call_sources = ["LHCC_EL"]
 
 [[positions]]
-id = "LHCC_FIC"
+id = "LHCC_I_CTR"
 prefixes = ["LHCC"]
 frequency = "119.350"
 facility_type = "CTR"
 profile_id = "ACC"
-default_call_sources = ["LHCC_I_CTR"]
+default_call_sources = ["LHCC_FIC"]
 
 [[positions]]
 id = "LHCC_Z_CTR"
