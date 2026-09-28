@@ -14,8 +14,8 @@ profile_id = "TEL"
 default_call_sources = ["LHBP_APP"]
 
 [[positions]]
-profile_id = "TEL"
 id = "LHBP_U_APP"
+profile_id = "TEL"
 prefixes = ["LHBP"]
 frequency = "123.860"
 facility_type = "APP"
