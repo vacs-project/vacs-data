@@ -97,6 +97,7 @@ prefixes = ["LHCC"]
 frequency = "133.205"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_WL"]
 
 [[positions]]
 id = "LHCC_CTR"
@@ -104,13 +105,15 @@ prefixes = ["LHCC"]
 frequency = "120.380"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_EL"]
 
 [[positions]]
-id = "LHCC_I_CTR"
+id = "LHCC_FIC"
 prefixes = ["LHCC"]
 frequency = "119.350"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_I_CTR"]
 
 [[positions]]
 id = "LHCC_Z_CTR"
@@ -118,6 +121,7 @@ prefixes = ["LHCC"]
 frequency = "133.000"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_EFIC"]
 
 [[positions]]
 id = "LHCC_Q_CTR"
@@ -125,6 +129,7 @@ prefixes = ["LHCC"]
 frequency = "125.500"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_WFIC"]
 
 [[positions]]
 id = "LHCC_2_CTR"
@@ -132,6 +137,7 @@ prefixes = ["LHCC"]
 frequency = "135.205"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_WT"]
 
 [[positions]]
 id = "LHCC_1_CTR"
@@ -139,6 +145,7 @@ prefixes = ["LHCC"]
 frequency = "132.790"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_ET"]
 
 [[positions]]
 id = "LHCC_SV_CTR"
@@ -146,6 +153,7 @@ prefixes = ["LHCC"]
 frequency = "130.580"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_SV"]
 
 [[positions]]
 id = "LHCC_N_CTR"
@@ -153,6 +161,7 @@ prefixes = ["LHCC"]
 frequency = "135.555"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_NT"]
 
 [[positions]]
 id = "LHCC_K_CTR"
@@ -160,6 +169,7 @@ prefixes = ["LHCC"]
 frequency = "127.860"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_EU"]
 
 [[positions]]
 id = "LHCC_U_CTR"
@@ -167,6 +177,7 @@ prefixes = ["LHCC"]
 frequency = "133.535"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_WU"]
 
 [[positions]]
 id = "LHCC_S_CTR"
@@ -174,6 +185,7 @@ prefixes = ["LHCC"]
 frequency = "128.105"
 facility_type = "CTR"
 profile_id = "ACC"
+default_call_sources = ["LHCC_SL"]
 
 [[positions]]
 id = "LHDC_I_TWR"
