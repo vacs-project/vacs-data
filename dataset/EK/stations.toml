@@ -5,9 +5,8 @@ controlled_by = [
   "EKAH_TWR",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -16,9 +15,8 @@ controlled_by = [
   "EKAH_APP",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -28,9 +26,8 @@ controlled_by = [
   "EKAH_APP",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -40,9 +37,8 @@ controlled_by = [
   "EKBI_TWR",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -51,9 +47,8 @@ controlled_by = [
   "EKBI_APP",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -71,9 +66,8 @@ controlled_by = [
   "EKBI_APP",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -82,22 +76,12 @@ controlled_by = ["EKBI_DEL"]
 
 [[stations]]
 id = "EKCHFIN"
-controlled_by = [
-  "EKCH_F_APP",
-  "EKCH_W_APP",
-  "EKCH_O_APP",
-  "EKDK_I_CTR",
-  "EKDK_B_CTR",
-  "EKDK_D_CTR",
-  "EKDK_E_CTR",
-  "EKDK_UC_CTR",
-  "EKDK_CTR",
-]
+controlled_by = ["EKCH_P_APP"]
 
 [[stations]]
 id = "EKCHAPPCO"
 controlled_by = [
-  "EKCH_P_APP",
+  "EKCH_P2_APP",
   "EKCH_K_DEP",
   "EKCH_R_DEP",
   "EKCH_W_APP",
@@ -110,23 +94,25 @@ controlled_by = ["EKCH_FMP"]
 
 [[stations]]
 id = "EKCHTSUP"
-controlled_by = ["EKCH_M_TWR", "EKCH_M_APP", "EKCH_P_APP"]
+controlled_by = ["EKCH_M_TWR", "EKCH_M_APP", "EKCH_P2_APP"]
 
 [[stations]]
 id = "EKCHASUP"
-controlled_by = ["EKCH_M_APP", "EKCH_M_TWR", "EKCH_P_APP"]
+controlled_by = ["EKCH_M_APP", "EKCH_M_TWR", "EKCH_P2_APP"]
 
 [[stations]]
 id = "EKCHAPPE"
 controlled_by = [
   "EKCH_O_APP",
+  "EKCH_K_DEP",
   "EKCH_W_APP",
+  "EKCH_R_DEP",
   "EKDK_I_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -141,20 +127,22 @@ controlled_by = [
   "EKDK_D_CTR",
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
 id = "EKCHAPPW"
 controlled_by = [
   "EKCH_W_APP",
+  "EKCH_R_DEP",
   "EKCH_O_APP",
+  "EKCH_K_DEP",
   "EKDK_I_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -169,7 +157,7 @@ controlled_by = [
   "EKDK_D_CTR",
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -180,12 +168,14 @@ controlled_by = [
   "EKCH_GE_TWR",
   "EKCH_W_APP",
   "EKCH_O_APP",
+  "EKCH_K_DEP",
+  "EKCH_R_DEP",
   "EKDK_I_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -196,17 +186,19 @@ controlled_by = [
   "EKCH_A_TWR",
   "EKCH_W_APP",
   "EKCH_O_APP",
+  "EKCH_K_DEP",
+  "EKCH_R_DEP",
   "EKDK_I_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
 id = "EKCH_GE_TWR"
-controlled_by = ["EKCH_GW_TWR", "EKCH_A_TWR"]
+controlled_by = ["EKCH_GW_TWR", "EKCH_A_TWR", "EKCH_D_TWR"]
 
 [[stations]]
 id = "EKCH_D_TWR"
@@ -216,12 +208,16 @@ controlled_by = [
   "EKCH_A_TWR",
   "EKCH_W_APP",
   "EKCH_O_APP",
+  "EKCH_K_DEP",
+  "EKCH_R_DEP",
   "EKDK_I_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
   "EKDK_E_CTR",
+  "EKDK_A_CTR",
+  "EKDK_C_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -230,17 +226,21 @@ controlled_by = [
   "EKCH_A_GND",
   "EKCH_B_GND",
   "EKCH_C_GND",
-  "EKCH_A_TWR",
+  "EKCH_GW_TWR",
   "EKCH_D_TWR",
+  "EKCH_A_TWR",
   "EKCH_W_APP",
   "EKCH_O_APP",
+  "EKCH_K_DEP",
+  "EKCH_R_DEP",
   "EKDK_I_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
   "EKDK_E_CTR",
+  "EKDK_A_CTR",
+  "EKDK_C_CTR",
   "EKDK_UC_CTR",
   "EKDK_UN_CTR",
-  "EKDK_CTR",
 ]
 
 [[stations]]
@@ -249,17 +249,9 @@ controlled_by = [
   "EKCH_B_GND",
   "EKCH_C_GND",
   "EKCH_A_GND",
-  "EKCH_A_TWR",
+  "EKCH_GW_TWR",
   "EKCH_D_TWR",
-  "EKCH_W_APP",
-  "EKCH_O_APP",
-  "EKDK_I_CTR",
-  "EKDK_B_CTR",
-  "EKDK_D_CTR",
-  "EKDK_E_CTR",
-  "EKDK_UC_CTR",
-  "EKDK_UN_CTR",
-  "EKDK_CTR",
+  "EKCH_A_TWR",
 ]
 
 [[stations]]
@@ -268,17 +260,9 @@ controlled_by = [
   "EKCH_C_GND",
   "EKCH_B_GND",
   "EKCH_A_GND",
-  "EKCH_A_TWR",
+  "EKCH_GW_TWR",
   "EKCH_D_TWR",
-  "EKCH_W_APP",
-  "EKCH_O_APP",
-  "EKDK_I_CTR",
-  "EKDK_B_CTR",
-  "EKDK_D_CTR",
-  "EKDK_E_CTR",
-  "EKDK_UC_CTR",
-  "EKDK_UN_CTR",
-  "EKDK_CTR",
+  "EKCH_A_TWR",
 ]
 
 [[stations]]
@@ -298,8 +282,6 @@ controlled_by = [
   "EKDK_UA_CTR",
   "EKDK_UC_CTR",
   "EKDK_UN_CTR",
-  "EKDK_CTR",
-  "EKDK_UV_CTR",
 ]
 
 [[stations]]
@@ -312,9 +294,7 @@ controlled_by = [
   "EKDK_E_CTR",
   "EKDK_UA_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
   "EKDK_UN_CTR",
-  "EKDK_UV_CTR",
 ]
 
 [[stations]]
@@ -324,9 +304,7 @@ controlled_by = [
   "EKDK_A_CTR",
   "EKDK_UC_CTR",
   "EKDK_UA_CTR",
-  "EKDK_CTR",
   "EKDK_UN_CTR",
-  "EKDK_UV_CTR",
 ]
 
 [[stations]]
@@ -339,9 +317,7 @@ controlled_by = [
   "EKDK_B_CTR",
   "EKDK_UC_CTR",
   "EKDK_UA_CTR",
-  "EKDK_CTR",
   "EKDK_UN_CTR",
-  "EKDK_UV_CTR",
 ]
 
 [[stations]]
@@ -354,9 +330,7 @@ controlled_by = [
   "EKDK_B_CTR",
   "EKDK_UC_CTR",
   "EKDK_UA_CTR",
-  "EKDK_CTR",
   "EKDK_UN_CTR",
-  "EKDK_UV_CTR",
 ]
 
 [[stations]]
@@ -373,9 +347,7 @@ controlled_by = [
   "EKDK_E_CTR",
   "EKDK_UA_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
   "EKDK_UN_CTR",
-  "EKDK_UV_CTR",
 ]
 
 [[stations]]
@@ -383,30 +355,27 @@ id = "EKDKL"
 controlled_by = [
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
-  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
+  "EKDK_N_CTR",
 ]
 
 [[stations]]
 id = "EKDKUN"
 controlled_by = [
   "EKDK_N_CTR",
-  "EKDK_V_CTR",
-  "EKDK_CTR",
   "EKDK_UN_CTR",
   "EKDK_UV_CTR",
+  "EKDK_V_CTR",
 ]
 
 [[stations]]
 id = "EKDKN"
 controlled_by = [
   "EKDK_N_CTR",
-  "EKDK_V_CTR",
-  "EKDK_CTR",
   "EKDK_UN_CTR",
   "EKDK_UV_CTR",
+  "EKDK_V_CTR",
 ]
 
 [[stations]]
@@ -416,9 +385,7 @@ controlled_by = [
   "EKDK_A_CTR",
   "EKDK_C_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
   "EKDK_UN_CTR",
-  "EKDK_UV_CTR",
 ]
 
 [[stations]]
@@ -428,18 +395,16 @@ controlled_by = [
   "EKDK_C_CTR",
   "EKDK_A_CTR",
   "EKDK_UA_CTR",
-  "EKDK_CTR",
   "EKDK_UN_CTR",
-  "EKDK_UV_CTR",
 ]
 
 [[stations]]
 id = "EKDKUV"
-controlled_by = ["EKDK_UV_CTR", "EKDK_V_CTR", "EKDK_N_CTR", "EKDK_CTR"]
+controlled_by = ["EKDK_UV_CTR", "EKDK_V_CTR", "EKDK_UN_CTR", "EKDK_N_CTR"]
 
 [[stations]]
 id = "EKDKV"
-controlled_by = ["EKDK_V_CTR", "EKDK_N_CTR", "EKDK_CTR", "EKDK_UV_CTR"]
+controlled_by = ["EKDK_V_CTR", "EKDK_UV_CTR", "EKDK_UN_CTR", "EKDK_N_CTR"]
 
 [[stations]]
 id = "EKDKY"
@@ -452,9 +417,8 @@ controlled_by = [
   "EKBI_APP",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -464,9 +428,8 @@ controlled_by = [
   "EKKA_TWR",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -475,9 +438,8 @@ controlled_by = [
   "EKKA_APP",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -487,9 +449,8 @@ controlled_by = [
   "EKKA_APP",
   "EKDK_L_CTR",
   "EKDK_V_CTR",
-  "EKDK_N_CTR",
-  "EKDK_CTR",
   "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -497,13 +458,14 @@ id = "EKODTIA"
 controlled_by = [
   "EKOD_I_TWR",
   "EKDK_D_CTR",
+  "EKDK_C_CTR",
   "EKDK_I_CTR",
   "EKDK_E_CTR",
   "EKDK_B_CTR",
   "EKDK_UC_CTR",
+  "EKDK_A_CTR",
   "EKDK_UA_CTR",
-  "EKDK_CTR",
-  "EKDK_UV_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -516,11 +478,13 @@ controlled_by = [
   "EKCH_O_APP",
   "EKRK_TWR",
   "EKDK_I_CTR",
+  "EKDK_A_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_C_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -532,11 +496,13 @@ controlled_by = [
   "EKCH_W_APP",
   "EKCH_O_APP",
   "EKDK_I_CTR",
+  "EKDK_A_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_C_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -549,11 +515,13 @@ controlled_by = [
   "EKCH_W_APP",
   "EKCH_O_APP",
   "EKDK_I_CTR",
+  "EKDK_A_CTR",
   "EKDK_B_CTR",
   "EKDK_D_CTR",
   "EKDK_E_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_C_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -561,10 +529,10 @@ id = "EKRN TWR"
 controlled_by = [
   "EKRN_P_TWR",
   "EKDK_A_CTR",
-  "EKDK_C_CTR",
   "EKDK_UA_CTR",
   "EKDK_UC_CTR",
-  "EKDK_CTR",
+  "EKDK_C_CTR",
+  "EKDK_UN_CTR",
 ]
 
 [[stations]]
@@ -573,8 +541,7 @@ controlled_by = [
   "EKSB_I_TWR",
   "EKSP_APP",
   "EKDK_N_CTR",
-  "EKDK_V_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -584,8 +551,7 @@ controlled_by = [
   "EKSP_APP",
   "EKSP_TWR",
   "EKDK_N_CTR",
-  "EKDK_V_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -594,8 +560,7 @@ id = "EKSPAPP"
 controlled_by = [
   "EKSP_APP",
   "EKDK_N_CTR",
-  "EKDK_V_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -609,8 +574,7 @@ controlled_by = [
   "EKSP_TWR",
   "EKSP_APP",
   "EKDK_N_CTR",
-  "EKDK_V_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -620,7 +584,7 @@ controlled_by = [
   "EKVD_I_TWR",
   "EKSP_APP",
   "EKDK_N_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -632,7 +596,7 @@ controlled_by = [
   "EKDK_L_CTR",
   "EKDK_V_CTR",
   "EKDK_N_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -644,7 +608,7 @@ controlled_by = [
   "EKDK_L_CTR",
   "EKDK_V_CTR",
   "EKDK_N_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -655,7 +619,7 @@ controlled_by = [
   "EKDK_L_CTR",
   "EKDK_V_CTR",
   "EKDK_N_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]
 
@@ -671,6 +635,6 @@ controlled_by = [
   "EKDK_L_CTR",
   "EKDK_V_CTR",
   "EKDK_N_CTR",
-  "EKDK_CTR",
+  "EKDK_UN_CTR",
   "EKDK_UV_CTR",
 ]

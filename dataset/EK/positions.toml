@@ -6,6 +6,20 @@ facility_type = "FMP"
 profile_id = "EKDK-ACC"
 
 [[positions]]
+id = "EKDK_MIL_CTR"
+prefixes = ["EKDK"]
+frequency = "136.555"
+facility_type = "CTR"
+profile_id = "EKDK-ACC"
+
+[[positions]]
+id = "EKDK_CTR"
+prefixes = ["EKDK"]
+frequency = "136.555"
+facility_type = "FMP"
+profile_id = "EKDK-ACC"
+
+[[positions]]
 id = "EKCH_FMP"
 prefixes = ["EKCH"]
 frequency = "131.785"
@@ -23,13 +37,6 @@ profile_id = "EKDK-ACC"
 id = "EKDK_B_CTR"
 prefixes = ["EKDK"]
 frequency = "119.555"
-facility_type = "CTR"
-profile_id = "EKDK-ACC"
-
-[[positions]]
-id = "EKDK_CTR"
-prefixes = ["EKDK"]
-frequency = "136.555"
 facility_type = "CTR"
 profile_id = "EKDK-ACC"
 
@@ -69,10 +76,10 @@ facility_type = "FSS"
 profile_id = "EKDK-ACC"
 
 [[positions]]
-id = "EKCH_FW_CTR"
+id = "EKCH_FIS_APP"
 prefixes = ["EKDK"]
 frequency = "127.080"
-facility_type = "CTR"
+facility_type = "APP"
 profile_id = "EKDK-ACC"
 
 [[positions]]
@@ -195,7 +202,7 @@ facility_type = "APP"
 profile_id = "EKBI"
 
 [[positions]]
-id = "EKCH_F_APP"
+id = "EKCH_P_APP"
 prefixes = ["EKCH"]
 frequency = "120.205"
 facility_type = "APP"
@@ -216,7 +223,7 @@ facility_type = "APP"
 profile_id = "EKCH-TMA"
 
 [[positions]]
-id = "EKCH_P_APP"
+id = "EKCH_P2_APP"
 prefixes = ["EKCH"]
 frequency = "131.405"
 facility_type = "APP"
