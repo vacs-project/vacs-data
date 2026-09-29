@@ -8,7 +8,7 @@ profile_id = "EKDK-ACC"
 [[positions]]
 id = "EKDK_MIL_CTR"
 prefixes = ["EKDK"]
-frequency = "136.555"
+frequency = "129.875"
 facility_type = "CTR"
 profile_id = "EKDK-ACC"
 
