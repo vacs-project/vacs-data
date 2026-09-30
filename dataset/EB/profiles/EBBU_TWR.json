@@ -16,15 +16,15 @@
           },
           {
             "label": ["EBBR", "AIR 25R"],
-            "station_id": "EBBR-NTWR"
+            "station_id": "EBBR-N-TWR"
           },
           {
             "label": ["EBBR", "AIR 01"],
-            "station_id": "EBBR-TWR"
+            "station_id": "EBBR-S-TWR"
           },
           {
             "label": ["EBBR", "AIR 25L"],
-            "station_id": "EBBR-TWR"
+            "station_id": "EBBR-S-TWR"
           },
           {
             "label": []
