@@ -472,17 +472,17 @@
           {
             "label": ["EBBR", "AIR 25R"],
             "color": "lagoon",
-            "station_id": "EBBR-NTWR"
+            "station_id": "EBBR-N-TWR"
           },
           {
             "label": ["EBBR", "AIR 01"],
             "color": "lagoon",
-            "station_id": "EBBR-TWR"
+            "station_id": "EBBR-S-TWR"
           },
           {
             "label": ["EBBR", "AIR 25L"],
             "color": "lagoon",
-            "station_id": "EBBR-TWR"
+            "station_id": "EBBR-S-TWR"
           },
           {
             "label": ["EBAW", "AIR"],
