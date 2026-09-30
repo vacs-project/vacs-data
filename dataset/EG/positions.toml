@@ -2205,7 +2205,7 @@ profile_id = "EG-AC_West"
 [[positions]]
 id = "LON_9_CTR"
 prefixes = ["LON"]
-frequency = "132.950"
+frequency = "132.955"
 facility_type = "CTR"
 profile_id = "EG-AC_West"
 
