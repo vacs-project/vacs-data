@@ -186,28 +186,28 @@
     },
     {
       "id": "EBBR-N-GND",
-      "controlled_by": ["EBBR_GND", "EBBR_S_GND", "EBBR_C_GND"],
-      "parent_id": "EBBR-NTWR"
+      "controlled_by": ["EBBR_N_GND", "EBBR_S_GND", "EBBR_C_GND"],
+      "parent_id": "EBBR-S-TWR"
     },
     {
       "id": "EBBR-C-GND",
-      "controlled_by": ["EBBR_C_GND", "EBBR_GND", "EBBR_S_GND"],
-      "parent_id": "EBBR-NTWR"
+      "controlled_by": ["EBBR_C_GND", "EBBR_N_GND", "EBBR_S_GND"],
+      "parent_id": "EBBR-S-TWR"
     },
     {
       "id": "EBBR-S-GND",
-      "controlled_by": ["EBBR_S_GND", "EBBR_GND", "EBBR_C_GND"],
-      "parent_id": "EBBR-NTWR"
+      "controlled_by": ["EBBR_S_GND", "EBBR_N_GND", "EBBR_C_GND"],
+      "parent_id": "EBBR-S-TWR"
     },
     {
-      "id": "EBBR-NTWR",
-      "controlled_by": ["EBBR_N_TWR"],
-      "parent_id": "EBBR-TWR"
-    },
-    {
-      "id": "EBBR-TWR",
-      "controlled_by": ["EBBR_TWR", "EBBR_N_TWR"],
+      "id": "EBBR-N-TWR",
+      "controlled_by": ["EBBR_N_TWR", "EBBR_S_TWR"],
       "parent_id": "EBBR-APP"
+    },
+    {
+      "id": "EBBR-S-TWR",
+      "controlled_by": ["EBBR_S_TWR"],
+      "parent_id": "EBBR-N-TWR"
     },
     {
       "id": "EBBR-DEP",
