@@ -118,7 +118,9 @@
             "station_id": "EDGG-DKA"
           },
           {
-            "label": [""]
+            "label": ["EDDV", "APP"],
+            "color": "clay",
+            "station_id": "EDWW-HAN"
           },
           {
             "label": [""]
