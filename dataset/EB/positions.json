@@ -89,7 +89,7 @@
       "default_call_sources": ["EBBR-FMP"]
     },
     {
-      "id": "EBBR_GND",
+      "id": "EBBR_N_GND",
       "prefixes": ["EBBR"],
       "frequency": "118.055",
       "facility_type": "GND",
@@ -113,12 +113,12 @@
       "default_call_sources": ["EBBR-C-GND"]
     },
     {
-      "id": "EBBR_TWR",
+      "id": "EBBR_S_TWR",
       "prefixes": ["EBBR"],
       "frequency": "118.605",
       "facility_type": "TWR",
       "profile_id": "EBBR_TWR",
-      "default_call_sources": ["EBBR-TWR"]
+      "default_call_sources": ["EBBR-S-TWR"]
     },
     {
       "id": "EBBR_N_TWR",
@@ -126,7 +126,7 @@
       "frequency": "120.780",
       "facility_type": "TWR",
       "profile_id": "EBBR_TWR",
-      "default_call_sources": ["EBBR-NTWR"]
+      "default_call_sources": ["EBBR-N-TWR"]
     },
     {
       "id": "EBBR_DEP",
