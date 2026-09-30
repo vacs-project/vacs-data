@@ -104,7 +104,7 @@
             "label": [""]
           },
           {
-            "label": ["PFA", "APP"],
+            "label": ["EDDR", "APP"],
             "color": "clay",
             "station_id": "EDGG-PFA"
           },
@@ -125,7 +125,7 @@
             "station_id": "EDGG-KIR"
           },
           {
-            "label": ["EIF", "APP"],
+            "label": ["EDFH", "APP"],
             "color": "clay",
             "station_id": "EDGG-EIF"
           },
