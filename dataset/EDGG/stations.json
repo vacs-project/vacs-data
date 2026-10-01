@@ -507,7 +507,6 @@
       "id": "EDGG-DKA",
       "controlled_by": [
         "EDDK_APP",
-        "EDDK_F_APP",
         "EDDK_NOR_APP",
         "EDGG_KL_APP",
         "EDGG_N_CTR",
