@@ -6,7 +6,7 @@
     {
       "label": ["ESOS", ""],
       "page": {
-        "rows": 6,
+        "rows": 7,
         "keys": [
           {
             "label": ["OS", "YK"],
@@ -33,6 +33,9 @@
             "station_id": "ESAA_FMP"
           },
           {
+            "label": []
+          },
+          {
             "label": ["NQ", "TWR"],
             "station_id": "ESNQ_TWR"
           },
@@ -41,11 +44,14 @@
             "station_id": "ESUT_AFIS"
           },
           {
-            "label": ["NV", "AFIS"],
-            "station_id": "ESNL_AFIS"
+            "label": []
           },
           {
             "label": []
+          },
+          {
+            "label": ["NV", "AFIS"],
+            "station_id": "ESNV_AFIS"
           },
           {
             "label": ["NZ", "TWR"],
@@ -64,11 +70,14 @@
             "station_id": "ESNX_TWR"
           },
           {
-            "label": ["NL", "AFIS"],
-            "station_id": "ESNL_AFIS"
+            "label": []
           },
           {
             "label": []
+          },
+          {
+            "label": ["NL", "AFIS"],
+            "station_id": "ESNL_AFIS"
           },
           {
             "label": ["NK", "AFIS"],
@@ -84,6 +93,9 @@
           {
             "label": ["PA", "APP"],
             "station_id": "ESPA_APP"
+          },
+          {
+            "label": []
           },
           {
             "label": ["NS", "TWR"],
@@ -120,6 +132,9 @@
           },
           {
             "label": []
+          },
+          {
+            "label": []
           }
         ]
       }
@@ -127,7 +142,7 @@
     {
       "label": ["FIR"],
       "page": {
-        "rows": 6,
+        "rows": 7,
         "keys": [
           {
             "label": []
@@ -141,7 +156,11 @@
             "station_id": "ENBD-25"
           },
           {
-            "label": ["ENBD", "24/27"],
+            "label": ["ENBD", "27"],
+            "station_id": "ENBD-24/27"
+          },
+          {
+            "label": ["ENBD", "24"],
             "station_id": "ENBD-24/27"
           },
           {
@@ -151,6 +170,9 @@
           {
             "label": ["ENOS", "1"],
             "station_id": "ENOS-1"
+          },
+          {
+            "label": []
           },
           {
             "label": []
@@ -193,22 +215,6 @@
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["EFVA", "TWR"],
-            "station_id": "EFVA_TWR"
-          },
-          {
-            "label": []
-          },
-          {
             "label": ["EFIN", "FMP"],
             "station_id": "EFIN_FMP"
           },
@@ -227,6 +233,31 @@
           {
             "label": ["EFIN", "G"],
             "station_id": "EFIN_G"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFVA", "TWR"],
+            "station_id": "EFVA_TWR"
+          },
+          {
+            "label": []
           },
           {
             "label": []

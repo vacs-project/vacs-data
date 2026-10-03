@@ -621,7 +621,7 @@
       "prefixes": ["ESOS"],
       "frequency": "118.405",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_1",
       "default_call_sources": ["ESOS_1"]
     },
     {
@@ -629,7 +629,7 @@
       "prefixes": ["ESOS"],
       "frequency": "133.705",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Y",
       "default_call_sources": ["ESOS_2"]
     },
     {
@@ -645,7 +645,7 @@
       "prefixes": ["ESOS"],
       "frequency": "118.205",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Z",
       "default_call_sources": ["ESOS_4"]
     },
     {
@@ -653,7 +653,7 @@
       "prefixes": ["ESOS"],
       "frequency": "132.480",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Y",
       "default_call_sources": ["ESOS_6"]
     },
     {
@@ -661,7 +661,7 @@
       "prefixes": ["ESOS"],
       "frequency": "118.280",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Y",
       "default_call_sources": ["ESOS_7"]
     },
     {
@@ -669,7 +669,7 @@
       "prefixes": ["ESOS"],
       "frequency": "129.180",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_1",
       "default_call_sources": ["ESOS_8"]
     },
     {
@@ -677,7 +677,7 @@
       "prefixes": ["ESOS"],
       "frequency": "127.530",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Y",
       "default_call_sources": ["ESOS_9"]
     },
     {
@@ -685,7 +685,7 @@
       "prefixes": ["ESOS"],
       "frequency": "124.430",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Z",
       "default_call_sources": ["ESOS_F"]
     },
     {
@@ -693,7 +693,7 @@
       "prefixes": ["ESOS"],
       "frequency": "131.055",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Z",
       "default_call_sources": ["ESOS_K"]
     },
     {
@@ -701,7 +701,7 @@
       "prefixes": ["ESOS"],
       "frequency": "132.155",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Z",
       "default_call_sources": ["ESOS_N"]
     },
     {
@@ -709,7 +709,7 @@
       "prefixes": ["ESOS"],
       "frequency": "125.600",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Z",
       "default_call_sources": ["ESOS_XK"]
     },
     {
@@ -717,7 +717,7 @@
       "prefixes": ["ESOS"],
       "frequency": "133.455",
       "facility_type": "CTR",
-      "profile_id": "ESOS_ALL",
+      "profile_id": "ESOS_Z",
       "default_call_sources": ["ESOS_YK"]
     },
     {
