@@ -218,15 +218,55 @@
     },
     {
       "id": "ZJSY_L_CTR",
+      "parent_id": "ZJSY_CTR",
       "controlled_by": ["ZJSY_L_CTR"]
     },
     {
+      "id": "ZJSY_N_CTR",
+      "parent_id": "ZJSY_L_CTR",
+      "controlled_by": ["ZJSY_N_CTR"]
+    },
+    {
       "id": "ZJSY_O_CTR",
+      "parent_id": "ZJSY_CTR",
       "controlled_by": ["ZJSY_O_CTR"]
+    },
+    {
+      "id": "ZJSY_CTR",
+      "controlled_by": ["ZJSY_CTR"]
+    },
+    {
+      "id": "ZGNN_S_CTR",
+      "parent_id": "ZGNN_CTR",
+      "controlled_by": ["ZGNN_S_CTR"]
     },
     {
       "id": "ZGNN_CTR",
       "controlled_by": ["ZGNN_CTR"]
+    },
+    {
+      "id": "ZGGG_S_CTR",
+      "parent_id": "ZGGG_CTR",
+      "controlled_by": ["ZGGG_S_CTR"]
+    },
+    {
+      "id": "ZGGG_S1_CTR",
+      "parent_id": "ZGGG_S_CTR",
+      "controlled_by": ["ZGGG_S1_CTR"]
+    },
+    {
+      "id": "ZGGG_E_CTR",
+      "parent_id": "ZGGG_CTR",
+      "controlled_by": ["ZGGG_E_CTR"]
+    },
+    {
+      "id": "ZGGG_E1_CTR",
+      "parent_id": "ZGGG_E_CTR",
+      "controlled_by": ["ZGGG_E1_CTR"]
+    },
+    {
+      "id": "ZGGG_CTR",
+      "controlled_by": ["ZGGG_CTR"]
     },
     {
       "id": "ZGZJ_APP",
@@ -241,10 +281,6 @@
       "id": "ZGJD_APP",
       "parent_id": "ZGGG_CTR",
       "controlled_by": ["ZGJD_APP"]
-    },
-    {
-      "id": "ZGGG_CTR",
-      "controlled_by": ["ZGGG_CTR"]
     }
   ]
 }
