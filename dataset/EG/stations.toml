@@ -521,6 +521,7 @@ controlled_by = ["LTC_E_CTR"]
 
 [[stations]]
 id = "LTC_M_CTR"
+parent_id = "LON_M_CTR"
 controlled_by = ["LTC_M_CTR"]
 
 [[stations]]
