@@ -8,7 +8,7 @@
         "rows": 3,
         "keys": [
           {
-            "label": ["ACCU", "F350+"],
+            "label": ["ACCU", "350+"],
             "color": "mint",
             "station_id": "OKAC_U_CTR"
           },
@@ -23,7 +23,7 @@
             "station_id": "OKKK_FMP"
           },
           {
-            "label": ["ACCL", "F150-350"],
+            "label": ["ACCL"],
             "color": "mint",
             "station_id": "OKAC_CTR"
           },
