@@ -5,6 +5,7 @@
       "prefixes": ["ORBB"],
       "frequency": "199.998",
       "facility_type": "FMP",
+      "profile_id": "OR-FMP",
       "default_call_sources": ["ORBB_FMP"]
     },
     {
@@ -12,6 +13,7 @@
       "prefixes": ["ORBB"],
       "frequency": "199.998",
       "facility_type": "FMP",
+      "profile_id": "OR-FMP",
       "default_call_sources": ["ORBB_TMA_FMP"]
     },
     {
@@ -19,6 +21,7 @@
       "prefixes": ["ORBI"],
       "frequency": "199.998",
       "facility_type": "FMP",
+      "profile_id": "OR-FMP",
       "default_call_sources": ["ORBI_FMP"]
     },
     {
@@ -68,6 +71,7 @@
       "prefixes": ["BGD"],
       "frequency": "122.400",
       "facility_type": "APP",
+      "profile_id": "OR-BGD",
       "default_call_sources": ["BGD_APP"]
     },
     {
@@ -82,6 +86,7 @@
       "prefixes": ["ORBI"],
       "frequency": "126.575",
       "facility_type": "APP",
+      "profile_id": "OR-BGD",
       "default_call_sources": ["ORBI_F_APP"]
     },
     {
@@ -89,7 +94,16 @@
       "prefixes": ["ORBI"],
       "frequency": "118.900",
       "facility_type": "TWR",
+      "profile_id": "ORBI",
       "default_call_sources": ["ORBI_TWR"]
+    },
+    {
+      "id": "ORBI_GND",
+      "prefixes": ["ORBI"],
+      "frequency": "121.700",
+      "facility_type": "GND",
+      "profile_id": "ORBI",
+      "default_call_sources": ["ORBI_GND"]
     },
     {
       "id": "ORBM_TWR",
@@ -97,6 +111,13 @@
       "frequency": "120.200",
       "facility_type": "TWR",
       "default_call_sources": ["ORBM_TWR"]
+    },
+    {
+      "id": "ORBM_GND",
+      "prefixes": ["ORBM"],
+      "frequency": "126.700",
+      "facility_type": "GND",
+      "default_call_sources": ["ORBM_GND"]
     },
     {
       "id": "ORER_TWR",
@@ -113,46 +134,18 @@
       "default_call_sources": ["ORKK_TWR"]
     },
     {
-      "id": "ORMM_TWR",
-      "prefixes": ["ORMM"],
-      "frequency": "118.700",
-      "facility_type": "TWR",
-      "default_call_sources": ["ORMM_TWR"]
-    },
-    {
-      "id": "ORNI_TWR",
-      "prefixes": ["ORNI"],
-      "frequency": "119.100",
-      "facility_type": "TWR",
-      "default_call_sources": ["ORNI_TWR"]
-    },
-    {
-      "id": "ORSJ_TWR",
-      "prefixes": ["ORSJ"],
-      "frequency": "118.300",
-      "facility_type": "TWR",
-      "default_call_sources": ["ORSJ_TWR"]
-    },
-    {
-      "id": "ORBI_GND",
-      "prefixes": ["ORBI"],
-      "frequency": "121.700",
-      "facility_type": "GND",
-      "default_call_sources": ["ORBI_GND"]
-    },
-    {
-      "id": "ORBM_GND",
-      "prefixes": ["ORBM"],
-      "frequency": "126.700",
-      "facility_type": "GND",
-      "default_call_sources": ["ORBM_GND"]
-    },
-    {
       "id": "ORKK_GND",
       "prefixes": ["ORKK"],
       "frequency": "127.375",
       "facility_type": "GND",
       "default_call_sources": ["ORKK_GND"]
+    },
+    {
+      "id": "ORMM_TWR",
+      "prefixes": ["ORMM"],
+      "frequency": "118.700",
+      "facility_type": "TWR",
+      "default_call_sources": ["ORMM_TWR"]
     },
     {
       "id": "ORMM_GND",
@@ -162,11 +155,25 @@
       "default_call_sources": ["ORMM_GND"]
     },
     {
+      "id": "ORNI_TWR",
+      "prefixes": ["ORNI"],
+      "frequency": "119.100",
+      "facility_type": "TWR",
+      "default_call_sources": ["ORNI_TWR"]
+    },
+    {
       "id": "ORNI_GND",
       "prefixes": ["ORNI"],
       "frequency": "121.700",
       "facility_type": "GND",
       "default_call_sources": ["ORNI_GND"]
+    },
+    {
+      "id": "ORSJ_TWR",
+      "prefixes": ["ORSJ"],
+      "frequency": "118.300",
+      "facility_type": "TWR",
+      "default_call_sources": ["ORSJ_TWR"]
     }
   ]
 }

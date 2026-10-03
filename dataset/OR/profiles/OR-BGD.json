@@ -1,0 +1,123 @@
+{
+  "id": "OR-BGD",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ORBI"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["SMC"],
+            "station_id": "ORBI_GND"
+          },
+          {
+            "label": ["TWR"],
+            "station_id": "ORBI_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FMP"],
+            "color": "blush",
+            "station_id": "ORBI_FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TMA", "FMP"],
+            "color": "blush",
+            "station_id": "ORBB_TMA_FMP"
+          },
+          {
+            "label": ["FIN"],
+            "station_id": "ORBI_F_APP"
+          },
+          {
+            "label": ["TMA"],
+            "station_id": "BGD_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ACC", "NORTH", "LOW"],
+            "station_id": "ORBB_N_CTR"
+          },
+          {
+            "label": ["ACC", "SOUTH", "LOW"],
+            "station_id": "ORBB_S_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ORBB", "FMP"],
+            "color": "blush",
+            "station_id": "ORBB_FMP"
+          },
+          {
+            "label": ["FMP"],
+            "color": "blush",
+            "page": {
+              "rows": 3,
+              "keys": [
+                {
+                  "label": ["FMP", "LTAA"]
+                },
+                {
+                  "label": ["FMP", "OSTT"]
+                },
+                {
+                  "label": ["FMP", "OJAC"]
+                },
+                {
+                  "label": ["FMP", "OIIX"]
+                },
+                {
+                  "label": ["FMP", "OKAC"],
+                  "station_id": "OKAC_FMP"
+                },
+                {
+                  "label": ["FMP", "OEJD"]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
