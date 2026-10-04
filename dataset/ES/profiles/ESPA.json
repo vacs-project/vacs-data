@@ -26,7 +26,7 @@
             "label": []
           },
           {
-            "label": ["APP"],
+            "label": ["T21"],
             "station_id": "ESPA_APP"
           },
           {
@@ -50,7 +50,7 @@
             "label": []
           },
           {
-            "label": ["DIR"],
+            "label": ["P21"],
             "station_id": "ESPA_DIR"
           },
           {

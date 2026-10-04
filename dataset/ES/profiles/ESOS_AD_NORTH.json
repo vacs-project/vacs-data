@@ -91,7 +91,7 @@
             "station_id": "ESUP_AFIS"
           },
           {
-            "label": ["PA", "APP"],
+            "label": ["PA", "T21"],
             "station_id": "ESPA_APP"
           },
           {
@@ -117,7 +117,7 @@
             "label": []
           },
           {
-            "label": ["PA", "DIR"],
+            "label": ["PA", "P21"],
             "station_id": "ESPA_DIR"
           },
           {
