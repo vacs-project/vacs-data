@@ -169,7 +169,7 @@
             "station_id": "ESCF_TWR"
           },
           {
-            "label": ["ESCM", "T16"],
+            "label": ["CM", "T16"],
             "station_id": "ESCM_APP"
           },
           {
@@ -372,7 +372,7 @@
             "label": []
           },
           {
-            "label": ["ESDF", "T17"],
+            "label": ["DF", "T17"],
             "station_id": "ESDF_APP"
           },
           {
@@ -562,7 +562,7 @@
             "label": []
           },
           {
-            "label": ["ESMV", "T29"],
+            "label": ["MV", "T29"],
             "station_id": "ESMV_APP"
           },
           {

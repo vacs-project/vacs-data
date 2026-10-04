@@ -173,7 +173,7 @@
             "station_id": "ESCF_TWR"
           },
           {
-            "label": ["ESCM", "T16"],
+            "label": ["CM", "T16"],
             "station_id": "ESCM_APP"
           },
           {
@@ -376,7 +376,7 @@
             "label": []
           },
           {
-            "label": ["ESDF", "T17"],
+            "label": ["DF", "T17"],
             "station_id": "ESDF_APP"
           },
           {
@@ -549,7 +549,7 @@
             "label": []
           },
           {
-            "label": ["ESMV", "T29"],
+            "label": ["MV", "T29"],
             "station_id": "ESMV_APP"
           },
           {
@@ -560,7 +560,7 @@
             "label": []
           },
           {
-            "label": ["ESNJ", "T69"],
+            "label": ["NJ", "T69"],
             "station_id": "ESNJ_APP"
           },
           {
@@ -571,7 +571,7 @@
             "label": []
           },
           {
-            "label": ["ESPE", "T62"],
+            "label": ["PE", "T62"],
             "station_id": "ESPE_APP"
           },
           {
