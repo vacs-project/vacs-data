@@ -22,7 +22,7 @@
             "label": []
           },
           {
-            "label": ["APP"],
+            "label": ["T17"],
             "station_id": "ESDF_APP"
           },
           {
@@ -51,7 +51,7 @@
             "label": []
           },
           {
-            "label": ["DIR"],
+            "label": ["P17"],
             "station_id": "ESDF_DIR"
           },
           {

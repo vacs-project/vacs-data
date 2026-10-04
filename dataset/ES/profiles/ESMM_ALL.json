@@ -198,7 +198,7 @@
             "label": []
           },
           {
-            "label": ["IB", "APP"],
+            "label": ["ESIB", "T7"],
             "station_id": "ESIB_APP"
           },
           {
@@ -273,7 +273,7 @@
             "station_id": "ESMQ_TWR"
           },
           {
-            "label": ["DF", "APP"],
+            "label": ["ESDF", "T17"],
             "station_id": "ESDF_APP"
           }
         ]
@@ -582,7 +582,7 @@
             "label": []
           },
           {
-            "label": ["FR", "APP"],
+            "label": ["ESFR", "T37"],
             "station_id": "ESFR_APP"
           },
           {

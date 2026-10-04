@@ -121,7 +121,7 @@
             "station_id": "ESOS_YK"
           },
           {
-            "label": ["CM", "APP"],
+            "label": ["ESCM", "T16"],
             "station_id": "ESCM_APP"
           },
           {
@@ -195,7 +195,7 @@
             "station_id": "ESMM_XL"
           },
           {
-            "label": ["IB", "APP"],
+            "label": ["ESIB", "T7"],
             "station_id": "ESIB_APP"
           },
           {
@@ -387,7 +387,7 @@
             "label": []
           },
           {
-            "label": ["DF", "APP"],
+            "label": ["ESDF", "T17"],
             "station_id": "ESDF_APP"
           },
           {
