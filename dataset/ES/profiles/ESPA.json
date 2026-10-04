@@ -9,11 +9,11 @@
         "rows": 7,
         "keys": [
           {
-            "label": ["NJ", "APP"],
+            "label": ["ESNJ", "T69"],
             "station_id": "ESNJ_APP"
           },
           {
-            "label": ["PE", "APP"],
+            "label": ["ESPE", "T62"],
             "station_id": "ESPE_APP"
           },
           {

@@ -549,7 +549,7 @@
             "label": []
           },
           {
-            "label": ["MV", "APP"],
+            "label": ["ESMV", "T29"],
             "station_id": "ESMV_APP"
           },
           {
@@ -560,7 +560,7 @@
             "label": []
           },
           {
-            "label": ["NJ", "APP"],
+            "label": ["ESNJ", "T69"],
             "station_id": "ESNJ_APP"
           },
           {
@@ -571,7 +571,7 @@
             "label": []
           },
           {
-            "label": ["PE", "APP"],
+            "label": ["ESPE", "T62"],
             "station_id": "ESPE_APP"
           },
           {
