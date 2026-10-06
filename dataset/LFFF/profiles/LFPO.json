@@ -116,7 +116,7 @@
           {
             "label": ["TWR", "", ""],
             "color": "lagoon",
-            "station_id": "LFPG_BD_RMP"
+            "station_id": "LFPO_TWR"
           },
           {
             "label": ["LFPO", "", "ITM"],
