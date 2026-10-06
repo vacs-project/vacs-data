@@ -954,7 +954,7 @@ default_call_sources = [
 [[positions]]
 id = "LFPO_DEP"
 prefixes = ["LFPO"]
-frequency = "127.750"
+frequency = "127.755"
 facility_type = "DEP"
 profile_id = "LFPO"
 default_call_sources = [
@@ -1214,7 +1214,7 @@ default_call_sources = ["LFPM_SK_APP", "LFOQ_I_TWR", "LFOT_TWR"]
 [[positions]]
 id = "LFPO_APP"
 prefixes = ["LFPO"]
-frequency = "123.875"
+frequency = "123.885"
 facility_type = "APP"
 profile_id = "LFPO"
 default_call_sources = [
@@ -1232,7 +1232,7 @@ default_call_sources = [
 [[positions]]
 id = "LFPO_F_APP"
 prefixes = ["LFPO"]
-frequency = "124.450"
+frequency = "124.455"
 facility_type = "APP"
 profile_id = "LFPO"
 default_call_sources = ["LFPO_F_APP"]
@@ -1518,7 +1518,7 @@ default_call_sources = ["LFPN_TWR", "LFPN_I_TWR", "LFPN_GND"]
 [[positions]]
 id = "LFPO_TWR"
 prefixes = ["LFPO"]
-frequency = "118.700"
+frequency = "118.705"
 facility_type = "TWR"
 profile_id = "LFPO"
 default_call_sources = ["LFPO_TWR", "LFPO_GND", "LFPO_DEL"]
