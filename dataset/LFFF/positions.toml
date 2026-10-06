@@ -1214,7 +1214,7 @@ default_call_sources = ["LFPM_SK_APP", "LFOQ_I_TWR", "LFOT_TWR"]
 [[positions]]
 id = "LFPO_APP"
 prefixes = ["LFPO"]
-frequency = "123.885"
+frequency = "123.880"
 facility_type = "APP"
 profile_id = "LFPO"
 default_call_sources = [
