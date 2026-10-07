@@ -7,12 +7,14 @@ id = "LSAS_CTR"
 prefixes = ["LSAS"]
 frequency = "135.015"
 facility_type = "CTR"
+profile_id = "LSAS"
 
 [[positions]]
 id = "LSAS_I_CTR"
 prefixes = ["LSAS"]
 frequency = "124.700"
 facility_type = "CTR"
+profile_id = "LSAS"
 
 # LSAG
 
@@ -21,24 +23,28 @@ id = "LSAG_CTR"
 prefixes = ["LSAG"]
 frequency = "134.850"
 facility_type = "CTR"
+profile_id = "LSAG"
 
 [[positions]]
 id = "LSAG_E_CTR"
 prefixes = ["LSAG"]
 frequency = "128.905"
 facility_type = "CTR"
+profile_id = "LSAG"
 
 [[positions]]
 id = "LSAG_S_CTR"
 prefixes = ["LSAG"]
 frequency = "124.225"
 facility_type = "CTR"
+profile_id = "LSAG"
 
 [[positions]]
 id = "LSAG_N_CTR"
 prefixes = ["LSAG"]
 frequency = "134.030"
 facility_type = "CTR"
+profile_id = "LSAG"
 
 # LSAZ
 
@@ -47,30 +53,35 @@ id = "LSAZ_CTR"
 prefixes = ["LSAZ"]
 frequency = "133.050"
 facility_type = "CTR"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSAZ_S_CTR"
 prefixes = ["LSAZ"]
 frequency = "128.050"
 facility_type = "CTR"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSAZ_W_CTR"
 prefixes = ["LSAZ"]
 frequency = "135.680"
 facility_type = "CTR"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSAZ_E_CTR"
 prefixes = ["LSAZ"]
 frequency = "133.905"
 facility_type = "CTR"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSAZ_N_CTR"
 prefixes = ["LSAZ"]
 frequency = "136.155"
 facility_type = "CTR"
+profile_id = "LSAZ"
 
 #####
 ### Majors
@@ -83,24 +94,28 @@ id = "LSZH_APP"
 prefixes = ["LSZH"]
 frequency = "135.230"
 facility_type = "APP"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSZH_W_APP"
 prefixes = ["LSZH"]
 frequency = "130.560"
 facility_type = "APP"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSZH_F_APP"
 prefixes = ["LSZH"]
 frequency = "125.330"
 facility_type = "APP"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSZH_DEP"
 prefixes = ["LSZH"]
 frequency = "125.955"
 facility_type = "DEP"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSZH_TWR"
@@ -145,18 +160,21 @@ id = "LSGG_APP"
 prefixes = ["LSGG"]
 frequency = "136.255"
 facility_type = "APP"
+profile_id = "LSAG"
 
 [[positions]]
 id = "LSGG_F_APP"
 prefixes = ["LSGG"]
 frequency = "120.305"
 facility_type = "APP"
+profile_id = "LSAG"
 
 [[positions]]
 id = "LSGG_DEP"
 prefixes = ["LSGG"]
 frequency = "119.530"
 facility_type = "DEP"
+profile_id = "LSAG"
 
 [[positions]]
 id = "LSGG_TWR"
@@ -187,12 +205,14 @@ id = "LSFA_APP"
 prefixes = ["LSFA"]
 frequency = "119.925"
 facility_type = "APP"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSZR_TWR"
 prefixes = ["LSZR"]
 frequency = "135.430"
 facility_type = "TWR"
+profile_id = "LSAZ"
 
 # LSGC
 
@@ -287,12 +307,14 @@ id = "LSZA_TWR"
 prefixes = ["LSZA"]
 frequency = "120.250"
 facility_type = "TWR"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSZA_DEL"
 prefixes = ["LSZA"]
 frequency = "121.780"
 facility_type = "DEL"
+profile_id = "LSAZ"
 
 # LSZB & LSZG
 
