@@ -112,7 +112,7 @@
           {
             "label": ["LFPG", "N", "APP"],
             "color": "azure",
-            "station_id": "LFPG_F_APP"
+            "station_id": "LFPG_N_APP"
           },
           {
             "label": ["LFPG", "S", "APP"],
