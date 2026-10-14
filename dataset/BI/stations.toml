@@ -1,0 +1,194 @@
+# Reykjavik Control - South sectors
+
+[[stations]]
+id = "BIRD_S_U"
+controlled_by = ["BIRD_S3_CTR", "BIRD_S2_CTR", "BIRD_S1_CTR"]
+
+[[stations]]
+id = "BIRD_S_MU"
+controlled_by = ["BIRD_S2_CTR", "BIRD_S3_CTR", "BIRD_S1_CTR"]
+
+[[stations]]
+id = "BIRD_S_ML"
+controlled_by = ["BIRD_S2_CTR", "BIRD_S1_CTR", "BIRD_S3_CTR"]
+
+[[stations]]
+id = "BIRD_S_L"
+controlled_by = ["BIRD_S1_CTR", "BIRD_S2_CTR", "BIRD_S3_CTR"]
+
+# Reykjavik Control - East sectors
+
+[[stations]]
+id = "BIRD_E_U"
+parent_id = "BIRD_S_U"
+controlled_by = ["BIRD_E3_CTR", "BIRD_E2_CTR", "BIRD_E1_CTR"]
+
+[[stations]]
+id = "BIRD_E_MU"
+parent_id = "BIRD_S_MU"
+controlled_by = ["BIRD_E2_CTR", "BIRD_E3_CTR", "BIRD_E1_CTR"]
+
+[[stations]]
+id = "BIRD_E_ML"
+parent_id = "BIRD_S_ML"
+controlled_by = ["BIRD_E2_CTR", "BIRD_E1_CTR", "BIRD_E3_CTR"]
+
+[[stations]]
+id = "BIRD_E_L"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIRD_E1_CTR", "BIRD_E2_CTR", "BIRD_E3_CTR"]
+
+# Reykjavik Control - West sectors
+
+[[stations]]
+id = "BIRD_W_U"
+controlled_by = [
+  "BIRD_W3_CTR",
+  "BIRD_W2_CTR",
+  "BIRD_W1_CTR",
+  "BIRD_S3_CTR",
+  "BIRD_S2_CTR",
+  "BIRD_S1_CTR",
+  "BICC_FSS",
+]
+
+[[stations]]
+id = "BIRD_W_MU"
+controlled_by = [
+  "BIRD_W2_CTR",
+  "BIRD_W3_CTR",
+  "BIRD_W1_CTR",
+  "BIRD_S2_CTR",
+  "BIRD_S3_CTR",
+  "BIRD_S1_CTR",
+  "BICC_FSS",
+]
+
+[[stations]]
+id = "BIRD_W_ML"
+controlled_by = [
+  "BIRD_W2_CTR",
+  "BIRD_W1_CTR",
+  "BIRD_W3_CTR",
+  "BIRD_S2_CTR",
+  "BIRD_S1_CTR",
+  "BIRD_S3_CTR",
+  "BICC_FSS",
+]
+
+[[stations]]
+id = "BIRD_W_L"
+controlled_by = [
+  "BIRD_W1_CTR",
+  "BIRD_W2_CTR",
+  "BIRD_W3_CTR",
+  "BIRD_S1_CTR",
+  "BIRD_S2_CTR",
+  "BIRD_S3_CTR",
+  "BICC_FSS",
+]
+
+# Iceland Radio
+
+[[stations]]
+id = "BICC"
+controlled_by = ["BICC_FSS"]
+
+[[stations]]
+id = "BICC_N"
+controlled_by = ["BICC_2_FSS", "BICC_FSS"]
+
+[[stations]]
+id = "BICC_3"
+controlled_by = ["BICC_3_FSS", "BICC_FSS"]
+
+# Approach
+
+[[stations]]
+id = "BIKF_APP"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIKF_APP"]
+
+[[stations]]
+id = "BIKF_F_APP"
+parent_id = "BIKF_APP"
+controlled_by = ["BIKF_F_APP"]
+
+[[stations]]
+id = "BIRK_APP"
+parent_id = "BIKF_APP"
+controlled_by = ["BIRK_APP"]
+
+# Tower
+
+[[stations]]
+id = "BIKF_TWR"
+parent_id = "BIKF_APP"
+controlled_by = ["BIKF_TWR"]
+
+[[stations]]
+id = "BIRK_TWR"
+parent_id = "BIRK_APP"
+controlled_by = ["BIRK_TWR"]
+
+[[stations]]
+id = "BIAR_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIAR_TWR"]
+
+# Information (AFIS)
+
+[[stations]]
+id = "BIBD_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIBD_I_TWR"]
+
+[[stations]]
+id = "BIEG_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIEG_I_TWR"]
+
+[[stations]]
+id = "BIGJ_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIGJ_I_TWR"]
+
+[[stations]]
+id = "BIGR_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIGR_I_TWR"]
+
+[[stations]]
+id = "BIHN_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIHN_I_TWR"]
+
+[[stations]]
+id = "BIHU_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIHU_I_TWR"]
+
+[[stations]]
+id = "BIIS_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIIS_I_TWR"]
+
+[[stations]]
+id = "BIKR_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIKR_I_TWR"]
+
+[[stations]]
+id = "BITN_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BITN_I_TWR"]
+
+[[stations]]
+id = "BIVM_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIVM_I_TWR"]
+
+[[stations]]
+id = "BIVO_I_TWR"
+parent_id = "BIRD_S_L"
+controlled_by = ["BIVO_I_TWR"]

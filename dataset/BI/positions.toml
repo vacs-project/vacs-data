@@ -1,0 +1,244 @@
+[[positions]]
+id = "BIRD_S1_CTR"
+prefixes = ["BIRD"]
+frequency = "119.700"
+facility_type = "CTR"
+profile_id = "BIRD"
+default_call_sources = [
+  "BIRD_S_L",
+  "BIRD_E_L",
+  "BIRD_S_ML",
+  "BIRD_S_MU",
+  "BIRD_S_U",
+]
+
+[[positions]]
+id = "BIRD_S2_CTR"
+prefixes = ["BIRD"]
+frequency = "125.700"
+facility_type = "CTR"
+profile_id = "BIRD"
+default_call_sources = ["BIRD_S_ML", "BIRD_S_MU", "BIRD_E_ML", "BIRD_E_MU"]
+
+[[positions]]
+id = "BIRD_S3_CTR"
+prefixes = ["BIRD"]
+frequency = "128.600"
+facility_type = "CTR"
+profile_id = "BIRD"
+default_call_sources = ["BIRD_S_U", "BIRD_E_U"]
+
+[[positions]]
+id = "BIRD_E1_CTR"
+prefixes = ["BIRD"]
+frequency = "126.750"
+facility_type = "CTR"
+profile_id = "BIRD"
+default_call_sources = ["BIRD_E_L", "BIRD_E_ML", "BIRD_E_MU", "BIRD_E_U"]
+
+[[positions]]
+id = "BIRD_E2_CTR"
+prefixes = ["BIRD"]
+frequency = "132.200"
+facility_type = "CTR"
+profile_id = "BIRD"
+default_call_sources = ["BIRD_E_ML", "BIRD_E_MU"]
+
+[[positions]]
+id = "BIRD_E3_CTR"
+prefixes = ["BIRD"]
+frequency = "128.800"
+facility_type = "CTR"
+profile_id = "BIRD"
+default_call_sources = ["BIRD_E_U"]
+
+[[positions]]
+id = "BIRD_W1_CTR"
+prefixes = ["BIRD"]
+frequency = "124.400"
+facility_type = "CTR"
+profile_id = "BIRD"
+default_call_sources = ["BIRD_W_L", "BIRD_W_ML", "BIRD_W_MU", "BIRD_W_U"]
+
+[[positions]]
+id = "BIRD_W2_CTR"
+prefixes = ["BIRD"]
+frequency = "127.500"
+facility_type = "CTR"
+profile_id = "BIRD"
+default_call_sources = ["BIRD_W_ML", "BIRD_W_MU"]
+
+[[positions]]
+id = "BIRD_W3_CTR"
+prefixes = ["BIRD"]
+frequency = "128.200"
+facility_type = "CTR"
+profile_id = "BIRD"
+default_call_sources = ["BIRD_W_U"]
+
+[[positions]]
+id = "BIRD_N1_CTR"
+prefixes = ["BIRD"]
+frequency = "131.100"
+facility_type = "CTR"
+profile_id = "BIRD"
+
+[[positions]]
+id = "BICC_FSS"
+prefixes = ["BICC"]
+frequency = "127.850"
+facility_type = "FSS"
+profile_id = "BIRD"
+default_call_sources = ["BICC", "BICC_N", "BICC_3"]
+
+[[positions]]
+id = "BICC_2_FSS"
+prefixes = ["BICC"]
+frequency = "126.550"
+facility_type = "FSS"
+profile_id = "BIRD"
+default_call_sources = ["BICC_N"]
+
+[[positions]]
+id = "BICC_3_FSS"
+prefixes = ["BICC"]
+frequency = "129.625"
+facility_type = "FSS"
+profile_id = "BIRD"
+default_call_sources = ["BICC_3"]
+
+[[positions]]
+id = "BIKF_APP"
+prefixes = ["BIKF"]
+frequency = "119.300"
+facility_type = "APP"
+profile_id = "BIRD"
+default_call_sources = ["BIKF_APP", "BIRK_APP", "BIKF_F_APP"]
+
+[[positions]]
+id = "BIKF_F_APP"
+prefixes = ["BIKF"]
+frequency = "119.150"
+facility_type = "APP"
+profile_id = "BIRD"
+default_call_sources = ["BIKF_F_APP"]
+
+[[positions]]
+id = "BIRK_APP"
+prefixes = ["BIRK"]
+frequency = "119.000"
+facility_type = "APP"
+profile_id = "BIRD"
+default_call_sources = ["BIRK_APP"]
+
+[[positions]]
+id = "BIKF_TWR"
+prefixes = ["BIKF"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIKF_TWR"]
+
+[[positions]]
+id = "BIRK_TWR"
+prefixes = ["BIRK"]
+frequency = "118.000"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIRK_TWR"]
+
+[[positions]]
+id = "BIAR_TWR"
+prefixes = ["BIAR"]
+frequency = "118.200"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIAR_TWR"]
+
+[[positions]]
+id = "BIBD_I_TWR"
+prefixes = ["BIBD"]
+frequency = "119.100"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIBD_I_TWR"]
+
+[[positions]]
+id = "BIEG_I_TWR"
+prefixes = ["BIEG"]
+frequency = "119.400"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIEG_I_TWR"]
+
+[[positions]]
+id = "BIGJ_I_TWR"
+prefixes = ["BIGJ"]
+frequency = "118.600"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIGJ_I_TWR"]
+
+[[positions]]
+id = "BIGR_I_TWR"
+prefixes = ["BIGR"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIGR_I_TWR"]
+
+[[positions]]
+id = "BIHN_I_TWR"
+prefixes = ["BIHN"]
+frequency = "119.100"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIHN_I_TWR"]
+
+[[positions]]
+id = "BIHU_I_TWR"
+prefixes = ["BIHU"]
+frequency = "119.200"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIHU_I_TWR"]
+
+[[positions]]
+id = "BIIS_I_TWR"
+prefixes = ["BIIS"]
+frequency = "118.800"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIIS_I_TWR"]
+
+[[positions]]
+id = "BIKR_I_TWR"
+prefixes = ["BIKR"]
+frequency = "119.100"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIKR_I_TWR"]
+
+[[positions]]
+id = "BITN_I_TWR"
+prefixes = ["BITN"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BITN_I_TWR"]
+
+[[positions]]
+id = "BIVM_I_TWR"
+prefixes = ["BIVM"]
+frequency = "118.500"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIVM_I_TWR"]
+
+[[positions]]
+id = "BIVO_I_TWR"
+prefixes = ["BIVO"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "BIRD"
+default_call_sources = ["BIVO_I_TWR"]

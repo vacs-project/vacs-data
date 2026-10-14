@@ -1,0 +1,165 @@
+{
+  "id": "BGGL",
+  "type": "Tabbed",
+  "view": "split",
+  "tabs": [
+    {
+      "label": ["Nuuk"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BGGL", "Nuuk", "Info"],
+            "color": "steel",
+            "station_id": "BGGL"
+          },
+          {
+            "label": ["BGGL S", "Nuuk", "Info"],
+            "color": "steel",
+            "station_id": "BGGL_S"
+          },
+          {
+            "label": ["BGSF", "APP"],
+            "color": "lagoon",
+            "station_id": "BGSF_APP"
+          },
+          {
+            "label": ["BGSF", "TWR"],
+            "color": "lilac",
+            "station_id": "BGSF_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BGTL", "APP"],
+            "color": "lagoon",
+            "station_id": "BGTL_APP"
+          },
+          {
+            "label": ["BGTL", "TWR"],
+            "color": "lilac",
+            "station_id": "BGTL_TWR"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["AFIS"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BGAA", "Aasiaat"],
+            "color": "taupe",
+            "station_id": "BGAA_I_TWR"
+          },
+          {
+            "label": ["BGBW", "Narsarsuaq"],
+            "color": "taupe",
+            "station_id": "BGBW_I_TWR"
+          },
+          {
+            "label": ["BGCO", "Constable Pynt"],
+            "color": "taupe",
+            "station_id": "BGCO_I_TWR"
+          },
+          {
+            "label": ["BGGH", "Nuuk"],
+            "color": "taupe",
+            "station_id": "BGGH_I_TWR"
+          },
+          {
+            "label": ["BGJN", "Ilulissat"],
+            "color": "taupe",
+            "station_id": "BGJN_I_TWR"
+          },
+          {
+            "label": ["BGKK", "Kulusuk"],
+            "color": "taupe",
+            "station_id": "BGKK_I_TWR"
+          },
+          {
+            "label": ["BGMQ", "Maniitsoq"],
+            "color": "taupe",
+            "station_id": "BGMQ_I_TWR"
+          },
+          {
+            "label": ["BGPT", "Paamiut"],
+            "color": "taupe",
+            "station_id": "BGPT_I_TWR"
+          },
+          {
+            "label": ["BGQQ", "Qaanaaq"],
+            "color": "taupe",
+            "station_id": "BGQQ_I_TWR"
+          },
+          {
+            "label": ["BGSS", "Sisimiut"],
+            "color": "taupe",
+            "station_id": "BGSS_I_TWR"
+          },
+          {
+            "label": ["BGUK", "Upernavik"],
+            "color": "taupe",
+            "station_id": "BGUK_I_TWR"
+          },
+          {
+            "label": ["BGUQ", "Qaarsut"],
+            "color": "taupe",
+            "station_id": "BGUQ_I_TWR"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ADJ"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BICC", "Iceland", "Radio"],
+            "color": "mint",
+            "station_id": "BICC"
+          },
+          {
+            "label": ["BICC", "Oceanic N"],
+            "color": "mint",
+            "station_id": "BICC_N"
+          },
+          {
+            "label": ["BIRD W", "FL345-"],
+            "color": "azure",
+            "station_id": "BIRD_W_L"
+          },
+          {
+            "label": ["BIRD W", "FL365+"],
+            "color": "azure",
+            "station_id": "BIRD_W_U"
+          },
+          {
+            "label": ["BIRD S", "FL345-"],
+            "color": "azure",
+            "station_id": "BIRD_S_L"
+          },
+          {
+            "label": ["CZQX", "Gander"],
+            "color": "cadet",
+            "station_id": "Gander"
+          },
+          {
+            "label": ["CZEG", "Edmonton"],
+            "color": "cadet",
+            "station_id": "CZEG-CTR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

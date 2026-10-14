@@ -1,0 +1,251 @@
+{
+  "id": "BIRD",
+  "type": "Tabbed",
+  "view": "split",
+  "tabs": [
+    {
+      "label": ["ACC"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BIRD S", "FL365+"],
+            "color": "azure",
+            "station_id": "BIRD_S_U"
+          },
+          {
+            "label": ["BIRD S", "FL355-365"],
+            "color": "azure",
+            "station_id": "BIRD_S_MU"
+          },
+          {
+            "label": ["BIRD S", "FL345-355"],
+            "color": "azure",
+            "station_id": "BIRD_S_ML"
+          },
+          {
+            "label": ["BIRD S", "FL345-"],
+            "color": "azure",
+            "station_id": "BIRD_S_L"
+          },
+          {
+            "label": ["BIRD E", "FL365+"],
+            "color": "azure",
+            "station_id": "BIRD_E_U"
+          },
+          {
+            "label": ["BIRD E", "FL355-365"],
+            "color": "azure",
+            "station_id": "BIRD_E_MU"
+          },
+          {
+            "label": ["BIRD E", "FL345-355"],
+            "color": "azure",
+            "station_id": "BIRD_E_ML"
+          },
+          {
+            "label": ["BIRD E", "FL345-"],
+            "color": "azure",
+            "station_id": "BIRD_E_L"
+          },
+          {
+            "label": ["BIRD W", "FL365+"],
+            "color": "azure",
+            "station_id": "BIRD_W_U"
+          },
+          {
+            "label": ["BIRD W", "FL355-365"],
+            "color": "azure",
+            "station_id": "BIRD_W_MU"
+          },
+          {
+            "label": ["BIRD W", "FL345-355"],
+            "color": "azure",
+            "station_id": "BIRD_W_ML"
+          },
+          {
+            "label": ["BIRD W", "FL345-"],
+            "color": "azure",
+            "station_id": "BIRD_W_L"
+          },
+          {
+            "label": ["BICC", "Iceland", "Radio"],
+            "color": "mint",
+            "station_id": "BICC"
+          },
+          {
+            "label": ["BICC", "Oceanic N"],
+            "color": "mint",
+            "station_id": "BICC_N"
+          },
+          {
+            "label": ["BICC", "Radio 3"],
+            "color": "mint",
+            "station_id": "BICC_3"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["APP", "TWR"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BIKF", "APP"],
+            "color": "lagoon",
+            "station_id": "BIKF_APP"
+          },
+          {
+            "label": ["BIKF", "Final"],
+            "color": "lagoon",
+            "station_id": "BIKF_F_APP"
+          },
+          {
+            "label": ["BIRK", "APP"],
+            "color": "lagoon",
+            "station_id": "BIRK_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BIKF", "TWR"],
+            "color": "lilac",
+            "station_id": "BIKF_TWR"
+          },
+          {
+            "label": ["BIRK", "TWR"],
+            "color": "lilac",
+            "station_id": "BIRK_TWR"
+          },
+          {
+            "label": ["BIAR", "TWR"],
+            "color": "lilac",
+            "station_id": "BIAR_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["AFIS"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BIBD", "Bildudalur"],
+            "color": "taupe",
+            "station_id": "BIBD_I_TWR"
+          },
+          {
+            "label": ["BIEG", "Egilsstadir"],
+            "color": "taupe",
+            "station_id": "BIEG_I_TWR"
+          },
+          {
+            "label": ["BIGJ", "Gjogur"],
+            "color": "taupe",
+            "station_id": "BIGJ_I_TWR"
+          },
+          {
+            "label": ["BIGR", "Grimsey"],
+            "color": "taupe",
+            "station_id": "BIGR_I_TWR"
+          },
+          {
+            "label": ["BIHN", "Hornafjordur"],
+            "color": "taupe",
+            "station_id": "BIHN_I_TWR"
+          },
+          {
+            "label": ["BIHU", "Husavik"],
+            "color": "taupe",
+            "station_id": "BIHU_I_TWR"
+          },
+          {
+            "label": ["BIIS", "Isafjordur"],
+            "color": "taupe",
+            "station_id": "BIIS_I_TWR"
+          },
+          {
+            "label": ["BIKR", "Saudarkrokur"],
+            "color": "taupe",
+            "station_id": "BIKR_I_TWR"
+          },
+          {
+            "label": ["BITN", "Thorshofn"],
+            "color": "taupe",
+            "station_id": "BITN_I_TWR"
+          },
+          {
+            "label": ["BIVM", "Vestmannaeyjar"],
+            "color": "taupe",
+            "station_id": "BIVM_I_TWR"
+          },
+          {
+            "label": ["BIVO", "Vopnafjordur"],
+            "color": "taupe",
+            "station_id": "BIVO_I_TWR"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["ADJ"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BGGL", "Nuuk", "Info"],
+            "color": "steel",
+            "station_id": "BGGL"
+          },
+          {
+            "label": ["BGGL S", "Nuuk", "Info"],
+            "color": "steel",
+            "station_id": "BGGL_S"
+          },
+          {
+            "label": ["BGSF", "APP"],
+            "color": "steel",
+            "station_id": "BGSF_APP"
+          },
+          {
+            "label": ["BGTL", "APP"],
+            "color": "steel",
+            "station_id": "BGTL_APP"
+          },
+          {
+            "label": ["EGGX", "Shanwick"],
+            "color": "cadet",
+            "station_id": "Shanwick"
+          },
+          {
+            "label": ["CZQX", "Gander"],
+            "color": "cadet",
+            "station_id": "Gander"
+          },
+          {
+            "label": ["ENOB", "Bodo", "Oceanic"],
+            "color": "cadet",
+            "station_id": "ENOB"
+          },
+          {
+            "label": ["SCO", "N"],
+            "color": "cadet",
+            "station_id": "SCO_N_CTR"
+          }
+        ]
+      }
+    }
+  ]
+}

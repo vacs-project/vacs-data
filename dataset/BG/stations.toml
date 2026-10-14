@@ -1,0 +1,99 @@
+# Nuuk Information
+
+[[stations]]
+id = "BGGL"
+parent_id = "BICC"
+controlled_by = ["BGGL_FSS", "BGGL_S_FSS"]
+
+[[stations]]
+id = "BGGL_S"
+parent_id = "BICC"
+controlled_by = ["BGGL_S_FSS", "BGGL_FSS"]
+
+# Sondrestrom
+
+[[stations]]
+id = "BGSF_APP"
+parent_id = "BIRD_W_L"
+controlled_by = ["BGSF_APP", "BGGL_S_FSS", "BGGL_FSS"]
+
+[[stations]]
+id = "BGSF_TWR"
+parent_id = "BGSF_APP"
+controlled_by = ["BGSF_TWR"]
+
+# Thule
+
+[[stations]]
+id = "BGTL_APP"
+parent_id = "BGGL"
+controlled_by = ["BGTL_APP"]
+
+[[stations]]
+id = "BGTL_TWR"
+parent_id = "BGTL_APP"
+controlled_by = ["BGTL_TWR"]
+
+# AFIS - North
+
+[[stations]]
+id = "BGAA_I_TWR"
+parent_id = "BGGL"
+controlled_by = ["BGAA_I_TWR"]
+
+[[stations]]
+id = "BGCO_I_TWR"
+parent_id = "BGGL"
+controlled_by = ["BGCO_I_TWR"]
+
+[[stations]]
+id = "BGJN_I_TWR"
+parent_id = "BGGL"
+controlled_by = ["BGJN_I_TWR"]
+
+[[stations]]
+id = "BGKK_I_TWR"
+parent_id = "BGGL"
+controlled_by = ["BGKK_I_TWR"]
+
+[[stations]]
+id = "BGQQ_I_TWR"
+parent_id = "BGGL"
+controlled_by = ["BGQQ_I_TWR"]
+
+[[stations]]
+id = "BGSS_I_TWR"
+parent_id = "BGGL"
+controlled_by = ["BGSS_I_TWR"]
+
+[[stations]]
+id = "BGUK_I_TWR"
+parent_id = "BGGL"
+controlled_by = ["BGUK_I_TWR"]
+
+[[stations]]
+id = "BGUQ_I_TWR"
+parent_id = "BGGL"
+controlled_by = ["BGUQ_I_TWR"]
+
+# AFIS - South
+
+[[stations]]
+id = "BGBW_I_TWR"
+parent_id = "BGGL_S"
+controlled_by = ["BGBW_I_TWR"]
+
+[[stations]]
+id = "BGGH_I_TWR"
+parent_id = "BGGL_S"
+controlled_by = ["BGGH_I_TWR"]
+
+[[stations]]
+id = "BGMQ_I_TWR"
+parent_id = "BGGL_S"
+controlled_by = ["BGMQ_I_TWR"]
+
+[[stations]]
+id = "BGPT_I_TWR"
+parent_id = "BGGL_S"
+controlled_by = ["BGPT_I_TWR"]
