@@ -11,6 +11,8 @@ CONTRIBUTING.md @vacs-project/maintainers
 # Dataset owners
 /dataset/ADR/ @vacs-project/dataset-maintainers-adr
 /dataset/AFRX/ @vacs-project/dataset-maintainers-afrx
+/dataset/BG/ @vacs-project/dataset-maintainers-bg
+/dataset/BI/ @vacs-project/dataset-maintainers-bi
 /dataset/CARX/ @vacs-project/dataset-maintainers-vcmc @vacs-project/dataset-maintainers-tncf
 /dataset/CZEG/ @vacs-project/dataset-maintainers-czeg
 /dataset/CZQM/ @vacs-project/dataset-maintainers-czqm
