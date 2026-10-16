@@ -1,0 +1,588 @@
+{
+  "id": "LSAZ",
+  "type": "Geo",
+  "direction": "row",
+  "padding": 0.25,
+  "justify_content": "space-between",
+  "children": [
+    {
+      "direction": "col",
+      "height": "100%",
+      "justify_content": "space-evenly",
+      "children": [
+        {
+          "label": ["LFSB"],
+          "color": "cadet",
+          "size": 5,
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["LFSB", "C APP"],
+                "station_id": "LFSB_C_APP"
+              },
+              {
+                "label": ["LFSB", "APP"],
+                "station_id": "LFSB_APP"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["LFSB", "TWR"],
+                "station_id": "LFSB_TWR"
+              },
+              {
+                "label": ["LFSB", "GND"],
+                "station_id": "LFSB_GND"
+              },
+              {
+                "label": ["LFSB", "DEL"],
+                "station_id": "LFSB_DEL"
+              }
+            ]
+          }
+        },
+        {
+          "label": ["LSAS"],
+          "color": "blush",
+          "size": 5,
+          "page": {
+            "rows": 2,
+            "keys": [
+              {
+                "label": ["LSAS", "CTR"],
+                "station_id": "LSAS_CTR"
+              },
+              {
+                "label": ["LSAS", "I_CTR"],
+                "station_id": "LSAS_I_CTR"
+              }
+            ]
+          }
+        },
+        {
+          "label": ["LSZB", "LSZG"],
+          "color": "snow",
+          "size": 5,
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["LSZB", "APP"],
+                "station_id": "LSZB_APP"
+              },
+              {
+                "label": ["LSZB", "TWR"],
+                "station_id": "LSZB_TWR"
+              },
+              {
+                "label": ["LSZB", "DEL"],
+                "station_id": "LSZB_DEL"
+              },
+              {
+                "label": ["LSZG", "TWR"],
+                "station_id": "LSZG_TWR"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              }
+            ]
+          }
+        },
+        {
+          "label": ["LSAG"],
+          "color": "blush",
+          "size": 5,
+          "page": {
+            "rows": 2,
+            "keys": [
+              {
+                "label": ["LSAG", "CTR"],
+                "station_id": "LSAG_CTR"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["LSAG", "E CTR"],
+                "station_id": "LSAG_E_CTR"
+              },
+              {
+                "label": ["LSAG", "S CTR"],
+                "station_id": "LSAG_S_CTR"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["LSAG", "N CTR"],
+                "station_id": "LSAG_N_CTR"
+              },
+              {
+                "label": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "height": "100%",
+      "width": "100%",
+      "justify_content": "space-between",
+      "children": [
+        {
+          "direction": "row",
+          "justify_content": "space-evenly",
+          "children": [
+            {
+              "label": ["LFEE"],
+              "color": "azure",
+              "size": 5,
+              "page": {
+                "rows": 4,
+                "client_page": {
+                  "include": [
+                    "LFSB_C_APP",
+                    "LFEE_UE_CTR",
+                    "LFEE_XE_CTR",
+                    "LFEE_KE_CTR",
+                    "LFEE_HE_CTR",
+                    "LFEE_UH_CTR",
+                    "LFEE_XH_CTR",
+                    "LFEE_KH_CTR",
+                    "LFEE_HH_CTR",
+                    "LFEE_4EH_CTR",
+                    "LFEE_RME_CTR",
+                    "LFEE_CTR",
+                    "PAR_CTR"
+                  ],
+                  "grouping": "None"
+                }
+              }
+            },
+            {
+              "label": ["EDGG"],
+              "color": "clay",
+              "size": 5,
+              "page": {
+                "rows": 4,
+                "client_page": {
+                  "include": [
+                    "EDDS_REU_APP",
+                    "EDDS_STG_APP",
+                    "EDDG_LBU_CTR",
+                    "EDDG_BAD_CTR",
+                    "EDDG_BAH_CTR",
+                    "EDDG_S_CTR",
+                    "EDDG_SA_CTR",
+                    "EDDG_SH_CTR",
+                    "EDDG_CS_CTR",
+                    "EDDG_CSH_CTR"
+                  ],
+                  "grouping": "None"
+                }
+              }
+            },
+            {
+              "label": ["EDUU"],
+              "color": "clay",
+              "size": 5,
+              "page": {
+                "rows": 4,
+                "client_page": {
+                  "include": [
+                    "EDUU_TGO_CTR",
+                    "EDUU_SLN_CTR",
+                    "EDUU_W_CTR",
+                    "EDUU_CW_CTR",
+                    "EDUU_ALP_CTR",
+                    "EDUU_AMM_CTR"
+                  ],
+                  "grouping": "None"
+                }
+              }
+            },
+            {
+              "label": ["EDMM"],
+              "color": "clay",
+              "size": 5,
+              "page": {
+                "rows": 4,
+                "client_page": {
+                  "include": [
+                    "EDMM_FUE_CTR",
+                    "EDMM_ZUG_CTR",
+                    "EDMM_STA_CTR",
+                    "EDMM_TRU_CTR",
+                    "EDMM_RDG_CTR"
+                  ],
+                  "grouping": "None"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "direction": "col",
+          "align_items": "center",
+          "gap": 0.25,
+          "children": [
+            {
+              "direction": "row",
+              "gap": 0.25,
+              "children": [
+                {
+                  "label": ["LSAZ", "N CTR"],
+                  "color": "lilac",
+                  "size": 6,
+                  "station_id": "LSAZ_N_CTR"
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "gap": 0.25,
+              "children": [
+                {
+                  "label": ["LSAZ", "W CTR"],
+                  "color": "lilac",
+                  "size": 6,
+                  "station_id": "LSAZ_W_CTR"
+                },
+                {
+                  "label": ["LSAZ", "CTR"],
+                  "color": "lilac",
+                  "size": 6,
+                  "station_id": "LSAZ_CTR"
+                },
+                {
+                  "label": ["LSZH"],
+                  "color": "snow",
+                  "size": 6,
+                  "page": {
+                    "rows": 3,
+                    "keys": [
+                      {
+                        "label": ["LSZH", "APP"],
+                        "station_id": "LSZH_APP"
+                      },
+                      {
+                        "label": ["LSZH", "W APP"],
+                        "station_id": "LSZH_W_APP"
+                      },
+                      {
+                        "label": ["LSZH", "DEP"],
+                        "station_id": "LSZH_DEP"
+                      },
+                      {
+                        "label": ["LSZH", "TWR"],
+                        "station_id": "LSZH_TWR"
+                      },
+                      {
+                        "label": ["LSZH", "TWR 2"],
+                        "station_id": "LSZH_2_TWR"
+                      },
+                      {
+                        "label": []
+                      },
+                      {
+                        "label": ["LSZH", "S GND"],
+                        "station_id": "LSZH_S_GND"
+                      },
+                      {
+                        "label": ["LSZH", "N GND"],
+                        "station_id": "LSZH_N_GND"
+                      },
+                      {
+                        "label": []
+                      },
+                      {
+                        "label": ["LSZH", "DEL"],
+                        "station_id": "LSZH_DEL"
+                      },
+                      {
+                        "label": []
+                      },
+                      {
+                        "label": []
+                      },
+                      {
+                        "label": []
+                      },
+                      {
+                        "label": []
+                      },
+                      {
+                        "label": []
+                      },
+                      {
+                        "label": ["LSMD", "APP"],
+                        "station_id": "LSMD_APP"
+                      },
+                      {
+                        "label": ["LSMD", "TWR"],
+                        "station_id": "LSMD_TWR"
+                      },
+                      {
+                        "label": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": ["LSAZ", "E CTR"],
+                  "color": "lilac",
+                  "size": 6,
+                  "station_id": "LSAZ_E_CTR"
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "gap": 0.25,
+              "children": [
+                {
+                  "label": ["LSAZ", "S CTR"],
+                  "color": "lilac",
+                  "size": 6,
+                  "station_id": "LSAZ_S_CTR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "justify_content": "space-evenly",
+          "children": [
+            {
+              "label": ["LIMM"],
+              "color": "mint",
+              "size": 5,
+              "page": {
+                "rows": 6,
+                "client_page": {
+                  "include": [
+                    "LIMM_ANW_APP",
+                    "LIMM_ANE_APP",
+                    "LIMM_EN2_CTR",
+                    "LIMM_WS2_CTR",
+                    "LIMM_ES5_CTR",
+                    "LIMM_WS5_CTR",
+                    "LIMM_U_CTR"
+                  ],
+                  "grouping": "None"
+                }
+              }
+            },
+            {
+              "label": ["LSZA"],
+              "color": "snow",
+              "size": 5,
+              "page": {
+                "rows": 2,
+                "keys": [
+                  {
+                    "label": ["LIMM", "ANE APP"],
+                    "station_id": "LIMM-ANE"
+                  },
+                  {
+                    "label": ["LIMM", "ANW APP"],
+                    "station_id": "LIMM-ANW"
+                  },
+                  {
+                    "label": ["LSZA", "TWR"],
+                    "station_id": "LSZA_TWR"
+                  },
+                  {
+                    "label": ["LSZA", "DEL"],
+                    "station_id": "LSZA_DEL"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["LIPP"],
+              "color": "mint",
+              "size": 5,
+              "page": {
+                "rows": 6,
+                "client_page": {
+                  "include": [
+                    "LIPP_NW1_CTR",
+                    "LIPP_CW3_CTR",
+                    "LIPP_CE1_CTR",
+                    "LIPP_NE3_CTR",
+                    "LIPP_NE6_CTR",
+                    "LIPP_NE8_CTR",
+                    "LIMM_U_CTR"
+                  ],
+                  "grouping": "None"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "direction": "row",
+      "height": "100%",
+      "gap": 0.25,
+      "children": [
+        {
+          "direction": "col",
+          "height": "100%",
+          "justify_content": "space-evenly",
+          "children": [
+            {
+              "label": ["EDJA"],
+              "color": "clay",
+              "size": 5,
+              "page": {
+                "rows": 2,
+                "keys": [
+                  {
+                    "label": ["EDJA", "ILR APP"],
+                    "station_id": "EDMM-ILR"
+                  },
+                  {
+                    "label": ["EDMM", "SWA APP"],
+                    "station_id": "EDMM-SWA"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["ARFA", "LSZR", "EDNY"],
+              "color": "snow",
+              "size": 5,
+              "page": {
+                "rows": 2,
+                "keys": [
+                  {
+                    "label": ["LSFA", "APP"],
+                    "station_id": "LSFA_APP"
+                  },
+                  {
+                    "label": []
+                  },
+                  {
+                    "label": ["LSZR", "TWR"],
+                    "station_id": "LSZR_TWR"
+                  },
+                  {
+                    "label": ["EDNY", "TWR"],
+                    "station_id": "EDNY-TWR"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "orientation": "vertical",
+          "thickness": 1,
+          "color": "black"
+        },
+        {
+          "direction": "col",
+          "height": "100%",
+          "gap": 1,
+          "justify_content": "end",
+          "children": [
+            {
+              "label": ["Majors"],
+              "size": 5,
+              "page": {
+                "rows": 6,
+                "client_page": {
+                  "include": ["LSGG*"],
+                  "grouping": "Icao"
+                }
+              }
+            },
+            {
+              "label": ["Minors"],
+              "size": 5,
+              "page": {
+                "rows": 6,
+                "client_page": {
+                  "include": ["LS*_APP", "LS*_TWR", "LS*_GND", "LS*_DEL"],
+                  "exclude": [
+                    "LSFA*",
+                    "LSGG*",
+                    "LSM*",
+                    "LSZA*",
+                    "LSZB*",
+                    "LSZG*",
+                    "LSZH*",
+                    "LSZR*"
+                  ],
+                  "grouping": "Icao"
+                }
+              }
+            },
+            {
+              "label": ["MIL"],
+              "size": 5,
+              "page": {
+                "rows": 6,
+                "client_page": {
+                  "include": ["LSM*"],
+                  "grouping": "Icao"
+                }
+              }
+            },
+            {
+              "label": ["CWP"],
+              "size": 5,
+              "page": {
+                "rows": 6,
+                "client_page": {
+                  "include": [
+                    "LS*",
+                    "LF*",
+                    "PAR*",
+                    "EDDM*",
+                    "EDMM*",
+                    "EDUU*",
+                    "LIM*",
+                    "LIP*",
+                    "LO*"
+                  ],
+                  "exclude": ["LON*"],
+                  "priority": [
+                    "LS*_FMP",
+                    "*_FMP",
+                    "LS*_CTR",
+                    "*_CTR",
+                    "LS*_APP",
+                    "LS*_DEP",
+                    "*_APP",
+                    "*_DEP",
+                    "LS*_TWR",
+                    "*_TWR",
+                    "LS*_GND",
+                    "*_GND",
+                    "LS*"
+                  ],
+                  "grouping": "FirAndIcao"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
