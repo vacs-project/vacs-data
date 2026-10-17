@@ -220,7 +220,7 @@
       }
     },
     {
-      "label": ["2", "EGA", ""],
+      "label": ["3", "EGA TWR ", ""],
       "page": {
         "rows": 6,
         "keys": [
@@ -228,7 +228,7 @@
             "label": []
           },
           {
-            "label": ["LE BOURGET", "INFO"],
+            "label": ["LFPB", "INFO"],
             "color": "snow",
             "station_id": "LFPT_I_APP"
           },
@@ -264,7 +264,7 @@
             "station_id": "LFPZ_GND"
           },
           {
-            "label": ["CHEVREUSE", "INFO"],
+            "label": ["LFPN", "INFO"],
             "color": "snow",
             "station_id": "LFPN_I_TWR"
           },
@@ -279,7 +279,7 @@
             "station_id": "LFPN_GND"
           },
           {
-            "label": ["BEAUVAIS", "INFO"],
+            "label": ["LFOB", "INFO"],
             "color": "snow",
             "station_id": "LFOB_I_APP"
           },
@@ -397,7 +397,7 @@
       }
     },
     {
-      "label": ["3", "ALL"],
+      "label": ["2", "ALL"],
       "page": {
         "rows": 6,
         "client_page": {
