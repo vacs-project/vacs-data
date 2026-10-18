@@ -8,16 +8,16 @@
         "rows": 5,
         "keys": [
           {
-            "label": ["ACC 1"],
-            "station_id": "OTDF_1_CTR"
+            "label": ["ACC", "NORTH HI"],
+            "station_id": "OTDF_N1_CTR"
           },
           {
-            "label": ["AIR 1"],
+            "label": ["ACC", "SOUTH"],
+            "station_id": "OTDF_S_CTR"
+          },
+          {
+            "label": ["AIR E"],
             "station_id": "OTHH_1_TWR"
-          },
-          {
-            "label": ["OBBI", "APP", "127.850"],
-            "station_id": "OBBI_APP"
           },
           {
             "label": ["RD", "NE", "345+"],
@@ -28,16 +28,15 @@
             "station_id": "OMAE_1_CTR"
           },
           {
-            "label": ["ACC 2"],
-            "station_id": "OTDF_2_CTR"
+            "label": ["ACC", "NORTH LO"],
+            "station_id": "OTDF_N2_CTR"
           },
           {
-            "label": ["AIR 2"],
+            "label": []
+          },
+          {
+            "label": ["AIR W"],
             "station_id": "OTHH_2_TWR"
-          },
-          {
-            "label": ["Bahrain", "CENT", "295-"],
-            "station_id": "OBBB_CL_CTR"
           },
           {
             "label": ["JD", "NE", "245-345"],
@@ -48,7 +47,7 @@
             "station_id": "OMAE_3_CTR"
           },
           {
-            "label": ["RDR 1"],
+            "label": ["RDR N"],
             "station_id": "DOH_R1_APP"
           },
           {
@@ -57,8 +56,9 @@
             "color": "blush"
           },
           {
-            "label": ["Bahrain", "CENT", "295-345"],
-            "station_id": "OBBB_CH_CTR"
+            "label": ["OTDF", "FMP"],
+            "station_id": "OTDF_FMP",
+            "color": "blush"
           },
           {
             "label": ["JD", "SE"],
@@ -69,7 +69,7 @@
             "station_id": "OMAE_2_CTR"
           },
           {
-            "label": ["RDR 2"],
+            "label": ["RDR S"],
             "station_id": "DOH_R2_APP"
           },
           {
@@ -77,8 +77,8 @@
             "station_id": "OTBD_TWR"
           },
           {
-            "label": ["Bahrain", "CENT", "345+"],
-            "station_id": "OBBB_1_CTR"
+            "label": ["OBBI", "APP", "127.850"],
+            "station_id": "OBBI_APP"
           },
           {
             "label": ["UAE", "WEST", "245-"],
@@ -89,27 +89,28 @@
             "station_id": "OMAE_G_CTR"
           },
           {
-            "label": ["APP 1"],
+            "label": ["APP W"],
             "station_id": "DOH_A1_APP"
           },
           {
-            "label": ["APP 2"],
+            "label": ["APP E"],
             "station_id": "DOH_A2_APP"
           },
           {
-            "label": ["Bahrain", "EAST", "345+"],
-            "station_id": "OBBB_2_CTR"
+            "label": ["Bahrain", "CENT", "345+"],
+            "station_id": "OBBB_1_CTR"
           },
           {
-            "label": ["Bahrain", "EAST", "245-345"],
-            "station_id": "OBBB_E_CTR"
+            "label": ["Bahrain", "CENT", "295-345"],
+            "station_id": "OBBB_CH_CTR"
           },
           {
-            "label": ["UAE", "SOUTH"],
-            "station_id": "OMAE_S_CTR"
+            "label": ["Bahrain", "CENT", "295-"],
+            "station_id": "OBBB_CL_CTR"
           }
         ]
       }
     }
   ]
 }
+-
