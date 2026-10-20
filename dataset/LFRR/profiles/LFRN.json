@@ -99,7 +99,7 @@
           {
             "label": ["LFRN", "DD"],
             "color": "azure",
-            "station_id": "LFRH_APP"
+            "station_id": "LFRN_DD_APP"
           },
           {
             "label": ["LFRS", "LU"],
@@ -127,7 +127,7 @@
           {
             "label": ["LFRN", "RN"],
             "color": "azure",
-            "station_id": "LFRB_APP"
+            "station_id": "LFRN_APP"
           },
           {
             "label": ["LFQQ", "QD"],
@@ -155,7 +155,15 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": ["LFRR*", "LON*", "PAR*", "LFJ*", "LFO*", "LFQ*", "LFR*"],
+          "include": [
+            "LFRR*",
+            "LON*",
+            "PAR*",
+            "LFJ*",
+            "LFO*",
+            "LFQ*",
+            "LFR*"
+          ],
           "exclude": [],
           "priority": [
             "*_FMP",
