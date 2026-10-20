@@ -206,46 +206,71 @@
           "justify_content": "center",
           "children": [
             {
-              "label": ["Reykjavík", "(INOP)"],
+              "label": ["Reykjavík", "/Nuuk"],
               "size": 7,
               "page": {
                 "rows": 4,
                 "keys": [
                   {
-                    "label": ["West", "Upper", "365-660"]
+                    "label": []
                   },
                   {
-                    "label": ["West", "Middle", "355-365"]
+                    "label": []
                   },
                   {
-                    "label": ["West", "Middle", "345-355"]
+                    "label": []
                   },
                   {
-                    "label": ["West", "Lower", "55-345"]
+                    "label": ["BGGL", "Nuuk", "195-"],
+                    "station_id": "BGGL_S"
                   },
                   {
-                    "label": ["South", "Upper", "365-660"]
+                    "label": ["BIRD W", "365+"],
+                    "station_id": "BIRD_W_U"
                   },
                   {
-                    "label": ["South", "Middle", "355-365"]
+                    "label": ["BIRD W", "355-365"],
+                    "station_id": "BIRD_W_MU"
                   },
                   {
-                    "label": ["South", "Middle", "345-355"]
+                    "label": ["BIRD W", "345-355"],
+                    "station_id": "BIRD_W_ML"
                   },
                   {
-                    "label": ["South", "Lower", "55-345"]
+                    "label": ["BIRD W", "345-"],
+                    "station_id": "BIRD_W_L"
                   },
                   {
-                    "label": ["East", "Upper", "365-660"]
+                    "label": ["BIRD S", "365+"],
+                    "station_id": "BIRD_S_U"
                   },
                   {
-                    "label": ["East", "Middle", "355-365"]
+                    "label": ["BIRD S", "355-365"],
+                    "station_id": "BIRD_S_MU"
                   },
                   {
-                    "label": ["East", "Middle", "345-355"]
+                    "label": ["BIRD S", "345-355"],
+                    "station_id": "BIRD_S_ML"
                   },
                   {
-                    "label": ["East", "Lower", "55-345"]
+                    "label": ["BIRD S", "345-"],
+                    "station_id": "BIRD_S_L"
+                  },
+                  {
+                    "label": ["BIRD E", "365+"],
+                    "station_id": "BIRD_E_U"
+                  },
+                  {
+                    "label": ["BIRD E", "355-365"],
+                    "station_id": "BIRD_E_MU"
+                  },
+                  {
+                    "label": ["BIRD E", "345-355"],
+                    "station_id": "BIRD_E_ML"
+                  },
+                  {
+                    "label": ["BIRD E", "345-"],
+                    "station_id": "BIRD_E_L"
                   }
                 ]
               }
