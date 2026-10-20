@@ -420,7 +420,7 @@ default_call_sources = ["LFMC_APP"]
 [[positions]]
 id = "LFMC_TWR"
 prefixes = ["LFMC"]
-frequency = "123.300"
+frequency = "123.000"
 facility_type = "TWR"
 profile_id = "LFMM-ALL"
 default_call_sources = ["LFMC_TWR"]
@@ -693,7 +693,7 @@ default_call_sources = ["LFCC_I_TWR"]
 [[positions]]
 id = "LFCR_TWR"
 prefixes = ["LFCR"]
-frequency = "118.125"
+frequency = "118.130"
 facility_type = "TWR"
 profile_id = "LFMM-ALL"
 default_call_sources = ["LFCR_TWR"]
@@ -845,7 +845,7 @@ default_call_sources = ["LFLY_TWR", "LFLY_GND"]
 [[positions]]
 id = "LFMA_TWR"
 prefixes = ["LFMA"]
-frequency = "118.750"
+frequency = "118.755"
 facility_type = "TWR"
 profile_id = "LFMM-ALL"
 default_call_sources = ["LFMA_TWR"]

@@ -1392,7 +1392,7 @@ default_call_sources = ["LFAQ_TWR"]
 [[positions]]
 id = "LFAT_TWR"
 prefixes = ["LFAT"]
-frequency = "118.450"
+frequency = "118.455"
 facility_type = "TWR"
 profile_id = "LFFF-ALL"
 default_call_sources = ["LFAT_TWR", "LFAT_GND"]
@@ -1415,7 +1415,7 @@ default_call_sources = ["LFLA_I_TWR"]
 [[positions]]
 id = "LFOB_TWR"
 prefixes = ["LFOB"]
-frequency = "121.400"
+frequency = "121.405"
 facility_type = "TWR"
 profile_id = "LFOB"
 default_call_sources = ["LFOB_TWR"]
@@ -1423,7 +1423,7 @@ default_call_sources = ["LFOB_TWR"]
 [[positions]]
 id = "LFOK_TWR"
 prefixes = ["LFOK"]
-frequency = "129.400"
+frequency = "129.405"
 facility_type = "TWR"
 profile_id = "LFFF-ALL"
 default_call_sources = ["LFOK_TWR"]
@@ -1526,7 +1526,7 @@ default_call_sources = ["LFPO_TWR", "LFPO_GND", "LFPO_DEL"]
 [[positions]]
 id = "LFPT_TWR"
 prefixes = ["LFPT"]
-frequency = "121.200"
+frequency = "121.205"
 facility_type = "TWR"
 profile_id = "LFFF-ALL"
 default_call_sources = ["LFPT_TWR"]
@@ -1542,7 +1542,7 @@ default_call_sources = ["LFQQ_TWR", "LFQQ_GND"]
 [[positions]]
 id = "LFQT_TWR"
 prefixes = ["LFQT"]
-frequency = "119.075"
+frequency = "119.080"
 facility_type = "TWR"
 profile_id = "LFFF-ALL"
 default_call_sources = ["LFQT_TWR", "LFQT_GND"]

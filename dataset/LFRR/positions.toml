@@ -206,7 +206,7 @@ default_call_sources = ["LFRR_MI", "LFRR_MS", "LFRR_MU"]
 [[positions]]
 id = "LFRR_MQ_CTR"
 prefixes = ["LFRR"]
-frequency = "132.725"
+frequency = "132.735"
 facility_type = "CTR"
 profile_id = "LFRR"
 default_call_sources = [
@@ -709,7 +709,7 @@ default_call_sources = ["LFRO_I_TWR"]
 [[positions]]
 id = "LFRQ_TWR"
 prefixes = ["LFRQ"]
-frequency = "118.625"
+frequency = "118.630"
 facility_type = "TWR"
 profile_id = "LFRR-ALL"
 default_call_sources = ["LFRQ_TWR"]
@@ -741,7 +741,7 @@ default_call_sources = ["LFRV_I_TWR"]
 [[positions]]
 id = "LFRZ_TWR"
 prefixes = ["LFRZ"]
-frequency = "118.950"
+frequency = "118.955"
 facility_type = "TWR"
 profile_id = "LFRR-ALL"
 default_call_sources = ["LFRZ_TWR"]

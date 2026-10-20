@@ -185,7 +185,7 @@ default_call_sources = ["LFEE_HN"]
 [[positions]]
 id = "LFEE_HR_CTR"
 prefixes = ["LFEE"]
-frequency = "125.975"
+frequency = "125.935"
 facility_type = "CTR"
 profile_id = "LFEE"
 default_call_sources = ["LFEE_HR"]
@@ -248,7 +248,7 @@ default_call_sources = ["LFEE_UE"]
 [[positions]]
 id = "LFEE_UB_CTR"
 prefixes = ["LFEE"]
-frequency = "133.010"
+frequency = "132.630"
 facility_type = "CTR"
 profile_id = "LFEE"
 default_call_sources = ["LFEE_UB"]
@@ -452,7 +452,7 @@ default_call_sources = ["LFST_RE_APP"]
 [[positions]]
 id = "LFST_RW_APP"
 prefixes = ["LFST"]
-frequency = "136.135"
+frequency = "120.410"
 facility_type = "APP"
 profile_id = "LFST"
 default_call_sources = ["LFST_RW_APP", "LFST_RE_APP", "LFST_TWR", "LFST_GND"]
