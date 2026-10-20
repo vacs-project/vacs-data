@@ -87,8 +87,33 @@
             "color": "azure"
           },
           {
-            "label": ["BIRD", "HI", "F355+"],
-            "color": "azure"
+            "label": ["BIRD", "S"],
+            "color": "azure",
+            "page": {
+                "rows": 4,
+                "keys": [
+                  {
+                    "label": ["BIRD S", "365+"],
+                    "color": "azure",
+                    "station_id": "BIRD_S_U"
+                  },
+                  {
+                    "label": ["BIRD S", "355-365"],
+                    "color": "azure",
+                    "station_id": "BIRD_S_MU"
+                  },
+                  {
+                    "label": ["BIRD S", "345-355"],
+                    "color": "azure",
+                    "station_id": "BIRD_S_ML"
+                  },
+                  {
+                    "label": ["BIRD S", "345-"],
+                    "color": "azure",
+                    "station_id": "BIRD_S_L"
+                  }
+                ]
+              }
           },
           {
             "label": ["EGGX"],
@@ -106,8 +131,33 @@
             "station_id": "MAN_W_CTR"
           },
           {
-            "label": ["BIRD", "LO", "F355-"],
-            "color": "azure"
+            "label": ["BIRD", "E"],
+            "color": "azure",
+            "page": {
+                "rows": 4,
+                "keys": [
+                  {
+                    "label": ["BIRD E", "365+"],
+                    "color": "azure",
+                    "station_id": "BIRD_E_U"
+                  },
+                  {
+                    "label": ["BIRD E", "355-365"],
+                    "color": "azure",
+                    "station_id": "BIRD_E_MU"
+                  },
+                  {
+                    "label": ["BIRD E", "345-355"],
+                    "color": "azure",
+                    "station_id": "BIRD_E_ML"
+                  },
+                  {
+                    "label": ["BIRD E", "345-"],
+                    "color": "azure",
+                    "station_id": "BIRD_E_L"
+                  }
+                ]
+              }
           },
           {
             "label": ["EDYY", "JEV HI", "F365+"],
