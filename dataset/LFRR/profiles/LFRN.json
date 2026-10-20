@@ -155,15 +155,7 @@
       "page": {
         "rows": 6,
         "client_page": {
-          "include": [
-            "LFRR*",
-            "LON*",
-            "PAR*",
-            "LFJ*",
-            "LFO*",
-            "LFQ*",
-            "LFR*"
-          ],
+          "include": ["LFRR*", "LON*", "PAR*", "LFJ*", "LFO*", "LFQ*", "LFR*"],
           "exclude": [],
           "priority": [
             "*_FMP",
