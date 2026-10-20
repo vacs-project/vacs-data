@@ -183,7 +183,7 @@
           {
             "label": ["FMP"],
             "color": "lilac",
-            "station_id": "LFXX_FMP"
+            "station_id": "LFBB_FMP"
           },
           {
             "label": ["LFRS", "NB"],
@@ -305,7 +305,7 @@
           {
             "label": ["FMP"],
             "color": "lilac",
-            "station_id": "LFXX_FMP"
+            "station_id": "LFBB_FMP"
           },
           {
             "label": ["LFRS", "TWR"],

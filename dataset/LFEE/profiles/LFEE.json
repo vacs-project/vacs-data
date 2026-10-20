@@ -19,11 +19,13 @@
           },
           {
             "label": ["LFRR", "M"],
-            "color": "snow"
+            "color": "snow",
+            "station_id": "LFRR_MU"
           },
           {
             "label": ["LFRR", "Z"],
-            "color": "snow"
+            "color": "snow",
+            "station_id": "LFRR_ZU"
           },
           {
             "label": []
@@ -503,9 +505,9 @@
             "station_id": "LSZH_W_APP"
           },
           {
-            "label": ["LSGG", "APP"],
+            "label": ["LSGG", "DEP"],
             "color": "snow",
-            "station_id": "LSGG_APP"
+            "station_id": "LSGG_DEP"
           },
           {
             "label": ["LSGG", "APP"],

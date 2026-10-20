@@ -60,7 +60,7 @@
           {
             "label": ["LFBZ"],
             "color": "lavender",
-            "station_id": "LFBZ_APP"
+            "station_id": "LFBZ_TWR"
           },
           {
             "label": []
@@ -117,7 +117,7 @@
           {
             "label": ["TWR"],
             "color": "lagoon",
-            "station_id": "LFBI_TWR"
+            "station_id": "LFBP_TWR"
           },
           {
             "label": ["LFBP", "APP"],

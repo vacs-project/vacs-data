@@ -91,7 +91,7 @@
           {
             "label": ["INFO"],
             "color": "azure",
-            "station_id": "LFBI_APP"
+            "station_id": "LFBI_I_APP"
           },
           {
             "label": []
@@ -131,9 +131,7 @@
             "station_id": "LFBL_APP"
           },
           {
-            "label": ["LFLX"],
-            "color": "lavender",
-            "station_id": "LFLX_TWR"
+            "label": []
           }
         ]
       }

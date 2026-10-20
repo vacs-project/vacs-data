@@ -151,7 +151,7 @@
           {
             "label": ["LFLB"],
             "color": "lavender",
-            "station_id": "LFLB_APP"
+            "station_id": "LFLB_TWR"
           }
         ]
       }

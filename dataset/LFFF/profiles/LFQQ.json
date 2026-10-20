@@ -59,7 +59,7 @@
           {
             "label": ["LFAQ", ""],
             "color": "lavender",
-            "station_id": "LFAT_TWR"
+            "station_id": "LFAQ_TWR"
           },
           {
             "label": ["GND", ""],
@@ -105,7 +105,7 @@
           {
             "label": ["LFPG", "N", "APP"],
             "color": "snow",
-            "station_id": "LFPG_FN_APP"
+            "station_id": "LFPG_N_APP"
           },
           {
             "label": []

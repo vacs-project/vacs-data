@@ -46,7 +46,7 @@
           {
             "label": ["LFPG", "S", "APP"],
             "color": "snow",
-            "station_id": "LFPG_FS_APP"
+            "station_id": "LFPG_S_APP"
           },
           {
             "label": ["LFOQ", ""],
@@ -93,9 +93,9 @@
             "station_id": "LFPM_TWR"
           },
           {
-            "label": ["LFPM", "SJ", ""],
+            "label": ["LFPM", "SI", ""],
             "color": "azure",
-            "station_id": "LFPM_SJ_APP"
+            "station_id": "LFPM_SI_APP"
           },
           {
             "label": ["LFPO", "DEP"],

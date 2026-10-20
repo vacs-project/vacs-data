@@ -9,7 +9,8 @@
         "keys": [
           {
             "label": ["FMP", ""],
-            "color": "lilac"
+            "color": "lilac",
+            "station_id": "LFBB_FMP"
           },
           {
             "label": ["LFBD", "BE"],
@@ -80,7 +81,7 @@
           {
             "label": ["LFMM", "ML"],
             "color": "taupe",
-            "station_id": "LFMM_LE"
+            "station_id": "LFMM_ML"
           },
           {
             "label": ["LFBA"],

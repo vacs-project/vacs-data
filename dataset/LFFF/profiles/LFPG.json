@@ -214,7 +214,7 @@
           {
             "label": ["LFPM", "SI"],
             "color": "snow",
-            "station_id": "LFPM_SK_APP"
+            "station_id": "LFPM_SI_APP"
           }
         ]
       }
