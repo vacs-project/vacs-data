@@ -1,6 +1,13 @@
 {
   "positions": [
     {
+      "id": "LIBB_ES8_CTR",
+      "prefixes": ["LIBB"],
+      "frequency": "136.650",
+      "facility_type": "CTR",
+      "profile_id": "LIBB"
+    },
+    {
       "id": "LIBB_ES3_CTR",
       "prefixes": ["LIBB"],
       "frequency": "128.300",

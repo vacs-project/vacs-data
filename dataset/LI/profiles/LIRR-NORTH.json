@@ -8,13 +8,13 @@
   "children": [
     {
       "direction": "col",
-      "align_items": "center",
       "gap": 0.75,
+      "align_items": "center",
       "children": [
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["MARSIGLIA"],
@@ -31,8 +31,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.5,
+          "align_items": "center",
           "children": [
             {
               "label": ["BASTIA", "GND-140"],
@@ -48,8 +48,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.5,
+          "align_items": "center",
           "children": [
             {
               "label": ["AJACCIO", "GND-140"],
@@ -65,8 +65,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["EW"],
@@ -93,8 +93,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["EE"],
@@ -119,8 +119,8 @@
     },
     {
       "direction": "col",
-      "align_items": "center",
       "gap": 0.75,
+      "align_items": "center",
       "children": [
         {
           "direction": "row",
@@ -146,8 +146,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["NW"],
@@ -208,9 +208,9 @@
         },
         {
           "direction": "row",
+          "gap": 0.75,
           "justify_content": "space-between",
           "align_items": "center",
-          "gap": 0.75,
           "children": [
             {
               "label": ["OV"],
@@ -243,9 +243,9 @@
         },
         {
           "direction": "row",
+          "gap": 0.75,
           "justify_content": "space-between",
           "align_items": "center",
-          "gap": 0.75,
           "children": [
             {
               "label": ["PN"],
@@ -302,31 +302,48 @@
     },
     {
       "direction": "col",
-      "align_items": "center",
       "gap": 0.75,
+      "align_items": "center",
       "children": [
         {
           "label": ["MILANO"],
           "size": 8,
           "page": {
+            "rows": 3,
             "keys": [
               {
-                "label": ["MILANO", "WS", "310-UNL"],
+                "label": [
+                  "MILANO",
+                  "WS",
+                  "310-UNL"
+                ],
                 "station_id": "LIMM-WS5"
               },
               {
-                "label": ["MILANO", "WS", "GND-300"],
+                "label": [
+                  "MILANO",
+                  "WS",
+                  "GND-300"
+                ],
                 "station_id": "LIMM-WS2"
               },
               {
                 "label": []
               },
               {
-                "label": ["MILANO", "ES", "310-UNL"],
+                "label": [
+                  "MILANO",
+                  "ES",
+                  "310-UNL"
+                ],
                 "station_id": "LIMM-ES5"
               },
               {
-                "label": ["MILANO", "ES", "GND-300"],
+                "label": [
+                  "MILANO",
+                  "ES",
+                  "GND-300"
+                ],
                 "station_id": "LIMM-ES2"
               },
               {
@@ -336,15 +353,14 @@
                 "label": ["FIC"],
                 "station_id": "LIMM-FIC"
               }
-            ],
-            "rows": 3
+            ]
           }
         },
         {
           "direction": "row",
-          "align_items": "start",
-          "justify_content": "space-between",
           "gap": 0.75,
+          "justify_content": "space-between",
+          "align_items": "start",
           "children": [
             {
               "label": ["US"],
@@ -388,10 +404,10 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
-          "justify_content": "space-between",
-          "gap": 1,
           "padding_left": 1,
+          "gap": 1,
+          "justify_content": "space-between",
+          "align_items": "center",
           "children": [
             {
               "label": ["PESCARA", "APP"],
@@ -419,9 +435,9 @@
         },
         {
           "direction": "row",
-          "align_items": "start",
-          "justify_content": "space-between",
           "gap": 0.75,
+          "justify_content": "space-between",
+          "align_items": "start",
           "children": [
             {
               "label": ["SU"],
@@ -467,8 +483,8 @@
     },
     {
       "direction": "col",
-      "align_items": "center",
       "gap": 0.75,
+      "align_items": "center",
       "children": [
         {
           "label": ["PADOVA"],
@@ -477,19 +493,35 @@
             "rows": 5,
             "keys": [
               {
-                "label": ["PADOVA", "SD", "370-UNL"],
+                "label": [
+                  "PADOVA",
+                  "SD",
+                  "370-UNL"
+                ],
                 "station_id": "LIPP-SD7"
               },
               {
-                "label": ["PADOVA", "SD", "340-360"],
+                "label": [
+                  "PADOVA",
+                  "SD",
+                  "340-360"
+                ],
                 "station_id": "LIPP-SD5"
               },
               {
-                "label": ["PADOVA", "SD", "200-330"],
+                "label": [
+                  "PADOVA",
+                  "SD",
+                  "200-330"
+                ],
                 "station_id": "LIPP-SD3"
               },
               {
-                "label": ["PADOVA", "SD", "GND-190"],
+                "label": [
+                  "PADOVA",
+                  "SD",
+                  "GND-190"
+                ],
                 "station_id": "LIPP-SD2"
               },
               {
@@ -524,7 +556,12 @@
           "label": ["BRINDISI"],
           "size": 8,
           "page": {
+            "rows": 3,
             "keys": [
+              {
+                "label": ["BRINDISI", "ES8"],
+                "station_id": "LIBB-ES8"
+              },
               {
                 "label": ["BRINDISI", "ES3"],
                 "station_id": "LIBB-ES3"
@@ -534,14 +571,10 @@
                 "station_id": "LIBB-CS0"
               },
               {
-                "label": []
-              },
-              {
                 "label": ["FIC"],
                 "station_id": "LIBB-FIC"
               }
-            ],
-            "rows": 3
+            ]
           }
         }
       ]
@@ -565,6 +598,7 @@
           "label": ["FMP"],
           "size": 5,
           "page": {
+            "rows": 5,
             "keys": [
               {
                 "label": ["MILANO", "DCP"],
@@ -574,8 +608,7 @@
                 "label": ["PADOVA", "FMP"],
                 "station_id": "LIPP-FMP"
               }
-            ],
-            "rows": 5
+            ]
           }
         },
         {
@@ -589,7 +622,11 @@
           "page": {
             "rows": 6,
             "client_page": {
-              "include": ["LIR*_TWR", "LIR*_GND", "LIR*_DEL"],
+              "include": [
+                "LIR*_TWR",
+                "LIR*_GND",
+                "LIR*_DEL"
+              ],
               "priority": [
                 "LIRF*_TWR",
                 "LIRF*_GND",
@@ -610,7 +647,11 @@
           "page": {
             "rows": 6,
             "client_page": {
-              "include": ["LIR*_I_TWR", "LIA*_I_TWR", "LIQ*_I_TWR"],
+              "include": [
+                "LIR*_I_TWR",
+                "LIA*_I_TWR",
+                "LIQ*_I_TWR"
+              ],
               "frequencies": "HideAll"
             }
           }
