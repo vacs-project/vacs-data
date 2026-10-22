@@ -4,6 +4,10 @@ controlled_by = ["LOVV_FMP"]
 
 [[stations]]
 id = "LOVV_B1"
+parent_id = "LOVV_B2"
+
+[[stations]]
+id = "LOVV_B2"
 controlled_by = [
   "LOVV_B_CTR",
   "LOVV_BC_CTR",
@@ -17,10 +21,6 @@ controlled_by = [
   "LOVV_NU_CTR",
   "LOVV_U_CTR",
 ]
-
-[[stations]]
-id = "LOVV_B2"
-parent_id = "LOVV_B3"
 
 [[stations]]
 id = "LOVV_B3"
@@ -56,6 +56,10 @@ controlled_by = [
 
 [[stations]]
 id = "LOVV_E1"
+parent_id = "LOVV_E2"
+
+[[stations]]
+id = "LOVV_E2"
 controlled_by = [
   "LOVV_E_CTR",
   "LOVV_N_CTR",
@@ -65,10 +69,6 @@ controlled_by = [
   "LOVV_NU_CTR",
   "LOVV_U_CTR",
 ]
-
-[[stations]]
-id = "LOVV_E2"
-parent_id = "LOVV_E3"
 
 [[stations]]
 id = "LOVV_E3"
@@ -100,8 +100,12 @@ controlled_by = [
 
 [[stations]]
 id = "LOVV_N1"
+parent_id = "LOVV_N2"
+controlled_by = ["LOVV_N1_CTR"]
+
+[[stations]]
+id = "LOVV_N2"
 controlled_by = [
-  "LOVV_N1_CTR",
   "LOVV_N_CTR",
   "LOVV_E_CTR",
   "LOVV_CTR",
@@ -110,10 +114,6 @@ controlled_by = [
   "LOVV_EU_CTR",
   "LOVV_U_CTR",
 ]
-
-[[stations]]
-id = "LOVV_N2"
-parent_id = "LOVV_N3"
 
 [[stations]]
 id = "LOVV_N3"
@@ -145,8 +145,12 @@ controlled_by = [
 
 [[stations]]
 id = "LOVV_S1"
+parent_id = "LOVV_S2"
+controlled_by = ["LOVV_S1_CTR"]
+
+[[stations]]
+id = "LOVV_S2"
 controlled_by = [
-  "LOVV_S1_CTR",
   "LOVV_S_CTR",
   "LOVV_B_CTR",
   "LOVV_BC_CTR",
@@ -158,10 +162,6 @@ controlled_by = [
   "LOVV_EU_CTR",
   "LOVV_U_CTR",
 ]
-
-[[stations]]
-id = "LOVV_S2"
-parent_id = "LOVV_S3"
 
 [[stations]]
 id = "LOVV_S3"
@@ -196,6 +196,10 @@ controlled_by = [
 
 [[stations]]
 id = "LOVV_W1"
+parent_id = "LOVV_W2"
+
+[[stations]]
+id = "LOVV_W2"
 controlled_by = [
   "LOVV_W_CTR",
   "LOVV_WC_CTR",
@@ -209,10 +213,6 @@ controlled_by = [
   "LOVV_BU_CTR",
   "LOVV_U_CTR",
 ]
-
-[[stations]]
-id = "LOVV_W2"
-parent_id = "LOVV_W3"
 
 [[stations]]
 id = "LOVV_W3"
