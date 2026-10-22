@@ -451,11 +451,7 @@
           "page": {
             "rows": 6,
             "client_page": {
-              "include": [
-                "LIE*_I_TWR",
-                "LIC*_I_TWR",
-                "LIBC*_I_TWR"
-              ],
+              "include": ["LIE*_I_TWR", "LIC*_I_TWR", "LIBC*_I_TWR"],
               "frequencies": "HideAll"
             }
           }

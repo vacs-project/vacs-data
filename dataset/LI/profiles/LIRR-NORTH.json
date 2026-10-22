@@ -312,38 +312,22 @@
             "rows": 3,
             "keys": [
               {
-                "label": [
-                  "MILANO",
-                  "WS",
-                  "310-UNL"
-                ],
+                "label": ["MILANO", "WS", "310-UNL"],
                 "station_id": "LIMM-WS5"
               },
               {
-                "label": [
-                  "MILANO",
-                  "WS",
-                  "GND-300"
-                ],
+                "label": ["MILANO", "WS", "GND-300"],
                 "station_id": "LIMM-WS2"
               },
               {
                 "label": []
               },
               {
-                "label": [
-                  "MILANO",
-                  "ES",
-                  "310-UNL"
-                ],
+                "label": ["MILANO", "ES", "310-UNL"],
                 "station_id": "LIMM-ES5"
               },
               {
-                "label": [
-                  "MILANO",
-                  "ES",
-                  "GND-300"
-                ],
+                "label": ["MILANO", "ES", "GND-300"],
                 "station_id": "LIMM-ES2"
               },
               {
@@ -493,35 +477,19 @@
             "rows": 5,
             "keys": [
               {
-                "label": [
-                  "PADOVA",
-                  "SD",
-                  "370-UNL"
-                ],
+                "label": ["PADOVA", "SD", "370-UNL"],
                 "station_id": "LIPP-SD7"
               },
               {
-                "label": [
-                  "PADOVA",
-                  "SD",
-                  "340-360"
-                ],
+                "label": ["PADOVA", "SD", "340-360"],
                 "station_id": "LIPP-SD5"
               },
               {
-                "label": [
-                  "PADOVA",
-                  "SD",
-                  "200-330"
-                ],
+                "label": ["PADOVA", "SD", "200-330"],
                 "station_id": "LIPP-SD3"
               },
               {
-                "label": [
-                  "PADOVA",
-                  "SD",
-                  "GND-190"
-                ],
+                "label": ["PADOVA", "SD", "GND-190"],
                 "station_id": "LIPP-SD2"
               },
               {
@@ -622,11 +590,7 @@
           "page": {
             "rows": 6,
             "client_page": {
-              "include": [
-                "LIR*_TWR",
-                "LIR*_GND",
-                "LIR*_DEL"
-              ],
+              "include": ["LIR*_TWR", "LIR*_GND", "LIR*_DEL"],
               "priority": [
                 "LIRF*_TWR",
                 "LIRF*_GND",
@@ -647,11 +611,7 @@
           "page": {
             "rows": 6,
             "client_page": {
-              "include": [
-                "LIR*_I_TWR",
-                "LIA*_I_TWR",
-                "LIQ*_I_TWR"
-              ],
+              "include": ["LIR*_I_TWR", "LIA*_I_TWR", "LIQ*_I_TWR"],
               "frequencies": "HideAll"
             }
           }
