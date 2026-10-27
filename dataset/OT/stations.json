@@ -12,7 +12,7 @@
     },
     {
       "id": "OTDF_N2_CTR",
-      "parent_id": "GULF_N1_FSS",
+      "parent_id": "OTDF_N1_CTR",
       "controlled_by": ["OTDF_N2_CTR"]
     },
     {

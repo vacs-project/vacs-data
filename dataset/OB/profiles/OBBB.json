@@ -79,14 +79,14 @@
             "station_id": "OBBI_TWR"
           },
           {
-            "label": ["[OBBB]", "EAST", "HIGH"],
+            "label": ["[OTDF]", "NORTH", "HIGH"],
             "color": "clay",
-            "station_id": "OBBB_2_CTR"
+            "station_id": "OTDF_N1_CTR"
           },
           {
-            "label": ["[OBBB]", "EAST", "LOW"],
+            "label": ["[OTDF]", "NORTH", "LOW"],
             "color": "clay",
-            "station_id": "OBBB_E_CTR"
+            "station_id": "OTDF_N2_CTR"
           },
           {
             "label": [],
@@ -197,8 +197,13 @@
           {
             "label": ["OTDF"],
             "page": {
-              "rows": 1,
+              "rows": 2,
               "keys": [
+                {
+                  "label": ["OTDF", "SOUTH"],
+                  "color": "lavender",
+                  "station_id": "OTDF_S_CTR"
+                },
                 {
                   "label": ["DOH", "R1"],
                   "color": "lavender",
