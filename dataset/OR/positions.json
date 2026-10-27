@@ -71,11 +71,11 @@
       "default_call_sources": ["BGD_APP"]
     },
     {
-      "id": "KIR_APP",
-      "prefixes": ["KIR"],
+      "id": "KRK_APP",
+      "prefixes": ["KRK"],
       "frequency": "127.700",
       "facility_type": "APP",
-      "default_call_sources": ["KIR_APP"]
+      "default_call_sources": ["KRK_APP"]
     },
     {
       "id": "ORBI_F_APP",

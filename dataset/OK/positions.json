@@ -57,20 +57,20 @@
       "default_call_sources": ["OKKK_TWR"]
     },
     {
-      "id": "OKKK_1_GND",
+      "id": "OKKK_E_GND",
       "prefixes": ["OKKK"],
       "frequency": "121.700",
       "facility_type": "GND",
       "profile_id": "OKKK",
-      "default_call_sources": ["OKKK_1_GND"]
+      "default_call_sources": ["OKKK_E_GND"]
     },
     {
-      "id": "OKKK_2_GND",
+      "id": "OKKK_W_GND",
       "prefixes": ["OKKK"],
       "frequency": "121.850",
       "facility_type": "GND",
       "profile_id": "OKKK",
-      "default_call_sources": ["OKKK_2_GND"]
+      "default_call_sources": ["OKKK_W_GND"]
     },
     {
       "id": "OKKK_DEL",
