@@ -1720,11 +1720,11 @@
                   "station_id": "EYVL-M"
                 },
                 {
-                  "label": ["EYVL", "225-335"],
+                  "label": ["EYVL L", "255-335"],
                   "station_id": "EYVL-L"
                 },
                 {
-                  "label": ["EYVL E", "-225"],
+                  "label": ["EYVL E", "-255"],
                   "station_id": "EYVL-E"
                 },
                 {
