@@ -1,6 +1,7 @@
 {
   "id": "WSJC",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["WSSS", "", ""],
@@ -65,7 +66,7 @@
             "label": []
           },
           {
-            "label": ["GMC 4(E)"],
+            "label": ["GMC 4E"],
             "station_id": "WSSS_4E_GND"
           },
           {
@@ -81,7 +82,7 @@
             "label": []
           },
           {
-            "label": ["GMC 4(W)"],
+            "label": ["GMC 4W"],
             "station_id": "WSSS_4W_GND"
           },
           {
@@ -217,11 +218,11 @@
             "label": []
           },
           {
-            "label": ["PLAB RWC"],
+            "label": ["PLAB", "RWC"],
             "station_id": "WSAP_TWR"
           },
           {
-            "label": ["PLAB GMC"],
+            "label": ["PLAB", "GMC"],
             "station_id": "WSAP_GND"
           },
           {
@@ -277,7 +278,7 @@
             "label": []
           },
           {
-            "label": ["WSAP APP"],
+            "label": ["WSAP", "APP"],
             "station_id": "WSAP_APP"
           },
           {
@@ -410,7 +411,8 @@
             "station_id": "WSJC_8_CTR"
           },
           {
-            "label": ["MNL", "SECT 4"]
+            "label": ["MNL", "WEST"],
+            "station_id": "MNL_W_CTR"
           },
           {
             "label": ["WBFC", "SECT 3"]
@@ -426,7 +428,7 @@
       }
     },
     {
-      "label": "OTHERS",
+      "label": ["OTHERS"],
       "page": {
         "rows": 5,
         "client_page": {
