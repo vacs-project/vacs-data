@@ -55,14 +55,14 @@
             "station_id": "OBBI_GND"
           },
           {
-            "label": ["[OBBB]", "CENT", "HIGH"],
+            "label": ["[OTDF]", "NORTH", "HIGH"],
             "color": "cadet",
-            "station_id": "OBBB_CH_CTR"
+            "station_id": "OTDF_N1_CTR"
           },
           {
-            "label": ["[OBBB]", "CENT", "LOW"],
+            "label": ["[OTDF]", "NORTH", "LOW"],
             "color": "cadet",
-            "station_id": "OBBB_CL_CTR"
+            "station_id": "OTDF_N2_CTR"
           },
           {
             "label": [],
@@ -79,14 +79,14 @@
             "station_id": "OBBI_TWR"
           },
           {
-            "label": ["[OBBB]", "EAST", "HIGH"],
+            "label": ["[OTDF]", "NORTH", "HIGH"],
             "color": "clay",
-            "station_id": "OBBB_2_CTR"
+            "station_id": "OTDF_N1_CTR"
           },
           {
-            "label": ["[OBBB]", "EAST", "LOW"],
+            "label": ["[OTDF]", "NORTH", "LOW"],
             "color": "clay",
-            "station_id": "OBBB_E_CTR"
+            "station_id": "OTDF_N2_CTR"
           },
           {
             "label": [],
@@ -145,12 +145,12 @@
               "rows": 2,
               "keys": [
                 {
-                  "label": ["[OKAC]", "ACC", "325+"],
+                  "label": ["[OKAC]", "ACC", "350+"],
                   "color": "azure",
                   "station_id": "OKAC_U_CTR"
                 },
                 {
-                  "label": ["[OKAC]", "ACC", "325-"],
+                  "label": ["[OKAC]", "ACC", "350-"],
                   "color": "azure",
                   "station_id": "OKAC_CTR"
                 },
@@ -197,17 +197,12 @@
           {
             "label": ["OTDF"],
             "page": {
-              "rows": 3,
+              "rows": 2,
               "keys": [
                 {
-                  "label": ["OTDF", "ACC 1"],
+                  "label": ["OTDF", "SOUTH"],
                   "color": "lavender",
-                  "station_id": "OTDF_1_CTR"
-                },
-                {
-                  "label": ["OTDF", "ACC 2"],
-                  "color": "lavender",
-                  "station_id": "OTDF_2_CTR"
+                  "station_id": "OTDF_S_CTR"
                 },
                 {
                   "label": ["DOH", "R1"],

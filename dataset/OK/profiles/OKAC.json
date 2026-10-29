@@ -39,14 +39,14 @@
                 },
                 {
                   "label": ["GMC-W"],
-                  "station_id": "OKKK_2_GND"
+                  "station_id": "OKKK_W_GND"
                 },
                 {
                   "label": []
                 },
                 {
                   "label": ["GMC-E"],
-                  "station_id": "OKKK_1_GND"
+                  "station_id": "OKKK_E_GND"
                 },
                 {
                   "label": ["TWR"],

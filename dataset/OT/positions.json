@@ -9,20 +9,28 @@
       "default_call_sources": ["OTDF_FMP"]
     },
     {
-      "id": "OTDF_1_CTR",
+      "id": "OTDF_N1_CTR",
       "prefixes": ["OTDF"],
       "frequency": "135.725",
       "facility_type": "CTR",
       "profile_id": "OTDF",
-      "default_call_sources": ["OTDF_1_CTR"]
+      "default_call_sources": ["OTDF_N1_CTR"]
     },
     {
-      "id": "OTDF_2_CTR",
+      "id": "OTDF_N2_CTR",
+      "prefixes": ["OTDF"],
+      "frequency": "133.150",
+      "facility_type": "CTR",
+      "profile_id": "OTDF",
+      "default_call_sources": ["OTDF_N2_CTR"]
+    },
+    {
+      "id": "OTDF_S_CTR",
       "prefixes": ["OTDF"],
       "frequency": "132.975",
       "facility_type": "CTR",
       "profile_id": "OTDF",
-      "default_call_sources": ["OTDF_2_CTR"]
+      "default_call_sources": ["OTDF_S_CTR"]
     },
     {
       "id": "DOH_R1_APP",
@@ -43,7 +51,7 @@
     {
       "id": "DOH_A1_APP",
       "prefixes": ["DOH"],
-      "frequency": "124.775",
+      "frequency": "119.725",
       "facility_type": "APP",
       "profile_id": "OTHH",
       "default_call_sources": ["DOH_A1_APP"]
@@ -51,7 +59,7 @@
     {
       "id": "DOH_A2_APP",
       "prefixes": ["DOH"],
-      "frequency": "119.725",
+      "frequency": "124.775",
       "facility_type": "APP",
       "profile_id": "OTHH",
       "default_call_sources": ["DOH_A2_APP"]

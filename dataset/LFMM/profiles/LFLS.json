@@ -1,0 +1,153 @@
+{
+  "id": "LFLS",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["1", "AD"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["FMP", "LFMM"],
+            "color": "lilac",
+            "station_id": "LFMM_FMP"
+          },
+          {
+            "label": ["LFMM", "LO"],
+            "color": "taupe",
+            "station_id": "LFMM_LO"
+          },
+          {
+            "label": ["LFLL", "VW"],
+            "color": "azure",
+            "station_id": "LFLL_VW_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LFMM", "LS"],
+            "color": "taupe",
+            "station_id": "LFMM_LS"
+          },
+          {
+            "label": ["LFLL", "VE"],
+            "color": "azure",
+            "station_id": "LFLL_VE_APP"
+          },
+          {
+            "label": ["LFLL", "INFO"],
+            "color": "azure",
+            "station_id": "LFLL_I_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LFMM", "LE"],
+            "color": "taupe",
+            "station_id": "LFMM_LE"
+          },
+          {
+            "label": ["LFLL", "ITM"],
+            "color": "azure",
+            "station_id": "LFLL_F_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GND"],
+            "color": "lagoon",
+            "station_id": "LFLS_GND"
+          },
+          {
+            "label": ["LFMM", "MO"],
+            "color": "taupe",
+            "station_id": "LFMM_MO"
+          },
+          {
+            "label": ["LFLL", "GRE"],
+            "color": "azure",
+            "station_id": "LFLL_GRE_APP"
+          },
+          {
+            "label": ["LFLB", "INFO"],
+            "color": "azure",
+            "station_id": "LFLB_I_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TWR"],
+            "color": "lagoon",
+            "station_id": "LFLS_TWR"
+          },
+          {
+            "label": ["LSAG", "ACC"],
+            "color": "taupe",
+            "station_id": "LSAG_CTR"
+          },
+          {
+            "label": ["LFLL", "VAL"],
+            "color": "azure",
+            "station_id": "LFLL_GRE_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["2", "ALL"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": ["LFEE*", "LFMM*", "PAR*", "LFL*", "LFM*", "LFS*"],
+          "exclude": [],
+          "priority": [
+            "*_FMP",
+            "*_CTR",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_RMP",
+            "*_DEL"
+          ]
+        }
+      }
+    }
+  ]
+}

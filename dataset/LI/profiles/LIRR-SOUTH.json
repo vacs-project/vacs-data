@@ -8,14 +8,14 @@
   "children": [
     {
       "direction": "col",
-      "align_items": "center",
       "padding_top": 7,
       "gap": 0.75,
+      "align_items": "center",
       "children": [
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["MARSIGLIA"],
@@ -32,8 +32,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.5,
+          "align_items": "center",
           "children": [
             {
               "label": ["AJACCIO", "GND-140"],
@@ -49,8 +49,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.5,
+          "align_items": "center",
           "children": [
             {
               "label": ["TUNIS"],
@@ -66,8 +66,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.5,
+          "align_items": "center",
           "children": [
             {
               "label": ["PANTE", "APP"],
@@ -80,18 +80,18 @@
     },
     {
       "direction": "col",
-      "align_items": "center",
       "gap": 0.75,
+      "align_items": "center",
       "children": [
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "direction": "row",
-              "align_items": "center",
               "gap": 0.75,
+              "align_items": "center",
               "children": [
                 {
                   "label": ["NW"],
@@ -116,8 +116,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["EW"],
@@ -144,8 +144,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["EE"],
@@ -170,18 +170,18 @@
     },
     {
       "direction": "col",
-      "align_items": "center",
       "gap": 0.75,
+      "align_items": "center",
       "children": [
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "direction": "row",
-              "align_items": "center",
               "gap": 0.75,
+              "align_items": "center",
               "children": [
                 {
                   "label": ["OV"],
@@ -240,8 +240,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["SU"],
@@ -285,8 +285,8 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["TRAPANI", "APP"],
@@ -312,13 +312,13 @@
         },
         {
           "direction": "row",
-          "align_items": "center",
           "padding_right": 21,
+          "align_items": "center",
           "children": [
             {
               "direction": "row",
-              "align_items": "start",
               "gap": 5,
+              "align_items": "start",
               "children": [
                 {
                   "label": ["CAGLIARI", "APP"],
@@ -333,20 +333,25 @@
     },
     {
       "direction": "col",
-      "align_items": "center",
-      "gap": 0.75,
       "padding_top": 18,
+      "gap": 0.75,
+      "align_items": "center",
       "children": [
         {
           "direction": "row",
-          "align_items": "center",
           "gap": 0.75,
+          "align_items": "center",
           "children": [
             {
               "label": ["BRINDISI"],
               "size": 8,
               "page": {
+                "rows": 3,
                 "keys": [
+                  {
+                    "label": ["BRINDISI", "ES8"],
+                    "station_id": "LIBB-ES8"
+                  },
                   {
                     "label": ["BRINDISI", "ES3"],
                     "station_id": "LIBB-ES3"
@@ -356,14 +361,10 @@
                     "station_id": "LIBB-CS0"
                   },
                   {
-                    "label": []
-                  },
-                  {
                     "label": ["FIC"],
                     "station_id": "LIBB-FIC"
                   }
-                ],
-                "rows": 3
+                ]
               }
             }
           ]
@@ -410,6 +411,7 @@
           "label": ["FMP"],
           "size": 5,
           "page": {
+            "rows": 5,
             "keys": [
               {
                 "label": []
@@ -417,8 +419,7 @@
               {
                 "label": []
               }
-            ],
-            "rows": 5
+            ]
           }
         },
         {
