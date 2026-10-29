@@ -15,10 +15,13 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_B1",
   "LOVV_B2",
+  "LOVV_B3",
   "LOVV_W1",
   "LOVV_W2",
+  "LOVV_W3",
   "LOVV_S1",
   "LOVV_S2",
+  "LOVV_S3",
 ]
 
 [[positions]]
@@ -30,10 +33,13 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_B1",
   "LOVV_B2",
+  "LOVV_B3",
   "LOVV_W1",
   "LOVV_W2",
+  "LOVV_W3",
   "LOVV_S1",
   "LOVV_S2",
+  "LOVV_S3",
 ]
 
 [[positions]]
@@ -45,10 +51,13 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_B1",
   "LOVV_B2",
+  "LOVV_B3",
   "LOVV_W1",
   "LOVV_W2",
+  "LOVV_W3",
   "LOVV_S1",
   "LOVV_S2",
+  "LOVV_S3",
 ]
 
 [[positions]]
@@ -60,14 +69,19 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_N1",
   "LOVV_N2",
+  "LOVV_N3",
   "LOVV_B1",
   "LOVV_B2",
+  "LOVV_B3",
   "LOVV_W1",
   "LOVV_W2",
+  "LOVV_W3",
   "LOVV_S1",
   "LOVV_S2",
+  "LOVV_S3",
   "LOVV_E1",
   "LOVV_E2",
+  "LOVV_E3",
 ]
 
 [[positions]]
@@ -79,14 +93,19 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_N1",
   "LOVV_N2",
+  "LOVV_N3",
   "LOVV_B1",
   "LOVV_B2",
+  "LOVV_B3",
   "LOVV_W1",
   "LOVV_W2",
+  "LOVV_W3",
   "LOVV_S1",
   "LOVV_S2",
+  "LOVV_S3",
   "LOVV_E1",
   "LOVV_E2",
+  "LOVV_E3",
 ]
 
 [[positions]]
@@ -98,10 +117,13 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_E1",
   "LOVV_E2",
+  "LOVV_E3",
   "LOVV_N1",
   "LOVV_N2",
+  "LOVV_N3",
   "LOVV_S1",
   "LOVV_S2",
+  "LOVV_S3",
 ]
 
 [[positions]]
@@ -113,10 +135,13 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_E1",
   "LOVV_E2",
+  "LOVV_E3",
   "LOVV_N1",
   "LOVV_N2",
+  "LOVV_N3",
   "LOVV_S1",
   "LOVV_S2",
+  "LOVV_S3",
 ]
 
 [[positions]]
@@ -169,10 +194,13 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_N1",
   "LOVV_N2",
+  "LOVV_N3",
   "LOVV_B1",
   "LOVV_B2",
+  "LOVV_B3",
   "LOVV_E1",
   "LOVV_E2",
+  "LOVV_E3",
 ]
 
 [[positions]]
@@ -184,10 +212,13 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_N1",
   "LOVV_N2",
+  "LOVV_N3",
   "LOVV_B1",
   "LOVV_B2",
+  "LOVV_B3",
   "LOVV_E1",
   "LOVV_E2",
+  "LOVV_E3",
 ]
 
 [[positions]]
@@ -204,7 +235,14 @@ prefixes = ["LOVV"]
 frequency = "133.965"
 facility_type = "CTR"
 profile_id = "LOVV"
-default_call_sources = ["LOVV_S1", "LOVV_S2", "LOVV_W1", "LOVV_W2"]
+default_call_sources = [
+  "LOVV_S1",
+  "LOVV_S2",
+  "LOVV_S3",
+  "LOVV_W1",
+  "LOVV_W2",
+  "LOVV_W3",
+]
 
 [[positions]]
 id = "LOVV_S_CTR"
@@ -212,7 +250,14 @@ prefixes = ["LOVV"]
 frequency = "122.865"
 facility_type = "CTR"
 profile_id = "LOVV"
-default_call_sources = ["LOVV_S1", "LOVV_S2", "LOVV_W1", "LOVV_W2"]
+default_call_sources = [
+  "LOVV_S1",
+  "LOVV_S2",
+  "LOVV_S3",
+  "LOVV_W1",
+  "LOVV_W2",
+  "LOVV_W3",
+]
 
 [[positions]]
 id = "LOVV_U_CTR"
@@ -223,14 +268,19 @@ profile_id = "LOVV"
 default_call_sources = [
   "LOVV_N1",
   "LOVV_N2",
+  "LOVV_N3",
   "LOVV_B1",
   "LOVV_B2",
+  "LOVV_B3",
   "LOVV_W1",
   "LOVV_W2",
+  "LOVV_W3",
   "LOVV_S1",
   "LOVV_S2",
+  "LOVV_S3",
   "LOVV_E1",
   "LOVV_E2",
+  "LOVV_E3",
 ]
 
 [[positions]]
@@ -239,7 +289,14 @@ prefixes = ["LOVV"]
 frequency = "132.765"
 facility_type = "CTR"
 profile_id = "LOVV"
-default_call_sources = ["LOVV_W1", "LOVV_W2", "LOVV_B1", "LOVV_B2"]
+default_call_sources = [
+  "LOVV_W1",
+  "LOVV_W2",
+  "LOVV_W3",
+  "LOVV_B1",
+  "LOVV_B2",
+  "LOVV_B3",
+]
 
 [[positions]]
 id = "LOVV_WU_CTR"
@@ -247,7 +304,14 @@ prefixes = ["LOVV"]
 frequency = "129.965"
 facility_type = "CTR"
 profile_id = "LOVV"
-default_call_sources = ["LOVV_W1", "LOVV_W2", "LOVV_B1", "LOVV_B2"]
+default_call_sources = [
+  "LOVV_W1",
+  "LOVV_W2",
+  "LOVV_W3",
+  "LOVV_B1",
+  "LOVV_B2",
+  "LOVV_B3",
+]
 
 [[positions]]
 id = "LOVV_W_CTR"
@@ -255,7 +319,14 @@ prefixes = ["LOVV"]
 frequency = "129.125"
 facility_type = "CTR"
 profile_id = "LOVV"
-default_call_sources = ["LOVV_W1", "LOVV_W2", "LOVV_B1", "LOVV_B2"]
+default_call_sources = [
+  "LOVV_W1",
+  "LOVV_W2",
+  "LOVV_W3",
+  "LOVV_B1",
+  "LOVV_B2",
+  "LOVV_B3",
+]
 
 [[positions]]
 id = "LOVV_N_APP"
@@ -452,7 +523,7 @@ default_call_sources = ["LOWI_TWR"]
 [[positions]]
 id = "LOWK_TWR"
 prefixes = ["LOWK"]
-frequency = "118.125"
+frequency = "118.100"
 facility_type = "TWR"
 profile_id = "LOVV"
 default_call_sources = ["LOWK_TWR"]
