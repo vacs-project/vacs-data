@@ -1,0 +1,269 @@
+{
+  "id": "ORBB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ORBB"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["BNU"],
+            "color": "mint",
+            "station_id": "ORBB_NU_CTR"
+          },
+          {
+            "label": ["BN"],
+            "color": "mint",
+            "station_id": "ORBB_N_CTR"
+          },
+          {
+            "label": ["BSU"],
+            "color": "mint",
+            "station_id": "ORBB_SU_CTR"
+          },
+          {
+            "label": ["BS"],
+            "color": "mint",
+            "station_id": "ORBB_S_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KRK", "APP"],
+            "color": "mint",
+            "station_id": "KRK_APP"
+          },
+          {
+            "label": ["BGD", "APP"],
+            "color": "mint",
+            "station_id": "BGD_APP"
+          },
+          {
+            "label": ["ALI", "APP"],
+            "color": "mint",
+            "station_id": "ALI_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KRK", "AD"],
+            "color": "mint",
+            "page": {
+              "rows": 2,
+              "keys": [
+                {
+                  "label": ["ORBM", "TWR"],
+                  "station_id": "ORBM_TWR"
+                },
+                {
+                  "label": ["ORBM", "GND"],
+                  "station_id": "ORBM_GND"
+                },
+                {
+                  "label": ["ORKK", "TWR"],
+                  "station_id": "ORKK_TWR"
+                },
+                {
+                  "label": ["ORKK", "GND"],
+                  "station_id": "ORKK_GND"
+                },
+                {
+                  "label": ["ORER", "TWR"],
+                  "station_id": "ORER_TWR"
+                },
+                {
+                  "label": ["ORSJ", "TWR"],
+                  "station_id": "ORSJ_TWR"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ORBI", "AD"],
+            "color": "mint",
+            "page": {
+              "rows": 2,
+              "keys": [
+                {
+                  "label": ["GND"],
+                  "station_id": "ORBI_GND"
+                },
+                {
+                  "label": ["TWR"],
+                  "station_id": "ORBI_TWR"
+                },
+                {
+                  "label": ["FIN"],
+                  "station_id": "ORBI_F_APP"
+                },
+                {
+                  "label": ["APP"],
+                  "station_id": "BGD_APP"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["ALI", "AD"],
+            "color": "mint",
+            "page": {
+              "rows": 2,
+              "keys": [
+                {
+                  "label": ["ORMM", "TWR"],
+                  "station_id": "ORMM_TWR"
+                },
+                {
+                  "label": ["ORMM", "GND"],
+                  "station_id": "ORMM_GND"
+                },
+                {
+                  "label": ["ORNI", "TWR"],
+                  "station_id": "ORNI_TWR"
+                },
+                {
+                  "label": ["ORNI", "GND"],
+                  "station_id": "ORNI_GND"
+                }
+              ]
+            }
+          },
+          {
+            "label": ["OKAC", "UPPER", "F350+"],
+            "color": "lavender",
+            "station_id": "OKAC_U_CTR"
+          },
+          {
+            "label": ["OKAC", "LOWER", "F150-350"],
+            "color": "lavender",
+            "station_id": "OKAC_CTR"
+          },
+          {
+            "label": ["KWI", "APP"],
+            "color": "lavender",
+            "station_id": "OKKK_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["RD N", "F345+"],
+            "color": "lavender",
+            "station_id": "OERD_N_CTR"
+          },
+          {
+            "label": ["JD N", "F245-345"],
+            "color": "lavender",
+            "station_id": "OEJD_N_CTR"
+          },
+          {
+            "label": ["RD E", "F345+"],
+            "color": "lavender",
+            "station_id": "OERD_E_CTR"
+          },
+          {
+            "label": ["JD E", "F245-345"],
+            "color": "lavender",
+            "station_id": "OEJD_E_CTR"
+          },
+          {
+            "label": ["OIIX"],
+            "color": "lavender",
+            "page": {
+              "rows": 5,
+              "client_page": {
+                "include": ["TEH_*", "OIIX_*", "OI*"],
+                "exclude": ["*_APP", "*_TWR", "*_GND", "*_DEL", "*FMP"],
+                "priority": ["*_CTR"],
+                "frequencies": "ShowAll",
+                "grouping": "Icao"
+              }
+            }
+          },
+          {
+            "label": ["LTAA"],
+            "color": "lavender",
+            "page": {
+              "rows": 5,
+              "client_page": {
+                "include": ["ANK_*", "LTAA_*", "LT*"],
+                "exclude": ["*_APP", "*_TWR", "*_GND", "*_DEL", "*FMP"],
+                "priority": ["*_CTR"],
+                "frequencies": "ShowAll",
+                "grouping": "Icao"
+              }
+            }
+          },
+          {
+            "label": ["OSTT", "OJAC"],
+            "color": "lavender",
+            "page": {
+              "rows": 5,
+              "client_page": {
+                "include": ["OS*", "OJ*"],
+                "exclude": ["*_APP", "*_TWR", "*_GND", "*_DEL", "*FMP"],
+                "priority": ["*_CTR"],
+                "frequencies": "ShowAll",
+                "grouping": "Icao"
+              }
+            }
+          },
+          {
+            "label": ["OR-FMP"],
+            "color": "blush",
+            "page": {
+              "rows": 2,
+              "keys": [
+                {
+                  "label": ["ORBB"],
+                  "station_id": "ORBB_FMP"
+                },
+                {
+                  "label": ["ORBB", "TMA"],
+                  "station_id": "ORBB_TMA_FMP"
+                },
+                {
+                  "label": ["ORBI"],
+                  "station_id": "ORBI_FMP"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": ["FMP"],
+      "page": {
+        "rows": 6,
+        "client_page": {
+          "include": [
+            "ORBB*FMP",
+            "ORBI*FMP",
+            "OR*FMP",
+            "OR*_P_*",
+            "OKAC*FMP",
+            "OKKK*FMP",
+            "OK*FMP",
+            "OK*_P_*",
+            "LT*_FMP",
+            "ANK*_FMP",
+            "OS*_FMP",
+            "OJ*_FMP",
+            "OE*_FMP",
+            "OB*_FMP",
+            "TEH*_FMP",
+            "OI*_FMP"
+          ],
+          "exclude": [],
+          "priority": ["ORBB*", "OR*", "OKAC*", "OK*", "*_FMP"],
+          "frequencies": "HideAll",
+          "grouping": "None"
+        }
+      }
+    }
+  ]
+}

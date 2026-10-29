@@ -86,13 +86,13 @@
       "controlled_by": ["ORBI_GND"]
     },
     {
-      "id": "KIR_APP",
+      "id": "KRK_APP",
       "parent_id": "ORBB_N_CTR",
-      "controlled_by": ["KIR_APP"]
+      "controlled_by": ["KRK_APP"]
     },
     {
       "id": "ORBM_TWR",
-      "parent_id": "KIR_APP",
+      "parent_id": "KRK_APP",
       "controlled_by": ["ORBM_TWR"]
     },
     {
@@ -102,12 +102,12 @@
     },
     {
       "id": "ORER_TWR",
-      "parent_id": "KIR_APP",
+      "parent_id": "KRK_APP",
       "controlled_by": ["ORER_TWR"]
     },
     {
       "id": "ORKK_TWR",
-      "parent_id": "KIR_APP",
+      "parent_id": "KRK_APP",
       "controlled_by": ["ORKK_TWR"]
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "id": "ORSJ_TWR",
-      "parent_id": "KIR_APP",
+      "parent_id": "KRK_APP",
       "controlled_by": ["ORSJ_TWR"]
     }
   ]
