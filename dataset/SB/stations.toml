@@ -1,0 +1,1665 @@
+# --- SBAZ Amazônico ---
+[[stations]]
+id = "SBAZ_CTR"
+controlled_by = ["SBAZ_CTR"]
+
+[[stations]]
+id = "SBAZ_CE_CTR"
+parent_id = "SBAZ_CTR"
+controlled_by = ["SBAZ_CE_CTR"]
+
+[[stations]]
+id = "SBAZ_CW_CTR"
+controlled_by = ["SBAZ_CW_CTR", "SBAZ_CTR", "SBAZ_CE_CTR"]
+
+[[stations]]
+id = "SBAZ_C_CTR"
+controlled_by = ["SBAZ_C_CTR", "SBAZ_CW_CTR", "SBAZ_CE_CTR", "SBAZ_CTR"]
+
+[[stations]]
+id = "SBAZ_E_CTR"
+parent_id = "SBAZ_CE_CTR"
+controlled_by = ["SBAZ_E_CTR"]
+
+[[stations]]
+id = "SBAZ_W_CTR"
+controlled_by = ["SBAZ_W_CTR", "SBAZ_CW_CTR", "SBAZ_CTR"]
+
+[[stations]]
+id = "SBWA_APP"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBWA_APP"]
+
+[[stations]]
+id = "SBWB_APP"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBWB_APP"]
+
+[[stations]]
+id = "SBWN_APP"
+parent_id = "SBAZ_C_CTR"
+controlled_by = ["SBWN_APP"]
+
+[[stations]]
+id = "SBWQ_APP"
+parent_id = "SBAZ_C_CTR"
+controlled_by = ["SBWQ_APP"]
+
+[[stations]]
+id = "SBWS_APP"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBWS_APP"]
+
+[[stations]]
+id = "SBWV_APP"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBWV_APP"]
+
+[[stations]]
+id = "SBWX_APP"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBWX_APP"]
+
+[[stations]]
+id = "SBWY_APP"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBWY_APP"]
+
+[[stations]]
+id = "SBXB_APP"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBXB_APP"]
+
+[[stations]]
+id = "SBXJ_APP"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBXJ_APP"]
+
+[[stations]]
+id = "SBXK_APP"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBXK_APP"]
+
+[[stations]]
+id = "SWUQ_APP"
+parent_id = "SBAZ_C_CTR"
+controlled_by = ["SWUQ_APP"]
+
+[[stations]]
+id = "SBAT_R_TWR"
+parent_id = "SBAZ_C_CTR"
+controlled_by = ["SBAT_R_TWR"]
+
+[[stations]]
+id = "SBBE_TWR"
+parent_id = "SBWB_APP"
+controlled_by = ["SBBE_TWR"]
+
+[[stations]]
+id = "SBBV_TWR"
+parent_id = "SBWQ_APP"
+controlled_by = ["SBBV_TWR"]
+
+[[stations]]
+id = "SBCC_R_TWR"
+parent_id = "SBAZ_C_CTR"
+controlled_by = ["SBCC_R_TWR"]
+
+[[stations]]
+id = "SBCJ_R_TWR"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBCJ_R_TWR"]
+
+[[stations]]
+id = "SBCY_TWR"
+parent_id = "SBWY_APP"
+controlled_by = ["SBCY_TWR"]
+
+[[stations]]
+id = "SBCZ_R_TWR"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBCZ_R_TWR"]
+
+[[stations]]
+id = "SBEG_TWR"
+parent_id = "SBWN_APP"
+controlled_by = ["SBEG_TWR"]
+
+[[stations]]
+id = "SBGM_R_TWR"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBGM_R_TWR"]
+
+[[stations]]
+id = "SBHT_R_TWR"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBHT_R_TWR"]
+
+[[stations]]
+id = "SBIH_R_TWR"
+parent_id = "SBAZ_C_CTR"
+controlled_by = ["SBIH_R_TWR"]
+
+[[stations]]
+id = "SBIZ_R_TWR"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBIZ_R_TWR"]
+
+[[stations]]
+id = "SBJI_R_TWR"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBJI_R_TWR"]
+
+[[stations]]
+id = "SBMA_R_TWR"
+parent_id = "SBXJ_APP"
+controlled_by = ["SBMA_R_TWR"]
+
+[[stations]]
+id = "SBMN_TWR"
+parent_id = "SBWN_APP"
+controlled_by = ["SBMN_TWR"]
+
+[[stations]]
+id = "SBMQ_TWR"
+parent_id = "SBXK_APP"
+controlled_by = ["SBMQ_TWR"]
+
+[[stations]]
+id = "SBOI_R_TWR"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBOI_R_TWR"]
+
+[[stations]]
+id = "SBPV_TWR"
+parent_id = "SBWV_APP"
+controlled_by = ["SBPV_TWR"]
+
+[[stations]]
+id = "SBRB_TWR"
+parent_id = "SBXB_APP"
+controlled_by = ["SBRB_TWR"]
+
+[[stations]]
+id = "SBRD_R_TWR"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBRD_R_TWR"]
+
+[[stations]]
+id = "SBSI_R_TWR"
+parent_id = "SBAZ_C_CTR"
+controlled_by = ["SBSI_R_TWR"]
+
+[[stations]]
+id = "SBSL_TWR"
+parent_id = "SBWS_APP"
+controlled_by = ["SBSL_TWR"]
+
+[[stations]]
+id = "SBSN_TWR"
+parent_id = "SBWX_APP"
+controlled_by = ["SBSN_TWR"]
+
+[[stations]]
+id = "SBSO_R_TWR"
+parent_id = "SBAZ_C_CTR"
+controlled_by = ["SBSO_R_TWR"]
+
+[[stations]]
+id = "SBTB_R_TWR"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBTB_R_TWR"]
+
+[[stations]]
+id = "SBTF_R_TWR"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBTF_R_TWR"]
+
+[[stations]]
+id = "SBTS_R_TWR"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SBTS_R_TWR"]
+
+[[stations]]
+id = "SBTT_R_TWR"
+parent_id = "SBWA_APP"
+controlled_by = ["SBTT_R_TWR"]
+
+[[stations]]
+id = "SBUA_R_TWR"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBUA_R_TWR"]
+
+[[stations]]
+id = "SBUY_R_TWR"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBUY_R_TWR"]
+
+[[stations]]
+id = "SBVH_R_TWR"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SBVH_R_TWR"]
+
+[[stations]]
+id = "SSKW_R_TWR"
+parent_id = "SBAZ_W_CTR"
+controlled_by = ["SSKW_R_TWR"]
+
+[[stations]]
+id = "SWGN_R_TWR"
+parent_id = "SBAZ_E_CTR"
+controlled_by = ["SWGN_R_TWR"]
+
+[[stations]]
+id = "SBBE_GND"
+parent_id = "SBBE_TWR"
+controlled_by = ["SBBE_GND"]
+
+[[stations]]
+id = "SBCY_GND"
+parent_id = "SBCY_TWR"
+controlled_by = ["SBCY_GND"]
+
+[[stations]]
+id = "SBEG_GND"
+parent_id = "SBEG_TWR"
+controlled_by = ["SBEG_GND"]
+
+# --- SBBS Brasília ---
+[[stations]]
+id = "SBBS_CTR"
+controlled_by = ["SBBS_CTR"]
+
+[[stations]]
+id = "SBBS_E_CTR"
+controlled_by = ["SBBS_E_CTR", "SBBS_SE_CTR", "SBBS_NE_CTR", "SBBS_CTR"]
+
+[[stations]]
+id = "SBBS_NE_CTR"
+controlled_by = ["SBBS_NE_CTR", "SBBS_CTR", "SBBS_SE_CTR"]
+
+[[stations]]
+id = "SBBS_NS_CTR"
+parent_id = "SBBS_SE_CTR"
+controlled_by = ["SBBS_NS_CTR"]
+
+[[stations]]
+id = "SBBS_N_CTR"
+controlled_by = ["SBBS_N_CTR", "SBBS_NS_CTR", "SBBS_NE_CTR", "SBBS_CTR"]
+
+[[stations]]
+id = "SBBS_SE_CTR"
+controlled_by = ["SBBS_SE_CTR", "SBBS_CTR", "SBBS_NE_CTR"]
+
+[[stations]]
+id = "SBBS_S_CTR"
+controlled_by = ["SBBS_S_CTR", "SBBS_NS_CTR", "SBBS_SE_CTR", "SBBS_CTR"]
+
+[[stations]]
+id = "SBWH_APP"
+parent_id = "SBBS_E_CTR"
+controlled_by = ["SBWH_APP"]
+
+[[stations]]
+id = "SBWR_APP"
+parent_id = "SBBS_N_CTR"
+controlled_by = ["SBWR_APP"]
+
+[[stations]]
+id = "SBWU_APP"
+parent_id = "SBBS_S_CTR"
+controlled_by = ["SBWU_APP"]
+
+[[stations]]
+id = "SBXD_APP"
+parent_id = "SBBS_N_CTR"
+controlled_by = ["SBXD_APP"]
+
+[[stations]]
+id = "SBXN_APP"
+parent_id = "SBBS_N_CTR"
+controlled_by = ["SBXN_APP"]
+
+[[stations]]
+id = "SBXQ_APP"
+parent_id = "SBBS_S_CTR"
+controlled_by = ["SBXQ_APP"]
+
+[[stations]]
+id = "SBXU_APP"
+parent_id = "SBBS_S_CTR"
+controlled_by = ["SBXU_APP"]
+
+[[stations]]
+id = "SBXW_APP"
+parent_id = "SBBS_S_CTR"
+controlled_by = ["SBXW_APP"]
+
+[[stations]]
+id = "SBAE_R_TWR"
+parent_id = "SBWU_APP"
+controlled_by = ["SBAE_R_TWR"]
+
+[[stations]]
+id = "SBAN_TWR"
+parent_id = "SBXN_APP"
+controlled_by = ["SBAN_TWR"]
+
+[[stations]]
+id = "SBAQ_R_TWR"
+parent_id = "SBXQ_APP"
+controlled_by = ["SBAQ_R_TWR"]
+
+[[stations]]
+id = "SBAU_R_TWR"
+parent_id = "SBBS_S_CTR"
+controlled_by = ["SBAU_R_TWR"]
+
+[[stations]]
+id = "SBAX_R_TWR"
+parent_id = "SBBS_S_CTR"
+controlled_by = ["SBAX_R_TWR"]
+
+[[stations]]
+id = "SBBH_TWR"
+parent_id = "SBWH_APP"
+controlled_by = ["SBBH_TWR"]
+
+[[stations]]
+id = "SBBR_TWR"
+parent_id = "SBWR_APP"
+controlled_by = ["SBBR_TWR"]
+
+[[stations]]
+id = "SBBR_N_TWR"
+parent_id = "SBBR_TWR"
+controlled_by = ["SBBR_N_TWR"]
+
+[[stations]]
+id = "SBBR_S_TWR"
+parent_id = "SBBR_TWR"
+controlled_by = ["SBBR_S_TWR"]
+
+[[stations]]
+id = "SBBU_R_TWR"
+parent_id = "SBWU_APP"
+controlled_by = ["SBBU_R_TWR"]
+
+[[stations]]
+id = "SBBW_R_TWR"
+parent_id = "SBBS_N_CTR"
+controlled_by = ["SBBW_R_TWR"]
+
+[[stations]]
+id = "SBCF_TWR"
+parent_id = "SBWH_APP"
+controlled_by = ["SBCF_TWR"]
+
+[[stations]]
+id = "SBCN_R_TWR"
+parent_id = "SBBS_N_CTR"
+controlled_by = ["SBCN_R_TWR"]
+
+[[stations]]
+id = "SBGO_TWR"
+parent_id = "SBXN_APP"
+controlled_by = ["SBGO_TWR"]
+
+[[stations]]
+id = "SBGP_R_TWR"
+parent_id = "SBXQ_APP"
+controlled_by = ["SBGP_R_TWR"]
+
+[[stations]]
+id = "SBIP_R_TWR"
+parent_id = "SBBS_E_CTR"
+controlled_by = ["SBIP_R_TWR"]
+
+[[stations]]
+id = "SBIT_R_TWR"
+parent_id = "SBBS_N_CTR"
+controlled_by = ["SBIT_R_TWR"]
+
+[[stations]]
+id = "SBLS_R_TWR"
+parent_id = "SBWH_APP"
+controlled_by = ["SBLS_R_TWR"]
+
+[[stations]]
+id = "SBMK_R_TWR"
+parent_id = "SBBS_E_CTR"
+controlled_by = ["SBMK_R_TWR"]
+
+[[stations]]
+id = "SBML_R_TWR"
+parent_id = "SBWU_APP"
+controlled_by = ["SBML_R_TWR"]
+
+[[stations]]
+id = "SBNV_R_TWR"
+parent_id = "SBXN_APP"
+controlled_by = ["SBNV_R_TWR"]
+
+[[stations]]
+id = "SBPJ_TWR"
+parent_id = "SBXD_APP"
+controlled_by = ["SBPJ_TWR"]
+
+[[stations]]
+id = "SBRP_TWR"
+parent_id = "SBXQ_APP"
+controlled_by = ["SBRP_TWR"]
+
+[[stations]]
+id = "SBSR_R_TWR"
+parent_id = "SBBS_S_CTR"
+controlled_by = ["SBSR_R_TWR"]
+
+[[stations]]
+id = "SBUL_TWR"
+parent_id = "SBXW_APP"
+controlled_by = ["SBUL_TWR"]
+
+[[stations]]
+id = "SBUR_TWR"
+parent_id = "SBXU_APP"
+controlled_by = ["SBUR_TWR"]
+
+[[stations]]
+id = "SBVG_R_TWR"
+parent_id = "SBBS_S_CTR"
+controlled_by = ["SBVG_R_TWR"]
+
+[[stations]]
+id = "SBYS_TWR"
+parent_id = "SBXQ_APP"
+controlled_by = ["SBYS_TWR"]
+
+[[stations]]
+id = "SDSC_R_TWR"
+parent_id = "SBXQ_APP"
+controlled_by = ["SDSC_R_TWR"]
+
+[[stations]]
+id = "SIMK_R_TWR"
+parent_id = "SBBS_S_CTR"
+controlled_by = ["SIMK_R_TWR"]
+
+[[stations]]
+id = "SBAN_GND"
+parent_id = "SBAN_TWR"
+controlled_by = ["SBAN_GND"]
+
+[[stations]]
+id = "SBBH_GND"
+parent_id = "SBBH_TWR"
+controlled_by = ["SBBH_GND"]
+
+[[stations]]
+id = "SBBR_GND"
+parent_id = "SBBR_TWR"
+controlled_by = ["SBBR_GND"]
+
+[[stations]]
+id = "SBCF_GND"
+parent_id = "SBCF_TWR"
+controlled_by = ["SBCF_GND"]
+
+[[stations]]
+id = "SBGO_GND"
+parent_id = "SBGO_TWR"
+controlled_by = ["SBGO_GND"]
+
+[[stations]]
+id = "SBRP_GND"
+parent_id = "SBRP_TWR"
+controlled_by = ["SBRP_GND"]
+
+[[stations]]
+id = "SBYS_GND"
+parent_id = "SBYS_TWR"
+controlled_by = ["SBYS_GND"]
+
+[[stations]]
+id = "SBBR_DEL"
+parent_id = "SBBR_GND"
+controlled_by = ["SBBR_DEL"]
+
+[[stations]]
+id = "SBCF_DEL"
+parent_id = "SBCF_GND"
+controlled_by = ["SBCF_DEL"]
+
+[[stations]]
+id = "SBGO_DEL"
+parent_id = "SBGO_GND"
+controlled_by = ["SBGO_DEL"]
+
+# --- SBCW Curitiba ---
+[[stations]]
+id = "SBCW_CTR"
+controlled_by = ["SBCW_CTR"]
+
+[[stations]]
+id = "SBCW_CE_CTR"
+parent_id = "SBCW_SE_CTR"
+controlled_by = ["SBCW_CE_CTR"]
+
+[[stations]]
+id = "SBCW_CSE_CTR"
+parent_id = "SBCW_CTR"
+controlled_by = ["SBCW_CSE_CTR"]
+
+[[stations]]
+id = "SBCW_CSW_CTR"
+parent_id = "SBCW_CSE_CTR"
+controlled_by = ["SBCW_CSW_CTR"]
+
+[[stations]]
+id = "SBCW_CS_CTR"
+controlled_by = [
+  "SBCW_CS_CTR",
+  "SBCW_SW_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CSW_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_CWE_CTR",
+]
+
+[[stations]]
+id = "SBCW_CWE_CTR"
+controlled_by = ["SBCW_CWE_CTR", "SBCW_CSE_CTR", "SBCW_CTR", "SBCW_CSW_CTR"]
+
+[[stations]]
+id = "SBCW_CW_CTR"
+controlled_by = [
+  "SBCW_CW_CTR",
+  "SBCW_SW_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSW_CTR",
+  "SBCW_CTR",
+  "SBCW_CS_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_CSE_CTR",
+]
+
+[[stations]]
+id = "SBCW_C_CTR"
+controlled_by = [
+  "SBCW_C_CTR",
+  "SBCW_CW_CTR",
+  "SBCW_CS_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSW_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+]
+
+[[stations]]
+id = "SBCW_E_CTR"
+controlled_by = [
+  "SBCW_E_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+]
+
+[[stations]]
+id = "SBCW_SE_CTR"
+parent_id = "SBCW_CWE_CTR"
+controlled_by = ["SBCW_SE_CTR"]
+
+[[stations]]
+id = "SBCW_SW_CTR"
+controlled_by = [
+  "SBCW_SW_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSW_CTR",
+  "SBCW_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CSE_CTR",
+]
+
+[[stations]]
+id = "SBCW_S_CTR"
+controlled_by = [
+  "SBCW_S_CTR",
+  "SBCW_CS_CTR",
+  "SBCW_SW_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CSW_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+]
+
+[[stations]]
+id = "SBCW_W_CTR"
+controlled_by = [
+  "SBCW_W_CTR",
+  "SBCW_CW_CTR",
+  "SBCW_SW_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSW_CTR",
+  "SBCW_CTR",
+]
+
+[[stations]]
+id = "SBES_APP"
+parent_id = "SBWJ_E_APP"
+controlled_by = ["SBES_APP"]
+
+[[stations]]
+id = "SBGR_F_APP"
+parent_id = "SBXP_T8_APP"
+controlled_by = ["SBGR_F_APP"]
+
+[[stations]]
+id = "SBGW_APP"
+parent_id = "SBCW_E_CTR"
+controlled_by = ["SBGW_APP"]
+
+[[stations]]
+id = "SBKP_F_APP"
+controlled_by = [
+  "SBKP_F_APP",
+  "SBXP_T3_APP",
+  "SBXP_NL_APP",
+  "SBXP_N_APP",
+  "SBXP_APP",
+  "SBCW_E_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+  "SBXP_T5_APP",
+]
+
+[[stations]]
+id = "SBSJ_F_APP"
+parent_id = "SBXP_E_APP"
+controlled_by = ["SBSJ_F_APP"]
+
+[[stations]]
+id = "SBSP_F_APP"
+controlled_by = [
+  "SBSP_F_APP",
+  "SBXP_T1_APP",
+  "SBXP_S_APP",
+  "SBXP_APP",
+  "SBCW_E_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+  "SBXP_T2_APP",
+  "SBXP_T7_APP",
+  "SBXP_E_APP",
+]
+
+[[stations]]
+id = "SBWE_APP"
+parent_id = "SBCW_E_CTR"
+controlled_by = ["SBWE_APP"]
+
+[[stations]]
+id = "SBWG_APP"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBWG_APP"]
+
+[[stations]]
+id = "SBWI_APP"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBWI_APP"]
+
+[[stations]]
+id = "SBWJ_APP"
+parent_id = "SBCW_E_CTR"
+controlled_by = ["SBWJ_APP"]
+
+[[stations]]
+id = "SBWJ_E_APP"
+parent_id = "SBWJ_NE_APP"
+controlled_by = ["SBWJ_E_APP"]
+
+[[stations]]
+id = "SBWJ_GL_APP"
+parent_id = "SBWJ_N_APP"
+controlled_by = ["SBWJ_GL_APP"]
+
+[[stations]]
+id = "SBWJ_NE_APP"
+parent_id = "SBWJ_APP"
+controlled_by = ["SBWJ_NE_APP"]
+
+[[stations]]
+id = "SBWJ_N_APP"
+parent_id = "SBWJ_NE_APP"
+controlled_by = ["SBWJ_N_APP"]
+
+[[stations]]
+id = "SBWJ_RJ_APP"
+controlled_by = [
+  "SBWJ_RJ_APP",
+  "SBWJ_S_APP",
+  "SBWJ_APP",
+  "SBCW_E_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+  "SBWJ_N_APP",
+  "SBWJ_NE_APP",
+]
+
+[[stations]]
+id = "SBWJ_S_APP"
+parent_id = "SBWJ_APP"
+controlled_by = ["SBWJ_S_APP"]
+
+[[stations]]
+id = "SBWM_APP"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SBWM_APP"]
+
+[[stations]]
+id = "SBWP_APP"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SBWP_APP"]
+
+[[stations]]
+id = "SBWT_APP"
+parent_id = "SBCW_C_CTR"
+controlled_by = ["SBWT_APP"]
+
+[[stations]]
+id = "SBXF_APP"
+parent_id = "SBCW_C_CTR"
+controlled_by = ["SBXF_APP"]
+
+[[stations]]
+id = "SBXG_APP"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBXG_APP"]
+
+[[stations]]
+id = "SBXO_APP"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBXO_APP"]
+
+[[stations]]
+id = "SBXP_APP"
+parent_id = "SBCW_E_CTR"
+controlled_by = ["SBXP_APP"]
+
+[[stations]]
+id = "SBXP_E_APP"
+parent_id = "SBXP_APP"
+controlled_by = ["SBXP_E_APP"]
+
+[[stations]]
+id = "SBXP_NL_APP"
+parent_id = "SBXP_N_APP"
+controlled_by = ["SBXP_NL_APP"]
+
+[[stations]]
+id = "SBXP_NU_APP"
+parent_id = "SBXP_N_APP"
+controlled_by = ["SBXP_NU_APP"]
+
+[[stations]]
+id = "SBXP_N_APP"
+parent_id = "SBXP_APP"
+controlled_by = ["SBXP_N_APP"]
+
+[[stations]]
+id = "SBXP_S_APP"
+parent_id = "SBXP_APP"
+controlled_by = ["SBXP_S_APP"]
+
+[[stations]]
+id = "SBXP_T13_APP"
+parent_id = "SBXP_NU_APP"
+controlled_by = ["SBXP_T13_APP"]
+
+[[stations]]
+id = "SBXP_T1_APP"
+parent_id = "SBXP_S_APP"
+controlled_by = ["SBXP_T1_APP"]
+
+[[stations]]
+id = "SBXP_T2_APP"
+parent_id = "SBXP_S_APP"
+controlled_by = ["SBXP_T2_APP"]
+
+[[stations]]
+id = "SBXP_T3_APP"
+parent_id = "SBXP_NL_APP"
+controlled_by = ["SBXP_T3_APP"]
+
+[[stations]]
+id = "SBXP_T4_APP"
+parent_id = "SBXP_NU_APP"
+controlled_by = ["SBXP_T4_APP"]
+
+[[stations]]
+id = "SBXP_T5_APP"
+parent_id = "SBXP_NL_APP"
+controlled_by = ["SBXP_T5_APP"]
+
+[[stations]]
+id = "SBXP_T6_APP"
+parent_id = "SBXP_NU_APP"
+controlled_by = ["SBXP_T6_APP"]
+
+[[stations]]
+id = "SBXP_T7_APP"
+parent_id = "SBXP_E_APP"
+controlled_by = ["SBXP_T7_APP"]
+
+[[stations]]
+id = "SBXP_T8_APP"
+parent_id = "SBXP_E_APP"
+controlled_by = ["SBXP_T8_APP"]
+
+[[stations]]
+id = "SBXP_V_APP"
+parent_id = "SBXP_APP"
+controlled_by = ["SBXP_V_APP"]
+
+[[stations]]
+id = "SBXP_DEP"
+parent_id = "SBXP_APP"
+controlled_by = ["SBXP_DEP"]
+
+[[stations]]
+id = "SBAF_R_TWR"
+parent_id = "SBWJ_GL_APP"
+controlled_by = ["SBAF_R_TWR"]
+
+[[stations]]
+id = "SBBG_R_TWR"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SBBG_R_TWR"]
+
+[[stations]]
+id = "SBBI_TWR"
+parent_id = "SBWT_APP"
+controlled_by = ["SBBI_TWR"]
+
+[[stations]]
+id = "SBBP_R_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SBBP_R_TWR"]
+
+[[stations]]
+id = "SBBQ_R_TWR"
+parent_id = "SBCW_E_CTR"
+controlled_by = ["SBBQ_R_TWR"]
+
+[[stations]]
+id = "SBCA_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBCA_R_TWR"]
+
+[[stations]]
+id = "SBCB_R_TWR"
+parent_id = "SBES_APP"
+controlled_by = ["SBCB_R_TWR"]
+
+[[stations]]
+id = "SBCG_TWR"
+parent_id = "SBWG_APP"
+controlled_by = ["SBCG_TWR"]
+
+[[stations]]
+id = "SBCH_R_TWR"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SBCH_R_TWR"]
+
+[[stations]]
+id = "SBCO_TWR"
+parent_id = "SBWP_APP"
+controlled_by = ["SBCO_TWR"]
+
+[[stations]]
+id = "SBCP_R_TWR"
+parent_id = "SBWE_APP"
+controlled_by = ["SBCP_R_TWR"]
+
+[[stations]]
+id = "SBCR_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBCR_R_TWR"]
+
+[[stations]]
+id = "SBCT_TWR"
+parent_id = "SBWT_APP"
+controlled_by = ["SBCT_TWR"]
+
+[[stations]]
+id = "SBCX_R_TWR"
+parent_id = "SBWP_APP"
+controlled_by = ["SBCX_R_TWR"]
+
+[[stations]]
+id = "SBDB_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBDB_R_TWR"]
+
+[[stations]]
+id = "SBDN_TWR"
+parent_id = "SBXG_APP"
+controlled_by = ["SBDN_TWR"]
+
+[[stations]]
+id = "SBDO_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBDO_R_TWR"]
+
+[[stations]]
+id = "SBES_TWR"
+parent_id = "SBES_APP"
+controlled_by = ["SBES_TWR"]
+
+[[stations]]
+id = "SBFI_TWR"
+parent_id = "SBWI_APP"
+controlled_by = ["SBFI_TWR"]
+
+[[stations]]
+id = "SBFL_TWR"
+parent_id = "SBXF_APP"
+controlled_by = ["SBFL_TWR"]
+
+[[stations]]
+id = "SBFS_R_TWR"
+parent_id = "SBWE_APP"
+controlled_by = ["SBFS_R_TWR"]
+
+[[stations]]
+id = "SBGL_TWR"
+parent_id = "SBWJ_GL_APP"
+controlled_by = ["SBGL_TWR"]
+
+[[stations]]
+id = "SBGR_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SBGR_TWR"]
+
+[[stations]]
+id = "SBGW_TWR"
+parent_id = "SBGW_APP"
+controlled_by = ["SBGW_TWR"]
+
+[[stations]]
+id = "SBJA_R_TWR"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SBJA_R_TWR"]
+
+[[stations]]
+id = "SBJD_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SBJD_TWR"]
+
+[[stations]]
+id = "SBJH_R_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SBJH_R_TWR"]
+
+[[stations]]
+id = "SBJR_TWR"
+controlled_by = [
+  "SBJR_TWR",
+  "SBWJ_RJ_APP",
+  "SBWJ_S_APP",
+  "SBWJ_APP",
+  "SBCW_E_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+]
+
+[[stations]]
+id = "SBJV_R_TWR"
+parent_id = "SBWT_APP"
+controlled_by = ["SBJV_R_TWR"]
+
+[[stations]]
+id = "SBKP_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SBKP_TWR"]
+
+[[stations]]
+id = "SBLO_TWR"
+parent_id = "SBXO_APP"
+controlled_by = ["SBLO_TWR"]
+
+[[stations]]
+id = "SBME_TWR"
+parent_id = "SBWE_APP"
+controlled_by = ["SBME_TWR"]
+
+[[stations]]
+id = "SBMG_TWR"
+parent_id = "SBXO_APP"
+controlled_by = ["SBMG_TWR"]
+
+[[stations]]
+id = "SBMI_R_TWR"
+parent_id = "SBWJ_E_APP"
+controlled_by = ["SBMI_R_TWR"]
+
+[[stations]]
+id = "SBMT_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SBMT_TWR"]
+
+[[stations]]
+id = "SBNF_TWR"
+parent_id = "SBXF_APP"
+controlled_by = ["SBNF_TWR"]
+
+[[stations]]
+id = "SBNM_R_TWR"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SBNM_R_TWR"]
+
+[[stations]]
+id = "SBPA_TWR"
+parent_id = "SBWP_APP"
+controlled_by = ["SBPA_TWR"]
+
+[[stations]]
+id = "SBPF_R_TWR"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SBPF_R_TWR"]
+
+[[stations]]
+id = "SBPG_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBPG_R_TWR"]
+
+[[stations]]
+id = "SBPK_R_TWR"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SBPK_R_TWR"]
+
+[[stations]]
+id = "SBPO_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBPO_R_TWR"]
+
+[[stations]]
+id = "SBPP_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBPP_R_TWR"]
+
+[[stations]]
+id = "SBPW_R_TWR"
+parent_id = "SBWE_APP"
+controlled_by = ["SBPW_R_TWR"]
+
+[[stations]]
+id = "SBRJ_TWR"
+controlled_by = [
+  "SBRJ_TWR",
+  "SBWJ_RJ_APP",
+  "SBWJ_S_APP",
+  "SBWJ_APP",
+  "SBCW_E_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+]
+
+[[stations]]
+id = "SBSC_TWR"
+controlled_by = [
+  "SBSC_TWR",
+  "SBWJ_RJ_APP",
+  "SBWJ_S_APP",
+  "SBWJ_APP",
+  "SBCW_E_CTR",
+  "SBCW_CE_CTR",
+  "SBCW_SE_CTR",
+  "SBCW_CWE_CTR",
+  "SBCW_CSE_CTR",
+  "SBCW_CTR",
+]
+
+[[stations]]
+id = "SBSJ_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SBSJ_TWR"]
+
+[[stations]]
+id = "SBSM_TWR"
+parent_id = "SBWM_APP"
+controlled_by = ["SBSM_TWR"]
+
+[[stations]]
+id = "SBSP_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SBSP_TWR"]
+
+[[stations]]
+id = "SBSP_H_TWR"
+parent_id = "SBSP_TWR"
+controlled_by = ["SBSP_H_TWR"]
+
+[[stations]]
+id = "SBST_R_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SBST_R_TWR"]
+
+[[stations]]
+id = "SBTA_TWR"
+parent_id = "SBCW_E_CTR"
+controlled_by = ["SBTA_TWR"]
+
+[[stations]]
+id = "SBTD_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBTD_R_TWR"]
+
+[[stations]]
+id = "SBTG_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SBTG_R_TWR"]
+
+[[stations]]
+id = "SBUG_R_TWR"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SBUG_R_TWR"]
+
+[[stations]]
+id = "SBZM_R_TWR"
+parent_id = "SBCW_E_CTR"
+controlled_by = ["SBZM_R_TWR"]
+
+[[stations]]
+id = "SDAM_R_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SDAM_R_TWR"]
+
+[[stations]]
+id = "SDCO_TWR"
+parent_id = "SBXP_APP"
+controlled_by = ["SDCO_TWR"]
+
+[[stations]]
+id = "SNCP_R_TWR"
+parent_id = "SBCW_S_CTR"
+controlled_by = ["SNCP_R_TWR"]
+
+[[stations]]
+id = "SSGG_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SSGG_R_TWR"]
+
+[[stations]]
+id = "SSVL_R_TWR"
+parent_id = "SBCW_W_CTR"
+controlled_by = ["SSVL_R_TWR"]
+
+[[stations]]
+id = "SBAF_GND"
+parent_id = "SBAF_R_TWR"
+controlled_by = ["SBAF_GND"]
+
+[[stations]]
+id = "SBBI_GND"
+parent_id = "SBBI_TWR"
+controlled_by = ["SBBI_GND"]
+
+[[stations]]
+id = "SBCG_GND"
+parent_id = "SBCG_TWR"
+controlled_by = ["SBCG_GND"]
+
+[[stations]]
+id = "SBCO_GND"
+parent_id = "SBCO_TWR"
+controlled_by = ["SBCO_GND"]
+
+[[stations]]
+id = "SBCT_GND"
+parent_id = "SBCT_TWR"
+controlled_by = ["SBCT_GND"]
+
+[[stations]]
+id = "SBES_GND"
+parent_id = "SBES_TWR"
+controlled_by = ["SBES_GND"]
+
+[[stations]]
+id = "SBFL_GND"
+parent_id = "SBFL_TWR"
+controlled_by = ["SBFL_GND"]
+
+[[stations]]
+id = "SBGL_GND"
+parent_id = "SBGL_TWR"
+controlled_by = ["SBGL_GND"]
+
+[[stations]]
+id = "SBGR_GND"
+parent_id = "SBGR_TWR"
+controlled_by = ["SBGR_GND"]
+
+[[stations]]
+id = "SBJD_GND"
+parent_id = "SBJD_TWR"
+controlled_by = ["SBJD_GND"]
+
+[[stations]]
+id = "SBJR_GND"
+parent_id = "SBJR_TWR"
+controlled_by = ["SBJR_GND"]
+
+[[stations]]
+id = "SBKP_GND"
+parent_id = "SBKP_TWR"
+controlled_by = ["SBKP_GND"]
+
+[[stations]]
+id = "SBMT_GND"
+parent_id = "SBMT_TWR"
+controlled_by = ["SBMT_GND"]
+
+[[stations]]
+id = "SBPA_GND"
+parent_id = "SBPA_TWR"
+controlled_by = ["SBPA_GND"]
+
+[[stations]]
+id = "SBRJ_GND"
+parent_id = "SBRJ_TWR"
+controlled_by = ["SBRJ_GND"]
+
+[[stations]]
+id = "SBSC_GND"
+parent_id = "SBSC_TWR"
+controlled_by = ["SBSC_GND"]
+
+[[stations]]
+id = "SBSJ_GND"
+parent_id = "SBSJ_TWR"
+controlled_by = ["SBSJ_GND"]
+
+[[stations]]
+id = "SBSP_GND"
+parent_id = "SBSP_TWR"
+controlled_by = ["SBSP_GND"]
+
+[[stations]]
+id = "SBTA_GND"
+parent_id = "SBTA_TWR"
+controlled_by = ["SBTA_GND"]
+
+[[stations]]
+id = "SDCO_GND"
+parent_id = "SDCO_TWR"
+controlled_by = ["SDCO_GND"]
+
+[[stations]]
+id = "SBGL_RMP"
+parent_id = "SBGL_GND"
+controlled_by = ["SBGL_RMP"]
+
+[[stations]]
+id = "SBCT_DEL"
+parent_id = "SBCT_GND"
+controlled_by = ["SBCT_DEL"]
+
+[[stations]]
+id = "SBGL_DEL"
+parent_id = "SBGL_RMP"
+controlled_by = ["SBGL_DEL"]
+
+[[stations]]
+id = "SBGR_DEL"
+parent_id = "SBGR_GND"
+controlled_by = ["SBGR_DEL"]
+
+[[stations]]
+id = "SBKP_DEL"
+parent_id = "SBKP_GND"
+controlled_by = ["SBKP_DEL"]
+
+[[stations]]
+id = "SBMT_DEL"
+parent_id = "SBMT_GND"
+controlled_by = ["SBMT_DEL"]
+
+[[stations]]
+id = "SBPA_DEL"
+parent_id = "SBPA_GND"
+controlled_by = ["SBPA_DEL"]
+
+[[stations]]
+id = "SBRJ_DEL"
+parent_id = "SBRJ_GND"
+controlled_by = ["SBRJ_DEL"]
+
+[[stations]]
+id = "SBSC_DEL"
+parent_id = "SBSC_GND"
+controlled_by = ["SBSC_DEL"]
+
+[[stations]]
+id = "SBSP_DEL"
+parent_id = "SBSP_GND"
+controlled_by = ["SBSP_DEL"]
+
+# --- SBRE Recife ---
+[[stations]]
+id = "SBRE_CTR"
+controlled_by = ["SBRE_CTR"]
+
+[[stations]]
+id = "SBRE_NS_CTR"
+parent_id = "SBRE_SW_CTR"
+controlled_by = ["SBRE_NS_CTR"]
+
+[[stations]]
+id = "SBRE_NW_CTR"
+controlled_by = ["SBRE_NW_CTR", "SBRE_CTR", "SBRE_SW_CTR"]
+
+[[stations]]
+id = "SBRE_N_CTR"
+controlled_by = ["SBRE_N_CTR", "SBRE_NS_CTR", "SBRE_NW_CTR", "SBRE_CTR"]
+
+[[stations]]
+id = "SBRE_SW_CTR"
+controlled_by = ["SBRE_SW_CTR", "SBRE_CTR", "SBRE_NW_CTR"]
+
+[[stations]]
+id = "SBRE_S_CTR"
+controlled_by = ["SBRE_S_CTR", "SBRE_NS_CTR", "SBRE_SW_CTR", "SBRE_CTR"]
+
+[[stations]]
+id = "SBRE_W_CTR"
+controlled_by = ["SBRE_W_CTR", "SBRE_SW_CTR", "SBRE_NW_CTR", "SBRE_CTR"]
+
+[[stations]]
+id = "SBWF_APP"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBWF_APP"]
+
+[[stations]]
+id = "SBWK_APP"
+parent_id = "SBRE_S_CTR"
+controlled_by = ["SBWK_APP"]
+
+[[stations]]
+id = "SBWL_APP"
+parent_id = "SBRE_S_CTR"
+controlled_by = ["SBWL_APP"]
+
+[[stations]]
+id = "SBWZ_APP"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBWZ_APP"]
+
+[[stations]]
+id = "SBXA_APP"
+parent_id = "SBRE_S_CTR"
+controlled_by = ["SBXA_APP"]
+
+[[stations]]
+id = "SBXE_APP"
+parent_id = "SBRE_W_CTR"
+controlled_by = ["SBXE_APP"]
+
+[[stations]]
+id = "SBXM_APP"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBXM_APP"]
+
+[[stations]]
+id = "SBXR_APP"
+parent_id = "SBRE_S_CTR"
+controlled_by = ["SBXR_APP"]
+
+[[stations]]
+id = "SBXS_APP"
+parent_id = "SBRE_S_CTR"
+controlled_by = ["SBXS_APP"]
+
+[[stations]]
+id = "SBXT_APP"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBXT_APP"]
+
+[[stations]]
+id = "SBAC_R_TWR"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBAC_R_TWR"]
+
+[[stations]]
+id = "SBAR_TWR"
+parent_id = "SBXA_APP"
+controlled_by = ["SBAR_TWR"]
+
+[[stations]]
+id = "SBFN_R_TWR"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBFN_R_TWR"]
+
+[[stations]]
+id = "SBFZ_TWR"
+parent_id = "SBWZ_APP"
+controlled_by = ["SBFZ_TWR"]
+
+[[stations]]
+id = "SBGV_R_TWR"
+parent_id = "SBRE_S_CTR"
+controlled_by = ["SBGV_R_TWR"]
+
+[[stations]]
+id = "SBIL_R_TWR"
+parent_id = "SBWL_APP"
+controlled_by = ["SBIL_R_TWR"]
+
+[[stations]]
+id = "SBJE_R_TWR"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBJE_R_TWR"]
+
+[[stations]]
+id = "SBJP_TWR"
+parent_id = "SBWF_APP"
+controlled_by = ["SBJP_TWR"]
+
+[[stations]]
+id = "SBJU_R_TWR"
+controlled_by = [
+  "SBJU_R_TWR",
+  "SBRE_W_CTR",
+  "SBRE_NW_CTR",
+  "SBRE_SW_CTR",
+  "SBRE_CTR",
+]
+
+[[stations]]
+id = "SBKG_R_TWR"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBKG_R_TWR"]
+
+[[stations]]
+id = "SBMO_TWR"
+parent_id = "SBXM_APP"
+controlled_by = ["SBMO_TWR"]
+
+[[stations]]
+id = "SBMS_R_TWR"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBMS_R_TWR"]
+
+[[stations]]
+id = "SBNT_TWR"
+parent_id = "SBXT_APP"
+controlled_by = ["SBNT_TWR"]
+
+[[stations]]
+id = "SBPB_R_TWR"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBPB_R_TWR"]
+
+[[stations]]
+id = "SBPL_R_TWR"
+controlled_by = [
+  "SBPL_R_TWR",
+  "SBRE_W_CTR",
+  "SBRE_NW_CTR",
+  "SBRE_SW_CTR",
+  "SBRE_CTR",
+]
+
+[[stations]]
+id = "SBPS_TWR"
+parent_id = "SBWK_APP"
+controlled_by = ["SBPS_TWR"]
+
+[[stations]]
+id = "SBRF_TWR"
+parent_id = "SBWF_APP"
+controlled_by = ["SBRF_TWR"]
+
+[[stations]]
+id = "SBSG_TWR"
+parent_id = "SBXT_APP"
+controlled_by = ["SBSG_TWR"]
+
+[[stations]]
+id = "SBSV_TWR"
+parent_id = "SBXS_APP"
+controlled_by = ["SBSV_TWR"]
+
+[[stations]]
+id = "SBTC_R_TWR"
+parent_id = "SBWL_APP"
+controlled_by = ["SBTC_R_TWR"]
+
+[[stations]]
+id = "SBTE_TWR"
+parent_id = "SBXE_APP"
+controlled_by = ["SBTE_TWR"]
+
+[[stations]]
+id = "SBTV_R_TWR"
+parent_id = "SBWK_APP"
+controlled_by = ["SBTV_R_TWR"]
+
+[[stations]]
+id = "SBUF_R_TWR"
+parent_id = "SBRE_N_CTR"
+controlled_by = ["SBUF_R_TWR"]
+
+[[stations]]
+id = "SBVC_R_TWR"
+parent_id = "SBRE_S_CTR"
+controlled_by = ["SBVC_R_TWR"]
+
+[[stations]]
+id = "SBVT_TWR"
+parent_id = "SBXR_APP"
+controlled_by = ["SBVT_TWR"]
+
+[[stations]]
+id = "SBFZ_GND"
+parent_id = "SBFZ_TWR"
+controlled_by = ["SBFZ_GND"]
+
+[[stations]]
+id = "SBNT_GND"
+parent_id = "SBNT_TWR"
+controlled_by = ["SBNT_GND"]
+
+[[stations]]
+id = "SBRF_GND"
+parent_id = "SBRF_TWR"
+controlled_by = ["SBRF_GND"]
+
+[[stations]]
+id = "SBSG_GND"
+parent_id = "SBSG_TWR"
+controlled_by = ["SBSG_GND"]
+
+[[stations]]
+id = "SBSV_GND"
+parent_id = "SBSV_TWR"
+controlled_by = ["SBSV_GND"]
+
+[[stations]]
+id = "SBVT_GND"
+parent_id = "SBVT_TWR"
+controlled_by = ["SBVT_GND"]
+
+[[stations]]
+id = "SBTV_RMP"
+parent_id = "SBTV_R_TWR"
+controlled_by = ["SBTV_RMP"]
+
+[[stations]]
+id = "SBRF_DEL"
+parent_id = "SBRF_GND"
+controlled_by = ["SBRF_DEL"]
+
+[[stations]]
+id = "SBSG_DEL"
+parent_id = "SBSG_GND"
+controlled_by = ["SBSG_DEL"]
+
+[[stations]]
+id = "SBSV_DEL"
+parent_id = "SBSV_GND"
+controlled_by = ["SBSV_DEL"]
+
+# --- SBAO Atlântico ---
+[[stations]]
+id = "SBAO_FSS"
+controlled_by = ["SBAO_FSS"]
+
+[[stations]]
+id = "SBAO_NE_FSS"
+parent_id = "SBAO_N_FSS"
+controlled_by = ["SBAO_NE_FSS"]
+
+[[stations]]
+id = "SBAO_NW_FSS"
+parent_id = "SBAO_N_FSS"
+controlled_by = ["SBAO_NW_FSS"]
+
+[[stations]]
+id = "SBAO_N_FSS"
+parent_id = "SBAO_FSS"
+controlled_by = ["SBAO_N_FSS"]
+
+[[stations]]
+id = "SBAO_SE_FSS"
+parent_id = "SBAO_S_FSS"
+controlled_by = ["SBAO_SE_FSS"]
+
+[[stations]]
+id = "SBAO_SW_FSS"
+parent_id = "SBAO_S_FSS"
+controlled_by = ["SBAO_SW_FSS"]
+
+[[stations]]
+id = "SBAO_S_FSS"
+parent_id = "SBAO_FSS"
+controlled_by = ["SBAO_S_FSS"]
