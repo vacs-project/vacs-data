@@ -1,0 +1,2492 @@
+# --- SBAZ Amazônico ---
+[[positions]]
+id = "SBAZ_CTR"
+prefixes = ["SBAZ"]
+frequency = "134.700"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBAZ_CTR"]
+
+[[positions]]
+id = "SBAZ_CE_CTR"
+prefixes = ["SBAZ"]
+frequency = "123.650"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBAZ_CE_CTR"]
+
+[[positions]]
+id = "SBAZ_CW_CTR"
+prefixes = ["SBAZ"]
+frequency = "124.750"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBAZ_CW_CTR"]
+
+[[positions]]
+id = "SBAZ_C_CTR"
+prefixes = ["SBAZ"]
+frequency = "134.250"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBAZ_C_CTR"]
+
+[[positions]]
+id = "SBAZ_E_CTR"
+prefixes = ["SBAZ"]
+frequency = "125.750"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBAZ_E_CTR"]
+
+[[positions]]
+id = "SBAZ_W_CTR"
+prefixes = ["SBAZ"]
+frequency = "132.300"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBAZ_W_CTR"]
+
+[[positions]]
+id = "SBWA_APP"
+prefixes = ["SBWA"]
+frequency = "119.100"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWA_APP"]
+
+[[positions]]
+id = "SBWB_APP"
+prefixes = ["SBWB"]
+frequency = "119.050"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWB_APP"]
+
+[[positions]]
+id = "SBWN_APP"
+prefixes = ["SBWN"]
+frequency = "119.250"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWN_APP"]
+
+[[positions]]
+id = "SBWQ_APP"
+prefixes = ["SBWQ"]
+frequency = "120.100"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWQ_APP"]
+
+[[positions]]
+id = "SBWS_APP"
+prefixes = ["SBWS"]
+frequency = "119.100"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWS_APP"]
+
+[[positions]]
+id = "SBWV_APP"
+prefixes = ["SBWV"]
+frequency = "120.250"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWV_APP"]
+
+[[positions]]
+id = "SBWX_APP"
+prefixes = ["SBWX"]
+frequency = "119.300"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWX_APP"]
+
+[[positions]]
+id = "SBWY_APP"
+prefixes = ["SBWY"]
+frequency = "119.400"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWY_APP"]
+
+[[positions]]
+id = "SBXB_APP"
+prefixes = ["SBXB"]
+frequency = "119.900"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXB_APP"]
+
+[[positions]]
+id = "SBXJ_APP"
+prefixes = ["SBXJ"]
+frequency = "119.200"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXJ_APP"]
+
+[[positions]]
+id = "SBXK_APP"
+prefixes = ["SBXK"]
+frequency = "119.000"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXK_APP"]
+
+[[positions]]
+id = "SWUQ_APP"
+prefixes = ["SWUQ"]
+frequency = "119.850"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SWUQ_APP"]
+
+[[positions]]
+id = "SBAT_R_TWR"
+prefixes = ["SBAT"]
+frequency = "126.600"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBAT_R_TWR"]
+
+[[positions]]
+id = "SBBE_TWR"
+prefixes = ["SBBE"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBE_TWR"]
+
+[[positions]]
+id = "SBBV_TWR"
+prefixes = ["SBBV"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBV_TWR"]
+
+[[positions]]
+id = "SBCC_R_TWR"
+prefixes = ["SBCC"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCC_R_TWR"]
+
+[[positions]]
+id = "SBCJ_R_TWR"
+prefixes = ["SBCJ"]
+frequency = "131.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCJ_R_TWR"]
+
+[[positions]]
+id = "SBCY_TWR"
+prefixes = ["SBCY"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCY_TWR"]
+
+[[positions]]
+id = "SBCZ_R_TWR"
+prefixes = ["SBCZ"]
+frequency = "125.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCZ_R_TWR"]
+
+[[positions]]
+id = "SBEG_TWR"
+prefixes = ["SBEG"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBEG_TWR"]
+
+[[positions]]
+id = "SBGM_R_TWR"
+prefixes = ["SBGM"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBGM_R_TWR"]
+
+[[positions]]
+id = "SBHT_R_TWR"
+prefixes = ["SBHT"]
+frequency = "125.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBHT_R_TWR"]
+
+[[positions]]
+id = "SBIH_R_TWR"
+prefixes = ["SBIH"]
+frequency = "125.500"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBIH_R_TWR"]
+
+[[positions]]
+id = "SBIZ_R_TWR"
+prefixes = ["SBIZ"]
+frequency = "125.650"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBIZ_R_TWR"]
+
+[[positions]]
+id = "SBJI_R_TWR"
+prefixes = ["SBJI"]
+frequency = "131.750"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBJI_R_TWR"]
+
+[[positions]]
+id = "SBMA_R_TWR"
+prefixes = ["SBMA"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBMA_R_TWR"]
+
+[[positions]]
+id = "SBMN_TWR"
+prefixes = ["SBMN"]
+frequency = "118.600"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBMN_TWR"]
+
+[[positions]]
+id = "SBMQ_TWR"
+prefixes = ["SBMQ"]
+frequency = "118.000"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBMQ_TWR"]
+
+[[positions]]
+id = "SBOI_R_TWR"
+prefixes = ["SBOI"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBOI_R_TWR"]
+
+[[positions]]
+id = "SBPV_TWR"
+prefixes = ["SBPV"]
+frequency = "118.200"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPV_TWR"]
+
+[[positions]]
+id = "SBRB_TWR"
+prefixes = ["SBRB"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBRB_TWR"]
+
+[[positions]]
+id = "SBRD_R_TWR"
+prefixes = ["SBRD"]
+frequency = "130.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBRD_R_TWR"]
+
+[[positions]]
+id = "SBSI_R_TWR"
+prefixes = ["SBSI"]
+frequency = "130.175"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSI_R_TWR"]
+
+[[positions]]
+id = "SBSL_TWR"
+prefixes = ["SBSL"]
+frequency = "118.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSL_TWR"]
+
+[[positions]]
+id = "SBSN_TWR"
+prefixes = ["SBSN"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSN_TWR"]
+
+[[positions]]
+id = "SBSO_R_TWR"
+prefixes = ["SBSO"]
+frequency = "130.350"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSO_R_TWR"]
+
+[[positions]]
+id = "SBTB_R_TWR"
+prefixes = ["SBTB"]
+frequency = "131.600"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTB_R_TWR"]
+
+[[positions]]
+id = "SBTF_R_TWR"
+prefixes = ["SBTF"]
+frequency = "125.600"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTF_R_TWR"]
+
+[[positions]]
+id = "SBTS_R_TWR"
+prefixes = ["SBTS"]
+frequency = "128.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTS_R_TWR"]
+
+[[positions]]
+id = "SBTT_R_TWR"
+prefixes = ["SBTT"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTT_R_TWR"]
+
+[[positions]]
+id = "SBUA_R_TWR"
+prefixes = ["SBUA"]
+frequency = "125.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBUA_R_TWR"]
+
+[[positions]]
+id = "SBUY_R_TWR"
+prefixes = ["SBUY"]
+frequency = "131.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBUY_R_TWR"]
+
+[[positions]]
+id = "SBVH_R_TWR"
+prefixes = ["SBVH"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBVH_R_TWR"]
+
+[[positions]]
+id = "SSKW_R_TWR"
+prefixes = ["SSKW"]
+frequency = "131.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SSKW_R_TWR"]
+
+[[positions]]
+id = "SWGN_R_TWR"
+prefixes = ["SWGN"]
+frequency = "125.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SWGN_R_TWR"]
+
+[[positions]]
+id = "SBBE_GND"
+prefixes = ["SBBE"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBBE_GND"]
+
+[[positions]]
+id = "SBCY_GND"
+prefixes = ["SBCY"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBCY_GND"]
+
+[[positions]]
+id = "SBEG_GND"
+prefixes = ["SBEG"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBEG_GND"]
+
+# --- SBBS Brasília ---
+[[positions]]
+id = "SBBS_CTR"
+prefixes = ["SBBS"]
+frequency = "134.000"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBBS_CTR"]
+
+[[positions]]
+id = "SBBS_E_CTR"
+prefixes = ["SBBS"]
+frequency = "124.800"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBBS_E_CTR"]
+
+[[positions]]
+id = "SBBS_NE_CTR"
+prefixes = ["SBBS"]
+frequency = "125.550"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBBS_NE_CTR"]
+
+[[positions]]
+id = "SBBS_NS_CTR"
+prefixes = ["SBBS"]
+frequency = "133.750"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBBS_NS_CTR"]
+
+[[positions]]
+id = "SBBS_N_CTR"
+prefixes = ["SBBS"]
+frequency = "124.700"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBBS_N_CTR"]
+
+[[positions]]
+id = "SBBS_SE_CTR"
+prefixes = ["SBBS"]
+frequency = "128.050"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBBS_SE_CTR"]
+
+[[positions]]
+id = "SBBS_S_CTR"
+prefixes = ["SBBS"]
+frequency = "126.800"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBBS_S_CTR"]
+
+[[positions]]
+id = "SBWH_APP"
+prefixes = ["SBWH"]
+frequency = "129.100"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWH_APP"]
+
+[[positions]]
+id = "SBWR_APP"
+prefixes = ["SBWR"]
+frequency = "119.200"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWR_APP"]
+
+[[positions]]
+id = "SBWU_APP"
+prefixes = ["SBWU"]
+frequency = "121.300"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWU_APP"]
+
+[[positions]]
+id = "SBXD_APP"
+prefixes = ["SBXD"]
+frequency = "119.000"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXD_APP"]
+
+[[positions]]
+id = "SBXN_APP"
+prefixes = ["SBXN"]
+frequency = "129.450"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXN_APP"]
+
+[[positions]]
+id = "SBXQ_APP"
+prefixes = ["SBXQ"]
+frequency = "120.100"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXQ_APP"]
+
+[[positions]]
+id = "SBXU_APP"
+prefixes = ["SBXU"]
+frequency = "120.800"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXU_APP"]
+
+[[positions]]
+id = "SBXW_APP"
+prefixes = ["SBXW"]
+frequency = "122.850"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXW_APP"]
+
+[[positions]]
+id = "SBAE_R_TWR"
+prefixes = ["SBAE"]
+frequency = "126.600"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBAE_R_TWR"]
+
+[[positions]]
+id = "SBAN_TWR"
+prefixes = ["SBAN"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBAN_TWR"]
+
+[[positions]]
+id = "SBAQ_R_TWR"
+prefixes = ["SBAQ"]
+frequency = "125.925"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBAQ_R_TWR"]
+
+[[positions]]
+id = "SBAU_R_TWR"
+prefixes = ["SBAU"]
+frequency = "130.600"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBAU_R_TWR"]
+
+[[positions]]
+id = "SBAX_R_TWR"
+prefixes = ["SBAX"]
+frequency = "130.350"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBAX_R_TWR"]
+
+[[positions]]
+id = "SBBH_TWR"
+prefixes = ["SBBH"]
+frequency = "118.000"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBH_TWR"]
+
+[[positions]]
+id = "SBBR_TWR"
+prefixes = ["SBBR"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBR_TWR"]
+
+[[positions]]
+id = "SBBR_N_TWR"
+prefixes = ["SBBR"]
+frequency = "118.450"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBR_N_TWR"]
+
+[[positions]]
+id = "SBBR_S_TWR"
+prefixes = ["SBBR"]
+frequency = "118.750"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBR_S_TWR"]
+
+[[positions]]
+id = "SBBU_R_TWR"
+prefixes = ["SBBU"]
+frequency = "121.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBU_R_TWR"]
+
+[[positions]]
+id = "SBBW_R_TWR"
+prefixes = ["SBBW"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBW_R_TWR"]
+
+[[positions]]
+id = "SBCF_TWR"
+prefixes = ["SBCF"]
+frequency = "118.200"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCF_TWR"]
+
+[[positions]]
+id = "SBCN_R_TWR"
+prefixes = ["SBCN"]
+frequency = "130.050"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCN_R_TWR"]
+
+[[positions]]
+id = "SBGO_TWR"
+prefixes = ["SBGO"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBGO_TWR"]
+
+[[positions]]
+id = "SBGP_R_TWR"
+prefixes = ["SBGP"]
+frequency = "118.950"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBGP_R_TWR"]
+
+[[positions]]
+id = "SBIP_R_TWR"
+prefixes = ["SBIP"]
+frequency = "130.000"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBIP_R_TWR"]
+
+[[positions]]
+id = "SBIT_R_TWR"
+prefixes = ["SBIT"]
+frequency = "130.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBIT_R_TWR"]
+
+[[positions]]
+id = "SBLS_R_TWR"
+prefixes = ["SBLS"]
+frequency = "122.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBLS_R_TWR"]
+
+[[positions]]
+id = "SBMK_R_TWR"
+prefixes = ["SBMK"]
+frequency = "131.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBMK_R_TWR"]
+
+[[positions]]
+id = "SBML_R_TWR"
+prefixes = ["SBML"]
+frequency = "130.450"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBML_R_TWR"]
+
+[[positions]]
+id = "SBNV_R_TWR"
+prefixes = ["SBNV"]
+frequency = "131.050"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBNV_R_TWR"]
+
+[[positions]]
+id = "SBPJ_TWR"
+prefixes = ["SBPJ"]
+frequency = "118.000"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPJ_TWR"]
+
+[[positions]]
+id = "SBRP_TWR"
+prefixes = ["SBRP"]
+frequency = "118.000"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBRP_TWR"]
+
+[[positions]]
+id = "SBSR_R_TWR"
+prefixes = ["SBSR"]
+frequency = "130.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSR_R_TWR"]
+
+[[positions]]
+id = "SBUL_TWR"
+prefixes = ["SBUL"]
+frequency = "118.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBUL_TWR"]
+
+[[positions]]
+id = "SBUR_TWR"
+prefixes = ["SBUR"]
+frequency = "118.500"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBUR_TWR"]
+
+[[positions]]
+id = "SBVG_R_TWR"
+prefixes = ["SBVG"]
+frequency = "130.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBVG_R_TWR"]
+
+[[positions]]
+id = "SBYS_TWR"
+prefixes = ["SBYS"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBYS_TWR"]
+
+[[positions]]
+id = "SDSC_R_TWR"
+prefixes = ["SDSC"]
+frequency = "118.125"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SDSC_R_TWR"]
+
+[[positions]]
+id = "SIMK_R_TWR"
+prefixes = ["SIMK"]
+frequency = "118.175"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SIMK_R_TWR"]
+
+[[positions]]
+id = "SBAN_GND"
+prefixes = ["SBAN"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBAN_GND"]
+
+[[positions]]
+id = "SBBH_GND"
+prefixes = ["SBBH"]
+frequency = "121.600"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBBH_GND"]
+
+[[positions]]
+id = "SBBR_GND"
+prefixes = ["SBBR"]
+frequency = "121.800"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBBR_GND"]
+
+[[positions]]
+id = "SBCF_GND"
+prefixes = ["SBCF"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBCF_GND"]
+
+[[positions]]
+id = "SBGO_GND"
+prefixes = ["SBGO"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBGO_GND"]
+
+[[positions]]
+id = "SBRP_GND"
+prefixes = ["SBRP"]
+frequency = "121.600"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBRP_GND"]
+
+[[positions]]
+id = "SBYS_GND"
+prefixes = ["SBYS"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBYS_GND"]
+
+[[positions]]
+id = "SBBR_DEL"
+prefixes = ["SBBR"]
+frequency = "121.000"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBBR_DEL"]
+
+[[positions]]
+id = "SBCF_DEL"
+prefixes = ["SBCF"]
+frequency = "121.000"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBCF_DEL"]
+
+[[positions]]
+id = "SBGO_DEL"
+prefixes = ["SBGO"]
+frequency = "121.050"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBGO_DEL"]
+
+# --- SBCW Curitiba ---
+[[positions]]
+id = "SBCW_CTR"
+prefixes = ["SBCW"]
+frequency = "135.000"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_CTR"]
+
+[[positions]]
+id = "SBCW_CE_CTR"
+prefixes = ["SBCW"]
+frequency = "124.400"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_CE_CTR"]
+
+[[positions]]
+id = "SBCW_CSE_CTR"
+prefixes = ["SBCW"]
+frequency = "135.850"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_CSE_CTR"]
+
+[[positions]]
+id = "SBCW_CSW_CTR"
+prefixes = ["SBCW"]
+frequency = "125.800"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_CSW_CTR"]
+
+[[positions]]
+id = "SBCW_CS_CTR"
+prefixes = ["SBCW"]
+frequency = "127.500"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_CS_CTR"]
+
+[[positions]]
+id = "SBCW_CWE_CTR"
+prefixes = ["SBCW"]
+frequency = "125.075"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_CWE_CTR"]
+
+[[positions]]
+id = "SBCW_CW_CTR"
+prefixes = ["SBCW"]
+frequency = "128.350"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_CW_CTR"]
+
+[[positions]]
+id = "SBCW_C_CTR"
+prefixes = ["SBCW"]
+frequency = "132.800"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_C_CTR"]
+
+[[positions]]
+id = "SBCW_E_CTR"
+prefixes = ["SBCW"]
+frequency = "124.000"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_E_CTR"]
+
+[[positions]]
+id = "SBCW_SE_CTR"
+prefixes = ["SBCW"]
+frequency = "127.050"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_SE_CTR"]
+
+[[positions]]
+id = "SBCW_SW_CTR"
+prefixes = ["SBCW"]
+frequency = "133.800"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_SW_CTR"]
+
+[[positions]]
+id = "SBCW_S_CTR"
+prefixes = ["SBCW"]
+frequency = "126.750"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_S_CTR"]
+
+[[positions]]
+id = "SBCW_W_CTR"
+prefixes = ["SBCW"]
+frequency = "124.275"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBCW_W_CTR"]
+
+[[positions]]
+id = "SBES_APP"
+prefixes = ["SBES"]
+frequency = "119.450"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBES_APP"]
+
+[[positions]]
+id = "SBGR_F_APP"
+prefixes = ["SBGR"]
+frequency = "129.750"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBGR_F_APP"]
+
+[[positions]]
+id = "SBGW_APP"
+prefixes = ["SBGW"]
+frequency = "120.150"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBGW_APP"]
+
+[[positions]]
+id = "SBKP_F_APP"
+prefixes = ["SBKP"]
+frequency = "119.250"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBKP_F_APP"]
+
+[[positions]]
+id = "SBSJ_F_APP"
+prefixes = ["SBSJ"]
+frequency = "124.150"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBSJ_F_APP"]
+
+[[positions]]
+id = "SBSP_F_APP"
+prefixes = ["SBSP"]
+frequency = "133.850"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBSP_F_APP"]
+
+[[positions]]
+id = "SBWE_APP"
+prefixes = ["SBWE"]
+frequency = "119.450"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWE_APP"]
+
+[[positions]]
+id = "SBWG_APP"
+prefixes = ["SBWG"]
+frequency = "119.350"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWG_APP"]
+
+[[positions]]
+id = "SBWI_APP"
+prefixes = ["SBWI"]
+frequency = "120.300"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWI_APP"]
+
+[[positions]]
+id = "SBWJ_APP"
+prefixes = ["SBWJ"]
+frequency = "119.000"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWJ_APP"]
+
+[[positions]]
+id = "SBWJ_E_APP"
+prefixes = ["SBWJ"]
+frequency = "133.300"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWJ_E_APP"]
+
+[[positions]]
+id = "SBWJ_GL_APP"
+prefixes = ["SBWJ"]
+frequency = "128.900"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWJ_GL_APP"]
+
+[[positions]]
+id = "SBWJ_NE_APP"
+prefixes = ["SBWJ"]
+frequency = "120.550"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWJ_NE_APP"]
+
+[[positions]]
+id = "SBWJ_N_APP"
+prefixes = ["SBWJ"]
+frequency = "125.950"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWJ_N_APP"]
+
+[[positions]]
+id = "SBWJ_RJ_APP"
+prefixes = ["SBWJ"]
+frequency = "120.750"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWJ_RJ_APP"]
+
+[[positions]]
+id = "SBWJ_S_APP"
+prefixes = ["SBWJ"]
+frequency = "126.200"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWJ_S_APP"]
+
+[[positions]]
+id = "SBWM_APP"
+prefixes = ["SBWM"]
+frequency = "119.350"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWM_APP"]
+
+[[positions]]
+id = "SBWP_APP"
+prefixes = ["SBWP"]
+frequency = "129.600"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWP_APP"]
+
+[[positions]]
+id = "SBWT_APP"
+prefixes = ["SBWT"]
+frequency = "119.950"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWT_APP"]
+
+[[positions]]
+id = "SBXF_APP"
+prefixes = ["SBXF"]
+frequency = "119.650"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXF_APP"]
+
+[[positions]]
+id = "SBXG_APP"
+prefixes = ["SBXG"]
+frequency = "125.450"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXG_APP"]
+
+[[positions]]
+id = "SBXO_APP"
+prefixes = ["SBXO"]
+frequency = "129.700"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXO_APP"]
+
+[[positions]]
+id = "SBXP_APP"
+prefixes = ["SBXP"]
+frequency = "119.600"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_APP"]
+
+[[positions]]
+id = "SBXP_E_APP"
+prefixes = ["SBXP"]
+frequency = "134.650"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_E_APP"]
+
+[[positions]]
+id = "SBXP_NL_APP"
+prefixes = ["SBXP"]
+frequency = "120.925"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_NL_APP"]
+
+[[positions]]
+id = "SBXP_NU_APP"
+prefixes = ["SBXP"]
+frequency = "130.050"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_NU_APP"]
+
+[[positions]]
+id = "SBXP_N_APP"
+prefixes = ["SBXP"]
+frequency = "120.250"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_N_APP"]
+
+[[positions]]
+id = "SBXP_S_APP"
+prefixes = ["SBXP"]
+frequency = "129.000"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_S_APP"]
+
+[[positions]]
+id = "SBXP_T13_APP"
+prefixes = ["SBXP"]
+frequency = "129.275"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_T13_APP"]
+
+[[positions]]
+id = "SBXP_T1_APP"
+prefixes = ["SBXP"]
+frequency = "134.900"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_T1_APP"]
+
+[[positions]]
+id = "SBXP_T2_APP"
+prefixes = ["SBXP"]
+frequency = "122.750"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_T2_APP"]
+
+[[positions]]
+id = "SBXP_T3_APP"
+prefixes = ["SBXP"]
+frequency = "135.750"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_T3_APP"]
+
+[[positions]]
+id = "SBXP_T4_APP"
+prefixes = ["SBXP"]
+frequency = "119.800"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_T4_APP"]
+
+[[positions]]
+id = "SBXP_T5_APP"
+prefixes = ["SBXP"]
+frequency = "132.100"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_T5_APP"]
+
+[[positions]]
+id = "SBXP_T6_APP"
+prefixes = ["SBXP"]
+frequency = "120.850"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_T6_APP"]
+
+[[positions]]
+id = "SBXP_T7_APP"
+prefixes = ["SBXP"]
+frequency = "119.375"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_T7_APP"]
+
+[[positions]]
+id = "SBXP_T8_APP"
+prefixes = ["SBXP"]
+frequency = "120.450"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_T8_APP"]
+
+[[positions]]
+id = "SBXP_V_APP"
+prefixes = ["SBXP"]
+frequency = "129.500"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXP_V_APP"]
+
+[[positions]]
+id = "SBXP_DEP"
+prefixes = ["SBXP"]
+frequency = "129.050"
+facility_type = "DEP"
+profile_id = "SB"
+default_call_sources = ["SBXP_DEP"]
+
+[[positions]]
+id = "SBAF_R_TWR"
+prefixes = ["SBAF"]
+frequency = "118.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBAF_R_TWR"]
+
+[[positions]]
+id = "SBBG_R_TWR"
+prefixes = ["SBBG"]
+frequency = "125.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBG_R_TWR"]
+
+[[positions]]
+id = "SBBI_TWR"
+prefixes = ["SBBI"]
+frequency = "118.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBI_TWR"]
+
+[[positions]]
+id = "SBBP_R_TWR"
+prefixes = ["SBBP"]
+frequency = "125.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBP_R_TWR"]
+
+[[positions]]
+id = "SBBQ_R_TWR"
+prefixes = ["SBBQ"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBBQ_R_TWR"]
+
+[[positions]]
+id = "SBCA_R_TWR"
+prefixes = ["SBCA"]
+frequency = "131.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCA_R_TWR"]
+
+[[positions]]
+id = "SBCB_R_TWR"
+prefixes = ["SBCB"]
+frequency = "132.150"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCB_R_TWR"]
+
+[[positions]]
+id = "SBCG_TWR"
+prefixes = ["SBCG"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCG_TWR"]
+
+[[positions]]
+id = "SBCH_R_TWR"
+prefixes = ["SBCH"]
+frequency = "130.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCH_R_TWR"]
+
+[[positions]]
+id = "SBCO_TWR"
+prefixes = ["SBCO"]
+frequency = "118.500"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCO_TWR"]
+
+[[positions]]
+id = "SBCP_R_TWR"
+prefixes = ["SBCP"]
+frequency = "125.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCP_R_TWR"]
+
+[[positions]]
+id = "SBCR_R_TWR"
+prefixes = ["SBCR"]
+frequency = "119.500"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCR_R_TWR"]
+
+[[positions]]
+id = "SBCT_TWR"
+prefixes = ["SBCT"]
+frequency = "118.150"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCT_TWR"]
+
+[[positions]]
+id = "SBCX_R_TWR"
+prefixes = ["SBCX"]
+frequency = "131.600"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBCX_R_TWR"]
+
+[[positions]]
+id = "SBDB_R_TWR"
+prefixes = ["SBDB"]
+frequency = "130.600"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBDB_R_TWR"]
+
+[[positions]]
+id = "SBDN_TWR"
+prefixes = ["SBDN"]
+frequency = "118.450"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBDN_TWR"]
+
+[[positions]]
+id = "SBDO_R_TWR"
+prefixes = ["SBDO"]
+frequency = "130.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBDO_R_TWR"]
+
+[[positions]]
+id = "SBES_TWR"
+prefixes = ["SBES"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBES_TWR"]
+
+[[positions]]
+id = "SBFI_TWR"
+prefixes = ["SBFI"]
+frequency = "118.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBFI_TWR"]
+
+[[positions]]
+id = "SBFL_TWR"
+prefixes = ["SBFL"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBFL_TWR"]
+
+[[positions]]
+id = "SBFS_R_TWR"
+prefixes = ["SBFS"]
+frequency = "131.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBFS_R_TWR"]
+
+[[positions]]
+id = "SBGL_TWR"
+prefixes = ["SBGL"]
+frequency = "118.200"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBGL_TWR"]
+
+[[positions]]
+id = "SBGR_TWR"
+prefixes = ["SBGR"]
+frequency = "132.750"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBGR_TWR"]
+
+[[positions]]
+id = "SBGW_TWR"
+prefixes = ["SBGW"]
+frequency = "118.150"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBGW_TWR"]
+
+[[positions]]
+id = "SBJA_R_TWR"
+prefixes = ["SBJA"]
+frequency = "130.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBJA_R_TWR"]
+
+[[positions]]
+id = "SBJD_TWR"
+prefixes = ["SBJD"]
+frequency = "118.750"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBJD_TWR"]
+
+[[positions]]
+id = "SBJH_R_TWR"
+prefixes = ["SBJH"]
+frequency = "131.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBJH_R_TWR"]
+
+[[positions]]
+id = "SBJR_TWR"
+prefixes = ["SBJR"]
+frequency = "118.400"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBJR_TWR"]
+
+[[positions]]
+id = "SBJV_R_TWR"
+prefixes = ["SBJV"]
+frequency = "118.000"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBJV_R_TWR"]
+
+[[positions]]
+id = "SBKP_TWR"
+prefixes = ["SBKP"]
+frequency = "118.250"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBKP_TWR"]
+
+[[positions]]
+id = "SBLO_TWR"
+prefixes = ["SBLO"]
+frequency = "118.400"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBLO_TWR"]
+
+[[positions]]
+id = "SBME_TWR"
+prefixes = ["SBME"]
+frequency = "118.450"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBME_TWR"]
+
+[[positions]]
+id = "SBMG_TWR"
+prefixes = ["SBMG"]
+frequency = "118.750"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBMG_TWR"]
+
+[[positions]]
+id = "SBMI_R_TWR"
+prefixes = ["SBMI"]
+frequency = "131.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBMI_R_TWR"]
+
+[[positions]]
+id = "SBMT_TWR"
+prefixes = ["SBMT"]
+frequency = "133.350"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBMT_TWR"]
+
+[[positions]]
+id = "SBNF_TWR"
+prefixes = ["SBNF"]
+frequency = "118.200"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBNF_TWR"]
+
+[[positions]]
+id = "SBNM_R_TWR"
+prefixes = ["SBNM"]
+frequency = "131.650"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBNM_R_TWR"]
+
+[[positions]]
+id = "SBPA_TWR"
+prefixes = ["SBPA"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPA_TWR"]
+
+[[positions]]
+id = "SBPF_R_TWR"
+prefixes = ["SBPF"]
+frequency = "131.250"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPF_R_TWR"]
+
+[[positions]]
+id = "SBPG_R_TWR"
+prefixes = ["SBPG"]
+frequency = "128.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPG_R_TWR"]
+
+[[positions]]
+id = "SBPK_R_TWR"
+prefixes = ["SBPK"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPK_R_TWR"]
+
+[[positions]]
+id = "SBPO_R_TWR"
+prefixes = ["SBPO"]
+frequency = "130.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPO_R_TWR"]
+
+[[positions]]
+id = "SBPP_R_TWR"
+prefixes = ["SBPP"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPP_R_TWR"]
+
+[[positions]]
+id = "SBPW_R_TWR"
+prefixes = ["SBPW"]
+frequency = "130.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPW_R_TWR"]
+
+[[positions]]
+id = "SBRJ_TWR"
+prefixes = ["SBRJ"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBRJ_TWR"]
+
+[[positions]]
+id = "SBSC_TWR"
+prefixes = ["SBSC"]
+frequency = "118.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSC_TWR"]
+
+[[positions]]
+id = "SBSJ_TWR"
+prefixes = ["SBSJ"]
+frequency = "118.500"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSJ_TWR"]
+
+[[positions]]
+id = "SBSM_TWR"
+prefixes = ["SBSM"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSM_TWR"]
+
+[[positions]]
+id = "SBSP_TWR"
+prefixes = ["SBSP"]
+frequency = "127.150"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSP_TWR"]
+
+[[positions]]
+id = "SBSP_H_TWR"
+prefixes = ["SBSP"]
+frequency = "118.350"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSP_H_TWR"]
+
+[[positions]]
+id = "SBST_R_TWR"
+prefixes = ["SBST"]
+frequency = "118.650"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBST_R_TWR"]
+
+[[positions]]
+id = "SBTA_TWR"
+prefixes = ["SBTA"]
+frequency = "119.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTA_TWR"]
+
+[[positions]]
+id = "SBTD_R_TWR"
+prefixes = ["SBTD"]
+frequency = "131.050"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTD_R_TWR"]
+
+[[positions]]
+id = "SBTG_R_TWR"
+prefixes = ["SBTG"]
+frequency = "130.250"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTG_R_TWR"]
+
+[[positions]]
+id = "SBUG_R_TWR"
+prefixes = ["SBUG"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBUG_R_TWR"]
+
+[[positions]]
+id = "SBZM_R_TWR"
+prefixes = ["SBZM"]
+frequency = "130.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBZM_R_TWR"]
+
+[[positions]]
+id = "SDAM_R_TWR"
+prefixes = ["SDAM"]
+frequency = "118.125"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SDAM_R_TWR"]
+
+[[positions]]
+id = "SDCO_TWR"
+prefixes = ["SDCO"]
+frequency = "118.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SDCO_TWR"]
+
+[[positions]]
+id = "SNCP_R_TWR"
+prefixes = ["SNCP"]
+frequency = "131.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SNCP_R_TWR"]
+
+[[positions]]
+id = "SSGG_R_TWR"
+prefixes = ["SSGG"]
+frequency = "131.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SSGG_R_TWR"]
+
+[[positions]]
+id = "SSVL_R_TWR"
+prefixes = ["SSVL"]
+frequency = "130.225"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SSVL_R_TWR"]
+
+[[positions]]
+id = "SBAF_GND"
+prefixes = ["SBAF"]
+frequency = "121.850"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBAF_GND"]
+
+[[positions]]
+id = "SBBI_GND"
+prefixes = ["SBBI"]
+frequency = "121.800"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBBI_GND"]
+
+[[positions]]
+id = "SBCG_GND"
+prefixes = ["SBCG"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBCG_GND"]
+
+[[positions]]
+id = "SBCO_GND"
+prefixes = ["SBCO"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBCO_GND"]
+
+[[positions]]
+id = "SBCT_GND"
+prefixes = ["SBCT"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBCT_GND"]
+
+[[positions]]
+id = "SBES_GND"
+prefixes = ["SBES"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBES_GND"]
+
+[[positions]]
+id = "SBFL_GND"
+prefixes = ["SBFL"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBFL_GND"]
+
+[[positions]]
+id = "SBGL_GND"
+prefixes = ["SBGL"]
+frequency = "121.650"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBGL_GND"]
+
+[[positions]]
+id = "SBGR_GND"
+prefixes = ["SBGR"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBGR_GND"]
+
+[[positions]]
+id = "SBJD_GND"
+prefixes = ["SBJD"]
+frequency = "121.650"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBJD_GND"]
+
+[[positions]]
+id = "SBJR_GND"
+prefixes = ["SBJR"]
+frequency = "121.600"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBJR_GND"]
+
+[[positions]]
+id = "SBKP_GND"
+prefixes = ["SBKP"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBKP_GND"]
+
+[[positions]]
+id = "SBMT_GND"
+prefixes = ["SBMT"]
+frequency = "121.600"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBMT_GND"]
+
+[[positions]]
+id = "SBPA_GND"
+prefixes = ["SBPA"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBPA_GND"]
+
+[[positions]]
+id = "SBRJ_GND"
+prefixes = ["SBRJ"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBRJ_GND"]
+
+[[positions]]
+id = "SBSC_GND"
+prefixes = ["SBSC"]
+frequency = "121.800"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBSC_GND"]
+
+[[positions]]
+id = "SBSJ_GND"
+prefixes = ["SBSJ"]
+frequency = "121.950"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBSJ_GND"]
+
+[[positions]]
+id = "SBSP_GND"
+prefixes = ["SBSP"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBSP_GND"]
+
+[[positions]]
+id = "SBTA_GND"
+prefixes = ["SBTA"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBTA_GND"]
+
+[[positions]]
+id = "SDCO_GND"
+prefixes = ["SDCO"]
+frequency = "121.800"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SDCO_GND"]
+
+[[positions]]
+id = "SBGL_RMP"
+prefixes = ["SBGL"]
+frequency = "121.950"
+facility_type = "RMP"
+profile_id = "SB"
+default_call_sources = ["SBGL_RMP"]
+
+[[positions]]
+id = "SBCT_DEL"
+prefixes = ["SBCT"]
+frequency = "119.300"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBCT_DEL"]
+
+[[positions]]
+id = "SBGL_DEL"
+prefixes = ["SBGL"]
+frequency = "121.000"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBGL_DEL"]
+
+[[positions]]
+id = "SBGR_DEL"
+prefixes = ["SBGR"]
+frequency = "121.000"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBGR_DEL"]
+
+[[positions]]
+id = "SBKP_DEL"
+prefixes = ["SBKP"]
+frequency = "121.100"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBKP_DEL"]
+
+[[positions]]
+id = "SBMT_DEL"
+prefixes = ["SBMT"]
+frequency = "118.700"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBMT_DEL"]
+
+[[positions]]
+id = "SBPA_DEL"
+prefixes = ["SBPA"]
+frequency = "122.150"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBPA_DEL"]
+
+[[positions]]
+id = "SBRJ_DEL"
+prefixes = ["SBRJ"]
+frequency = "121.050"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBRJ_DEL"]
+
+[[positions]]
+id = "SBSC_DEL"
+prefixes = ["SBSC"]
+frequency = "132.200"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBSC_DEL"]
+
+[[positions]]
+id = "SBSP_DEL"
+prefixes = ["SBSP"]
+frequency = "120.600"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBSP_DEL"]
+
+# --- SBRE Recife ---
+[[positions]]
+id = "SBRE_CTR"
+prefixes = ["SBRE"]
+frequency = "125.400"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBRE_CTR"]
+
+[[positions]]
+id = "SBRE_NS_CTR"
+prefixes = ["SBRE"]
+frequency = "125.150"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBRE_NS_CTR"]
+
+[[positions]]
+id = "SBRE_NW_CTR"
+prefixes = ["SBRE"]
+frequency = "126.100"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBRE_NW_CTR"]
+
+[[positions]]
+id = "SBRE_N_CTR"
+prefixes = ["SBRE"]
+frequency = "134.800"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBRE_N_CTR"]
+
+[[positions]]
+id = "SBRE_SW_CTR"
+prefixes = ["SBRE"]
+frequency = "124.250"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBRE_SW_CTR"]
+
+[[positions]]
+id = "SBRE_S_CTR"
+prefixes = ["SBRE"]
+frequency = "125.100"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBRE_S_CTR"]
+
+[[positions]]
+id = "SBRE_W_CTR"
+prefixes = ["SBRE"]
+frequency = "124.550"
+facility_type = "CTR"
+profile_id = "SB"
+default_call_sources = ["SBRE_W_CTR"]
+
+[[positions]]
+id = "SBWF_APP"
+prefixes = ["SBWF"]
+frequency = "120.400"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWF_APP"]
+
+[[positions]]
+id = "SBWK_APP"
+prefixes = ["SBWK"]
+frequency = "120.900"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWK_APP"]
+
+[[positions]]
+id = "SBWL_APP"
+prefixes = ["SBWL"]
+frequency = "120.100"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWL_APP"]
+
+[[positions]]
+id = "SBWZ_APP"
+prefixes = ["SBWZ"]
+frequency = "133.000"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBWZ_APP"]
+
+[[positions]]
+id = "SBXA_APP"
+prefixes = ["SBXA"]
+frequency = "120.300"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXA_APP"]
+
+[[positions]]
+id = "SBXE_APP"
+prefixes = ["SBXE"]
+frequency = "119.600"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXE_APP"]
+
+[[positions]]
+id = "SBXM_APP"
+prefixes = ["SBXM"]
+frequency = "119.250"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXM_APP"]
+
+[[positions]]
+id = "SBXR_APP"
+prefixes = ["SBXR"]
+frequency = "119.850"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXR_APP"]
+
+[[positions]]
+id = "SBXS_APP"
+prefixes = ["SBXS"]
+frequency = "119.350"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXS_APP"]
+
+[[positions]]
+id = "SBXT_APP"
+prefixes = ["SBXT"]
+frequency = "119.300"
+facility_type = "APP"
+profile_id = "SB"
+default_call_sources = ["SBXT_APP"]
+
+[[positions]]
+id = "SBAC_R_TWR"
+prefixes = ["SBAC"]
+frequency = "131.250"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBAC_R_TWR"]
+
+[[positions]]
+id = "SBAR_TWR"
+prefixes = ["SBAR"]
+frequency = "118.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBAR_TWR"]
+
+[[positions]]
+id = "SBFN_R_TWR"
+prefixes = ["SBFN"]
+frequency = "125.900"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBFN_R_TWR"]
+
+[[positions]]
+id = "SBFZ_TWR"
+prefixes = ["SBFZ"]
+frequency = "129.000"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBFZ_TWR"]
+
+[[positions]]
+id = "SBGV_R_TWR"
+prefixes = ["SBGV"]
+frequency = "132.050"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBGV_R_TWR"]
+
+[[positions]]
+id = "SBIL_R_TWR"
+prefixes = ["SBIL"]
+frequency = "120.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBIL_R_TWR"]
+
+[[positions]]
+id = "SBJE_R_TWR"
+prefixes = ["SBJE"]
+frequency = "131.050"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBJE_R_TWR"]
+
+[[positions]]
+id = "SBJP_TWR"
+prefixes = ["SBJP"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBJP_TWR"]
+
+[[positions]]
+id = "SBJU_R_TWR"
+prefixes = ["SBJU"]
+frequency = "131.750"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBJU_R_TWR"]
+
+[[positions]]
+id = "SBKG_R_TWR"
+prefixes = ["SBKG"]
+frequency = "125.500"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBKG_R_TWR"]
+
+[[positions]]
+id = "SBMO_TWR"
+prefixes = ["SBMO"]
+frequency = "118.250"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBMO_TWR"]
+
+[[positions]]
+id = "SBMS_R_TWR"
+prefixes = ["SBMS"]
+frequency = "125.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBMS_R_TWR"]
+
+[[positions]]
+id = "SBNT_TWR"
+prefixes = ["SBNT"]
+frequency = "118.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBNT_TWR"]
+
+[[positions]]
+id = "SBPB_R_TWR"
+prefixes = ["SBPB"]
+frequency = "126.600"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPB_R_TWR"]
+
+[[positions]]
+id = "SBPL_R_TWR"
+prefixes = ["SBPL"]
+frequency = "125.700"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPL_R_TWR"]
+
+[[positions]]
+id = "SBPS_TWR"
+prefixes = ["SBPS"]
+frequency = "118.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBPS_TWR"]
+
+[[positions]]
+id = "SBRF_TWR"
+prefixes = ["SBRF"]
+frequency = "118.350"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBRF_TWR"]
+
+[[positions]]
+id = "SBSG_TWR"
+prefixes = ["SBSG"]
+frequency = "118.200"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSG_TWR"]
+
+[[positions]]
+id = "SBSV_TWR"
+prefixes = ["SBSV"]
+frequency = "118.300"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBSV_TWR"]
+
+[[positions]]
+id = "SBTC_R_TWR"
+prefixes = ["SBTC"]
+frequency = "130.250"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTC_R_TWR"]
+
+[[positions]]
+id = "SBTE_TWR"
+prefixes = ["SBTE"]
+frequency = "118.800"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTE_TWR"]
+
+[[positions]]
+id = "SBTV_R_TWR"
+prefixes = ["SBTV"]
+frequency = "131.400"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBTV_R_TWR"]
+
+[[positions]]
+id = "SBUF_R_TWR"
+prefixes = ["SBUF"]
+frequency = "125.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBUF_R_TWR"]
+
+[[positions]]
+id = "SBVC_R_TWR"
+prefixes = ["SBVC"]
+frequency = "130.850"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBVC_R_TWR"]
+
+[[positions]]
+id = "SBVT_TWR"
+prefixes = ["SBVT"]
+frequency = "118.100"
+facility_type = "TWR"
+profile_id = "SB"
+default_call_sources = ["SBVT_TWR"]
+
+[[positions]]
+id = "SBFZ_GND"
+prefixes = ["SBFZ"]
+frequency = "121.950"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBFZ_GND"]
+
+[[positions]]
+id = "SBNT_GND"
+prefixes = ["SBNT"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBNT_GND"]
+
+[[positions]]
+id = "SBRF_GND"
+prefixes = ["SBRF"]
+frequency = "121.850"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBRF_GND"]
+
+[[positions]]
+id = "SBSG_GND"
+prefixes = ["SBSG"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBSG_GND"]
+
+[[positions]]
+id = "SBSV_GND"
+prefixes = ["SBSV"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBSV_GND"]
+
+[[positions]]
+id = "SBVT_GND"
+prefixes = ["SBVT"]
+frequency = "121.950"
+facility_type = "GND"
+profile_id = "SB"
+default_call_sources = ["SBVT_GND"]
+
+[[positions]]
+id = "SBTV_RMP"
+prefixes = ["SBTV"]
+frequency = "131.625"
+facility_type = "RMP"
+profile_id = "SB"
+default_call_sources = ["SBTV_RMP"]
+
+[[positions]]
+id = "SBRF_DEL"
+prefixes = ["SBRF"]
+frequency = "118.900"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBRF_DEL"]
+
+[[positions]]
+id = "SBSG_DEL"
+prefixes = ["SBSG"]
+frequency = "121.000"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBSG_DEL"]
+
+[[positions]]
+id = "SBSV_DEL"
+prefixes = ["SBSV"]
+frequency = "121.100"
+facility_type = "DEL"
+profile_id = "SB"
+default_call_sources = ["SBSV_DEL"]
+
+# --- SBAO Atlântico ---
+[[positions]]
+id = "SBAO_FSS"
+prefixes = ["SBAO"]
+frequency = "133.500"
+facility_type = "FSS"
+profile_id = "SB"
+default_call_sources = ["SBAO_FSS"]
+
+[[positions]]
+id = "SBAO_NE_FSS"
+prefixes = ["SBAO"]
+frequency = "133.075"
+facility_type = "FSS"
+profile_id = "SB"
+default_call_sources = ["SBAO_NE_FSS"]
+
+[[positions]]
+id = "SBAO_NW_FSS"
+prefixes = ["SBAO"]
+frequency = "133.275"
+facility_type = "FSS"
+profile_id = "SB"
+default_call_sources = ["SBAO_NW_FSS"]
+
+[[positions]]
+id = "SBAO_N_FSS"
+prefixes = ["SBAO"]
+frequency = "133.025"
+facility_type = "FSS"
+profile_id = "SB"
+default_call_sources = ["SBAO_N_FSS"]
+
+[[positions]]
+id = "SBAO_SE_FSS"
+prefixes = ["SBAO"]
+frequency = "133.325"
+facility_type = "FSS"
+profile_id = "SB"
+default_call_sources = ["SBAO_SE_FSS"]
+
+[[positions]]
+id = "SBAO_SW_FSS"
+prefixes = ["SBAO"]
+frequency = "133.450"
+facility_type = "FSS"
+profile_id = "SB"
+default_call_sources = ["SBAO_SW_FSS"]
+
+[[positions]]
+id = "SBAO_S_FSS"
+prefixes = ["SBAO"]
+frequency = "133.125"
+facility_type = "FSS"
+profile_id = "SB"
+default_call_sources = ["SBAO_S_FSS"]
