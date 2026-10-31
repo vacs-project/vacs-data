@@ -1,0 +1,4846 @@
+{
+  "id": "SB",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["SBAZ", "Amazônico"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SBAZ", "CTR", "134.700"],
+            "color": "azure",
+            "station_id": "SBAZ_CTR"
+          },
+          {
+            "label": ["SBAZ", "CE CTR", "123.650"],
+            "color": "azure",
+            "station_id": "SBAZ_CE_CTR"
+          },
+          {
+            "label": ["SBAZ", "CW CTR", "124.750"],
+            "color": "azure",
+            "station_id": "SBAZ_CW_CTR"
+          },
+          {
+            "label": ["SBAZ", "C CTR", "134.250"],
+            "color": "azure",
+            "station_id": "SBAZ_C_CTR"
+          },
+          {
+            "label": ["SBAZ", "E CTR", "125.750"],
+            "color": "azure",
+            "station_id": "SBAZ_E_CTR"
+          },
+          {
+            "label": ["SBAZ", "W CTR", "132.300"],
+            "color": "azure",
+            "station_id": "SBAZ_W_CTR"
+          },
+          {
+            "label": ["SBWA", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWA", "APP", "119.100"],
+                  "color": "steel",
+                  "station_id": "SBWA_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTT", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBTT_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWB", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWB", "APP", "119.050"],
+                  "color": "steel",
+                  "station_id": "SBWB_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBBE", "TWR", "118.700"],
+                  "color": "lagoon",
+                  "station_id": "SBBE_TWR"
+                },
+                {
+                  "label": ["SBBE", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBBE_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWN", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWN", "APP", "119.250"],
+                  "color": "steel",
+                  "station_id": "SBWN_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBEG", "TWR", "118.300"],
+                  "color": "lagoon",
+                  "station_id": "SBEG_TWR"
+                },
+                {
+                  "label": ["SBEG", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBEG_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBMN", "TWR", "118.600"],
+                  "color": "lagoon",
+                  "station_id": "SBMN_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWQ", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWQ", "APP", "120.100"],
+                  "color": "steel",
+                  "station_id": "SBWQ_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBBV", "TWR", "118.100"],
+                  "color": "lagoon",
+                  "station_id": "SBBV_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWS", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWS", "APP", "119.100"],
+                  "color": "steel",
+                  "station_id": "SBWS_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSL", "TWR", "118.900"],
+                  "color": "lagoon",
+                  "station_id": "SBSL_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWV", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWV", "APP", "120.250"],
+                  "color": "steel",
+                  "station_id": "SBWV_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPV", "TWR", "118.200"],
+                  "color": "lagoon",
+                  "station_id": "SBPV_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWX", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWX", "APP", "119.300"],
+                  "color": "steel",
+                  "station_id": "SBWX_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSN", "TWR", "118.100"],
+                  "color": "lagoon",
+                  "station_id": "SBSN_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWY", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWY", "APP", "119.400"],
+                  "color": "steel",
+                  "station_id": "SBWY_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCY", "TWR", "118.100"],
+                  "color": "lagoon",
+                  "station_id": "SBCY_TWR"
+                },
+                {
+                  "label": ["SBCY", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBCY_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXB", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXB", "APP", "119.900"],
+                  "color": "steel",
+                  "station_id": "SBXB_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBRB", "TWR", "118.700"],
+                  "color": "lagoon",
+                  "station_id": "SBRB_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXJ", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXJ", "APP", "119.200"],
+                  "color": "steel",
+                  "station_id": "SBXJ_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBMA", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBMA_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXK", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXK", "APP", "119.000"],
+                  "color": "steel",
+                  "station_id": "SBXK_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBMQ", "TWR", "118.000"],
+                  "color": "lagoon",
+                  "station_id": "SBMQ_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SWUQ", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SWUQ", "APP", "119.850"],
+                  "color": "steel",
+                  "station_id": "SWUQ_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["Outros", "AD"],
+            "color": "lagoon",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBAT", "R TWR", "126.600"],
+                  "color": "lagoon",
+                  "station_id": "SBAT_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCC", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBCC_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCJ", "R TWR", "131.700"],
+                  "color": "lagoon",
+                  "station_id": "SBCJ_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCZ", "R TWR", "125.700"],
+                  "color": "lagoon",
+                  "station_id": "SBCZ_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBGM", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBGM_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBHT", "R TWR", "125.850"],
+                  "color": "lagoon",
+                  "station_id": "SBHT_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBIH", "R TWR", "125.500"],
+                  "color": "lagoon",
+                  "station_id": "SBIH_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBIZ", "R TWR", "125.650"],
+                  "color": "lagoon",
+                  "station_id": "SBIZ_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBJI", "R TWR", "131.750"],
+                  "color": "lagoon",
+                  "station_id": "SBJI_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBOI", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBOI_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBRD", "R TWR", "130.700"],
+                  "color": "lagoon",
+                  "station_id": "SBRD_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSI", "R TWR", "130.175"],
+                  "color": "lagoon",
+                  "station_id": "SBSI_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSO", "R TWR", "130.350"],
+                  "color": "lagoon",
+                  "station_id": "SBSO_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTB", "R TWR", "131.600"],
+                  "color": "lagoon",
+                  "station_id": "SBTB_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTF", "R TWR", "125.600"],
+                  "color": "lagoon",
+                  "station_id": "SBTF_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTS", "R TWR", "128.100"],
+                  "color": "lagoon",
+                  "station_id": "SBTS_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBUA", "R TWR", "125.700"],
+                  "color": "lagoon",
+                  "station_id": "SBUA_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBUY", "R TWR", "131.850"],
+                  "color": "lagoon",
+                  "station_id": "SBUY_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBVH", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBVH_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SSKW", "R TWR", "131.100"],
+                  "color": "lagoon",
+                  "station_id": "SSKW_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SWGN", "R TWR", "125.850"],
+                  "color": "lagoon",
+                  "station_id": "SWGN_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SBBS", "Brasília"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SBBS", "CTR", "134.000"],
+            "color": "azure",
+            "station_id": "SBBS_CTR"
+          },
+          {
+            "label": ["SBBS", "E CTR", "124.800"],
+            "color": "azure",
+            "station_id": "SBBS_E_CTR"
+          },
+          {
+            "label": ["SBBS", "NE CTR", "125.550"],
+            "color": "azure",
+            "station_id": "SBBS_NE_CTR"
+          },
+          {
+            "label": ["SBBS", "NS CTR", "133.750"],
+            "color": "azure",
+            "station_id": "SBBS_NS_CTR"
+          },
+          {
+            "label": ["SBBS", "N CTR", "124.700"],
+            "color": "azure",
+            "station_id": "SBBS_N_CTR"
+          },
+          {
+            "label": ["SBBS", "SE CTR", "128.050"],
+            "color": "azure",
+            "station_id": "SBBS_SE_CTR"
+          },
+          {
+            "label": ["SBBS", "S CTR", "126.800"],
+            "color": "azure",
+            "station_id": "SBBS_S_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SBWH", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWH", "APP", "129.100"],
+                  "color": "steel",
+                  "station_id": "SBWH_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBBH", "TWR", "118.000"],
+                  "color": "lagoon",
+                  "station_id": "SBBH_TWR"
+                },
+                {
+                  "label": ["SBBH", "GND", "121.600"],
+                  "color": "lilac",
+                  "station_id": "SBBH_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCF", "TWR", "118.200"],
+                  "color": "lagoon",
+                  "station_id": "SBCF_TWR"
+                },
+                {
+                  "label": ["SBCF", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBCF_GND"
+                },
+                {
+                  "label": ["SBCF", "DEL", "121.000"],
+                  "color": "clay",
+                  "station_id": "SBCF_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBLS", "R TWR", "122.850"],
+                  "color": "lagoon",
+                  "station_id": "SBLS_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWR", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWR", "APP", "119.200"],
+                  "color": "steel",
+                  "station_id": "SBWR_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBBR", "TWR", "118.100"],
+                  "color": "lagoon",
+                  "station_id": "SBBR_TWR"
+                },
+                {
+                  "label": ["SBBR", "N TWR", "118.450"],
+                  "color": "lagoon",
+                  "station_id": "SBBR_N_TWR"
+                },
+                {
+                  "label": ["SBBR", "S TWR", "118.750"],
+                  "color": "lagoon",
+                  "station_id": "SBBR_S_TWR"
+                },
+                {
+                  "label": ["SBBR", "GND", "121.800"],
+                  "color": "lilac",
+                  "station_id": "SBBR_GND"
+                },
+                {
+                  "label": ["SBBR", "DEL", "121.000"],
+                  "color": "clay",
+                  "station_id": "SBBR_DEL"
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWU", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWU", "APP", "121.300"],
+                  "color": "steel",
+                  "station_id": "SBWU_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBAE", "R TWR", "126.600"],
+                  "color": "lagoon",
+                  "station_id": "SBAE_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBBU", "R TWR", "121.300"],
+                  "color": "lagoon",
+                  "station_id": "SBBU_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBML", "R TWR", "130.450"],
+                  "color": "lagoon",
+                  "station_id": "SBML_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXD", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXD", "APP", "119.000"],
+                  "color": "steel",
+                  "station_id": "SBXD_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPJ", "TWR", "118.000"],
+                  "color": "lagoon",
+                  "station_id": "SBPJ_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXN", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXN", "APP", "129.450"],
+                  "color": "steel",
+                  "station_id": "SBXN_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBAN", "TWR", "118.300"],
+                  "color": "lagoon",
+                  "station_id": "SBAN_TWR"
+                },
+                {
+                  "label": ["SBAN", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBAN_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBGO", "TWR", "118.700"],
+                  "color": "lagoon",
+                  "station_id": "SBGO_TWR"
+                },
+                {
+                  "label": ["SBGO", "GND", "121.700"],
+                  "color": "lilac",
+                  "station_id": "SBGO_GND"
+                },
+                {
+                  "label": ["SBGO", "DEL", "121.050"],
+                  "color": "clay",
+                  "station_id": "SBGO_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBNV", "R TWR", "131.050"],
+                  "color": "lagoon",
+                  "station_id": "SBNV_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXQ", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXQ", "APP", "120.100"],
+                  "color": "steel",
+                  "station_id": "SBXQ_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBAQ", "R TWR", "125.925"],
+                  "color": "lagoon",
+                  "station_id": "SBAQ_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBGP", "R TWR", "118.950"],
+                  "color": "lagoon",
+                  "station_id": "SBGP_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBRP", "TWR", "118.000"],
+                  "color": "lagoon",
+                  "station_id": "SBRP_TWR"
+                },
+                {
+                  "label": ["SBRP", "GND", "121.600"],
+                  "color": "lilac",
+                  "station_id": "SBRP_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBYS", "TWR", "118.300"],
+                  "color": "lagoon",
+                  "station_id": "SBYS_TWR"
+                },
+                {
+                  "label": ["SBYS", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBYS_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SDSC", "R TWR", "118.125"],
+                  "color": "lagoon",
+                  "station_id": "SDSC_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXU", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXU", "APP", "120.800"],
+                  "color": "steel",
+                  "station_id": "SBXU_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBUR", "TWR", "118.500"],
+                  "color": "lagoon",
+                  "station_id": "SBUR_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXW", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXW", "APP", "122.850"],
+                  "color": "steel",
+                  "station_id": "SBXW_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBUL", "TWR", "118.800"],
+                  "color": "lagoon",
+                  "station_id": "SBUL_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["Outros", "AD"],
+            "color": "lagoon",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBAU", "R TWR", "130.600"],
+                  "color": "lagoon",
+                  "station_id": "SBAU_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBAX", "R TWR", "130.350"],
+                  "color": "lagoon",
+                  "station_id": "SBAX_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBBW", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBBW_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCN", "R TWR", "130.050"],
+                  "color": "lagoon",
+                  "station_id": "SBCN_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBIP", "R TWR", "130.000"],
+                  "color": "lagoon",
+                  "station_id": "SBIP_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBIT", "R TWR", "130.300"],
+                  "color": "lagoon",
+                  "station_id": "SBIT_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBMK", "R TWR", "131.700"],
+                  "color": "lagoon",
+                  "station_id": "SBMK_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSR", "R TWR", "130.850"],
+                  "color": "lagoon",
+                  "station_id": "SBSR_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBVG", "R TWR", "130.800"],
+                  "color": "lagoon",
+                  "station_id": "SBVG_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SIMK", "R TWR", "118.175"],
+                  "color": "lagoon",
+                  "station_id": "SIMK_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SBCW", "Curitiba"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SBCW", "CTR", "135.000"],
+            "color": "azure",
+            "station_id": "SBCW_CTR"
+          },
+          {
+            "label": ["SBCW", "CE CTR", "124.400"],
+            "color": "azure",
+            "station_id": "SBCW_CE_CTR"
+          },
+          {
+            "label": ["SBCW", "CSE CTR", "135.850"],
+            "color": "azure",
+            "station_id": "SBCW_CSE_CTR"
+          },
+          {
+            "label": ["SBCW", "CSW CTR", "125.800"],
+            "color": "azure",
+            "station_id": "SBCW_CSW_CTR"
+          },
+          {
+            "label": ["SBCW", "CS CTR", "127.500"],
+            "color": "azure",
+            "station_id": "SBCW_CS_CTR"
+          },
+          {
+            "label": ["SBCW", "CWE CTR", "125.075"],
+            "color": "azure",
+            "station_id": "SBCW_CWE_CTR"
+          },
+          {
+            "label": ["SBCW", "CW CTR", "128.350"],
+            "color": "azure",
+            "station_id": "SBCW_CW_CTR"
+          },
+          {
+            "label": ["SBCW", "C CTR", "132.800"],
+            "color": "azure",
+            "station_id": "SBCW_C_CTR"
+          },
+          {
+            "label": ["SBCW", "E CTR", "124.000"],
+            "color": "azure",
+            "station_id": "SBCW_E_CTR"
+          },
+          {
+            "label": ["SBCW", "SE CTR", "127.050"],
+            "color": "azure",
+            "station_id": "SBCW_SE_CTR"
+          },
+          {
+            "label": ["SBCW", "SW CTR", "133.800"],
+            "color": "azure",
+            "station_id": "SBCW_SW_CTR"
+          },
+          {
+            "label": ["SBCW", "S CTR", "126.750"],
+            "color": "azure",
+            "station_id": "SBCW_S_CTR"
+          },
+          {
+            "label": ["SBCW", "W CTR", "124.275"],
+            "color": "azure",
+            "station_id": "SBCW_W_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SBES", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBES", "APP", "119.450"],
+                  "color": "steel",
+                  "station_id": "SBES_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCB", "R TWR", "132.150"],
+                  "color": "lagoon",
+                  "station_id": "SBCB_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBES", "TWR", "118.300"],
+                  "color": "lagoon",
+                  "station_id": "SBES_TWR"
+                },
+                {
+                  "label": ["SBES", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBES_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBGW", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBGW", "APP", "120.150"],
+                  "color": "steel",
+                  "station_id": "SBGW_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBGW", "TWR", "118.150"],
+                  "color": "lagoon",
+                  "station_id": "SBGW_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWE", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWE", "APP", "119.450"],
+                  "color": "steel",
+                  "station_id": "SBWE_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCP", "R TWR", "125.700"],
+                  "color": "lagoon",
+                  "station_id": "SBCP_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBFS", "R TWR", "131.300"],
+                  "color": "lagoon",
+                  "station_id": "SBFS_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBME", "TWR", "118.450"],
+                  "color": "lagoon",
+                  "station_id": "SBME_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPW", "R TWR", "130.700"],
+                  "color": "lagoon",
+                  "station_id": "SBPW_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWG", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWG", "APP", "119.350"],
+                  "color": "steel",
+                  "station_id": "SBWG_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCG", "TWR", "118.100"],
+                  "color": "lagoon",
+                  "station_id": "SBCG_TWR"
+                },
+                {
+                  "label": ["SBCG", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBCG_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWI", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWI", "APP", "120.300"],
+                  "color": "steel",
+                  "station_id": "SBWI_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBFI", "TWR", "118.800"],
+                  "color": "lagoon",
+                  "station_id": "SBFI_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWJ", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWJ", "APP", "119.000"],
+                  "color": "steel",
+                  "station_id": "SBWJ_APP"
+                },
+                {
+                  "label": ["SBWJ", "E APP", "133.300"],
+                  "color": "steel",
+                  "station_id": "SBWJ_E_APP"
+                },
+                {
+                  "label": ["SBWJ", "GL APP", "128.900"],
+                  "color": "steel",
+                  "station_id": "SBWJ_GL_APP"
+                },
+                {
+                  "label": ["SBWJ", "NE APP", "120.550"],
+                  "color": "steel",
+                  "station_id": "SBWJ_NE_APP"
+                },
+                {
+                  "label": ["SBWJ", "N APP", "125.950"],
+                  "color": "steel",
+                  "station_id": "SBWJ_N_APP"
+                },
+                {
+                  "label": ["SBWJ", "RJ APP", "120.750"],
+                  "color": "steel",
+                  "station_id": "SBWJ_RJ_APP"
+                },
+                {
+                  "label": ["SBWJ", "S APP", "126.200"],
+                  "color": "steel",
+                  "station_id": "SBWJ_S_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBAF", "R TWR", "118.900"],
+                  "color": "lagoon",
+                  "station_id": "SBAF_R_TWR"
+                },
+                {
+                  "label": ["SBAF", "GND", "121.850"],
+                  "color": "lilac",
+                  "station_id": "SBAF_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBGL", "TWR", "118.200"],
+                  "color": "lagoon",
+                  "station_id": "SBGL_TWR"
+                },
+                {
+                  "label": ["SBGL", "GND", "121.650"],
+                  "color": "lilac",
+                  "station_id": "SBGL_GND"
+                },
+                {
+                  "label": ["SBGL", "RMP", "121.950"],
+                  "color": "taupe",
+                  "station_id": "SBGL_RMP"
+                },
+                {
+                  "label": ["SBGL", "DEL", "121.000"],
+                  "color": "clay",
+                  "station_id": "SBGL_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBJR", "TWR", "118.400"],
+                  "color": "lagoon",
+                  "station_id": "SBJR_TWR"
+                },
+                {
+                  "label": ["SBJR", "GND", "121.600"],
+                  "color": "lilac",
+                  "station_id": "SBJR_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBMI", "R TWR", "131.800"],
+                  "color": "lagoon",
+                  "station_id": "SBMI_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBRJ", "TWR", "118.700"],
+                  "color": "lagoon",
+                  "station_id": "SBRJ_TWR"
+                },
+                {
+                  "label": ["SBRJ", "GND", "121.700"],
+                  "color": "lilac",
+                  "station_id": "SBRJ_GND"
+                },
+                {
+                  "label": ["SBRJ", "DEL", "121.050"],
+                  "color": "clay",
+                  "station_id": "SBRJ_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSC", "TWR", "118.800"],
+                  "color": "lagoon",
+                  "station_id": "SBSC_TWR"
+                },
+                {
+                  "label": ["SBSC", "GND", "121.800"],
+                  "color": "lilac",
+                  "station_id": "SBSC_GND"
+                },
+                {
+                  "label": ["SBSC", "DEL", "132.200"],
+                  "color": "clay",
+                  "station_id": "SBSC_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWM", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWM", "APP", "119.350"],
+                  "color": "steel",
+                  "station_id": "SBWM_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSM", "TWR", "118.300"],
+                  "color": "lagoon",
+                  "station_id": "SBSM_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWP", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWP", "APP", "129.600"],
+                  "color": "steel",
+                  "station_id": "SBWP_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCO", "TWR", "118.500"],
+                  "color": "lagoon",
+                  "station_id": "SBCO_TWR"
+                },
+                {
+                  "label": ["SBCO", "GND", "121.700"],
+                  "color": "lilac",
+                  "station_id": "SBCO_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCX", "R TWR", "131.600"],
+                  "color": "lagoon",
+                  "station_id": "SBCX_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPA", "TWR", "118.100"],
+                  "color": "lagoon",
+                  "station_id": "SBPA_TWR"
+                },
+                {
+                  "label": ["SBPA", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBPA_GND"
+                },
+                {
+                  "label": ["SBPA", "DEL", "122.150"],
+                  "color": "clay",
+                  "station_id": "SBPA_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWT", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWT", "APP", "119.950"],
+                  "color": "steel",
+                  "station_id": "SBWT_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBBI", "TWR", "118.900"],
+                  "color": "lagoon",
+                  "station_id": "SBBI_TWR"
+                },
+                {
+                  "label": ["SBBI", "GND", "121.800"],
+                  "color": "lilac",
+                  "station_id": "SBBI_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCT", "TWR", "118.150"],
+                  "color": "lagoon",
+                  "station_id": "SBCT_TWR"
+                },
+                {
+                  "label": ["SBCT", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBCT_GND"
+                },
+                {
+                  "label": ["SBCT", "DEL", "119.300"],
+                  "color": "clay",
+                  "station_id": "SBCT_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBJV", "R TWR", "118.000"],
+                  "color": "lagoon",
+                  "station_id": "SBJV_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXF", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXF", "APP", "119.650"],
+                  "color": "steel",
+                  "station_id": "SBXF_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBFL", "TWR", "118.700"],
+                  "color": "lagoon",
+                  "station_id": "SBFL_TWR"
+                },
+                {
+                  "label": ["SBFL", "GND", "121.700"],
+                  "color": "lilac",
+                  "station_id": "SBFL_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBNF", "TWR", "118.200"],
+                  "color": "lagoon",
+                  "station_id": "SBNF_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXG", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXG", "APP", "125.450"],
+                  "color": "steel",
+                  "station_id": "SBXG_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBDN", "TWR", "118.450"],
+                  "color": "lagoon",
+                  "station_id": "SBDN_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXO", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXO", "APP", "129.700"],
+                  "color": "steel",
+                  "station_id": "SBXO_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBLO", "TWR", "118.400"],
+                  "color": "lagoon",
+                  "station_id": "SBLO_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBMG", "TWR", "118.750"],
+                  "color": "lagoon",
+                  "station_id": "SBMG_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXP", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBGR", "F APP", "129.750"],
+                  "color": "steel",
+                  "station_id": "SBGR_F_APP"
+                },
+                {
+                  "label": ["SBKP", "F APP", "119.250"],
+                  "color": "steel",
+                  "station_id": "SBKP_F_APP"
+                },
+                {
+                  "label": ["SBSJ", "F APP", "124.150"],
+                  "color": "steel",
+                  "station_id": "SBSJ_F_APP"
+                },
+                {
+                  "label": ["SBSP", "F APP", "133.850"],
+                  "color": "steel",
+                  "station_id": "SBSP_F_APP"
+                },
+                {
+                  "label": ["SBXP", "APP", "119.600"],
+                  "color": "steel",
+                  "station_id": "SBXP_APP"
+                },
+                {
+                  "label": ["SBXP", "E APP", "134.650"],
+                  "color": "steel",
+                  "station_id": "SBXP_E_APP"
+                },
+                {
+                  "label": ["SBXP", "NL APP", "120.925"],
+                  "color": "steel",
+                  "station_id": "SBXP_NL_APP"
+                },
+                {
+                  "label": ["SBXP", "NU APP", "130.050"],
+                  "color": "steel",
+                  "station_id": "SBXP_NU_APP"
+                },
+                {
+                  "label": ["SBXP", "N APP", "120.250"],
+                  "color": "steel",
+                  "station_id": "SBXP_N_APP"
+                },
+                {
+                  "label": ["SBXP", "S APP", "129.000"],
+                  "color": "steel",
+                  "station_id": "SBXP_S_APP"
+                },
+                {
+                  "label": ["SBXP", "T13 APP", "129.275"],
+                  "color": "steel",
+                  "station_id": "SBXP_T13_APP"
+                },
+                {
+                  "label": ["SBXP", "T1 APP", "134.900"],
+                  "color": "steel",
+                  "station_id": "SBXP_T1_APP"
+                },
+                {
+                  "label": ["SBXP", "T2 APP", "122.750"],
+                  "color": "steel",
+                  "station_id": "SBXP_T2_APP"
+                },
+                {
+                  "label": ["SBXP", "T3 APP", "135.750"],
+                  "color": "steel",
+                  "station_id": "SBXP_T3_APP"
+                },
+                {
+                  "label": ["SBXP", "T4 APP", "119.800"],
+                  "color": "steel",
+                  "station_id": "SBXP_T4_APP"
+                },
+                {
+                  "label": ["SBXP", "T5 APP", "132.100"],
+                  "color": "steel",
+                  "station_id": "SBXP_T5_APP"
+                },
+                {
+                  "label": ["SBXP", "T6 APP", "120.850"],
+                  "color": "steel",
+                  "station_id": "SBXP_T6_APP"
+                },
+                {
+                  "label": ["SBXP", "T7 APP", "119.375"],
+                  "color": "steel",
+                  "station_id": "SBXP_T7_APP"
+                },
+                {
+                  "label": ["SBXP", "T8 APP", "120.450"],
+                  "color": "steel",
+                  "station_id": "SBXP_T8_APP"
+                },
+                {
+                  "label": ["SBXP", "V APP", "129.500"],
+                  "color": "steel",
+                  "station_id": "SBXP_V_APP"
+                },
+                {
+                  "label": ["SBXP", "DEP", "129.050"],
+                  "color": "cadet",
+                  "station_id": "SBXP_DEP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBBP", "R TWR", "125.700"],
+                  "color": "lagoon",
+                  "station_id": "SBBP_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBGR", "TWR", "132.750"],
+                  "color": "lagoon",
+                  "station_id": "SBGR_TWR"
+                },
+                {
+                  "label": ["SBGR", "GND", "121.700"],
+                  "color": "lilac",
+                  "station_id": "SBGR_GND"
+                },
+                {
+                  "label": ["SBGR", "DEL", "121.000"],
+                  "color": "clay",
+                  "station_id": "SBGR_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBJD", "TWR", "118.750"],
+                  "color": "lagoon",
+                  "station_id": "SBJD_TWR"
+                },
+                {
+                  "label": ["SBJD", "GND", "121.650"],
+                  "color": "lilac",
+                  "station_id": "SBJD_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBJH", "R TWR", "131.800"],
+                  "color": "lagoon",
+                  "station_id": "SBJH_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBKP", "TWR", "118.250"],
+                  "color": "lagoon",
+                  "station_id": "SBKP_TWR"
+                },
+                {
+                  "label": ["SBKP", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBKP_GND"
+                },
+                {
+                  "label": ["SBKP", "DEL", "121.100"],
+                  "color": "clay",
+                  "station_id": "SBKP_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBMT", "TWR", "133.350"],
+                  "color": "lagoon",
+                  "station_id": "SBMT_TWR"
+                },
+                {
+                  "label": ["SBMT", "GND", "121.600"],
+                  "color": "lilac",
+                  "station_id": "SBMT_GND"
+                },
+                {
+                  "label": ["SBMT", "DEL", "118.700"],
+                  "color": "clay",
+                  "station_id": "SBMT_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSJ", "TWR", "118.500"],
+                  "color": "lagoon",
+                  "station_id": "SBSJ_TWR"
+                },
+                {
+                  "label": ["SBSJ", "GND", "121.950"],
+                  "color": "lilac",
+                  "station_id": "SBSJ_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSP", "TWR", "127.150"],
+                  "color": "lagoon",
+                  "station_id": "SBSP_TWR"
+                },
+                {
+                  "label": ["SBSP", "H TWR", "118.350"],
+                  "color": "lagoon",
+                  "station_id": "SBSP_H_TWR"
+                },
+                {
+                  "label": ["SBSP", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBSP_GND"
+                },
+                {
+                  "label": ["SBSP", "DEL", "120.600"],
+                  "color": "clay",
+                  "station_id": "SBSP_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBST", "R TWR", "118.650"],
+                  "color": "lagoon",
+                  "station_id": "SBST_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SDAM", "R TWR", "118.125"],
+                  "color": "lagoon",
+                  "station_id": "SDAM_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SDCO", "TWR", "118.800"],
+                  "color": "lagoon",
+                  "station_id": "SDCO_TWR"
+                },
+                {
+                  "label": ["SDCO", "GND", "121.800"],
+                  "color": "lilac",
+                  "station_id": "SDCO_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["Outros", "AD"],
+            "color": "lagoon",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBBG", "R TWR", "125.850"],
+                  "color": "lagoon",
+                  "station_id": "SBBG_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBBQ", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBBQ_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCA", "R TWR", "131.850"],
+                  "color": "lagoon",
+                  "station_id": "SBCA_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCH", "R TWR", "130.850"],
+                  "color": "lagoon",
+                  "station_id": "SBCH_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBCR", "R TWR", "119.500"],
+                  "color": "lagoon",
+                  "station_id": "SBCR_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBDB", "R TWR", "130.600"],
+                  "color": "lagoon",
+                  "station_id": "SBDB_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBDO", "R TWR", "130.100"],
+                  "color": "lagoon",
+                  "station_id": "SBDO_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBJA", "R TWR", "130.700"],
+                  "color": "lagoon",
+                  "station_id": "SBJA_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBNM", "R TWR", "131.650"],
+                  "color": "lagoon",
+                  "station_id": "SBNM_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPF", "R TWR", "131.250"],
+                  "color": "lagoon",
+                  "station_id": "SBPF_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPG", "R TWR", "128.100"],
+                  "color": "lagoon",
+                  "station_id": "SBPG_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPK", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBPK_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPO", "R TWR", "130.800"],
+                  "color": "lagoon",
+                  "station_id": "SBPO_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPP", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBPP_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTA", "TWR", "119.900"],
+                  "color": "lagoon",
+                  "station_id": "SBTA_TWR"
+                },
+                {
+                  "label": ["SBTA", "GND", "121.700"],
+                  "color": "lilac",
+                  "station_id": "SBTA_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTD", "R TWR", "131.050"],
+                  "color": "lagoon",
+                  "station_id": "SBTD_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTG", "R TWR", "130.250"],
+                  "color": "lagoon",
+                  "station_id": "SBTG_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBUG", "R TWR", "118.100"],
+                  "color": "lagoon",
+                  "station_id": "SBUG_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBZM", "R TWR", "130.100"],
+                  "color": "lagoon",
+                  "station_id": "SBZM_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SNCP", "R TWR", "131.100"],
+                  "color": "lagoon",
+                  "station_id": "SNCP_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SSGG", "R TWR", "131.700"],
+                  "color": "lagoon",
+                  "station_id": "SSGG_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SSVL", "R TWR", "130.225"],
+                  "color": "lagoon",
+                  "station_id": "SSVL_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SBRE", "Recife"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SBRE", "CTR", "125.400"],
+            "color": "azure",
+            "station_id": "SBRE_CTR"
+          },
+          {
+            "label": ["SBRE", "NS CTR", "125.150"],
+            "color": "azure",
+            "station_id": "SBRE_NS_CTR"
+          },
+          {
+            "label": ["SBRE", "NW CTR", "126.100"],
+            "color": "azure",
+            "station_id": "SBRE_NW_CTR"
+          },
+          {
+            "label": ["SBRE", "N CTR", "134.800"],
+            "color": "azure",
+            "station_id": "SBRE_N_CTR"
+          },
+          {
+            "label": ["SBRE", "SW CTR", "124.250"],
+            "color": "azure",
+            "station_id": "SBRE_SW_CTR"
+          },
+          {
+            "label": ["SBRE", "S CTR", "125.100"],
+            "color": "azure",
+            "station_id": "SBRE_S_CTR"
+          },
+          {
+            "label": ["SBRE", "W CTR", "124.550"],
+            "color": "azure",
+            "station_id": "SBRE_W_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SBWF", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWF", "APP", "120.400"],
+                  "color": "steel",
+                  "station_id": "SBWF_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBJP", "TWR", "118.300"],
+                  "color": "lagoon",
+                  "station_id": "SBJP_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBRF", "TWR", "118.350"],
+                  "color": "lagoon",
+                  "station_id": "SBRF_TWR"
+                },
+                {
+                  "label": ["SBRF", "GND", "121.850"],
+                  "color": "lilac",
+                  "station_id": "SBRF_GND"
+                },
+                {
+                  "label": ["SBRF", "DEL", "118.900"],
+                  "color": "clay",
+                  "station_id": "SBRF_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWK", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWK", "APP", "120.900"],
+                  "color": "steel",
+                  "station_id": "SBWK_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPS", "TWR", "118.850"],
+                  "color": "lagoon",
+                  "station_id": "SBPS_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTV", "R TWR", "131.400"],
+                  "color": "lagoon",
+                  "station_id": "SBTV_R_TWR"
+                },
+                {
+                  "label": ["SBTV", "RMP", "131.625"],
+                  "color": "taupe",
+                  "station_id": "SBTV_RMP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWL", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWL", "APP", "120.100"],
+                  "color": "steel",
+                  "station_id": "SBWL_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBIL", "R TWR", "120.100"],
+                  "color": "lagoon",
+                  "station_id": "SBIL_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTC", "R TWR", "130.250"],
+                  "color": "lagoon",
+                  "station_id": "SBTC_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBWZ", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBWZ", "APP", "133.000"],
+                  "color": "steel",
+                  "station_id": "SBWZ_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBFZ", "TWR", "129.000"],
+                  "color": "lagoon",
+                  "station_id": "SBFZ_TWR"
+                },
+                {
+                  "label": ["SBFZ", "GND", "121.950"],
+                  "color": "lilac",
+                  "station_id": "SBFZ_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXA", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXA", "APP", "120.300"],
+                  "color": "steel",
+                  "station_id": "SBXA_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBAR", "TWR", "118.800"],
+                  "color": "lagoon",
+                  "station_id": "SBAR_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXE", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXE", "APP", "119.600"],
+                  "color": "steel",
+                  "station_id": "SBXE_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBTE", "TWR", "118.800"],
+                  "color": "lagoon",
+                  "station_id": "SBTE_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXM", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXM", "APP", "119.250"],
+                  "color": "steel",
+                  "station_id": "SBXM_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBMO", "TWR", "118.250"],
+                  "color": "lagoon",
+                  "station_id": "SBMO_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXR", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXR", "APP", "119.850"],
+                  "color": "steel",
+                  "station_id": "SBXR_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBVT", "TWR", "118.100"],
+                  "color": "lagoon",
+                  "station_id": "SBVT_TWR"
+                },
+                {
+                  "label": ["SBVT", "GND", "121.950"],
+                  "color": "lilac",
+                  "station_id": "SBVT_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXS", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXS", "APP", "119.350"],
+                  "color": "steel",
+                  "station_id": "SBXS_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSV", "TWR", "118.300"],
+                  "color": "lagoon",
+                  "station_id": "SBSV_TWR"
+                },
+                {
+                  "label": ["SBSV", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBSV_GND"
+                },
+                {
+                  "label": ["SBSV", "DEL", "121.100"],
+                  "color": "clay",
+                  "station_id": "SBSV_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["SBXT", "APP"],
+            "color": "steel",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBXT", "APP", "119.300"],
+                  "color": "steel",
+                  "station_id": "SBXT_APP"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBNT", "TWR", "118.700"],
+                  "color": "lagoon",
+                  "station_id": "SBNT_TWR"
+                },
+                {
+                  "label": ["SBNT", "GND", "121.900"],
+                  "color": "lilac",
+                  "station_id": "SBNT_GND"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBSG", "TWR", "118.200"],
+                  "color": "lagoon",
+                  "station_id": "SBSG_TWR"
+                },
+                {
+                  "label": ["SBSG", "GND", "121.700"],
+                  "color": "lilac",
+                  "station_id": "SBSG_GND"
+                },
+                {
+                  "label": ["SBSG", "DEL", "121.000"],
+                  "color": "clay",
+                  "station_id": "SBSG_DEL"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": ["Outros", "AD"],
+            "color": "lagoon",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": ["SBAC", "R TWR", "131.250"],
+                  "color": "lagoon",
+                  "station_id": "SBAC_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBFN", "R TWR", "125.900"],
+                  "color": "lagoon",
+                  "station_id": "SBFN_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBGV", "R TWR", "132.050"],
+                  "color": "lagoon",
+                  "station_id": "SBGV_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBJE", "R TWR", "131.050"],
+                  "color": "lagoon",
+                  "station_id": "SBJE_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBJU", "R TWR", "131.750"],
+                  "color": "lagoon",
+                  "station_id": "SBJU_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBKG", "R TWR", "125.500"],
+                  "color": "lagoon",
+                  "station_id": "SBKG_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBMS", "R TWR", "125.800"],
+                  "color": "lagoon",
+                  "station_id": "SBMS_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPB", "R TWR", "126.600"],
+                  "color": "lagoon",
+                  "station_id": "SBPB_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBPL", "R TWR", "125.700"],
+                  "color": "lagoon",
+                  "station_id": "SBPL_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBUF", "R TWR", "125.850"],
+                  "color": "lagoon",
+                  "station_id": "SBUF_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": ["SBVC", "R TWR", "130.850"],
+                  "color": "lagoon",
+                  "station_id": "SBVC_R_TWR"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SBAO", "Atlântico"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SBAO", "FSS", "133.500"],
+            "color": "azure",
+            "station_id": "SBAO_FSS"
+          },
+          {
+            "label": ["SBAO", "NE FSS", "133.075"],
+            "color": "azure",
+            "station_id": "SBAO_NE_FSS"
+          },
+          {
+            "label": ["SBAO", "NW FSS", "133.275"],
+            "color": "azure",
+            "station_id": "SBAO_NW_FSS"
+          },
+          {
+            "label": ["SBAO", "N FSS", "133.025"],
+            "color": "azure",
+            "station_id": "SBAO_N_FSS"
+          },
+          {
+            "label": ["SBAO", "SE FSS", "133.325"],
+            "color": "azure",
+            "station_id": "SBAO_SE_FSS"
+          },
+          {
+            "label": ["SBAO", "SW FSS", "133.450"],
+            "color": "azure",
+            "station_id": "SBAO_SW_FSS"
+          },
+          {
+            "label": ["SBAO", "S FSS", "133.125"],
+            "color": "azure",
+            "station_id": "SBAO_S_FSS"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["Vizinhos"],
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SARR", "CTR"],
+            "color": "azure",
+            "station_id": "SARR_CTR"
+          },
+          {
+            "label": ["SARL", "APP"],
+            "color": "steel",
+            "station_id": "SARL_APP"
+          },
+          {
+            "label": ["SARI", "TWR"],
+            "color": "lagoon",
+            "station_id": "SARI_TWR"
+          },
+          {
+            "label": ["FAJO", "FSS"],
+            "color": "azure",
+            "station_id": "FAJO_FSS"
+          },
+          {
+            "label": ["FAJO", "1 FSS"],
+            "color": "azure",
+            "station_id": "FAJO_1_FSS"
+          },
+          {
+            "label": ["FAJO", "2 FSS"],
+            "color": "azure",
+            "station_id": "FAJO_2_FSS"
+          },
+          {
+            "label": ["FAJO", "3 FSS"],
+            "color": "azure",
+            "station_id": "FAJO_3_FSS"
+          },
+          {
+            "label": ["AFRC", "FSS"],
+            "color": "azure",
+            "station_id": "AFRC_FSS"
+          },
+          {
+            "label": ["AFRW", "FSS"],
+            "color": "azure",
+            "station_id": "AFRW_FSS"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}
