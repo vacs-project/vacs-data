@@ -586,7 +586,7 @@
             "label": ["EDUU", "ERL", "315+"],
             "color": "lavender",
             "station_id": "EDUU-ERL"
-          },          
+          },
           {
             "label": ["EDYY", "LXH", "245+"],
             "color": "lavender",
@@ -616,7 +616,7 @@
             "label": ["EDYY", "SL", "245-355"],
             "color": "lavender",
             "station_id": "EDYY-SL"
-          },          
+          },
           {
             "label": ["LFEE", "XE", "315+"],
             "color": "lavender",
