@@ -9,12 +9,12 @@
         "rows": 4,
         "keys": [
           {
-            "label": ["BGGL", "Nuuk", "Info"],
+            "label": ["Nuuk N", "Info"],
             "color": "steel",
             "station_id": "BGGL"
           },
           {
-            "label": ["BGGL S", "Nuuk", "Info"],
+            "label": ["Nuuk S", "Info"],
             "color": "steel",
             "station_id": "BGGL_S"
           },
@@ -44,7 +44,9 @@
             "station_id": "BGTL_GND"
           },
           {
-            "label": []
+            "label": ["BGGH", "APP"],
+            "color": "lagoon",
+            "station_id": "BGGH_APP"
           }
         ]
       }

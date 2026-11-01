@@ -118,7 +118,7 @@ default_call_sources = ["BIKF_APP", "BIRK_APP", "BIKF_F_APP"]
 [[positions]]
 id = "BIKF_F_APP"
 prefixes = ["BIKF"]
-frequency = "119.150"
+frequency = "121.300"
 facility_type = "APP"
 profile_id = "BIRD"
 default_call_sources = ["BIKF_F_APP"]

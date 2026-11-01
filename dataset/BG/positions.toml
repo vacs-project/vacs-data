@@ -1,18 +1,26 @@
 [[positions]]
 id = "BGGL_FSS"
 prefixes = ["BGGL"]
+frequency = "121.300"
+facility_type = "FSS"
+profile_id = "BGGL"
+default_call_sources = ["BGGL_S", "BGGL"]
+
+[[positions]]
+id = "BGGL_N_FSS"
+prefixes = ["BGGL"]
 frequency = "120.300"
 facility_type = "FSS"
 profile_id = "BGGL"
 default_call_sources = ["BGGL", "BGGL_S"]
 
 [[positions]]
-id = "BGGL_S_FSS"
-prefixes = ["BGGL"]
+id = "BGGH_APP"
+prefixes = ["BGGH"]
 frequency = "121.300"
-facility_type = "FSS"
+facility_type = "APP"
 profile_id = "BGGL"
-default_call_sources = ["BGGL_S", "BGGL"]
+default_call_sources = ["BGGH_APP"]
 
 [[positions]]
 id = "BGSF_APP"

@@ -227,12 +227,12 @@
         "rows": 4,
         "keys": [
           {
-            "label": ["BGGL", "Nuuk", "Info"],
+            "label": ["Nuuk N", "Info"],
             "color": "steel",
             "station_id": "BGGL"
           },
           {
-            "label": ["BGGL S", "Nuuk", "Info"],
+            "label": ["Nuuk S", "Info"],
             "color": "steel",
             "station_id": "BGGL_S"
           },
