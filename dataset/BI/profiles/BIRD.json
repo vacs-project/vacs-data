@@ -110,9 +110,7 @@
             "station_id": "BIRK_APP"
           },
           {
-            "label": ["BIKF", "GND"],
-            "color": "lilac",
-            "station_id": "BIKF_GND"
+            "label": []
           },
           {
             "label": ["BIKF", "TWR"],
@@ -120,9 +118,29 @@
             "station_id": "BIKF_TWR"
           },
           {
+            "label": ["BIKF", "GND"],
+            "color": "lilac",
+            "station_id": "BIKF_GND"
+          },
+          {
+            "label": ["BIKF", "GND 2"],
+            "color": "lilac",
+            "station_id": "BIKF_2_GND"
+          },
+          {
+            "label": ["BIKF", "DEL"],
+            "color": "lilac",
+            "station_id": "BIKF_DEL"
+          },
+          {
             "label": ["BIRK", "TWR"],
             "color": "lilac",
             "station_id": "BIRK_TWR"
+          },
+          {
+            "label": ["BIRK", "GND"],
+            "color": "lilac",
+            "station_id": "BIRK_GND"
           },
           {
             "label": ["BIAR", "TWR"],

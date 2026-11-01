@@ -49,7 +49,7 @@ controlled_by = [
   "BIRD_S3_CTR",
   "BIRD_S2_CTR",
   "BIRD_S1_CTR",
-  "BICC_FSS",
+  "BICC_1_FSS",
 ]
 
 [[stations]]
@@ -61,7 +61,7 @@ controlled_by = [
   "BIRD_S2_CTR",
   "BIRD_S3_CTR",
   "BIRD_S1_CTR",
-  "BICC_FSS",
+  "BICC_1_FSS",
 ]
 
 [[stations]]
@@ -73,7 +73,7 @@ controlled_by = [
   "BIRD_S2_CTR",
   "BIRD_S1_CTR",
   "BIRD_S3_CTR",
-  "BICC_FSS",
+  "BICC_1_FSS",
 ]
 
 [[stations]]
@@ -85,22 +85,22 @@ controlled_by = [
   "BIRD_S1_CTR",
   "BIRD_S2_CTR",
   "BIRD_S3_CTR",
-  "BICC_FSS",
+  "BICC_1_FSS",
 ]
 
 # Iceland Radio
 
 [[stations]]
 id = "BICC"
-controlled_by = ["BICC_FSS"]
+controlled_by = ["BICC_1_FSS"]
 
 [[stations]]
 id = "BICC_N"
-controlled_by = ["BICC_2_FSS", "BICC_FSS"]
+controlled_by = ["BICC_2_FSS", "BICC_1_FSS"]
 
 [[stations]]
 id = "BICC_3"
-controlled_by = ["BICC_3_FSS", "BICC_FSS"]
+controlled_by = ["BICC_3_FSS", "BICC_1_FSS"]
 
 # Approach
 
@@ -127,6 +127,16 @@ parent_id = "BIKF_APP"
 controlled_by = ["BIKF_TWR"]
 
 [[stations]]
+id = "BIKF_DEL"
+parent_id = "BIKF_GND"
+controlled_by = ["BIKF_DEL"]
+
+[[stations]]
+id = "BIKF_2_GND"
+parent_id = "BIKF_GND"
+controlled_by = ["BIKF_2_GND"]
+
+[[stations]]
 id = "BIKF_GND"
 parent_id = "BIKF_TWR"
 controlled_by = ["BIKF_GND"]
@@ -135,6 +145,11 @@ controlled_by = ["BIKF_GND"]
 id = "BIRK_TWR"
 parent_id = "BIRK_APP"
 controlled_by = ["BIRK_TWR"]
+
+[[stations]]
+id = "BIRK_GND"
+parent_id = "BIRK_TWR"
+controlled_by = ["BIRK_GND"]
 
 [[stations]]
 id = "BIAR_TWR"

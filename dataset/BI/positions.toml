@@ -79,12 +79,12 @@ default_call_sources = ["BIRD_W_U"]
 [[positions]]
 id = "BIRD_N1_CTR"
 prefixes = ["BIRD"]
-frequency = "131.100"
+frequency = "133.100"
 facility_type = "CTR"
 profile_id = "BIRD"
 
 [[positions]]
-id = "BICC_FSS"
+id = "BICC_1_FSS"
 prefixes = ["BICC"]
 frequency = "127.850"
 facility_type = "FSS"
@@ -140,6 +140,14 @@ profile_id = "BIRD"
 default_call_sources = ["BIKF_TWR"]
 
 [[positions]]
+id = "BIKF_DEL"
+prefixes = ["BIKF"]
+frequency = "121.000"
+facility_type = "DEL"
+profile_id = "BIRD"
+default_call_sources = ["BIKF_DEL"]
+
+[[positions]]
 id = "BIKF_GND"
 prefixes = ["BIKF"]
 frequency = "121.900"
@@ -148,12 +156,28 @@ profile_id = "BIRD"
 default_call_sources = ["BIKF_GND"]
 
 [[positions]]
+id = "BIKF_2_GND"
+prefixes = ["BIKF"]
+frequency = "126.200"
+facility_type = "GND"
+profile_id = "BIRD"
+default_call_sources = ["BIKF_2_GND"]
+
+[[positions]]
 id = "BIRK_TWR"
 prefixes = ["BIRK"]
 frequency = "118.000"
 facility_type = "TWR"
 profile_id = "BIRD"
 default_call_sources = ["BIRK_TWR"]
+
+[[positions]]
+id = "BIRK_GND"
+prefixes = ["BIRK"]
+frequency = "121.700"
+facility_type = "GND"
+profile_id = "BIRD"
+default_call_sources = ["BIRK_GND"]
 
 [[positions]]
 id = "BIAR_TWR"
