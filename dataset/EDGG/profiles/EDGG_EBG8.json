@@ -118,12 +118,12 @@
             "label": [""]
           },
           {
-            "label": ["EDMM", "FUE"],
+            "label": ["EDMM", "FUE", "315-"],
             "color": "mint",
             "station_id": "EDMM-FUE"
           },
           {
-            "label": ["EDMM", "SWA"],
+            "label": ["EDMM", "SWA", "105-"],
             "color": "mint",
             "station_id": "EDMM-SWA"
           },
@@ -131,17 +131,17 @@
             "label": [""]
           },
           {
-            "label": ["LSAZ", "SZN"],
+            "label": ["LSAZ", "SZN", "245-"],
             "color": "mint",
             "station_id": "LSAZ_N_CTR"
           },
           {
             "label": ["LFST", "APP"],
-            "color": "mint",
+            "color": "clay",
             "station_id": "LFST_SU_APP"
           },
           {
-            "label": ["EDMM", "NDG"],
+            "label": ["EDMM", "NDG", "315-"],
             "color": "mint",
             "station_id": "EDMM-NDG"
           },
@@ -152,7 +152,7 @@
             "label": [""]
           },
           {
-            "label": ["LSAZ", "SZE"],
+            "label": ["LSAZ", "SZE", "245-"],
             "color": "mint",
             "station_id": "LSAZ_E_CTR"
           },
