@@ -29,12 +29,6 @@
             "station_id": "BGSF_TWR"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
             "label": ["BGTL", "APP"],
             "color": "lagoon",
             "station_id": "BGTL_APP"
@@ -43,6 +37,14 @@
             "label": ["BGTL", "TWR"],
             "color": "lilac",
             "station_id": "BGTL_TWR"
+          },
+          {
+            "label": ["BGTL", "GND"],
+            "color": "lilac",
+            "station_id": "BGTL_GND"
+          },
+          {
+            "label": []
           }
         ]
       }

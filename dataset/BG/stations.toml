@@ -37,6 +37,11 @@ controlled_by = ["BGTL_TWR"]
 # AFIS - North
 
 [[stations]]
+id = "BGTL_GND"
+parent_id = "BGTL_TWR"
+controlled_by = ["BGTL_GND"]
+
+[[stations]]
 id = "BGAA_I_TWR"
 parent_id = "BGGL"
 controlled_by = ["BGAA_I_TWR"]

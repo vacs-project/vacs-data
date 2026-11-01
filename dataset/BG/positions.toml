@@ -47,6 +47,14 @@ profile_id = "BGGL"
 default_call_sources = ["BGTL_TWR"]
 
 [[positions]]
+id = "BGTL_GND"
+prefixes = ["BGTL"]
+frequency = "119.900"
+facility_type = "GND"
+profile_id = "BGGL"
+default_call_sources = ["BGTL_GND"]
+
+[[positions]]
 id = "BGAA_I_TWR"
 prefixes = ["BGAA"]
 frequency = "118.500"
