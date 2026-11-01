@@ -143,17 +143,17 @@
             "station_id": "EDGG-PSA"
           },
           {
-            "label": ["EDMM", "WLD"],
+            "label": ["EDMM", "WLD", "315-"],
             "color": "mint",
             "station_id": "EDMM-WLD"
           },
           {
-            "label": ["LSAZ", "SZN"],
+            "label": ["LSAZ", "SZN", "245-"],
             "color": "mint",
             "station_id": "LSAZ_N_CTR"
           },
           {
-            "label": ["EDUU", "AMM"],
+            "label": ["EDUU", "AMM", "315+"],
             "color": "lavender",
             "station_id": "EDUU-AMM"
           },
@@ -168,17 +168,17 @@
             "station_id": "EDGG-TAU"
           },
           {
-            "label": ["EDMM", "NDG"],
+            "label": ["EDMM", "NDG", "315-"],
             "color": "mint",
             "station_id": "EDMM-NDG"
           },
           {
-            "label": ["LSAZ", "SZE"],
+            "label": ["LSAZ", "SZE", "245-"],
             "color": "mint",
             "station_id": "LSAZ_E_CTR"
           },
           {
-            "label": ["EDUU", "ALP"],
+            "label": ["EDUU", "ALP", "315+"],
             "color": "lavender",
             "station_id": "EDUU-ALP"
           },
@@ -193,14 +193,14 @@
             "station_id": "EDGG-SIG"
           },
           {
-            "label": ["EDMM", "FUE"],
+            "label": ["EDMM", "FUE", "315-"],
             "color": "mint",
             "station_id": "EDMM-FUE"
           },
           {
-            "label": ["LSAS", "SZU"],
+            "label": ["LSAZ", "SZU", "245+"],
             "color": "lavender",
-            "station_id": "LSAS_CTR"
+            "station_id": "LSAZ_CTR"
           }
         ]
       }
