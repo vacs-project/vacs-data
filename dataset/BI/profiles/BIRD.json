@@ -110,7 +110,9 @@
             "station_id": "BIRK_APP"
           },
           {
-            "label": []
+            "label": ["BIKF", "GND"],
+            "color": "lilac",
+            "station_id": "BIKF_GND"
           },
           {
             "label": ["BIKF", "TWR"],
@@ -245,6 +247,26 @@
             "label": ["SCO", "N"],
             "color": "cadet",
             "station_id": "SCO_N_CTR"
+          },
+          {
+            "label": ["Polaris", "S20"],
+            "color": "cadet",
+            "station_id": "ENSV-20"
+          },
+          {
+            "label": ["Polaris", "S21"],
+            "color": "cadet",
+            "station_id": "ENSV-21"
+          },
+          {
+            "label": ["Polaris", "S22"],
+            "color": "cadet",
+            "station_id": "ENSV-22"
+          },
+          {
+            "label": ["Polaris", "S23"],
+            "color": "cadet",
+            "station_id": "ENBD-23"
           }
         ]
       }

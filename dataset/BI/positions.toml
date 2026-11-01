@@ -140,6 +140,14 @@ profile_id = "BIRD"
 default_call_sources = ["BIKF_TWR"]
 
 [[positions]]
+id = "BIKF_GND"
+prefixes = ["BIKF"]
+frequency = "121.900"
+facility_type = "GND"
+profile_id = "BIRD"
+default_call_sources = ["BIKF_GND"]
+
+[[positions]]
 id = "BIRK_TWR"
 prefixes = ["BIRK"]
 frequency = "118.000"

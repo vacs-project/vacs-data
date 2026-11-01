@@ -127,6 +127,11 @@ parent_id = "BIKF_APP"
 controlled_by = ["BIKF_TWR"]
 
 [[stations]]
+id = "BIKF_GND"
+parent_id = "BIKF_TWR"
+controlled_by = ["BIKF_GND"]
+
+[[stations]]
 id = "BIRK_TWR"
 parent_id = "BIRK_APP"
 controlled_by = ["BIRK_TWR"]
