@@ -249,24 +249,20 @@
             "station_id": "SCO_N_CTR"
           },
           {
-            "label": ["Polaris", "S20"],
+            "label": ["Polaris", "S15"],
             "color": "cadet",
-            "station_id": "ENSV-20"
+            "station_id": "ENSV-15"
           },
           {
-            "label": ["Polaris", "S21"],
+            "label": ["Polaris", "S16"],
             "color": "cadet",
-            "station_id": "ENSV-21"
+            "station_id": "ENSV-16"
           },
           {
-            "label": ["Polaris", "S22"],
-            "color": "cadet",
-            "station_id": "ENSV-22"
+            "label": []
           },
           {
-            "label": ["Polaris", "S23"],
-            "color": "cadet",
-            "station_id": "ENBD-23"
+            "label": []
           }
         ]
       }
