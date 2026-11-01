@@ -3,19 +3,26 @@
 [[stations]]
 id = "BGGL"
 parent_id = "BICC"
-controlled_by = ["BGGL_FSS", "BGGL_S_FSS"]
+controlled_by = ["BGGL_N_FSS", "BGGL_FSS"]
 
 [[stations]]
 id = "BGGL_S"
 parent_id = "BICC"
-controlled_by = ["BGGL_S_FSS", "BGGL_FSS"]
+controlled_by = ["BGGL_FSS", "BGGL_N_FSS"]
+
+# Nuuk Approach
+
+[[stations]]
+id = "BGGH_APP"
+parent_id = "BGGL_S"
+controlled_by = ["BGGH_APP"]
 
 # Sondrestrom
 
 [[stations]]
 id = "BGSF_APP"
 parent_id = "BIRD_W_L"
-controlled_by = ["BGSF_APP", "BGGL_S_FSS", "BGGL_FSS"]
+controlled_by = ["BGSF_APP", "BGGL_FSS", "BGGL_N_FSS"]
 
 [[stations]]
 id = "BGSF_TWR"
@@ -35,6 +42,11 @@ parent_id = "BGTL_APP"
 controlled_by = ["BGTL_TWR"]
 
 # AFIS - North
+
+[[stations]]
+id = "BGTL_GND"
+parent_id = "BGTL_TWR"
+controlled_by = ["BGTL_GND"]
 
 [[stations]]
 id = "BGAA_I_TWR"
@@ -85,7 +97,7 @@ controlled_by = ["BGBW_I_TWR"]
 
 [[stations]]
 id = "BGGH_I_TWR"
-parent_id = "BGGL_S"
+parent_id = "BGGH_APP"
 controlled_by = ["BGGH_I_TWR"]
 
 [[stations]]

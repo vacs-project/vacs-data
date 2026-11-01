@@ -118,9 +118,29 @@
             "station_id": "BIKF_TWR"
           },
           {
+            "label": ["BIKF", "GND"],
+            "color": "lilac",
+            "station_id": "BIKF_GND"
+          },
+          {
+            "label": ["BIKF", "GND 2"],
+            "color": "lilac",
+            "station_id": "BIKF_2_GND"
+          },
+          {
+            "label": ["BIKF", "DEL"],
+            "color": "lilac",
+            "station_id": "BIKF_DEL"
+          },
+          {
             "label": ["BIRK", "TWR"],
             "color": "lilac",
             "station_id": "BIRK_TWR"
+          },
+          {
+            "label": ["BIRK", "GND"],
+            "color": "lilac",
+            "station_id": "BIRK_GND"
           },
           {
             "label": ["BIAR", "TWR"],
@@ -207,12 +227,12 @@
         "rows": 4,
         "keys": [
           {
-            "label": ["BGGL", "Nuuk", "Info"],
+            "label": ["Nuuk N", "Info"],
             "color": "steel",
             "station_id": "BGGL"
           },
           {
-            "label": ["BGGL S", "Nuuk", "Info"],
+            "label": ["Nuuk S", "Info"],
             "color": "steel",
             "station_id": "BGGL_S"
           },
@@ -245,6 +265,22 @@
             "label": ["SCO", "N"],
             "color": "cadet",
             "station_id": "SCO_N_CTR"
+          },
+          {
+            "label": ["Polaris", "S15"],
+            "color": "cadet",
+            "station_id": "ENSV-15"
+          },
+          {
+            "label": ["Polaris", "S16"],
+            "color": "cadet",
+            "station_id": "ENSV-16"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           }
         ]
       }
