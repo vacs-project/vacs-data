@@ -8,54 +8,9 @@
         "rows": 5,
         "keys": [
           {
-            "label": ["PC", "W"],
-            "color": "azure",
-            "station_id": "MAN_W_CTR"
-          },
-          {
-            "label": ["AC", "W"],
-            "color": "blush",
-            "station_id": "LON_W_CTR"
-          },
-          {
-            "label": ["AC", "LKS"],
-            "color": "blush",
-            "station_id": "LON_NW_CTR"
-          },
-          {
             "label": ["AC", "DTY"],
             "color": "blush",
             "station_id": "LON_M_CTR"
-          },
-          {
-            "label": ["AC", "WOR"],
-            "color": "blush",
-            "station_id": "LON_H_CTR"
-          },
-          {
-            "label": ["PC", "NE"],
-            "color": "azure",
-            "station_id": "MAN_NE_CTR"
-          },
-          {
-            "label": ["PC", "SE"],
-            "color": "azure",
-            "station_id": "MAN_SE_CTR"
-          },
-          {
-            "label": ["AC", "NSEA"],
-            "color": "blush",
-            "station_id": "LON_NE_CTR"
-          },
-          {
-            "label": ["AC", "CLN"],
-            "color": "blush",
-            "station_id": "LON_E_CTR"
-          },
-          {
-            "label": ["AC", "DVR"],
-            "color": "blush",
-            "station_id": "LON_D_CTR"
           },
           {
             "label": ["TC", "MIDS"],
@@ -68,19 +23,19 @@
             "station_id": "LTC_NW_CTR"
           },
           {
+            "label": ["AC", "WOR"],
+            "color": "blush",
+            "station_id": "LON_H_CTR"
+          },
+          {
             "label": ["TC", "SW"],
             "color": "blush",
             "station_id": "LTC_SW_CTR"
           },
           {
-            "label": ["SS", "INT"],
+            "label": ["AC", "CLN"],
             "color": "blush",
-            "station_id": "EGSS_APP"
-          },
-          {
-            "label": ["LL", "INT"],
-            "color": "blush",
-            "station_id": "EGLL_N_APP"
+            "station_id": "LON_E_CTR"
           },
           {
             "label": ["TC", "E"],
@@ -93,14 +48,59 @@
             "station_id": "LTC_NE_CTR"
           },
           {
+            "label": ["AC", "DVR"],
+            "color": "blush",
+            "station_id": "LON_D_CTR"
+          },
+          {
             "label": ["TC", "SE"],
             "color": "blush",
             "station_id": "LTC_SE_CTR"
           },
           {
+            "label": ["AC", "LKS"],
+            "color": "blush",
+            "station_id": "LON_NW_CTR"
+          },
+          {
+            "label": ["PC", "W"],
+            "color": "azure",
+            "station_id": "MAN_W_CTR"
+          },
+          {
+            "label": ["AC", "W"],
+            "color": "blush",
+            "station_id": "LON_W_CTR"
+          },
+          {
+            "label": ["EGNX", "RAD"],
+            "color": "azure",
+            "station_id": "EGNX_APP"
+          },
+          {
+            "label": ["EGBB", "RAD"],
+            "color": "azure",
+            "station_id": "EGBB_APP"
+          },
+          {
+            "label": ["AC", "NSEA"],
+            "color": "blush",
+            "station_id": "LON_NE_CTR"
+          },
+          {
+            "label": ["PC", "NE"],
+            "color": "azure",
+            "station_id": "MAN_NE_CTR"
+          },
+          {
             "label": ["GW", "INT"],
             "color": "blush",
             "station_id": "EGGW_APP"
+          },
+          {
+            "label": ["LL", "INT"],
+            "color": "blush",
+            "station_id": "EGLL_N_APP"
           },
           {
             "label": ["TMS", "RAD"],
@@ -113,14 +113,14 @@
             "station_id": "EGSH_APP"
           },
           {
-            "label": ["EGNX", "RAD"],
+            "label": ["PC", "SE"],
             "color": "azure",
-            "station_id": "EGNX_APP"
+            "station_id": "MAN_SE_CTR"
           },
           {
-            "label": ["EGBB", "RAD"],
-            "color": "azure",
-            "station_id": "EGBB_APP"
+            "label": ["SS", "INT"],
+            "color": "blush",
+            "station_id": "EGSS_APP"
           },
           {
             "label": ["EGMC", "DIR"],
