@@ -29,7 +29,8 @@
           },
           {
             "label": ["EGGX", "OCA"],
-            "color": "mint"
+            "color": "mint",
+            "station_id": "Shanwick"
           },
           {
             "label": []
