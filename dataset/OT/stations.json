@@ -2,22 +2,27 @@
   "stations": [
     {
       "id": "OTDF_FMP",
-      "parent_id": "OTDF_1_CTR",
+      "parent_id": "OTDF_N1_CTR",
       "controlled_by": ["OTDF_FMP"]
     },
     {
-      "id": "OTDF_1_CTR",
+      "id": "OTDF_N1_CTR",
       "parent_id": "GULF_E_FSS",
-      "controlled_by": ["OTDF_1_CTR"]
+      "controlled_by": ["OTDF_N1_CTR"]
     },
     {
-      "id": "OTDF_2_CTR",
-      "parent_id": "OTDF_1_CTR",
-      "controlled_by": ["OTDF_2_CTR"]
+      "id": "OTDF_N2_CTR",
+      "parent_id": "OTDF_N1_CTR",
+      "controlled_by": ["OTDF_N2_CTR"]
+    },
+    {
+      "id": "OTDF_S_CTR",
+      "parent_id": "OTDF_N1_CTR",
+      "controlled_by": ["OTDF_S_CTR"]
     },
     {
       "id": "DOH_R1_APP",
-      "parent_id": "OTDF_1_CTR",
+      "parent_id": "OTDF_N1_CTR",
       "controlled_by": ["DOH_R1_APP"]
     },
     {

@@ -163,36 +163,44 @@
                 "rows": 4,
                 "keys": [
                   {
-                    "label": ["BIRD", "South U", "365-660"],
-                    "color": "azure"
+                    "label": ["BIRD S", "365+"],
+                    "color": "azure",
+                    "station_id": "BIRD_S_U"
                   },
                   {
-                    "label": ["BIRD", "South M", "355-365"],
-                    "color": "azure"
+                    "label": ["BIRD S", "355-365"],
+                    "color": "azure",
+                    "station_id": "BIRD_S_MU"
                   },
                   {
-                    "label": ["BIRD", "South M", "345-355"],
-                    "color": "azure"
+                    "label": ["BIRD S", "345-355"],
+                    "color": "azure",
+                    "station_id": "BIRD_S_ML"
                   },
                   {
-                    "label": ["BIRD", "South L", "55-345"],
-                    "color": "azure"
+                    "label": ["BIRD S", "345-"],
+                    "color": "azure",
+                    "station_id": "BIRD_S_L"
                   },
                   {
-                    "label": ["BIRD", "East U", "365-660"],
-                    "color": "azure"
+                    "label": ["BIRD E", "365+"],
+                    "color": "azure",
+                    "station_id": "BIRD_E_U"
                   },
                   {
-                    "label": ["BIRD", "East M", "355-365"],
-                    "color": "azure"
+                    "label": ["BIRD E", "355-365"],
+                    "color": "azure",
+                    "station_id": "BIRD_E_MU"
                   },
                   {
-                    "label": ["BIRD", "East M", "345-355"],
-                    "color": "azure"
+                    "label": ["BIRD E", "345-355"],
+                    "color": "azure",
+                    "station_id": "BIRD_E_ML"
                   },
                   {
-                    "label": ["BIRD", "East L", "55-345"],
-                    "color": "azure"
+                    "label": ["BIRD E", "345-"],
+                    "color": "azure",
+                    "station_id": "BIRD_E_L"
                   }
                 ]
               }

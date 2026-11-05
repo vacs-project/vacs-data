@@ -393,7 +393,7 @@ default_call_sources = ["LFBO_WB_APP", "LFBA_TWR"]
 [[positions]]
 id = "LFBP_APP"
 prefixes = ["LFBP"]
-frequency = "128.800"
+frequency = "128.805"
 facility_type = "APP"
 profile_id = "LFBP"
 default_call_sources = [
@@ -412,7 +412,7 @@ default_call_sources = [
 [[positions]]
 id = "LFBP_I_APP"
 prefixes = ["LFBP"]
-frequency = "126.525"
+frequency = "126.530"
 facility_type = "APP"
 profile_id = "LFBP"
 default_call_sources = ["LFBP_I_APP"]
@@ -531,7 +531,7 @@ default_call_sources = ["LFBO_TWR", "LFBO_GND", "LFBO_DEL"]
 [[positions]]
 id = "LFBP_TWR"
 prefixes = ["LFBP"]
-frequency = "124.150"
+frequency = "124.155"
 facility_type = "TWR"
 profile_id = "LFBP"
 default_call_sources = ["LFBP_TWR", "LFBP_GND"]

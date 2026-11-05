@@ -36,14 +36,14 @@
       "controlled_by": ["OKKK_TWR"]
     },
     {
-      "id": "OKKK_1_GND",
+      "id": "OKKK_E_GND",
       "parent_id": "OKKK_TWR",
-      "controlled_by": ["OKKK_1_GND"]
+      "controlled_by": ["OKKK_E_GND"]
     },
     {
-      "id": "OKKK_2_GND",
-      "parent_id": "OKKK_1_GND",
-      "controlled_by": ["OKKK_2_GND"]
+      "id": "OKKK_W_GND",
+      "parent_id": "OKKK_E_GND",
+      "controlled_by": ["OKKK_W_GND"]
     },
     {
       "id": "OKKK_P_DEL",
@@ -52,7 +52,7 @@
     },
     {
       "id": "OKKK_DEL",
-      "parent_id": "OKKK_2_GND",
+      "parent_id": "OKKK_E_GND",
       "controlled_by": ["OKKK_DEL"]
     },
     {

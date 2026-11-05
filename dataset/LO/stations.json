@@ -6,6 +6,10 @@
     },
     {
       "id": "LOVV_B1",
+      "parent_id": "LOVV_B2"
+    },
+    {
+      "id": "LOVV_B2",
       "controlled_by": [
         "LOVV_B_CTR",
         "LOVV_BC_CTR",
@@ -19,10 +23,6 @@
         "LOVV_NU_CTR",
         "LOVV_U_CTR"
       ]
-    },
-    {
-      "id": "LOVV_B2",
-      "parent_id": "LOVV_B3"
     },
     {
       "id": "LOVV_B3",
@@ -58,6 +58,10 @@
     },
     {
       "id": "LOVV_E1",
+      "parent_id": "LOVV_E2"
+    },
+    {
+      "id": "LOVV_E2",
       "controlled_by": [
         "LOVV_E_CTR",
         "LOVV_N_CTR",
@@ -67,10 +71,6 @@
         "LOVV_NU_CTR",
         "LOVV_U_CTR"
       ]
-    },
-    {
-      "id": "LOVV_E2",
-      "parent_id": "LOVV_E3"
     },
     {
       "id": "LOVV_E3",
@@ -102,8 +102,12 @@
     },
     {
       "id": "LOVV_N1",
+      "parent_id": "LOVV_N2",
+      "controlled_by": ["LOVV_N1_CTR"]
+    },
+    {
+      "id": "LOVV_N2",
       "controlled_by": [
-        "LOVV_N1_CTR",
         "LOVV_N_CTR",
         "LOVV_E_CTR",
         "LOVV_CTR",
@@ -112,10 +116,6 @@
         "LOVV_EU_CTR",
         "LOVV_U_CTR"
       ]
-    },
-    {
-      "id": "LOVV_N2",
-      "parent_id": "LOVV_N3"
     },
     {
       "id": "LOVV_N3",
@@ -147,8 +147,12 @@
     },
     {
       "id": "LOVV_S1",
+      "parent_id": "LOVV_S2",
+      "controlled_by": ["LOVV_S1_CTR"]
+    },
+    {
+      "id": "LOVV_S2",
       "controlled_by": [
-        "LOVV_S1_CTR",
         "LOVV_S_CTR",
         "LOVV_B_CTR",
         "LOVV_BC_CTR",
@@ -160,10 +164,6 @@
         "LOVV_EU_CTR",
         "LOVV_U_CTR"
       ]
-    },
-    {
-      "id": "LOVV_S2",
-      "parent_id": "LOVV_S3"
     },
     {
       "id": "LOVV_S3",
@@ -198,6 +198,10 @@
     },
     {
       "id": "LOVV_W1",
+      "parent_id": "LOVV_W2"
+    },
+    {
+      "id": "LOVV_W2",
       "controlled_by": [
         "LOVV_W_CTR",
         "LOVV_WC_CTR",
@@ -211,10 +215,6 @@
         "LOVV_BU_CTR",
         "LOVV_U_CTR"
       ]
-    },
-    {
-      "id": "LOVV_W2",
-      "parent_id": "LOVV_W3"
     },
     {
       "id": "LOVV_W3",
