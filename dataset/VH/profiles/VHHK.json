@@ -462,7 +462,7 @@
           {
             "label": ["ZSSS-S"],
             "station_id": "ZSSS_S_CTR"
-          },  
+          },
           {
             "label": ["ZJSY-L"],
             "station_id": "ZJSY_L_CTR"
@@ -483,7 +483,7 @@
             "label": ["ZJSY-N"],
             "station_id": "ZJSY_N_CTR"
           },
-         {
+          {
             "label": []
           },
           {
@@ -498,7 +498,7 @@
             "label": ["ZJSY-O"],
             "station_id": "ZJSY_O_CTR"
           },
-         {
+          {
             "label": []
           },
           {
@@ -528,7 +528,7 @@
           {
             "label": ["RPHI-N"],
             "station_id": "MNL_N_CTR"
-          },  
+          },
           {
             "label": []
           },
@@ -545,9 +545,6 @@
           {
             "label": []
           },
-         {
-            "label": []
-          },
           {
             "label": []
           },
@@ -557,7 +554,10 @@
           {
             "label": []
           },
-         {
+          {
+            "label": []
+          },
+          {
             "label": []
           },
           {
