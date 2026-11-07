@@ -56,6 +56,9 @@ jobs:
 
           echo "Syncing AIRAC labels (today: $TODAY, cutoff: $CUTOFF_DATE, max upcoming: $MAX_UPCOMING)..."
 
+          mapfile -t LABELS < <(gh label list --json name --jq '.[].name' 2>/dev/null)
+          has_label() { [[ " ${LABELS[*]} " == *" $1 "* ]]; }
+
           # Collect upcoming cycle dates (on or after today), sorted
           upcoming=()
           while IFS=: read -r date cycle_raw; do
@@ -76,7 +79,7 @@ jobs:
 
             if [[ "$date" < "$CUTOFF_DATE" ]]; then
               # Delete old labels if no open PRs reference them
-              if gh label view "$label" --json name &>/dev/null; then
+              if has_label "$label"; then
                 open_prs=$(gh pr list --label "$label" --state open --json number --jq 'length')
                 if [[ "$open_prs" -eq 0 ]]; then
                   echo "Deleting stale label: $label (cycle date: $date)"
@@ -93,7 +96,7 @@ jobs:
             else
               # Future cycle beyond the window, or past cycle within 90 days - delete if it exists
               # (past-but-recent labels with open PRs are kept)
-              if gh label view "$label" --json name &>/dev/null; then
+              if has_label "$label"; then
                 open_prs=$(gh pr list --label "$label" --state open --json number --jq 'length')
                 if [[ "$open_prs" -eq 0 ]]; then
                   echo "Deleting out-of-window label: $label"
