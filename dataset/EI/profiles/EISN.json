@@ -236,7 +236,8 @@
           },
           {
             "label": ["WSTRN", "RAD"],
-            "color": "taupe"
+            "color": "taupe",
+            "station_id": "EGTT_WR_CTR"
           },
           {
             "label": ["RAF", "VALLEY"],
