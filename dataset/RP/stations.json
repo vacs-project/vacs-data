@@ -5,40 +5,36 @@
       "controlled_by": ["MNL_CTR"]
     },
     {
-      "id": "MNL_N_CTR",
-      "controlled_by": ["MNL_N_CTR", "MNL_CTR"]
+      "id": "MNL_BBN_CTR",
+      "controlled_by": ["MNL_BBN_CTR", "MNL_CTR"]
     },
     {
-      "id": "MNL_S_CTR",
-      "controlled_by": ["MNL_S_CTR", "MNL_CTR"]
+      "id": "MNL_BBS_CTR",
+      "controlled_by": ["MNL_BBS_CTR", "MNL_CTR"]
+    },
+    {
+      "id": "MNL_BB2_CTR",
+      "controlled_by": ["MNL_BB2_CTR", "MNL_BBS_CTR", "MNL_CTR"]
     },
     {
       "id": "MNL_C_CTR",
-      "controlled_by": ["MNL_C_CTR", "MNL_N_CTR", "MNL_S_CTR", "MNL_CTR"]
+      "controlled_by": ["MNL_C_CTR", "MNL_BBN_CTR", "MNL_BBS_CTR", "MNL_CTR"]
     },
     {
-      "id": "MNL_N1_CTR",
-      "controlled_by": ["MNL_N1_CTR", "MNL_C_CTR", "MNL_N_CTR", "MNL_CTR"]
+      "id": "MNL_CNC_CTR",
+      "controlled_by": ["MNL_CNC_CTR", "MNL_C_CTR", "MNL_BBN_CTR", "MNL_CTR"]
     },
     {
-      "id": "MNL_NE_CTR",
-      "controlled_by": ["MNL_NE_CTR", "MNL_C_CTR", "MNL_N_CTR", "MNL_CTR"]
-    },
-    {
-      "id": "MNL_NW_CTR",
-      "controlled_by": ["MNL_NW_CTR", "MNL_C_CTR", "MNL_N_CTR", "MNL_CTR"]
+      "id": "MNL_CSC_CTR",
+      "controlled_by": ["MNL_CSC_CTR", "MNL_C_CTR", "MNL_BBS_CTR", "MNL_CTR"]
     },
     {
       "id": "MNL_CN_CTR",
-      "controlled_by": ["MNL_CN_CTR", "MNL_C_CTR", "MNL_N_CTR", "MNL_CTR"]
-    },
-    {
-      "id": "MNL_CW_CTR",
       "controlled_by": [
-        "MNL_CW_CTR",
+        "MNL_CN_CTR",
+        "MNL_CNC_CTR",
         "MNL_C_CTR",
-        "MNL_N_CTR",
-        "MNL_S_CTR",
+        "MNL_BBN_CTR",
         "MNL_CTR"
       ]
     },
@@ -46,41 +42,55 @@
       "id": "MNL_CE_CTR",
       "controlled_by": [
         "MNL_CE_CTR",
+        "MNL_CNC_CTR",
         "MNL_C_CTR",
-        "MNL_N_CTR",
-        "MNL_S_CTR",
+        "MNL_BBN_CTR",
         "MNL_CTR"
       ]
     },
     {
-      "id": "MNL_S1_CTR",
-      "controlled_by": ["MNL_S1_CTR", "MNL_C_CTR", "MNL_S_CTR", "MNL_CTR"]
-    },
-    {
-      "id": "MNL_SE_CTR",
-      "controlled_by": ["MNL_SE_CTR", "MNL_C_CTR", "MNL_S_CTR", "MNL_CTR"]
-    },
-    {
-      "id": "MNL_SW_CTR",
-      "controlled_by": ["MNL_SW_CTR", "MNL_C_CTR", "MNL_S_CTR", "MNL_CTR"]
+      "id": "MNL_CW_CTR",
+      "controlled_by": [
+        "MNL_CW_CTR",
+        "MNL_CSC_CTR",
+        "MNL_C_CTR",
+        "MNL_BBS_CTR",
+        "MNL_CTR"
+      ]
     },
     {
       "id": "MNL_CS_CTR",
-      "controlled_by": ["MNL_CS_CTR", "MNL_C_CTR", "MNL_S_CTR", "MNL_CTR"]
-    },
-    {
-      "id": "MNL_W_CTR",
       "controlled_by": [
-        "MNL_W_CTR",
+        "MNL_CS_CTR",
+        "MNL_CSC_CTR",
         "MNL_C_CTR",
-        "MNL_N_CTR",
-        "MNL_S_CTR",
+        "MNL_BBS_CTR",
         "MNL_CTR"
       ]
     },
     {
-      "id": "MNL_2_CTR",
-      "controlled_by": ["MNL_2_CTR", "MNL_CTR"]
+      "id": "MNL_NW_CTR",
+      "controlled_by": ["MNL_NW_CTR", "MNL_BBN_CTR", "MNL_CTR"]
+    },
+    {
+      "id": "MNL_NE_CTR",
+      "controlled_by": ["MNL_NE_CTR", "MNL_BBN_CTR", "MNL_CTR"]
+    },
+    {
+      "id": "MNL_W_CTR",
+      "controlled_by": ["MNL_W_CTR", "MNL_BBN_CTR", "MNL_CTR"]
+    },
+    {
+      "id": "MNL_SW_CTR",
+      "controlled_by": ["MNL_SW_CTR", "MNL_BBS_CTR", "MNL_CTR"]
+    },
+    {
+      "id": "MNL_S_CTR",
+      "controlled_by": ["MNL_S_CTR", "MNL_BB2_CTR", "MNL_BBS_CTR", "MNL_CTR"]
+    },
+    {
+      "id": "MNL_SE_CTR",
+      "controlled_by": ["MNL_SE_CTR", "MNL_BB2_CTR", "MNL_BBS_CTR", "MNL_CTR"]
     },
     {
       "id": "MNL_FMP",
