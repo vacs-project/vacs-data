@@ -213,7 +213,7 @@ id = "LPCS_TWR"
 prefixes = ["LPCS"]
 frequency = "120.305"
 facility_type = "TWR"
-profile_id = "LPPC_Generic"
+profile_id = "TWRCAS"
 
 [[positions]]
 id = "LPEV_I_TWR"
@@ -311,7 +311,7 @@ id = "LPCS_GND"
 prefixes = ["LPCS"]
 frequency = "121.830"
 facility_type = "GND"
-profile_id = "LPPC_Generic"
+profile_id = "TWRCAS"
 
 [[positions]]
 id = "LPFR_GND"

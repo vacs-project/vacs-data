@@ -14,6 +14,15 @@ inputs:
   commit-sha:
     description: Resolved commit SHA used as the version marker
     required: true
+  deployed-tag:
+    description: Deployed tag to update
+    required: true
+  app-client-id:
+    description: Client ID of the GitHub App used to update the deployed tag
+    required: true
+  app-private-key:
+    description: Private key of the GitHub App used to update the deployed tag
+    required: true
 
 runs:
   using: composite
@@ -21,6 +30,8 @@ runs:
     - name: Get OIDC token
       id: oidc
       shell: bash
+      env:
+        AUDIENCE: ${{ inputs.oidc-audience }}
       run: |
         if [[ -z "$ACTIONS_ID_TOKEN_REQUEST_TOKEN" || -z "$ACTIONS_ID_TOKEN_REQUEST_URL" ]]; then
           echo "::error::OIDC token request environment variables are not set. Ensure the job has 'id-token: write' permission."
@@ -29,7 +40,8 @@ runs:
 
         RESPONSE=$(curl -sSf \
           -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
-          "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=${{ inputs.oidc-audience }}")
+          --get --data-urlencode "audience=$AUDIENCE" \
+          "$ACTIONS_ID_TOKEN_REQUEST_URL")
 
         TOKEN=$(echo "$RESPONSE" | jq -r '.value')
 
@@ -39,19 +51,61 @@ runs:
         fi
 
         echo "::add-mask::$TOKEN"
-        echo "token=$TOKEN" >> "$GITHUB_OUTPUT"
+        echo "oidc-token=$TOKEN" >> "$GITHUB_OUTPUT"
 
     - name: Trigger dataset reload
       shell: bash
+      env:
+        OIDC_TOKEN: ${{ steps.oidc.outputs.oidc-token }}
+        GIT_REF: ${{ inputs.git-ref }}
+        COMMIT_SHA: ${{ inputs.commit-sha }}
+        SERVER_URL: ${{ inputs.server-url }}
       run: |
+        payload=$(jq -n --arg ref "$GIT_REF" --arg sha "$COMMIT_SHA" '{ref: $ref, sha: $sha}')
+
         if ! response=$(curl -sS --fail-with-body \
           -X POST \
-          -H "Authorization: Bearer ${{ steps.oidc.outputs.token }}" \
+          -H "Authorization: Bearer $OIDC_TOKEN" \
           -H "Content-Type: application/json" \
-          -d '{"ref": "${{ inputs.git-ref }}", "sha": "${{ inputs.commit-sha }}"}' \
-          "${{ inputs.server-url }}/admin/dataset/reload"); then
+          -d "$payload" \
+          "$SERVER_URL/admin/dataset/reload"); then
           echo "::error::Dataset reload failed: $response"
           exit 1
         fi
 
         echo "Dataset reload triggered successfully"
+
+    - name: Generate GitHub token
+      uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+      id: generate-token
+      with:
+        client-id: ${{ inputs.app-client-id }}
+        private-key: ${{ inputs.app-private-key }}
+        owner: ${{ github.repository_owner }}
+        repositories: vacs-data
+        permission-contents: write
+
+    - name: Update deployed tag
+      shell: bash
+      env:
+        GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+        GH_REPO: ${{ github.repository }}
+        EVENT_NAME: ${{ github.event_name }}
+        DEPLOYED_TAG: ${{ inputs.deployed-tag }}
+      run: |
+        # Create annotated tag object
+        TAG_SHA=$(gh api "repos/$GH_REPO/git/tags" \
+          -X POST \
+          -f tag=$DEPLOYED_TAG \
+          -f message="Deployed to $DEPLOYED_TAG from $EVENT_NAME (${GITHUB_SHA::7})" \
+          -f object="$GITHUB_SHA" \
+          -f type=commit \
+          --jq '.sha')
+
+        # Try to update existing ref, create if it doesn't exist
+        if ! gh api "repos/$GH_REPO/git/refs/tags/$DEPLOYED_TAG" \
+          -X PATCH -f sha="$TAG_SHA" --silent 2>/dev/null; then
+          gh api "repos/$GH_REPO/git/refs" \
+            -X POST -f ref=refs/tags/$DEPLOYED_TAG -f sha="$TAG_SHA" --silent
+        fi
+        echo "Updated $DEPLOYED_TAG tag to $GITHUB_SHA"

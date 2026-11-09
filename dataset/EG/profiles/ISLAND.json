@@ -8,13 +8,18 @@
         "rows": 3,
         "keys": [
           {
-            "label": ["Comodoro", "Centro", "(INOP)"]
+            "label": ["Comodoro", "Centro", "SAVF-S"],
+            "color": "steel",
+            "station_id": "SAVF_S_CTR"
           },
           {
-            "label": []
+            "label": ["Comodoro", "Centro", "SAVF-BBx"],
+            "color": "steel",
+            "station_id": "SAVF_CTR"
           },
           {
             "label": ["Stanley", "Info"],
+            "color": "lavender",
             "station_id": "SFAL_I_TWR"
           },
 
@@ -29,6 +34,7 @@
           },
           {
             "label": ["ISLAND", "RAD"],
+            "color": "mint",
             "station_id": "ISLAND_CTR"
           },
           {
@@ -36,18 +42,22 @@
           },
           {
             "label": ["YP", "GMC"],
+            "color": "lilac",
             "station_id": "EGYP_GND"
           },
           {
             "label": ["YP", "RAD"],
+            "color": "lagoon",
             "station_id": "EGYP_APP"
           },
           {
             "label": ["YP", "T/D"],
+            "color": "lagoon",
             "station_id": "EGYP_P_APP"
           },
           {
             "label": ["YP", "AIR"],
+            "color": "lavender",
             "station_id": "EGYP_TWR"
           }
         ]

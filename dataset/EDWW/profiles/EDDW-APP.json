@@ -84,11 +84,13 @@
           },
           {
             "label": ["EHGG", "APP"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHGG_APP"
           },
           {
             "label": ["EHMC"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHMC"
           },
           {
             "label": ["TRAMON", "SUNRISE", "LONESHIP"],
@@ -136,7 +138,8 @@
           },
           {
             "label": ["EHAA", "EAST"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHAA_E"
           },
           {
             "label": ["EDWW", "FMP"],

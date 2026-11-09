@@ -102,7 +102,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["ACC NH"],
+            "station_id": "OTDF_N1_CTR"
           },
           {
             "label": []
@@ -115,12 +116,12 @@
             "label": []
           },
           {
-            "label": ["ACC 1"],
-            "station_id": "OTDF_1_CTR"
+            "label": ["ACC NL"],
+            "station_id": "OTDF_N2_CTR"
           },
           {
-            "label": ["ACC 2"],
-            "station_id": "OTDF_2_CTR"
+            "label": ["ACC S"],
+            "station_id": "OTDF_S_CTR"
           }
         ]
       }
@@ -204,12 +205,12 @@
             "station_id": "OTBD_TWR"
           },
           {
-            "label": ["ACC 1"],
-            "station_id": "OTDF_1_CTR"
+            "label": ["ACC NH"],
+            "station_id": "OTDF_N1_CTR"
           },
           {
-            "label": ["ACC 2"],
-            "station_id": "OTDF_2_CTR"
+            "label": ["ACC S"],
+            "station_id": "OTDF_S_CTR"
           },
           {
             "label": []
@@ -219,7 +220,8 @@
             "station_id": "OBBI_APP"
           },
           {
-            "label": []
+            "label": ["ACC NL"],
+            "station_id": "OTDF_N2_CTR"
           },
           {
             "label": ["UAE", "CENT"],

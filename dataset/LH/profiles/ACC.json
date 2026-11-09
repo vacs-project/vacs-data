@@ -20,11 +20,11 @@
             "color": "lagoon"
           },
           {
-            "label": ["LOVV E2", "305-345", "PC"],
+            "label": ["LOVV E2", "315-345", "PC"],
             "color": "lagoon"
           },
           {
-            "label": ["LOVV E1", "LAU-305", "PC"],
+            "label": ["LOVV E1", "LAU-315", "PC"],
             "color": "lagoon"
           },
           {
@@ -51,12 +51,12 @@
             "color": "cadet"
           },
           {
-            "label": ["LOVV E2", "305-345", "EC"],
+            "label": ["LOVV E2", "315-345", "EC"],
             "station_id": "LOVV_E2",
             "color": "cadet"
           },
           {
-            "label": ["LOVV E1", "LAU-305", "EC"],
+            "label": ["LOVV E1", "LAU-315", "EC"],
             "station_id": "LOVV_E1",
             "color": "cadet"
           },
@@ -81,11 +81,11 @@
             "color": "lagoon"
           },
           {
-            "label": ["LOVV S2", "305-345", "PC"],
+            "label": ["LOVV S2", "315-345", "PC"],
             "color": "lagoon"
           },
           {
-            "label": ["LOVV S1", "LAU-305", "PC"],
+            "label": ["LOVV S1", "LAU-315", "PC"],
             "color": "lagoon"
           },
           {
@@ -111,12 +111,12 @@
             "color": "cadet"
           },
           {
-            "label": ["LOVV S2", "305-345", "EC"],
+            "label": ["LOVV S2", "315-345", "EC"],
             "station_id": "LOVV_S2",
             "color": "cadet"
           },
           {
-            "label": ["LOVV S1", "LAU-305", "EC"],
+            "label": ["LOVV S1", "LAU-315", "EC"],
             "station_id": "LOVV_S1",
             "color": "cadet"
           },

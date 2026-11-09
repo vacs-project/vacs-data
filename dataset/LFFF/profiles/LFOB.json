@@ -3,161 +3,58 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["Generale"],
+      "label": ["1", "AD"],
       "page": {
-        "rows": 4,
+        "rows": 6,
         "keys": [
           {
-            "label": ["EVREUX", "APP"],
-            "color": "lagoon",
-            "station_id": "LFOE_APP"
-          },
-          {
-            "label": ["BOURGET", "SIV_ouest"],
-            "color": "steel",
-            "station_id": "LFPT_I_APP"
-          },
-          {
-            "label": ["CIV"],
-            "color": "azure"
-          },
-          {
-            "label": ["Secteur", "Nord"],
-            "color": "clay"
-          },
-          {
-            "label": ["OPS_CDC", "CAM_V"],
-            "color": "lagoon"
-          },
-          {
-            "label": ["BOURGET", "APP"],
-            "color": "steel",
-            "station_id": "LFPT_APP"
-          },
-          {
-            "label": ["BTIV"],
-            "color": "azure"
-          },
-          {
-            "label": ["CDG", "CdS"],
-            "color": "clay",
-            "station_id": "LFPG_N_APP"
-          },
-          {
-            "label": ["PRISON", "BEAUVAIS"]
-          },
-          {
-            "label": ["RPO"],
-            "color": "umber"
-          },
-          {
-            "label": ["ATHIS", "CdS"],
-            "color": "azure"
-          },
-          {
-            "label": ["CDG", "ARR"],
-            "color": "clay",
-            "station_id": "LFPG_N_APP"
-          },
-          {
-            "label": ["BGTA"],
-            "color": "lavender"
-          },
-          {
-            "label": ["LILLE", "QR"],
-            "color": "mint",
-            "station_id": "LFQQ_QR_APP"
-          },
-          {
             "label": ["FMP"],
-            "color": "azure",
-            "station_id": "LFXX_FMP"
+            "color": "lilac",
+            "station_id": "LFFF_FMP"
           },
           {
-            "label": ["CDG", "DEP"],
-            "color": "clay",
-            "station_id": "LFPG_N_DEP"
+            "label": []
           },
           {
-            "label": ["ROUEN", "TWR"],
-            "color": "azure",
-            "station_id": "LFOP_TWR"
-          },
-          {
-            "label": ["LILLE", "QD"],
-            "color": "mint",
-            "station_id": "LFQQ_QD_APP"
-          },
-          {
-            "label": ["TP"],
-            "color": "azure",
+            "label": ["LFFF", "TP", ""],
+            "color": "taupe",
             "station_id": "PAR_TP"
           },
           {
-            "label": ["OB6"],
-            "color": "clay"
+            "label": ["LFQQ", "QR", "APP"],
+            "color": "snow",
+            "station_id": "LFQQ_QR_APP"
           },
           {
-            "label": ["PONTOISE", "TWR"],
-            "color": "lilac",
+            "label": ["LFOP", "TWR"],
+            "color": "snow",
+            "station_id": "LFOP_TWR"
+          },
+          {
+            "label": ["LFPT", "TWR"],
+            "color": "snow",
             "station_id": "LFPT_TWR"
           },
           {
-            "label": ["LILLE", "QA"],
-            "color": "mint",
-            "station_id": "LFQQ_QA_APP"
+            "label": []
           },
           {
-            "label": ["TN"],
-            "color": "azure",
+            "label": []
+          },
+          {
+            "label": ["LFFF", "TN", ""],
+            "color": "taupe",
             "station_id": "PAR_TN"
           },
           {
-            "label": ["OB67"],
-            "color": "clay"
+            "label": ["LFQQ", "QD", "APP"],
+            "color": "snow",
+            "station_id": "LFQQ_QD_APP"
           },
           {
-            "label": ["BNIA"],
-            "color": "taupe"
-          },
-          {
-            "label": ["OPS", "T2"],
-            "color": "lavender"
-          },
-          {
-            "label": ["SPPA"],
-            "color": "taupe"
-          },
-          {
-            "label": ["SECOURS", "SSLIA"],
-            "color": "blush"
-          },
-          {
-            "label": ["SSLIA"],
-            "color": "blush"
-          },
-          {
-            "label": ["CEP"],
-            "color": "lavender"
-          },
-          {
-            "label": ["MTCE"],
-            "color": "cadet"
-          },
-          {
-            "label": ["OPS"],
-            "color": "lavender"
-          }
-        ]
-      }
-    },
-    {
-      "label": ["Technique"],
-      "page": {
-        "rows": 4,
-        "keys": [
-          {
-            "label": []
+            "label": ["LFPG", "N", "DEP"],
+            "color": "snow",
+            "station_id": "LFPG_N_DEP"
           },
           {
             "label": []
@@ -166,85 +63,45 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["LFOB", "INFO", ""],
+            "color": "azure",
+            "station_id": "LFOB_I_APP"
+          },
+          {
+            "label": ["LFFF", "TB"],
+            "color": "taupe",
+            "station_id": "PAR_TB"
+          },
+          {
+            "label": ["LFQQ", "QA", "APP"],
+            "color": "snow",
+            "station_id": "LFQQ_QA_APP"
+          },
+          {
+            "label": ["LFPG", "N", "INI"],
+            "color": "snow",
+            "station_id": "LFPG_N_APP"
           },
           {
             "label": []
           },
           {
-            "label": []
+            "label": ["TWR", "", ""],
+            "color": "lagoon",
+            "station_id": "LFOB_TWR"
+          },
+          {
+            "label": ["LFOB", "APP", ""],
+            "color": "azure",
+            "station_id": "LFOB_APP"
           },
           {
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
+            "label": ["LFOE", "APP"],
+            "color": "snow",
+            "station_id": "LFOE_APP"
           },
           {
             "label": []
@@ -256,211 +113,22 @@
       }
     },
     {
-      "label": ["Locaux"],
+      "label": ["2", "ALL"],
       "page": {
-        "rows": 4,
-        "keys": [
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          }
-        ]
-      }
-    },
-    {
-      "label": ["SIV"],
-      "page": {
-        "rows": 4,
-        "keys": [
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          }
-        ]
+        "rows": 6,
+        "client_page": {
+          "include": ["PAR*", "LFO*", "LFP*", "LFQ*"],
+          "exclude": [],
+          "priority": [
+            "*_FMP",
+            "*_CTR",
+            "*_APP",
+            "*_TWR",
+            "*_GND",
+            "*_RMP",
+            "*_DEL"
+          ]
+        }
       }
     }
   ]

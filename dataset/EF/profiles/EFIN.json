@@ -1,6 +1,7 @@
 {
   "id": "EFIN",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["ETU", "SIVU"],
@@ -146,11 +147,11 @@
             "station_id": "ESMM_Y"
           },
           {
-            "label": ["EETT W11"],
+            "label": ["EETT", "W11"],
             "station_id": "EETT_W11"
           },
           {
-            "label": ["EETT W12"],
+            "label": ["EETT", "W12"],
             "station_id": "EETT_W12"
           },
           {

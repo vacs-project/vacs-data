@@ -27,14 +27,18 @@
                 },
                 {
                   "label": ["ED DON", "320+", "AGN-BEP"],
+                  "color": "azure",
                   "station_id": "EDUU-DON"
                 },
                 {
-                  "label": ["ED RDG", "310-", "AGN-NIR"],
-                  "station_id": "EDMM-RDG"
+                  "label": ["ED EGG", "310-", "RUD-BEP"],
+                  "color": "steel",
+                  "station_id": "EDMM-EGG"
                 },
                 {
-                  "label": ["/\\", "|", "ED RDG"]
+                  "label": ["ED EGG", "310-", "RUD-BEP"],
+                  "color": "steel",
+                  "station_id": "EDMM-EGG"
                 },
                 {
                   "label": []
@@ -47,14 +51,19 @@
                   "label": []
                 },
                 {
-                  "label": ["ED DON", "<----", "<----"]
+                  "label": ["ED DON", "320+", "AGN-BEP"],
+                  "color": "azure",
+                  "station_id": "EDUU-DON"
                 },
                 {
-                  "label": ["ED EGG", "310-", "RUD-BEP"],
-                  "station_id": "EDMM-EGG"
+                  "label": ["ED RDG", "310-", "AGN-NIR"],
+                  "color": "mint",
+                  "station_id": "EDMM-RDG"
                 },
                 {
-                  "label": ["/\\", "|", "ED EGG"]
+                  "label": ["ED RDG", "310-", "AGN-NIR"],
+                  "color": "mint",
+                  "station_id": "EDMM-RDG"
                 },
                 {
                   "label": []
@@ -68,14 +77,17 @@
                 },
                 {
                   "label": ["ED ERL", "320+", "ENI-RAP"],
+                  "color": "snow",
                   "station_id": "EDUU-ERL"
                 },
                 {
                   "label": ["ED HOF", "200-310", "ENI-VEX"],
+                  "color": "steel",
                   "station_id": "EDMM-HOF"
                 },
                 {
                   "label": ["ED FRK", "190-", "ENI-VEX"],
+                  "color": "lilac",
                   "station_id": "EDMM-FRK"
                 },
                 {
@@ -91,13 +103,18 @@
                 },
                 {
                   "label": ["ED SAL", "320+", "VAR-VEX"],
+                  "color": "azure",
                   "station_id": "EDUU-SAL"
                 },
                 {
-                  "label": ["ED HOF", "<----", "<----"]
+                  "label": ["ED HOF", "200-310", "ENI-VEX"],
+                  "color": "steel",
+                  "station_id": "EDMM-HOF"
                 },
                 {
-                  "label": ["ED FRK", "<----", "<----"]
+                  "label": ["ED FRK", "190-", "ENI-VEX"],
+                  "color": "lilac",
+                  "station_id": "EDMM-FRK"
                 },
                 {
                   "label": ["EDUU", "HVL", "370+"],
@@ -112,105 +129,72 @@
                 },
                 {
                   "label": ["ED SPE", "320+", "KIL-BEF"],
+                  "color": "snow",
                   "station_id": "EDUU-SPE"
                 },
                 {
                   "label": ["ED MEI", "170-310", "KIL-BEF"],
+                  "color": "mint",
                   "station_id": "EDMM-MEI"
                 },
                 {
                   "label": ["ED SAS", "160-", "KIL-BEF"],
+                  "color": "lavender",
                   "station_id": "EDMM-SAS"
                 },
                 {
-                  "label": ["LKCV", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKCV APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKCV", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKCV TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "APP"],
-                  "color": "blush",
-                  "station_id": "LKPR ARR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "TWR"],
-                  "color": "mint",
-                  "station_id": "LKPR TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "APP"],
-                  "color": "steel",
-                  "station_id": "LKVO APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "TWR"],
-                  "color": "steel",
-                  "station_id": "LKVO TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKPD APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKPD TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEP"],
-                  "color": "blush",
-                  "station_id": "LKPR DEP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "GND"],
-                  "color": "mint",
-                  "station_id": "LKPR GND"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKKB APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKKB TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DIR"],
-                  "color": "blush",
-                  "station_id": "LKPR DIR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEL"],
-                  "color": "mint",
-                  "station_id": "LKPR DEL"
+                  "label": []
                 },
                 {
-                  "label": ["LKLT", "RADIO"],
-                  "color": "lilac",
-                  "station_id": "LKLT RDO"
+                  "label": []
                 },
                 {
-                  "label": ["FIC"],
-                  "color": "lilac",
-                  "station_id": "LKAA FIC"
+                  "label": []
                 }
               ]
             }
@@ -233,18 +217,23 @@
                   "label": []
                 },
                 {
-                  "label": []
+                  "label": ["LO N37", "350+", "BUDEX"],
+                  "color": "snow",
+                  "station_id": "LOVV_N3"
                 },
                 {
-                  "label": ["LO N27", "320+", "BUDEX"],
+                  "label": ["LO N2", "320-340", "BUDEX"],
+                  "color": "azure",
                   "station_id": "LOVV_N2"
                 },
                 {
                   "label": ["LO N1", "170-310", "BUDEX"],
+                  "color": "steel",
                   "station_id": "LOVV_N1"
                 },
                 {
                   "label": ["LOWL", "160-", "BUDEX"],
+                  "color": "lilac",
                   "station_id": "LOWL_APP"
                 },
                 {
@@ -254,18 +243,23 @@
                   "label": []
                 },
                 {
-                  "label": []
+                  "label": ["LO E37", "350+", "DIT-LED"],
+                  "color": "azure",
+                  "station_id": "LOVV_E3"
                 },
                 {
-                  "label": ["LO E27", "320+", "DIT-LED"],
-                  "station_id": "LOVV_E2"
+                  "label": ["LO E12", "250-340", "DIT-LED"],
+                  "color": "snow",
+                  "station_id": "LOVV_E1"
                 },
                 {
-                  "label": ["LO E1", "250-310", "DIT-LED"],
+                  "label": ["LO E12", "250-340", "DIT-LED"],
+                  "color": "snow",
                   "station_id": "LOVV_E1"
                 },
                 {
                   "label": ["LOWW", "240-", "DIT-NAV"],
+                  "color": "mint",
                   "station_id": "LOWW_N_APP"
                 },
                 {
@@ -275,16 +269,23 @@
                   "label": []
                 },
                 {
-                  "label": []
+                  "label": ["LO E37", "350+", "DIT-LED"],
+                  "color": "azure",
+                  "station_id": "LOVV_E3"
                 },
                 {
-                  "label": ["LO E27", "<----", "<----"]
+                  "label": ["LO E12", "250-340", "DIT-LED"],
+                  "color": "snow",
+                  "station_id": "LOVV_E1"
                 },
                 {
-                  "label": ["LO E1", "<----", "<----"]
+                  "label": ["LO E12", "250-340", "DIT-LED"],
+                  "color": "snow",
+                  "station_id": "LOVV_E1"
                 },
                 {
                   "label": ["LOWW", "240-", "MIK-LED"],
+                  "color": "lagoon",
                   "station_id": "LOWW_M_APP"
                 },
                 {
@@ -324,94 +325,58 @@
                   "label": []
                 },
                 {
-                  "label": ["LKCV", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKCV APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKCV", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKCV TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "APP"],
-                  "color": "blush",
-                  "station_id": "LKPR ARR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "TWR"],
-                  "color": "mint",
-                  "station_id": "LKPR TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "APP"],
-                  "color": "steel",
-                  "station_id": "LKVO APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "TWR"],
-                  "color": "steel",
-                  "station_id": "LKVO TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKPD APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKPD TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEP"],
-                  "color": "blush",
-                  "station_id": "LKPR DEP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "GND"],
-                  "color": "mint",
-                  "station_id": "LKPR GND"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKKB APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKKB TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DIR"],
-                  "color": "blush",
-                  "station_id": "LKPR DIR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEL"],
-                  "color": "mint",
-                  "station_id": "LKPR DEL"
+                  "label": []
                 },
                 {
-                  "label": ["LKLT", "RADIO"],
-                  "color": "lilac",
-                  "station_id": "LKLT RDO"
+                  "label": []
                 },
                 {
-                  "label": ["FIC"],
-                  "color": "lilac",
-                  "station_id": "LKAA FIC"
+                  "label": []
                 }
               ]
             }
@@ -552,101 +517,244 @@
                   "label": []
                 },
                 {
-                  "label": ["LKCV", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKCV APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKCV", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKCV TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "APP"],
-                  "color": "blush",
-                  "station_id": "LKPR ARR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "TWR"],
-                  "color": "mint",
-                  "station_id": "LKPR TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "APP"],
-                  "color": "steel",
-                  "station_id": "LKVO APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "TWR"],
-                  "color": "steel",
-                  "station_id": "LKVO TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKPD APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKPD TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEP"],
-                  "color": "blush",
-                  "station_id": "LKPR DEP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "GND"],
-                  "color": "mint",
-                  "station_id": "LKPR GND"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKKB APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKKB TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DIR"],
-                  "color": "blush",
-                  "station_id": "LKPR DIR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEL"],
-                  "color": "mint",
-                  "station_id": "LKPR DEL"
+                  "label": []
                 },
                 {
-                  "label": ["LKLT", "RADIO"],
-                  "color": "lilac",
-                  "station_id": "LKLT RDO"
+                  "label": []
                 },
                 {
-                  "label": ["FIC"],
-                  "color": "lilac",
-                  "station_id": "LKAA FIC"
+                  "label": []
                 }
               ]
             }
           },
           {
-            "label": [],
-            "color": "azure"
+            "label": ["W"],
+            "color": "azure",
+            "page": {
+              "rows": 6,
+              "keys": [
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": ["WEST", "UPPER", "310+"],
+                  "color": "azure",
+                  "station_id": "LKAA WU"
+                },
+                {
+                  "label": ["WEST", "LOW", "130-300"],
+                  "color": "azure",
+                  "station_id": "LKAA WL"
+                },
+                {
+                  "label": ["KV", "-", "120-"],
+                  "color": "azure",
+                  "station_id": "LKAA KV"
+                },
+                {
+                  "label": ["LKKV", "TWR"],
+                  "station_id": "LKKV TWR"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": ["LKCS", "AFIS"],
+                  "station_id": "LKCS AFIS"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": [],
+                  "color": "azure"
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                },
+                {
+                  "label": []
+                }
+              ]
+            }
           },
           {
             "label": []
@@ -786,94 +894,58 @@
                   "label": []
                 },
                 {
-                  "label": ["LKCV", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKCV APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKCV", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKCV TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "APP"],
-                  "color": "blush",
-                  "station_id": "LKPR ARR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "TWR"],
-                  "color": "mint",
-                  "station_id": "LKPR TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "APP"],
-                  "color": "steel",
-                  "station_id": "LKVO APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "TWR"],
-                  "color": "steel",
-                  "station_id": "LKVO TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKPD APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKPD TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEP"],
-                  "color": "blush",
-                  "station_id": "LKPR DEP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "GND"],
-                  "color": "mint",
-                  "station_id": "LKPR GND"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKKB APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKKB TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DIR"],
-                  "color": "blush",
-                  "station_id": "LKPR DIR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEL"],
-                  "color": "mint",
-                  "station_id": "LKPR DEL"
+                  "label": []
                 },
                 {
-                  "label": ["LKLT", "RADIO"],
-                  "color": "lilac",
-                  "station_id": "LKLT RDO"
+                  "label": []
                 },
                 {
-                  "label": ["FIC"],
-                  "color": "lilac",
-                  "station_id": "LKAA FIC"
+                  "label": []
                 }
               ]
             }
@@ -1006,94 +1078,58 @@
                   "label": []
                 },
                 {
-                  "label": ["LKCV", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKCV APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKCV", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKCV TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "APP"],
-                  "color": "blush",
-                  "station_id": "LKPR ARR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "TWR"],
-                  "color": "mint",
-                  "station_id": "LKPR TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "APP"],
-                  "color": "steel",
-                  "station_id": "LKVO APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "TWR"],
-                  "color": "steel",
-                  "station_id": "LKVO TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKPD APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKPD TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEP"],
-                  "color": "blush",
-                  "station_id": "LKPR DEP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "GND"],
-                  "color": "mint",
-                  "station_id": "LKPR GND"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKKB APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKKB TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DIR"],
-                  "color": "blush",
-                  "station_id": "LKPR DIR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEL"],
-                  "color": "mint",
-                  "station_id": "LKPR DEL"
+                  "label": []
                 },
                 {
-                  "label": ["LKLT", "RADIO"],
-                  "color": "lilac",
-                  "station_id": "LKLT RDO"
+                  "label": []
                 },
                 {
-                  "label": ["FIC"],
-                  "color": "lilac",
-                  "station_id": "LKAA FIC"
+                  "label": []
                 }
               ]
             }
@@ -1211,94 +1247,58 @@
                   "label": []
                 },
                 {
-                  "label": ["LKCV", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKCV APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKCV", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKCV TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "APP"],
-                  "color": "blush",
-                  "station_id": "LKPR ARR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "TWR"],
-                  "color": "mint",
-                  "station_id": "LKPR TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "APP"],
-                  "color": "steel",
-                  "station_id": "LKVO APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "TWR"],
-                  "color": "steel",
-                  "station_id": "LKVO TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKPD APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKPD TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEP"],
-                  "color": "blush",
-                  "station_id": "LKPR DEP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "GND"],
-                  "color": "mint",
-                  "station_id": "LKPR GND"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKKB APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKKB TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DIR"],
-                  "color": "blush",
-                  "station_id": "LKPR DIR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEL"],
-                  "color": "mint",
-                  "station_id": "LKPR DEL"
+                  "label": []
                 },
                 {
-                  "label": ["LKLT", "RADIO"],
-                  "color": "lilac",
-                  "station_id": "LKLT RDO"
+                  "label": []
                 },
                 {
-                  "label": ["FIC"],
-                  "color": "lilac",
-                  "station_id": "LKAA FIC"
+                  "label": []
                 }
               ]
             }
@@ -1412,94 +1412,58 @@
                   "label": []
                 },
                 {
-                  "label": ["LKCV", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKCV APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKCV", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKCV TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "APP"],
-                  "color": "blush",
-                  "station_id": "LKPR ARR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "TWR"],
-                  "color": "mint",
-                  "station_id": "LKPR TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "APP"],
-                  "color": "steel",
-                  "station_id": "LKVO APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKVO", "TWR"],
-                  "color": "steel",
-                  "station_id": "LKVO TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKPD APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPD", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKPD TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEP"],
-                  "color": "blush",
-                  "station_id": "LKPR DEP"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "GND"],
-                  "color": "mint",
-                  "station_id": "LKPR GND"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKKB APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKKB", "TWR"],
-                  "color": "lagoon",
-                  "station_id": "LKKB TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA APP"
+                  "label": []
                 },
                 {
-                  "label": ["LKNA", "APP"],
-                  "color": "lagoon",
-                  "station_id": "LKNA TWR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DIR"],
-                  "color": "blush",
-                  "station_id": "LKPR DIR"
+                  "label": []
                 },
                 {
-                  "label": ["LKPR", "DEL"],
-                  "color": "mint",
-                  "station_id": "LKPR DEL"
+                  "label": []
                 },
                 {
-                  "label": ["LKLT", "RADIO"],
-                  "color": "lilac",
-                  "station_id": "LKLT RDO"
+                  "label": []
                 },
                 {
-                  "label": ["FIC"],
-                  "color": "lilac",
-                  "station_id": "LKAA FIC"
+                  "label": []
                 }
               ]
             }
@@ -1876,14 +1840,18 @@
                 },
                 {
                   "label": ["ED DON", "320+", "AGN-BEP"],
+                  "color": "azure",
                   "station_id": "EDUU-DON"
                 },
                 {
                   "label": ["ED RDG", "310-", "AGN-NIR"],
+                  "color": "steel",
                   "station_id": "EDMM-RDG"
                 },
                 {
-                  "label": ["/\\", "|", "ED RDG"]
+                  "label": ["ED RDG", "310-", "AGN-NIR"],
+                  "color": "steel",
+                  "station_id": "EDMM-RDG"
                 },
                 {
                   "label": []
@@ -1895,14 +1863,19 @@
                   "label": []
                 },
                 {
-                  "label": ["ED DON", "<----", "<----"]
+                  "label": ["ED DON", "320+", "AGN-BEP"],
+                  "color": "azure",
+                  "station_id": "EDUU-DON"
                 },
                 {
                   "label": ["ED EGG", "310-", "RUD-BEP"],
+                  "color": "mint",
                   "station_id": "EDMM-EGG"
                 },
                 {
-                  "label": ["/\\", "|", "ED EGG"]
+                  "label": ["ED EGG", "310-", "RUD-BEP"],
+                  "color": "mint",
+                  "station_id": "EDMM-EGG"
                 },
                 {
                   "label": []
@@ -1915,14 +1888,17 @@
                 },
                 {
                   "label": ["ED ERL", "320+", "ENI-RAP"],
+                  "color": "snow",
                   "station_id": "EDUU-ERL"
                 },
                 {
                   "label": ["ED HOF", "200-310", "ENI-VEX"],
+                  "color": "steel",
                   "station_id": "EDMM-HOF"
                 },
                 {
                   "label": ["ED FRK", "190-", "ENI-VEX"],
+                  "color": "lavender",
                   "station_id": "EDMM-FRK"
                 },
                 {
@@ -1936,13 +1912,18 @@
                 },
                 {
                   "label": ["ED SAL", "320+", "VAR-VEX"],
+                  "color": "azure",
                   "station_id": "EDUU-SAL"
                 },
                 {
-                  "label": ["ED HOF", "<----", "<----"]
+                  "label": ["ED HOF", "200-310", "ENI-VEX"],
+                  "color": "steel",
+                  "station_id": "EDMM-HOF"
                 },
                 {
-                  "label": ["ED FRK", "<----", "<----"]
+                  "label": ["ED FRK", "190-", "ENI-VEX"],
+                  "color": "lavender",
+                  "station_id": "EDMM-FRK"
                 },
                 {
                   "label": []
@@ -1955,14 +1936,17 @@
                 },
                 {
                   "label": ["ED SPE", "320+", "KIL-BEF"],
+                  "color": "snow",
                   "station_id": "EDUU-SPE"
                 },
                 {
                   "label": ["ED MEI", "170-310", "KIL-BEF"],
+                  "color": "mint",
                   "station_id": "EDMM-MEI"
                 },
                 {
                   "label": ["ED SAS", "160-", "KIL-BEF"],
+                  "color": "lilac",
                   "station_id": "EDMM-SAS"
                 }
               ]
@@ -2106,39 +2090,49 @@
                   "label": []
                 },
                 {
-                  "label": []
+                  "label": ["LO N37", "350+", "BUDEX"],
+                  "color": "snow",
+                  "station_id": "LOVV_N3"
                 },
                 {
-                  "label": ["LO N27", "320+", "BUDEX"],
+                  "label": ["LO N2", "320-340", "BUDEX"],
+                  "color": "azure",
                   "station_id": "LOVV_N2"
                 },
                 {
                   "label": ["LO N1", "170-310", "BUDEX"],
+                  "color": "steel",
                   "station_id": "LOVV_N1"
                 },
                 {
                   "label": ["LOWL", "160-", "BUDEX"],
+                  "color": "lilac",
                   "station_id": "LOWL_APP"
                 },
                 {
                   "label": []
                 },
                 {
-                  "label": []
+                  "label": ["LOVV"]
                 },
                 {
-                  "label": ["LOVV", "OTHER"]
+                  "label": ["LO E37", "350+", "DIT-LED"],
+                  "color": "azure",
+                  "station_id": "LOVV_E3"
                 },
                 {
-                  "label": ["LO E27", "320+", "DIT-LED"],
-                  "station_id": "LOVV_E2"
+                  "label": ["LO E12", "250-340", "DIT-LED"],
+                  "color": "snow",
+                  "station_id": "LOVV_E1"
                 },
                 {
-                  "label": ["LO E1", "250-310", "DIT-LED"],
+                  "label": ["LO E12", "250-340", "DIT-LED"],
+                  "color": "snow",
                   "station_id": "LOVV_E1"
                 },
                 {
                   "label": ["LOWW", "240-", "DIT-NAV"],
+                  "color": "mint",
                   "station_id": "LOWW_N_APP"
                 },
                 {
@@ -2148,16 +2142,23 @@
                   "label": []
                 },
                 {
-                  "label": []
+                  "label": ["LO E37", "350+", "DIT-LED"],
+                  "color": "azure",
+                  "station_id": "LOVV_E3"
                 },
                 {
-                  "label": ["LO E27", "<----", "<----"]
+                  "label": ["LO E12", "250-340", "DIT-LED"],
+                  "color": "snow",
+                  "station_id": "LOVV_E1"
                 },
                 {
-                  "label": ["LO E1", "<----", "<----"]
+                  "label": ["LO E12", "250-340", "DIT-LED"],
+                  "color": "snow",
+                  "station_id": "LOVV_E1"
                 },
                 {
                   "label": ["LOWW", "240-", "MIK-LED"],
+                  "color": "lagoon",
                   "station_id": "LOWW_M_APP"
                 }
               ]

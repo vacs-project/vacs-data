@@ -298,15 +298,18 @@
               "keys": [
                 {
                   "label": ["EHAA", "EAST"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_E"
                 },
                 {
                   "label": ["EHAA", "WEST"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_W"
                 },
                 {
                   "label": ["EHMC"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHMC"
                 }
               ]
             }
@@ -806,7 +809,8 @@
                 },
                 {
                   "label": ["EHAA", "FMP"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_ALL"
                 }
               ]
             }

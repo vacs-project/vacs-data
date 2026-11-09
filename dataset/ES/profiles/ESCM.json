@@ -1,11 +1,12 @@
 {
   "id": "ESCM",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESCM"],
       "page": {
-        "rows": 6,
+        "rows": 7,
         "keys": [
           {
             "label": ["OS", "ARR-W"],
@@ -22,7 +23,10 @@
             "label": []
           },
           {
-            "label": ["APP"],
+            "label": []
+          },
+          {
+            "label": ["T16"],
             "station_id": "ESCM_APP"
           },
           {
@@ -49,8 +53,14 @@
             "label": []
           },
           {
+            "label": []
+          },
+          {
             "label": ["WS"],
             "station_id": "ESAA_FMP"
+          },
+          {
+            "label": []
           },
           {
             "label": []

@@ -1,6 +1,7 @@
 {
   "id": "ESNU",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESNU"],

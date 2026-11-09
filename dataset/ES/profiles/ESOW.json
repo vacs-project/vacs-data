@@ -1,15 +1,42 @@
 {
   "id": "ESOW",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESOW"],
       "page": {
-        "rows": 6,
+        "rows": 7,
         "keys": [
           {
             "label": ["WS"],
             "station_id": "ESAA_FMP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OE", "TWR"],
+            "station_id": "ESOE_TWR"
+          },
+          {
+            "label": ["OS", "3"],
+            "station_id": "ESOS_3"
+          },
+          {
+            "label": []
           },
           {
             "label": []
@@ -30,24 +57,6 @@
             "station_id": "ESSU_AFIS"
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
             "label": ["OS", "8"],
             "station_id": "ESOS_8"
           },
@@ -59,7 +68,10 @@
             "label": []
           },
           {
-            "label": ["CM", "APP"],
+            "label": []
+          },
+          {
+            "label": ["CM", "T16"],
             "station_id": "ESCM_APP"
           },
           {

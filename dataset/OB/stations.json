@@ -11,11 +11,6 @@
       "controlled_by": ["OBBB_1_CTR"]
     },
     {
-      "id": "OBBB_2_CTR",
-      "parent_id": "OBBB_1_CTR",
-      "controlled_by": ["OBBB_2_CTR"]
-    },
-    {
       "id": "OBBB_3_CTR",
       "parent_id": "OBBB_1_CTR",
       "controlled_by": ["OBBB_3_CTR"]
@@ -34,11 +29,6 @@
       "id": "OBBB_N_CTR",
       "parent_id": "OBBB_3_CTR",
       "controlled_by": ["OBBB_N_CTR"]
-    },
-    {
-      "id": "OBBB_E_CTR",
-      "parent_id": "OBBB_2_CTR",
-      "controlled_by": ["OBBB_E_CTR"]
     },
     {
       "id": "OBBI_APP",

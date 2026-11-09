@@ -1,10 +1,35 @@
 {
   "positions": [
     {
+      "id": "ORBB_FMP",
+      "prefixes": ["ORBB"],
+      "frequency": "199.998",
+      "facility_type": "FMP",
+      "profile_id": "OR-FMP",
+      "default_call_sources": ["ORBB_FMP"]
+    },
+    {
+      "id": "ORBB_TMA_FMP",
+      "prefixes": ["ORBB"],
+      "frequency": "199.998",
+      "facility_type": "FMP",
+      "profile_id": "OR-FMP",
+      "default_call_sources": ["ORBB_TMA_FMP"]
+    },
+    {
+      "id": "ORBI_FMP",
+      "prefixes": ["ORBI"],
+      "frequency": "199.998",
+      "facility_type": "FMP",
+      "profile_id": "OR-FMP",
+      "default_call_sources": ["ORBI_FMP"]
+    },
+    {
       "id": "ORBB_CTR",
       "prefixes": ["ORBB"],
       "frequency": "124.400",
       "facility_type": "CTR",
+      "profile_id": "ORBB",
       "default_call_sources": ["ORBB_CTR"]
     },
     {
@@ -12,6 +37,7 @@
       "prefixes": ["ORBB"],
       "frequency": "125.900",
       "facility_type": "CTR",
+      "profile_id": "ORBB",
       "default_call_sources": ["ORBB_NU_CTR"]
     },
     {
@@ -19,6 +45,7 @@
       "prefixes": ["ORBB"],
       "frequency": "132.875",
       "facility_type": "CTR",
+      "profile_id": "ORBB",
       "default_call_sources": ["ORBB_N_CTR"]
     },
     {
@@ -26,6 +53,7 @@
       "prefixes": ["ORBB"],
       "frequency": "127.100",
       "facility_type": "CTR",
+      "profile_id": "ORBB",
       "default_call_sources": ["ORBB_SU_CTR"]
     },
     {
@@ -33,6 +61,7 @@
       "prefixes": ["ORBB"],
       "frequency": "128.700",
       "facility_type": "CTR",
+      "profile_id": "ORBB",
       "default_call_sources": ["ORBB_S_CTR"]
     },
     {
@@ -40,6 +69,7 @@
       "prefixes": ["ALI"],
       "frequency": "120.200",
       "facility_type": "APP",
+      "profile_id": "OR-ALI",
       "default_call_sources": ["ALI_APP"]
     },
     {
@@ -50,11 +80,11 @@
       "default_call_sources": ["BGD_APP"]
     },
     {
-      "id": "KIR_APP",
-      "prefixes": ["KIR"],
+      "id": "KRK_APP",
+      "prefixes": ["KRK"],
       "frequency": "127.700",
       "facility_type": "APP",
-      "default_call_sources": ["KIR_APP"]
+      "default_call_sources": ["KRK_APP"]
     },
     {
       "id": "ORBI_F_APP",

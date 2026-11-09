@@ -133,11 +133,12 @@
               "rows": 4,
               "keys": [
                 {
-                  "label": ["BRINDISI", "ES3", "INS"],
-                  "station_id": "LIBB-ES3"
+                  "label": ["BRINDISI", "ES8", "INS"],
+                  "station_id": "LIBB-ES8"
                 },
                 {
-                  "label": []
+                  "label": ["BRINDISI", "ES3", "INS"],
+                  "station_id": "LIBB-ES3"
                 },
                 {
                   "label": []

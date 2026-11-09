@@ -1,6 +1,7 @@
 {
   "id": "ESMX",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESMX"],
@@ -26,7 +27,7 @@
             "station_id": "ESGJ_TWR"
           },
           {
-            "label": ["DF", "APP"],
+            "label": ["DF", "T17"],
             "station_id": "ESDF_APP"
           },
           {

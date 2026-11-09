@@ -1,6 +1,7 @@
 {
   "id": "TWR_EPWW",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["NORTH"],

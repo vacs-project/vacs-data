@@ -1,0 +1,96 @@
+{
+  "id": "OR-ALI",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ALI"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ORMM", "TWR"],
+            "station_id": "ORMM_TWR"
+          },
+          {
+            "label": ["ORMM", "GND"],
+            "station_id": "ORMM_GND"
+          },
+          {
+            "label": ["ORNI", "TWR"],
+            "station_id": "ORNI_TWR"
+          },
+          {
+            "label": ["ORNI", "GND"],
+            "station_id": "ORNI_GND"
+          },
+          {
+            "label": ["ALI", "TMA"],
+            "station_id": "ALI_APP"
+          },
+          {
+            "label": ["BGD", "TMA"],
+            "station_id": "BGD_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["BSU"],
+            "station_id": "ORBB_SU_CTR"
+          },
+          {
+            "label": ["BS"],
+            "station_id": "ORBB_S_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["KWI", "APP"],
+            "color": "lavender",
+            "station_id": "OKKK_APP"
+          },
+          {
+            "label": ["OKAC", "LOWER", "F150-350"],
+            "color": "lavender",
+            "station_id": "OKAC_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["OR-FMP"],
+            "color": "blush",
+            "page": {
+              "rows": 2,
+              "keys": [
+                {
+                  "label": ["ORBB"],
+                  "station_id": "ORBB_FMP"
+                },
+                {
+                  "label": ["ORBB", "TMA"],
+                  "station_id": "ORBB_TMA_FMP"
+                },
+                {
+                  "label": ["ORBI"],
+                  "station_id": "ORBI_FMP"
+                },
+                {
+                  "label": ["OKAC"],
+                  "station_id": "OKAC_FMP"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -34,8 +34,8 @@
             "station_id": "DOH_R2_APP"
           },
           {
-            "label": ["OTDF", "ACC 2", "245+"],
-            "station_id": "OTDF_2_CTR"
+            "label": ["OTDF", "ACC S", "245+"],
+            "station_id": "OTDF_S_CTR"
           },
           {
             "label": ["UAE", "SOUTH"],

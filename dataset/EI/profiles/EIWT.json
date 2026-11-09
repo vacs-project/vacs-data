@@ -1,6 +1,7 @@
 {
   "id": "EIWT",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["EIWT"],

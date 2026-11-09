@@ -1,6 +1,10 @@
 {
   "stations": [
     {
+      "id": "LIBB-ES8",
+      "controlled_by": ["LIBB_ES8_CTR", "LIBB_ES3_CTR"]
+    },
+    {
       "id": "LIBB-ES3",
       "controlled_by": ["LIBB_ES3_CTR"]
     },

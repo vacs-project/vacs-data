@@ -1,6 +1,7 @@
 {
   "id": "ESNX",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESNX"],
@@ -21,7 +22,7 @@
             "label": []
           },
           {
-            "label": ["PE", "APP"],
+            "label": ["PE", "T62"],
             "station_id": "ESPE_APP"
           },
           {

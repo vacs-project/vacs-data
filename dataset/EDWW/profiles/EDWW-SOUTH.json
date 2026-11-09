@@ -171,7 +171,7 @@
             "station_id": "EDUU-FUL"
           },
           {
-            "label": ["YY", "DELTA"],
+            "label": ["YY", "WST"],
             "color": "taupe"
           },
           {
@@ -201,7 +201,8 @@
           },
           {
             "label": ["EHAA", "EAST"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHAA_E"
           },
           {
             "label": ["GG", "GIN"],
@@ -279,7 +280,8 @@
           },
           {
             "label": ["EHMC"],
-            "color": "cadet"
+            "color": "cadet",
+            "station_id": "EHMC"
           },
           {
             "label": ["GG", "HEF"],
@@ -409,7 +411,8 @@
                 },
                 {
                   "label": ["EHAA", "FMP"],
-                  "color": "cadet"
+                  "color": "cadet",
+                  "station_id": "EHAA_FMP"
                 }
               ]
             }

@@ -1,9 +1,10 @@
 {
   "id": "ENOR",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
-      "label": ["1", ""],
+      "label": ["ACC", "1"],
       "page": {
         "rows": 7,
         "keys": [
@@ -151,7 +152,113 @@
       }
     },
     {
-      "label": ["2", ""],
+      "label": ["ACC", "2"],
+      "page": {
+        "rows": 7,
+        "keys": [
+          {
+            "label": ["ENOB"],
+            "station_id": "ENOB"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SCO", "N", "255+"],
+            "station_id": "EG-Moray-High"
+          },
+          {
+            "label": ["SCO", "L", "255-"],
+            "station_id": "EG-Moray-Low"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EKDK", "UN", "365+"],
+            "station_id": "EKDKUN"
+          },
+          {
+            "label": ["EKDK", "N", "365-"],
+            "station_id": "EKDKN"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EKDK", "UV", "365+"],
+            "station_id": "EKDKUV"
+          },
+          {
+            "label": ["EKDK", "V", "285-365"],
+            "station_id": "EKDKV"
+          },
+          {
+            "label": ["EKDK", "L", "285-"],
+            "station_id": "EKDKL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EFIN", "J"],
+            "station_id": "EFIN_J"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ESMM", "4"],
+            "station_id": "ESMM_4"
+          },
+          {
+            "label": ["ULLL"],
+            "station_id": "ULLL_MR"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ESOS", "K"],
+            "station_id": "ESOS_K"
+          },
+          {
+            "label": ["ESOS", "N"],
+            "station_id": "ESOS_N"
+          },
+          {
+            "label": ["ESOS", "3"],
+            "station_id": "ESOS_3"
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["TMA", ""],
       "page": {
         "rows": 7,
         "keys": [
@@ -266,7 +373,7 @@
       }
     },
     {
-      "label": ["3"],
+      "label": ["TWR"],
       "page": {
         "rows": 7,
         "keys": [
@@ -386,7 +493,7 @@
       }
     },
     {
-      "label": ["4"],
+      "label": ["AFIS"],
       "page": {
         "rows": 7,
         "keys": [

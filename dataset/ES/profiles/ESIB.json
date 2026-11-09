@@ -1,11 +1,12 @@
 {
   "id": "ESIB",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESIB"],
       "page": {
-        "rows": 6,
+        "rows": 7,
         "keys": [
           {
             "label": ["OK", "TWR"],
@@ -17,6 +18,9 @@
           {
             "label": ["GT", "TWR"],
             "station_id": "ESGT_TWR"
+          },
+          {
+            "label": []
           },
           {
             "label": ["T7"],
@@ -31,12 +35,15 @@
             "station_id": "ESIB_GND"
           },
           {
-            "label": ["IA", "APP"],
+            "label": ["IA", "T6"],
             "station_id": "ESIA_APP"
           },
           {
             "label": ["GJ", "TWR"],
             "station_id": "ESGJ_TWR"
+          },
+          {
+            "label": []
           },
           {
             "label": []
@@ -52,6 +59,9 @@
           {
             "label": ["PAR"],
             "station_id": "ESIB_PAR"
+          },
+          {
+            "label": []
           },
           {
             "label": []
@@ -84,6 +94,9 @@
             "label": []
           },
           {
+            "label": []
+          },
+          {
             "label": ["GG", "APP-E"],
             "station_id": "ESGG_APP-E"
           },
@@ -100,6 +113,9 @@
           {
             "label": ["MM", "5"],
             "station_id": "ESMM_5"
+          },
+          {
+            "label": []
           },
           {
             "label": []

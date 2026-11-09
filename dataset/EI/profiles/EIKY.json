@@ -1,6 +1,7 @@
 {
   "id": "EIKY",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["EIKY"],

@@ -1,5 +1,6 @@
 {
   "id": "EDGG_EBG6",
+  "view": "split",
   "type": "Tabbed",
   "tabs": [
     {
@@ -102,12 +103,12 @@
             "label": [""]
           },
           {
-            "label": ["EDYY", "SH"],
+            "label": ["EDYY", "SH", "355+"],
             "color": "lavender",
             "station_id": "EDYY-SH"
           },
           {
-            "label": ["EDYY", "SL"],
+            "label": ["EDYY", "SL", "245-355"],
             "color": "lavender",
             "station_id": "EDYY-SL"
           },
@@ -117,29 +118,31 @@
             "station_id": "EDGG-DKA"
           },
           {
-            "label": [""]
+            "label": ["EDDV", "APP"],
+            "color": "clay",
+            "station_id": "EDWW-HAN"
           },
           {
             "label": [""]
           },
           {
-            "label": ["EDYY", "CH"],
+            "label": ["EDYY", "CH", "355+"],
             "color": "lavender",
             "station_id": "EDYY-CH"
           },
 
           {
-            "label": ["EDYY", "CL"],
+            "label": ["EDYY", "CL", "245-355"],
             "color": "lavender",
             "station_id": "EDYY-CL"
           },
           {
-            "label": ["EDWW", "HRZ"],
+            "label": ["EDWW", "HRZ", "245-"],
             "color": "mint",
             "station_id": "EDWW-HRZ"
           },
           {
-            "label": ["EDWW", "EMS"],
+            "label": ["EDWW", "EMS", "245-"],
             "color": "mint",
             "station_id": "EDWW-EMS"
           },
@@ -147,12 +150,12 @@
             "label": [""]
           },
           {
-            "label": ["EDYY", "JH"],
+            "label": ["EDYY", "JH", "355+"],
             "color": "lavender",
             "station_id": "EDYY-JH"
           },
           {
-            "label": ["EDYY", "JL"],
+            "label": ["EDYY", "JL", "245-355"],
             "color": "lavender",
             "station_id": "EDYY-JL"
           },
@@ -166,22 +169,24 @@
             "label": [""]
           },
           {
-            "label": ["EDYY", "HH"],
+            "label": ["EDYY", "HH", "355+"],
             "color": "lavender",
             "station_id": "EDYY-HH"
           },
           {
-            "label": ["EDYY", "HL"],
+            "label": ["EDYY", "HL", "245-355"],
             "color": "lavender",
             "station_id": "EDYY-HL"
           },
           {
-            "label": ["EDYY", "YYD"],
-            "color": "lavender"
+            "label": ["EDYY", "YYD", "245+"],
+            "color": "lavender",
+            "station_id": "EDYY_D"
           },
           {
-            "label": ["EHAA", "ACE"],
-            "color": "mint"
+            "label": ["EHAA", "ACE", "245-"],
+            "color": "mint",
+            "station_id": "EHAA_E"
           },
           {
             "label": [""]

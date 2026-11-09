@@ -1,6 +1,7 @@
 {
   "id": "ESKS",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESKS"],

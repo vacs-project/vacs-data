@@ -8,6 +8,13 @@
       "profile_id": "LBSR"
     },
     {
+      "id": "LBSR_S_CTR",
+      "prefixes": ["LBSR"],
+      "frequency": "134.100",
+      "facility_type": "CTR",
+      "profile_id": "LBSR"
+    },
+    {
       "id": "LBSR_E_CTR",
       "prefixes": ["LBSR"],
       "frequency": "129.100",

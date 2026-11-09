@@ -1,6 +1,7 @@
 {
   "id": "ESGG",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESGG"],

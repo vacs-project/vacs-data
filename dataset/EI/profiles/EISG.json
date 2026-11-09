@@ -1,6 +1,7 @@
 {
   "id": "EISG",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["EISG"],

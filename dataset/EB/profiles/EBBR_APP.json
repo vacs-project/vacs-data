@@ -188,17 +188,17 @@
           {
             "label": ["T", "25R"],
             "color": "azure",
-            "station_id": "EBBR-NTWR"
+            "station_id": "EBBR-N-TWR"
           },
           {
             "label": ["T", "25L"],
             "color": "azure",
-            "station_id": "EBBR-TWR"
+            "station_id": "EBBR-S-TWR"
           },
           {
             "label": ["T", "01"],
             "color": "azure",
-            "station_id": "EBBR-TWR"
+            "station_id": "EBBR-S-TWR"
           },
           {
             "label": ["T", "GN"],
@@ -228,17 +228,17 @@
           {
             "label": ["T", "25R"],
             "color": "lagoon",
-            "station_id": "EBBR-NTWR"
+            "station_id": "EBBR-N-TWR"
           },
           {
             "label": ["T", "25L"],
             "color": "lagoon",
-            "station_id": "EBBR-TWR"
+            "station_id": "EBBR-S-TWR"
           },
           {
             "label": ["T", "01"],
             "color": "lagoon",
-            "station_id": "EBBR-NTWR"
+            "station_id": "EBBR-S-TWR"
           },
           {
             "label": ["WLS"],

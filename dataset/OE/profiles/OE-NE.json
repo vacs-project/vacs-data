@@ -89,7 +89,7 @@
           },
           {
             "label": ["OTDF", "SOUTH", "245+"],
-            "station_id": "OTDF_2_CTR"
+            "station_id": "OTDF_S_CTR"
           },
           {
             "label": ["DOH", "R2", "245-"],

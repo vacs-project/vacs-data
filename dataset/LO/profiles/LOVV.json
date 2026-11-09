@@ -362,11 +362,12 @@
                         "label": []
                       },
                       {
-                        "label": []
-                      },
-                      {
                         "label": ["LOWS", "APP", "PLC"],
                         "station_id": "LOWS_APP"
+                      },
+                      {
+                        "label": ["LOWS", "DIR", "PLC"],
+                        "station_id": "LOWS_F_APP"
                       },
                       {
                         "label": ["LOWS", "TWR", "PLC"],

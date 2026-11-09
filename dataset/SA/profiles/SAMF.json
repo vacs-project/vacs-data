@@ -1,0 +1,180 @@
+{
+  "id": "SAMF",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "PRIM",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SAME", "GND"],
+            "color": "lilac",
+            "station_id": "SAME_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAME", "TWR"],
+            "color": "lagoon",
+            "station_id": "SAME_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAME", "APP"],
+            "color": "steel",
+            "station_id": "SAME_APP"
+          },
+          {
+            "label": ["SANU", "APP"],
+            "color": "steel",
+            "station_id": "SANU_APP"
+          },
+          {
+            "label": ["SAOU", "APP"],
+            "color": "steel",
+            "station_id": "SAOU_APP"
+          },
+          {
+            "label": ["SAOR", "APP"],
+            "color": "steel",
+            "station_id": "SAOR_APP"
+          },
+          {
+            "label": ["SAMM", "APP"],
+            "color": "steel",
+            "station_id": "SAMM_APP"
+          },
+          {
+            "label": ["SAMR", "APP"],
+            "color": "steel",
+            "station_id": "SAMR_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "CTR",
+      "page": {
+        "rows": 6,
+        "keys": [
+          {
+            "label": ["SAMF", "CTR"],
+            "station_id": "SAMF_CTR"
+          },
+          {
+            "label": ["SAEF", "CTR"],
+            "station_id": "SAEF_CTR"
+          },
+          {
+            "label": ["SACF", "CTR"],
+            "station_id": "SACF_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAEF N", "CTR"],
+            "station_id": "SAEF_N_CTR"
+          },
+          {
+            "label": ["SACF N", "CTR"],
+            "station_id": "SACF_N_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SAEF S", "CTR"],
+            "station_id": "SAEF_S_CTR"
+          },
+          {
+            "label": ["SACF S", "CTR"],
+            "station_id": "SACF_S_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    }
+  ]
+}

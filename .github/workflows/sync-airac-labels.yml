@@ -21,23 +21,27 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    environment: airac-bot
     permissions: {}
     steps:
       - name: Checkout
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           sparse-checkout: .github/airac-cycles.yml
           sparse-checkout-cone-mode: false
           persist-credentials: false
 
       - name: Generate GitHub token
-        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
         id: generate-token
         with:
-          client-id: ${{ secrets.APP_ID }}
+          client-id: ${{ secrets.APP_CLIENT_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           repositories: vacs-data
+          # Labels go through the issues API.
+          permission-issues: write
+          permission-pull-requests: read
 
       - name: Sync labels
         env:
@@ -47,10 +51,10 @@ jobs:
         run: |
           LABEL_COLOR="DC521D"
           TODAY=$(date -u +%Y-%m-%d)
-          CUTOFF_DATE=$(date -u -d "-90 days" +%Y-%m-%d 2>/dev/null \
-                     || date -u -v-90d +%Y-%m-%d) # GNU/BSD compat
+          echo "Syncing AIRAC labels (today: $TODAY, max upcoming: $MAX_UPCOMING)..."
 
-          echo "Syncing AIRAC labels (today: $TODAY, cutoff: $CUTOFF_DATE, max upcoming: $MAX_UPCOMING)..."
+          mapfile -t LABELS < <(gh label list --json name --jq '.[].name' 2>/dev/null)
+          has_label() { [[ " ${LABELS[*]} " == *" $1 "* ]]; }
 
           # Collect upcoming cycle dates (on or after today), sorted
           upcoming=()
@@ -70,31 +74,19 @@ jobs:
             cycle=$(echo "$cycle_raw" | tr -d ' "')
             label="airac/$cycle"
 
-            if [[ "$date" < "$CUTOFF_DATE" ]]; then
-              # Delete old labels if no open PRs reference them
-              if gh label view "$label" --json name &>/dev/null; then
-                open_prs=$(gh pr list --label "$label" --state open --json number --jq 'length')
-                if [[ "$open_prs" -eq 0 ]]; then
-                  echo "Deleting stale label: $label (cycle date: $date)"
-                  gh label delete "$label" --yes
-                else
-                  echo "Keeping stale label: $label ($open_prs open PRs)"
-                fi
-              fi
-            elif [[ " ${upcoming[*]} " == *" $date "* ]]; then
+            if [[ " ${upcoming[*]} " == *" $date "* ]]; then
               # Create/update labels only for the next N upcoming cycles
               description="AIRAC $cycle - effective $date"
               gh label create "$label" --color "$LABEL_COLOR" --description "$description" --force
               echo "Synced label: $label"
-            else
-              # Future cycle beyond the window, or past cycle within 90 days - delete if it exists
-              # (past-but-recent labels with open PRs are kept)
-              if gh label view "$label" --json name &>/dev/null; then
-                open_prs=$(gh pr list --label "$label" --state open --json number --jq 'length')
-                if [[ "$open_prs" -eq 0 ]]; then
-                  echo "Deleting out-of-window label: $label"
-                  gh label delete "$label" --yes
-                fi
+            elif has_label "$label"; then
+              # Delete anything past its effective date if no open PRs reference it
+              open_prs=$(gh pr list --label "$label" --state open --json number --jq 'length')
+              if [[ "$open_prs" -eq 0 ]]; then
+                echo "Deleting expired label: $label (cycle date: $date)"
+                gh label delete "$label" --yes
+              else
+                echo "Keeping expired label: $label ($open_prs open PRs)"
               fi
             fi
           done < .github/airac-cycles.yml

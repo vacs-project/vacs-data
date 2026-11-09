@@ -1,6 +1,7 @@
 {
   "id": "EIDW_ACC",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["DUB", "ACC"],

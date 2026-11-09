@@ -1,6 +1,7 @@
 {
   "id": "EICK",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["CTBU"],

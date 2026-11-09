@@ -1,28 +1,32 @@
 {
   "id": "ESPA",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESPA"],
       "page": {
-        "rows": 6,
+        "rows": 7,
         "keys": [
           {
-            "label": ["PE", "APP"],
+            "label": ["NJ", "T69"],
+            "station_id": "ESNJ_APP"
+          },
+          {
+            "label": ["PE", "T62"],
             "station_id": "ESPE_APP"
           },
           {
-            "label": ["NS", "TWR"],
-            "station_id": "ESNS_TWR"
-          },
-          {
             "label": []
           },
           {
             "label": []
           },
           {
-            "label": ["APP"],
+            "label": []
+          },
+          {
+            "label": ["T21"],
             "station_id": "ESPA_APP"
           },
           {
@@ -36,18 +40,43 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["NS", "TWR"],
+            "station_id": "ESNS_TWR"
           },
           {
             "label": []
           },
           {
-            "label": ["DIR"],
+            "label": []
+          },
+          {
+            "label": ["P21"],
             "station_id": "ESPA_DIR"
           },
           {
             "label": ["PAR"],
             "station_id": "ESPA_PAR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
           },
           {
             "label": ["OS", "K"],
@@ -70,12 +99,18 @@
             "label": []
           },
           {
+            "label": []
+          },
+          {
             "label": ["OS", "YK"],
             "station_id": "ESOS_YK"
           },
           {
             "label": ["OS", "XK"],
             "station_id": "ESOS_XK"
+          },
+          {
+            "label": []
           },
           {
             "label": []
