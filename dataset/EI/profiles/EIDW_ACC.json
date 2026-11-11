@@ -133,7 +133,8 @@
           },
           {
             "label": ["WSTRN", "RAD"],
-            "color": "azure"
+            "color": "azure",
+            "station_id": "EGTT_WR_CTR"
           },
           {
             "label": []
