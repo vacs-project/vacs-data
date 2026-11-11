@@ -261,10 +261,14 @@
             "label": [""]
           },
           {
-            "label": [""]
+            "label": ["EDLW", "TWR"],
+            "color": "azure",
+            "station_id": "EDGG-LWT"
           },
           {
-            "label": [""]
+            "label": ["EDLW", "GND"],
+            "color": "blush",
+            "station_id": "EDGG-LWG"
           },
           {
             "label": ["EDUU", "NTM"],
@@ -275,7 +279,7 @@
             "label": [""]
           },
           {
-            "label": ["EDWW", "EMS", "245+"],
+            "label": ["EDWW", "EMS", "245-"],
             "color": "mint",
             "station_id": "EDWW-EMS"
           },
