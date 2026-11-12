@@ -24,6 +24,14 @@
       "minLength": 1,
       "description": "Station identifier, used to reference a station from the stations configuration. Can reference stations from own and different FIRs, but the station identifier must already exist in the global dataset. Must be globally unique and should start with the two-letter country code of the FIR it is defined in, e.g. LOWW_APP, LOVV_N1."
     },
+    "StationIdList": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 7,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/StationId" },
+      "description": "Stations called together by a conference key. Lists 2 to 7 different station identifiers, each referencing an existing station of any FIR. A call holds at most 8 participants on a vacs server with default settings, and the controller pressing the key is one of them. Pressing the key calls every listed station that is online and not covered by the controller pressing it."
+    },
     "LabelLines": {
       "type": "array",
       "maxItems": 3,
@@ -130,11 +138,18 @@
         "label": { "$ref": "#/$defs/LabelStringOrLines" },
         "color": { "$ref": "#/$defs/CustomButtonColor" },
         "station_id": { "$ref": "#/$defs/StationId" },
+        "station_ids": { "$ref": "#/$defs/StationIdList" },
         "page": { "$ref": "#/$defs/DirectAccessPage" }
       },
-      "not": {
-        "required": ["station_id", "page"]
-      }
+      "not": { "$ref": "#/$defs/MoreThanOneKeyFunction" }
+    },
+    "MoreThanOneKeyFunction": {
+      "description": "Matches a key or button that sets more than one of `station_id`, `station_ids` and `page`. Keys and buttons carry at most one of them.",
+      "anyOf": [
+        { "required": ["station_id", "station_ids"] },
+        { "required": ["station_id", "page"] },
+        { "required": ["station_ids", "page"] }
+      ]
     },
     "DirectAccessPage": {
       "type": "object",
@@ -201,11 +216,10 @@
         },
         "color": { "$ref": "#/$defs/CustomButtonColor" },
         "page": { "$ref": "#/$defs/DirectAccessPage" },
-        "station_id": { "$ref": "#/$defs/StationId" }
+        "station_id": { "$ref": "#/$defs/StationId" },
+        "station_ids": { "$ref": "#/$defs/StationIdList" }
       },
-      "not": {
-        "required": ["page", "station_id"]
-      }
+      "not": { "$ref": "#/$defs/MoreThanOneKeyFunction" }
     },
     "GeoPageDivider": {
       "type": "object",
