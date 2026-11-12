@@ -1,6 +1,7 @@
 {
   "id": "VHHK",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["S-TWR", "+NAT"],
@@ -119,57 +120,37 @@
       }
     },
     {
-      "label": "E-ATCC",
+      "label": ["E-ATCC", "-1"],
       "page": {
-        "rows": 7,
+        "rows": 4,
         "keys": [
           {
             "label": ["E-TRW"],
             "station_id": "VHHK_W_CTR"
           },
           {
-            "label": ["E-TRZ"],
-            "station_id": "VHHK_Z_CTR"
-          },
-          {
-            "label": ["E-TMW"],
-            "station_id": "VHHH_W_APP"
-          },
-          {
-            "label": ["E-APP"],
-            "station_id": "VHHH_APP"
-          },
-          {
-            "label": ["E-PRM"],
-            "station_id": "VHHX_P_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["E-TRV"],
-            "station_id": "VHHK_V_CTR"
+            "label": ["E-TRS"],
+            "station_id": "VHHK_S_CTR"
           },
           {
             "label": ["E-TRE"],
             "station_id": "VHHK_E_CTR"
           },
           {
-            "label": ["E-TML"],
-            "station_id": "VHHH_L_APP"
+            "label": ["E-TRU"],
+            "station_id": "VHHK_U_CTR"
           },
           {
-            "label": ["E-FAD"],
-            "station_id": "VHHH_F_APP"
+            "label": ["E-TRV"],
+            "station_id": "VHHK_V_CTR"
           },
           {
-            "label": []
+            "label": ["E-TRJ"],
+            "station_id": "VHHK_J_CTR"
           },
           {
-            "label": []
+            "label": ["E-TRK"],
+            "station_id": "VHHK_K_CTR"
           },
           {
             "label": []
@@ -179,37 +160,117 @@
             "station_id": "VHHK_D_CTR"
           },
           {
-            "label": ["E-TRK"],
-            "station_id": "VHHK_K_CTR"
+            "label": ["E-TRC"],
+            "station_id": "VHHK_C_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["E-ATCC", "-2"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["E-TMW"],
+            "station_id": "VHHH_W_APP"
+          },
+          {
+            "label": ["E-TMS"],
+            "station_id": "VHHH_S_APP"
+          },
+          {
+            "label": ["E-TME"],
+            "station_id": "VHHH_E_APP"
+          },
+          {
+            "label": ["E-FLC"],
+            "station_id": "VHHK_FMP"
+          },
+          {
+            "label": ["E-TML"],
+            "station_id": "VHHH_L_APP"
+          },
+          {
+            "label": ["E-TDC"],
+            "station_id": "VHHH_C_DEP"
+          },
+          {
+            "label": ["E-TDE"],
+            "station_id": "VHHH_E_DEP"
+          },
+          {
+            "label": []
           },
           {
             "label": ["E-MCU"],
             "station_id": "VMMC_APP"
           },
           {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": ["E-ATCC", "-3"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["E-APP"],
+            "station_id": "VHHH_APP"
+          },
+          {
             "label": ["E-DEN"],
             "station_id": "VHHH_N_DEP"
           },
           {
-            "label": []
+            "label": ["E-PRM"],
+            "station_id": "VHHX_P_APP"
           },
           {
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": ["E-TRS"],
-            "station_id": "VHHK_S_CTR"
-          },
-          {
-            "label": ["E-TRU"],
-            "station_id": "VHHK_U_CTR"
-          },
-          {
-            "label": ["E-TMS"],
-            "station_id": "VHHH_S_APP"
+            "label": ["E-FAD"],
+            "station_id": "VHHH_F_APP"
           },
           {
             "label": ["E-DES"],
@@ -222,18 +283,8 @@
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": ["E-TRC"],
-            "station_id": "VHHK_C_CTR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["E-TDC"],
-            "station_id": "VHHH_C_DEP"
+            "label": ["E-FAL"],
+            "station_id": "VHHH_A_APP"
           },
           {
             "label": ["E-DEH"],
@@ -244,63 +295,6 @@
           },
           {
             "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["E-TME"],
-            "station_id": "VHHH_E_APP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["E-TDE"],
-            "station_id": "VHHH_E_DEP"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["E-FLC"],
-            "station_id": "VHHK_FMP"
           },
           {
             "label": []
@@ -327,8 +321,7 @@
             "station_id": "VHHX_DEL"
           },
           {
-            "label": ["VMMC-DEL"],
-            "station_id": "VMMC_DEL"
+            "label": []
           },
           {
             "label": []
@@ -341,7 +334,7 @@
             "station_id": "VHHX_GND"
           },
           {
-            "label": ["VMMC-GND"],
+            "label": ["VMMC", "GND"],
             "station_id": "VMMC_GND"
           },
           {
@@ -355,56 +348,8 @@
             "station_id": "VHHX_TWR"
           },
           {
-            "label": ["VMMC-TWR"],
+            "label": ["VMMC", "TWR"],
             "station_id": "VMMC_TWR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
           },
           {
             "label": []
@@ -428,61 +373,36 @@
       }
     },
     {
-      "label": "EXT",
+      "label": "EXT-1",
       "page": {
-        "rows": 7,
+        "rows": 4,
         "keys": [
           {
             "label": ["RCTP-W"],
             "station_id": "AWR"
           },
           {
-            "label": ["RPHI"],
-            "station_id": "MNL_CTR"
+            "label": ["RCTP-S"],
+            "station_id": "ASR"
           },
           {
             "label": ["ZGGG"],
             "station_id": "ZGGG_CTR"
           },
           {
-            "label": ["ZGJD"],
-            "station_id": "ZGJD_APP"
-          },
-          {
-            "label": ["ZJSY"],
-            "station_id": "ZJSY_CTR"
-          },
-          {
-            "label": ["ZSSS"],
-            "station_id": "ZSSS_CTR"
-          },
-          {
-            "label": ["ASEA"],
-            "station_id": "ASEA_FSS"
+            "label": ["ZGGG-E1"],
+            "station_id": "ZGGG_E1_CTR"
           },
           {
             "label": ["RCTP-L"],
             "station_id": "ALR"
           },
           {
-            "label": ["RPHI-N"],
-            "station_id": "MNL_N_CTR"
+            "label": []
           },
           {
             "label": ["ZGGG-S"],
             "station_id": "ZGGG_S_CTR"
-          },
-          {
-            "label": ["ZGOW"],
-            "station_id": "ZGOW_APP"
-          },
-          {
-            "label": ["ZJSY-N"],
-            "station_id": "ZJSY_N_CTR"
-          },
-          {
-            "label": ["ZSSS-S"],
-            "station_id": "ZSSS_S_CTR"
           },
           {
             "label": []
@@ -492,24 +412,11 @@
             "station_id": "AER"
           },
           {
-            "label": ["RPHI-NW"],
-            "station_id": "MNL_NW_CTR"
+            "label": []
           },
           {
             "label": ["ZGGG-S1"],
             "station_id": "ZGGG_S1_CTR"
-          },
-          {
-            "label": ["ZGZJ"],
-            "station_id": "ZGZJ_APP"
-          },
-          {
-            "label": ["ZJSY-L"],
-            "station_id": "ZJSY_L_CTR"
-          },
-          {
-            "label": ["ZSAM"],
-            "station_id": "ZSAM_CTR"
           },
           {
             "label": []
@@ -527,6 +434,65 @@
           },
           {
             "label": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "EXT-2",
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["ZSSS"],
+            "station_id": "ZSSS_CTR"
+          },
+          {
+            "label": ["ZJSY"],
+            "station_id": "ZJSY_CTR"
+          },
+          {
+            "label": ["ZGNN"],
+            "station_id": "ZGNN_CTR"
+          },
+          {
+            "label": ["ZGOW"],
+            "station_id": "ZGOW_APP"
+          },
+          {
+            "label": ["ZSSS-S"],
+            "station_id": "ZSSS_S_CTR"
+          },
+          {
+            "label": ["ZJSY-L"],
+            "station_id": "ZJSY_L_CTR"
+          },
+          {
+            "label": ["ZGNN-S"],
+            "station_id": "ZGNN_S_CTR"
+          },
+          {
+            "label": ["ZGJD"],
+            "station_id": "ZGJD_APP"
+          },
+          {
+            "label": ["ZSAM"],
+            "station_id": "ZSAM_CTR"
+          },
+          {
+            "label": ["ZJSY-N"],
+            "station_id": "ZJSY_N_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["ZGZJ"],
+            "station_id": "ZGZJ_APP"
+          },
+          {
+            "label": ["ZSAM-S"],
+            "station_id": "ZSAM_S_CTR"
           },
           {
             "label": ["ZJSY-O"],
@@ -537,23 +503,18 @@
           },
           {
             "label": []
-          },
+          }
+        ]
+      }
+    },
+    {
+      "label": "EXT-3",
+      "page": {
+        "rows": 4,
+        "keys": [
           {
-            "label": ["RCTP-S"],
-            "station_id": "ASR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["ZGGG-E1"],
-            "station_id": "ZGGG_E1_CTR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
+            "label": ["RPHI"],
+            "station_id": "MNL_CTR"
           },
           {
             "label": []
@@ -565,11 +526,8 @@
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": ["ZGNN"],
-            "station_id": "ZGNN_CTR"
+            "label": ["RPHI-N"],
+            "station_id": "MNL_N_CTR"
           },
           {
             "label": []
@@ -581,29 +539,8 @@
             "label": []
           },
           {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": ["ZGNN-S"],
-            "station_id": "ZGNN_S_CTR"
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
-          },
-          {
-            "label": []
+            "label": ["RPHI-NW"],
+            "station_id": "MNL_NW_CTR"
           },
           {
             "label": []

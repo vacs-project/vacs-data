@@ -338,8 +338,8 @@
             "station_id": "VHHK_S_CTR"
           },
           {
-            "label": ["HKG", "Z_CTR"],
-            "station_id": "VHHK_Z_CTR"
+            "label": ["HKG", "J_CTR"],
+            "station_id": "VHHK_J_CTR"
           },
           {
             "label": ["HKG", "C_CTR"],
