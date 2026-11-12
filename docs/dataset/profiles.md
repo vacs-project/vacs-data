@@ -24,6 +24,7 @@ Each profile file must contain a single profile object. There are two types of p
 - **Profile**: A layout configuration that defines how direct access keys are organized and displayed
 - **Direct Access Key**: A button that allows calling a specific station
 - **Station ID**: Reference to a station defined in the stations configuration
+- **Conference Key**: A direct access key or geo button that calls several stations at once. See [Conference Keys](#conference-keys).
 - **Tab**: A page in a tabbed profile containing a grid of keys
 - **Geo Node**: A building block in a geo profile (container, button, or divider). See [Geo Profile Components](#geo-profile-components).
 - **Container**: A layout element that groups and arranges child nodes
@@ -187,12 +188,37 @@ See [button color reference](#button-colors) for a visual representation of thes
 
 Represents a single callable button.
 
-| Field        | Type                                    | Required | Description                                                                                                                                   |
-| :----------- | :-------------------------------------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
-| `label`      | String or Array of strings              | Yes      | Multi-line label (up to 3 lines). Can be empty string or empty array for blank keys.                                                          |
-| `color`      | [CustomButtonColor](#custombuttoncolor) | No       | The background color of the key, which may be overridden dynamically by state changes (e.g., incoming call). Defaults to gray if unspecified. |
-| `station_id` | String                                  | No       | Station ID to call when pressed. Mutually exclusive with `page`. If neither is specified, the button will be disabled.                        |
-| `page`       | [DirectAccessPage](#directaccesspage)   | No       | Subpage to open when pressed. Mutually exclusive with `station_id`. If neither is specified, the button will be disabled.                     |
+| Field         | Type                                    | Required | Description                                                                                                                                                             |
+| :------------ | :-------------------------------------- | :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `label`       | String or Array of strings              | Yes      | Multi-line label (up to 3 lines). Can be empty string or empty array for blank keys.                                                                                    |
+| `color`       | [CustomButtonColor](#custombuttoncolor) | No       | The background color of the key, which may be overridden dynamically by state changes (e.g., incoming call). Defaults to gray if unspecified.                           |
+| `station_id`  | String                                  | No       | Station ID to call when pressed. Use at most one of `station_id`, `station_ids` and `page`. If none is specified, the button will be disabled.                          |
+| `station_ids` | Array of strings                        | No       | 2 to 7 station IDs to call together when pressed, turning the key into a [conference key](#conference-keys). Use at most one of `station_id`, `station_ids` and `page`. |
+| `page`        | [DirectAccessPage](#directaccesspage)   | No       | Subpage to open when pressed. Use at most one of `station_id`, `station_ids` and `page`. If none is specified, the button will be disabled.                             |
+
+### Conference Keys
+
+A conference key calls several stations with a single press, for example all sectors that take
+part in a regular coordination. Any direct access key or geo button becomes a conference key when
+it lists its stations in `station_ids` instead of a single `station_id`.
+
+- Pressing the key calls every listed station that is online at that moment. Everyone who answers
+  joins the same call.
+- Stations you are covering yourself are skipped. If none of the other listed stations is online,
+  the key shows as offline, just like a regular station key.
+- During a call, pressing the key in conference modify mode invites its stations into that call,
+  as if you had added each of them yourself. Stations already in the call or already ringing are
+  left out.
+- The key only starts calls and never changes color. Ringing and joined stations show on the
+  keys of the stations themselves.
+- List between 2 and 7 different stations. With default server settings, a call holds at most 8
+  controllers, and the controller pressing the key is one of them. The stations can belong to
+  any FIR.
+- A key carries only one of `station_id`, `station_ids` and `page`.
+- Conference keys need vacs 3.1 or newer. Older clients show the key with its label but cannot
+  use it to call anyone.
+
+See [Conference key definition](#conference-key-definition) for an example.
 
 ## Tabbed Profile Components
 
@@ -250,13 +276,14 @@ A layout container that arranges child nodes using flexbox.
 
 A clickable button that can trigger a direct access page or call a station.
 
-| Field        | Type                                    | Required | Description                                                                                                                                         |
-| :----------- | :-------------------------------------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `label`      | String or Array of strings              | Yes      | Multi-line label (1-3 lines, cannot be empty).                                                                                                      |
-| `size`       | Number                                  | Yes      | Button size (> 0). Controls relative sizing in the layout.                                                                                          |
-| `color`      | [CustomButtonColor](#custombuttoncolor) | No       | The background color of the button, which may be overridden dynamically by state changes (e.g., incoming call). Defaults to gray if unspecified.    |
-| `page`       | [DirectAccessPage](#directaccesspage)   | No       | Optional nested page to display when button is pressed. Mutually exclusive with `station_id`. If neither is specified, the button will be disabled. |
-| `station_id` | String                                  | No       | Station ID to call directly when pressed. Mutually exclusive with `page`. If neither is specified, the button will be disabled.                     |
+| Field         | Type                                    | Required | Description                                                                                                                                                                |
+| :------------ | :-------------------------------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `label`       | String or Array of strings              | Yes      | Multi-line label (1-3 lines, cannot be empty).                                                                                                                             |
+| `size`        | Number                                  | Yes      | Button size (> 0). Controls relative sizing in the layout.                                                                                                                 |
+| `color`       | [CustomButtonColor](#custombuttoncolor) | No       | The background color of the button, which may be overridden dynamically by state changes (e.g., incoming call). Defaults to gray if unspecified.                           |
+| `page`        | [DirectAccessPage](#directaccesspage)   | No       | Optional nested page to display when button is pressed. Use at most one of `page`, `station_id` and `station_ids`. If none is specified, the button will be disabled.      |
+| `station_id`  | String                                  | No       | Station ID to call directly when pressed. Use at most one of `page`, `station_id` and `station_ids`. If none is specified, the button will be disabled.                    |
+| `station_ids` | Array of strings                        | No       | 2 to 7 station IDs to call together when pressed, turning the button into a [conference key](#conference-keys). Use at most one of `page`, `station_id` and `station_ids`. |
 
 ### GeoPageDivider
 
@@ -290,12 +317,15 @@ The following validation rules apply:
   - Geo button labels must have at least 1 line
   - Direct access key labels can be empty (for blank keys)
 - `station_id` references must exist in the stations configuration
+- Keys and geo buttons carry at most one of `station_id`, `station_ids` and `page`
+- `station_ids` lists 2 to 7 different stations, and each of them must exist in the stations configuration of any FIR
 
 ## Common Pitfalls
 
 When configuring profiles, watch out for these issues:
 
-- **Invalid station references**: Ensure all `station_id` values reference existing stations in your stations configuration.
+- **Invalid station references**: Ensure all `station_id` and `station_ids` values reference existing stations in your stations configuration.
+- **Oversized conference keys**: A conference key can list at most 7 stations, because with default server settings a call holds at most 8 controllers, including the one pressing the key.
 - **Size unit format**: Container sizes must include the unit (`%` or `rem`), e.g., `"100%"` not `"100"`.
 - **Empty geo button labels**: Geo buttons require at least one line in their label (unlike direct access keys which can be blank).
 - **Negative values**: Padding, gap, size, and thickness values must be non-negative (or positive where specified).
@@ -530,6 +560,53 @@ What this means in practice:
 - When pressed, it replaces the current grid with a new 4-row grid
 - The new grid contains keys for `LOVV_W_CTR` and `LOVV_S_CTR`
 - This allows creating hierarchical menus of stations
+
+### Conference key definition
+
+This example shows a profile with a [conference key](#conference-keys) next to the regular keys of
+the stations it calls.
+
+```json
+{
+  "id": "LOWW",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": "Approach",
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["LOWW", "Approach"],
+            "station_id": "LOWW_APP"
+          },
+          {
+            "label": ["LOWW", "Arrival"],
+            "station_id": "LOWW_F_APP"
+          },
+          {
+            "label": ["LOWW", "Tower"],
+            "station_id": "LOWW_TWR"
+          },
+          {
+            "label": ["APP", "CONF"],
+            "color": "lagoon",
+            "station_ids": ["LOWW_APP", "LOWW_F_APP", "LOWW_TWR"]
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
+What this means in practice:
+
+- The first three keys each call a single station
+- The "APP CONF" key calls `LOWW_APP`, `LOWW_F_APP` and `LOWW_TWR` together, as far as they are
+  online and not covered by the controller pressing the key
+- Everyone who answers joins the same call
+- A geo button becomes a conference button the same way, by listing its stations in `station_ids`
 
 ### Client page definition
 
