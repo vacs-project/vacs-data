@@ -209,8 +209,10 @@ it lists its stations in `station_ids` instead of a single `station_id`.
 - During a call, pressing the key in conference modify mode invites its stations into that call,
   as if you had added each of them yourself. Stations already in the call or already ringing are
   left out.
-- The key only starts calls and never changes color. Ringing and joined stations show on the
-  keys of the stations themselves.
+- The key lights up only when every one of its stations is ringing or in the call: it is shown
+  in green with a gray border while at least one is still ringing, and turns green once all of
+  them have answered. A call with only some of its stations does not light it. Each station
+  also shows its own state on its own key.
 - List between 2 and 7 different stations. With default server settings, a call holds at most 8
   controllers, and the controller pressing the key is one of them. The stations can belong to
   any FIR.
