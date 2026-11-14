@@ -98,7 +98,7 @@
     },
     {
       "id": "ESGG_DEL",
-      "controlled_by": ["ESGG_DEL"],
+      "controlled_by": ["ESGG_GND","ESGG_DEL"],
       "parent_id": "ESGG_GND"
     },
     {
@@ -121,6 +121,7 @@
     {
       "id": "ESGG_TWR",
       "controlled_by": [
+        "ESGG_GND",
         "ESGG_TWR",
         "ESGG_E_APP",
         "ESGG_W_APP",
