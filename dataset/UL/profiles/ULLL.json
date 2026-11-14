@@ -1,6 +1,7 @@
 {
   "id": "ULLL",
   "type": "Tabbed",
+  "view": "split",
   "tabs": [
     {
       "label": ["ACC"],
