@@ -526,7 +526,7 @@
             "label": []
           },
           {
-            "label": ["RPHI-N"],
+            "label": ["RPHI", "BBN"],
             "station_id": "MNL_N_CTR"
           },
           {
@@ -552,7 +552,8 @@
             "label": []
           },
           {
-            "label": []
+            "label": ["RPHI-W"],
+            "station_id": "MNL_W_CTR"
           },
           {
             "label": []
