@@ -1,31 +1,31 @@
 [[stations]]
 id = "Gander"
 parent_id = "NAT_BBx"
-controlled_by = ["CZQO_FSS"]
+controlled_by = ["CZQO_CTR"]
 
 [[stations]]
 id = "Gander_A"
-controlled_by = ["CZQO_A_FSS"]
+controlled_by = ["CZQO_A_CTR"]
 
 [[stations]]
 id = "Gander_B"
-controlled_by = ["CZQO_B_FSS"]
+controlled_by = ["CZQO_B_CTR"]
 
 [[stations]]
 id = "Gander_C"
-controlled_by = ["CZQO_C_FSS"]
+controlled_by = ["CZQO_C_CTR"]
 
 [[stations]]
 id = "Gander_D"
-controlled_by = ["CZQO_D_FSS"]
+controlled_by = ["CZQO_D_CTR"]
 
 [[stations]]
 id = "Gander_F"
-controlled_by = ["CZQO_F_FSS"]
+controlled_by = ["CZQO_F_CTR"]
 
 [[stations]]
 id = "Gander_G"
-controlled_by = ["CZQO_G_FSS"]
+controlled_by = ["CZQO_G_CTR"]
 
 [[stations]]
 id = "Gander_DEL"
