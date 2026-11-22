@@ -1,8 +1,8 @@
 [[positions]]
-id = "CZQO_CTR"
+id = "CZQO_FSS"
 prefixes = ["CZQO"]
 frequency = "131.700"
-facility_type = "CTR"
+facility_type = "FSS"
 profile_id = "NAT"
 default_call_sources = ["Gander"]
 
@@ -18,7 +18,7 @@ default_call_sources = ["Gander_DEL"]
 id = "CZQO_A_FSS"
 prefixes = ["CZQO"]
 frequency = "131.575"
-facility_type = "CTR"
+facility_type = "FSS"
 profile_id = "NAT-EVENT"
 default_call_sources = ["Gander_A"]
 
@@ -34,7 +34,7 @@ default_call_sources = ["Gander_DEL_A"]
 id = "CZQO_B_FSS"
 prefixes = ["CZQO"]
 frequency = "131.675"
-facility_type = "CTR"
+facility_type = "FSS"
 profile_id = "NAT-EVENT"
 default_call_sources = ["Gander_B"]
 
@@ -50,7 +50,7 @@ default_call_sources = ["Gander_DEL_B"]
 id = "CZQO_C_FSS"
 prefixes = ["CZQO"]
 frequency = "131.775"
-facility_type = "CTR"
+facility_type = "FSS"
 profile_id = "NAT-EVENT"
 default_call_sources = ["Gander_C"]
 
@@ -66,7 +66,7 @@ default_call_sources = ["Gander_DEL_C"]
 id = "CZQO_D_FSS"
 prefixes = ["CZQO"]
 frequency = "131.875"
-facility_type = "CTR"
+facility_type = "FSS"
 profile_id = "NAT-EVENT"
 default_call_sources = ["Gander_D"]
 
@@ -82,7 +82,7 @@ default_call_sources = ["Gander_DEL_D"]
 id = "CZQO_F_FSS"
 prefixes = ["CZQO"]
 frequency = "131.975"
-facility_type = "CTR"
+facility_type = "FSS"
 profile_id = "NAT-EVENT"
 default_call_sources = ["Gander_F"]
 
@@ -98,7 +98,7 @@ default_call_sources = ["Gander_DEL_F"]
 id = "CZQO_G_FSS"
 prefixes = ["CZQO"]
 frequency = "131.475"
-facility_type = "CTR"
+facility_type = "FSS"
 profile_id = "NAT-EVENT"
 default_call_sources = ["Gander_G"]
 
