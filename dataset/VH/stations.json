@@ -96,6 +96,11 @@
       "controlled_by": ["VHHH_F_APP"]
     },
     {
+      "id": "VHHH_A_APP",
+      "parent_id": "VHHH_F_APP",
+      "controlled_by": ["VHHH_A_APP"]
+    },
+    {
       "id": "VHHX_P_APP",
       "parent_id": "VHHH_APP",
       "controlled_by": ["VHHX_P_APP"]
@@ -170,9 +175,9 @@
       "controlled_by": ["VHHK_S_CTR"]
     },
     {
-      "id": "VHHK_Z_CTR",
+      "id": "VHHK_J_CTR",
       "parent_id": "VHHK_S_CTR",
-      "controlled_by": ["VHHK_Z_CTR"]
+      "controlled_by": ["VHHK_J_CTR"]
     },
     {
       "id": "VHHK_C_CTR",
@@ -215,6 +220,11 @@
     {
       "id": "ZSAM_CTR",
       "controlled_by": ["ZSAM_CTR"]
+    },
+    {
+      "id": "ZSAM_S_CTR",
+      "parent_id": "ZSAM_CTR",
+      "controlled_by": ["ZSAM_S_CTR"]
     },
     {
       "id": "ZJSY_L_CTR",

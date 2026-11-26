@@ -153,6 +153,14 @@
       "default_call_sources": ["VHHH_F_APP"]
     },
     {
+      "id": "VHHH_A_APP",
+      "prefixes": ["VHHH"],
+      "frequency": "120.100",
+      "facility_type": "APP",
+      "profile_id": "VHHK",
+      "default_call_sources": ["VHHH_A_APP"]
+    },
+    {
       "id": "VHHX_P_APP",
       "prefixes": ["VHHX"],
       "frequency": "119.350",
@@ -273,12 +281,12 @@
       "default_call_sources": ["VHHK_S_CTR"]
     },
     {
-      "id": "VHHK_Z_CTR",
+      "id": "VHHK_J_CTR",
       "prefixes": ["HKG"],
       "frequency": "133.700",
       "facility_type": "CTR",
       "profile_id": "VHHK",
-      "default_call_sources": ["VHHK_Z_CTR"]
+      "default_call_sources": ["VHHK_J_CTR"]
     },
     {
       "id": "VHHK_C_CTR",
@@ -345,6 +353,13 @@
       "id": "ZSAM_CTR",
       "prefixes": ["ZSAM"],
       "frequency": "125.700",
+      "facility_type": "CTR",
+      "profile_id": "VHHK"
+    },
+    {
+      "id": "ZSAM_S_CTR",
+      "prefixes": ["ZSAM"],
+      "frequency": "133.175",
       "facility_type": "CTR",
       "profile_id": "VHHK"
     },
