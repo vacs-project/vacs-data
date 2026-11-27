@@ -1,9 +1,23 @@
 {
   "positions": [
     {
-      "id": "MNL_2_CTR",
+      "id": "MNL_BB2_CTR",
       "prefixes": ["MNL"],
       "frequency": "124.950",
+      "facility_type": "CTR",
+      "profile_id": "RPHI"
+    },
+    {
+      "id": "MNL_BBN_CTR",
+      "prefixes": ["MNL"],
+      "frequency": "126.575",
+      "facility_type": "CTR",
+      "profile_id": "RPHI"
+    },
+    {
+      "id": "MNL_BBS_CTR",
+      "prefixes": ["MNL"],
+      "frequency": "133.500",
       "facility_type": "CTR",
       "profile_id": "RPHI"
     },
@@ -15,9 +29,23 @@
       "profile_id": "RPHI"
     },
     {
+      "id": "MNL_CNC_CTR",
+      "prefixes": ["MNL"],
+      "frequency": "129.000",
+      "facility_type": "CTR",
+      "profile_id": "RPHI"
+    },
+    {
       "id": "MNL_CN_CTR",
       "prefixes": ["MNL"],
       "frequency": "120.500",
+      "facility_type": "CTR",
+      "profile_id": "RPHI"
+    },
+    {
+      "id": "MNL_CSC_CTR",
+      "prefixes": ["MNL"],
+      "frequency": "131.500",
       "facility_type": "CTR",
       "profile_id": "RPHI"
     },
@@ -50,13 +78,6 @@
       "profile_id": "RPHI"
     },
     {
-      "id": "MNL_N1_CTR",
-      "prefixes": ["MNL"],
-      "frequency": "129.000",
-      "facility_type": "CTR",
-      "profile_id": "RPHI"
-    },
-    {
       "id": "MNL_NE_CTR",
       "prefixes": ["MNL"],
       "frequency": "132.500",
@@ -71,20 +92,6 @@
       "profile_id": "RPHI"
     },
     {
-      "id": "MNL_N_CTR",
-      "prefixes": ["MNL"],
-      "frequency": "126.575",
-      "facility_type": "CTR",
-      "profile_id": "RPHI"
-    },
-    {
-      "id": "MNL_S1_CTR",
-      "prefixes": ["MNL"],
-      "frequency": "131.500",
-      "facility_type": "CTR",
-      "profile_id": "RPHI"
-    },
-    {
       "id": "MNL_SE_CTR",
       "prefixes": ["MNL"],
       "frequency": "125.750",
@@ -94,21 +101,21 @@
     {
       "id": "MNL_SW_CTR",
       "prefixes": ["MNL"],
-      "frequency": "124.900",
+      "frequency": "118.900",
       "facility_type": "CTR",
       "profile_id": "RPHI"
     },
     {
       "id": "MNL_S_CTR",
       "prefixes": ["MNL"],
-      "frequency": "133.500",
+      "frequency": "124.900",
       "facility_type": "CTR",
       "profile_id": "RPHI"
     },
     {
       "id": "MNL_W_CTR",
       "prefixes": ["MNL"],
-      "frequency": "118.900",
+      "frequency": "133.750",
       "facility_type": "CTR",
       "profile_id": "RPHI"
     },
