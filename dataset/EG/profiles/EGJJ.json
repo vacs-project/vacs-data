@@ -128,12 +128,12 @@
             "station_id": "EGJB_APP"
           },
           {
-            "label": ["Rennes", "Sud"],
+            "label": ["Rennes", "RN"],
             "color": "snow",
             "station_id": "LFRN_APP"
           },
           {
-            "label": ["Rennes", "Nord"],
+            "label": ["Rennes", "DD"],
             "color": "snow",
             "station_id": "LFRN_DD_APP"
           },
@@ -156,7 +156,7 @@
             "station_id": "EGJB_F_APP"
           },
           {
-            "label": ["Rennes", "Cote"],
+            "label": ["Rennes", "JC"],
             "color": "snow",
             "station_id": "LFRN_JC_APP"
           },

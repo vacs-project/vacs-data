@@ -589,28 +589,57 @@
           }
         },
         {
-          "label": ["Brest", "(INOP)"],
+          "label": ["Brest"],
           "size": 7,
           "page": {
             "rows": 2,
             "keys": [
               {
-                "label": ["West", "255+"]
+                "label": ["WU", "375-660"],
+                "station_id": "LFRR_WU"
               },
               {
-                "label": ["AU", "355-660"]
+                "label": ["AU", "365-660"],
+                "station_id": "LFRR_AU"
               },
               {
-                "label": []
+                "label": ["WI", "355-375"],
+                "station_id": "LFRR_WI"
               },
               {
-                "label": ["AS", "255-355"]
+                "label": ["AI", "345-365"],
+                "station_id": "LFRR_AI"
               },
               {
-                "label": ["Lower", "255-"]
+                "label": ["WS4", "245-355"],
+                "station_id": "LFRR_WS4"
               },
               {
-                "label": []
+                "label": ["AS3", "195-345"],
+                "station_id": "LFRR_AS3"
+              },
+              {
+                "label": ["WS3", "195-245"],
+                "station_id": "LFRR_WS3"
+              },
+              {
+                "label": ["", ""]
+              },
+              {
+                "label": ["WS2", "055-195"],
+                "station_id": "LFRR_WS2"
+              },
+              {
+                "label": ["AS2", "055-195"],
+                "station_id": "LFRR_AS2"
+              },
+              {
+                "label": ["WS1", "SFC-195"],
+                "station_id": "LFRR_WS1"
+              },
+              {
+                "label": ["AS1", "SFC-195"],
+                "station_id": "LFRR_AS1"
               }
             ]
           }
