@@ -132,7 +132,8 @@
             "station_id": "LFRR_ZU"
           },
           {
-            "label": []
+            "label": ["LFFF", "UP"],
+            "station_id": "PAR_UP"
           },
           {
             "label": []
@@ -156,7 +157,8 @@
             "station_id": "PAR_OG"
           },
           {
-            "label": []
+            "label": ["LFFF", "US"],
+            "station_id": "PAR_US"
           },
           {
             "label": []
